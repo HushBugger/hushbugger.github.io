@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="dialogue.js"></script>
+    <style>
+      body {
+          background: lightgrey;
+          font-family: Sans;
+      }
+
+      div.textbox {
+          background: black;
+          color: white;
+          font-size: 13px;
+          font-family: "DTM Mono", Monospace;
+          white-space: pre-wrap;
+          width: 283px;
+          padding: 5px;
+          border: 2px solid white;
+          margin-top: 5px;
+      }
+
+      @font-face {
+          font-family: "DTM Mono";
+          src: url('DTM-Mono.otf');
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      "use strict";
+      function render(text) {
+          text = text.replace(/\&/g, '\n');
+          text = text.replace(/\^./g, '');
+          text = text.replace(/[%/^]/g, '');
+          text = text.replace(/\\[EFM]./, '');
+          text = text.replace(/\\./g, '');
+          return text;
+      }
+
+      function textbox(text) {
+          var box = document.createElement('div');
+          box.className = 'textbox';
+          box.appendChild(document.createTextNode(render(text)));
+          return box;
+      }
+
+      function writeDialogue(character) {
+          for (var i = 0; i < d[character].length; i++) {
+              document.body.appendChild(textbox(d[character][i]));
+          }
+      }
+
+      function showDialogue(event) {
+          var textboxes = document.getElementsByClassName('textbox');
+          while (textboxes.length > 0) {
+              textboxes[0].parentNode.removeChild(textboxes[0])
+          }
+          writeDialogue(event.target.value);
+      }
+
+      var characters = Object.keys(d);
+      characters.sort();
+      var select = document.createElement('select');
+      select.name = "character";
+      select.id = "character";
+      select.add(document.createElement('option'));
+      for (var i = 0; i < characters.length; i++) {
+          var option = document.createElement('option');
+          option.value = characters[i];
+          option.appendChild(document.createTextNode(characters[i]));
+          select.add(option);
+      }
+      document.body.appendChild(select);
+
+      document.addEventListener('DOMContentLoaded', function() {
+          document.querySelector('select[name="character"]').
+              onchange=showDialogue;
+      }, false);
+    </script>
+    <p>
+      Credits:
+      <a href="https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font">Font</a>,
+      <a href="https://docs.google.com/spreadsheets/d/1whOyrTlY-vTsEFjkg0UFSuO8mVqy4OUV8RqKFbky8tY">text dump</a>
+    </p>
+  </body>
+</html>
