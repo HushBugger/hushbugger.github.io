@@ -12,13 +12,37 @@
       div.textbox {
           background: black;
           color: white;
-          font-size: 13px;
+          font-size: 10pt;
           font-family: "DTM Mono", Monospace;
           white-space: pre-wrap;
           width: 283px;
           padding: 5px;
           border: 2px solid white;
           margin-top: 5px;
+      }
+
+      span.red {
+          color: #f00;
+      }
+
+      span.yellow {
+          color: #ff0;
+      }
+
+      span.lightblue {
+          color: #14a9ff;
+      }
+
+      span.blue {
+          color: #00f;
+      }
+
+      span.green {
+          color: #0f0;
+      }
+
+      span.orange {
+          color: #ffa040;
       }
 
       @font-face {
@@ -50,18 +74,27 @@
 
       function render(text) {
           return text
+              .replace(/\//g, '')
+              .replace(/^\\W/g, '') // It's often at the start of the line for some reason
+              .replace(/\\R/g, '<span class="red">')
+              .replace(/\\Y/g, '<span class="yellow">')
+              .replace(/\\L/g, '<span class="lightblue">')
+              .replace(/\\B/g, '<span class="blue">')
+              .replace(/\\G/g, '<span class="green">')
+              .replace(/\\O/g, '<span class="orange">')
+              .replace(/\\[WX]/g, '</span>')
               .replace(/[&#]/g, '\n')
               .replace(/\^[0-9]/g, '')
               .replace(/\/\*/g, '')
-              .replace(/[%/^]/g, '')
-              .replace(/\\[EFM]./, '')
+              .replace(/[%^]/g, '')
+              .replace(/\\[EFMT]./, '')
               .replace(/\\./g, '');
       }
 
       function textbox(text) {
           var box = document.createElement('div');
           box.className = 'textbox';
-          box.appendChild(document.createTextNode(render(text)));
+          box.innerHTML = render(text);
           return box;
       }
 
