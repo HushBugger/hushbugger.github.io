@@ -15,10 +15,14 @@
           font-size: 10pt;
           font-family: "DTM Mono", Monospace;
           white-space: pre-wrap;
-          width: 283px;
+          width: 286px;
           padding: 5px;
           border: 2px solid white;
-          margin-top: 5px;
+          margin-top: 4px;
+      }
+
+      div#textboxes {
+          display: inline;
       }
 
       span.red {
@@ -74,7 +78,7 @@
 
       function render(text) {
           return text
-              .replace(/\//g, '')
+              .replace(/\/\*?/g, '')
               .replace(/^\\W/g, '') // It's often at the start of the line for some reason
               .replace(/\\R/g, '<span class="red">')
               .replace(/\\Y/g, '<span class="yellow">')
@@ -87,7 +91,7 @@
               .replace(/\^[0-9]/g, '')
               .replace(/\/\*/g, '')
               .replace(/[%^]/g, '')
-              .replace(/\\[EFMT]./, '')
+              .replace(/\\[EFMT]./g, '')
               .replace(/\\./g, '');
       }
 
