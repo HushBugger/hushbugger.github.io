@@ -13,6 +13,7 @@
           background: black;
           color: white;
           white-space: pre-wrap;
+          word-break: break-all;
           width: 286px;
           padding: 5px;
           border: 2px solid white;
@@ -96,7 +97,7 @@
     <div class="credits">
       <p>
         Credits:
-        <a href="https://gitlab.com/cartr/undertale-fonts">Determination Mono</a>,
+        <a href="https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font">Determination Mono</a>,
         <a href="https://gitlab.com/cartr/undertale-fonts">other fonts</a>,
         <a href="https://docs.google.com/spreadsheets/d/1whOyrTlY-vTsEFjkg0UFSuO8mVqy4OUV8RqKFbky8tY">text dump</a>
       </p>
@@ -158,6 +159,9 @@
               default:
                   rendered += text[i];
               }
+          }
+          if (color !== "white") {
+              rendered += "</span>"
           }
           return rendered;
       }
