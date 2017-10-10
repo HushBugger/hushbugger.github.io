@@ -12,13 +12,23 @@
       div.textbox {
           background: black;
           color: white;
-          font-size: 10pt;
-          font-family: "DTM Mono", Monospace;
           white-space: pre-wrap;
           width: 286px;
           padding: 5px;
           border: 2px solid white;
           margin-top: 4px;
+      }
+
+      div.dtm {
+          font-family: "DTM Mono", Monospace;
+      }
+
+      div.sans {
+          font-family: "UT Sans", "Comic Sans", "DTM Mono", Monospace;
+      }
+
+      div.papyrus {
+          font-family: "UT Papyrus", "Papyrus", "DTM Mono", Monospace;
       }
 
       div#textboxes {
@@ -49,9 +59,26 @@
           color: #ffa040;
       }
 
+      span.purple {
+          color: #f0f;
+      }
+
       @font-face {
           font-family: "DTM Mono";
-          src: url('DTM-Mono.otf');
+          src: url('dtm-mono.woff2') format('woff2'),
+               url('dtm-mono.woff') format('woff');
+      }
+
+      @font-face {
+          font-family: "UT Sans";
+          src: url('sans.woff2') format('woff2'),
+               url('sans.woff') format('woff');
+      }
+
+      @font-face {
+          font-family: "UT Papyrus";
+          src: url('papyrus.woff2') format('woff2'),
+               url('papyrus.woff') format('woff');
       }
     </style>
     <title>Undertale dialogue dump</title>
@@ -69,7 +96,8 @@
     <div class="credits">
       <p>
         Credits:
-        <a href="https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font">Font</a>,
+        <a href="https://gitlab.com/cartr/undertale-fonts">Determination Mono</a>,
+        <a href="https://gitlab.com/cartr/undertale-fonts">other fonts</a>,
         <a href="https://docs.google.com/spreadsheets/d/1whOyrTlY-vTsEFjkg0UFSuO8mVqy4OUV8RqKFbky8tY">text dump</a>
       </p>
     </div>
@@ -77,22 +105,61 @@
       "use strict";
 
       function render(text) {
-          return text
-              .replace(/\/\*?/g, '')
-              .replace(/^\\W/g, '') // It's often at the start of the line for some reason
-              .replace(/\\R/g, '<span class="red">')
-              .replace(/\\Y/g, '<span class="yellow">')
-              .replace(/\\L/g, '<span class="lightblue">')
-              .replace(/\\B/g, '<span class="blue">')
-              .replace(/\\G/g, '<span class="green">')
-              .replace(/\\O/g, '<span class="orange">')
-              .replace(/\\[WX]/g, '</span>')
-              .replace(/[&#]/g, '\n')
-              .replace(/\^[0-9]/g, '')
-              .replace(/\/\*/g, '')
-              .replace(/[%^]/g, '')
-              .replace(/\\[EFMT]./g, '')
-              .replace(/\\./g, '');
+          var rendered = "";
+          var color = "white";
+          for (var i = 0; i < text.length; i++) {
+              // console.log(rendered);
+              switch (text[i]) {
+              case '\\':
+                  var prevColor = color;
+                  switch (text[i + 1]) {
+                  case 'W': case 'X': color = "white"; i += 1; break;
+                  case 'R': color = "red"; i += 1; break;
+                  case 'Y': color = "yellow"; i += 1; break;
+                  case 'L': color = "lightblue"; i += 1; break;
+                  case 'B': color = "blue"; i += 1; break;
+                  case 'G': color = "green"; i += 1; break;
+                  case 'O': color = "orange"; i += 1; break;
+                  case 'P': color = "purple"; i += 1; break;
+                  case 'C':
+                      i += 1;
+                      break;
+                  case 'E': case 'F': case 'M': case 'T':
+                      i += 2;
+                      break;
+                  }
+                  if (color !== prevColor) {
+                      if (prevColor !== "white") {
+                          rendered += "</span>";
+                      }
+                      if (color !== 'white') {
+                          rendered += '<span class="' + color + '">';
+                      }
+                  }
+                  break;
+              case '/':
+                  if (text[i + 1] === '*') {
+                      i += 1;
+                  }
+                  break;
+              case '&': case '#':
+                  rendered += '\n';
+                  break;
+              case '^':
+                  for (var j = 0; j < 10; j++) {
+                      if (text[i + 1] === String(j)) {
+                          i += 1;
+                          break;
+                      }
+                  }
+                  break;
+              case '%':
+                  break;
+              default:
+                  rendered += text[i];
+              }
+          }
+          return rendered;
       }
 
       function textbox(text) {
@@ -104,8 +171,17 @@
 
       function addBoxes(character) {
           var boxes = document.getElementById('textboxes');
+          if (character.startsWith("Papyrus")) {
+              var fontClass = " papyrus";
+          } else if (character.startsWith("Sans")) {
+              var fontClass = " sans";
+          } else {
+              var fontClass = " dtm";
+          }
           for (var i = 0; i < d[character].length; i++) {
-              boxes.appendChild(textbox(d[character][i]));
+              var box = textbox(d[character][i])
+              box.className += fontClass;
+              boxes.appendChild(box);
           }
       }
 
