@@ -14,8 +14,8 @@
           color: white;
           white-space: pre-wrap;
           word-break: break-all;
-          width: 286px;
-          padding: 5px;
+          width: 277px;
+          padding: 4px;
           border: 2px solid white;
           margin-top: 4px;
       }
@@ -109,11 +109,11 @@
           var rendered = "";
           var color = "white";
           for (var i = 0; i < text.length; i++) {
-              // console.log(rendered);
               switch (text[i]) {
               case '\\':
                   var prevColor = color;
                   switch (text[i + 1]) {
+                      // Text colors
                   case 'W': case 'X': color = "white"; i += 1; break;
                   case 'R': color = "red"; i += 1; break;
                   case 'Y': color = "yellow"; i += 1; break;
@@ -123,11 +123,18 @@
                   case 'O': color = "orange"; i += 1; break;
                   case 'P': color = "purple"; i += 1; break;
                   case 'C':
+                      // Probably something to do with dialogue options
                       i += 1;
                       break;
                   case 'E': case 'F': case 'M': case 'T':
+                      // Facial expressions
                       i += 2;
                       break;
+                  case 'z':
+                      // Infinity symbol
+                      // Only appears as \z4, not sure what the 4 does
+                      rendered += '<img src="infty.png" alt="∞">';
+                      i += 5;
                   }
                   if (color !== prevColor) {
                       if (prevColor !== "white") {
@@ -144,9 +151,11 @@
                   }
                   break;
               case '&': case '#':
+                  // Line breaks
                   rendered += '\n';
                   break;
               case '^':
+                  // Speech pauses
                   for (var j = 0; j < 10; j++) {
                       if (text[i + 1] === String(j)) {
                           i += 1;
@@ -166,9 +175,10 @@
           return rendered;
       }
 
-      function textbox(text) {
+      function textbox(text, font) {
           var box = document.createElement('div');
-          box.className = 'textbox';
+          box.classList.add('textbox');
+          box.classList.add(font);
           box.innerHTML = render(text);
           return box;
       }
@@ -176,15 +186,14 @@
       function addBoxes(character) {
           var boxes = document.getElementById('textboxes');
           if (character.startsWith("Papyrus")) {
-              var fontClass = " papyrus";
+              var font = "papyrus";
           } else if (character.startsWith("Sans")) {
-              var fontClass = " sans";
+              var font = "sans";
           } else {
-              var fontClass = " dtm";
+              var font = "dtm";
           }
           for (var i = 0; i < d[character].length; i++) {
-              var box = textbox(d[character][i])
-              box.className += fontClass;
+              var box = textbox(d[character][i], font)
               boxes.appendChild(box);
           }
       }
