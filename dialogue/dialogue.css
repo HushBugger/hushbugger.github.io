@@ -1,0 +1,87 @@
+body {
+    background: darkgrey;
+    font-family: Sans;
+}
+
+div.textbox {
+    background: black;
+    color: white;
+    white-space: pre-wrap;
+    word-break: break-all;
+    width: 265px;
+    padding: 4px;
+    border: 2px solid white;
+    margin-top: 4px;
+}
+
+a.textbox {
+    color: white;
+    text-decoration: none;
+}
+
+div.dtm {
+    font-family: "DTM Mono", Monospace;
+}
+
+div.sans {
+    font-family: "UT Sans", "Comic Sans", "DTM Mono", Monospace;
+}
+
+div.papyrus {
+    font-family: "UT Papyrus", "Papyrus", "DTM Mono", Monospace;
+}
+
+div#textboxes {
+    display: inline;
+}
+
+a.heading {
+    color: black;
+    text-decoration: none;
+}
+
+span.red {
+    color: #f00;
+}
+
+span.yellow {
+    color: #ff0;
+}
+
+span.lightblue {
+    color: #14a9ff;
+}
+
+span.blue {
+    color: #00f;
+}
+
+span.green {
+    color: #0f0;
+}
+
+span.orange {
+    color: #ffa040;
+}
+
+span.purple {
+    color: #f0f;
+}
+
+@font-face {
+    font-family: "DTM Mono";
+    src: url('dtm-mono.woff2') format('woff2'),
+         url('dtm-mono.woff') format('woff');
+}
+
+@font-face {
+    font-family: "UT Sans";
+    src: url('sans.woff2') format('woff2'),
+         url('sans.woff') format('woff');
+}
+
+@font-face {
+    font-family: "UT Papyrus";
+    src: url('papyrus.woff2') format('woff2'),
+         url('papyrus.woff') format('woff');
+}
