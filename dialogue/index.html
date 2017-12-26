@@ -104,7 +104,7 @@
       document.addEventListener('DOMContentLoaded', function() {
           document.querySelector('select[name="characters"]').
               onchange=function(event) {
-                  writeDialogue(event.target.value);
+                  window.location.hash = "#" + event.target.value;
               };
       }, false);
 
