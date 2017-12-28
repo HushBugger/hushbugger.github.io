@@ -10,7 +10,6 @@
   <body>
     <select id="characters" name="characters">
       <option value="">Select a character...</option>
-      <option value="Everything">Everything</option>
     </select>
     <div id="textboxes">
     </div>
@@ -60,12 +59,12 @@
                   indexes[i] = parseInt(indexes[i]);
               }
           }
-          if (d[character] === undefined && character !== "Everything") {
+          if (d[character] === undefined) {
               character = "";
           }
           document.getElementById('textboxes').innerHTML = "";
           setSelection(character, indexes);
-          if (character === "Everything") {
+          if (character === "") {
               var boxes = document.getElementById('textboxes');
               var characters = Object.keys(d);
               characters.sort()
@@ -112,9 +111,7 @@
           writeDialogue(decodeURIComponent(window.location.hash.substr(1)));
       }
 
-      if (window.location.hash !== "") {
-          window.onhashchange();
-      }
+      window.onhashchange();
     </script>
   </body>
 </html>
