@@ -59,3 +59,9 @@ span.orange {
 span.purple {
     color: #f0f;
 }
+
+@font-face {
+    font-family: "DTM Mono";
+    src: url('dtm-mono.woff2') format('woff2'),
+         url('dtm-mono.woff') format('woff');
+}
