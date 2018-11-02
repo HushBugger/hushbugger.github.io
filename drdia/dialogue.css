@@ -32,31 +32,31 @@ a.heading {
     text-decoration: none;
 }
 
-span.red {
+span.R {
     color: #f00;
 }
 
-span.yellow {
+span.Y {
     color: #ff0;
 }
 
-span.lightblue {
+span.L {
     color: #14a9ff;
 }
 
-span.blue {
+span.B {
     color: #00f;
 }
 
-span.green {
+span.G {
     color: #0f0;
 }
 
-span.orange {
+span.O {
     color: #ffa040;
 }
 
-span.purple {
+span.P {
     color: #f0f;
 }
 

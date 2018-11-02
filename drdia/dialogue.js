@@ -7,29 +7,8 @@ function render(text) {
         switch (text[i]) {
         case '\\':
             var prevColor = color;
-            switch (text[i + 1]) {
-                // Text colors
-            case 'W': case 'X': color = "white"; i += 1; break;
-            case 'R': color = "red"; i += 1; break;
-            case 'Y': color = "yellow"; i += 1; break;
-            case 'L': color = "lightblue"; i += 1; break;
-            case 'B': color = "blue"; i += 1; break;
-            case 'G': color = "green"; i += 1; break;
-            case 'O': color = "orange"; i += 1; break;
-            case 'P': color = "purple"; i += 1; break;
-            case 'C':
-                // Probably something to do with dialogue options
-                i += 1;
-                break;
-            case 'E': case 'F': case 'M': case 'T':
-                // Facial expressions
-                i += 2;
-                break;
-            case 'z':
-                // Infinity symbol
-                // Only appears as \z4, not sure what the 4 does
-                rendered += '<img src="infty.png" alt="∞">';
-                i += 5;
+            if (text[i + 1] === 'c') {
+                color = text[i + 2];
             }
             if (color !== prevColor) {
                 if (prevColor !== "white") {
@@ -39,6 +18,7 @@ function render(text) {
                     rendered += '<span class="' + color + '">';
                 }
             }
+            i += 2;
             break;
         case '/':
             if (text[i + 1] === '*') {
