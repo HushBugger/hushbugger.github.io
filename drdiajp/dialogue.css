@@ -1,0 +1,67 @@
+body {
+    background: darkgrey;
+    font-family: Sans;
+}
+
+div.textbox {
+    background: black;
+    color: white;
+    white-space: pre-wrap;
+    word-break: break-all;
+    /* width: 480px; */
+    padding: 4px;
+    border: 2px solid white;
+    margin-top: 4px;
+}
+
+a.textbox {
+    color: white;
+    text-decoration: none;
+}
+
+div.dtm {
+    font-family: "DTM Mono", Monospace;
+}
+
+div#textboxes {
+    display: inline;
+}
+
+a.heading {
+    color: black;
+    text-decoration: none;
+}
+
+span.R {
+    color: #f00;
+}
+
+span.Y {
+    color: #ff0;
+}
+
+span.L {
+    color: #14a9ff;
+}
+
+span.B {
+    color: #00f;
+}
+
+span.G {
+    color: #0f0;
+}
+
+span.O {
+    color: #ffa040;
+}
+
+span.P {
+    color: #f0f;
+}
+
+@font-face {
+    font-family: "DTM Mono";
+    src: url('dtm-mono.woff2') format('woff2'),
+         url('dtm-mono.woff') format('woff');
+}
