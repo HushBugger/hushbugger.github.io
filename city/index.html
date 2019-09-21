@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome to the CITY</title>
+    <style>
+      canvas {
+          image-rendering: -moz-crisp-edges;
+          image-rendering: -webkit-optimize-contrast;
+          image-rendering: -o-crisp-edges;
+          -ms-interpolation-mode: nearest-neighbor;
+          image-rendering: optimizeSpeed;
+          image-rendering: pixelated;
+          width: 100%;
+          max-width: 100vh;
+      }
+
+      body {
+          margin: 0px;
+          background-color: black;
+          color: white;
+          text-align: center;
+          font-family: monospace;
+          font-size: 1.5em;
+          font-weight: bold;
+          overflow: hidden;
+      }
+
+      button {
+          background-color: black;
+          color: white;
+          border: 4px solid white;
+          font-family: monospace;
+          font-size: 1.5em;
+          font-weight: bold;
+          padding: 8px;
+          margin: 1em;
+      }
+    </style>
+    <script>
+      "use strict";
+
+      function mod(a, b) {
+          if (a >= 0) {
+              return a % b;
+          }
+          return b - (-a % b);
+      }
+
+      function mkImg(src) {
+          var image = new Image;
+          image.src = src;
+          return image;
+      }
+
+      function getFrame(imageArray, fps, timestamp) {
+          return imageArray[
+              Math.trunc((timestamp * fps / 1000) % imageArray.length)
+          ];
+      }
+
+      var music = new Audio('welcome.mp3');
+      music.loop = true;
+      var playing = false;
+      var arrowState = {
+          ArrowLeft: false,
+          ArrowUp: false,
+          ArrowRight: false,
+          ArrowDown: false,
+      };
+      var mouseState = [0, 0];
+      var mouseHeld = false;
+      var background = mkImg('background.png');
+      var overlay = mkImg('overlay.png');
+      var lcar = [mkImg('lcar0.png'), mkImg('lcar1.png')];
+      var rcar = [mkImg('rcar0.png'), mkImg('rcar1.png')];
+
+      document.addEventListener('keydown', function(event) {
+          if (!Object.keys(arrowState).includes(event.key)) {
+              return;
+          }
+          arrowState[event.key] = true;
+      });
+
+      document.addEventListener('keyup', function(event) {
+          if (!Object.keys(arrowState).includes(event.key)) {
+              return;
+          }
+          arrowState[event.key] = false;
+      });
+
+      var x = 145;
+      var y = 125;
+      var minX = 113;
+      var minY = 50;
+      var maxX = 156;
+      var maxY = 154;
+
+      function begin() {
+          music.play();
+          document.body.innerHTML = '';
+          var canvas = document.createElement('canvas');
+          canvas.width = 196;
+          canvas.height = 196;
+          document.body.appendChild(canvas);
+          var ctx = canvas.getContext('2d');
+          ctx.imageSmoothingEnabled = false;
+          var last = null;
+          var lastX, lastY;
+          var sprite = lcar;
+
+          function startMouse(event) {
+              mouseHeld = true;
+              setMouseState(event);
+          }
+
+          function setMouseState(event) {
+              if (!mouseHeld) {
+                  return;
+              }
+              var x, y;
+              if (event.touches) {
+                  x = event.touches[0].pageX;
+                  y = event.touches[0].pageY;
+              } else {
+                  x = event.clientX;
+                  y = event.clientY;
+              }
+              var rect  = canvas.getBoundingClientRect();
+              var relX = (x - rect.x) / rect.width;
+              var relY = (y - rect.y) / rect.height;
+              mouseState = [4 * relX - 2, 4 * relY - 2];
+          }
+
+          function endMouse(event) {
+              mouseHeld = false;
+              mouseState = [0, 0];
+          }
+
+          canvas.addEventListener('mousedown', startMouse);
+          canvas.addEventListener('touchstart', startMouse);
+          canvas.addEventListener('mousemove', setMouseState);
+          canvas.addEventListener('touchmove', setMouseState);
+          canvas.addEventListener('mouseup', endMouse);
+          canvas.addEventListener('touchend', endMouse);
+          canvas.addEventListener('touchcancel', endMouse);
+
+          function draw(timestamp) {
+              if (last !== null) {
+                  var diff = timestamp - last;
+                  var hspeed = arrowState.ArrowRight - arrowState.ArrowLeft
+                      + mouseState[0];
+                  var vspeed = arrowState.ArrowDown - arrowState.ArrowUp
+                      + mouseState[1];
+                  lastX = x;
+                  lastY = y;
+                  x += hspeed * diff / 16;
+                  x = mod(x, canvas.width);
+                  y += vspeed * diff / 16;
+                  y = mod(y, canvas.height);
+                  if (hspeed < 0) {
+                      sprite = lcar;
+                  } else if (hspeed > 0) {
+                      sprite = rcar;
+                  }
+                  if (x < minX && y < minY) {
+                      if (lastX < minX || lastX > maxX) {
+                          y = minY;
+                      } else {
+                          x = minX;
+                      }
+                  } else if (x < minX && y > maxY) {
+                      if (lastX < minX || lastX > maxX) {
+                          y = maxY;
+                      } else {
+                          x = minX;
+                      }
+                  } else if (x > maxX && y < minY) {
+                      if (lastX < minX || lastX > maxX) {
+                          y = minY;
+                      } else {
+                          x = maxX;
+                      }
+                  } else if (x > maxX && y > maxY) {
+                      if (lastX < minX || lastX > maxX) {
+                          y = maxY;
+                      } else {
+                          x = maxX;
+                      }
+                  }
+              }
+              ctx.drawImage(background, 0, 0);
+              var frame = (hspeed || vspeed) ?
+                  getFrame(sprite, 5, timestamp) :
+                  sprite[0];
+              ctx.drawImage(frame, x, y);
+              ctx.drawImage(frame, x - canvas.width, y);
+              ctx.drawImage(frame, x, y - canvas.height);
+              ctx.drawImage(frame, x - canvas.width, y - canvas.height);
+              ctx.drawImage(overlay, 0, 0);
+              last = timestamp;
+              requestAnimationFrame(draw);
+          }
+          requestAnimationFrame(draw);
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="begin();" id="button">Begin</button>
+    <p>Use the arrow keys. Or click/tap and drag.</p>
+  </body>
+</html>
