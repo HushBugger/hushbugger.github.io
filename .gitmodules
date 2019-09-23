@@ -1,3 +1,6 @@
 [submodule "papyrus-teaches-typing"]
 	path = papyrus-teaches-typing
 	url = https://github.com/HushBugger/papyrus-teaches-typing
+[submodule "tunes"]
+	path = tunes
+	url = https://github.com/HushBugger/undertunes
