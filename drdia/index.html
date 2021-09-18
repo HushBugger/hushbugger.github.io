@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="textdump.js"></script>
+    <script src="dialogue.js"></script>
+    <link rel="stylesheet" type="text/css" href="dialogue.css">
+    <title>Deltarune dialogue dump</title>
+  </head>
+  <body>
+    <select id="characters" name="characters">
+      <option value="">Select a section...</option>
+    </select>
+    <div id="textboxes">
+    </div>
+    <noscript>
+      <p>Sorry, but you need to enable JavaScript to use this.</p>
+    </noscript>
+    <div class="credits">
+      <p>
+        Text wrangled from the data files of <a href="https://deltarune.com/">DELTARUNE</a>. Font: <a href="https://www.behance.net/gallery/31268855/Determination-Better-U
+ndertale-Font">Determination Mono</a>
+      </p>
+    </div>
+    <script>
+      "use strict";
+
+      function setSelection(character, indexes) {
+          var options = document.getElementById('characters').children;
+          for (var i = 0; i < options.length; i++) {
+              if (options[i].value === character) {
+                  options[i].selected = true;
+              }
+          }
+          if (indexes === null) {
+              window.location.hash = "#" + character;
+          } else {
+              window.location.hash = "#" + character + ":" + indexes.join();
+          }
+          if (character === "") {
+              document.title = "Deltarune dialogue dump";
+          } else {
+              document.title = "Deltarune dialogue dump: " + character;
+          }
+      }
+
+      function writeDialogue(character) {
+          var indexes = null;
+          var asList = character.split(':');
+          if (asList.length === 2) {
+              character = asList[0];
+              indexes = asList[1].split(',');
+              if (indexes.length === 1 && indexes[0] === "") {
+                  indexes = [];
+              }
+              for (var i = 0; i < indexes.length; i++) {
+                  indexes[i] = parseInt(indexes[i]);
+              }
+          }
+          if (d[character] === undefined) {
+              character = "";
+          }
+          document.getElementById('textboxes').innerHTML = "";
+          setSelection(character, indexes);
+          if (character === "") {
+              var boxes = document.getElementById('textboxes');
+              var characters = Object.keys(d);
+              characters.sort()
+              for (var i = 0; i < characters.length; i++) {
+                  var heading = document.createElement('h1');
+                  heading.classList.add('heading');
+                  var link = document.createElement('a');
+                  link.classList.add('heading');
+                  link.appendChild(document.createTextNode(characters[i]));
+                  link.href = "#" + characters[i];
+                  heading.appendChild(link);
+                  boxes.appendChild(heading);
+                  addBoxes(characters[i]);
+              }
+          } else if (character !== "") {
+              if (indexes !== null) {
+                  for (var i = 0; i < indexes.length; i++) {
+                      addBox(character, indexes[i]);
+                  }
+              } else {
+                  addBoxes(character);
+              }
+          }
+      }
+
+      var characters = Object.keys(d);
+      characters.sort();
+      var select = document.getElementById('characters');
+      for (var i = 0; i < characters.length; i++) {
+          var option = document.createElement('option');
+          option.value = characters[i];
+          option.appendChild(document.createTextNode(characters[i]));
+          select.options.add(option);
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+          document.querySelector('select[name="characters"]').
+              onchange=function(event) {
+                  window.location.hash = "#" + event.target.value;
+              };
+      }, false);
+
+      window.onhashchange = function() {
+          writeDialogue(decodeURIComponent(window.location.hash.substr(1)));
+      }
+
+      window.onhashchange();
+    </script>
+  </body>
+</html>
