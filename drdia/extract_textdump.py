@@ -19,15 +19,12 @@ for line in sp.run(
     last = line
 
 ja = json.load(LANG.open())
+del ja["date"]
 
 d = {}
-for k in ja.keys():
-    if k == "date":
-        continue
-    v = strings.get(k)
-    if not v or v in ja:
-        continue
-    d[k] = v
+for k, v in strings.items():
+    if k in ja and v not in ja:
+        d[k] = v
 
 with open("lang_en.js", "w") as f:
     json.dump(d, f, indent=2)
