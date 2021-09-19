@@ -26,5 +26,5 @@ for k, v in strings.items():
     if k in ja and v not in ja:
         d[k] = v
 
-with open("lang_en.js", "w") as f:
+with open("lang_en.json", "w") as f:
     json.dump(d, f, indent=2)
