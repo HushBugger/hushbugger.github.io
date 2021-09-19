@@ -60,6 +60,12 @@ function render(text) {
             break;
         case '%':
             break;
+        case '>':
+            rendered += "&gt;";
+            break;
+        case '<':
+            rendered += "&lt;";
+            break;
         default:
             rendered += text[i];
         }

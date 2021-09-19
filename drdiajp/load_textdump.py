@@ -8,10 +8,6 @@ d = defaultdict(list)
 for k, v in json.load(open(sys.argv[1])).items():
     if k == "date":
         continue
-    # Some lines are commented out with HTML syntax?
-    # Don't know what's up with that, doesn't help that I have zero knowledge
-    # of Japanese
-    v = v.replace("<!--", "").replace("-->", "")
     k = k.split('_slash_')[0]
     if k.startswith(('scr_', 'obj_')):
         k = k[4:]
