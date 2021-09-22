@@ -1954,6 +1954,7 @@ var d = {
 "* (The EmptyDisk was added to your KEY ITEMS.)/%",
 "* (There's a slot for a disk here.)/",
 "* (Insert the LoadedDisk?)/",
+"gml_Script_scr_tempsave",
 "* (You put the disk into the broken down mechanism.)/",
 "* (Nothing happened.)/%",
 "#Recommendation",
@@ -7708,7 +7709,7 @@ var d = {
 "default",
 "* (Press ~1 or ~2 to hit Queen after she attacks!)",
 "* (Punch during Queen's turn with ~1 or ~2 after she attacks!)",
-"* (Dodge Queen's attacks with left, right, and down!)",
+"* (Dodge Queen's attacks with ~1, ~2, and ~3!)",
 "* ROUND 2 begins.&* Queen's attacks got tougher!",
 "* ROUND 3 begins.&* Queen's attacks got extreme!",
 "You can Punch on both sides!"
@@ -10232,9 +10233,16 @@ var d = {
 "* With a power like that.../",
 "* Maybe you three can break your own strings./",
 "* Let me become your strength./%",
+"* (You got ShadowCrystal.)/%",
 "* (You got PuppetScarf.)/%",
 "* (You got Dealmaker.)/%",
-"* (You got ShadowCrystal.)/%"
+"* (... but your inventory was full.)/%",
+"* ... Kris...^1?&* Kris!^1?&* KRIS!?!?!?/",
+"* YOU FILLED YOUR [Inventorium] WITH [Half-Pr1ce Sallamy] JUST TO KEEP ME OUT!?/",
+"* WHAT^2!&* THE^2!&* [^4Fifty Percent Off]!?/",
+"* YOU CAN CARRY LIKE 48 ITEMS!!!/",
+"* [Why] DID YOU DO THIS!^1?&* WHY!^1? [Y]!^1? [Yellow]!^1? [Gamma]!?/",
+"* NOT [Cool] KRIS^1!&* I'LL BE IN MY [Trailer]!/%"
 ],
 "ch2 sceneex3": [
 "\\E1* Hey so..^1. are we seriously.../%",
