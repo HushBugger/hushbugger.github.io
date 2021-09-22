@@ -1,6 +1,5 @@
 var d = {
 "phonename": [
-"gml_Script_stringsetloc",
 "Call Home",
 "Call Toriel",
 "Sans's Number",
@@ -225,7 +224,6 @@ var d = {
 "* Oh^1, thank you^1, Kris^2!&* I will!/%",
 "#I know",
 "#Really!?",
-"gml_Script_scr_get_input_name",
 "* Er^1, Kris^1, you know you can hold [~1] to run...?/",
 "* Really^1?&* And yet you choose not to...?/",
 "\\E6* Right^1, who knows how long these leisurely days will last.../",
@@ -752,7 +750,6 @@ var d = {
 " #Add Spade",
 " #Add Diamond",
 "Swap",
-"obj_suitspuzz",
 " #Perpetuate",
 "* (Life cannot exist without consuming.^1)&* (Even the moss drinks water.)/",
 "* (Perpetuate the cycle of existence?)/",
@@ -1148,7 +1145,6 @@ var d = {
 "* UEE HEE HEE^1, THE KEY^1, THE KEY./",
 "* A MARVELLOUS FUN IS ABOUT TO BREAK FREE./",
 "* WON'T YOU LET YOURSELF OUTSIDE?/",
-"gml_Script_scr_keyitemremove",
 "* (You put the Door Key in front of the Door.)/%",
 "* YOU CAME TOO FAR^1! YOUR CHOICE HAS RUN OUT!/%",
 "* DO NOT TARRY!/%",
@@ -1179,7 +1175,6 @@ var d = {
 "??????",
 "* (Where will you ride the elevator to?)/",
 "\\C3",
-"obj_elevatorcontroller",
 "* (You're there.)/%",
 " #Ride",
 "* (Ride the elevator?)/",
@@ -1243,7 +1238,6 @@ var d = {
 " #Give Cake",
 "* Marga riba^1!&* That cake^1!&* It's seething with power!/",
 "* It's my cake^1, isn't it!^1?&* Did you repair it!^1?&* Will you return it!?/",
-"gml_Script_scr_itemremove",
 "* Edamame^1! My old cake^1! I'm so happy I could spin!/",
 "* My friend^1, share in my riches^1! I have many worse cakes I do not want!/",
 "* If you're not carrying a Cake^1, come here and I'll give you one^1! Forever!/",
@@ -1712,9 +1706,7 @@ var d = {
 "\\E2* (Wh-what does that mean???)/",
 "\\E2* (There's no good interpretation^1, that's for sure!)/%",
 " #Talk",
-"gml_Script_scr_miniface_init_sweet",
 "\\m3\t\t*What'll it be^1, chief?&\tI got CD Bagels^1, $80 a pop!/",
-"can_afford",
 "\\m3\t\t*Good eye for music^1!/",
 "\\m3\t\t*Too much stuff^1, chief^1!&\tIt won't fit^2!&\\m2\tI can't fit either^2./%",
 "\\m3\t\t*Hey^1, you can't&\tshortchange me^2!&\\m2\tOnly me^2./%",
@@ -1807,7 +1799,6 @@ var d = {
 "* Mon amigas^1! Welcome to the bakery..^1. I wish./",
 "* Mama miba!^1! I was rejected from the cafe!^1! What can I do now.../",
 "type",
-"gml_Script_scr_itemcheck_pocket",
 "* Mama miba^1!  You returned my cake to me.../",
 "* Mwah^1! I will never forget your kindness!!/",
 "* Every day^1, I will give you dizzying flavors!/",
@@ -1954,7 +1945,6 @@ var d = {
 "* (The EmptyDisk was added to your KEY ITEMS.)/%",
 "* (There's a slot for a disk here.)/",
 "* (Insert the LoadedDisk?)/",
-"gml_Script_scr_tempsave",
 "* (You put the disk into the broken down mechanism.)/",
 "* (Nothing happened.)/%",
 "#Recommendation",
@@ -1970,7 +1960,6 @@ var d = {
 "* ..^1. If only my men were here.../",
 "* My apologies. This is no time to reminisce./",
 "* Good evening^1, boss^1. Please^1, relax and enjoy yourself.../",
-"party_count",
 "* For the young human^1, we recommend a chocolate blueberry latte.../",
 "* Boss^1, please try not to use all of the sugar./%",
 "* For the young monster^1, we recommend the blackberry tart.../",
@@ -2147,7 +2136,6 @@ var d = {
 "* ARE YOU LOOKING FOR THE [Ring] of [Thorns]?/",
 "* THEN [[Why]] GO TO A DUMPSTER!!!/%",
 "* THat'll be 1997 KROMER./",
-"gml_Script_scr_weaponget",
 "* HERE'S YOUR [Ring]^1! CAREFUL^1, IT MIGHT [Sting]&* EAHEAHEAH/",
 "\\S1* (You got the ThornRing.)/%",
 "* LET ME CHECK YOUR [Pockets]/",
@@ -2201,7 +2189,6 @@ var d = {
 "JOCKINGTON'S ROOM",
 "ASRIEL'S ROOM",
 "* (The nameplate reads ~1. Peek inside?)/",
-"l_door",
 "* (..^1. What you saw surprised you.  ..^1. sort of.)/%",
 "* (It's wallpapered with the pink cat ad from the city. It's animated^1, too.)/%",
 "* (..^1. it's beautiful.)/%",
@@ -2377,15 +2364,7 @@ var d = {
 "* I don't remember writing that!\\f0/%",
 "* Choice text./",
 "* Result A./%",
-"* Result B./%",
-"scr_text_slash_scr_text_gml_226_0",
-"scr_text_slash_scr_text_gml_738_0",
-"scr_text_slash_scr_text_gml_1559_0",
-"scr_text_slash_scr_text_gml_1586_0",
-"scr_text_slash_scr_text_gml_2238_0",
-"scr_text_slash_scr_text_gml_2789_0",
-"scr_text_slash_scr_text_gml_3035_0",
-"scr_text_slash_scr_text_gml_3043_0"
+"* Result B./%"
 ],
 "readable room1": [
 "* (Knock knock knock)/",
@@ -2963,14 +2942,7 @@ var d = {
 "\\EK* Hell no^1, like we're doing that again./%",
 "* (Knock^1, knock^1, knock)/",
 "* You found the only knockable door in the city./",
-"* This here is my pride and joy.../%",
-"obj_readable_room1_slash_Other_10_gml_118_0",
-"obj_readable_room1_slash_Other_10_gml_388_0",
-"obj_readable_room1_slash_Other_10_gml_540_0",
-"obj_readable_room1_slash_Other_10_gml_544_0",
-"obj_readable_room1_slash_Other_10_gml_547_0",
-"obj_readable_room1_slash_Other_10_gml_982_0",
-"obj_readable_room1_slash_Other_10_gml_1063_0"
+"* This here is my pride and joy.../%"
 ],
 "smallface reset": [
 "* ... what?"
@@ -3189,20 +3161,7 @@ var d = {
 "Heals#100HP",
 "Jigsaw Joe",
 "Shave",
-"Pipis",
-"gml_Script_scr_monstersetup",
-"scr_monstersetup_slash_scr_monstersetup_gml_16_0",
-"scr_monstersetup_slash_scr_monstersetup_gml_26_0",
-"scr_monstersetup_slash_scr_monstersetup_gml_95_0",
-"scr_monstersetup_slash_scr_monstersetup_gml_103_0",
-"scr_monstersetup_slash_scr_monstersetup_gml_123_0",
-"scr_monstersetup_slash_scr_monstersetup_gml_226_0",
-"scr_monstersetup_slash_scr_monstersetup_gml_282_0",
-"scr_monstersetup_slash_scr_monstersetup_gml_379_0",
-"scr_monstersetup_slash_scr_monstersetup_gml_406_0",
-"scr_monstersetup_slash_scr_monstersetup_gml_434_0",
-"scr_monstersetup_slash_scr_monstersetup_gml_512_0",
-"scr_monstersetup_slash_scr_monstersetup_gml_607_0"
+"Pipis"
 ],
 "encountersetup": [
 "* It is known.",
@@ -3228,7 +3187,6 @@ var d = {
 "* Assumedly another different Jigsawry appeared!",
 "* A board of Jigsawrys blocked the way!",
 "* Smorgasboard.",
-"obj_joker",
 "* LET THE GAMES BEGIN!",
 "* Here it comes^1. Again.",
 "* Rudinn Rangers came sparkling into view!",
@@ -3284,8 +3242,7 @@ var d = {
 "* Tasque crossed your path!",
 "* Jigsaw Joe jigs in!",
 "* Poppup and Maus appeared.",
-"* Pipis.",
-"scr_encountersetup"
+"* Pipis."
 ],
 "spellinfo": [
 "spelltext",
@@ -3494,7 +3451,6 @@ var d = {
 "Not#so#useful"
 ],
 "itemdesc single": [
-"__itemdesc",
 "Heals 40 HP. A red-and-black star#that tastes like marshmallows.",
 "Heals a fallen ally to MAX HP.#A minty green crystal.",
 "A shimmering shard.#Its use is unknown.",
@@ -3532,8 +3488,7 @@ var d = {
 "itemnamelist": [
 "SpinCake",
 "Clubswich",
-"FavSandwich",
-"scr_itemnamelist"
+"FavSandwich"
 ],
 "itemuse": [
 "Yeahh!! That's good!",
@@ -3635,8 +3590,7 @@ var d = {
 "* (You used the Egg.)/%",
 "* You held the crystal up to your eye./",
 "* You thought you saw the computer lab./",
-"* ...but^1, it must've just been your imagination./%",
-"gml_Script_scr_itemuse"
+"* ...but^1, it must've just been your imagination./%"
 ],
 "weaponinfo": [
 "Wood Blade",
@@ -3758,10 +3712,7 @@ var d = {
 "FreezeRing",
 "A ring with a snowglobe on it.#... is that someone inside?",
 "Heh, you steal this? Heh.",
-"It's beautiful...",
-"scr_weaponinfo",
-"scr_weaponinfo_slash_scr_weaponinfo_gml_119_0",
-"scr_weaponinfo_slash_scr_weaponinfo_gml_202_0"
+"It's beautiful..."
 ],
 "armorinfo": [
 "Hey, hands off!",
@@ -3957,23 +3908,15 @@ var d = {
 "Alt (right)",
 "Shift",
 "Control",
-"Alt",
-"scr_ascii_input_names_slash_scr_ascii_input_names_gml_105_0"
+"Alt"
 ],
 "shopmenu": [
 "$~1",
 "noneleft"
 ],
-"monster make tired": [
-"gml_Script_scr_monster_make_tired"
-],
-"monster statreset": [
-"gml_Script_scr_monster_statreset"
-],
 "recruit info": [
 "Known Quantity ",
 "It is known.",
-"_dialogue",
 "Said to be someone's best friend, but maybe not. Shine on, you lazy diamond!",
 "Shiny Things",
 "Effort",
@@ -4075,20 +4018,15 @@ var d = {
 "$ Gained +5%",
 "Graze Area+",
 "Attack+",
-"Graze TP+",
-"gml_Script_scr_fusion_info"
+"Graze TP+"
 ],
 "gamestart": [
 "townname",
-"gml_Script_scr_initialize_charnames",
 "ECHIDNA",
 "debug",
 "Maybe",
 "Don't know",
-"lcharname",
-"scr_initialize_charnames",
-"scr_gamestart_slash_scr_gamestart_gml_98_0",
-"scr_gamestart_slash_scr_gamestart_gml_343_0"
+"lcharname"
 ],
 "roomname": [
 "Dark World?",
@@ -4114,7 +4052,6 @@ var d = {
 ],
 "UNUSED": [
 "No one can hear me, can they...?",
-"unused_1",
 "I guess not.",
 "To be honest, I'm not even sure if I can hear myself.",
 "It's so quiet here...",
@@ -4124,79 +4061,6 @@ var d = {
 ],
 "84 load ini": [
 "[EMPTY]"
-],
-"actinfo": [
-"gml_Script_scr_actinfo_ch1"
-],
-"itemdesc b": [
-"gml_Script_scr_itemdesc_b_ch1"
-],
-"DEVICE MENU": [
-"filech1_0",
-"menu.ogg",
-"NO DATA",
-"CHAPTER 1",
-"INCOMPLETEFILE_PREV_NAME",
-"UNKNOWN FILE",
-"COMPLETETIME_SECONDS_TOTAL",
-"INITMENU",
-"IT CONFORMED TO THE REFLECTION.",
-"WHAT AN INTERESTING BEHAVIOR.",
-"PREPARATIONS ARE COMPLETE.",
-"Copy complete.",
-"IT WAS AS IF IT WAS NEVER THERE AT ALL.",
-"Erase complete.",
-"IT RETAINED ITS ORIGINAL SHAPE.",
-"THEN IT WAS SPARED.",
-"VERY INTERESTING.",
-"THE DIVISION IS COMPLETE.",
-"IT IS IMMUNE TO ITS OWN IMAGE.",
-"You can't copy there.",
-"IT IS BARREN AND CANNOT BE COPIED.",
-"BUT THERE WAS NOTHING LEFT TO COPY.",
-"It can't be copied.",
-"BUT IT WAS ALREADY GONE.",
-"BUT THERE WAS NOTHING LEFT TO ERASE.",
-"There's nothing to erase.",
-"FILE not found.",
-"Completion FILE not found.",
-"SELTEXT_C",
-"SELTEXT_A",
-"BACK",
-"BEGIN",
-"OVERWRITE",
-"IT WILL BE SUBSUMED.",
-"TRULY ERASE IT?",
-"THEN IT WILL BE DESTROYED.",
-"Continue",
-"Start",
-"Copy over this file?",
-"Erase this file?",
-"Yes!",
-"No!",
-"Really erase it?",
-"NOWPLACE",
-"Your Room [Chapter 1 END]",
-"[Made on seeing credits.]",
-"CANCELTEXT",
-"Don't Use Chapter 1 FILE",
-"COPY",
-"ERASETEXT",
-"Ch 1 Files",
-"CHSELECTTEXT",
-"End Program",
-"Copy",
-"Erase",
-"CHOOSE THE ONE TO COPY.",
-"CHOOSE THE TARGET FOR THE REFLECTION.",
-"SELECT THE ONE TO ERASE.",
-"Please select a file.",
-"Choose a file to copy.",
-"Choose a file to copy to.",
-"The file will be overwritten.",
-"Choose a file to erase.",
-"Start Chapter 2 from Chapter 1's FILE.",
-"This will start Chapter 2 in FILE Slot ~1."
 ],
 "fountainkris ch2 sideb": [
 "(It was as if your very SOUL was glowing...)/%",
@@ -4941,7 +4805,6 @@ var d = {
 "* Why don't we make it into an animal cafe?/",
 "* ..^1. you can be one of the animals^1, too^1, boss./%",
 "* (Seems well behaved.)/%",
-"t_con",
 "* RIKO RIKO!/%",
 "* Oh^1, it's quite a wonderful town^1, really. Thank you!/",
 "* ..^1. so..^1. why am I alone here?/",
@@ -5172,12 +5035,7 @@ var d = {
 "\\EY* Hahaha!^1! That's awesome^1, Kris!/%",
 "* Please do not race the pottery./%",
 "* Yes, we see you. You are the master of balance./%",
-"\\E4* (Kris^1, don't take too long^1, okay?)/%",
-"obj_npc_room_slash_Other_10_gml_262_0",
-"obj_npc_room_slash_Other_10_gml_817_0",
-"obj_npc_room_slash_Other_10_gml_913_0",
-"obj_npc_room_slash_Other_10_gml_930_0",
-"obj_npc_room_slash_Other_10_gml_988_0"
+"\\E4* (Kris^1, don't take too long^1, okay?)/%"
 ],
 "npc sign": [
 "* You can't read these symbols...&* Or maybe it's the handwriting./%",
@@ -5465,8 +5323,7 @@ var d = {
 "* (It's a manhole.)/%",
 "\\E1* Amazing So I Can Turn Your Castle Into My Mansion?/",
 "\\EL* (W-Wait^1, that's not what I'm saying...)/%",
-"\\E2* Kris^1, the Fountain is waiting for you!/%",
-"obj_npc_sign_slash_Other_10_gml_74_0"
+"\\E2* Kris^1, the Fountain is waiting for you!/%"
 ],
 "npc dumpster": [
 "\\s0* You found the \\cG[Moss]\\cW^8! %%",
@@ -5824,10 +5681,7 @@ var d = {
 "\\EQ* Umm^1, I-I'll try my best!/",
 "\\E1* Quick Q How Many Breakable Pots Do You Have/",
 "\\EM* I..^1. Let me count and get back to you on that.../%",
-"\\EB* Any Leftover Regards You Can Give To Berdly/%",
-"obj_npc_facing_slash_Other_10_gml_272_0",
-"obj_npc_facing_slash_Other_10_gml_452_0",
-"obj_npc_facing_slash_Other_10_gml_514_0"
+"\\EB* Any Leftover Regards You Can Give To Berdly/%"
 ],
 "fountainkris": [
 "Is this... the fountain...?/%",
@@ -5862,7 +5716,6 @@ var d = {
 "darkcontroller": [
 "Auto-Run",
 "Back",
-"border_options",
 "* (You tossed the Manual hard.^1)&* (Its pages scatter in the wind.)/",
 "* ............../",
 "\\E5* Umm..^1.&* Th-that's OK^1, Kris^1!&* I can always.../",
@@ -5920,7 +5773,6 @@ var d = {
 "LV~1 Dark Knight#Does damage using#dark energy.",
 "LV~1 Healing Master#Can use ultimate#healing. (Losers!)",
 "LV~1 Moss Enjoyer#Supports those#that find moss.",
-"kind_text",
 "Dogness",
 "LV1 Lonely Prince#Dark-World being.#Has no subjects.",
 "LV1 Prickly Prince#Deals damage with#his rugged scarf.",
@@ -5939,9 +5791,7 @@ var d = {
 "Coldness ",
 "Boldness",
 "(Nothing)",
-"eq_xoff",
 "---------",
-"scroll_xoff",
 "cur",
 "(No ability.)",
 "itemoff",
@@ -6005,7 +5855,6 @@ var d = {
 "More Info",
 "~1: More Info#~2: Quit",
 "PROGRESS",
-"draw_get_font",
 "LIKE",
 "DISLIKE",
 "?????",
@@ -6252,9 +6101,7 @@ var d = {
 "Shield Destroyed"
 ],
 "initializer": [
-"l_item",
-"Known Quantity",
-"obj_simplecontroller"
+"Known Quantity"
 ],
 "tensionbar": [
 "zcounter"
@@ -6518,8 +6365,7 @@ var d = {
 "* Really^1?&* What do you spend your money on?/%",
 "I'm a normal&person./",
 "I spend all&my money on&RENT and&MYSTIC GEMs./%",
-"* (Kris^1, let's try CONVINCING them again...)/%",
-"obj_rudinnranger_slash_Draw_0_gml_6_0"
+"* (Kris^1, let's try CONVINCING them again...)/%"
 ],
 "checkers enemy": [
 "* K.Round shuffles furiously.",
@@ -7236,7 +7082,6 @@ var d = {
 "FAILED"
 ],
 "queen kristhrown": [
-"block_star",
 "* The wire was cut!/%"
 ],
 "queen ralseithrown": [
@@ -7578,9 +7423,6 @@ var d = {
 "* Susie danced with K_K!/%",
 "* Ralsei danced with K_K!/",
 "* Ralsei danced with K_K!/%",
-"sweet_string",
-"capn_string",
-"kk_string",
 "* Sweet is lost in the groove!",
 "* Cap'n is lost in the groove!",
 "* K_K is lost in the groove!",
@@ -7658,9 +7500,6 @@ var d = {
 "\\E1* What!? Howst doth you have more Houstes?!/",
 "\\E5* I haveth noe idea who won or lost./",
 "\\E5* CUT THE BATTLE!!!/%"
-],
-"debug choicer": [
-"Choicer_Screenshot_"
 ],
 "rouxls simtown": [
 "* Finished!/%",
@@ -8208,8 +8047,7 @@ var d = {
 "* Ah^1, my outfit. Yes^1, the monochrome look is quite suitable^1, isn't it?/",
 "* Black suit^1, colored glasses. Many people have failed to imitate this look./",
 "* Some even going so far as to attempt to impersonate me.../",
-"* In order to get the..^1. Oh^1, nevermind. Macaron?/%",
-"spamton_neo_after.ogg"
+"* In order to get the..^1. Oh^1, nevermind. Macaron?/%"
 ],
 "shop ch2 spamton": [
 "KEYITEM#100%#CERTIFIED#WAREZ",
@@ -8423,8 +8261,7 @@ var d = {
 "Wake up^6! %",
 "KRIS...!^6 ",
 "\\M0 FIRST^3.\\M1 ^6 %",
-"^2 ARE YOU&PHOTOSENSITIVE? ^6 ^6 ",
-"DEVICE_CONTACT_slash_Other_10_gml_2_0"
+"^2 ARE YOU&PHOTOSENSITIVE? ^6 ^6 "
 ],
 "DEVICE FAILURE": [
 "THE DEATH",
@@ -8439,6 +8276,68 @@ var d = {
 "GIVE UP",
 " THEN, THE FUTURE& IS IN YOUR HANDS.",
 "\\M0 THEN THE WORLD^5 & WAS COVERED^5 & IN DARKNESS./%"
+],
+"DEVICE MENU": [
+"menu.ogg",
+"NO DATA",
+"CHAPTER 1",
+"UNKNOWN FILE",
+"INITMENU",
+"IT CONFORMED TO THE REFLECTION.",
+"WHAT AN INTERESTING BEHAVIOR.",
+"PREPARATIONS ARE COMPLETE.",
+"Copy complete.",
+"IT WAS AS IF IT WAS NEVER THERE AT ALL.",
+"Erase complete.",
+"IT RETAINED ITS ORIGINAL SHAPE.",
+"THEN IT WAS SPARED.",
+"VERY INTERESTING.",
+"THE DIVISION IS COMPLETE.",
+"IT IS IMMUNE TO ITS OWN IMAGE.",
+"You can't copy there.",
+"IT IS BARREN AND CANNOT BE COPIED.",
+"BUT THERE WAS NOTHING LEFT TO COPY.",
+"It can't be copied.",
+"BUT IT WAS ALREADY GONE.",
+"BUT THERE WAS NOTHING LEFT TO ERASE.",
+"There's nothing to erase.",
+"FILE not found.",
+"Completion FILE not found.",
+"BACK",
+"BEGIN",
+"OVERWRITE",
+"IT WILL BE SUBSUMED.",
+"TRULY ERASE IT?",
+"THEN IT WILL BE DESTROYED.",
+"Continue",
+"Start",
+"Copy over this file?",
+"Erase this file?",
+"Yes!",
+"No!",
+"Really erase it?",
+"NOWPLACE",
+"Your Room [Chapter 1 END]",
+"[Made on seeing credits.]",
+"CANCELTEXT",
+"Don't Use Chapter 1 FILE",
+"COPY",
+"ERASETEXT",
+"Ch 1 Files",
+"CHSELECTTEXT",
+"End Program",
+"Copy",
+"Erase",
+"CHOOSE THE ONE TO COPY.",
+"CHOOSE THE TARGET FOR THE REFLECTION.",
+"SELECT THE ONE TO ERASE.",
+"Please select a file.",
+"Choose a file to copy.",
+"Choose a file to copy to.",
+"The file will be overwritten.",
+"Choose a file to erase.",
+"Start Chapter 2 from Chapter 1's FILE.",
+"This will start Chapter 2 in FILE Slot ~1."
 ],
 "credits": [
 "by Toby Fox",
@@ -8515,7 +8414,6 @@ var d = {
 "PgDown: Show All Info",
 "CameraX: ~1 CameraY: ~2",
 "Show Invisible",
-"instance_count",
 "PgUp: XY Camera-Relative",
 "XY is camera-relative!",
 "XY is StartXY relative!"
@@ -10713,7 +10611,6 @@ var d = {
 "\\E7* Did you leave your IQ points at home!?/",
 "\\E6* Noelle is only going to be protected BY ME!/%",
 "\\E7* And I'll FIGHT HER to PROVE IT!/%",
-"berdly_marker",
 "\\EC* D-damn it!/%",
 "\\E2* Berdly^1, are you okay...?/",
 "\\E3* Kris^1, maybe we should have gone easier on him.../%",
@@ -11235,7 +11132,6 @@ var d = {
 ],
 "savemenu": [
 "level",
-"name_current",
 "LV ~1",
 "Save",
 "Storage",
@@ -11245,8 +11141,7 @@ var d = {
 "File Saved"
 ],
 "initializer2": [
-"************* ",
-"obj_initializer2_slash_Step_0_gml_22_0"
+"************* "
 ],
 "overworldc": [
 "* You bid a quiet farewell to the ~1.",
@@ -11598,9 +11493,6 @@ var d = {
 "lnpc",
 "pcon"
 ],
-"suitspuzzle event": [
-"obj_suitspuzzle_event_slash_Step_0_gml_200_0"
-],
 "thrashafter event": [
 "followcon"
 ],
@@ -11610,22 +11502,10 @@ var d = {
 "boxpuzzle event": [
 "equipcon"
 ],
-"kingcutscene": [
-"obj_fountainkris_slash_Step_0_gml_47_0"
-],
-"monster1": [
-"last_touched"
-],
 "pushableblock": [
 "stepbuffer"
 ],
-"placeholderenemy": [
-"chain_max"
-],
 "clubsenemy old": [
 "checkhp1"
-],
-"heartenemy": [
-"obj_heartenemy_slash_Draw_0_gml_6_0"
 ]
 };

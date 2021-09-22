@@ -21,10 +21,22 @@ for line in sp.run(
 ja = json.load(LANG.open())
 del ja["date"]
 
+def looks_internal(text):
+    if "_" in text and not ("K_K" in text or "E_MAIL" in text):
+        return True
+    # This has a bunch of false positives
+    # if text.isalnum() and text.islower():
+    #     return True
+    return False
+
 d = {}
 for k, v in strings.items():
-    if k in ja and v not in ja:
-        d[k] = v
+    if k not in ja or v in ja:
+        continue
+    if looks_internal(v):
+        print("SKIP", v)
+        continue
+    d[k] = v
 
 with open("lang_en.json", "w") as f:
     json.dump(d, f, indent=2)
