@@ -46,6 +46,12 @@ function render(text) {
         case '<':
             rendered += "&lt;";
             break;
+        case '`':
+            if (text[i + 1]) {
+                rendered += text[i + 1];
+                i += 1;
+            }
+            break;
         default:
             rendered += text[i];
         }
