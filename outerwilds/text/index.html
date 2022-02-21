@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Outer Wilds text dump</title>
+    <style type="text/css">
+      body {
+          /* background: #f8f8f8; */
+          color: black;
+          font-family: Sans;
+          margin: 0px;
+      }
+      div.intro {
+          background: white;
+          color: black;
+          font-family: Sans;
+          padding: 0.4em;
+      }
+      div.section {
+          padding: 0.4em;
+      }
+      a.label {
+          font-size: 0.7em;
+          font-family: Mono;
+          color: #666;
+          text-decoration: none;
+      }
+      div.message {
+          padding: 2px;
+      }
+      span.orange {
+          color: #960;
+      }
+      span.red {
+          color: #d00;
+      }
+      span.grey {
+          color: grey;
+      }
+      span.lightblue {
+          /* color: lightblue; */
+          color: #48a;
+      }
+      span.small {
+          font-size: 0.7em;
+      }
+      span.big {
+          font-size: 2em;
+      }
+      span.template {
+          font-family: Mono;
+      }
+
+      body.solarized {
+          background: #144040;
+          color: #b1eaea;
+          font-family: Mono;
+      }
+      body.solarized a.label {
+          color: #7bbfbf;
+      }
+      body.solarized span.orange {
+          color: #d9ae53;
+      }
+      body.solarized span.lightblue {
+          color: #aed0d8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="intro">
+      <p>This page spoils the entirety of Outer Wilds.</p>
+      <p>The game is much less fun if it's been spoiled.</p>
+      <p>If you haven't finished it, stay away!</p>
+      <p>
+        <input id="solarized" type="checkbox" name="solarized" checked="true">
+        <label for="solarized">Solarized</label>
+      </p>
+      <p>
+        <select id="characters" name="characters">
+          <option value="">Select a character...</option>
+        </select>
+      </p>
+    </div>
+    <noscript>
+      <p>Sorry, but this page requires JavaScript.</p>
+    </noscript>
+    <div id="messages">
+    </div>
+    <script>
+      if (localStorage.getItem("owSolarized") === "no") {
+          solarized.checked = false;
+      } else {
+          solarized.checked = true;
+          document.body.classList.add("solarized");
+      }
+      solarized.addEventListener("change", function() {
+          if (solarized.checked) {
+              document.body.classList.add("solarized");
+              localStorage.setItem("owSolarized", "yes");
+          } else {
+              document.body.classList.remove("solarized");
+              localStorage.setItem("owSolarized", "no");
+          }
+      });
+    </script>
+    <script src="lang_en.js"></script>
+    <script>
+      "use strict";
+
+      let authorsInited = false;
+
+      function render(lang, filter = null) {
+          messages.innerHTML = "";
+          let last = null;
+          let current = null;
+          const authors = new Set;
+          for (const id of Object.keys(lang)) {
+              let [author, message] = lang[id];
+              let label = author;
+              if (author.includes("/")) {
+                  [author, label] = author.split("/");
+              }
+              if (author.includes(";")) {
+                  author = author.split(";")[0];
+              }
+              if (label.includes(";")) {
+                  label = label.split(";")[0];
+              }
+              if (!authorsInited) {
+                  authors.add(author);
+              }
+              if (filter && author !== filter) {
+                  continue;
+              }
+              let did_label = false;
+              if (label !== last) {
+                  current = document.createElement("div");
+                  current.classList.add("section");
+
+                  let lab = document.createElement("a");
+                  lab.classList.add("label");
+                  lab.innerText = label;
+                  lab.id = id;
+                  lab.href = `#${id}`;
+
+                  current.appendChild(lab);
+                  messages.appendChild(current);
+                  did_label = true;
+              }
+              last = label;
+
+              let msg = document.createElement("div");
+              msg.classList.add("message");
+              if (!did_label) {
+                  msg.id = id;
+              }
+              msg.innerHTML = message;
+              current.appendChild(msg);
+          }
+          if (!authorsInited) {
+              for (let author of [...authors].sort()) {
+                  if (author === "?") {
+                      continue;
+                  }
+                  let option = document.createElement("option");
+                  option.value = author;
+                  option.appendChild(document.createTextNode(author));
+                  characters.options.add(option);
+              }
+              authorsInited = true;
+          }
+      }
+
+      let hash = document.location.hash.slice(1);
+      if (hash && !"1234567890".includes(hash[0])) {
+          render(lang_en, hash);
+          let did_find = false;
+          for (let option of characters.options) {
+              if (option.value === hash) {
+                  option.selected = true;
+                  did_find = true;
+                  break;
+              }
+          }
+          if (!did_find) {
+              render(lang_en);
+          }
+      } else {
+          render(lang_en);
+      }
+
+      characters.addEventListener("change", function() {
+          let character = characters.selectedOptions[0].value;
+          render(lang_en, character);
+          document.location.hash = "#" + character;
+      });
+    </script>
+  </body>
+</html>
