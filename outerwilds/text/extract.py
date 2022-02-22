@@ -99,13 +99,6 @@ if need_update:
         json.dump(keymap, f, indent=0)
 
 
-def write_json(name, obj):
-    with open(f"{name}.js", "w") as f:
-        f.write(f"var {name} = ")
-        json.dump(obj, f, indent=0)
-        f.write(";\n")
-
-
 TAGS = {
     "color=red": '<span class="red">',
     "color=lightblue": '<span class="lightblue">',
@@ -118,14 +111,6 @@ TAGS = {
     "b": "<strong>",
     "/b": "</strong>",
     "/size": "</span>",
-    "Pause/": "",
-    "pause": "",
-    "Pause": "",
-    "Pause /": "",
-    "Pause=1": "",
-    "Pause=2": "",
-    "Pause=3": "",
-    "Pause=0.5": "",
     "NbTimeloops": '<span class="template">&lt;NbTimeloops&gt;</span>',
     "FirstLoop": '<span class="template">&lt;FirstLoop&gt;</span>',
     "MinutesSinceRedGiant": '<span class="template">&lt;MinutesSinceRedGiant&gt;</span>',
@@ -157,6 +142,8 @@ def clean_message(message):
                 clean += '<span class="big">'
         elif tag.startswith("color=\n"):
             clean += "<span>"
+        elif tag.startswith(("pause", "Pause")):
+            pass
         else:
             clean += TAGS[tag]
         clean += next(it)
@@ -165,8 +152,6 @@ def clean_message(message):
 
 
 for lang, entries in translations.items():
-    if lang != "en":
-        continue
     doc = {}
     for k, v in entries:
         author = label = labels[k]
@@ -180,4 +165,6 @@ for lang, entries in translations.items():
         if label != author:
             val.append(label)
         doc[keymap[k]] = val
-    write_json(f"lang_{lang}", doc)
+
+    with open(f"lang_{lang}.json", "w") as f:
+        json.dump(doc, f, indent=0)
