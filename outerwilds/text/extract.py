@@ -34,15 +34,14 @@ translations = {
     lang: [
         (
             entry.find("key").text.strip(),
-            (entry.find("value").text or entry.find("key").text)
-            .strip()
-            .replace("\\\\n", "\n"),
+            entry.find("value").text.strip().replace("\\\\n", "\n"),
         )
         for entry in [
             *doc.iterfind("entry"),
             *doc.find("table_shipLog").iterfind("TranslationTableEntry"),
             *doc.find("table_ui").iterfind("TranslationTableEntryUI"),
         ]
+        if entry.find("value").text
     ]
     for lang, doc in zip(langs, docs, strict=True)
 }
