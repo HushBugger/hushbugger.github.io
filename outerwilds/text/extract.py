@@ -110,19 +110,21 @@ TAGS = {
     "b": "<strong>",
     "/b": "</strong>",
     "/size": "</span>",
-    "NbTimeloops": '<span class="template">&lt;NbTimeloops&gt;</span>',
-    "FirstLoop": '<span class="template">&lt;FirstLoop&gt;</span>',
-    "MinutesSinceRedGiant": '<span class="template">&lt;MinutesSinceRedGiant&gt;</span>',
-    "SecondsSinceRedGiant": '<span class="template">&lt;SecondsSinceRedGiant&gt;</span>',
-    "MinutesToRedGiant": '<span class="template">&lt;MinutesToRedGiant&gt;</span>',
-    "SecondsToRedGiant": '<span class="template">&lt;SecondsToRedGiant&gt;</span>',
-    "RemainingMinutes": '<span class="template">&lt;RemainingMinutes&gt;</span>',
-    "RemainingSeconds": '<span class="template">&lt;RemainingSeconds&gt;</span>',
-    "TimeMinutes": '<span class="template">&lt;TimeMinutes&gt;</span>',
-    "TimeSeconds": '<span class="template">&lt;TimeSeconds&gt;</span>',
-    "TimeMinutesRemaining": '<span class="template">&lt;TimeMinutesRemaining&gt;</span>',
-    "Profile Name": '<span class="template">&lt;Profile Name&gt;</span>',
     "!": "",  # Some kind of beep?
+}
+PRESERVE = {
+    "NbTimeloops",
+    "FirstLoop",
+    "MinutesSinceRedGiant",
+    "SecondsSinceRedGiant",
+    "MinutesToRedGiant",
+    "SecondsToRedGiant",
+    "RemainingMinutes",
+    "RemainingSeconds",
+    "TimeMinutes",
+    "TimeSeconds",
+    "TimeMinutesRemaining",
+    "Profile Name",
 }
 
 
@@ -143,6 +145,8 @@ def clean_message(message):
             clean += "<span>"
         elif tag.startswith(("pause", "Pause")):
             pass
+        elif tag in PRESERVE:
+            clean += f'<span class="template">&lt;{tag}&gt;</span>'
         else:
             clean += TAGS[tag]
         clean += next(it)
