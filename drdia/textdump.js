@@ -1581,7 +1581,7 @@ var d = {
 "* Originally a smith by trade^1, he began writing history.../",
 "* And made a turn into telling stories^1,/",
 "* As a means to entertain his children./",
-"* That such a story^1, created for a such a simple purpose^1,/",
+"* That such a story^1, created for such a simple purpose^1,/",
 "* Could blossom into such a large^1, wonderful^1, world-changing thing.../",
 "* That is the majesty of words^1, Kris./",
 "* My father was blessed to have such a talent for writing./%",
@@ -3267,6 +3267,7 @@ var d = {
 "ACT",
 "Use#action",
 "Do all sorts of things.#It isn't magic.",
+"You can do many things.#Don't confuse it with magic.",
 "SleepMist",
 "Sleep Mist",
 "Spare#TIRED foes",
@@ -4451,7 +4452,7 @@ var d = {
 "\\EQ* Let Kris do what they want^1, Susie! \\f0/",
 "Also, it's not a statue?",
 "\\E0* The hell you even have a Ralsei statue anyway?/",
-"\\E1* Susie wants to practice hugging too? \\f1 ^3 /%",
+"\\E1* Susie wants to practice hugging too? \\f1 ^1 /%",
 "KRIS HURRY UP ALREADY!",
 "* Oh^1! Let us take your coat^1!&* And put it in the TOILET^1! HA^1!&* ... which^1, we don't even have./",
 "* Please try the baseballs~^1!&* Yeah^1! Eat so many you CHOKE^1!&* ... do they eat sports?/",
@@ -6107,7 +6108,7 @@ var d = {
 "It's time...&for me to&take my&freedom!!/%",
 "Toast",
 "GroupToast",
-"Shield Destroyed"
+"ctimer"
 ],
 "initializer": [
 "Known Quantity"
@@ -6726,24 +6727,26 @@ var d = {
 " ads!"
 ],
 "swatchling enemy": [
-"My outfit is coordinated now.&With myself.",
 "Welcome,&young masters.",
 "We have prepared several&attack patterns for&your enjoyment.",
 "Please enjoy them&at your convenience.",
-"We feel so&coordinated.",
-"Thank you,&young masters.",
-"Thank you.",
-"I'm feeling&blue.",
-"I'm seeing&red.",
-"I'm a yellow&fellow.",
 "Tut, tut.&It looks like pain.",
 "We'll shine your shoes&'til they're black and blue.",
 "We'll make your bed&with sheets blood red.",
 "We'll make yellow sweets&for you, just try&not to hurt your tooth.",
+"Please enjoy these&complimentary birds.",
+"Would you like&some horse'dovours?",
 "What? The lasagna&has some kind of&explosive in it?",
 "Please enjoy this&complimentary body slam.",
-"Please enjoy this&complimentary shockwave.",
-"Would you like&some horse'dovours?",
+"I'm feeling&blue.",
+"I'm seeing&red.",
+"I'm a yellow&fellow.",
+"How about some&orange peel.",
+"A green lime&for your drink?",
+"We feel so&coordinated.",
+"Thank you,&young masters.",
+"Thank you.",
+"My outfit is coordinated now.&With myself.",
 "* The Swatchlings are cleaning each other off with feather dusters.",
 "* Swatchling feather dusts itself.",
 "* Swatchlings flex their backs while bending over to inspect a teacup.",
@@ -7325,7 +7328,7 @@ var d = {
 "* Ralsei snapped a wire!/%",
 "* The power Ralsei's fluffy warmth surrounds you!./%",
 "* Ralsei defended you!/%",
-"* You have too many tiny Ralsei!/%",
+"* Too many fluff balls!&* Can't make any more!/%",
 "My esteem customer&I see you are attempting to deplete my HP!/%",
 "WAIT!!&[$!?!] THE PRESSES!/%",
 "HAHAHA... KRIS!!!&YOU THINK DEPLETING&MY [8000 Life Points]/%",
@@ -7554,7 +7557,6 @@ var d = {
 "o boxingcontroller": [
 "DODGE with ~1 or ~2!",
 "Press ~1 to Duck!",
-"default",
 "* (Press ~1 or ~2 to hit Queen after she attacks!)",
 "* (Punch during Queen's turn with ~1 or ~2 after she attacks!)",
 "* (Dodge Queen's attacks with ~1, ~2, and ~3!)",
@@ -9344,6 +9346,11 @@ var d = {
 "\\EM* Um..^1. that's..^1. just a duck./",
 "\\E6* I knoweth what it art^1, Ruffiane!!/",
 "\\E1* Go forth!^1! My Squeakie Duckie!!/%",
+"\\E4* So thou hath beateneth The Crappeth out of Me./",
+"\\E3* I supposest that means thou thinkest thoust hath Won?/",
+"\\EK* Umm..^1. morally^1, no^1.&* Physically..^1. yes./",
+"\\E1* Well shivereth my timbereth^1, you little Bimbo!/",
+"\\E2* For in a battle of TRUE Powere^1, Rouxls..^1. shall RULE!/%",
 "\\E2* Ah...^1. Ahh^1, ha ha ha...!/",
 "\\E6* So thou hast triumphed.../",
 "\\E0* So we hath an EQUAL number of houses!/",
@@ -11158,7 +11165,7 @@ var d = {
 "File Saved"
 ],
 "initializer2": [
-"************* "
+"hasitems"
 ],
 "overworldc": [
 "* You bid a quiet farewell to the ~1.",

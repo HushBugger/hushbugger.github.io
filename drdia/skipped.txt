@@ -66,6 +66,7 @@ SKIP sweet_string
 SKIP capn_string
 SKIP kk_string
 SKIP Choicer_Screenshot_
+SKIP default_string
 SKIP spamton_neo_after.ogg
 SKIP INCOMPLETEFILE_PREV_NAME
 SKIP COMPLETETIME_SECONDS_TOTAL
