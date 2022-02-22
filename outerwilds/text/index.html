@@ -6,15 +6,13 @@
     <title>Outer Wilds text dump</title>
     <style type="text/css">
       body {
-          /* background: #f8f8f8; */
           color: black;
-          font-family: Sans;
+          font-family: sans-serif;
           margin: 0px;
       }
       div.intro {
           background: white;
           color: black;
-          font-family: Sans;
           padding: 0.4em;
       }
       div.section {
@@ -22,12 +20,13 @@
       }
       a.label {
           font-size: 0.7em;
-          font-family: Mono;
+          font-family: monospace;
           color: #666;
           text-decoration: none;
       }
       div.message {
           padding: 2px;
+          overflow-wrap: anywhere;
       }
       span.orange {
           color: #960;
@@ -39,23 +38,26 @@
           color: grey;
       }
       span.lightblue {
-          /* color: lightblue; */
           color: #48a;
       }
       span.small {
-          font-size: 0.7em;
+          font-size: 0.7rem;
       }
       span.big {
-          font-size: 2em;
+          font-size: 2rem;
       }
       span.template {
-          font-family: Mono;
+          font-family: monospace;
+          font-size: 1.2em;
       }
 
       body.solarized {
           background: #144040;
           color: #b1eaea;
-          font-family: Mono;
+      }
+      body.solarized div.message {
+          font-family: monospace;
+          font-size: 1.2em;
       }
       body.solarized a.label {
           color: #7bbfbf;
