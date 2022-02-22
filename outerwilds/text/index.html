@@ -148,8 +148,8 @@
                   lang = hash.slice(1, 3);
                   hash = hash.slice(4);
               }
-              if (!"1234567890".includes(hash[0])) {
-                  [filter] = hash.split('#');
+              if (hash && !"1234567890".includes(hash[0])) {
+                  filter = hash.split('#')[0].replace("%20", " ");
               }
           }
           updateLangDropdown();
