@@ -118,7 +118,7 @@ TAGS = {
     "b": "<strong>",
     "/b": "</strong>",
     "/size": "</span>",
-    "Pause/": "",  # Or maybe a space?
+    "Pause/": "",
     "pause": "",
     "Pause": "",
     "Pause /": "",

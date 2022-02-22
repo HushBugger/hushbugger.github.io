@@ -118,7 +118,7 @@
           let last = null;
           let current = null;
           const authors = new Set;
-          for (const id of Object.keys(lang)) {
+          for (let id of Object.keys(lang)) {
               let [author, message] = lang[id];
               let label = author;
               if (author.includes("/")) {
@@ -135,6 +135,9 @@
               }
               if (filter && author !== filter) {
                   continue;
+              }
+              if (filter) {
+                  id = `${filter}#${id}`;
               }
               let did_label = false;
               if (label !== last) {
@@ -177,10 +180,11 @@
 
       let hash = document.location.hash.slice(1);
       if (hash && !"1234567890".includes(hash[0])) {
-          render(lang_en, hash);
+          let [character] = hash.split('#');
+          render(lang_en, character);
           let did_find = false;
           for (let option of characters.options) {
-              if (option.value === hash) {
+              if (option.value === character) {
                   option.selected = true;
                   did_find = true;
                   break;
