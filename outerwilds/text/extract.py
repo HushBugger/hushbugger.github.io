@@ -29,25 +29,25 @@ while True:
         break
     end = text.find(END_MARK, start) + len(END_MARK)
     docs.append(ET.fromstring(text[start:end]))
-assert len(langs) == len(docs)
-doc = docs[langs.index("en")]
 
-entries = [
-    *doc.iterfind("entry"),
-    *doc.find("table_shipLog").iterfind("TranslationTableEntry"),
-    *doc.find("table_ui").iterfind("TranslationTableEntryUI"),
-]
+translations = {
+    lang: [
+        (
+            entry.find("key").text.strip(),
+            (entry.find("value").text or entry.find("key").text)
+            .strip()
+            .replace("\\\\n", "\n"),
+        )
+        for entry in [
+            *doc.iterfind("entry"),
+            *doc.find("table_shipLog").iterfind("TranslationTableEntry"),
+            *doc.find("table_ui").iterfind("TranslationTableEntryUI"),
+        ]
+    ]
+    for lang, doc in zip(langs, docs, strict=True)
+}
 
-entries = [
-    (
-        entry.find("key").text.strip(),
-        (entry.find("value").text or entry.find("key").text)
-        .strip()
-        .replace("\\\\n", "\n"),
-    )
-    for entry in entries
-]
-
+entries = translations["en"]
 
 with open("labels.json") as f:
     old = json.load(f)
@@ -164,4 +164,20 @@ def clean_message(message):
     return clean
 
 
-write_json("lang_en", {keymap[k]: [labels[k], clean_message(v)] for k, v in entries})
+for lang, entries in translations.items():
+    if lang != "en":
+        continue
+    doc = {}
+    for k, v in entries:
+        author = label = labels[k]
+        if "/" in label:
+            author, label = label.split("/")
+        if ";" in author:
+            author, _ = author.split(";")
+        if ";" in label:
+            label, _ = label.split(";")
+        val = [clean_message(v), author]
+        if label != author:
+            val.append(label)
+        doc[keymap[k]] = val
+    write_json(f"lang_{lang}", doc)

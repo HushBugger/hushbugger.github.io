@@ -119,8 +119,8 @@
           let current = null;
           const authors = new Set;
           for (let id of Object.keys(lang)) {
-              let [author, message] = lang[id];
-              let label = author;
+              let [message, author, label] = lang[id];
+              label = label || author;
               if (author.includes("/")) {
                   [author, label] = author.split("/");
               }
