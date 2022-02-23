@@ -88,6 +88,92 @@
       <p>
         <select id="characters" name="characters">
           <option value="">Select a character...</option>
+          <optgroup label="Travelers">
+            <option value="Chert">Chert</option>
+            <option value="Esker">Esker</option>
+            <option value="Feldspar">Feldspar</option>
+            <option value="Gabbro">Gabbro</option>
+            <option value="Riebeck">Riebeck</option>
+            <option value="Solanum">Solanum</option>
+            <option value="Prisoner">Prisoner</option>
+            <option value="Self">Self</option>
+          </optgroup>
+          <optgroup label="Hearthians">
+            <option value="Arkose">Arkose</option>
+            <option value="Galena">Galena</option>
+            <option value="Gneiss">Gneiss</option>
+            <option value="Gossan">Gossan</option>
+            <option value="Hal">Hal</option>
+            <option value="Hornfels">Hornfels</option>
+            <option value="Marl">Marl</option>
+            <option value="Mica">Mica</option>
+            <option value="Moraine">Moraine</option>
+            <option value="Porphy">Porphy</option>
+            <option value="Rutile">Rutile</option>
+            <option value="Slate">Slate</option>
+            <option value="Spinel">Spinel</option>
+            <option value="Tektite">Tektite</option>
+            <option value="Tephra">Tephra</option>
+            <option value="Tuff">Tuff</option>
+          </optgroup>
+          <optgroup label="Nomai">
+            <option value="Annona">Annona</option>
+            <option value="Avens">Avens</option>
+            <option value="Bells">Bells</option>
+            <option value="Bromi">Bromi</option>
+            <option value="Bur">Bur</option>
+            <option value="Canna">Canna</option>
+            <option value="Cassava">Cassava</option>
+            <option value="Clary">Clary</option>
+            <option value="Clem">Clem</option>
+            <option value="Coleus">Coleus</option>
+            <option value="Conoy">Conoy</option>
+            <option value="Cycad">Cycad</option>
+            <option value="Daz">Daz</option>
+            <option value="Din">Din</option>
+            <option value="Escall">Escall</option>
+            <option value="Filix">Filix</option>
+            <option value="Hyssop">Hyssop</option>
+            <option value="Idaea">Idaea</option>
+            <option value="Ilex">Ilex</option>
+            <option value="Kousa">Kousa</option>
+            <option value="Laevi">Laevi</option>
+            <option value="Lami">Lami</option>
+            <option value="Mallow">Mallow</option>
+            <option value="Melorae">Melorae</option>
+            <option value="Mitis">Mitis</option>
+            <option value="Neem">Neem</option>
+            <option value="Oeno">Oeno</option>
+            <option value="Phlox">Phlox</option>
+            <option value="Plume">Plume</option>
+            <option value="Poke">Poke</option>
+            <option value="Privet">Privet</option>
+            <option value="Pye">Pye</option>
+            <option value="Ramie">Ramie</option>
+            <option value="Rhus">Rhus</option>
+            <option value="Root">Root</option>
+            <option value="Secca">Secca</option>
+            <option value="Spire">Spire</option>
+            <option value="Taget">Taget</option>
+            <option value="Thatch">Thatch</option>
+            <option value="Yarrow">Yarrow</option>
+            <option value="Nomai">Unknown Nomai</option>
+            <option value="Nomai computer">Nomai computer</option>
+            <option value="Nomai sign">Nomai sign</option>
+          </optgroup>
+          <optgroup label="Other">
+            <option value="Easter egg">Easter egg</option>
+            <option value="Ending">Ending</option>
+            <option value="Exhibit">Exhibit</option>
+            <option value="Eye">Eye</option>
+            <option value="Gravestone">Gravestone</option>
+            <option value="Notes">Notes</option>
+            <option value="Projector">Projector</option>
+            <option value="Ship Log">Ship Log</option>
+            <option value="Sign">Sign</option>
+            <option value="Translator">Translator</option>
+            <option value="UI">UI</option>
+          </optgroup>
         </select>
       </p>
       <p>
@@ -158,6 +244,7 @@
                   filter = hash.split('#')[0].replace("%20", " ");
               }
           }
+          updateFilterDropdown();
           updateLangDropdown();
       }
 
@@ -209,6 +296,7 @@
           let last = null;
           let current = null;
           const authors = new Set;
+          let didFind = false;
           for (let id of Object.keys(translation)) {
               let [message, author, label] = translation[id];
               label = label || author;
@@ -218,6 +306,7 @@
               if (filter && author !== filter) {
                   continue;
               }
+              didFind = true;
               id = id.toString();
               if (filter) {
                   id = `${filter}#${id}`;
@@ -252,26 +341,6 @@
           }
           curLang = lang;
           curFilter = filter;
-          if (!authorsInited) {
-              for (let author of [...authors].sort()) {
-                  if (author === "?") {
-                      continue;
-                  }
-                  let option = document.createElement("option");
-                  option.value = author;
-                  option.appendChild(document.createTextNode(author));
-                  characters.options.add(option);
-              }
-              authorsInited = true;
-          }
-          let didFind = false;
-          for (let option of characters.options) {
-              if (option.value === filter) {
-                  option.selected = true;
-                  didFind = true;
-                  break;
-              }
-          }
           if (!didFind) {
               filter = "";
               updateHash();
@@ -294,16 +363,28 @@
           document.location.hash = hash;
       }
 
-      function updateLangDropdown() {
-          for (let option of language.options) {
-              if (option.value === lang) {
-                  option.selected = true;
+      function updateFilterDropdown() {
+          for (let option of characters.options) {
+              if (option.value === filter) {
+                  if (!option.selected) {
+                      // I'm paranoid about update loops
+                      option.selected = true;
+                  }
                   break;
               }
           }
       }
 
-      updateLangDropdown();
+      function updateLangDropdown() {
+          for (let option of language.options) {
+              if (option.value === lang) {
+                  if (!option.selected) {
+                      option.selected = true;
+                  }
+                  break;
+              }
+          }
+      }
 
       characters.addEventListener("change", function() {
           filter = characters.selectedOptions[0].value;
