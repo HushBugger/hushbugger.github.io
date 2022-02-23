@@ -1,27 +1,27 @@
 {
 "1": [
 "<span class=\"lightblue\">G\u00f6z</span> nas\u0131l evrenden daha ya\u015fl\u0131 olabilir?",
-"Nomai"
+"Unknown Nomai"
 ],
 "2": [
 "Daha \u00f6nceki bir evrenin kal\u0131nt\u0131s\u0131 olabilir.",
-"Nomai"
+"Unknown Nomai"
 ],
 "3": [
 "Evren ba\u015flang\u0131\u00e7ta tahayy\u00fcl edilmez derecede s\u0131cak ve yo\u011fundu. Daha \u00f6nce bir \u015fey vard\u0131ysa bile yok olmas\u0131 gerekir.",
-"Nomai"
+"Unknown Nomai"
 ],
 "4": [
 "Evren sand\u0131\u011f\u0131m\u0131zdan da ya\u015fl\u0131 olabilir.",
-"Nomai"
+"Unknown Nomai"
 ],
 "5": [
 "<span class=\"orange\">K\u00fcl \u0130kizi Projesi</span> i\u00e7in \u00e7ok g\u00fc\u00e7l\u00fc, ileri d\u00fczey bir sapma \u00e7ekirde\u011fi gerekiyor. Bunu nas\u0131l edinmeliyiz?",
-"Nomai"
+"Unknown Nomai"
 ],
 "6": [
 "\u00c7\u00f6z\u00fcm 2: \u0130lham\u0131n\u0131 <span class=\"orange\">Tekne</span>'nin sapma \u00e7ekirde\u011finden alan yeni bir ileri d\u00fczey sapma \u00e7ekirde\u011fi in\u015fa edebiliriz.",
-"Nomai"
+"Unknown Nomai"
 ],
 "7": [
 "OENO: O konuda en b\u00fcy\u00fck zorlu\u011fun \u015fu olaca\u011f\u0131n\u0131 d\u00fc\u015f\u00fcn\u00fcyorum; b\u00f6ylesine g\u00fc\u00e7l\u00fc bir \u00e7ekirde\u011fin tasar\u0131m planlar\u0131 elimizde yok, ayr\u0131ca <span class=\"orange\">Tekne</span>'nin ilk mimarlar\u0131ndan kimse kalmad\u0131.",
@@ -3905,7 +3905,7 @@
 ],
 "921": [
 "Bir <span class=\"orange\">G\u00fcne\u015f \u0130stasyonu</span> in\u015fa edip <span class=\"orange\">K\u00fcl \u0130kizi Projesi</span>'ne enerji sa\u011flayabilir miyiz?",
-"Nomai"
+"Unknown Nomai"
 ],
 "922": [
 "IDAEA: Bu konuda nas\u0131l olur da ciddi bir \u00f6nerge sunulabilir, adeta kavrayam\u0131yorum. Bir <span class=\"orange\">G\u00fcne\u015f \u0130stasyonu</span> ile g\u00fcd\u00fclecek ama\u00e7, kendimizi ba\u011fl\u0131 g\u00f6rd\u00fc\u011f\u00fcm\u00fcz t\u00fcm standartlara ve bir t\u00fcr olarak inand\u0131\u011f\u0131m\u0131z her \u015feye kar\u015f\u0131 gelir!",
@@ -4189,11 +4189,11 @@
 ],
 "992": [
 "Bu mek\u00e2n sizi ho\u015f kar\u015f\u0131las\u0131n. \u0130lk kuantum yolculu\u011funu yapacak ki\u015fi, kim olursa olsun, arad\u0131\u011f\u0131 cevaplar\u0131 bu kulede bulacakt\u0131r.",
-"Nomai"
+"Unknown Nomai"
 ],
 "993": [
 "Lakin; bu mek\u00e2na yan\u0131n\u0131zda dostlar olmadan girin, bunlar yaln\u0131z kendi ba\u015f\u0131n\u0131za \u00f6\u011frenebilece\u011finiz derslerdir.",
-"Nomai"
+"Unknown Nomai"
 ],
 "994": [
 "Gezinen kemeri ara.",
@@ -4201,7 +4201,7 @@
 ],
 "995": [
 "Bir kuantum nesnesini g\u00f6zlemlemek ile bir kuantum nesnesinin g\u00f6r\u00fcnt\u00fcs\u00fcn\u00fc g\u00f6zlemlemek. \u0130kisi de ayn\u0131.",
-"Nomai"
+"Unknown Nomai"
 ],
 "996": [
 "Bu sonuncusu (ama bunu biz zorla\u015ft\u0131rd\u0131k).",
@@ -4469,67 +4469,67 @@
 ],
 "1062": [
 "<span class=\"lightblue\">Evrenin G\u00f6z\u00fc</span> nedir?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1063": [
 "<span class=\"lightblue\">G\u00f6z</span> bizi buraya getiren sinyalin kayna\u011f\u0131d\u0131r.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1064": [
 "<span class=\"lightblue\">G\u00f6z</span>'\u00fcn daha ileri bir varl\u0131k oldu\u011funu varsay\u0131yoruz.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1065": [
 "<span class=\"lightblue\">G\u00f6z</span> bu evrenden daha ya\u015fl\u0131, bize \u00f6\u011fretebilece\u011fi ne \u00e7ok \u015fey oldu\u011funu d\u00fc\u015f\u00fcnsenize.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1066": [
 "Belki bir t\u00fcr kozmik k\u00fct\u00fcphanedir!",
-"Nomai"
+"Unknown Nomai"
 ],
 "1067": [
 "<span class=\"lightblue\">G\u00f6z</span>'den gelen sinyal nedir?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1068": [
 "<span class=\"lightblue\">G\u00f6z</span>'\u00fcn ileti\u015fime ge\u00e7mek istedi\u011fini varsay\u0131yoruz.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1069": [
 "Sinyal bir \u00e7a\u011fr\u0131d\u0131r. \u00c7a\u011fr\u0131n\u0131n seslenmek istedi\u011fi dinleyiciler biz miydik?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1070": [
 "Sinyal, <span class=\"lightblue\">G\u00f6z</span>'\u00fcn sesidir. Hen\u00fcz bilmedi\u011fimiz bir dilde konu\u015fur.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1071": [
 "Ya da belki de sinyal <span class=\"lightblue\">G\u00f6z</span>'\u00fcn kendini ifade etme giri\u015fimidir.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1072": [
 "\u00d6nemli: G\u00f6nderdi\u011fi sinyalden, <span class=\"lightblue\">G\u00f6z</span>'\u00fcn ya\u015f\u0131n\u0131 (ya da belki ya\u015fs\u0131zl\u0131\u011f\u0131n\u0131?) yakla\u015f\u0131k olarak belirleyebildik.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1073": [
 "Bu mek\u00e2n sizi ho\u015f kar\u015f\u0131las\u0131n. Bu mabet bizi bu y\u0131ld\u0131z sistemine getiren \u015feyi: <span class=\"lightblue\">G\u00f6z</span>'\u00fc, derin derin d\u00fc\u015f\u00fcnebilece\u011finiz bir mek\u00e2nd\u0131r.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1074": [
 "<span class=\"lightblue\">G\u00f6z</span>'den gelen sinyali gezilerimiz esnas\u0131nda g\u00f6zlemledik ve kayna\u011f\u0131n\u0131 bulmak i\u00e7in takip ederek buraya geldik.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1075": [
 "Bildi\u011fimiz \u015fey \u015fu: Sinyalin kayna\u011f\u0131 (ki biz buna <span class=\"lightblue\">Evrenin G\u00f6z\u00fc</span> demeyi tercih ediyoruz) evrenin kendinden daha ya\u015fl\u0131. Gerisini hen\u00fcz \u00f6\u011frenmedik.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1076": [
 "Girin ve zihninizi olas\u0131l\u0131klara a\u00e7\u0131n.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1077": [
 "\u00c7\u00f6z\u00fcm 1: Sapma \u00e7ekirde\u011fini <span class=\"orange\">Tekne</span>'den geri alabiliriz.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1078": [
 "RAMIE:  <span class=\"orange\">Tekne</span>'nin sapma \u00e7ekirde\u011fi duruyorsa bile, bozulmu\u015f olmal\u0131 (hat\u0131rlay\u0131n; <span class=\"orange\">Tekne</span> \u00e7ak\u0131ld\u0131\u011f\u0131nda orada olanlar, \u00f6l\u00fcmc\u00fcl yaralar al\u0131nd\u0131\u011f\u0131n\u0131 s\u00f6ylemi\u015fti). Riske girsek bile, kar\u015f\u0131l\u0131\u011f\u0131n\u0131 alaca\u011f\u0131m\u0131z kesin de\u011fil.",
@@ -4837,75 +4837,75 @@
 ],
 "1154": [
 "<span class=\"lightblue\">G\u00f6z</span> bizi \u00e7a\u011f\u0131rd\u0131ysa neden kendini g\u00f6stermiyor? Neden konumunu belirlemek bu kadar zor?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1155": [
 "Yoksa ona bir \u015fey mi oldu?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1156": [
 "Sinyal durdu mu? Yoksa <span class=\"lightblue\">G\u00f6z</span> art\u0131k bulunmak istemiyor mu?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1157": [
 "Belki bu <span class=\"lightblue\">G\u00f6z</span>'\u00fcn tercihine ba\u011fl\u0131 de\u011fildir.  <span class=\"lightblue\">G\u00f6z</span> bizimle zaten ileti\u015fime ge\u00e7ti, farkl\u0131 veya daha iyi bir ileti\u015fim kurmas\u0131 m\u00fcmk\u00fcn olmayabilir.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1158": [
 "<span class=\"lightblue\">G\u00f6z</span> sinyali g\u00f6ndererek bizi kasten mi \u00e7a\u011f\u0131rd\u0131, yoksa sinyali rastlant\u0131 eseri mi duyduk?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1159": [
 "Anlam olmayan yerde anlam buluyor olabiliriz. Sinyalin kazara g\u00f6nderildi\u011fini varsayal\u0131m.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1160": [
 "Peki bu <span class=\"lightblue\">G\u00f6z</span>'\u00fcn \u00f6nemini azalt\u0131r m\u0131?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1161": [
 "Belki <span class=\"lightblue\">G\u00f6z</span> bulunmak istemi\u015ftir (sezgili bir varl\u0131k olabilir mi?). Belki bizi se\u00e7mi\u015ftir.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1162": [
 "<span class=\"lightblue\">G\u00f6z</span> bizden bir \u015fey mi istiyor? Bir \u015fekilde bize ihtiya\u00e7 duymu\u015f olabilir mi?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1163": [
 "Belki \u00e7a\u011f\u0131rd\u0131\u011f\u0131 yaln\u0131zca biz de\u011filizdir, \u00f6yle olmak zorunda de\u011fil.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1164": [
 "<span class=\"lightblue\">G\u00f6z</span> do\u011fal m\u0131, yoksa yapay m\u0131?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1165": [
 "Belki biri veya birileri taraf\u0131ndan in\u015fa edilmi\u015ftir.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1166": [
 "<span class=\"lightblue\">G\u00f6z</span> evrenin kendinden daha ya\u015fl\u0131. Bir \u015fey nas\u0131l kendi yarat\u0131c\u0131s\u0131ndan \u00f6nce var olabilir?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1167": [
 "Do\u011fal olarak ger\u00e7ekle\u015fiyor olabilir, ancak bu <span class=\"lightblue\">G\u00f6z</span>'\u00fcn nas\u0131l en az evren kadar ya\u015fl\u0131 oldu\u011funu a\u00e7\u0131klam\u0131yor.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1168": [
 "Bu mek\u00e2n sizi ho\u015f kar\u015f\u0131las\u0131n. Bu mabet bizi bu y\u0131ld\u0131z sistemine getiren \u015feyi: <span class=\"lightblue\">G\u00f6z</span>'\u00fc, derinlemesine d\u00fc\u015f\u00fcnebilece\u011finiz bir mek\u00e2nd\u0131r.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1169": [
 "<span class=\"lightblue\">G\u00f6z</span>'den gelen sinyali gezilerimiz esnas\u0131nda g\u00f6zlemledik ve kayna\u011f\u0131n\u0131 bulmak i\u00e7in takip ederek buraya geldik.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1170": [
 "Bildi\u011fimiz \u015fey \u015fu: Sinyalin kayna\u011f\u0131 (ki biz buna <span class=\"lightblue\">Evrenin G\u00f6z\u00fc</span> demeyi tercih ediyoruz) evrenin kendinden daha ya\u015fl\u0131. Gerisini hen\u00fcz \u00f6\u011frenmedik.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1171": [
 "Girin ve zihninizi olas\u0131l\u0131klara a\u00e7\u0131n.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1172": [
 "SOLANUM: Herkes neden <span class=\"lightblue\">G\u00f6z</span>'\u00fcn \u00f6nemli oldu\u011funu s\u00f6yl\u00fcyor bilmiyorum.",
@@ -5293,15 +5293,15 @@
 ],
 "1268": [
 "Kuantum g\u00f6r\u00fcnt\u00fcleme ilkesini anlad\u0131n.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1269": [
 "Kuantum dola\u015f\u0131kl\u0131\u011f\u0131 ilkesini hat\u0131rla.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1270": [
 "Alt\u0131nc\u0131 konum kural\u0131n\u0131 hat\u0131rla.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1271": [
 "SOLANUM: Mekikteyim!  <span class=\"lightblue\">Kuantum Ay</span>'a ilk hac yolculu\u011fumu yapmaya haz\u0131r\u0131m.",
@@ -7979,15 +7979,15 @@
 ],
 "1896": [
 "Tebriklerimizi sunar\u0131z! Kuantum g\u00f6r\u00fcnt\u00fcleme ilkesini \u00f6\u011frendiniz. Bu bilgeli\u011fi kuantum hac yolculu\u011funuzun geri kalan\u0131nda beraberinizde g\u00f6t\u00fcr\u00fcn.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1897": [
 "Unutmay\u0131n, ba\u015fka kuantum par\u00e7alar\u0131n\u0131n \u00f6\u011fretece\u011fi ba\u015fka dersler var.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1898": [
 "Merak\u0131m\u0131z yolculu\u011funuzda yolda\u015f\u0131n\u0131z olsun. Siz, sizden \u00f6nce gelenlerin ad\u0131mlar\u0131n\u0131 izliyorsunuz, sizin ad\u0131mlar\u0131n\u0131z, sizden sonra gelenlere rehberlik edecek.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1899": [
 "PHLOX: Yarrow, Daz heykele daha yak\u0131n olabilsin diye biraz geri \u00e7ekilebilir misin? Heykel e\u015fle\u015fme esnas\u0131nda en yak\u0131n\u0131nda kim varsa onu se\u00e7er.",

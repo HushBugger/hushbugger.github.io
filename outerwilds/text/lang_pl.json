@@ -1,27 +1,27 @@
 {
 "1": [
 "Jak <span class=\"lightblue\">Oko</span> mo\u017ce by\u0107 starsze od wszech\u015bwiata?",
-"Nomai"
+"Unknown Nomai"
 ],
 "2": [
 "Za\u0142\u00f3\u017cmy, \u017ce jest to relikt poprzedniego wszech\u015bwiata.",
-"Nomai"
+"Unknown Nomai"
 ],
 "3": [
 "Wczesny wszech\u015bwiat by\u0142 niewyobra\u017calnie gor\u0105cy i g\u0119sty. Gdyby co\u015b istnia\u0142o przed nim, uleg\u0142oby zniszczeniu.",
-"Nomai"
+"Unknown Nomai"
 ],
 "4": [
 "A je\u015bli wszech\u015bwiat jest starszy, ni\u017c wcze\u015bniej s\u0105dzono?",
-"Nomai"
+"Unknown Nomai"
 ],
 "5": [
 "Do <span class=\"orange\">Projektu Bli\u017aniak z Popio\u0142u</span> niezb\u0119dny jest pot\u0119\u017cny, wysoce zaawansowany rdze\u0144 warpowy. Jak go pozyskamy?",
-"Nomai"
+"Unknown Nomai"
 ],
 "6": [
 "Rozwi\u0105zanie 2: Mogliby\u015bmy stworzy\u0107 nowy, zaawansowany rdze\u0144 warpowy wzorowany na rdzeniu <span class=\"orange\">Statku</span>.",
-"Nomai"
+"Unknown Nomai"
 ],
 "7": [
 "OENO: Wydaje mi si\u0119, \u017ce najwi\u0119kszym wyzwaniem jest brak projektu tak pot\u0119\u017cnego rdzenia; nie mamy te\u017c do pomocy \u017cadnego z tw\u00f3rc\u00f3w rdzenia <span class=\"orange\">Statku</span>.",
@@ -3905,7 +3905,7 @@
 ],
 "921": [
 "Czy powinni\u015bmy zbudowa\u0107 <span class=\"orange\">Stacj\u0119 S\u0142oneczn\u0105</span>, aby zasila\u0107 <span class=\"orange\">Projekt Bli\u017aniak z Popio\u0142u</span>?",
-"Nomai"
+"Unknown Nomai"
 ],
 "922": [
 "IDAEA: Nie mog\u0119 uwierzy\u0107, \u017ce to powa\u017cna propozycja. Przeznaczenie <span class=\"orange\">Stacji S\u0142onecznej</span> zaprzecza wszelkim naszym standardom i wszystkiemu, w co wierzymy!",
@@ -4189,11 +4189,11 @@
 ],
 "992": [
 "Witaj w tym miejscu. Wie\u017ca dzieli si\u0119 wiedz\u0105 potrzebn\u0105 do pierwszej podr\u00f3\u017cy kwantowej ze wszystkimi, kt\u00f3rzy o to poprosz\u0105.",
-"Nomai"
+"Unknown Nomai"
 ],
 "993": [
 "Przyjaci\u00f3\u0142 zostaw jednak na zewn\u0105trz; nauk\u0119 musisz odby\u0107 samotnie.",
-"Nomai"
+"Unknown Nomai"
 ],
 "994": [
 "Poszukaj w\u0119druj\u0105cego \u0142uku.",
@@ -4201,7 +4201,7 @@
 ],
 "995": [
 "Obserwowanie kwantowego obiektu. Obserwowanie obrazu kwantowego obiektu. To dok\u0142adnie to samo.",
-"Nomai"
+"Unknown Nomai"
 ],
 "996": [
 "To ju\u017c ostatnia (a zarazem trudniejsza).",
@@ -4469,67 +4469,67 @@
 ],
 "1062": [
 "Czym jest <span class=\"lightblue\">Oko Wszech\u015bwiata</span>?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1063": [
 "<span class=\"lightblue\">Oko</span> jest \u017ar\u00f3d\u0142em sygna\u0142u, kt\u00f3ry nas tutaj sprowadzi\u0142.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1064": [
 "Za\u0142\u00f3\u017cmy, \u017ce <span class=\"lightblue\">Oko</span> jest bardziej zaawansowan\u0105 istot\u0105.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1065": [
 "<span class=\"lightblue\">Oko</span> jest starsze od wszech\u015bwiata, wi\u0119c wyobra\u017a sobie, ile mogliby\u015bmy si\u0119 od niego nauczy\u0107.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1066": [
 "By\u0107 mo\u017ce jest kosmiczn\u0105 bibliotek\u0105!",
-"Nomai"
+"Unknown Nomai"
 ],
 "1067": [
 "Czym jest sygna\u0142 <span class=\"lightblue\">Oka</span>?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1068": [
 "Za\u0142\u00f3\u017cmy, \u017ce <span class=\"lightblue\">Oko</span> chce si\u0119 z nami porozumie\u0107.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1069": [
 "Sygna\u0142 by\u0142by wtedy wezwaniem. Ale czy jest przeznaczony dla nas?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1070": [
 "Sygna\u0142 jest g\u0142osem <span class=\"lightblue\">Oka</span>. Przemawia w j\u0119zyku, kt\u00f3rego jeszcze nie znamy.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1071": [
 "<span class=\"lightblue\">Oko</span> mo\u017ce pr\u00f3bowa\u0107 wyrazi\u0107 siebie za pomoc\u0105 sygna\u0142u.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1072": [
 "Warto pami\u0119ta\u0107: sygna\u0142 pozwoli\u0142 nam okre\u015bli\u0107 przybli\u017cony wiek <span class=\"lightblue\">Oka</span> (a mo\u017ce wr\u0119cz jego brak?).",
-"Nomai"
+"Unknown Nomai"
 ],
 "1073": [
 "Witaj w tym miejscu. W tej \u015bwi\u0105tyni mo\u017cesz rozwa\u017ca\u0107 nad sygna\u0142em emitowanym przez <span class=\"lightblue\">Oko</span>, kt\u00f3ry sprowadzi\u0142 nas do tego systemu.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1074": [
 "Sygna\u0142 <span class=\"lightblue\">Oka</span> wykryli\u015bmy w czasie naszych podr\u00f3\u017cy. Ruszyli\u015bmy na poszukiwanie jego \u017ar\u00f3d\u0142a i dotarli\u015bmy tutaj.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1075": [
 "Na razie wiemy tylko tyle: \u017ar\u00f3d\u0142o sygna\u0142u (nazywane przez nas <span class=\"lightblue\">Okiem Wszech\u015bwiata</span>) jest starsze od samego wszech\u015bwiata. Wszelkie inne informacje musimy jeszcze zdoby\u0107.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1076": [
 "Wejd\u017a i rozwa\u017c najr\u00f3\u017cniejsze mo\u017cliwo\u015bci.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1077": [
 "Rozwi\u0105zanie 1: Mogliby\u015bmy odzyska\u0107 rdze\u0144 warpowy ze <span class=\"orange\">Statku</span>.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1078": [
 "RAMIE: W najlepszym razie rdze\u0144 warpowy <span class=\"orange\">Statku</span> jest tylko zepsuty (z tego co pami\u0119tam, obecni przy katastrofie <span class=\"orange\">Statku</span> wspominali, \u017ce zosta\u0142 \u015bmiertelnie ranny). Nie mamy \u017cadnej gwarancji, \u017ce to ryzyko si\u0119 op\u0142aci.",
@@ -4837,75 +4837,75 @@
 ],
 "1154": [
 "Je\u015bli przywo\u0142a\u0142o nas <span class=\"lightblue\">Oko</span>, to czemu si\u0119 nie ujawnia? Dlaczego tak trudno je znale\u017a\u0107?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1155": [
 "Czy co\u015b si\u0119 z nim sta\u0142o?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1156": [
 "Czy jego sygna\u0142 zanik\u0142? Czy <span class=\"lightblue\">Oko</span> nie chce ju\u017c by\u0107 znalezione?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1157": [
 "A mo\u017ce wyb\u00f3r nie zale\u017cy od <span class=\"lightblue\">Oka</span>? Mo\u017ce nie potrafi porozumie\u0107 si\u0119 z nami w \u017caden inny spos\u00f3b?<span class=\"lightblue\"></span>",
-"Nomai"
+"Unknown Nomai"
 ],
 "1158": [
 "Czy <span class=\"lightblue\">Oko</span> wzywa\u0142o w\u0142a\u015bnie nas, czy mo\u017ce odkryli\u015bmy jego sygna\u0142 przez przypadek?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1159": [
 "Mo\u017cemy doszukiwa\u0107 si\u0119 sensu tam, gdzie go nie ma. By\u0107 mo\u017ce sygna\u0142 powsta\u0142 przypadkiem.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1160": [
 "Ale czy umniejsza to znaczenie <span class=\"lightblue\">Oka</span>?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1161": [
 "By\u0107 mo\u017ce <span class=\"lightblue\">Oko</span> chcia\u0142o zosta\u0107 znalezione (mo\u017ce jest \u015bwiadome?). Mo\u017ce samo nas wybra\u0142o?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1162": [
 "Czy <span class=\"lightblue\">Oko</span> czego\u015b od nas oczekuje? Czy mo\u017ce nas do czego\u015b potrzebowa\u0107?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1163": [
 "A mo\u017ce wcale nie chodzi o nas?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1164": [
 "Czy <span class=\"lightblue\">Oko</span> jest tworem naturalnym czy sztucznym?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1165": [
 "Mo\u017ce kto\u015b je zbudowa\u0142.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1166": [
 "<span class=\"lightblue\">Oko</span> jest starsze od samego wszech\u015bwiata. Czy co\u015b mo\u017ce powsta\u0107 przed w\u0142asnym stw\u00f3rc\u0105?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1167": [
 "Mo\u017ce to zjawisko naturalne? Tylko jak to mo\u017cliwe, \u017ce <span class=\"lightblue\">Oko</span> jest tak stare?",
-"Nomai"
+"Unknown Nomai"
 ],
 "1168": [
 "Witaj w tym miejscu. W tej \u015bwi\u0105tyni mo\u017cesz rozwa\u017ca\u0107 nad sygna\u0142em emitowanym przez <span class=\"lightblue\">Oko</span>, kt\u00f3ry sprowadzi\u0142 nas do tego systemu.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1169": [
 "Sygna\u0142 <span class=\"lightblue\">Oka</span> wykryli\u015bmy w czasie naszych podr\u00f3\u017cy. Ruszyli\u015bmy na poszukiwanie jego \u017ar\u00f3d\u0142a i dotarli\u015bmy tutaj.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1170": [
 "Na razie wiemy tylko tyle: \u017ar\u00f3d\u0142o sygna\u0142u (nazywane przez nas <span class=\"lightblue\">Okiem Wszech\u015bwiata</span>) jest starsze od samego wszech\u015bwiata. Wszelkie inne informacje musimy jeszcze zdoby\u0107.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1171": [
 "Wejd\u017a i rozwa\u017c najr\u00f3\u017cniejsze mo\u017cliwo\u015bci.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1172": [
 "SOLANUM: Nie rozumiem, dlaczego wszyscy twierdz\u0105, \u017ce <span class=\"lightblue\">Oko</span> jest tak wa\u017cne.",
@@ -5293,15 +5293,15 @@
 ],
 "1268": [
 "Zasada obrazowania kwantowego zosta\u0142a ju\u017c przywo\u0142ana.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1269": [
 "Przypomnij sobie zasad\u0119 kwantowego stanu spl\u0105tanego.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1270": [
 "Przypomnij sobie zasad\u0119 sz\u00f3stego miejsca.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1271": [
 "SOLANUM: Stoj\u0119 przy wahad\u0142owcu! Jestem gotowa odby\u0107 moj\u0105 pierwsz\u0105 pielgrzymk\u0119 na <span class=\"lightblue\">Ksi\u0119\u017cyc Kwantowy</span>.",
@@ -7979,15 +7979,15 @@
 ],
 "1896": [
 "Serdeczne gratulacje! Uda\u0142o ci si\u0119 zg\u0142\u0119bi\u0107 zasad\u0119 obrazowania kwantowego. Korzystaj z niej na dalszych etapach kwantowej pielgrzymki.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1897": [
 "Pami\u0119taj: inne ska\u0142y kwantowe naucz\u0105 ci\u0119 czego\u015b innego.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1898": [
 "Nasza ciekawo\u015b\u0107 b\u0119dzie ci towarzyszy\u0107 w podr\u00f3\u017cy. Kroczysz \u015bladami swoich poprzednik\u00f3w, a twoja \u015bcie\u017cka poprowadzi twych nast\u0119pc\u00f3w.",
-"Nomai"
+"Unknown Nomai"
 ],
 "1899": [
 "PHLOX: Yarrow, czy mo\u017cesz si\u0119 odsun\u0105\u0107, \u017ceby Daz by\u0142 najbli\u017cej pos\u0105gu? Podczas parowania pos\u0105g wybierze tego, kto b\u0119dzie najbli\u017cej.",
