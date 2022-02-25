@@ -88,6 +88,11 @@
       <p>
         <select id="characters" name="characters">
           <option value="">Select a character...</option>
+          <optgroup label="Groups">
+            <option value="Hearthians">Hearthians</option>
+            <option value="Nomai">Nomai</option>
+            <option value="Game text">Game text</option>
+          </optgroup>
           <optgroup label="Travelers">
             <option value="Chert">Chert</option>
             <option value="Esker">Esker</option>
@@ -231,6 +236,23 @@
 
       let needHashJump = true;
 
+      function groupvals(group) {
+          return [
+              ...document.querySelector(`optgroup[label="${group}"]`)
+                  .getElementsByTagName("option")
+          ].map(x => x.value);
+      }
+
+      const groups = new Map([
+          ["Nomai", [...groupvals("Nomai"), "Solanum"]],
+          ["Hearthians", [
+              ...groupvals("Hearthians"),
+              "Chert", "Esker", "Feldspar", "Gabbro", "Riebeck", "Self",
+              "Exhibit", "Notes", "Projector", "Sign",
+          ]],
+          ["Game text", ["Ending", "Ship Log", "UI"]],
+      ]);
+
       function parseHash() {
           lang = "en";
           filter = "";
@@ -291,19 +313,21 @@
               return;
           }
 
+          let authors = filter && new Set(groups.get(filter) || [filter]);
+
           messages.innerHTML = "";
 
           let last = null;
           let current = null;
-          const authors = new Set;
           let didFind = false;
           for (let id of Object.keys(translation)) {
+              // `author` matters for filtering
+              // `label` is displayed
+              // player options are filtered according to the conversation
+              // partner but displayed as "Me"
               let [message, author, label] = translation[id];
               label = label || author;
-              if (!authorsInited) {
-                  authors.add(author);
-              }
-              if (filter && author !== filter) {
+              if (authors && !authors.has(author)) {
                   continue;
               }
               didFind = true;
