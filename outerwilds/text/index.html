@@ -277,15 +277,30 @@
           if (lang === curLang && filter === curFilter) {
               return;
           }
+          // Drawing the messages can take a while even if they've
+          // already been fetched.
+          // We display the "Loading..." message first, then do a
+          // setTimeout() to allow the browser to draw it so it's
+          // displayed while doing the heavy work.
+          // This doesn't work consistently, particularly on Firefox.
+          messages.innerHTML = `
+          <div class="section">
+              <div class="message">Loading...</div>
+          </div>
+          `;
+          setTimeout(render2);
+      }
+
+      function render2() {
+          if (lang === curLang && filter === curFilter) {
+              return;
+          }
 
           let translation = translations[lang];
+          // If you call render() while another call is still processing
+          // then strange things may happen.
+          // I did not guard against this at all.
           if (!translation) {
-              messages.innerHTML = `
-              <div class="section">
-                  <div class="message">Loading...</div>
-              </div>
-              `;
-
               function failed() {
                   messages.innerHTML = `
                   <div class="section">
@@ -304,7 +319,7 @@
                       failed();
                       return;
                   }
-                  render();
+                  render2();
               });
               req.addEventListener("error", failed);
               req.addEventListener("abort", failed);
