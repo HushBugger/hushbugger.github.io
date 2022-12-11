@@ -81,7 +81,7 @@ finally:
     if need_update:
         os.rename("labels.json", "labels.json.bak")
         with open("labels.json", "w") as f:
-            json.dump(labels, f, indent=0)
+            json.dump(labels, f, indent=0, ensure_ascii=False)
 
 # Future-proofing, IDs will stay consistent if text is added/removed in future
 with open("keymap.json") as f:
@@ -95,7 +95,7 @@ for key, value in entries:
         need_update = True
 if need_update:
     with open("keymap.json", "w") as f:
-        json.dump(keymap, f, indent=0)
+        json.dump(keymap, f, indent=0, ensure_ascii=False)
 
 
 TAGS = {
@@ -170,4 +170,4 @@ for lang, entries in translations.items():
         doc[keymap[k]] = val
 
     with open(f"lang_{lang}.json", "w") as f:
-        json.dump(doc, f, indent=0)
+        json.dump(doc, f, indent=0, ensure_ascii=False)
