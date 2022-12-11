@@ -1278,7 +1278,7 @@
 "Self",
 "Me"
 ],
-"302": [
+"3673": [
 "Do\u011fru. Bunu neresinden tutsam, nas\u0131l d\u00fc\u015f\u00fcnsem bilemiyorum.",
 "Self"
 ],
@@ -1304,7 +1304,7 @@
 "Self",
 "Me"
 ],
-"308": [
+"3674": [
 "Haha, aynen, ben de. ...\u00c7ok bariz.",
 "Self"
 ],
@@ -10966,12 +10966,16 @@
 "Simge Odas\u0131",
 "Ship Log"
 ],
-"2620": [
-"Gizli Ge\u00e7it",
+"3675": [
+"Gizli Kasa M\u00fch\u00fcrleri",
 "Ship Log"
 ],
-"2621": [
+"3676": [
 "Kasadan gelen \u0131\u015f\u0131k bana bir kulenin tepesine yak\u0131n bir odaya t\u0131rmanan sarmal bir merdiveni g\u00f6sterdi. Yabanc\u0131'n\u0131n yerlilerinden biri bir duvar resmine i\u015faret etti; \u00f6nceki g\u00f6r\u00fcnt\u00fcdekiyle ayn\u0131 kule, bu sefer halkal\u0131 bir gezegen alt\u0131nda resmedilmi\u015f. Yerli sonra bir eseri al\u0131p a\u015fa\u011f\u0131ya inerek ye\u015fil \u0131\u015f\u0131kl\u0131 bir odaya ta\u015f\u0131d\u0131. Bir s\u00fcre sonra duvar resimli odadaki lambalardan birka\u00e7\u0131 yanarken di\u011ferleri s\u00f6nd\u00fc, duvar resmi karanl\u0131\u011fa kar\u0131\u015f\u0131p kayboldu ve gizli bir ge\u00e7idi ortaya \u00e7\u0131kard\u0131.",
+"Ship Log"
+],
+"3677": [
+"Ge\u00e7idin sonunda \u00fc\u00e7 ah\u015fap sand\u0131k kab\u0131 vard\u0131. Her biri, par\u0131ldayan bir kasa m\u00fchr\u00fc ile i\u015faretlenmi\u015fti.",
 "Ship Log"
 ],
 "2622": [
@@ -11130,20 +11134,28 @@
 "Yeralt\u0131 G\u00f6l\u00fc",
 "Ship Log"
 ],
-"2661": [
-"Ate\u015f Odas\u0131",
+"3678": [
+"\u00c7evreli Ate\u015f",
 "Ship Log"
 ],
-"2662": [
+"3679": [
 "Zincirlerle as\u0131l\u0131 tutulan geni\u015f, metal yap\u0131n\u0131n yan k\u0131sm\u0131ndaki bir delikten i\u00e7eri bakt\u0131m ve i\u00e7inde ye\u015fil bir ate\u015f yand\u0131\u011f\u0131n\u0131 g\u00f6rd\u00fcm.",
 "Ship Log"
 ],
-"2663": [
-"Kay\u0131p Kasa",
+"3680": [
+"Rezervuardaki gibi zincirlerle as\u0131l\u0131 b\u00fcy\u00fck bir metal yap\u0131n\u0131n yan\u0131ndaki g\u00f6zetleme deli\u011finden bakt\u0131m. \u0130\u00e7eride bir ye\u015fil ate\u015f daha yan\u0131yordu ve daha da a\u015fa\u011f\u0131 inen bir merdiven vard\u0131.",
 "Ship Log"
 ],
-"2664": [
-"Durug\u00f6r\u00fcye benzer bir kay\u0131t yoluyla iki fig\u00fcr\u00fcn zincirlerle as\u0131l\u0131 duran b\u00fcy\u00fck metal bir yap\u0131n\u0131n i\u00e7ine eserler koydu\u011funu ve m\u00fch\u00fcrl\u00fc kasan\u0131n \u00f6n\u00fcndeki ye\u015fil ate\u015fin ba\u015f\u0131nda uykuya dald\u0131\u011f\u0131n\u0131 g\u00f6rd\u00fcm. I\u015f\u0131ldayan eserleri ile uyanan iki fig\u00fcr kasay\u0131 kald\u0131r\u0131p bir merdivenden a\u015fa\u011f\u0131ya, g\u00f6zden uza\u011fa ta\u015f\u0131d\u0131.",
+"3681": [
+"Kasa Odas\u0131 Ate\u015fi",
+"Ship Log"
+],
+"3682": [
+"Durug\u00f6r\u00fcye benzer bir kay\u0131t yoluyla iki fig\u00fcr\u00fcn, zincirlerle as\u0131l\u0131 duran b\u00fcy\u00fck metal bir yap\u0131n\u0131n i\u00e7ine eserler koydu\u011funu ve m\u00fch\u00fcrl\u00fc kasan\u0131n \u00f6n\u00fcndeki ye\u015fil ate\u015fin ba\u015f\u0131nda uykuya dald\u0131\u011f\u0131n\u0131 g\u00f6rd\u00fcm. I\u015f\u0131ldayan eserleri ile uyanan iki fig\u00fcr, kasay\u0131 kald\u0131r\u0131p bir merdivenden a\u015fa\u011f\u0131ya, g\u00f6zden uza\u011fa ta\u015f\u0131d\u0131.",
+"Ship Log"
+],
+"3683": [
+"Durug\u00f6r\u00fcye benzer bir kay\u0131t yoluyla iki fig\u00fcr\u00fcn, Rezervuar\u0131n bat\u0131k yap\u0131s\u0131n\u0131n i\u00e7ine eserler koydu\u011funu ve m\u00fch\u00fcrl\u00fc kasan\u0131n \u00f6n\u00fcndeki ye\u015fil ate\u015fin ba\u015f\u0131nda uykuya dald\u0131\u011f\u0131n\u0131 g\u00f6rd\u00fcm. I\u015f\u0131ldayan eserleri ile uyanan iki fig\u00fcr, kasay\u0131 kald\u0131r\u0131p bir merdivenden a\u015fa\u011f\u0131ya, g\u00f6zden uza\u011fa ta\u015f\u0131d\u0131.",
 "Ship Log"
 ],
 "2665": [
@@ -11184,6 +11196,10 @@
 ],
 "2674": [
 "G\u00f6r\u00fc\u015f fenerini kullanarak, g\u00fcne\u015f sisteminin tarihi hakk\u0131nda kendi bildiklerimi Tutsak ile payla\u015ft\u0131m.",
+"Ship Log"
+],
+"3684": [
+"Tutsak, suyun kenar\u0131nda veda hediyesi olarak bana son bir g\u00f6r\u00fc b\u0131rakm\u0131\u015f.",
 "Ship Log"
 ],
 "2675": [
@@ -13270,6 +13286,14 @@
 "Profil Y\u00f6netimi",
 "UI"
 ],
+"3196": [
+"Kontrol cihaz\u0131n\u0131n ba\u011flant\u0131s\u0131 kesildi.<br>L\u00fctfen kontrol cihaz\u0131n\u0131 tekrar ba\u011fla.",
+"UI"
+],
+"3685": [
+"Devam etmek i\u00e7in l\u00fctfen kablosuz kontrol cihaz\u0131 ba\u011flay\u0131n.",
+"UI"
+],
 "3197": [
 "Etkile\u015f",
 "UI"
@@ -13767,7 +13791,7 @@
 "Ending"
 ],
 "3321": [
-"S\u00dcPERNOVA MENZ\u0130L\u0130N\u0130N \u00d6TES\u0130NDE, KEND\u0130N\u0130 TERK ED\u0130LM\u0130\u015e B\u0130R D\u00dcNYADA YAPAYALNIZ BULUYORSUN.<br>Y\u0130YECEK <em>B\u0130R \u015eEYLER</em>VARDIR KES\u0130N, OLMAK ZORUNDA!",
+"S\u00dcPERNOVA MENZ\u0130L\u0130N\u0130N \u00d6TES\u0130NDE, KEND\u0130N\u0130 TERK ED\u0130LM\u0130\u015e B\u0130R D\u00dcNYADA YAPAYALNIZ BULUYORSUN.<br>Y\u0130YECEK <em>B\u0130R \u015eEYLER</em> VARDIR KES\u0130N, OLMAK ZORUNDA!",
 "Ending"
 ],
 "3322": [
@@ -14686,6 +14710,22 @@
 "Gemi kay\u0131tlar\u0131nda, uzun kay\u0131t girdilerinde sayfa kayd\u0131r\u0131r",
 "UI"
 ],
+"3686": [
+"Kablosuz kontrol cihaz\u0131nda titre\u015fim i\u015flevini etkinle\u015ftirir (sadece kablosuz kontrol cihaz\u0131).",
+"UI"
+],
+"3687": [
+"Oyun kumandas\u0131nda titre\u015fim fonksiyonunu etkinle\u015ftirir (sadece oyun kumandas\u0131).",
+"UI"
+],
+"3688": [
+"Herhangi bir girdi tespit edilmeden \u00f6nce sol/sa\u011f \u00e7ubu\u011fun merkezden ne kadar e\u011fimli olmas\u0131 gerekti\u011fini belirler. Sol/sa\u011f \u00e7ubu\u011fa dokunmad\u0131\u011f\u0131nda karakterin hareket ediyor veya etraf\u0131na bak\u0131yorsa bu \u00f6l\u00fc b\u00f6lgeyi art\u0131rmay\u0131 d\u00fc\u015f\u00fcnebilirsin.",
+"UI"
+],
+"3689": [
+"Maksimum girdi tespit edilmeyinceye kadar sol/sa\u011f \u00e7ubu\u011fun (tam e\u011fimden) ne kadar uzakta olmas\u0131 gerekti\u011fini belirler. Maksimum h\u0131zda hareket edemiyor veya bakam\u0131yorsan bu \u00f6l\u00fc b\u00f6lgeyi art\u0131rmay\u0131 d\u00fc\u015f\u00fcnebilirsin.",
+"UI"
+],
 "3550": [
 "Yabanc\u0131",
 "UI"
@@ -14966,6 +15006,10 @@
 "Kalk\u0131\u015f Kontrol Listesi",
 "UI"
 ],
+"3690": [
+"(desteklenmiyor)",
+"UI"
+],
 "3620": [
 "Hafifletilmi\u015f Korku Unsuru",
 "UI"
@@ -15176,6 +15220,78 @@
 ],
 "3672": [
 "Ses efektleri d\u00fczeyini de\u011fi\u015ftirir.",
+"UI"
+],
+"3691": [
+"Giri\u015f ayarlar\u0131n\u0131 s\u0131f\u0131rlamak ister misin?",
+"UI"
+],
+"3692": [
+"Evet",
+"UI"
+],
+"3693": [
+"Hay\u0131r",
+"UI"
+],
+"3694": [
+"Tam Ekran",
+"UI"
+],
+"3695": [
+"Pencereli",
+"UI"
+],
+"3696": [
+"Kenarl\u0131ks\u0131z Pencere",
+"UI"
+],
+"3697": [
+"Klayve D\u00fczeni",
+"UI"
+],
+"3698": [
+"Tu\u015f ba\u011flamalar\u0131n\u0131, se\u00e7ilen klavye d\u00fczenine g\u00f6re belirler. (Bu ayar\u0131 de\u011fi\u015ftirmek, Klavye ve Fare ba\u011flamalar\u0131n\u0131 varsay\u0131lana geri y\u00fckler.)",
+"UI"
+],
+"3699": [
+"Pro Kontrol Cihaz\u0131na Ge\u00e7 (desteklenmiyor)",
+"UI"
+],
+"3700": [
+"Slayt G\u00f6sterisini De\u011fi\u015ftir",
+"UI"
+],
+"3701": [
+"Ke\u015ffe Devam",
+"UI"
+],
+"3702": [
+"G\u00f6rsel neredeyse g\u00f6r\u00fcnmeyene dek kayd\u0131r\u0131c\u0131y\u0131 oynat.",
+"UI"
+],
+"3703": [
+"Uygula",
+"UI"
+],
+"3704": [
+"\u0130ptal Et",
+"UI"
+],
+"3705": [
+"Gama",
+"UI"
+],
+"3706": [
+"Sonraki",
+"UI"
+],
+"3707": [
+"\u00d6nceki",
+"UI"
+],
+"3708": [
+"Titre\u015fim i\u015flevi",
 "UI"
 ]
 }

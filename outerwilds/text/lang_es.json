@@ -1278,7 +1278,7 @@
 "Self",
 "Me"
 ],
-"302": [
+"3673": [
 "Es cierto.  No s\u00e9 muy bien c\u00f3mo considerarlo.",
 "Self"
 ],
@@ -1304,7 +1304,7 @@
 "Self",
 "Me"
 ],
-"308": [
+"3674": [
 "Ja, ja, s\u00ed, a m\u00ed tampoco.  Obviamente.",
 "Self"
 ],
@@ -10966,12 +10966,16 @@
 "Sala de s\u00edmbolos",
 "Ship Log"
 ],
-"2620": [
-"Pasaje secreto",
+"3675": [
+"Sellos de b\u00f3veda oculta",
 "Ship Log"
 ],
-"2621": [
-"Gracias a la luz que proven\u00eda de la b\u00f3veda, pude ver que sub\u00edan por una escalera caracol hacia una habitaci\u00f3n cercana a la cima de una torre. Uno de los habitantes del Forastero se\u00f1al\u00f3 un mural de una torre id\u00e9ntica bajo un planeta anillado, recogi\u00f3 un artefacto y lo llev\u00f3 escaleras abajo a una habitaci\u00f3n con un fuego verde. Poco despu\u00e9s, algunas l\u00e1mparas de la habitaci\u00f3n del mural se encendieron, otras se apagaron, y en la oscuridad revelaron un pasaje secreto.",
+"3676": [
+"Gracias a la luz que proven\u00eda de la b\u00f3veda, pude ver que sub\u00edan por una escalera caracol hacia una habitaci\u00f3n cercana a la cima de una torre. Uno de los habitantes del Forastero se\u00f1al\u00f3 un mural de una torre id\u00e9ntica bajo un planeta anillado, recogi\u00f3 un artefacto y lo llev\u00f3 escaleras abajo a una habitaci\u00f3n con un fuego verde. Poco despu\u00e9s, dos l\u00e1mparas de la habitaci\u00f3n del mural se apagaron y en la oscuridad revelaron un pasaje secreto.",
+"Ship Log"
+],
+"3677": [
+"El pasaje conduce a tres contenedores de madera, cada uno marcado con un sello de b\u00f3veda brillante.",
 "Ship Log"
 ],
 "2622": [
@@ -11130,20 +11134,28 @@
 "Lago subterr\u00e1neo",
 "Ship Log"
 ],
-"2661": [
-"C\u00e1mara de fuego",
+"3678": [
+"Fuego cerrado",
 "Ship Log"
 ],
-"2662": [
-"A trav\u00e9s de una mirilla en el lateral de una gran estructura met\u00e1lica colgada con cadenas, pude ver un fuego verde ardiendo en su interior.",
+"3679": [
+"A trav\u00e9s de una mirilla en el lateral de una gran estructura met\u00e1lica colgada con cadenas, pude ver otro gran fuego verde ardiendo en su interior y una escalera que conduc\u00eda m\u00e1s abajo.",
 "Ship Log"
 ],
-"2663": [
-"B\u00f3veda extraviada",
+"3680": [
+"A trav\u00e9s de una mirilla en el lateral de una gran estructura met\u00e1lica colgada con cadenas como la de la represa, pude ver otro gran fuego verde ardiendo en su interior y una escalera que conduc\u00eda m\u00e1s abajo.",
 "Ship Log"
 ],
-"2664": [
-"Vi una grabaci\u00f3n de dos siluetas que llevaron artefactos a una gran estructura de metal suspendida de cadenas y fueron a dormir junto al fuego verde que estaba frente a la c\u00e1mara sellada. Cuando despertaron con artefactos encendidos, las dos siluetas alzaron la b\u00f3veda, la bajaron por unas escaleras y desaparecieron.",
+"3681": [
+"Fuego de la habitaci\u00f3n de la b\u00f3veda",
+"Ship Log"
+],
+"3682": [
+"Vi una grabaci\u00f3n de dos siluetas que llevaron artefactos a una gran estructura de metal suspendida de cadenas y fueron a dormir junto al fuego verde que estaba frente a la c\u00e1mara sellada. Cuando despertaron con artefactos encendidos, las dos siluetas alzaron la b\u00f3veda y la bajaron por unas escaleras.",
+"Ship Log"
+],
+"3683": [
+"Vi una grabaci\u00f3n de dos siluetas que llevaron artefactos a la estructura sumergida de la represa y fueron a dormir junto al fuego verde que estaba frente a la c\u00e1mara sellada. Cuando despertaron con artefactos encendidos, las dos siluetas alzaron la b\u00f3veda y la bajaron por unas escaleras.",
 "Ship Log"
 ],
 "2665": [
@@ -11184,6 +11196,10 @@
 ],
 "2674": [
 "Us\u00e9 la linterna proyectora para compartir mi conocimiento sobre la historia del sistema solar con el Prisionero.",
+"Ship Log"
+],
+"3684": [
+"El Prisionero me dej\u00f3 una \u00faltima visi\u00f3n a la orilla del agua como despedida.",
 "Ship Log"
 ],
 "2675": [
@@ -13270,6 +13286,14 @@
 "Administraci\u00f3n del perfil",
 "UI"
 ],
+"3196": [
+"Mando desconectado.<br>Vuelve a conectar el mando.",
+"UI"
+],
+"3685": [
+"Control inal\u00e1mbrico desconectado.<br>Vuelve a conectar el control inal\u00e1mbrico.",
+"UI"
+],
 "3197": [
 "Interactuar",
 "UI"
@@ -13767,7 +13791,7 @@
 "Ending"
 ],
 "3321": [
-"YA FUERA DEL ALCANCE DE LA SUPERNOVA, EST\u00c1S A SOLAS EN UN MUNDO ABANDONADO.\\\\TIENE QUE HABER <em>ALGO</em> AQU\u00cd QUE SEA COMESTIBLE.",
+"YA FUERA DEL ALCANCE DE LA SUPERNOVA, EST\u00c1S A SOLAS EN UN MUNDO ABANDONADO.<br>TIENE QUE HABER <em>ALGO</em> AQU\u00cd QUE SEA COMESTIBLE.",
 "Ending"
 ],
 "3322": [
@@ -14686,6 +14710,22 @@
 "En el registro de la astronave, se desplaza por las largas entradas del registro",
 "UI"
 ],
+"3686": [
+"Habilita la funci\u00f3n de vibraci\u00f3n del control inal\u00e1mbrico (solo control inal\u00e1mbrico).",
+"UI"
+],
+"3687": [
+"Habilita la funci\u00f3n de vibraci\u00f3n del control (solo control).",
+"UI"
+],
+"3688": [
+"Determina la distancia (desde el centro) a la que se debe inclinar el stick izquierdo/derecho antes de que se detecte cualquier entrada. Considera aumentar esta zona muerta si tu personaje se mueve o mira a su alrededor cuando no est\u00e1s tocando el stick izquierdo/derecho.",
+"UI"
+],
+"3689": [
+"Determina la distancia (desde los extremos) a la que se debe soltar el stick izquierdo/derecho antes de que ya no se detecte la entrada m\u00e1xima. Considera aumentar esta zona muerta si tu personaje no se mueve o mira a su alrededor a su velocidad m\u00e1xima.",
+"UI"
+],
 "3550": [
 "El Forastero",
 "UI"
@@ -14966,6 +15006,10 @@
 "Verificaci\u00f3n prevuelo",
 "UI"
 ],
+"3690": [
+"(no compatible)",
+"UI"
+],
 "3620": [
 "Reducci\u00f3n del miedo",
 "UI"
@@ -15176,6 +15220,78 @@
 ],
 "3672": [
 "Cambiar el volumen de los efectos de sonido.",
+"UI"
+],
+"3691": [
+"\u00bfQuieres reiniciar tus ajustes de entrada?",
+"UI"
+],
+"3692": [
+"S\u00ed",
+"UI"
+],
+"3693": [
+"No",
+"UI"
+],
+"3694": [
+"Pantalla completa",
+"UI"
+],
+"3695": [
+"En ventana",
+"UI"
+],
+"3696": [
+"Ventana sin bordes",
+"UI"
+],
+"3697": [
+"Dise\u00f1o del teclado",
+"UI"
+],
+"3698": [
+"Establece los controles de teclas de acuerdo con el dise\u00f1o de teclado seleccionado. (Cambiar esta configuraci\u00f3n restablece los controles de teclado y rat\u00f3n a los valores predeterminados)",
+"UI"
+],
+"3699": [
+"Mando Pro de Nintendo Switch (no compatible)",
+"UI"
+],
+"3700": [
+"Cambiar diapositivas",
+"UI"
+],
+"3701": [
+"Reanudar expedici\u00f3n",
+"UI"
+],
+"3702": [
+"Ajusta el control deslizante hasta que la imagen sea apenas visible.",
+"UI"
+],
+"3703": [
+"Aplicar",
+"UI"
+],
+"3704": [
+"Cancelar",
+"UI"
+],
+"3705": [
+"Gamma",
+"UI"
+],
+"3706": [
+"Siguiente",
+"UI"
+],
+"3707": [
+"Anterior",
+"UI"
+],
+"3708": [
+"Funci\u00f3n de vibraci\u00f3n",
 "UI"
 ]
 }

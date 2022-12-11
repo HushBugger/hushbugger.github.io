@@ -1278,7 +1278,7 @@
 "Self",
 "Me"
 ],
-"302": [
+"3673": [
 "\u00c9 verdade. N\u00e3o sei como considerar esse fato.",
 "Self"
 ],
@@ -1304,7 +1304,7 @@
 "Self",
 "Me"
 ],
-"308": [
+"3674": [
 "Haha, sim, nem eu...  ... Obviamente.",
 "Self"
 ],
@@ -10966,12 +10966,16 @@
 "Sala dos S\u00edmbolos",
 "Ship Log"
 ],
-"2620": [
-"Passagem Secreta",
+"3675": [
+"Lacres do Cofre Secreto",
 "Ship Log"
 ],
-"2621": [
-"A luz vinda do cofre me deu uma vis\u00e3o de uma escadaria em espiral que sobe at\u00e9 uma sala perto do topo de uma torre. Um dos habitantes do Desconhecido aponta para um mural de uma torre id\u00eantica sob um planeta com an\u00e9is em volta, e ent\u00e3o pega um artefato e desce as escadas em dire\u00e7\u00e3o a uma sala com fogo verde. Algum tempo depois, diversas l\u00e2mpadas na sala do mural se acendem enquanto outras se apagam, fazendo com que o mural escure\u00e7a e revele uma passagem secreta.",
+"3676": [
+"A luz vinda do cofre me trouxe a vis\u00e3o de uma escada caracol que subia at\u00e9 uma sala perto do topo de uma torre. Um dos habitantes do Desconhecido apontava para um mural de uma torre id\u00eantica sob um planeta circundado por an\u00e9is, em seguida, pegou um artefato e desceu com ele a escada em dire\u00e7\u00e3o a uma sala com fogo verde. Algum tempo depois, duas das lamparinas na sala do mural se apagaram, mergulhando o mural nas trevas e revelando uma passagem secreta.",
+"Ship Log"
+],
+"3677": [
+"A passagem levava a tr\u00eas recipientes de madeira, cada um deles marcado com um lacre de cofre brilhante.",
 "Ship Log"
 ],
 "2622": [
@@ -11130,20 +11134,28 @@
 "Lago Subterr\u00e2neo",
 "Ship Log"
 ],
-"2661": [
-"C\u00e2mara do Fogo",
+"3678": [
+"Fogo Enclausurado",
 "Ship Log"
 ],
-"2662": [
-"Eu olhei atrav\u00e9s de uma abertura na lateral de uma grande estrutura de metal suspensa por correntes e vi um fogo verde ardendo no interior.",
+"3679": [
+"Olhei atrav\u00e9s de uma abertura na lateral da parte interna de uma grande estrutura de metal suspensa por correntes. L\u00e1 dentro havia outro fogo verde e uma escada que descia ainda mais.",
 "Ship Log"
 ],
-"2663": [
-"Cofre Desaparecido",
+"3680": [
+"Olhei atrav\u00e9s de uma abertura na lateral da parte interna de uma grande estrutura de metal suspensa por correntes como aquela no Reservat\u00f3rio. L\u00e1 dentro havia outro fogo verde e uma escada que descia ainda mais.",
 "Ship Log"
 ],
-"2664": [
-"Eu vi uma grava\u00e7\u00e3o semelhante a uma vis\u00e3o com duas figuras carregando artefatos at\u00e9 uma grande estrutura de metal suspensa por correntes e, em seguida, dormindo pr\u00f3ximas ao fogo verde que fica em frente ao cofre. Ap\u00f3s acordarem com os artefatos acesos, as duas figuras pegaram o cofre e desceram uma escada com ele, at\u00e9 sa\u00edrem do meu campo de vis\u00e3o.",
+"3681": [
+"Fogo da Sala do Cofre",
+"Ship Log"
+],
+"3682": [
+"Vi uma grava\u00e7\u00e3o semelhante a uma vis\u00e3o com duas figuras carregando artefatos at\u00e9 uma grande estrutura de metal suspensa por correntes e, em seguida, dormindo pr\u00f3ximas ao fogo verde em frente ao cofre lacrado. Ap\u00f3s acordarem com os artefatos acesos, as duas figuras pegaram o cofre e desceram uma escada com ele, para algum lugar mais abaixo.",
+"Ship Log"
+],
+"3683": [
+"Vi uma grava\u00e7\u00e3o semelhante a uma vis\u00e3o com duas figuras carregando artefatos at\u00e9 a estrutura submersa do Reservat\u00f3rio e, em seguida, dormindo pr\u00f3ximas ao fogo verde em frente ao cofre lacrado. Ap\u00f3s acordarem com os artefatos acesos, as duas figuras pegaram o cofre e desceram uma escada com ele, para algum lugar mais abaixo.",
 "Ship Log"
 ],
 "2665": [
@@ -11184,6 +11196,10 @@
 ],
 "2674": [
 "Eu usei o archote de vis\u00e3o para compartilhar meu conhecimento sobre a hist\u00f3ria do sistema solar com o Prisioneiro.",
+"Ship Log"
+],
+"3684": [
+"O Prisioneiro deixou uma vers\u00e3o final para mim perto da margem como despedida.",
 "Ship Log"
 ],
 "2675": [
@@ -13270,6 +13286,14 @@
 "Gerenciamento de Perfil",
 "UI"
 ],
+"3196": [
+"Controle desconectado.<br>Reconecte seu controle.",
+"UI"
+],
+"3685": [
+"Reconecte seu controle sem fio para continuar.",
+"UI"
+],
 "3197": [
 "Interagir",
 "UI"
@@ -13767,7 +13791,7 @@
 "Ending"
 ],
 "3321": [
-"AGORA, AL\u00c9M DO ALCANCE DA SUPERNOVA, VOC\u00ca DESCOBRE SER O \u00daNICO INDIV\u00cdDUO HABITANDO UM MUNDO ABANDONADO.\\\\CERTAMENTE <em>ALGUMA COISA</em> AQUI DEVE SER COMEST\u00cdVEL, N\u00c3O \u00c9?",
+"AGORA, AL\u00c9M DO ALCANCE DA SUPERNOVA, VOC\u00ca DESCOBRE SER O \u00daNICO INDIV\u00cdDUO HABITANDO UM MUNDO ABANDONADO.<br>CERTAMENTE <em>ALGUMA COISA</em> AQUI DEVE SER COMEST\u00cdVEL, N\u00c3O \u00c9?",
 "Ending"
 ],
 "3322": [
@@ -14686,6 +14710,22 @@
 "No di\u00e1rio de bordo, navega por longos registros do di\u00e1rio",
 "UI"
 ],
+"3686": [
+"Ativa a fun\u00e7\u00e3o de vibra\u00e7\u00e3o do controle sem fio (apenas controle sem fio).",
+"UI"
+],
+"3687": [
+"Ativa a vibra\u00e7\u00e3o do controle (apenas controle).",
+"UI"
+],
+"3688": [
+"Determina a dist\u00e2ncia de inclina\u00e7\u00e3o (do centro) necess\u00e1ria para que os comandos do direcional anal\u00f3gico direito/esquerdo sejam detectados. Considere aumentar a zona morta se a personagem se deslocar ou olhar ao redor quando voc\u00ea n\u00e3o estiver tocando o direcional anal\u00f3gico direito/esquerdo.",
+"UI"
+],
+"3689": [
+"Determina a dist\u00e2ncia (da inclina\u00e7\u00e3o total) em que o direcional anal\u00f3gico direito/esquerdo deve ser solto at\u00e9 que o comando m\u00e1ximo n\u00e3o seja mais detectado. Considere aumentar a zona morta se n\u00e3o conseguir se deslocar ou olhar na velocidade m\u00e1xima.",
+"UI"
+],
 "3550": [
 "O Desconhecido",
 "UI"
@@ -14966,6 +15006,10 @@
 "Verifica\u00e7\u00e3o Pr\u00e9-Voo",
 "UI"
 ],
+"3690": [
+"(n\u00e3o compat\u00edvel)",
+"UI"
+],
 "3620": [
 "Sustos Reduzidos",
 "UI"
@@ -15176,6 +15220,78 @@
 ],
 "3672": [
 "Altera o volume dos efeitos sonoros.",
+"UI"
+],
+"3691": [
+"Gostaria de redefinir as configura\u00e7\u00f5es dos comandos?",
+"UI"
+],
+"3692": [
+"Sim",
+"UI"
+],
+"3693": [
+"N\u00e3o",
+"UI"
+],
+"3694": [
+"Tela cheia",
+"UI"
+],
+"3695": [
+"Em janela",
+"UI"
+],
+"3696": [
+"Em janela sem bordas",
+"UI"
+],
+"3697": [
+"Disposi\u00e7\u00e3o do teclado",
+"UI"
+],
+"3698": [
+"Define os v\u00ednculos das teclas de acordo com a disposi\u00e7\u00e3o selecionada do teclado. (Alterar esta configura\u00e7\u00e3o redefine os v\u00ednculos de teclado e mouse para o padr\u00e3o.)",
+"UI"
+],
+"3699": [
+"Controle Switch Pro (n\u00e3o compat\u00edvel)",
+"UI"
+],
+"3700": [
+"Alternar apresenta\u00e7\u00e3o de slides",
+"UI"
+],
+"3701": [
+"Retomar expedi\u00e7\u00e3o",
+"UI"
+],
+"3702": [
+"Ajuste o seletor at\u00e9 que a imagem mal fique vis\u00edvel.",
+"UI"
+],
+"3703": [
+"Aplicar",
+"UI"
+],
+"3704": [
+"Cancelar",
+"UI"
+],
+"3705": [
+"Gama",
+"UI"
+],
+"3706": [
+"Seguinte",
+"UI"
+],
+"3707": [
+"Anterior",
+"UI"
+],
+"3708": [
+"Fun\u00e7\u00e3o de vibra\u00e7\u00e3o",
 "UI"
 ]
 }

@@ -1278,7 +1278,7 @@
 "Self",
 "Me"
 ],
-"302": [
+"3673": [
 "\u00c8 vero. Non so esattamente come tenerne conto.",
 "Self"
 ],
@@ -1304,7 +1304,7 @@
 "Self",
 "Me"
 ],
-"308": [
+"3674": [
 "Ah ah, s\u00ec, neanche a me.  ...Ovviamente.",
 "Self"
 ],
@@ -10966,12 +10966,16 @@
 "Stanza dei simboli",
 "Ship Log"
 ],
-"2620": [
-"Passaggio segreto",
+"3675": [
+"Sigilli di sicurezza nascosti",
 "Ship Log"
 ],
-"2621": [
-"La luce proveniente dalla cassaforte mi diede la visione di una scala a chiocciola che saliva fino a una stanza verso la sommit\u00e0 di una torre. Uno degli abitanti dello Straniero indic\u00f2 un dipinto murale di una torre identica sormontata da un pianeta circondato da anelli, poi raccolse un manufatto e lo port\u00f2 gi\u00f9 per le scale fino a una stanza dove bruciava un fuoco verde. Poco dopo, alcune lampade nella stanza del murale si accesero e altre si spensero, oscurando il murale e rivelando un passaggio segreto.",
+"3676": [
+"La luce proveniente dalla cassaforte mi diede la visione di una scala a chiocciola che saliva fino a una stanza verso la sommit\u00e0 di una torre. Uno degli abitanti dello Straniero indic\u00f2 un dipinto murale di una torre identica sormontata da un pianeta circondato da anelli, poi raccolse un manufatto e lo port\u00f2 gi\u00f9 per le scale fino a una stanza dove bruciava un fuoco verde. Poco dopo, due delle lampade nella stanza del murale si spensero, oscurando il murale e rivelando un passaggio segreto.",
+"Ship Log"
+],
+"3677": [
+"Il passaggio conduceva a tre contenitori di legno, ciascuno contrassegnato da sigilli di sicurezza luminosi.",
 "Ship Log"
 ],
 "2622": [
@@ -11130,20 +11134,28 @@
 "Lago sotterraneo",
 "Ship Log"
 ],
-"2661": [
-"Stanza del fuoco",
+"3678": [
+"Fuoco circoscritto",
 "Ship Log"
 ],
-"2662": [
-"Ho guardato attraverso lo spioncino su uno dei lati di una grande struttura metallica appesa a delle catene e ho visto un fuoco verde che bruciava al suo interno.",
+"3679": [
+"Ho guardato attraverso uno spioncino sul lato di una grande struttura metallica appesa a delle catene. All'interno ci sono un altro fuoco verde e una scala che conduce pi\u00f9 in basso.",
 "Ship Log"
 ],
-"2663": [
-"Cassaforte scomparsa",
+"3680": [
+"Ho guardato attraverso uno spioncino sul lato di una grande struttura metallica appesa a delle catene, simile a quella nel bacino idrico. All'interno ci sono un altro fuoco verde e una scala che conduce pi\u00f9 in basso.",
 "Ship Log"
 ],
-"2664": [
-"Ho visto una registrazione, che sembrava una visione, in cui due figure mettevano dei manufatti in una grande struttura metallica appesa a delle catene e si addormentavano accanto al fuoco verde di fronte alla cassaforte sigillata. Al loro risveglio, i manufatti erano illuminati e le due figure hanno sollevato la cassaforte trasportandola gi\u00f9 per una scala e portandola fuori dalla visuale.",
+"3681": [
+"Fuoco nella stanza della cassaforte",
+"Ship Log"
+],
+"3682": [
+"Ho visto una registrazione, che sembrava una visione, in cui due figure mettevano dei manufatti in una grande struttura metallica appesa a delle catene e si addormentavano accanto al fuoco verde di fronte alla cassaforte sigillata. Al loro risveglio alla luce dei manufatti, le due figure hanno sollevato la cassaforte trasportandola gi\u00f9 per una scala verso un posto situato ancora pi\u00f9 in basso.",
+"Ship Log"
+],
+"3683": [
+"Ho visto una registrazione, che sembrava una visione, in cui due figure mettevano dei manufatti nella struttura sommersa del bacino idrico e si addormentavano accanto al fuoco verde di fronte alla cassaforte sigillata. Al loro risveglio alla luce dei manufatti, le due figure hanno sollevato la cassaforte trasportandola gi\u00f9 per una scala verso un posto situato ancora pi\u00f9 in basso.",
 "Ship Log"
 ],
 "2665": [
@@ -11184,6 +11196,10 @@
 ],
 "2674": [
 "Ho usato la Torcia della visione per condividere la mia conoscenza della storia del sistema solare con il Prigioniero.",
+"Ship Log"
+],
+"3684": [
+"Il Prigioniero mi ha lasciato un'ultima visione al limitare dell'acqua, in segno di addio.",
 "Ship Log"
 ],
 "2675": [
@@ -13270,6 +13286,14 @@
 "Gestione del profilo",
 "UI"
 ],
+"3196": [
+"Controller disconnesso.<br>Ricollega il controller.",
+"UI"
+],
+"3685": [
+"Ricollega il controller wireless per proseguire.",
+"UI"
+],
 "3197": [
 "Interagisci",
 "UI"
@@ -14686,6 +14710,22 @@
 "Permette lo scorrimento tra le voci di registro lunghe nel registro della nave",
 "UI"
 ],
+"3686": [
+"Abilita la funzione di vibrazione del controller wireless (solo controller wireless).",
+"UI"
+],
+"3687": [
+"Abilita la vibrazione del controller (solo controller).",
+"UI"
+],
+"3688": [
+"Determina a quanta distanza (dal centro) la levetta sinistra/destra vada inclinata prima che ne venga rilevato l'input. Valuta di aumentare la zona nulla se il personaggio si muove o si guarda intorno quando non stai toccando la levetta sinistra/destra.",
+"UI"
+],
+"3689": [
+"Determina a quanta distanza (dall'inclinazione massima) la levetta sinistra/destra vada rilasciata prima che l'input massimo non venga pi\u00f9 rilevato. Valuta di aumentare la zona nulla se non sei in grado di muoverti od osservare alla velocit\u00e0 massima.",
+"UI"
+],
 "3550": [
 "Lo Straniero",
 "UI"
@@ -14966,6 +15006,10 @@
 "Checklist pre-volo",
 "UI"
 ],
+"3690": [
+"(non supportato)",
+"UI"
+],
 "3620": [
 "Impatto emotivo ridotto",
 "UI"
@@ -15176,6 +15220,78 @@
 ],
 "3672": [
 "Regola il volume degli effetti sonori.",
+"UI"
+],
+"3691": [
+"Azzerare le impostazioni dei comandi?",
+"UI"
+],
+"3692": [
+"S\u00ec",
+"UI"
+],
+"3693": [
+"No",
+"UI"
+],
+"3694": [
+"Schermo intero",
+"UI"
+],
+"3695": [
+"Finestra",
+"UI"
+],
+"3696": [
+"Finestra senza bordi",
+"UI"
+],
+"3697": [
+"Disposizione tastiera",
+"UI"
+],
+"3698": [
+"Imposta i comandi della tastiera in base alla disposizione selezionata. (Modificare quest'opzione ripristina i comandi preimpostati di tastiera e mouse)",
+"UI"
+],
+"3699": [
+"Controller Switch Pro (non supportato)",
+"UI"
+],
+"3700": [
+"Scorri immagini",
+"UI"
+],
+"3701": [
+"Riprendi spedizione",
+"UI"
+],
+"3702": [
+"Sposta il cursore finch\u00e9 l'immagine non sar\u00e0 a stento visibile.",
+"UI"
+],
+"3703": [
+"Applica",
+"UI"
+],
+"3704": [
+"Annulla",
+"UI"
+],
+"3705": [
+"Gamma",
+"UI"
+],
+"3706": [
+"Avanti",
+"UI"
+],
+"3707": [
+"Indietro",
+"UI"
+],
+"3708": [
+"Funzione di vibrazione",
 "UI"
 ]
 }

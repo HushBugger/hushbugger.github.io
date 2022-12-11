@@ -1278,7 +1278,7 @@
 "Self",
 "Me"
 ],
-"302": [
+"3673": [
 "Das stimmt.  Ich bin mir nicht sicher, ob das z\u00e4hlt.",
 "Self"
 ],
@@ -1304,7 +1304,7 @@
 "Self",
 "Me"
 ],
-"308": [
+"3674": [
 "Ha ha, ja, ist doch egal.  ... selbstverst\u00e4ndlich.",
 "Self"
 ],
@@ -10966,12 +10966,16 @@
 "Symbolraum",
 "Ship Log"
 ],
-"2620": [
-"Geheimgang",
+"3675": [
+"Versteckte Kammersiegel",
 "Ship Log"
 ],
-"2621": [
-"Das Licht, das aus der Kammer kam, zeigte mir eine Vision vom Erklimmen einer Wendeltreppe, um einen Raum an der Turmspitze zu erreichen. Eins der Wesen des Fremdlings zeigte auf eine Wandmalerei eines identischen Turm unter einem Planeten mit Ringsystem, dann nahm es ein Artefakt und trug es hinab in einen Raum, in dem ein gr\u00fcnes Feuer brannte. Einige Zeit sp\u00e4ter erloschen mehrere Lichter im Raum mit der Wandmalerei und andere Lichter wurden aktiviert. Die Wandmalerei lag im Dunklen und es offenbarte sich ein Geheimgang.",
+"3676": [
+"Das Licht, das aus der Kammer kam, zeigte mir eine Vision vom Erklimmen einer Wendeltreppe, um einen Raum an der Turmspitze zu erreichen. Eins der Wesen des Fremdlings zeigte auf eine Wandmalerei eines identischen Turms unterhalb eines Planeten mit Ringsystem, dann nahm es ein Artefakt und trug es hinab in einen Raum, in dem ein gr\u00fcnes Feuer brannte. Einige Zeit sp\u00e4ter erloschen im Raum mit der Wandmalerei zwei der Lichter. Die Wandmalerei lag im Dunkel und es offenbarte sich ein Geheimgang.",
+"Ship Log"
+],
+"3677": [
+"Der Gang f\u00fchrte zu drei h\u00f6lzernen Beh\u00e4ltern, die jeweils mit einem leuchtenden Kammersiegel versehen waren.",
 "Ship Log"
 ],
 "2622": [
@@ -11130,20 +11134,28 @@
 "Unterirdischer See",
 "Ship Log"
 ],
-"2661": [
-"Feuerkammer",
+"3678": [
+"Eingeschlossenes Feuer",
 "Ship Log"
 ],
-"2662": [
-"Ich schaute durch ein Guckloch ins Innere des an Ketten aufgeh\u00e4ngten Metallkonstrukts und sah eine Kugel aus gr\u00fcnen Flammen.",
+"3679": [
+"Ich schaute durch ein Guckloch ins Innere eines an Ketten aufgeh\u00e4ngten Metallkonstrukts. Darin befanden sich noch ein gr\u00fcnes Feuer sowie eine weiter nach unten f\u00fchrende Treppe.",
 "Ship Log"
 ],
-"2663": [
-"Fehlende Kammer",
+"3680": [
+"Ich schaute durch ein Guckloch ins Innere eines Metallkonstrukts, das wie das im Reservoir an Ketten aufgeh\u00e4ngt war. Darin befanden sich noch ein gr\u00fcnes Feuer sowie eine weiter nach unten f\u00fchrende Treppe.",
 "Ship Log"
 ],
-"2664": [
-"Ich sah, wie zwei Wesen Artefakte in eine gro\u00dfe metallene Struktur getragen haben, die an Ketten hing. Danach haben sie sich bei dem gr\u00fcnen Feuer vor der versiegelten Kammer schlafen gelegt. Als sie erwachten, leuchteten die Artefakte und die beiden Wesen trugen die Kammer eine Treppe hinunter und aus dem Sichtfeld.",
+"3681": [
+"Kammerfeuer",
+"Ship Log"
+],
+"3682": [
+"Ich sah eine Aufzeichnung, die einer Vision nicht un\u00e4hnlich war, in der zwei Wesen Artefakte in eine gro\u00dfe metallene Struktur trugen, die an Ketten hing. Danach legten sie sich vor der versiegelten Kammer neben dem gr\u00fcnen Feuer schlafen. Als sie erwachten, leuchteten die Artefakte und die beiden Wesen trugen die Kammer eine Treppe hinunter und aus dem Sichtfeld.",
+"Ship Log"
+],
+"3683": [
+"Ich sah eine Aufzeichnung, die einer Vision nicht un\u00e4hnlich war, in der zwei Wesen Artefakte in die gro\u00dfe metallene Struktur unter der Wasseroberfl\u00e4che im Reservoir trugen. Danach legten sie sich vor der versiegelten Kammer neben dem gr\u00fcnen Feuer schlafen. Als sie erwachten, leuchteten die Artefakte und die beiden Wesen trugen die Kammer eine Treppe hinunter und aus dem Sichtfeld.",
 "Ship Log"
 ],
 "2665": [
@@ -11184,6 +11196,10 @@
 ],
 "2674": [
 "Ich setzte das Visionslicht ein, um mein Wissen \u00fcber die Geschichte des Sternsystems mit dem H\u00e4ftling zu teilen.",
+"Ship Log"
+],
+"3684": [
+"Der H\u00e4ftling hinterlie\u00df mir zum Abschied am Ufer des Gew\u00e4ssers eine letzte Vision.",
 "Ship Log"
 ],
 "2675": [
@@ -13270,6 +13286,14 @@
 "Profilverwaltung",
 "UI"
 ],
+"3196": [
+"Verbindung zum Controller unterbrochen.<br>Verbinde den Controller erneut.",
+"UI"
+],
+"3685": [
+"Bitte schlie\u00dfe deinen Wireless-Controller wieder an, um fortzufahren.",
+"UI"
+],
 "3197": [
 "Interagieren",
 "UI"
@@ -14686,6 +14710,22 @@
 "Scrollt im Schiffslog durch lange Log-Eintr\u00e4ge",
 "UI"
 ],
+"3686": [
+"Erm\u00f6glicht die Vibrationsfunktion bei Wireless-Controllern (gilt nicht f\u00fcr andere Arten von Controllern).",
+"UI"
+],
+"3687": [
+"Erm\u00f6glicht die Vibrationsfunktion bei Controllern (gilt nur f\u00fcr Controller).",
+"UI"
+],
+"3688": [
+"Legt fest, wie weit der linke bzw. rechte Stick von der Mitte weggeneigt werden muss, damit eine Eingabe erfasst wird. Du kannst diesen toten Bereich f\u00fcr den Fall vergr\u00f6\u00dfern, wenn du den linken bzw. rechten Stick nicht ber\u00fchrst, w\u00e4hrend dein Charakter sich bewegt oder umschaut.",
+"UI"
+],
+"3689": [
+"Legt fest, wie weit der linke bzw. rechte Stick von der maximalen Neigung losgelassen werden muss, damit keine maximale Eingabe mehr erfasst wird. Du kannst diesen toten Bereich vergr\u00f6\u00dfern, falls du den Charakter bei maximaler Geschwindigkeit nicht mehr bewegen oder ihn sich umschauen lassen kannst.",
+"UI"
+],
 "3550": [
 "Der Fremdling",
 "UI"
@@ -14966,6 +15006,10 @@
 "Start-Checkliste",
 "UI"
 ],
+"3690": [
+"(nicht unterst\u00fctzt)",
+"UI"
+],
 "3620": [
 "Weniger Schreckmomente",
 "UI"
@@ -15176,6 +15220,78 @@
 ],
 "3672": [
 "Lautst\u00e4rkeeinstellungen f\u00fcr Soundeffekte.",
+"UI"
+],
+"3691": [
+"M\u00f6chtest du die Eingabeeinstellungen zur\u00fccksetzen?",
+"UI"
+],
+"3692": [
+"Ja",
+"UI"
+],
+"3693": [
+"Nein",
+"UI"
+],
+"3694": [
+"Vollbild",
+"UI"
+],
+"3695": [
+"Fenstermodus",
+"UI"
+],
+"3696": [
+"Rahmenloses Fenster",
+"UI"
+],
+"3697": [
+"Tastaturlayout",
+"UI"
+],
+"3698": [
+"Legt die Tastenbelegung entsprechend des gew\u00e4hlten Tastaturlayouts fest. Wird diese Einstellung ge\u00e4ndert, werden die Tastatur- und die Mausbelegung auf die Standardwerte zur\u00fcckgesetzt.",
+"UI"
+],
+"3699": [
+"Switch Pro Controller (nicht unterst\u00fctzt)",
+"UI"
+],
+"3700": [
+"Slideshow wechseln",
+"UI"
+],
+"3701": [
+"Expedition fortsetzen",
+"UI"
+],
+"3702": [
+"Stelle den Schieberegler so ein, dass das Bild nur noch gerade eben sichtbar ist.",
+"UI"
+],
+"3703": [
+"Anwenden",
+"UI"
+],
+"3704": [
+"Abbrechen",
+"UI"
+],
+"3705": [
+"Gamma",
+"UI"
+],
+"3706": [
+"Weiter",
+"UI"
+],
+"3707": [
+"Zur\u00fcck",
+"UI"
+],
+"3708": [
+"Vibrationsfunktion",
 "UI"
 ]
 }

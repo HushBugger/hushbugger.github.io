@@ -1278,7 +1278,7 @@
 "Self",
 "Me"
 ],
-"302": [
+"3673": [
 "Chyba tak. Nie jestem pewien, jak wprowadzi\u0107 ten czynnik.",
 "Self"
 ],
@@ -1304,7 +1304,7 @@
 "Self",
 "Me"
 ],
-"308": [
+"3674": [
 "Ha, ha, mnie te\u017c.  Co oczywiste\u2026",
 "Self"
 ],
@@ -10966,12 +10966,16 @@
 "Pomieszczenie z symbolami",
 "Ship Log"
 ],
-"2620": [
-"Tajemne przej\u015bcie",
+"3675": [
+"Ukryte piecz\u0119cie skarbca",
 "Ship Log"
 ],
-"2621": [
-"\u015awiat\u0142o dochodz\u0105ce ze skarbca zes\u0142a\u0142o na mnie wizj\u0119, kt\u00f3ra przedstawia\u0142a wchodzenie spiralnymi schodami do pokoju niemal na samym szczycie wie\u017cy. Jeden z mieszka\u0144c\u00f3w Nieznajomego wskaza\u0142 malowid\u0142o \u015bcienne przedstawiaj\u0105ce identyczn\u0105 budowl\u0119 pod planet\u0105 z pier\u015bcieniem. Potem podni\u00f3s\u0142 artefakt i zabra\u0142 go na d\u00f3\u0142, do pomieszczenia z zielonym p\u0142omieniem. Nieco p\u00f3\u017aniej cz\u0119\u015b\u0107 lamp w pokoju z malowid\u0142em zapali\u0142o si\u0119, a inne zgas\u0142y. Obraz pogr\u0105\u017cy\u0142 si\u0119 w ciemno\u015bciach, ale moim oczom ukaza\u0142o si\u0119 tajemne przej\u015bcie.",
+"3676": [
+"\u015awiat\u0142o dochodz\u0105ce ze skarbca zes\u0142a\u0142o na mnie wizj\u0119, kt\u00f3ra przedstawia\u0142a wchodzenie spiralnymi schodami do pokoju niemal na samym szczycie wie\u017cy. Jeden z mieszka\u0144c\u00f3w Nieznajomego wskaza\u0142 malowid\u0142o \u015bcienne przedstawiaj\u0105ce identyczn\u0105 budowl\u0119 pod planet\u0105 z pier\u015bcieniem. Potem podni\u00f3s\u0142 artefakt i zabra\u0142 go na d\u00f3\u0142, do pomieszczenia z zielonym p\u0142omieniem. Nieco p\u00f3\u017aniej, dwie lampy zgas\u0142y i obraz pogr\u0105\u017cy\u0142 si\u0119 w ciemno\u015bciach. Moim oczom ukaza\u0142o si\u0119 jednak tajemne przej\u015bcie.",
+"Ship Log"
+],
+"3677": [
+"Przej\u015bcie wiod\u0142o do trzech drewnianych pojemnik\u00f3w oznaczonych \u015bwiec\u0105cymi piecz\u0119ciami skarbca.",
 "Ship Log"
 ],
 "2622": [
@@ -11130,20 +11134,28 @@
 "Podziemne jezioro",
 "Ship Log"
 ],
-"2661": [
-"Komora ogniowa",
+"3678": [
+"Zamkni\u0119ty ogie\u0144",
 "Ship Log"
 ],
-"2662": [
-"Przez dziurk\u0119 w bocznej \u015bcianie du\u017cej metalowej konstrukcji zawieszonej na \u0142a\u0144cuchach by\u0142o wida\u0107 zielony ogie\u0144 p\u0142on\u0105cy wewn\u0105trz.",
+"3679": [
+"Przez dziurk\u0119 w bocznej \u015bcianie du\u017cej metalowej konstrukcji zawieszonej na \u0142a\u0144cuchach by\u0142o wida\u0107 zielony ogie\u0144 oraz schody wiod\u0105ce w d\u00f3\u0142.",
 "Ship Log"
 ],
-"2663": [
-"Brakuj\u0105cy skarbiec",
+"3680": [
+"Tak jak w zbiorniku wodnym, przez dziurk\u0119 w bocznej \u015bcianie du\u017cej metalowej konstrukcji zawieszonej na \u0142a\u0144cuchach by\u0142o wida\u0107 zielony ogie\u0144 oraz schody wiod\u0105ce w d\u00f3\u0142.",
 "Ship Log"
 ],
-"2664": [
-"Ukaza\u0142o mi si\u0119 przypominaj\u0105ce wizj\u0119 nagranie dw\u00f3ch postaci wk\u0142adaj\u0105cych artefakty do wielkiej metalowej konstrukcji zawieszonej na \u0142a\u0144cuchach i zasypiaj\u0105cych przy zielonym ogniu na przeciwko zamkni\u0119tego skarbca. Nast\u0119pnie artefakty rozjarzy\u0142y si\u0119, a postacie si\u0119 zbudzi\u0142y, po czym podnios\u0142y skarbiec i znios\u0142y go po schodach, znikaj\u0105c gdzie\u015b na dole.",
+"3681": [
+"Ogie\u0144 w skarbcu",
+"Ship Log"
+],
+"3682": [
+"Ukaza\u0142o mi si\u0119 przypominaj\u0105ce wizj\u0119 nagranie dw\u00f3ch postaci wk\u0142adaj\u0105cych artefakty do wielkiej metalowej konstrukcji zawieszonej na \u0142a\u0144cuchach i zasypiaj\u0105cych przy zielonym ogniu naprzeciwko zamkni\u0119tego skarbca. Nast\u0119pnie artefakty rozjarzy\u0142y si\u0119, a postaci zbudzi\u0142y si\u0119, po czym podnios\u0142y skarbiec i znios\u0142y go po schodach gdzie\u015b na d\u00f3\u0142.",
+"Ship Log"
+],
+"3683": [
+"Ukaza\u0142o mi si\u0119 przypominaj\u0105ce wizj\u0119 nagranie dw\u00f3ch postaci wk\u0142adaj\u0105cych artefakty do wielkiej metalowej konstrukcji w zbiorniku wodnym i zasypiaj\u0105cych przy zielonym ogniu naprzeciwko zamkni\u0119tego skarbca. Nast\u0119pnie artefakty rozjarzy\u0142y si\u0119, a postaci zbudzi\u0142y si\u0119, po czym podnios\u0142y skarbiec i znios\u0142y go po schodach gdzie\u015b na d\u00f3\u0142.",
 "Ship Log"
 ],
 "2665": [
@@ -11184,6 +11196,10 @@
 ],
 "2674": [
 "Dzi\u0119ki mojej pochodni wizji Wi\u0119zie\u0144 pozna\u0142 moj\u0105 wiedz\u0119 na temat historii uk\u0142adu s\u0142onecznego.",
+"Ship Log"
+],
+"3684": [
+"Wi\u0119zie\u0144 pozostawi\u0142 mi na po\u017cegnanie ostatni\u0105 wizj\u0119 nad wod\u0105.",
 "Ship Log"
 ],
 "2675": [
@@ -13270,6 +13286,14 @@
 "Zarz\u0105dzanie profilami",
 "UI"
 ],
+"3196": [
+"Kontroler od\u0142\u0105czony.<br>Pod\u0142\u0105cz ponownie kontroler.",
+"UI"
+],
+"3685": [
+"Pod\u0142\u0105cz ponownie sw\u00f3j kontroler bezprzewodowy, aby kontynuowa\u0107.",
+"UI"
+],
 "3197": [
 "Interakcja",
 "UI"
@@ -14686,6 +14710,22 @@
 "W dzienniku pok\u0142adowym przewija d\u0142ugie wpisy",
 "UI"
 ],
+"3686": [
+"Aktywuje funkcj\u0119 wibracji kontrolera bezprzewodowego (opcja dost\u0119pna wy\u0142\u0105cznie dla kontrolera bezprzewodowego).",
+"UI"
+],
+"3687": [
+"Aktywuje wibracje kontrolera (opcja dost\u0119pna wy\u0142\u0105cznie dla kontrolera).",
+"UI"
+],
+"3688": [
+"Okre\u015bla, jak daleko (od \u015brodka) nale\u017cy przechyli\u0107 lewy/prawy dr\u0105\u017cek, zanim zostanie wykryty jakikolwiek sygna\u0142 wej\u015bciowy. Rozwa\u017c zwi\u0119kszenie tej martwej strefy, je\u015bli twoja posta\u0107 porusza si\u0119 lub rozgl\u0105da si\u0119, gdy nie dotykasz lewego/prawego dr\u0105\u017cka.",
+"UI"
+],
+"3689": [
+"Okre\u015bla, jak daleko (od pe\u0142nego pochylenia) nale\u017cy zwolni\u0107 lewy/prawy dr\u0105\u017cek, zanim maksymalny sygna\u0142 wej\u015bciowy przestanie by\u0107 wykrywany. Rozwa\u017c zwi\u0119kszenie tej martwej strefy, je\u015bli nie mo\u017cesz porusza\u0107 si\u0119 lub patrze\u0107 z maksymaln\u0105 pr\u0119dko\u015bci\u0105.",
+"UI"
+],
 "3550": [
 "Nieznajomy",
 "UI"
@@ -14962,6 +15002,10 @@
 "Lista kontrolna przed lotem",
 "UI"
 ],
+"3690": [
+"(nieobs\u0142ugiwany)",
+"UI"
+],
 "3620": [
 "Mniej strach\u00f3w",
 "UI"
@@ -15172,6 +15216,78 @@
 ],
 "3672": [
 "Zmie\u0144 g\u0142o\u015bno\u015b\u0107 efekt\u00f3w d\u017awi\u0119kowych.",
+"UI"
+],
+"3691": [
+"Czy chcesz zresetowa\u0107 te ustawienia?",
+"UI"
+],
+"3692": [
+"Tak",
+"UI"
+],
+"3693": [
+"Nie",
+"UI"
+],
+"3694": [
+"Pe\u0142ny ekran",
+"UI"
+],
+"3695": [
+"W oknie",
+"UI"
+],
+"3696": [
+"W oknie bez ramek",
+"UI"
+],
+"3697": [
+"Uk\u0142ad klawiatury",
+"UI"
+],
+"3698": [
+"Ustawia powi\u0105zania klawiszy zgodnie z wybranym uk\u0142adem klawiatury. (Zmiana tego ustawienia resetuje powi\u0105zania klawiatury i myszy do warto\u015bci domy\u015blnych)",
+"UI"
+],
+"3699": [
+"Kontroler Switch Pro (nieobs\u0142ugiwany)",
+"UI"
+],
+"3700": [
+"Zmiana pokazu slajd\u00f3w",
+"UI"
+],
+"3701": [
+"Wzn\u00f3w ekspedycj\u0119",
+"UI"
+],
+"3702": [
+"Przesu\u0144 suwak tak, aby obraz sta\u0142 si\u0119 ledwo widoczny.",
+"UI"
+],
+"3703": [
+"Zastosuj",
+"UI"
+],
+"3704": [
+"Anuluj",
+"UI"
+],
+"3705": [
+"Gamma",
+"UI"
+],
+"3706": [
+"Dalej",
+"UI"
+],
+"3707": [
+"Wstecz",
+"UI"
+],
+"3708": [
+"Funkcja wibracji",
 "UI"
 ]
 }

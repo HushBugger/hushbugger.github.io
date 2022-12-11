@@ -1278,7 +1278,7 @@
 "Self",
 "Me"
 ],
-"302": [
+"3673": [
 "That\u2019s true.  I\u2019m not sure how to factor that in.",
 "Self"
 ],
@@ -1304,7 +1304,7 @@
 "Self",
 "Me"
 ],
-"308": [
+"3674": [
 "Haha, yeah, me either.  ...Obviously.",
 "Self"
 ],
@@ -10970,12 +10970,16 @@
 "Symbol Room",
 "Ship Log"
 ],
-"2620": [
-"Secret Passage",
+"3675": [
+"Hidden Vault Seals",
 "Ship Log"
 ],
-"2621": [
-"The light coming out of the vault gave me a vision of climbing a spiral staircase to a room near the top of a tower. One of the Stranger's inhabitants pointed at a mural of an identical tower beneath a ringed planet, then picked up an artifact and carried it downstairs to a room with a green fire. Some time later, several lamps in the mural room turned on while others turned off, plunging the mural into darkness and revealing a secret passage.",
+"3676": [
+"The light coming out of the vault gave me a vision of climbing a spiral staircase to a room near the top of a tower. One of the Stranger's inhabitants pointed at a mural of an identical tower beneath a ringed planet, then picked up an artifact and carried it downstairs to a room with a green fire. Some time later, two of the lamps in the mural room turned off, plunging the mural into darkness and revealing a secret passage.",
+"Ship Log"
+],
+"3677": [
+"The passage lead to three wooden containers, each marked with a glowing vault seal.",
 "Ship Log"
 ],
 "2622": [
@@ -11134,20 +11138,28 @@
 "Subterranean Lake",
 "Ship Log"
 ],
-"2661": [
-"Fire Chamber",
+"3678": [
+"Enclosed Fire",
 "Ship Log"
 ],
-"2662": [
-"I looked through a peephole in the side of a large metal structure suspended by chains and saw a green fire burning inside.",
+"3679": [
+"I looked through a peephole in the side of a large metal structure suspended by chains. Inside is another green fire and a staircase leading farther below.",
 "Ship Log"
 ],
-"2663": [
-"Missing Vault",
+"3680": [
+"I looked through a peephole in the side of a large metal structure suspended by chains like the one in the Reservoir. Inside is another green fire and a staircase leading farther below.",
 "Ship Log"
 ],
-"2664": [
-"I saw a vision-like recording of two figures taking artifacts into a large metal structure suspended by chains and going to sleep at the green fire in front of the sealed vault. Upon waking up with lit artifacts, the two figures picked up the vault and carried it down a staircase and out of sight.",
+"3681": [
+"Vault Room Fire",
+"Ship Log"
+],
+"3682": [
+"I saw a vision-like recording of two figures taking artifacts into a large metal structure suspended by chains and going to sleep at the green fire in front of the sealed vault. Upon waking up with lit artifacts, the two figures picked up the vault and carried it down a staircase to somewhere farther below.",
+"Ship Log"
+],
+"3683": [
+"I saw a vision-like recording of two figures taking artifacts into the Reservoir's submerged structure and going to sleep at the green fire in front of the sealed vault. Upon waking up with lit artifacts, the two figures picked up the vault and carried it down a staircase to somewhere farther below.",
 "Ship Log"
 ],
 "2665": [
@@ -11188,6 +11200,10 @@
 ],
 "2674": [
 "I used the vision torch to share my knowledge of the solar system's history with the Prisoner.",
+"Ship Log"
+],
+"3684": [
+"The Prisoner left one final vision for me by the water's edge as a farewell.",
 "Ship Log"
 ],
 "2675": [
@@ -12191,7 +12207,7 @@
 "UI"
 ],
 "2925": [
-"Full Screen Mode",
+"Display Mode",
 "UI"
 ],
 "2926": [
@@ -13272,6 +13288,14 @@
 ],
 "3195": [
 "Profile Management",
+"UI"
+],
+"3196": [
+"Controller disconnected.<br>Please reconnect your controller.",
+"UI"
+],
+"3685": [
+"Wireless controller disconnected.<br>Please reconnect your wireless controller.",
 "UI"
 ],
 "3197": [
@@ -14395,7 +14419,7 @@
 "UI"
 ],
 "3476": [
-"Whether the game should run as windowed or fullscreen.",
+"Whether the game should run as windowed, borderless window or fullscreen.",
 "UI"
 ],
 "3477": [
@@ -14690,6 +14714,22 @@
 "In the ship log, scrolls through long log entries",
 "UI"
 ],
+"3686": [
+"Enables wireless controller vibration function (wireless controller only).",
+"UI"
+],
+"3687": [
+"Enables controller vibration (controller only).",
+"UI"
+],
+"3688": [
+"Determines how far (from center) the left/right stick must be tilted before any input is detected. Consider increasing this dead zone if your character moves or looks around when you're not touching the left/right stick.",
+"UI"
+],
+"3689": [
+"Determines how far (from full tilt) the left/right stick must be released before maximum input is no longer detected. Consider increasing this dead zone if you are unable to move or look at maximum speed.",
+"UI"
+],
 "3550": [
 "The Stranger",
 "UI"
@@ -14970,6 +15010,10 @@
 "Preflight Checklist",
 "UI"
 ],
+"3690": [
+"(unsupported)",
+"UI"
+],
 "3620": [
 "Reduced Frights",
 "UI"
@@ -15180,6 +15224,78 @@
 ],
 "3672": [
 "Change volume for sound effects.",
+"UI"
+],
+"3691": [
+"Would you like to reset your input settings?",
+"UI"
+],
+"3692": [
+"Yes",
+"UI"
+],
+"3693": [
+"No",
+"UI"
+],
+"3694": [
+"Fullscreen",
+"UI"
+],
+"3695": [
+"Windowed",
+"UI"
+],
+"3696": [
+"Borderless Window",
+"UI"
+],
+"3697": [
+"Keyboard Layout",
+"UI"
+],
+"3698": [
+"Sets key bindings according to the selected keyboard layout. (Changing this setting resets Keyboard & Mouse bindings to defaults)",
+"UI"
+],
+"3699": [
+"Switch Pro Controller (unsupported)",
+"UI"
+],
+"3700": [
+"Switch Slideshow",
+"UI"
+],
+"3701": [
+"Resume Expedition",
+"UI"
+],
+"3702": [
+"Adjust the slider until the image is barely visable.",
+"UI"
+],
+"3703": [
+"Apply",
+"UI"
+],
+"3704": [
+"Cancel",
+"UI"
+],
+"3705": [
+"Gamma",
+"UI"
+],
+"3706": [
+"Next",
+"UI"
+],
+"3707": [
+"Previous",
+"UI"
+],
+"3708": [
+"Vibration Function",
 "UI"
 ]
 }

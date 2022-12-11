@@ -1278,7 +1278,7 @@
 "Self",
 "Me"
 ],
-"302": [
+"3673": [
 "C'est vrai. Je ne sais pas trop comment prendre \u00e7a en compte.",
 "Self"
 ],
@@ -1304,7 +1304,7 @@
 "Self",
 "Me"
 ],
-"308": [
+"3674": [
 "Ha ha, ouais, pareil pour moi.  \u00c9videmment.",
 "Self"
 ],
@@ -10966,12 +10966,16 @@
 "Pi\u00e8ce du symbole",
 "Ship Log"
 ],
-"2620": [
-"Passage secret",
+"3675": [
+"Sceaux de coffre cach\u00e9s",
 "Ship Log"
 ],
-"2621": [
-"La lumi\u00e8re provenant du coffre m'a donn\u00e9 une vision. J'ai gravi un escalier en colima\u00e7on jusqu'\u00e0 une salle situ\u00e9e pr\u00e8s du sommet de la tour. L'un des habitants de l'\u00c9tranger a d\u00e9sign\u00e9 une peinture murale d'une tour identique sous une plan\u00e8te \u00e0 anneaux, puis a ramass\u00e9 un artefact et l'a transport\u00e9 \u00e0 un \u00e9tage en dessous, dans une pi\u00e8ce avec un feu vert. Quelque temps apr\u00e8s, les lampes dans la pi\u00e8ce contenant la peinture se sont allum\u00e9es, tandis que les autres se sont \u00e9teintes, plongeant ainsi la peinture dans l'obscurit\u00e9 et r\u00e9v\u00e9lant un passage secret.",
+"3676": [
+"La lumi\u00e8re provenant du coffre m'a donn\u00e9 une vision. J'ai gravi un escalier en colima\u00e7on jusqu'\u00e0 une salle situ\u00e9e pr\u00e8s du sommet de la tour. L'un des habitants de l'\u00c9tranger a d\u00e9sign\u00e9 une peinture murale d'une tour identique sous une plan\u00e8te \u00e0 anneaux, puis a ramass\u00e9 un artefact et l'a transport\u00e9 \u00e0 un \u00e9tage en dessous, dans une pi\u00e8ce avec un feu vert. Quelque temps apr\u00e8s, deux des lampes dans la pi\u00e8ce contenant la peinture se sont \u00e9teintes, plongeant ainsi la peinture dans l'obscurit\u00e9 et r\u00e9v\u00e9lant un passage secret.",
+"Ship Log"
+],
+"3677": [
+"Le passage m\u00e8ne \u00e0 trois r\u00e9cipients en bois, chacun marqu\u00e9 d'un sceau de coffre lumineux.",
 "Ship Log"
 ],
 "2622": [
@@ -11130,20 +11134,28 @@
 "Lac souterrain",
 "Ship Log"
 ],
-"2661": [
-"Salle du feu",
+"3678": [
+"Feu entour\u00e9",
 "Ship Log"
 ],
-"2662": [
-"J'ai regard\u00e9 par un trou pr\u00e9sent sur la paroi d'une grande structure m\u00e9tallique suspendue par des cha\u00eenes et j'ai vu un feu vert br\u00fbler \u00e0 l'int\u00e9rieur.",
+"3679": [
+"J'ai regard\u00e9 par un trou pr\u00e9sent sur la paroi d'une grande structure m\u00e9tallique suspendue par des cha\u00eenes. \u00c0 l'int\u00e9rieur, j'ai vu un autre feu vert et un escalier qui descendait encore plus bas.",
 "Ship Log"
 ],
-"2663": [
-"Coffre disparu",
+"3680": [
+"J'ai regard\u00e9 par un trou pr\u00e9sent sur la paroi d'une grande structure m\u00e9tallique suspendue par des cha\u00eenes comme celle du r\u00e9servoir. \u00c0 l'int\u00e9rieur, j'ai vu un autre feu vert et un escalier qui descendait encore plus bas.",
 "Ship Log"
 ],
-"2664": [
-"J'ai \u00e9t\u00e9 t\u00e9moin d'une sorte de vision. Deux silhouettes se sont empar\u00e9es d'artefacts dans une imposante structure suspendue par des cha\u00eenes m\u00e9talliques, puis se sont endormies pr\u00e8s du feu vert devant le coffre scell\u00e9. Une fois r\u00e9veill\u00e9es avec les artefacts allum\u00e9s, les deux silhouettes ont ramass\u00e9 le coffre et l'ont transport\u00e9 en bas d'un escalier, jusqu'\u00e0 ne plus \u00eatre visibles.",
+"3681": [
+"Feu de la salle du coffre",
+"Ship Log"
+],
+"3682": [
+"Un souvenir m'est revenu sous forme de vision. Deux silhouettes se sont empar\u00e9es d'artefacts dans une imposante structure m\u00e9tallique suspendue par des cha\u00eenes, puis se sont endormies pr\u00e8s du feu vert devant le coffre scell\u00e9. Une fois r\u00e9veill\u00e9es avec les artefacts allum\u00e9s, les deux silhouettes ont ramass\u00e9 le coffre et l'ont transport\u00e9 en bas d'un escalier, jusqu'\u00e0 ne plus \u00eatre visibles.",
+"Ship Log"
+],
+"3683": [
+"Un souvenir m'est revenu sous forme de vision. Deux silhouettes se sont empar\u00e9es d'artefacts dans la structure submerg\u00e9e du r\u00e9servoir, puis se sont endormies pr\u00e8s du feu vert devant le coffre scell\u00e9. Une fois r\u00e9veill\u00e9es avec les artefacts allum\u00e9s, les deux silhouettes ont ramass\u00e9 le coffre et l'ont transport\u00e9 en bas d'un escalier, jusqu'\u00e0 ne plus \u00eatre visibles.",
 "Ship Log"
 ],
 "2665": [
@@ -11184,6 +11196,10 @@
 ],
 "2674": [
 "J'ai utilis\u00e9 la torche de vision pour transmettre au prisonnier mes connaissances concernant l'histoire du syst\u00e8me solaire.",
+"Ship Log"
+],
+"3684": [
+"Le prisonnier m'a laiss\u00e9 une derni\u00e8re vision sur la rive en guise d'adieu.",
 "Ship Log"
 ],
 "2675": [
@@ -11515,7 +11531,7 @@
 "Ship Log"
 ],
 "2757": [
-"Les enfants noma\u00ef jouaient \u00e0 un jeu dans la grotte du c\u0153lacanthe. Il est impossible d'acc\u00e9der \u00e0 la grotte du c\u0153lacanthe depuis la caverne au gu\u00e9.",
+"Les enfants noma\u00ef jouaient \u00e0 un jeu dans la grotte du c\u0153lacanthe. Il est possible d'acc\u00e9der \u00e0 la grotte du c\u0153lacanthe depuis la caverne au gu\u00e9.",
 "Ship Log"
 ],
 "2758": [
@@ -13270,6 +13286,14 @@
 "Gestion des profils",
 "UI"
 ],
+"3196": [
+"Manette d\u00e9connect\u00e9e.<br>Veuillez reconnecter la manette.",
+"UI"
+],
+"3685": [
+"Veuillez rebrancher votre manette sans fil pour continuer.",
+"UI"
+],
 "3197": [
 "Interagir",
 "UI"
@@ -14686,6 +14710,22 @@
 "Dans le journal de bord, passer d'un \u00e9l\u00e9ment \u00e0 l'autre",
 "UI"
 ],
+"3686": [
+"Activer la fonction de Vibration de la manette sans fil (manette sans fil uniquement).",
+"UI"
+],
+"3687": [
+"Active la vibration de la manette (manette uniquement).",
+"UI"
+],
+"3688": [
+"D\u00e9termine \u00e0 quelle distance (du centre) le stick analogique gauche/droit doit \u00eatre inclin\u00e9 avant qu'une saisie soit d\u00e9tect\u00e9e. Pensez \u00e0 augmenter cette zone morte si votre personnage se d\u00e9place ou bouge la t\u00eate alors que vous ne touchez pas le stick analogique gauche/droit.",
+"UI"
+],
+"3689": [
+"D\u00e9termine \u00e0 quelle distance (par rapport \u00e0 l'inclinaison maximale) le stick analogique gauche/droit doit \u00eatre rel\u00e2ch\u00e9 avant qu'une saisie maximale ne soit plus d\u00e9tect\u00e9e. Pensez \u00e0 augmenter cette zone morte si vous n'arrivez pas \u00e0 vous d\u00e9placer ou bouger la t\u00eate \u00e0 vitesse maximum.",
+"UI"
+],
 "3550": [
 "L'\u00e9tranger",
 "UI"
@@ -14966,6 +15006,10 @@
 "Pr\u00e9paratifs de lancement",
 "UI"
 ],
+"3690": [
+"(non support\u00e9e)",
+"UI"
+],
 "3620": [
 "Att\u00e9nuation de la peur",
 "UI"
@@ -15176,6 +15220,78 @@
 ],
 "3672": [
 "Modifie le volume des \u00e9l\u00e9ments audio.",
+"UI"
+],
+"3691": [
+"Voulez-vous r\u00e9initialiser vos r\u00e9glages d'entr\u00e9e?",
+"UI"
+],
+"3692": [
+"Oui",
+"UI"
+],
+"3693": [
+"Non",
+"UI"
+],
+"3694": [
+"Plein \u00e9cran",
+"UI"
+],
+"3695": [
+"Fen\u00eatr\u00e9",
+"UI"
+],
+"3696": [
+"Fen\u00eatr\u00e9 sans bordures",
+"UI"
+],
+"3697": [
+"Disposition du clavier",
+"UI"
+],
+"3698": [
+"Dispose les assignements de touches en fonction de la disposition de clavier choisie. (Modifier ce r\u00e9glage r\u00e9initialise les assignements de clavier & souris \u00e0 leurs valeurs par d\u00e9faut.)",
+"UI"
+],
+"3699": [
+"Manette Switch Pro (non support\u00e9e)",
+"UI"
+],
+"3700": [
+"Changer la pr\u00e9sentation",
+"UI"
+],
+"3701": [
+"Reprendre l'exp\u00e9dition",
+"UI"
+],
+"3702": [
+"Ajustez le curseur jusqu'\u00e0 ce que l'image soit \u00e0 peine visible.",
+"UI"
+],
+"3703": [
+"Appliquer",
+"UI"
+],
+"3704": [
+"Annuler",
+"UI"
+],
+"3705": [
+"Gamma",
+"UI"
+],
+"3706": [
+"Suivant",
+"UI"
+],
+"3707": [
+"Pr\u00e9c\u00e9dent",
+"UI"
+],
+"3708": [
+"Fonction de Vibration",
 "UI"
 ]
 }
