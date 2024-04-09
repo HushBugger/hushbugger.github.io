@@ -156,7 +156,7 @@
 "Nomai sign"
 ],
 "40": [
-"FLUGLOG ANFANG:<span class=\"orange\">Rettungskapsel 1</span>.<span class=\"orange\">Gefährt</span> wurde tödlich verwundet. Notfallsequenz aktiviert. Erwarte Abflug vom <span class=\"orange\">Gefährt</span>.",
+"FLUGLOG ANFANG: <span class=\"orange\">Rettungskapsel 1</span>. <span class=\"orange\">Gefährt</span> wurde tödlich verwundet. Notfallsequenz aktiviert. Erwarte Abflug vom <span class=\"orange\">Gefährt</span>.",
 "Nomai computer"
 ],
 "41": [
@@ -660,7 +660,7 @@
 "?"
 ],
 "166": [
-"AUSRICHTUNG 3:<span class=\"lightblue\">Holzkamin</span>",
+"AUSRICHTUNG 3: <span class=\"lightblue\">Holzkamin</span>",
 "?"
 ],
 "167": [
@@ -1229,7 +1229,7 @@
 "Me"
 ],
 "291": [
-"Ja! Das fühlt sich an, als wäre es schon ewig her.<br><br>Wenn es die Zeitschleife nicht gäbe, wären wir da draußen gestorben. Schon komisch, wenn man darüber nachdenkt, oder?",
+"Ja! Das fühlt sich an, als wäre es schon ewig her.<br>\\\\N<br>\\\\NWenn es die Zeitschleife nicht gäbe, wären wir da draußen gestorben. Schon komisch, wenn man darüber nachdenkt, oder?",
 "Self"
 ],
 "292": [
@@ -1255,7 +1255,7 @@
 "Self"
 ],
 "297": [
-"JA. Es ist so schade, dass keiner da war, der es gesehen hat.<br><br>Niemand sonst aus dem Raumfahrtprogramm hätte das geschafft.",
+"JA. Es ist so schade, dass keiner da war, der es gesehen hat.<br>\\\\N<br>\\\\NNiemand sonst aus dem Raumfahrtprogramm hätte das geschafft.",
 "Self"
 ],
 "298": [
@@ -1393,7 +1393,7 @@
 "Nomai sign"
 ],
 "330": [
-"<span class=\"orange\">Schwarzlochschmiede</span><br>(40 m nördlich)",
+"<span class=\"orange\">Schwarzlochschmiede</span><br>\\\\N(40 m nördlich)",
 "Nomai sign"
 ],
 "331": [
@@ -1513,11 +1513,11 @@
 "Nomai computer"
 ],
 "360": [
-"Status des Warpnetzwerks von <span class=\"lightblue\">Zwillingsasche</span>: <span class=\"orange\">Sonnenturm</span> seit <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> Minuten und <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> Sekunden offline.<br>Alle anderen Türme online.",
+"Status des Warpnetzwerks von <span class=\"lightblue\">Zwillingsasche</span>: <span class=\"orange\">Sonnenturm</span> seit <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> Minuten und <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> Sekunden offline.<br>\\\\NAlle anderen Türme online.",
 "Nomai computer"
 ],
 "361": [
-"Sonnenturm seit <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> Minuten und <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> Sekunden offline.<br>Alle anderen Türme online.",
+"Sonnenturm seit <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> Minuten und <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> Sekunden offline.<br>\\\\NAlle anderen Türme online.",
 "Nomai computer"
 ],
 "362": [
@@ -2433,7 +2433,7 @@
 "Sign"
 ],
 "581": [
-"Ich bitte aufrichtig um Entschuldigung, außer bei Schiefer und Glimmer,<br><br>Hornfels (Museumskurator)",
+"Ich bitte aufrichtig um Entschuldigung, außer bei Schiefer und Glimmer,<br>\\\\N<br>\\\\NHornfels (Museumskurator)",
 "Sign"
 ],
 "582": [
@@ -2616,7 +2616,7 @@
 "Me"
 ],
 "623": [
-"Es ist alles noch sehr experimentell. Einfacher gesagt, funktioniert das wie eine normale, zusätzliche Zündungsrakete mit einer noch größeren Rakete oben drauf geschnallt.<br>Ist das nicht <em>genial</em>?",
+"Es ist alles noch sehr experimentell. Einfacher gesagt, funktioniert das wie eine normale, zusätzliche Zündungsrakete mit einer noch größeren Rakete oben drauf geschnallt.<br>\\\\NIst das nicht <em>genial</em>?",
 "Slate"
 ],
 "624": [
@@ -2624,7 +2624,7 @@
 "Slate"
 ],
 "625": [
-"Oh, äh, das ist hundertprozentig sicher. Sofern man keine Pilotenfehler mit einkalkuliert. Tut man das, fällt der Wert auf etwa 40 %.<br>Ist nicht böse gemeint.",
+"Oh, äh, das ist hundertprozentig sicher. Sofern man keine Pilotenfehler mit einkalkuliert. Tut man das, fällt der Wert auf etwa 40 %.<br>\\\\NIst nicht böse gemeint.",
 "Slate"
 ],
 "626": [
@@ -2671,7 +2671,7 @@
 "Slate"
 ],
 "636": [
-"Du scheinst ja wirklich fix und fertig zu sein für den Start! Die Aufregung vor dem Start ist Teil des Vergnügens. Ich kann es aber kaum erwarten, bald an einem neuen Schiff zu arbeiten.<br>Wir arbeiten daran, die Ausweichberechnungen des Autopiloten am nächsten Exemplar endlich zu reparieren.",
+"Du scheinst ja wirklich fix und fertig zu sein für den Start! Die Aufregung vor dem Start ist Teil des Vergnügens. Ich kann es aber kaum erwarten, bald an einem neuen Schiff zu arbeiten.<br>\\\\NWir arbeiten daran, die Ausweichberechnungen des Autopiloten am nächsten Exemplar endlich zu reparieren.",
 "Slate"
 ],
 "637": [
@@ -3391,7 +3391,7 @@
 "Journal"
 ],
 "803": [
-"GABBROS 3 NARRENSICHERE SCHRITTE ZUM EINSCHLAFEN<br>1.     Entfache ein schönes, gemütliches Lagerfeuer und mach es dir bequem.<br>2.     Blicke tief in die wohlige Wärme.<br>3.     Lass die Zeit entgleiten, während du dich von den Flammen in einen friedlichen Schlummer führen lässt.",
+"GABBROS 3 NARRENSICHERE SCHRITTE ZUM EINSCHLAFEN<br>\\\\N     1.     Entfache ein schönes, gemütliches Lagerfeuer und mach es dir bequem.<br>\\\\N     2.     Blicke tief in die wohlige Wärme.<br>\\\\N     3.     Lass die Zeit entgleiten, während du dich von den Flammen in einen\\\\N<br>friedlichen Schlummer führen lässt.",
 "Hornfels",
 "Journal"
 ],
@@ -3640,7 +3640,7 @@
 "Hal"
 ],
 "859": [
-"Denk doch nur – Du wirst jeden beliebigen Nomai-Text übersetzen können, egal wo du bist. Wir beide haben eine Menge Zeit in die Erfindung dieses Geräts gesteckt, also mach es nicht kaputt, okay? Haha! … Hachja.<em>Mach es nicht kaputt.</em>",
+"Denk doch nur – Du wirst jeden beliebigen Nomai-Text übersetzen können, egal wo du bist. Wir beide haben eine Menge Zeit in die Erfindung dieses Geräts gesteckt, also mach es nicht kaputt, okay? Haha! … Hachja. <em>Mach es nicht kaputt.</em>",
 "Hal"
 ],
 "860": [
@@ -3879,15 +3879,15 @@
 "MELORAE: Es ist möglich, dass auch ein sechster Ort in diesem Sternsystem existiert, zu dem der <span class=\"lightblue\">Phantommond</span> reist.",
 "Melorae"
 ],
-"915": [
+"3709": [
 "MELORAE: Wenn du hergekommen bist, um nach Coleus zu suchen; hier haben wir ihn zuletzt gesehen. Er wird bereits seit zwei Tagen vermisst!",
 "Melorae"
 ],
-"916": [
+"3710": [
 "ANNONA: Dein seltsamer herumwandelnder Felsenfreund ist hier, aber Coleus nicht.",
 "Annona"
 ],
-"917": [
+"3711": [
 "MELORAE: Coleus und ich haben diesen ungewöhnlich aussehenden Felsbrocken (und mehrere kleinere Steine) in mindestens zwei weiteren Höhlen untersucht. Ich bin mir nicht sicher, ob das relevant ist.",
 "Melorae"
 ],
@@ -3895,11 +3895,11 @@
 "BUR: Was ist geschehen, bevor Coleus verschwand?",
 "Bur"
 ],
-"919": [
+"3712": [
 "MELORAE: Wir haben die verschiedenen Felsen untersucht. Ich erinnere mich, dass Coleus auf dem größten (dem wandelnden) Felsen stand. Ich machte mir Notizen und dann erlosch meine Laterne.",
 "Melorae"
 ],
-"920": [
+"3713": [
 "MELORAE: Als ich sie wieder anzündete, waren Coleus und der Fels verschwunden.",
 "Melorae"
 ],
@@ -4212,7 +4212,7 @@
 "Lami"
 ],
 "998": [
-"LAMI:<em>Aber</em>, was wäre, wenn wir die Tür nicht benutzen und uns auf <em>anderem</em> Wege reinschleichen? Macht irgendwer mit?",
+"LAMI: <em>Aber</em>, was wäre, wenn wir die Tür nicht benutzen und uns auf <em>anderem</em> Wege reinschleichen? Macht irgendwer mit?",
 "Lami"
 ],
 "999": [
@@ -4944,7 +4944,7 @@
 "Annona"
 ],
 "1181": [
-"RHUS: Die Passagiere in unserer color=orange>Rettungskapsel</span> sind verängstigt, aber physisch geht es ihnen gut, Annona. Alle haben den Absturz überlebt.",
+"RHUS: Die Passagiere in unserer <span class=\"orange\">Rettungskapsel</span> sind verängstigt, aber physisch geht es ihnen gut, Annona. Alle haben den Absturz überlebt.",
 "Rhus"
 ],
 "1182": [
@@ -4956,7 +4956,7 @@
 "Bur"
 ],
 "1184": [
-"FLUGLOG ANFANG:<span class=\"orange\">Rettungskapsel 2</span>.<span class=\"orange\">Gefährt</span> wurde tödlich verwundet. Notfallsequenz aktiviert. Erwarte Abflug vom <span class=\"orange\">Gefährt</span>.",
+"FLUGLOG ANFANG: <span class=\"orange\">Rettungskapsel 2</span>. <span class=\"orange\">Gefährt</span> wurde tödlich verwundet. Notfallsequenz aktiviert. Erwarte Abflug vom <span class=\"orange\">Gefährt</span>.",
 "Nomai computer"
 ],
 "1185": [
@@ -5032,7 +5032,7 @@
 "Laevi"
 ],
 "1203": [
-"LAEVI:<em>Regeländerung</em>: Der Anglerfisch muss jetzt die Augen verbunden haben. (Und darf <em>nicht</em> linsen!)",
+"LAEVI: <em>Regeländerung</em>: Der Anglerfisch muss jetzt die Augen verbunden haben. (Und darf <em>nicht</em> linsen!)",
 "Laevi"
 ],
 "1204": [
@@ -5111,7 +5111,7 @@
 "MELORAE: Freunde, Coleus hat eine neue Quantenregel entdeckt! (Er hat mir auch versprochen, nie wieder zu verschwinden, auch <em>wenn</em> er dadurch etwas Nützliches erfahren würde.)",
 "Melorae"
 ],
-"1223": [
+"3714": [
 "MELORAE: Coleus ist verschollen! Er verschwand vor einigen Tagen einfach aus der <span class=\"orange\">Seegrundhöhle</span> (die am Grund des ausgetrockneten Sees am Nordpol) und wir konnten bisher keine einzige Spur von ihm finden. Ich weiß nicht, wie viel Atemluft er noch hatte, als er verschwand. Ich bitte alle Freunde, die das hier lesen, uns bei der Suche nach Coleus zu helfen!",
 "Melorae"
 ],
@@ -5204,7 +5204,7 @@
 "Escall"
 ],
 "1246": [
-"FLUGLOG ANFANG:<span class=\"orange\">Rettungskapsel 3</span>.<span class=\"orange\">Gefährt</span> wurde tödlich verwundet. Notfallsequenz aktiviert. Erwarte Abflug vom <span class=\"orange\">Gefährt</span>.",
+"FLUGLOG ANFANG: <span class=\"orange\">Rettungskapsel 3</span>.<span class=\"orange\">Gefährt</span> wurde tödlich verwundet. Notfallsequenz aktiviert. Erwarte Abflug vom <span class=\"orange\">Gefährt</span>.",
 "Nomai computer"
 ],
 "1247": [
@@ -5276,7 +5276,7 @@
 "Nomai computer"
 ],
 "1264": [
-"BEGINNE STARTAUFZEICHNUNGEN:<span class=\"orange\">Sonden-Orbitalkanone</span>: Startanfrage erhalten. Sondenstart erfolgreich.",
+"BEGINNE STARTAUFZEICHNUNGEN: <span class=\"orange\">Sonden-Orbitalkanone</span>: Startanfrage erhalten. Sondenstart erfolgreich.",
 "Nomai computer"
 ],
 "1265": [
@@ -5440,7 +5440,7 @@
 "Nomai computer"
 ],
 "1305": [
-"Voraussichtliche Zeit bis zur Zerstörung der <span class=\"orange\">Sonnenstation</span> durch den expandierenden Stern: <span class=\"template\">&lt;RemainingMinutes&gt;</span> MINUTEN, <span class=\"template\">&lt;RemainingSeconds&gt;</span> SEKUNDEN<br>Voraussichtliche Zeit bis zum Tod des Sterns: <span class=\"template\">&lt;MinutesToRedGiant&gt;</span> MINUTEN, <span class=\"template\">&lt;SecondsToRedGiant&gt;</span> SEKUNDEN",
+"Voraussichtliche Zeit bis zur Zerstörung der <span class=\"orange\">Sonnenstation</span> durch den expandierenden Stern: <span class=\"template\">&lt;RemainingMinutes&gt;</span> MINUTEN, <span class=\"template\">&lt;RemainingSeconds&gt;</span> SEKUNDEN<br>\\\\NVoraussichtliche Zeit bis zum Tod des Sterns: <span class=\"template\">&lt;MinutesToRedGiant&gt;</span> MINUTEN, <span class=\"template\">&lt;SecondsToRedGiant&gt;</span> SEKUNDEN",
 "Nomai computer"
 ],
 "1306": [
@@ -5536,7 +5536,7 @@
 "Ramie"
 ],
 "1329": [
-"PYE: Es gibt Neuigkeiten: Poke, das <span class=\"orange\">Hochenergielabor</span> befindet sich in einer Schlucht am Äquator auf <span class=\"lightblue\">Glutzwilling</span>.<em>Komme her, so schnell es geht.</em> Das musst du dir ansehen!",
+"PYE: Es gibt Neuigkeiten: Poke, das <span class=\"orange\">Hochenergielabor</span> befindet sich in einer Schlucht am Äquator auf <span class=\"lightblue\">Glutzwilling</span>. <em>Komme her, so schnell es geht.</em> Das musst du dir ansehen!",
 "Pye"
 ],
 "1330": [
@@ -5652,12 +5652,12 @@
 "Note"
 ],
 "1353": [
-"Tour 4, Eintrag xxx oder sowas<br>Abstürze: 2<br>Langweilige Abstürze: 0 (Muss mich daran erinnern, Schiefer zu treffen, wenn ich zurück bin)",
+"Tour 4, Eintrag xxx oder sowas<br>\\\\N Abstürze: 2<br>\\\\N Langweilige Abstürze: 0 (Muss mich daran erinnern, Schiefer zu treffen, wenn ich zurück bin)",
 "Feldspar",
 "Journal"
 ],
 "1354": [
-"Ha <em>ha</em>, ja!<em>Ja</em>! Ganz bis runter zum Kern! Betrachtet euch als erobert, Untiefen der Riesen – Ihr wurdet soeben <em>ge-Feldspatet</em>.",
+"Ha <em>ha</em>, ja! <em>Ja</em>! Ganz bis runter zum Kern! Betrachtet euch als erobert, Untiefen der Riesen – Ihr wurdet soeben <em>ge-Feldspatet</em>.",
 "Feldspar",
 "Journal"
 ],
@@ -5681,7 +5681,7 @@
 "Sign"
 ],
 "1359": [
-"Eine Bewegung durch <span class=\"orange\">Geistermaterie</span> ist unglaublich schmerzhaft und führt wahrscheinlich zum Tod. Beschwer dich nicht bei mir, wenn du dich verletzt, weil du damit Unfug getrieben hast.<br>- Hornfels",
+"Eine Bewegung durch <span class=\"orange\">Geistermaterie</span> ist unglaublich schmerzhaft und führt wahrscheinlich zum Tod. Beschwer dich nicht bei mir, wenn du dich verletzt, weil du damit Unfug getrieben hast.<br>\\\\N- Hornfels",
 "Hornfels",
 "Sign"
 ],
@@ -5945,7 +5945,7 @@
 "Gossan"
 ],
 "1420": [
-"Hey! Wag es nicht, loszufliegen, ohne mir tschüs zu sagen. Wem hast du denn dein Astronautentraining zu verdanken? Ich habe außerdem ein Schwerelosigkeitstraining vorbereitet, falls du eine Auffrischung brauchst.<br><br>– Eisenhut",
+"Hey! Wag es nicht, loszufliegen, ohne mir tschüs zu sagen. Wem hast du denn dein Astronautentraining zu verdanken? Ich habe außerdem ein Schwerelosigkeitstraining vorbereitet, falls du eine Auffrischung brauchst.<br>\\\\N<br>\\\\N– Eisenhut",
 "Gossan",
 "Note"
 ],
@@ -6286,7 +6286,7 @@
 "Recording"
 ],
 "1499": [
-"Japp. Ich steige einfach wieder in das olle Schiff und fliege los. Total sicher. … Größtenteils sicher.<span class=\"small\">Oh, bei den Sternen</span> …",
+"Japp. Ich steige einfach wieder in das olle Schiff und fliege los. Total sicher. … Größtenteils sicher. <span class=\"small\">Oh, bei den Sternen</span> …",
 "Riebeck",
 "Recording"
 ],
@@ -7489,7 +7489,7 @@
 "Riebeck"
 ],
 "1777": [
-"Wenn du Fragen zu den Nomai auf dem Bröckeligen Krater hast, bin ich von allen Kamina am besten geeignet! Oder, ähm … Ich meine, ich weiß ein bisschen was über sie. Also.<span class=\"small\">Vielleicht kann ich helfen?</span>",
+"Wenn du Fragen zu den Nomai auf dem Bröckeligen Krater hast, bin ich von allen Kamina am besten geeignet! Oder, ähm … Ich meine, ich weiß ein bisschen was über sie. Also. <span class=\"small\">Vielleicht kann ich helfen?</span>",
 "Riebeck"
 ],
 "1778": [
@@ -7634,7 +7634,7 @@
 "Riebeck"
 ],
 "1811": [
-"Oh, wow.<em>Wow.</em> So sind die Nomai also gestorben?",
+"Oh, wow. <em>Wow.</em> So sind die Nomai also gestorben?",
 "Riebeck"
 ],
 "1812": [
@@ -7674,7 +7674,7 @@
 "Riebeck"
 ],
 "1821": [
-"Oh, wow!<em>Wow</em>! Dies ist das Beste, was jemals in der Geschichte von Outer Wilds Ventures passiert ist! Ich kann nicht glauben, dass du mit einem echten Nomai gesprochen hast!",
+"Oh, wow! <em>Wow</em>! Dies ist das Beste, was jemals in der Geschichte von Outer Wilds Ventures passiert ist! Ich kann nicht glauben, dass du mit einem echten Nomai gesprochen hast!",
 "Riebeck"
 ],
 "1822": [
@@ -7838,35 +7838,35 @@
 "Nomai sign"
 ],
 "1861": [
-"Die <span class=\"orange\">Kreuzung</span><br>(Westen 350 m)",
+"Die <span class=\"orange\">Kreuzung</span><br>\\\\N(Westen 350 m)",
 "Nomai sign"
 ],
 "1862": [
-"Das <span class=\"orange\">Südliche Observatorium</span><br>(Süden 550 m)",
+"Das <span class=\"orange\">Südliche Observatorium</span><br>\\\\N(Süden 550 m)",
 "Nomai sign"
 ],
 "1863": [
-"<span class=\"orange\">Gravitationskristallwerkstatt</span><br>(oben 140 m)",
+"<span class=\"orange\">Gravitationskristallwerkstatt</span><br>\\\\N(oben 140 m)",
 "Nomai sign"
 ],
 "1864": [
-"<span class=\"orange\">Schwerkraftkanone</span><br>(Osten 400 m)",
+"<span class=\"orange\">Schwerkraftkanone</span><br>\\\\N(Osten 400 m)",
 "Nomai sign"
 ],
 "1865": [
-"Die <span class=\"orange\">Hängende Stadt</span><br>(Norden 250 m)",
+"Die <span class=\"orange\">Hängende Stadt</span><br>\\\\N(Norden 250 m)",
 "Nomai sign"
 ],
 "1866": [
-"Der <span class=\"orange\">Turm der Quantumsweisheit</span><br>(Westen 190 m)",
+"Der <span class=\"orange\">Turm der Quantumsweisheit</span><br>\\\\N(Westen 190 m)",
 "Nomai sign"
 ],
 "1867": [
-"<span class=\"orange\">Untere Kreuzung</span><br>(56 m nach unten)",
+"<span class=\"orange\">Untere Kreuzung</span><br>\\\\N(56 m nach unten)",
 "Nomai sign"
 ],
 "1868": [
-"Die <span class=\"orange\">Hängende Stadt</span><br>(50 m nach unten)",
+"Die <span class=\"orange\">Hängende Stadt</span><br>\\\\N(50 m nach unten)",
 "Nomai sign"
 ],
 "1869": [
@@ -7878,11 +7878,11 @@
 "Nomai sign"
 ],
 "1871": [
-"<span class=\"orange\">Schwarzlochschmiede</span><br>(noch 30 m)",
+"<span class=\"orange\">Schwarzlochschmiede</span><br>\\\\N(noch 30 m)",
 "Nomai sign"
 ],
 "1872": [
-"Die <span class=\"orange\">Kreuzung</span><br>(Osten 190 m)",
+"Die <span class=\"orange\">Kreuzung</span><br>\\\\N(Osten 190 m)",
 "Nomai sign"
 ],
 "1873": [
@@ -7890,11 +7890,11 @@
 "Nomai sign"
 ],
 "1874": [
-"<span class=\"orange\">Schwerkraftkanonen</span>-Steuerungskonsole<br>(90 m)",
+"<span class=\"orange\">Schwerkraftkanonen</span>-Steuerungskonsole<br>\\\\N(90 m)",
 "Nomai sign"
 ],
 "1875": [
-"Eingang zum <span class=\"orange\">Turm der Quantumsweisheit</span><br>(90 m nach unten)",
+"Eingang zum <span class=\"orange\">Turm der Quantumsweisheit</span><br>\\\\N(90 m nach unten)",
 "Nomai sign"
 ],
 "1876": [
@@ -7938,39 +7938,39 @@
 "Coleus"
 ],
 "1886": [
-"Die <span class=\"orange\">Sonnenlose Stadt</span><br>(120 m)",
+"Die <span class=\"orange\">Sonnenlose Stadt</span><br>\\\\N(120 m)",
 "Nomai sign"
 ],
 "1887": [
-"<span class=\"orange\">Schwerkraftkanone</span><br>(120 m)",
+"<span class=\"orange\">Schwerkraftkanone</span><br>\\\\N(120 m)",
 "Nomai sign"
 ],
 "1888": [
-"Das <span class=\"orange\">Hochenergielabor</span><br>(400 m)",
+"Das <span class=\"orange\">Hochenergielabor</span><br>\\\\N(400 m)",
 "Nomai sign"
 ],
 "1889": [
-"<span class=\"orange\">Anglerfischfossilausblick</span><br>(40 m)",
+"<span class=\"orange\">Anglerfischfossilausblick</span><br>\\\\N(40 m)",
 "Nomai sign"
 ],
 "1890": [
-"<span class=\"orange\">Trittsteinhöhle</span><br>(20 m)",
+"<span class=\"orange\">Trittsteinhöhle</span><br>\\\\N(20 m)",
 "Nomai sign"
 ],
 "1891": [
-"Die <span class=\"orange\">Sonnenlose Stadt</span><br>(120 m)",
+"Die <span class=\"orange\">Sonnenlose Stadt</span><br>\\\\N(120 m)",
 "Nomai sign"
 ],
 "1892": [
-"<span class=\"orange\">Absturzstellenhöhlen</span><br>(60 m)",
+"<span class=\"orange\">Absturzstellenhöhlen</span><br>\\\\N(60 m)",
 "Nomai sign"
 ],
 "1893": [
-"Das <span class=\"orange\">Hochenergielabor</span><br>(300 m)",
+"Das <span class=\"orange\">Hochenergielabor</span><br>\\\\N(300 m)",
 "Nomai sign"
 ],
 "1894": [
-"Die <span class=\"orange\">Sonnenlose Stadt</span><br>(300 m)",
+"Die <span class=\"orange\">Sonnenlose Stadt</span><br>\\\\N(300 m)",
 "Nomai sign"
 ],
 "1895": [
@@ -8261,7 +8261,7 @@
 "Nomai computer"
 ],
 "1966": [
-"MASKEN ERHALTEN DATEN VON:<br><span class=\"orange\">Sonden-Nachführungsmodul</span><br>Gedächtnisstatue der <span class=\"lightblue\">Untiefen der Riesen</span><br><span class=\"lightblue\">Holzkamin</span>-Gedächtnisstatue",
+"MASKEN ERHALTEN DATEN VON:<br>\\\\N<span class=\"orange\">Sonden-Nachführungsmodul</span><br>\\\\NGedächtnisstatue der <span class=\"lightblue\">Untiefen der Riesen</span><br>\\\\N<span class=\"lightblue\">Holzkamin</span>-Gedächtnisstatue",
 "Nomai computer"
 ],
 "1967": [
@@ -8306,7 +8306,7 @@
 "Name"
 ],
 "1977": [
-"Donnerwetter, du bist es! Hallo! Ich nehme an, der erste Start verlief gut? Willkommen auf den Sanduhrzwillingen.Vorsicht mit dem Sand.",
+"Donnerwetter, du bist es! Hallo! Ich nehme an, der erste Start verlief gut? Willkommen auf den Sanduhrzwillingen. Vorsicht mit dem Sand.",
 "Chert"
 ],
 "1978": [
@@ -8533,7 +8533,7 @@
 "Chert"
 ],
 "2030": [
-"Willst du damit sagen, es leben noch Nomai in anderen Teilen des Weltraums? Und sie glauben, dass das Universum, also das gesamte Ding, stirbt?In diesem Moment? Genau jetzt?",
+"Willst du damit sagen, es leben noch Nomai in anderen Teilen des Weltraums? Und sie glauben, dass das Universum, also das gesamte Ding, stirbt? In diesem Moment? Genau jetzt?",
 "Chert"
 ],
 "2031": [
@@ -8718,7 +8718,7 @@
 "Chert"
 ],
 "2076": [
-"Willst du damit sagen, es leben noch Nomai in anderen Teilen des Weltraums? Und sie glauben, dass das Universum, also das gesamte Ding, stirbt?In diesem Moment? Genau jetzt?",
+"Willst du damit sagen, es leben noch Nomai in anderen Teilen des Weltraums? Und sie glauben, dass das Universum, also das gesamte Ding, stirbt? In diesem Moment? Genau jetzt?",
 "Chert"
 ],
 "2077": [
@@ -9048,7 +9048,7 @@
 "Esker"
 ],
 "2153": [
-"Das ist nur eine einseitige Form der Kommunikation. Von der niemand unter den Dorfbewohnern etwas weiß.<span class=\"small\">Weil ich ihnen nie etwas gesagt habe.</span>",
+"Das ist nur eine einseitige Form der Kommunikation. Von der niemand unter den Dorfbewohnern etwas weiß. <span class=\"small\">Weil ich ihnen nie etwas gesagt habe.</span>",
 "Esker"
 ],
 "2154": [
@@ -9172,7 +9172,7 @@
 "Feldspar"
 ],
 "2183": [
-"Tour 4(?), Eintrag # … Ich sag mal „nicht 1“.<br>Abstürze: 3<br>Langweilige Abstürze: 0 (persönliche Bestleistung!)",
+"Tour 4(?), Eintrag # … Ich sag mal „nicht 1“.<br>\\\\N Abstürze: 3<br>\\\\N Langweilige Abstürze: 0 (persönliche Bestleistung!)",
 "Feldspar",
 "Journal"
 ],
@@ -10895,7 +10895,7 @@
 "Ship Log"
 ],
 "2602": [
-"Diaverbrennungsraum",
+"Diaver$$brennungs$$raum",
 "Ship Log"
 ],
 "2603": [
@@ -10943,7 +10943,7 @@
 "Ship Log"
 ],
 "2614": [
-"Turm auf der Insel",
+"<br>\\\\NTurm auf der Insel",
 "Ship Log"
 ],
 "2615": [
@@ -11011,7 +11011,7 @@
 "Ship Log"
 ],
 "2630": [
-"Hüllendurchbruch",
+"Hüllen$$durchbruch",
 "Ship Log"
 ],
 "2631": [
@@ -11107,7 +11107,7 @@
 "Ship Log"
 ],
 "2654": [
-"Untergetauchtes Konstrukt",
+"Unter$$getauchtes Konstrukt",
 "Ship Log"
 ],
 "2655": [
@@ -11131,11 +11131,11 @@
 "Ship Log"
 ],
 "2660": [
-"Unterirdischer See",
+"Unter$$irdischer See",
 "Ship Log"
 ],
 "3678": [
-"Eingeschlossenes Feuer",
+"Einge$$schlossenes Feuer",
 "Ship Log"
 ],
 "3679": [
@@ -11203,7 +11203,7 @@
 "Ship Log"
 ],
 "2675": [
-"Verwucherter Wald",
+"Verwu$$cherter<br>\\\\NWald",
 "Ship Log"
 ],
 "2676": [
@@ -11255,7 +11255,7 @@
 "Ship Log"
 ],
 "2688": [
-"Sternenscheingrotte",
+"Sternen$$scheingrotte",
 "Ship Log"
 ],
 "2689": [
@@ -11451,7 +11451,7 @@
 "Ship Log"
 ],
 "2737": [
-"Entwürfe für die Türme von Zwillingsasche",
+"Entwürfe für die Türme von Zwillings$$asche",
 "Ship Log"
 ],
 "2738": [
@@ -12274,6 +12274,10 @@
 "MÖCHTEST DU DIE ÄNDERUNGEN ANWENDEN?",
 "UI"
 ],
+"3715": [
+"Rendering-Modus",
+"UI"
+],
 "2943": [
 "Autom. Boost verwenden",
 "UI"
@@ -12359,7 +12363,7 @@
 "UI"
 ],
 "2964": [
-"Möchtest du die Einstellungen beibehalten?<br>Einstellungen werden zurückgesetzt in",
+"Möchtest du die Einstellungen beibehalten?<br>\\\\NEinstellungen werden zurückgesetzt in",
 "UI"
 ],
 "2965": [
@@ -12943,7 +12947,7 @@
 "UI"
 ],
 "3110": [
-"Position auf HUD markieren",
+"Position auf HUD\\\\Nmarkieren",
 "UI"
 ],
 "3111": [
@@ -13003,7 +13007,7 @@
 "UI"
 ],
 "3125": [
-"TREIBSTOFFMENGE UNTER GRENZWERT",
+"TREIBSTOFFMENGE UNTER\\\\NGRENZWERT",
 "UI"
 ],
 "3126": [
@@ -13031,7 +13035,7 @@
 "UI"
 ],
 "3132": [
-"SCHIFF ZUR REPARATUR VERLASSEN",
+"SCHIFF ZUR REPARATUR\\\\NVERLASSEN",
 "UI"
 ],
 "3133": [
@@ -13063,7 +13067,7 @@
 "UI"
 ],
 "3140": [
-"WARNUNG: TREIBSTOFF AUFGEBRAUCHT<br>VERWENDE SAUERSTOFF FÜR ANTRIEB",
+"WARNUNG:\\\\NTREIBSTOFF AUFGEBRAUCHT<br>\\\\NVERWENDE SAUERSTOFF FÜR\\\\NANTRIEB",
 "UI"
 ],
 "3141": [
@@ -13079,7 +13083,7 @@
 "UI"
 ],
 "3144": [
-"BÄUME ENTDECKT – SAUERSTOFFTANK AUFGEFÜLLT",
+"BÄUME ENTDECKT –\\\\NSAUERSTOFFTANK AUFGEFÜLLT",
 "UI"
 ],
 "3145": [
@@ -13099,7 +13103,7 @@
 "UI"
 ],
 "3149": [
-"POSITION KANN NICHT BESTIMMT WERDEN",
+"POSITION KANN NICHT BESTIMMT\\\\NWERDEN",
 "UI"
 ],
 "3150": [
@@ -13195,7 +13199,7 @@
 "UI"
 ],
 "3173": [
-"STUFE 2: BESCHLEUNIGUNG IN RICHTUNG ZIEL",
+"STUFE 2: BESCHLEUNIGUNG\\\\NIN RICHTUNG ZIEL",
 "UI"
 ],
 "3174": [
@@ -13215,15 +13219,15 @@
 "UI"
 ],
 "3178": [
-"GESCHWINDIGKEITSANPASSUNG ABGEBROCHEN",
+"GESCHWINDIGKEITSANPASSUNG\\\\NABGEBROCHEN",
 "UI"
 ],
 "3179": [
-"AUTOPILOT UNTERBROCHEN: ZU NAH AM ZIEL",
+"AUTOPILOT UNTERBROCHEN:\\\\NZU NAH AM ZIEL",
 "UI"
 ],
 "3180": [
-"AUTOPILOT BEENDET: ZIEL NICHT ERREICHT",
+"AUTOPILOT BEENDET:\\\\NZIEL NICHT ERREICHT",
 "UI"
 ],
 "3181": [
@@ -13239,7 +13243,7 @@
 "UI"
 ],
 "3184": [
-"SCHLIEẞEN UND INS HAUPTMENÜ ZURÜCKKEHREN<br><br>((BISHERIGER FORTSCHRITT GEHT VERLOREN)",
+"SCHLIEẞEN UND INS HAUPTMENÜ ZURÜCKKEHREN<br>\\\\N<br>\\\\N((BISHERIGER FORTSCHRITT GEHT VERLOREN)",
 "UI"
 ],
 "3185": [
@@ -13267,11 +13271,11 @@
 "UI"
 ],
 "3191": [
-"Verbindung zum Controller unterbrochen.<br>Bitte verbinde den Controller erneut.",
+"Verbindung zum Controller unterbrochen.<br>\\\\NBitte verbinde den Controller erneut.",
 "UI"
 ],
 "3192": [
-"Aktueller Nutzer wurde abgemeldet.<br>Bitte melde dich zum Fortfahren erneut an.",
+"Aktueller Nutzer wurde abgemeldet.<br>\\\\NBitte melde dich zum Fortfahren erneut an.",
 "UI"
 ],
 "3193": [
@@ -13287,7 +13291,7 @@
 "UI"
 ],
 "3196": [
-"Verbindung zum Controller unterbrochen.<br>Verbinde den Controller erneut.",
+"Verbindung zum Controller unterbrochen.<br>\\\\NVerbinde den Controller erneut.",
 "UI"
 ],
 "3685": [
@@ -13783,19 +13787,19 @@
 "Ending"
 ],
 "3319": [
-"DU BEFINDEST DICH AUẞERHALB DER REICHWEITE DER SUPERNOVA,<br>ABER NUN DRIFTEST DU DURCH DAS ALL, BIS DIE RESSOURCEN DEINES SCHIFFES UNWEIGERLICH IRGENDWANN AUFGEBRAUCHT SEIN WERDEN.",
+"DU BEFINDEST DICH AUẞERHALB DER REICHWEITE DER SUPERNOVA,<br>\\\\N ABER NUN DRIFTEST DU DURCH DAS ALL, BIS DIE RESSOURCEN DEINES SCHIFFES UNWEIGERLICH IRGENDWANN AUFGEBRAUCHT SEIN WERDEN.",
 "Ending"
 ],
 "3320": [
-"WIE LANGE BIST DU SCHON HIER? MINUTEN? JAHRE?<br>DU BIST DIR NICHT SICHER, DOCH BIST WOHL AM ENDE DEINER REISE ANGEKOMMEN.",
+"WIE LANGE BIST DU SCHON HIER? MINUTEN? JAHRE?<br>\\\\NDU BIST DIR NICHT SICHER, DOCH BIST WOHL AM ENDE DEINER REISE ANGEKOMMEN.",
 "Ending"
 ],
 "3321": [
-"DU BEFINDEST DICH AUSSERHALB DER REICHWEITE DER SUPERNOVA UND BIST DIE EINZIGE PERSON IN EINER LEEREN WELT.<br>HIER MUSS ES DOCH <em>IRGENDWAS</em> ESSBARES GEBEN?",
+"DU BEFINDEST DICH AUSSERHALB DER REICHWEITE DER SUPERNOVA UND BIST DIE EINZIGE PERSON IN EINER LEEREN WELT.<br>\\\\NHIER MUSS ES DOCH <em>IRGENDWAS</em> ESSBARES GEBEN?",
 "Ending"
 ],
 "3322": [
-"WIE VIEL ZEIT IST VERGANGEN?<br>SIE MACHEN SICH NICHT EINMAL MEHR DIE MÜHE, DICH ZU JAGEN.<br>DIE ZEIT VERGEHT UND VERGEHT, BIS DEIN FRÜHERES LEBEN NICHT MEHR ALS EINE ERINNERUNG AN EINEN TRAUM IST.<br>WENN DU DOCH NUR AUFWACHEN KÖNNTEST.",
+"WIE VIEL ZEIT IST VERGANGEN?<br>\\\\NSIE MACHEN SICH NICHT EINMAL MEHR DIE MÜHE, DICH ZU JAGEN.<br>\\\\NDIE ZEIT VERGEHT UND VERGEHT, BIS DEIN FRÜHERES LEBEN NICHT MEHR ALS EINE ERINNERUNG AN EINEN TRAUM IST.<br>\\\\NWENN DU DOCH NUR AUFWACHEN KÖNNTEST.",
 "Ending"
 ],
 "3323": [
@@ -13983,7 +13987,7 @@
 "UI"
 ],
 "3368": [
-"HAUPT-<br>ALARM",
+"HAUPT-<br>\\\\NALARM",
 "UI"
 ],
 "3369": [
@@ -13991,7 +13995,7 @@
 "UI"
 ],
 "3370": [
-"ACHTUNG:<br>NUR IM NOTFALL<br>EINSETZEN",
+"ACHTUNG:<br>\\\\NNUR IM NOTFALL<br>\\\\NEINSETZEN",
 "UI"
 ],
 "3371": [
@@ -14047,7 +14051,7 @@
 "UI"
 ],
 "3384": [
-"UNIDENTIFIZIERBARES SIGNAL IN DER NÄHE",
+"UNIDENTIFIZIERBARES SIGNAL\\\\NIN DER NÄHE",
 "UI"
 ],
 "3385": [
@@ -14055,7 +14059,7 @@
 "UI"
 ],
 "3386": [
-"GEFAHR: GEISTERMATERIE IN DER UMGEBUNG ENTDECKT",
+"GEFAHR: GEISTERMATERIE IN\\\\N DER UMGEBUNG ENTDECKT",
 "UI"
 ],
 "3387": [
@@ -14063,7 +14067,7 @@
 "UI"
 ],
 "3388": [
-"wurde abgemeldet.<br>Bitte melde dich zum Fortfahren erneut an.",
+"wurde abgemeldet.<br>\\\\NBitte melde dich zum Fortfahren erneut an.",
 "UI"
 ],
 "3389": [
@@ -14079,7 +14083,7 @@
 "UI"
 ],
 "3392": [
-"NOTFALL-SCOUT-RÜCKRUF AKTIVIERT",
+"NOTFALL-SCOUT-RÜCKRUF\\\\NAKTIVIERT",
 "UI"
 ],
 "3393": [
@@ -14091,7 +14095,7 @@
 "UI"
 ],
 "3395": [
-"3 VON 3 REPARIERT<br>TRAININGSSIMULATION ABGESCHLOSSEN",
+"3 VON 3 REPARIERT<br>\\\\NTRAININGSSIMULATION ABGESCHLOSSEN",
 "UI"
 ],
 "3396": [
@@ -14158,6 +14162,26 @@
 "Sofort",
 "UI"
 ],
+"3716": [
+"2560 x 1440/60fps",
+"UI"
+],
+"3717": [
+"3840 x 2160/30fps",
+"UI"
+],
+"3718": [
+"Dynamisch/60fps",
+"UI"
+],
+"3719": [
+"1920 x 1080/60fps",
+"UI"
+],
+"3720": [
+"2560 x 1440/30fps",
+"UI"
+],
 "3412": [
 "Profil erstellen",
 "UI"
@@ -14199,7 +14223,7 @@
 "UI"
 ],
 "3422": [
-"Bitte stelle sicher, dass:<br>– Outer Wilds Zugriffsberechtigung zum Schreiben auf die Festplatte hat<br>– Freier Speicherplatz auf der Festplatte verfügbar ist",
+"Bitte stelle sicher, dass:<br>\\\\N– Outer Wilds Zugriffsberechtigung zum Schreiben auf die Festplatte hat<br>\\\\N– Freier Speicherplatz auf der Festplatte verfügbar ist",
 "UI"
 ],
 "3423": [
@@ -14379,7 +14403,7 @@
 "UI"
 ],
 "3467": [
-"FEHLER: SCOUT-RÜCKRUF FEHLGESCHLAGEN",
+"FEHLER:\\\\NSCOUT-RÜCKRUF FEHLGESCHLAGEN",
 "UI"
 ],
 "3468": [
@@ -14427,11 +14451,11 @@
 "UI"
 ],
 "3479": [
-"Das Spiel wird mit dieser Pixelauflösung gerendert.<br>Renderaufwand: Hoch",
+"Das Spiel wird mit dieser Pixelauflösung gerendert.<br>\\\\NRenderaufwand: Hoch",
 "UI"
 ],
 "3480": [
-"Glättet kantige Pixelseiten. SMAA ist präziser und bringt höhere Bildqualität, aber FXAA ist schneller.<br>Renderaufwand: Niedrig",
+"Glättet kantige Pixelseiten. SMAA ist präziser und bringt höhere Bildqualität, aber FXAA ist schneller.<br>\\\\NRenderaufwand: Niedrig",
 "UI"
 ],
 "3481": [
@@ -14439,35 +14463,35 @@
 "UI"
 ],
 "3482": [
-"Relative Auflösung der Texturen im Spiel.<br>Arbeitsspeicherverbrauch: Normal",
+"Relative Auflösung der Texturen im Spiel.<br>\\\\NArbeitsspeicherverbrauch: Normal",
 "UI"
 ],
 "3483": [
-"Detaildichte in Ozeanwellen und Qualität der Lichteffekte für Wasser.<br>Renderaufwand: Hoch",
+"Detaildichte in Ozeanwellen und Qualität der Lichteffekte für Wasser.<br>\\\\NRenderaufwand: Hoch",
 "UI"
 ],
 "3484": [
-"Die Auflösung und Genauigkeit von Schatten in der Spielwelt sowie die Zahl der zur Erzeugung von Schatten berücksichtigten Lichtquellen.<br>Renderaufwand: Hoch",
+"Die Auflösung und Genauigkeit von Schatten in der Spielwelt sowie die Zahl der zur Erzeugung von Schatten berücksichtigten Lichtquellen.<br>\\\\NRenderaufwand: Hoch",
 "UI"
 ],
 "3485": [
-"Berechnung von Umgebungsverdeckung (Annähernde Schattenberechnung, wenn Objekte sehr nah beieinander liegen) als Shading-Effekt.<br>Renderaufwand: Normal",
+"Berechnung von Umgebungsverdeckung (Annähernde Schattenberechnung, wenn Objekte sehr nah beieinander liegen) als Shading-Effekt.<br>\\\\NRenderaufwand: Normal",
 "UI"
 ],
 "3486": [
-"Passt die Helligkeit/Dunkelheit an.<br>Renderaufwand: Keiner",
+"Passt die Helligkeit/Dunkelheit an.<br>\\\\NRenderaufwand: Keiner",
 "UI"
 ],
 "3487": [
-"Verhindert Screen Tearing durch Synchronisation der Bildwiederholfrequenz des Spiels mit der Monitorwiedergabe.<br>Renderaufwand: Keiner, allerdings wird die Bildfrequenz an das nächstniedrigere Vielfache der Monitorsynchronisierungsrate angepasst",
+"Verhindert Screen Tearing durch Synchronisation der Bildwiederholfrequenz des Spiels mit der Monitorwiedergabe.<br>\\\\NRenderaufwand: Keiner, allerdings wird die Bildfrequenz an das nächstniedrigere Vielfache der Monitorsynchronisierungsrate angepasst",
 "UI"
 ],
 "3488": [
-"Farbmischung (Dithering) verbessert die Farbübergänge, sieht aber eventuell auf komprimierter Bild- oder Videowiedergabe des Spiels schlechter aus.<br>Renderaufwand: Keiner",
+"Farbmischung (Dithering) verbessert die Farbübergänge, sieht aber eventuell auf komprimierter Bild- oder Videowiedergabe des Spiels schlechter aus.<br>\\\\NRenderaufwand: Keiner",
 "UI"
 ],
 "3489": [
-"Die vertikale Sichttiefe der Kamera im Spiel. Achtung: Diese Einstellung hat eventuell einen Effekt auf bestimmte Rätsel in Outer Wilds.<br>Renderaufwand: Niedrig",
+"Die vertikale Sichttiefe der Kamera im Spiel. Achtung: Diese Einstellung hat eventuell einen Effekt auf bestimmte Rätsel in Outer Wilds.<br>\\\\NRenderaufwand: Niedrig",
 "UI"
 ],
 "3490": [
@@ -14511,15 +14535,15 @@
 "UI"
 ],
 "3500": [
-"Zeit wird beim Lesen von übersetztem Text angehalten (nur aktiv, wenn beim Lesen keine Bewegung erfolgt).<br>HINWEIS: In bestimmten Zeitabschnitten kann die Zeit nicht angehalten werden.",
+"Zeit wird beim Lesen von übersetztem Text angehalten (nur aktiv, wenn beim Lesen keine Bewegung erfolgt).<br>\\\\NHINWEIS: In bestimmten Zeitabschnitten kann die Zeit nicht angehalten werden.",
 "UI"
 ],
 "3501": [
-"Zeit wird bei der Benutzung des Schiffslogs angehalten.<br>HINWEIS: In bestimmten Zeitabschnitten kann die Zeit nicht angehalten werden.",
+"Zeit wird bei der Benutzung des Schiffslogs angehalten.<br>\\\\NHINWEIS: In bestimmten Zeitabschnitten kann die Zeit nicht angehalten werden.",
 "UI"
 ],
 "3502": [
-"Zeit wird bei der Unterhaltung mit anderen Charakteren und dem Lesen von Schildern oder Notizen angehalten. Dies beinhaltet, dass in Dialogen keine Animationen angezeigt werden!<br>HINWEIS: In bestimmten Zeitabschnitten kann die Zeit nicht angehalten werden.",
+"Zeit wird bei der Unterhaltung mit anderen Charakteren und dem Lesen von Schildern oder Notizen angehalten. Dies beinhaltet, dass in Dialogen keine Animationen angezeigt werden!<br>\\\\NHINWEIS: In bestimmten Zeitabschnitten kann die Zeit nicht angehalten werden.",
 "UI"
 ],
 "3503": [
@@ -14543,11 +14567,11 @@
 "UI"
 ],
 "3508": [
-"Bestimmt, wie weit (von der Mitte aus) der linke/rechte Stick bewegt werden muss, bevor die Eingabe registriert wird.<br>Wenn dein Charakter sich bewegt oder die Perspektive ändert, obwohl du den linken/rechten Stick nicht berührst, solltest du vielleicht diesen Eingabe-Toleranzbereich erhöhen.",
+"Bestimmt, wie weit (von der Mitte aus) der linke/rechte Stick bewegt werden muss, bevor die Eingabe registriert wird.<br>\\\\NWenn dein Charakter sich bewegt oder die Perspektive ändert, obwohl du den linken/rechten Stick nicht berührst, solltest du vielleicht diesen Eingabe-Toleranzbereich erhöhen.",
 "UI"
 ],
 "3509": [
-"Bestimmt, wie weit (von der maximalen Ausrichtung in eine beliebige Richtung aus) der linke/rechte Stick losgelassen werden muss, bevor die Eingabe nicht mehr als Maximaleingabe registriert wird.<br>Wenn sich dein Charakter nicht mit maximaler Geschwindigkeit bewegen lässt, solltest du vielleicht diesen Eingabe-Toleranzbereich vergrößern.",
+"Bestimmt, wie weit (von der maximalen Ausrichtung in eine beliebige Richtung aus) der linke/rechte Stick losgelassen werden muss, bevor die Eingabe nicht mehr als Maximaleingabe registriert wird.<br>\\\\NWenn sich dein Charakter nicht mit maximaler Geschwindigkeit bewegen lässt, solltest du vielleicht diesen Eingabe-Toleranzbereich vergrößern.",
 "UI"
 ],
 "3510": [
@@ -14647,7 +14671,7 @@
 "UI"
 ],
 "3534": [
-"Scout: Erstellt Frontschnappschuss<br>Signaloskop: Wechselt Anzeige<br>Übersetzermodul: Übersetzt",
+"Scout: Erstellt Frontschnappschuss<br>\\\\NSignaloskop: Wechselt Anzeige<br>\\\\NÜbersetzermodul: Übersetzt",
 "UI"
 ],
 "3535": [
@@ -14724,6 +14748,10 @@
 ],
 "3689": [
 "Legt fest, wie weit der linke bzw. rechte Stick von der maximalen Neigung losgelassen werden muss, damit keine maximale Eingabe mehr erfasst wird. Du kannst diesen toten Bereich vergrößern, falls du den Charakter bei maximaler Geschwindigkeit nicht mehr bewegen oder ihn sich umschauen lassen kannst.",
+"UI"
+],
+"3721": [
+"Legt die Bildschirmauflösung und die Bildfrequenz für das Rendering fest.<br>\\\\NDie dynamische Auflösung eignet sich gut für Bildschirme, die VRR (Variable Refresh Rate) unterstützen.",
 "UI"
 ],
 "3550": [
@@ -14827,7 +14855,7 @@
 "Translator"
 ],
 "3575": [
-"FEHLER:<br>KARTE OFFLINE",
+"FEHLER:<br>\\\\NKARTE OFFLINE",
 "UI"
 ],
 "3576": [
@@ -14975,7 +15003,7 @@
 "UI"
 ],
 "3612": [
-"Aktuelle Änderungen zurücksetzen",
+"Aktuelle Änderungen\\\\Nzurücksetzen",
 "UI"
 ],
 "3613": [
@@ -15023,11 +15051,11 @@
 "UI"
 ],
 "3623": [
-"Die erschreckenden Elemente sind Teil des angestrebten Spielerlebnisses von Echoes of the Eye. Sollten diese dazu führen, dass du weniger Spaß an Outer Wilds hast, kannst du diese Option aktivieren, um diese Elemente abzuschwächen.<br>Bist du sicher?",
+"Die erschreckenden Elemente sind Teil des angestrebten Spielerlebnisses von Echoes of the Eye. Sollten diese dazu führen, dass du weniger Spaß an Outer Wilds hast, kannst du diese Option aktivieren, um diese Elemente abzuschwächen.<br>\\\\NBist du sicher?",
 "UI"
 ],
 "3624": [
-"Die erschreckenden Elemente sind Teil des angestrebten Spielerlebnisses von Outer Wilds. Sollten diese dazu führen, dass du weniger Spaß an Outer Wilds hast, kannst du diese Option aktivieren, um diese Elemente abzuschwächen.<br>Bist du sicher?",
+"Die erschreckenden Elemente sind Teil des angestrebten Spielerlebnisses von Outer Wilds. Sollten diese dazu führen, dass du weniger Spaß an Outer Wilds hast, kannst du diese Option aktivieren, um diese Elemente abzuschwächen.<br>\\\\NBist du sicher?",
 "UI"
 ],
 "3625": [
@@ -15131,7 +15159,7 @@
 "UI"
 ],
 "3650": [
-"Detaildichte in Wellen und Qualität der Lichteffekte für Wasser.<br>Renderaufwand: Hoch",
+"Detaildichte in Wellen und Qualität der Lichteffekte für Wasser.<br>\\\\NRenderaufwand: Hoch",
 "UI"
 ],
 "3651": [
@@ -15139,7 +15167,7 @@
 "UI"
 ],
 "3652": [
-"Auflösung von Spiegelungen und abgedunkelten Innenräumen in bestimmten Gebieten der Spielwelt.<br>Rendeaufwand: Mittel",
+"Auflösung von Spiegelungen und abgedunkelten Innenräumen in bestimmten Gebieten der Spielwelt.<br>\\\\NRendeaufwand: Mittel",
 "UI"
 ],
 "3653": [
@@ -15147,7 +15175,7 @@
 "UI"
 ],
 "3654": [
-"Auflösung von Spiegelungen und in bestimmten Gebieten der Spielwelt.<br>Rendeaufwand: Mittel",
+"Auflösung von Spiegelungen und in bestimmten Gebieten der Spielwelt.<br>\\\\NRendeaufwand: Mittel",
 "UI"
 ],
 "3655": [
@@ -15207,7 +15235,7 @@
 "UI"
 ],
 "3669": [
-"Scout: Starten/Frontschnappschuss<br>Signaloskop: Heranzoomen<br>Übersetzermodul: Übersetzen",
+"Scout: Starten/Frontschnappschuss<br>\\\\NSignaloskop: Heranzoomen<br>\\\\NÜbersetzermodul: Übersetzen",
 "UI"
 ],
 "3670": [
@@ -15292,6 +15320,26 @@
 ],
 "3708": [
 "Vibrationsfunktion",
+"UI"
+],
+"3722": [
+"UI-Größe",
+"UI"
+],
+"3723": [
+"Automatisch",
+"UI"
+],
+"3724": [
+"Normal",
+"UI"
+],
+"3725": [
+"Groß",
+"UI"
+],
+"3726": [
+"Automatisch: Die Größe wird entsprechend Sprache und Plattform automatisch festgelegt.<br>\\\\NNormal/Groß: Die Größe wird manuell auf die ausgewählte Option festgelegt.",
 "UI"
 ]
 }
