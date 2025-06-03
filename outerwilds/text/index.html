@@ -379,6 +379,10 @@
               msg.innerHTML = message;
               current.appendChild(msg);
           }
+          for (const msg of document.getElementsByClassName('worldline')) {
+              const num = Math.floor(Math.random() * 1e6);
+              msg.innerText = `X.${num.toString().padStart(6, '0')}M`;
+          }
           curLang = lang;
           curFilter = filter;
           if (!didFind) {

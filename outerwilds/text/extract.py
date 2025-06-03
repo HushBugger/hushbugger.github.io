@@ -34,7 +34,7 @@ translations = {
     lang: [
         (
             entry.find("key").text.strip(),
-            entry.find("value").text.strip().replace("\\\\n", "\n"),
+            entry.find("value").text.strip().replace("\\\\n", "\n").replace("\\\\N", ""),
         )
         for entry in [
             *doc.iterfind("entry"),
@@ -111,6 +111,13 @@ TAGS = {
     "/b": "</strong>",
     "/size": "</span>",
     "!": "",  # Some kind of beep?
+    "SmallText": '<span class="small">',
+    "/SmallText": "</span>",
+    "RegularUi": "",
+    "/RegularUi": "",
+    "LargeUi": "",
+    "/LargeUi": "",
+    "WorldLine": '<span class="worldline">X.000000M</span>',
 }
 PRESERVE = {
     "NbTimeloops",

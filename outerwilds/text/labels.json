@@ -2422,6 +2422,11 @@
 "SignHere lies BinarySemaphore": "Gravestone",
 "SignHere lies Sean 'Ariamaki' Riedinger": "Gravestone",
 "<color=red>ERROR: Unknown Language</color>": "Translator",
+"<color=lightblue>--Divergence Meter active--\nNow calculating world line divergence...\n</color>": "Easter egg",
+"<color=lightblue>Current divergence value:\n<WorldLine>\n</color>": "Easter egg",
+"<color=orange>To all those who have streamed and clipped their playthroughs, I offer my humble thanks. Thank you for discovering the anomalies within this world line.\n</color>": "Easter egg",
+"<color=orange>Subsequent world lines have been improved thanks to you. This may be my last venture into this world, so I leave you with this:\nEnjoy the journey, friend.\n</color>": "Easter egg",
+"<color=orange>El\nPsy\nCongroo\n</color>": "Easter egg",
 "Village": "Ship Log",
 "VillageThe one and only Hearthian village, as well as the main source of explosions on this planet.": "Ship Log",
 "VillageThe Nomai statue in the observatory opened its eyes and looked at me! I saw strange glowing lights and my own memories flashed before my eyes.": "Ship Log",
@@ -2848,7 +2853,7 @@
 "Sixth LocationThe Quantum Moon is the Eye of the universe's moon.": "Ship Log",
 "Sixth LocationAt this location, the Quantum Moon becomes a reflection of the Eye itself.": "Ship Log",
 "Sixth LocationThe Eye is likely the source of all macroscopic quantum phenomena in the solar system.": "Ship Log",
-"Sixth LocationSolanum wonders what would happen if a concious observer were to enter the Eye.": "Ship Log",
+"Sixth LocationSolanum wonders what would happen if a conscious observer were to enter the Eye.": "Ship Log",
 "Sixth LocationSolanum has a hypothesis that she may not be entirely alive.": "Ship Log",
 "Sun Station": "Ship Log",
 "Sun StationThere is a way to safely travel to the Sun Station from Ash Twin.": "Ship Log",
@@ -3709,5 +3714,11 @@
 "1053": "UI",
 "1054": "UI",
 "1055": "UI",
-"1194": "UI"
+"1194": "UI",
+"1195": "UI",
+"1196": "UI",
+"1197": "UI",
+"1198": "UI",
+"1146": "UI",
+"1147": "UI"
 }

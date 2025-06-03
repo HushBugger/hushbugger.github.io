@@ -1229,7 +1229,7 @@
 "Me"
 ],
 "291": [
-"Yeah! That feels like ages ago.<br>\\\\N<br>\\\\NWe'd have died that first time out if the time loop didn't exist, though. Isn't that weird to think about?",
+"Yeah! That feels like ages ago.<br><br>We'd have died that first time out if the time loop didn't exist, though. Isn't that weird to think about?",
 "Self"
 ],
 "292": [
@@ -1255,7 +1255,7 @@
 "Self"
 ],
 "297": [
-"YES. I can’t believe no one was around to see that.<br>\\\\N<br>\\\\NWe’re probably the best pilot in the space program by now.",
+"YES. I can’t believe no one was around to see that.<br><br>We’re probably the best pilot in the space program by now.",
 "Self"
 ],
 "298": [
@@ -1393,7 +1393,7 @@
 "Nomai sign"
 ],
 "330": [
-"<span class=\"orange\">Black Hole Forge</span><br>\\\\N(north 40m)",
+"<span class=\"orange\">Black Hole Forge</span><br>(north 40m)",
 "Nomai sign"
 ],
 "331": [
@@ -1513,11 +1513,11 @@
 "Nomai computer"
 ],
 "360": [
-"<span class=\"lightblue\">Ash Twin</span> warp network status: <span class=\"orange\">Sun tower</span> offline as of <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> minutes <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> seconds ago.<br>\\\\NAll other towers online.",
+"<span class=\"lightblue\">Ash Twin</span> warp network status: <span class=\"orange\">Sun tower</span> offline as of <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> minutes <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> seconds ago.<br>All other towers online.",
 "Nomai computer"
 ],
 "361": [
-"Sun tower offline as of <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> minutes <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> seconds ago.<br>\\\\NAll other towers online.",
+"Sun tower offline as of <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> minutes <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> seconds ago.<br>All other towers online.",
 "Nomai computer"
 ],
 "362": [
@@ -2433,7 +2433,7 @@
 "Sign"
 ],
 "581": [
-"Sincerest apologies, except to Slate and Mica,<br>\\\\N<br>\\\\NHornfels (museum curator)",
+"Sincerest apologies, except to Slate and Mica,<br><br>Hornfels (museum curator)",
 "Sign"
 ],
 "582": [
@@ -2616,7 +2616,7 @@
 "Me"
 ],
 "623": [
-"Well, it’s all very conceptual, but basically, it’s like taking a regular second-stage booster and strapping a bigger rocket onto it.<br>\\\\NIsn’t that <em>great</em>?",
+"Well, it’s all very conceptual, but basically, it’s like taking a regular second-stage booster and strapping a bigger rocket onto it.<br>Isn’t that <em>great</em>?",
 "Slate"
 ],
 "624": [
@@ -2624,7 +2624,7 @@
 "Slate"
 ],
 "625": [
-"Oh, it’s a perfect ten. Unless you’re factoring in pilot error, in which case it’s about a four.<br>\\\\NNo offense.",
+"Oh, it’s a perfect ten. Unless you’re factoring in pilot error, in which case it’s about a four.<br>No offense.",
 "Slate"
 ],
 "626": [
@@ -2671,7 +2671,7 @@
 "Slate"
 ],
 "636": [
-"Looks like you’re ready for takeoff! The excitement of a launch is fun and all, but I can’t wait to get back to working on the new ship.<br>\\\\NWe’re working on fixing the autopilot’s avoidance system for this one!",
+"Looks like you’re ready for takeoff! The excitement of a launch is fun and all, but I can’t wait to get back to working on the new ship.<br>We’re working on fixing the autopilot’s avoidance system for this one!",
 "Slate"
 ],
 "637": [
@@ -3391,7 +3391,7 @@
 "Journal"
 ],
 "803": [
-"GABBRO’S 3 FOOLPROOF STEPS FOR DOZING OFF<br>\\\\N     1.     Light a nice, cozy campfire and get comfortable.<br>\\\\N     2.     Gaze deeply into the serene warmth.<br>\\\\N     3.     Let time begin to slip away as you allow the flames to lull you into a\\\\N<br>peaceful slumber.",
+"GABBRO’S 3 FOOLPROOF STEPS FOR DOZING OFF<br>1.     Light a nice, cozy campfire and get comfortable.<br>2.     Gaze deeply into the serene warmth.<br>3.     Let time begin to slip away as you allow the flames to lull you into a<br>peaceful slumber.",
 "Hornfels",
 "Journal"
 ],
@@ -5440,7 +5440,7 @@
 "Nomai computer"
 ],
 "1305": [
-"Approximate time until <span class=\"orange\">Sun Station</span> is destroyed by expanding star: <span class=\"template\">&lt;RemainingMinutes&gt;</span> MINUTES, <span class=\"template\">&lt;RemainingSeconds&gt;</span> SECONDS<br>\\\\NApproximate time until star’s death: <span class=\"template\">&lt;MinutesToRedGiant&gt;</span> MINUTES, <span class=\"template\">&lt;SecondsToRedGiant&gt;</span> SECONDS",
+"Approximate time until <span class=\"orange\">Sun Station</span> is destroyed by expanding star: <span class=\"template\">&lt;RemainingMinutes&gt;</span> MINUTES, <span class=\"template\">&lt;RemainingSeconds&gt;</span> SECONDS<br>Approximate time until star’s death: <span class=\"template\">&lt;MinutesToRedGiant&gt;</span> MINUTES, <span class=\"template\">&lt;SecondsToRedGiant&gt;</span> SECONDS",
 "Nomai computer"
 ],
 "1306": [
@@ -5652,7 +5652,7 @@
 "Note"
 ],
 "1353": [
-"Trip 4, entry # whatever<br>\\\\N Crashes: 2<br>\\\\N Boring crashes: 0 (remember to see Slate when I get back)",
+"Trip 4, entry # whatever<br>Crashes: 2<br>Boring crashes: 0 (remember to see Slate when I get back)",
 "Feldspar",
 "Journal"
 ],
@@ -5681,7 +5681,7 @@
 "Sign"
 ],
 "1359": [
-"Moving through <span class=\"orange\">ghost matter</span> is uniquely painful and will probably kill you. Don’t complain to me if you hurt yourself fooling around.<br>\\\\N- Hornfels",
+"Moving through <span class=\"orange\">ghost matter</span> is uniquely painful and will probably kill you. Don’t complain to me if you hurt yourself fooling around.<br>- Hornfels",
 "Hornfels",
 "Sign"
 ],
@@ -5945,7 +5945,7 @@
 "Gossan"
 ],
 "1420": [
-"Hey! Come say hi to your old flight coach before your launch. I’ve got zero-g training set up if you want a refresher.<br>\\\\N<br>\\\\N-Gossan",
+"Hey! Come say hi to your old flight coach before your launch. I’ve got zero-g training set up if you want a refresher.<br><br>-Gossan",
 "Gossan",
 "Note"
 ],
@@ -7838,35 +7838,35 @@
 "Nomai sign"
 ],
 "1861": [
-"The <span class=\"orange\">Crossroads</span><br>\\\\N(west 350m)",
+"The <span class=\"orange\">Crossroads</span><br>(west 350m)",
 "Nomai sign"
 ],
 "1862": [
-"The <span class=\"orange\">Southern Observatory</span><br>\\\\N(south 550m)",
+"The <span class=\"orange\">Southern Observatory</span><br>(south 550m)",
 "Nomai sign"
 ],
 "1863": [
-"<span class=\"orange\">Gravity Crystal Workshop</span><br>\\\\N(above 140m)",
+"<span class=\"orange\">Gravity Crystal Workshop</span><br>(above 140m)",
 "Nomai sign"
 ],
 "1864": [
-"<span class=\"orange\">Gravity Cannon</span><br>\\\\N(east 400m)",
+"<span class=\"orange\">Gravity Cannon</span><br>(east 400m)",
 "Nomai sign"
 ],
 "1865": [
-"The <span class=\"orange\">Hanging City</span><br>\\\\N(north 250m)",
+"The <span class=\"orange\">Hanging City</span><br>(north 250m)",
 "Nomai sign"
 ],
 "1866": [
-"The <span class=\"orange\">Tower of Quantum Knowledge</span><br>\\\\N(west 190m)",
+"The <span class=\"orange\">Tower of Quantum Knowledge</span><br>(west 190m)",
 "Nomai sign"
 ],
 "1867": [
-"<span class=\"orange\">Lower Crossroads</span><br>\\\\N(below 56m)",
+"<span class=\"orange\">Lower Crossroads</span><br>(below 56m)",
 "Nomai sign"
 ],
 "1868": [
-"The <span class=\"orange\">Hanging City</span><br>\\\\N(below 50m)",
+"The <span class=\"orange\">Hanging City</span><br>(below 50m)",
 "Nomai sign"
 ],
 "1869": [
@@ -7878,11 +7878,11 @@
 "Nomai sign"
 ],
 "1871": [
-"<span class=\"orange\">Black Hole Forge</span><br>\\\\N(left 30m)",
+"<span class=\"orange\">Black Hole Forge</span><br>(left 30m)",
 "Nomai sign"
 ],
 "1872": [
-"The <span class=\"orange\">Crossroads</span><br>\\\\N(east 190m)",
+"The <span class=\"orange\">Crossroads</span><br>(east 190m)",
 "Nomai sign"
 ],
 "1873": [
@@ -7890,11 +7890,11 @@
 "Nomai sign"
 ],
 "1874": [
-"<span class=\"orange\">Gravity Cannon</span> Controls<br>\\\\N(90m)",
+"<span class=\"orange\">Gravity Cannon</span> Controls<br>(90m)",
 "Nomai sign"
 ],
 "1875": [
-"Entrance to the <span class=\"orange\">Tower of Quantum Knowledge</span><br>\\\\N(below 90m)",
+"Entrance to the <span class=\"orange\">Tower of Quantum Knowledge</span><br>(below 90m)",
 "Nomai sign"
 ],
 "1876": [
@@ -7938,39 +7938,39 @@
 "Coleus"
 ],
 "1886": [
-"The <span class=\"orange\">Sunless City</span><br>\\\\N(120m)",
+"The <span class=\"orange\">Sunless City</span><br>(120m)",
 "Nomai sign"
 ],
 "1887": [
-"<span class=\"orange\">Gravity Cannon</span><br>\\\\N(120m)",
+"<span class=\"orange\">Gravity Cannon</span><br>(120m)",
 "Nomai sign"
 ],
 "1888": [
-"The <span class=\"orange\">High Energy Lab</span><br>\\\\N(400m)",
+"The <span class=\"orange\">High Energy Lab</span><br>(400m)",
 "Nomai sign"
 ],
 "1889": [
-"<span class=\"orange\">Anglerfish Fossil Overlook</span><br>\\\\N(40m)",
+"<span class=\"orange\">Anglerfish Fossil Overlook</span><br>(40m)",
 "Nomai sign"
 ],
 "1890": [
-"<span class=\"orange\">Stepping Stone Cave</span><br>\\\\N(20m)",
+"<span class=\"orange\">Stepping Stone Cave</span><br>(20m)",
 "Nomai sign"
 ],
 "1891": [
-"The <span class=\"orange\">Sunless City</span><br>\\\\N(120m)",
+"The <span class=\"orange\">Sunless City</span><br>(120m)",
 "Nomai sign"
 ],
 "1892": [
-"<span class=\"orange\">Crash Site Caves</span><br>\\\\N(60m)",
+"<span class=\"orange\">Crash Site Caves</span><br>(60m)",
 "Nomai sign"
 ],
 "1893": [
-"The <span class=\"orange\">High Energy Lab</span><br>\\\\N(300m)",
+"The <span class=\"orange\">High Energy Lab</span><br>(300m)",
 "Nomai sign"
 ],
 "1894": [
-"The <span class=\"orange\">Sunless City</span><br>\\\\N(300m)",
+"The <span class=\"orange\">Sunless City</span><br>(300m)",
 "Nomai sign"
 ],
 "1895": [
@@ -8261,7 +8261,7 @@
 "Nomai computer"
 ],
 "1966": [
-"MASKS RECEIVING DATA FROM:<br>\\\\N<span class=\"orange\">Probe Tracking Module</span><br>\\\\N<span class=\"lightblue\">Giant's Deep</span> memory statue<br>\\\\N<span class=\"lightblue\">Timber Hearth</span> memory statue",
+"MASKS RECEIVING DATA FROM:<br><span class=\"orange\">Probe Tracking Module</span><br><span class=\"lightblue\">Giant's Deep</span> memory statue<br><span class=\"lightblue\">Timber Hearth</span> memory statue",
 "Nomai computer"
 ],
 "1967": [
@@ -9172,7 +9172,7 @@
 "Feldspar"
 ],
 "2183": [
-"Trip 4(?), entry #... I’m gonna say “not 1.”<br>\\\\N Crashes: 3<br>\\\\N Boring crashes: 0 (a personal best!)",
+"Trip 4(?), entry #... I’m gonna say “not 1.”<br>Crashes: 3<br>Boring crashes: 0 (a personal best!)",
 "Feldspar",
 "Journal"
 ],
@@ -9843,7 +9843,7 @@
 "Hornfels"
 ],
 "2343": [
-"No, truly, that’s wonderful! It really is. ...Even if I <em>have</em> been pouring over it every night for weeks. It’s stupendous you were able to get a reaction from the statue just by glancing at it a few times.",
+"No, truly, that’s wonderful! It really is. ...Even if I <em>have</em> been poring over it every night for weeks. It’s stupendous you were able to get a reaction from the statue just by glancing at it a few times.",
 "Hornfels"
 ],
 "2344": [
@@ -10122,7 +10122,7 @@
 "Solanum"
 ],
 "2408": [
-"I saw smoke coming from Youngbark Crater up north and figured I should go check it out. You can use the scout launcher, just please don’t break it while I’m gone.<br>\\\\N<br>\\\\N– Tektite",
+"I saw smoke coming from Youngbark Crater up north and figured I should go check it out. You can use the scout launcher, just please don’t break it while I’m gone.<br><br>– Tektite",
 "Tektite",
 "Note"
 ],
@@ -10189,6 +10189,26 @@
 "2424": [
 "<span class=\"red\">ERROR: Unknown Language</span>",
 "Translator"
+],
+"3727": [
+"<span class=\"lightblue\">--Divergence Meter active--<br>Now calculating world line divergence...<br></span>",
+"Easter egg"
+],
+"3728": [
+"<span class=\"lightblue\">Current divergence value:<br><span class=\"worldline\">X.000000M</span><br></span>",
+"Easter egg"
+],
+"3729": [
+"<span class=\"orange\">To all those who have streamed and clipped their playthroughs, I offer my humble thanks. Thank you for discovering the anomalies within this world line.<br></span>",
+"Easter egg"
+],
+"3730": [
+"<span class=\"orange\">Subsequent world lines have been improved thanks to you. This may be my last venture into this world, so I leave you with this:<br>Enjoy the journey, friend.<br></span>",
+"Easter egg"
+],
+"3731": [
+"<span class=\"orange\">El<br>Psy<br>Congroo<br></span>",
+"Easter egg"
 ],
 "2425": [
 "Village",
@@ -11894,8 +11914,8 @@
 "The Eye is likely the source of all macroscopic quantum phenomena in the solar system.",
 "Ship Log"
 ],
-"2847": [
-"Solanum wonders what would happen if a concious observer were to enter the Eye.",
+"3732": [
+"Solanum wonders what would happen if a conscious observer were to enter the Eye.",
 "Ship Log"
 ],
 "2848": [
@@ -12367,7 +12387,7 @@
 "UI"
 ],
 "2964": [
-"Do you want to keep these settings?<br>\\\\NReverting to previous settings in",
+"Do you want to keep these settings?<br>Reverting to previous settings in",
 "UI"
 ],
 "2965": [
@@ -13071,7 +13091,7 @@
 "UI"
 ],
 "3140": [
-"WARNING: FUEL DEPLETED<br>\\\\NUSING OXYGEN AS PROPELLANT",
+"WARNING: FUEL DEPLETED<br>USING OXYGEN AS PROPELLANT",
 "UI"
 ],
 "3141": [
@@ -13087,7 +13107,7 @@
 "UI"
 ],
 "3144": [
-"TREES DETECTED — OXYGEN\\\\NTANK REFILLED",
+"TREES DETECTED — OXYGENTANK REFILLED",
 "UI"
 ],
 "3145": [
@@ -13111,7 +13131,7 @@
 "UI"
 ],
 "3150": [
-"CONNECTION WITH\\\\NSCOUT IS LOST",
+"CONNECTION WITHSCOUT IS LOST",
 "UI"
 ],
 "3151": [
@@ -13199,15 +13219,15 @@
 "UI"
 ],
 "3172": [
-"STAGE 1: ALIGNING\\\\NFLIGHT TRAJECTORY",
+"STAGE 1: ALIGNINGFLIGHT TRAJECTORY",
 "UI"
 ],
 "3173": [
-"STAGE 2: ACCELERATING\\\\NTOWARD DESTINATION",
+"STAGE 2: ACCELERATINGTOWARD DESTINATION",
 "UI"
 ],
 "3174": [
-"STAGE 3: FIRING\\\\NRETRO-ROCKETS",
+"STAGE 3: FIRINGRETRO-ROCKETS",
 "UI"
 ],
 "3175": [
@@ -13227,11 +13247,11 @@
 "UI"
 ],
 "3179": [
-"AUTOPILOT ABORTED:\\\\NTOO CLOSE TO TARGET",
+"AUTOPILOT ABORTED:TOO CLOSE TO TARGET",
 "UI"
 ],
 "3180": [
-"AUTOPILOT COMPLETE:\\\\NUNDERSHOT TARGET",
+"AUTOPILOT COMPLETE:UNDERSHOT TARGET",
 "UI"
 ],
 "3181": [
@@ -13247,7 +13267,7 @@
 "UI"
 ],
 "3184": [
-"QUIT TO MAIN MENU<br>\\\\N<br>\\\\N(ALL PROGRESS WILL BE LOST)",
+"QUIT TO MAIN MENU<br><br>(ALL PROGRESS WILL BE LOST)",
 "UI"
 ],
 "3185": [
@@ -13275,11 +13295,11 @@
 "UI"
 ],
 "3191": [
-"Controller disconnected.<br>\\\\NPlease reconnect your controller.",
+"Controller disconnected.<br>Please reconnect your controller.",
 "UI"
 ],
 "3192": [
-"Current user signed out.<br>\\\\NPlease sign in again to continue.",
+"Current user signed out.<br>Please sign in again to continue.",
 "UI"
 ],
 "3193": [
@@ -13295,11 +13315,11 @@
 "UI"
 ],
 "3196": [
-"Controller disconnected.<br>\\\\NPlease reconnect your controller.",
+"Controller disconnected.<br>Please reconnect your controller.",
 "UI"
 ],
 "3685": [
-"Wireless controller disconnected.<br>\\\\NPlease reconnect your wireless controller.",
+"Wireless controller disconnected.<br>Please reconnect your wireless controller.",
 "UI"
 ],
 "3197": [
@@ -13791,19 +13811,19 @@
 "Ending"
 ],
 "3319": [
-"NOW BEYOND THE REACH OF THE SUPERNOVA,<br>\\\\NYOU DRIFT THROUGH SPACE UNTIL YOUR SHIP'S RESOURCES ARE FINALLY DEPLETED",
+"NOW BEYOND THE REACH OF THE SUPERNOVA,<br>YOU DRIFT THROUGH SPACE UNTIL YOUR SHIP'S RESOURCES ARE FINALLY DEPLETED",
 "Ending"
 ],
 "3320": [
-"HOW LONG HAVE YOU BEEN HERE? MINUTES? YEARS?<br>\\\\NYOU ARE UNSURE BUT IT SEEMS YOUR JOURNEY HAS REACHED ITS END.",
+"HOW LONG HAVE YOU BEEN HERE? MINUTES? YEARS?<br>YOU ARE UNSURE BUT IT SEEMS YOUR JOURNEY HAS REACHED ITS END.",
 "Ending"
 ],
 "3321": [
-"NOW BEYOND THE REACH OF THE SUPERNOVA, YOU FIND YOURSELF THE ONLY INHABITANT OF AN ABANDONED WORLD.<br>\\\\NSURELY <em>SOMETHING</em> HERE MUST BE EDIBLE?",
+"NOW BEYOND THE REACH OF THE SUPERNOVA, YOU FIND YOURSELF THE ONLY INHABITANT OF AN ABANDONED WORLD.<br>SURELY <em>SOMETHING</em> HERE MUST BE EDIBLE?",
 "Ending"
 ],
 "3322": [
-"HOW MUCH TIME HAS PASSED?<br>\\\\NTHEY DON’T EVEN BOTHER TO HUNT YOU ANYMORE.<br>\\\\NTIME PASSES, AND PASSES, UNTIL YOUR LIFE BEFORE IS SOME HALF-REMEMBERED DREAM.<br>\\\\NIF ONLY YOU COULD WAKE UP.",
+"HOW MUCH TIME HAS PASSED?<br>THEY DON’T EVEN BOTHER TO HUNT YOU ANYMORE.<br>TIME PASSES, AND PASSES, UNTIL YOUR LIFE BEFORE IS SOME HALF-REMEMBERED DREAM.<br>IF ONLY YOU COULD WAKE UP.",
 "Ending"
 ],
 "3323": [
@@ -13991,7 +14011,7 @@
 "UI"
 ],
 "3368": [
-"MASTER<br>\\\\NALARM",
+"MASTER<br>ALARM",
 "UI"
 ],
 "3369": [
@@ -13999,7 +14019,7 @@
 "UI"
 ],
 "3370": [
-"WARNING:<br>\\\\NUSE ONLY IN<br>\\\\NEMERGENCY",
+"WARNING:<br>USE ONLY IN<br>EMERGENCY",
 "UI"
 ],
 "3371": [
@@ -14063,7 +14083,7 @@
 "UI"
 ],
 "3386": [
-"DANGER: GHOST MATTER\\\\NDETECTED NEARBY",
+"DANGER: GHOST MATTERDETECTED NEARBY",
 "UI"
 ],
 "3387": [
@@ -14071,7 +14091,7 @@
 "UI"
 ],
 "3388": [
-"signed out.<br>\\\\NPlease sign in again to continue.",
+"signed out.<br>Please sign in again to continue.",
 "UI"
 ],
 "3389": [
@@ -14083,11 +14103,11 @@
 "UI"
 ],
 "3391": [
-"UNABLE TO RETRIEVE SCOUT;\\\\NTOO MANY TARGETS",
+"UNABLE TO RETRIEVE SCOUT;TOO MANY TARGETS",
 "UI"
 ],
 "3392": [
-"EMERGENCY SCOUT\\\\NRECALL ACTIVATED",
+"EMERGENCY SCOUTRECALL ACTIVATED",
 "UI"
 ],
 "3393": [
@@ -14099,7 +14119,7 @@
 "UI"
 ],
 "3395": [
-"3 OF 3 REPAIRED<br>\\\\NTRAINING SIMULATION COMPLETE",
+"3 OF 3 REPAIRED<br>TRAINING SIMULATION COMPLETE",
 "UI"
 ],
 "3396": [
@@ -14227,7 +14247,7 @@
 "UI"
 ],
 "3422": [
-"Please ensure that<br>\\\\N- Outer Wilds has permissions to write to the disk<br>\\\\N- The hard drive is not full",
+"Please ensure that<br>- Outer Wilds has permissions to write to the disk<br>- The hard drive is not full",
 "UI"
 ],
 "3423": [
@@ -14455,11 +14475,11 @@
 "UI"
 ],
 "3479": [
-"The game will render at this pixel resolution.<br>\\\\NRendering cost: High",
+"The game will render at this pixel resolution.<br>Rendering cost: High",
 "UI"
 ],
 "3480": [
-"Smooths out jagged pixel edges.  SMAA is more precise and higher quality, but FXAA is faster.<br>\\\\NRendering cost: Low",
+"Smooths out jagged pixel edges.  SMAA is more precise and higher quality, but FXAA is faster.<br>Rendering cost: Low",
 "UI"
 ],
 "3481": [
@@ -14467,35 +14487,35 @@
 "UI"
 ],
 "3482": [
-"Relative resolution of texture maps used throughout the game.<br>\\\\NMemory cost: Medium",
+"Relative resolution of texture maps used throughout the game.<br>Memory cost: Medium",
 "UI"
 ],
 "3483": [
-"Amount of detail in the ocean waves and lighting quality of the water.<br>\\\\NRendering cost: High",
+"Amount of detail in the ocean waves and lighting quality of the water.<br>Rendering cost: High",
 "UI"
 ],
 "3484": [
-"The resolution and accuracy of shadows in the game world, as well as the number of shadow-casting lights.<br>\\\\NRendering cost: High",
+"The resolution and accuracy of shadows in the game world, as well as the number of shadow-casting lights.<br>Rendering cost: High",
 "UI"
 ],
 "3485": [
-"Calculates ambient occlusion (the soft shadows when objects are close to each other) as a post-processing effect.<br>\\\\NRendering cost: Medium",
+"Calculates ambient occlusion (the soft shadows when objects are close to each other) as a post-processing effect.<br>Rendering cost: Medium",
 "UI"
 ],
 "3486": [
-"Adjusts the brightness or darkness of the visuals.<br>\\\\NRendering cost: None",
+"Adjusts the brightness or darkness of the visuals.<br>Rendering cost: None",
 "UI"
 ],
 "3487": [
-"Prevents screen-tearing by synchronizing the game's framerate with the monitor's refresh rate.<br>\\\\NRendering cost: None, but will automatically lower your framerate to the closest multiple of the monitor's sync rate",
+"Prevents screen-tearing by synchronizing the game's framerate with the monitor's refresh rate.<br>Rendering cost: None, but will automatically lower your framerate to the closest multiple of the monitor's sync rate",
 "UI"
 ],
 "3488": [
-"Dithering improves color blending, but may make compressed video of the game look worse.<br>\\\\NRendering cost: None",
+"Dithering improves color blending, but may make compressed video of the game look worse.<br>Rendering cost: None",
 "UI"
 ],
 "3489": [
-"The vertical field-of-view of the in-game camera.  Warning: changing this might affect certain puzzles in Outer Wilds.<br>\\\\NRendering cost: Low",
+"The vertical field-of-view of the in-game camera.  Warning: changing this might affect certain puzzles in Outer Wilds.<br>Rendering cost: Low",
 "UI"
 ],
 "3490": [
@@ -14539,15 +14559,15 @@
 "UI"
 ],
 "3500": [
-"Freezes time while reading translated text (translator must remain stationary).<br>\\\\NNOTE: There are certain periods when time cannot be frozen.",
+"Freezes time while reading translated text (translator must remain stationary).<br>NOTE: There are certain periods when time cannot be frozen.",
 "UI"
 ],
 "3501": [
-"Freezes time while using the ship log.<br>\\\\NNOTE: There are certain periods when time cannot be frozen.",
+"Freezes time while using the ship log.<br>NOTE: There are certain periods when time cannot be frozen.",
 "UI"
 ],
 "3502": [
-"Freezes time while talking to characters and reading journals or signs. This will prevent character animations from playing during conversation.<br>\\\\NNOTE: There are certain periods when time cannot be frozen.",
+"Freezes time while talking to characters and reading journals or signs. This will prevent character animations from playing during conversation.<br>NOTE: There are certain periods when time cannot be frozen.",
 "UI"
 ],
 "3503": [
@@ -14571,11 +14591,11 @@
 "UI"
 ],
 "3508": [
-"Determines how far (from center) the left/right stick must be tilted before any input is detected.<br>\\\\NConsider increasing this dead zone if your character moves or looks around when you're not touching the left/right stick.",
+"Determines how far (from center) the left/right stick must be tilted before any input is detected.<br>Consider increasing this dead zone if your character moves or looks around when you're not touching the left/right stick.",
 "UI"
 ],
 "3509": [
-"Determines how far (from full tilt) the left/right stick must be released before maximum input is no longer detected.<br>\\\\NConsider increasing this dead zone if you are unable to move or look at maximum speed.",
+"Determines how far (from full tilt) the left/right stick must be released before maximum input is no longer detected.<br>Consider increasing this dead zone if you are unable to move or look at maximum speed.",
 "UI"
 ],
 "3510": [
@@ -14675,7 +14695,7 @@
 "UI"
 ],
 "3534": [
-"Scout: Takes forward snapshot<br>\\\\NSignalscope: Change view<br>\\\\NTranslator: Translate",
+"Scout: Takes forward snapshot<br>Signalscope: Change view<br>Translator: Translate",
 "UI"
 ],
 "3535": [
@@ -14755,7 +14775,7 @@
 "UI"
 ],
 "3721": [
-"Selects the resolution and framerate to render at.<br>\\\\NDynamic resolution is ideal for displays with Variable Refresh Rate (VRR) support.",
+"Selects the resolution and framerate to render at.<br>Dynamic resolution is ideal for displays with Variable Refresh Rate (VRR) support.",
 "UI"
 ],
 "3550": [
@@ -14859,7 +14879,7 @@
 "Translator"
 ],
 "3575": [
-"ERROR:<br>\\\\NMAP OFFLINE",
+"ERROR:<br>MAP OFFLINE",
 "UI"
 ],
 "3576": [
@@ -15055,11 +15075,11 @@
 "UI"
 ],
 "3623": [
-"The frightening aspects of Echoes of the Eye are part of the intended experience. If they become an obstacle to your enjoyment of Outer Wilds, enabling this option will reduce some of those aspects.<br>\\\\NAre you sure?",
+"The frightening aspects of Echoes of the Eye are part of the intended experience. If they become an obstacle to your enjoyment of Outer Wilds, enabling this option will reduce some of those aspects.<br>Are you sure?",
 "UI"
 ],
 "3624": [
-"The frightening aspects of Outer Wilds are part of the intended experience. If they become an obstacle to your enjoyment of the game, enabling this option will reduce some of those aspects.<br>\\\\NAre you sure?",
+"The frightening aspects of Outer Wilds are part of the intended experience. If they become an obstacle to your enjoyment of the game, enabling this option will reduce some of those aspects.<br>Are you sure?",
 "UI"
 ],
 "3625": [
@@ -15163,7 +15183,7 @@
 "UI"
 ],
 "3650": [
-"Amount of detail in waves and lighting quality of the water.<br>\\\\NRendering cost: High",
+"Amount of detail in waves and lighting quality of the water.<br>Rendering cost: High",
 "UI"
 ],
 "3651": [
@@ -15171,7 +15191,7 @@
 "UI"
 ],
 "3652": [
-"Resolution of reflections and darkened interiors in certain locations through the game world.<br>\\\\NRendering cost: Medium",
+"Resolution of reflections and darkened interiors in certain locations through the game world.<br>Rendering cost: Medium",
 "UI"
 ],
 "3653": [
@@ -15179,7 +15199,7 @@
 "UI"
 ],
 "3654": [
-"Resolution of reflections in certain locations through the game world.<br>\\\\NRendering cost: Medium",
+"Resolution of reflections in certain locations through the game world.<br>Rendering cost: Medium",
 "UI"
 ],
 "3655": [
@@ -15239,7 +15259,7 @@
 "UI"
 ],
 "3669": [
-"Scout: Launch/Forward Snapshot<br>\\\\NSignalscope: Zoom In<br>\\\\NTranslator: Translate",
+"Scout: Launch/Forward Snapshot<br>Signalscope: Zoom In<br>Translator: Translate",
 "UI"
 ],
 "3670": [
@@ -15343,7 +15363,31 @@
 "UI"
 ],
 "3726": [
-"Auto: Size is automatically determined by Language and Platform.<br>\\\\NRegular/Large: Size is manually locked to the selected option.",
+"Auto: Size is automatically determined by Language and Platform.<br>Regular/Large: Size is manually locked to the selected option.",
+"UI"
+],
+"3733": [
+"Invert Player Look (Horizontal)",
+"UI"
+],
+"3734": [
+"Invert Ship Look (Horizontal)",
+"UI"
+],
+"3735": [
+"Invert Player Look (Vertical)",
+"UI"
+],
+"3736": [
+"Invert Ship Look (Vertical)",
+"UI"
+],
+"3737": [
+"Invert look x-axis when on foot.",
+"UI"
+],
+"3738": [
+"Invert look x-axis when piloting your ship.",
 "UI"
 ]
 }

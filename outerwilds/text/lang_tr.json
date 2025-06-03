@@ -1229,7 +1229,7 @@
 "Me"
 ],
 "291": [
-"Evet! Sanki yıllar geçmiş gibi geliyor.<br>\\\\N<br>\\\\NZaman döngüsü olmasa daha ilk seferinde ölmüş olurduk gerçi. Düşününce sana da tuhaf gelmiyor mu?",
+"Evet! Sanki yıllar geçmiş gibi geliyor.<br><br>Zaman döngüsü olmasa daha ilk seferinde ölmüş olurduk gerçi. Düşününce sana da tuhaf gelmiyor mu?",
 "Self"
 ],
 "292": [
@@ -1255,7 +1255,7 @@
 "Self"
 ],
 "297": [
-"EVET. O manevraları kimsenin göremediğine inanamıyorum.<br>\\\\N<br>\\\\NŞu an uzay programının en iyi pilotu muhtemelen biziz.",
+"EVET. O manevraları kimsenin göremediğine inanamıyorum.<br><br>Şu an uzay programının en iyi pilotu muhtemelen biziz.",
 "Self"
 ],
 "298": [
@@ -1393,7 +1393,7 @@
 "Nomai sign"
 ],
 "330": [
-"<span class=\"orange\">Kara Delik Çekici</span><br>\\\\N(kuzey 40m)",
+"<span class=\"orange\">Kara Delik Çekici</span><br>(kuzey 40m)",
 "Nomai sign"
 ],
 "331": [
@@ -1513,11 +1513,11 @@
 "Nomai computer"
 ],
 "360": [
-"<span class=\"lightblue\">Kül İkizi</span> sapma ağı durumu: <span class=\"orange\">Güneş kulesi</span><span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> dakika <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> saniyedir çevrimdışı.<br>\\\\N Diğer tüm kuleler çevrimiçi.",
+"<span class=\"lightblue\">Kül İkizi</span> sapma ağı durumu: <span class=\"orange\">Güneş kulesi</span><span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> dakika <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> saniyedir çevrimdışı.<br>Diğer tüm kuleler çevrimiçi.",
 "Nomai computer"
 ],
 "361": [
-"Güneş kulesi <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> dakika <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> saniyedir çevrimdışı.<br>\\\\N Diğer tüm kuleler çevrimiçi.",
+"Güneş kulesi <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> dakika <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> saniyedir çevrimdışı.<br>Diğer tüm kuleler çevrimiçi.",
 "Nomai computer"
 ],
 "362": [
@@ -2433,7 +2433,7 @@
 "Sign"
 ],
 "581": [
-"En derin duygularla özür dileriz, Slate ve Mica hariç,<br>\\\\N<br>\\\\NHornfels (müze müdürü)",
+"En derin duygularla özür dileriz, Slate ve Mica hariç,<br><br>Hornfels (müze müdürü)",
 "Sign"
 ],
 "582": [
@@ -2616,7 +2616,7 @@
 "Me"
 ],
 "623": [
-"Şey, anlatsam epey kavramsal gelir şimdi sana ama basitçe şöyle - standart bir ikinci-aşama itiş roketini alıp üstüne daha büyük bir roket bağlıyormuşsun gibi düşün.<br>\\\\NSence de <em>harika</em> değil mi?",
+"Şey, anlatsam epey kavramsal gelir şimdi sana ama basitçe şöyle - standart bir ikinci-aşama itiş roketini alıp üstüne daha büyük bir roket bağlıyormuşsun gibi düşün.<br>Sence de <em>harika</em> değil mi?",
 "Slate"
 ],
 "624": [
@@ -2624,7 +2624,7 @@
 "Slate"
 ],
 "625": [
-"Gemi mi? On numara güvenli. Pilot hatasını hesaba katmazsak tabii, o zaman dört falan derdim.<br>\\\\NAlınmaca yok.",
+"Gemi mi? On numara güvenli. Pilot hatasını hesaba katmazsak tabii, o zaman dört falan derdim.<br>Alınmaca yok.",
 "Slate"
 ],
 "626": [
@@ -2671,7 +2671,7 @@
 "Slate"
 ],
 "636": [
-"Kalkışa hazırsın bakıyorum! Kalkış heyecanı güzeldir tatlıdır ama ben de yeni gemi üzerinde çalışmaya başlamak için sabırsızlanıyorum.<br>\\\\NBu sefer otopilotun tehlikeden kaçınma sistemindeki şu hatayı düzeltmeye çalışacağız!",
+"Kalkışa hazırsın bakıyorum! Kalkış heyecanı güzeldir tatlıdır ama ben de yeni gemi üzerinde çalışmaya başlamak için sabırsızlanıyorum.<br>Bu sefer otopilotun tehlikeden kaçınma sistemindeki şu hatayı düzeltmeye çalışacağız!",
 "Slate"
 ],
 "637": [
@@ -3089,7 +3089,7 @@
 "Me"
 ],
 "733": [
-"Burada neleri keşfetmeliyim?",
+"Burada nereyi keşfetmeliyim?",
 "Feldspar",
 "Me"
 ],
@@ -3132,7 +3132,7 @@
 "Me"
 ],
 "742": [
-"Burada neleri keşfetmeliyim?",
+"Burada nereyi keşfetmeliyim?",
 "Feldspar",
 "Me"
 ],
@@ -3391,7 +3391,7 @@
 "Journal"
 ],
 "803": [
-"GABBRO’NUN 3 BASİT ADIMDA UYUKLAMA YÖNTEMİ<br>\\\\N 1. Şöyle güzel, tatlı bir kamp ateşi yak ve gevşe.<br>\\\\N 2. Ateşin sakin sıcaklığının derinliğine dal.<br>\\\\N 3. Alevler seni bir ninni gibi huzurlu, derin bir uykuya çağırırken\\\\N<br>zamanın akıp geçmesine izin ver.",
+"GABBRO’NUN 3 BASİT ADIMDA UYUKLAMA YÖNTEMİ<br>1. Şöyle güzel, tatlı bir kamp ateşi yak ve gevşe.<br>2. Ateşin sakin sıcaklığının derinliğine dal.<br>3. Alevler seni bir ninni gibi huzurlu, derin bir uykuya çağırırken<br>zamanın akıp geçmesine izin ver.",
 "Hornfels",
 "Journal"
 ],
@@ -5440,7 +5440,7 @@
 "Nomai computer"
 ],
 "1305": [
-"<span class=\"orange\">Güneş İstasyonu</span>'nun genişleyen güneş tarafından yok edilmesine kalan yaklaşık süre: <span class=\"template\">&lt;RemainingMinutes&gt;</span> DAKİKA, <span class=\"template\">&lt;RemainingSeconds&gt;</span> SANİYE<br>\\\\NYıldızın ölümüne kalan yaklaşık süre: <span class=\"template\">&lt;MinutesToRedGiant&gt;</span> DAKİKA, <span class=\"template\">&lt;SecondsToRedGiant&gt;</span> SANİYE",
+"<span class=\"orange\">Güneş İstasyonu</span>'nun genişleyen güneş tarafından yok edilmesine kalan yaklaşık süre: <span class=\"template\">&lt;RemainingMinutes&gt;</span> DAKİKA, <span class=\"template\">&lt;RemainingSeconds&gt;</span> SANİYE<br>Yıldızın ölümüne kalan yaklaşık süre: <span class=\"template\">&lt;MinutesToRedGiant&gt;</span> DAKİKA, <span class=\"template\">&lt;SecondsToRedGiant&gt;</span> SANİYE",
 "Nomai computer"
 ],
 "1306": [
@@ -5652,7 +5652,7 @@
 "Note"
 ],
 "1353": [
-"4. Sefer, girdi # ya da öyle bir şey<br>\\\\N Çakılma: 2<br>\\\\N Sıkıcı çakılma: 0 (dönünce gemiyi Slate'e göstermeyi unutma)",
+"4. Sefer, girdi # ya da öyle bir şey<br>Çakılma: 2<br>Sıkıcı çakılma: 0 (dönünce gemiyi Slate'e göstermeyi unutma)",
 "Feldspar",
 "Journal"
 ],
@@ -5681,7 +5681,7 @@
 "Sign"
 ],
 "1359": [
-"<span class=\"orange\">Hayalet madde</span> alanından geçmeye çalışmanın vereceği acının tarifi bile yoktur ve mutemelen ölümcüldür. Sağda solda salaklık yapıp canınızı yakmayın, sonra gelip bana yakınmayın.<br>\\\\N- Hornfels",
+"<span class=\"orange\">Hayalet madde</span> alanından geçmeye çalışmanın vereceği acının tarifi bile yoktur ve mutemelen ölümcüldür. Sağda solda salaklık yapıp canınızı yakmayın, sonra gelip bana yakınmayın.<br>- Hornfels",
 "Hornfels",
 "Sign"
 ],
@@ -5945,7 +5945,7 @@
 "Gossan"
 ],
 "1420": [
-"Hey! Kalkmadan önce gel de eski uçuş hocana bir selam ver. Tazeleme talimi istersin belki diye sana bir sıfır-g eğitimi ayarladım.<br>\\\\N<br>\\\\N-Gossan",
+"Hey! Kalkmadan önce gel de eski uçuş hocana bir selam ver. Tazeleme talimi istersin belki diye sana bir sıfır-g eğitimi ayarladım.<br><br>-Gossan",
 "Gossan",
 "Note"
 ],
@@ -7838,35 +7838,35 @@
 "Nomai sign"
 ],
 "1861": [
-"<span class=\"orange\">Dörtyol Ağzı</span><br>\\\\N(batı 350m)",
+"<span class=\"orange\">Dörtyol Ağzı</span><br>(batı 350m)",
 "Nomai sign"
 ],
 "1862": [
-"<span class=\"lightblue\">Güney Gözlemevi</span><br>\\\\N(güney 550m)",
+"<span class=\"lightblue\">Güney Gözlemevi</span><br>(güney 550m)",
 "Nomai sign"
 ],
 "1863": [
-"<span class=\"orange\">Kütleçekim Kristali Atölyesi</span><br>\\\\N(yukarı 140m)",
+"<span class=\"orange\">Kütleçekim Kristali Atölyesi</span><br>(yukarı 140m)",
 "Nomai sign"
 ],
 "1864": [
-"<span class=\"orange\">Kütleçekim Topu</span><br>\\\\N(doğu 400m)",
+"<span class=\"orange\">Kütleçekim Topu</span><br>(doğu 400m)",
 "Nomai sign"
 ],
 "1865": [
-"<span class=\"orange\">Sarkıt Şehir</span><br>\\\\N(kuzey 250m)",
+"<span class=\"orange\">Sarkıt Şehir</span><br>(kuzey 250m)",
 "Nomai sign"
 ],
 "1866": [
-"<span class=\"orange\">Kuantum Bilgeliği Kulesi</span><br>\\\\N(batı 190m)",
+"<span class=\"orange\">Kuantum Bilgeliği Kulesi</span><br>(batı 190m)",
 "Nomai sign"
 ],
 "1867": [
-"<span class=\"orange\">Dörtyol Ağzı Aşağısı</span><br>\\\\N(aşağı 56m)",
+"<span class=\"orange\">Dörtyol Ağzı Aşağısı</span><br>(aşağı 56m)",
 "Nomai sign"
 ],
 "1868": [
-"<span class=\"orange\">Sarkıt Şehir</span><br>\\\\N(aşağı 50m)",
+"<span class=\"orange\">Sarkıt Şehir</span><br>(aşağı 50m)",
 "Nomai sign"
 ],
 "1869": [
@@ -7878,11 +7878,11 @@
 "Nomai sign"
 ],
 "1871": [
-"<span class=\"orange\">Kara Delik Çekici</span><br>\\\\N(sol 30m)",
+"<span class=\"orange\">Kara Delik Çekici</span><br>(sol 30m)",
 "Nomai sign"
 ],
 "1872": [
-"<span class=\"orange\">Dörtyol Ağzı</span><br>\\\\N(doğu 190m)",
+"<span class=\"orange\">Dörtyol Ağzı</span><br>(doğu 190m)",
 "Nomai sign"
 ],
 "1873": [
@@ -7890,11 +7890,11 @@
 "Nomai sign"
 ],
 "1874": [
-"<span class=\"orange\">Kütleçekim Topu</span>Kontroller<br>\\\\N(90m)",
+"<span class=\"orange\">Kütleçekim Topu</span>Kontroller<br>(90m)",
 "Nomai sign"
 ],
 "1875": [
-"<span class=\"orange\">Kuantum Bilgeliği Kulesi</span> Girişi<br>\\\\N(aşağı 90m)",
+"<span class=\"orange\">Kuantum Bilgeliği Kulesi</span> Girişi<br>(aşağı 90m)",
 "Nomai sign"
 ],
 "1876": [
@@ -7938,39 +7938,39 @@
 "Coleus"
 ],
 "1886": [
-"<span class=\"orange\">Güneşsiz Şehir</span><br>\\\\N(120m)",
+"<span class=\"orange\">Güneşsiz Şehir</span><br>(120m)",
 "Nomai sign"
 ],
 "1887": [
-"<span class=\"orange\">Kütleçekim Topu</span><br>\\\\N(120m)",
+"<span class=\"orange\">Kütleçekim Topu</span><br>(120m)",
 "Nomai sign"
 ],
 "1888": [
-"<span class=\"orange\">Yüksek Enerji Laboratuvarı</span><br>\\\\N(400m)",
+"<span class=\"orange\">Yüksek Enerji Laboratuvarı</span><br>(400m)",
 "Nomai sign"
 ],
 "1889": [
-"<span class=\"orange\">Fener Balığı Fosili Seyir Yükseltisi</span><br>\\\\N(40m)",
+"<span class=\"orange\">Fener Balığı Fosili Seyir Yükseltisi</span><br>(40m)",
 "Nomai sign"
 ],
 "1890": [
-"<span class=\"orange\">Seksek Taşı Mağarası</span><br>\\\\N(20m)",
+"<span class=\"orange\">Seksek Taşı Mağarası</span><br>(20m)",
 "Nomai sign"
 ],
 "1891": [
-"<span class=\"orange\">Güneşsiz Şehir</span><br>\\\\N(120m)",
+"<span class=\"orange\">Güneşsiz Şehir</span><br>(120m)",
 "Nomai sign"
 ],
 "1892": [
-"<span class=\"orange\">Çakılma Alanı Mağaraları</span><br>\\\\N(60m)",
+"<span class=\"orange\">Çakılma Alanı Mağaraları</span><br>(60m)",
 "Nomai sign"
 ],
 "1893": [
-"<span class=\"orange\">Yüksek Enerji Laboratuvarı</span><br>\\\\N(300m)",
+"<span class=\"orange\">Yüksek Enerji Laboratuvarı</span><br>(300m)",
 "Nomai sign"
 ],
 "1894": [
-"<span class=\"orange\">Güneşsiz Şehir</span><br>\\\\N(300m)",
+"<span class=\"orange\">Güneşsiz Şehir</span><br>(300m)",
 "Nomai sign"
 ],
 "1895": [
@@ -8261,7 +8261,7 @@
 "Nomai computer"
 ],
 "1966": [
-"MASKELERİN VERİ KAYNAKLARI:<br>\\\\N<span class=\"orange\">Sonda Takip Modülü</span><br>\\\\N<span class=\"lightblue\">Dev'in Dibi</span> anı heykeli<br>\\\\N<span class=\"lightblue\">Tomruk Ocak</span> anı heykeli",
+"MASKELERİN VERİ KAYNAKLARI:<br><span class=\"orange\">Sonda Takip Modülü</span><br><span class=\"lightblue\">Dev'in Dibi</span> anı heykeli<br><span class=\"lightblue\">Tomruk Ocak</span> anı heykeli",
 "Nomai computer"
 ],
 "1967": [
@@ -9172,7 +9172,7 @@
 "Feldspar"
 ],
 "2183": [
-"4. Sefer (?), girdi #... \"1. değil\" diyeyim buna da.<br>\\\\N Çakılma: 3<br>\\\\N Sıkıcı çakılma: 0 (kişisel rekorum!)",
+"4. Sefer (?), girdi #... \"1. değil\" diyeyim buna da.<br>Çakılma: 3<br>Sıkıcı çakılma: 0 (kişisel rekorum!)",
 "Feldspar",
 "Journal"
 ],
@@ -10122,7 +10122,7 @@
 "Solanum"
 ],
 "2408": [
-"Kuzeyden, Gençkabuk Krateri'nden duman yükseldiğini gördüm ve gidip bakmaya karar verdim. Gözcü fırlatıcıyı kullanabilirsiniz, ben yokken kırmayın yeter.<br>\\\\N<br>\\\\N– Tektite",
+"Kuzeyden, Gençkabuk Krateri'nden duman yükseldiğini gördüm ve gidip bakmaya karar verdim. Gözcü fırlatıcıyı kullanabilirsiniz, ben yokken kırmayın yeter.<br><br>– Tektite",
 "Tektite",
 "Note"
 ],
@@ -11890,7 +11890,7 @@
 "Güneş sistemindeki tüm makroskopik kuantum fenomenleri büyük ihtimal Göz'den kaynaklanıyor.",
 "Ship Log"
 ],
-"2847": [
+"3732": [
 "Solanum, bilinçli bir gözlemci Göz'e girebilseydi neler olacağını merak ediyor.",
 "Ship Log"
 ],
@@ -12363,7 +12363,7 @@
 "UI"
 ],
 "2964": [
-"Bu ayarlar korunsun mu?<br>\\\\NEski ayarlara dönülmesine kalan süre",
+"Bu ayarlar korunsun mu?<br>Eski ayarlara dönülmesine kalan süre",
 "UI"
 ],
 "2965": [
@@ -12943,11 +12943,11 @@
 "UI"
 ],
 "3109": [
-"Arayüz İşaretlemesini\\\\NKaldır",
+"Arayüz İşaretlemesiniKaldır",
 "UI"
 ],
 "3110": [
-"Konumu Arayüzde\\\\Nİşaretle",
+"Konumu Arayüzdeİşaretle",
 "UI"
 ],
 "3111": [
@@ -13067,7 +13067,7 @@
 "UI"
 ],
 "3140": [
-"İKAZ: YAKIT TÜKENDİ<br>\\\\NKULLANILAN İTİCİ ARTIK OKSİJEN",
+"İKAZ: YAKIT TÜKENDİ<br>KULLANILAN İTİCİ ARTIK OKSİJEN",
 "UI"
 ],
 "3141": [
@@ -13083,7 +13083,7 @@
 "UI"
 ],
 "3144": [
-"AĞAÇ TESPİT EDİLDİ — OKSİJEN\\\\NTÜPÜ DOLDURULDU",
+"AĞAÇ TESPİT EDİLDİ — OKSİJENTÜPÜ DOLDURULDU",
 "UI"
 ],
 "3145": [
@@ -13091,7 +13091,7 @@
 "UI"
 ],
 "3146": [
-"KIYAFETTE DELİK\\\\NTESPİT EDİLDİ",
+"KIYAFETTE DELİKTESPİT EDİLDİ",
 "UI"
 ],
 "3147": [
@@ -13103,15 +13103,15 @@
 "UI"
 ],
 "3149": [
-"KONUM NET\\\\NBELİRLENEMİYOR",
+"KONUM NETBELİRLENEMİYOR",
 "UI"
 ],
 "3150": [
-"GÖZCÜ İLE\\\\NBAĞLANTI KESİLDİ",
+"GÖZCÜ İLEBAĞLANTI KESİLDİ",
 "UI"
 ],
 "3151": [
-"GÜNEŞ SİSTEMİNE\\\\NDÖNÜLÜYOR",
+"GÜNEŞ SİSTEMİNEDÖNÜLÜYOR",
 "UI"
 ],
 "3152": [
@@ -13195,15 +13195,15 @@
 "UI"
 ],
 "3172": [
-"1. EVRE: UÇUŞ\\\\NYÖRÜNGESİ HİZALANIYOR",
+"1. EVRE: UÇUŞYÖRÜNGESİ HİZALANIYOR",
 "UI"
 ],
 "3173": [
-"2. EVRE: VARIŞ\\\\NNOKTASINA İVMELENİYOR",
+"2. EVRE: VARIŞNOKTASINA İVMELENİYOR",
 "UI"
 ],
 "3174": [
-"3. EVRE: FREN\\\\NROKETLERİ ATEŞLENİYOR",
+"3. EVRE: FRENROKETLERİ ATEŞLENİYOR",
 "UI"
 ],
 "3175": [
@@ -13223,11 +13223,11 @@
 "UI"
 ],
 "3179": [
-"OTOPİLOT DEVRE DIŞI:\\\\NHEDEF ÇOK YAKIN",
+"OTOPİLOT DEVRE DIŞI:HEDEF ÇOK YAKIN",
 "UI"
 ],
 "3180": [
-"OTOPİLOT TAMAMLANDI:\\\\NHEDEF ISKALANDI",
+"OTOPİLOT TAMAMLANDI:HEDEF ISKALANDI",
 "UI"
 ],
 "3181": [
@@ -13243,7 +13243,7 @@
 "UI"
 ],
 "3184": [
-"ANA MENÜYE ÇIKIŞ<br>\\\\N<br>\\\\N(TÜM İLERLEME KAYBEDİLECEKTİR)",
+"ANA MENÜYE ÇIKIŞ<br><br>(TÜM İLERLEME KAYBEDİLECEKTİR)",
 "UI"
 ],
 "3185": [
@@ -13271,11 +13271,11 @@
 "UI"
 ],
 "3191": [
-"Kumanda bağlantısı kesildi.<br>\\\\NLütfen kumandanızı tekrar bağlayın.",
+"Kumanda bağlantısı kesildi.<br>Lütfen kumandanızı tekrar bağlayın.",
 "UI"
 ],
 "3192": [
-"Mevcut kullanıcı çıkış yaptı.<br>\\\\NDevam etmek için lütfen giriş yapın.",
+"Mevcut kullanıcı çıkış yaptı.<br>Devam etmek için lütfen giriş yapın.",
 "UI"
 ],
 "3193": [
@@ -13291,7 +13291,7 @@
 "UI"
 ],
 "3196": [
-"Kontrol cihazının bağlantısı kesildi.<br>\\\\NLütfen kontrol cihazını tekrar bağla.",
+"Kontrol cihazının bağlantısı kesildi.<br>Lütfen kontrol cihazını tekrar bağla.",
 "UI"
 ],
 "3685": [
@@ -13787,19 +13787,19 @@
 "Ending"
 ],
 "3319": [
-"SÜPERNOVA MENZİLİNİN ÖTESİNDE<br>\\\\NUZAY BOŞLUĞUNDA SÜZÜLÜYORSUN, SONUNDA GEMİNİN KAYNAKLARI TÜKENENE DEK",
+"SÜPERNOVA MENZİLİNİN ÖTESİNDE<br>UZAY BOŞLUĞUNDA SÜZÜLÜYORSUN, SONUNDA GEMİNİN KAYNAKLARI TÜKENENE DEK",
 "Ending"
 ],
 "3320": [
-"NE ZAMANDIR BURADASIN? DAKİKALARDIR MI? YILLARDIR MI?<br>\\\\NBİLMİYORSUN, AMA YOLCULUĞUNUN SONUNA GELMİŞSİN GİBİ GÖRÜNÜYOR.",
+"NE ZAMANDIR BURADASIN? DAKİKALARDIR MI? YILLARDIR MI?<br>BİLMİYORSUN, AMA YOLCULUĞUNUN SONUNA GELMİŞSİN GİBİ GÖRÜNÜYOR.",
 "Ending"
 ],
 "3321": [
-"SÜPERNOVA MENZİLİNİN ÖTESİNDE, KENDİNİ TERK EDİLMİŞ BİR DÜNYADA YAPAYALNIZ BULUYORSUN.<br>\\\\NYİYECEK <em>BİR ŞEYLER</em> VARDIR KESİN, OLMAK ZORUNDA!",
+"SÜPERNOVA MENZİLİNİN ÖTESİNDE, KENDİNİ TERK EDİLMİŞ BİR DÜNYADA YAPAYALNIZ BULUYORSUN.<br>YİYECEK <em>BİR ŞEYLER</em> VARDIR KESİN, OLMAK ZORUNDA!",
 "Ending"
 ],
 "3322": [
-"NE KADAR ZAMAN OLDU?<br>\\\\NARTIK SENİ AVLAMAKLA UĞRAŞMIYORLAR BİLE.<br>\\\\NZAMAN AKIYOR DA AKIYOR, TA Kİ ÖNCEKİ YAŞAMIN, SİLİK BİR RÜYANIN ANISINA DÖNÜŞÜNCEYE DEK.<br>\\\\NBİR UYANABİLSEYDİN.",
+"NE KADAR ZAMAN OLDU?<br>ARTIK SENİ AVLAMAKLA UĞRAŞMIYORLAR BİLE.<br>ZAMAN AKIYOR DA AKIYOR, TA Kİ ÖNCEKİ YAŞAMIN, SİLİK BİR RÜYANIN ANISINA DÖNÜŞÜNCEYE DEK.<br>BİR UYANABİLSEYDİN.",
 "Ending"
 ],
 "3323": [
@@ -13987,7 +13987,7 @@
 "UI"
 ],
 "3368": [
-"ANA<br>\\\\NALARM",
+"ANA<br>ALARM",
 "UI"
 ],
 "3369": [
@@ -13995,7 +13995,7 @@
 "UI"
 ],
 "3370": [
-"UYARI:<br>\\\\NSADECE<br>\\\\NACİL DURUMDA",
+"UYARI:<br>SADECE<br>ACİL DURUMDA",
 "UI"
 ],
 "3371": [
@@ -14059,7 +14059,7 @@
 "UI"
 ],
 "3386": [
-"TEHLİKE: HAYALET MADDE\\\\NTESPİT EDİLDİ",
+"TEHLİKE: HAYALET MADDETESPİT EDİLDİ",
 "UI"
 ],
 "3387": [
@@ -14067,7 +14067,7 @@
 "UI"
 ],
 "3388": [
-"çıkış yaptı.<br>\\\\NDevam etmek için lütfen giriş yapın.",
+"çıkış yaptı.<br>Devam etmek için lütfen giriş yapın.",
 "UI"
 ],
 "3389": [
@@ -14079,11 +14079,11 @@
 "UI"
 ],
 "3391": [
-"GÖZCÜ ÇAĞIRILAMIYOR;\\\\NFAZLA HEDEF VAR",
+"GÖZCÜ ÇAĞIRILAMIYOR;FAZLA HEDEF VAR",
 "UI"
 ],
 "3392": [
-"ACİL GÖZCÜ ÇAĞIRMA\\\\NETKİNLEŞTİRİLDİ",
+"ACİL GÖZCÜ ÇAĞIRMAETKİNLEŞTİRİLDİ",
 "UI"
 ],
 "3393": [
@@ -14095,7 +14095,7 @@
 "UI"
 ],
 "3395": [
-"3 / 3 ONARILDI<br>\\\\NEĞİTİM SİMULASYONU TAMAMLANDI",
+"3 / 3 ONARILDI<br>EĞİTİM SİMULASYONU TAMAMLANDI",
 "UI"
 ],
 "3396": [
@@ -14223,7 +14223,7 @@
 "UI"
 ],
 "3422": [
-"Lütfen<br>\\\\N- Outer Wilds'a diske yazma izni verin<br>\\\\N- Sabit sürücü dolu değil",
+"Lütfen<br>- Outer Wilds'a diske yazma izni verin<br>- Sabit sürücü dolu değil",
 "UI"
 ],
 "3423": [
@@ -14403,7 +14403,7 @@
 "UI"
 ],
 "3467": [
-"HATA: GÖZCÜ\\\\NÇAĞIRMA BAŞARISIZ",
+"HATA: GÖZCÜÇAĞIRMA BAŞARISIZ",
 "UI"
 ],
 "3468": [
@@ -14451,11 +14451,11 @@
 "UI"
 ],
 "3479": [
-"Oyun bu piksel çözünürlüğünde işlenecek.<br>\\\\Nİşlem yükü: Ağır",
+"Oyun bu piksel çözünürlüğünde işlenecek.<br>İşlem yükü: Ağır",
 "UI"
 ],
 "3480": [
-"Pürüzlü piksel kenarlarını yumuşatır. SMAA daha keskin ve yüksek kalitelidir, FXAA daha hızlıdır.<br>\\\\Nİşlem yükü: Hafif",
+"Pürüzlü piksel kenarlarını yumuşatır. SMAA daha keskin ve yüksek kalitelidir, FXAA daha hızlıdır.<br>İşlem yükü: Hafif",
 "UI"
 ],
 "3481": [
@@ -14463,35 +14463,35 @@
 "UI"
 ],
 "3482": [
-"Oyun boyunca kullanılan doku haritalarının göreceli çözünürlüğü.<br>\\\\NBellek yükü: Orta",
+"Oyun boyunca kullanılan doku haritalarının göreceli çözünürlüğü.<br>Bellek yükü: Orta",
 "UI"
 ],
 "3483": [
-"Okyanus dalgalarında ve suyun ışık kalitesindeki ayrıntı miktarı.<br>\\\\Nİşlem yükü: Ağır",
+"Okyanus dalgalarında ve suyun ışık kalitesindeki ayrıntı miktarı.<br>İşlem yükü: Ağır",
 "UI"
 ],
 "3484": [
-"Oyun dünyasındaki gölgelerin çözünürlüğü ve isabetliliği, ayrıca gölge düşüren ışıkların sayısı.<br>\\\\Nİşlem yükü: Ağır",
+"Oyun dünyasındaki gölgelerin çözünürlüğü ve isabetliliği, ayrıca gölge düşüren ışıkların sayısı.<br>İşlem yükü: Ağır",
 "UI"
 ],
 "3485": [
-"İşlem sonrası efekt olarak çevresel perdelemeyi (birbirine yakın nesneler arası yumuşak gölge geçişlerini) hesaplar.<br>\\\\Nİşlem yükü: Orta",
+"İşlem sonrası efekt olarak çevresel perdelemeyi (birbirine yakın nesneler arası yumuşak gölge geçişlerini) hesaplar.<br>İşlem yükü: Orta",
 "UI"
 ],
 "3486": [
-"Görsellerin aydınlık ve karanlık değerlerini düzenler.<br>\\\\Nİşlem yükü: Yok",
+"Görsellerin aydınlık ve karanlık değerlerini düzenler.<br>İşlem yükü: Yok",
 "UI"
 ],
 "3487": [
-"Oyunun kare sayısı ile monitörün kare yenileme oranını dengeleyerek ekran yırtılmasını önler.<br>\\\\Nİşlem yükü: Yok ama kare sayınızı, monitörün eşleşme oranının en yakın katına düşürür.",
+"Oyunun kare sayısı ile monitörün kare yenileme oranını dengeleyerek ekran yırtılmasını önler.<br>İşlem yükü: Yok ama kare sayınızı, monitörün eşleşme oranının en yakın katına düşürür.",
 "UI"
 ],
 "3488": [
-"Tonlama renk karışımlarını iyileştirir ama oyundaki sıkıştırılmış videolar daha kötü görünebilir.<br>\\\\Nİşlem yükü: Yok",
+"Tonlama renk karışımlarını iyileştirir ama oyundaki sıkıştırılmış videolar daha kötü görünebilir.<br>İşlem yükü: Yok",
 "UI"
 ],
 "3489": [
-"Oyun-içi kameranın dikey görüntü alanı. Uyarı: Değiştirilmesi Outer Wilds içindeki bazı bulmacaları etkileyebilir.<br>\\\\Nİşlem yükü: Hafif",
+"Oyun-içi kameranın dikey görüntü alanı. Uyarı: Değiştirilmesi Outer Wilds içindeki bazı bulmacaları etkileyebilir.<br>İşlem yükü: Hafif",
 "UI"
 ],
 "3490": [
@@ -14535,15 +14535,15 @@
 "UI"
 ],
 "3500": [
-"Çevrilmiş metin okurken zamanı dondurur (çevirici mecburen sabitlenir).<br>\\\\NNOT: Zamanın dondurulamayacağı bazı dönemler vardır.",
+"Çevrilmiş metin okurken zamanı dondurur (çevirici mecburen sabitlenir).<br>NOT: Zamanın dondurulamayacağı bazı dönemler vardır.",
 "UI"
 ],
 "3501": [
-"Gemi kayıtları incelenirken zamanı dondurur.<br>\\\\NNOT: Zamanın dondurulamayacağı bazı dönemler vardır.",
+"Gemi kayıtları incelenirken zamanı dondurur.<br>NOT: Zamanın dondurulamayacağı bazı dönemler vardır.",
 "UI"
 ],
 "3502": [
-"Karakterlerle konuşurken, kayıt veya işaret okurken zamanı dondurur. Konuşma esnasında karakter animasyonlarının oynatılmasını engeller.<br>\\\\NNOT: Zamanın dondurulamayacağı bazı dönemler vardır.",
+"Karakterlerle konuşurken, kayıt veya işaret okurken zamanı dondurur. Konuşma esnasında karakter animasyonlarının oynatılmasını engeller.<br>NOT: Zamanın dondurulamayacağı bazı dönemler vardır.",
 "UI"
 ],
 "3503": [
@@ -14567,11 +14567,11 @@
 "UI"
 ],
 "3508": [
-"Girdi algılanması için, sol/sağ çubuğun (merkezden) ne kadar eğilmesi gerektiğini belirler.<br>\\\\NKarakteriniz sol/sağ çubuğa dokunmadığınız zaman bile hareket ediyorsa, tepkisiz bölgeyi artırmanız iyi olabilir.",
+"Girdi algılanması için, sol/sağ çubuğun (merkezden) ne kadar eğilmesi gerektiğini belirler.<br>Karakteriniz sol/sağ çubuğa dokunmadığınız zaman bile hareket ediyorsa, tepkisiz bölgeyi artırmanız iyi olabilir.",
 "UI"
 ],
 "3509": [
-"Maksimum girdi alınmasını kesmek için sol/sağ çubuğun (tam eğim halinden) ne kadar serbest bırakılacağını belirler.<br>\\\\NMaksimum hızda hareket edemiyorsanız tepkisiz bölgeyi artırmanız iyi olabilir.",
+"Maksimum girdi alınmasını kesmek için sol/sağ çubuğun (tam eğim halinden) ne kadar serbest bırakılacağını belirler.<br>Maksimum hızda hareket edemiyorsanız tepkisiz bölgeyi artırmanız iyi olabilir.",
 "UI"
 ],
 "3510": [
@@ -14671,7 +14671,7 @@
 "UI"
 ],
 "3534": [
-"Gözcü: Önden anlık görüntü<br>\\\\NSinyalskop: Görüntü değiştir<br>\\\\NÇevirici: Çevir",
+"Gözcü: Önden anlık görüntü<br>Sinyalskop: Görüntü değiştir<br>Çevirici: Çevir",
 "UI"
 ],
 "3535": [
@@ -14751,7 +14751,7 @@
 "UI"
 ],
 "3721": [
-"İşlenecek çözünürlüğü ve kare hızını seçer.<br>\\\\NDinamik çözünürlük, Değişken Yenileme Hızı (VRR) desteğine sahip ekranlar için en uygunudur.",
+"İşlenecek çözünürlüğü ve kare hızını seçer.<br>Dinamik çözünürlük, Değişken Yenileme Hızı (VRR) desteğine sahip ekranlar için en uygunudur.",
 "UI"
 ],
 "3550": [
@@ -14855,7 +14855,7 @@
 "Translator"
 ],
 "3575": [
-"HATA:<br>\\\\NHARİTA ÇEVRİMDIŞI",
+"HATA:<br>HARİTA ÇEVRİMDIŞI",
 "UI"
 ],
 "3576": [
@@ -15051,11 +15051,11 @@
 "UI"
 ],
 "3623": [
-"Gözün Yankıları'nın korkutucu yanları, amaçlanan deneyimin parçasıdır. Outer Wilds deneyiminizi baltaladığını düşünüyorsanız, bu seçeneği etkinleştirmeniz oyunun bu yanını kısmen hafifletir.<br>\\\\NEmin misiniz?",
+"Gözün Yankıları'nın korkutucu yanları, amaçlanan deneyimin parçasıdır. Outer Wilds deneyiminizi baltaladığını düşünüyorsanız, bu seçeneği etkinleştirmeniz oyunun bu yanını kısmen hafifletir.<br>Emin misiniz?",
 "UI"
 ],
 "3624": [
-"Outer Wilds'ın korkutucu yanları amaçlanan deneyimin parçasıdır. Oyun deneyiminizi baltaladığını düşünüyorsanız, bu seçeneği etkinleştirmeniz oyunun bu yanını kısmen hafifletir.<br>\\\\NEmin misiniz?",
+"Outer Wilds'ın korkutucu yanları amaçlanan deneyimin parçasıdır. Oyun deneyiminizi baltaladığını düşünüyorsanız, bu seçeneği etkinleştirmeniz oyunun bu yanını kısmen hafifletir.<br>Emin misiniz?",
 "UI"
 ],
 "3625": [
@@ -15159,7 +15159,7 @@
 "UI"
 ],
 "3650": [
-"Suyun dalgalarında ve ışık niteliğindeki ayrıntı miktarı.<br>\\\\Nİşlem yükü: Ağır",
+"Suyun dalgalarında ve ışık niteliğindeki ayrıntı miktarı.<br>İşlem yükü: Ağır",
 "UI"
 ],
 "3651": [
@@ -15167,7 +15167,7 @@
 "UI"
 ],
 "3652": [
-"Oyun dünyası boyunca bazı konumlardaki loş iç mekânların ve yansımaların çözünürlüğü.<br>\\\\Nİşlem yükü: Orta",
+"Oyun dünyası boyunca bazı konumlardaki loş iç mekânların ve yansımaların çözünürlüğü.<br>İşlem yükü: Orta",
 "UI"
 ],
 "3653": [
@@ -15175,7 +15175,7 @@
 "UI"
 ],
 "3654": [
-"Oyun dünyası boyunca bazı konumlardaki yansımaların çözünürlüğü.<br>\\\\Nİşlem yükü: Orta",
+"Oyun dünyası boyunca bazı konumlardaki yansımaların çözünürlüğü.<br>İşlem yükü: Orta",
 "UI"
 ],
 "3655": [
@@ -15235,7 +15235,7 @@
 "UI"
 ],
 "3669": [
-"Gözcü: Fırlat/Önden Görüntü<br>\\\\NSinyalskop: Yakınlaştır<br>\\\\NÇevirici: Çevir",
+"Gözcü: Fırlat/Önden Görüntü<br>Sinyalskop: Yakınlaştır<br>Çevirici: Çevir",
 "UI"
 ],
 "3670": [
@@ -15287,7 +15287,7 @@
 "UI"
 ],
 "3700": [
-"Slayt Gösterisini Değiştir",
+"Slayt GösterisiniDeğiştir",
 "UI"
 ],
 "3701": [
@@ -15339,7 +15339,31 @@
 "UI"
 ],
 "3726": [
-"Otomatik: Boyut, Dil ve Platforma göre otomatik olarak belirlenir.<br>\\\\NNormal/Büyük: Boyut, seçilen seçeneğe manuel olarak kilitlenir.",
+"Otomatik: Boyut, Dil ve Platforma göre otomatik olarak belirlenir.<br>Normal/Büyük: Boyut, seçilen seçeneğe manuel olarak kilitlenir.",
+"UI"
+],
+"3733": [
+"Oyuncu Bakışını Ters Çevir (Yatay)",
+"UI"
+],
+"3734": [
+"Gemi Bakışını Ters Çevir (Yatay)",
+"UI"
+],
+"3735": [
+"Oyuncu Bakışını Ters Çevir (Dikey)",
+"UI"
+],
+"3736": [
+"Gemi Bakışını Ters Çevir (Dikey)",
+"UI"
+],
+"3737": [
+"Yaya iken x ekseni bakışını ters çevirir.",
+"UI"
+],
+"3738": [
+"Gemi ile seyir halindeyken x ekseni bakışını ters çevirir.",
 "UI"
 ]
 }

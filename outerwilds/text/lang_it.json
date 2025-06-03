@@ -1229,7 +1229,7 @@
 "Me"
 ],
 "291": [
-"Sì! Mi sembra che siano passati dei secoli.<br>\\\\N<br>\\\\NSe l'anello temporale non fosse esistito, avremmo perso la vita già da quella prima volta nello spazio. Non è strano se ci pensi?",
+"Sì! Mi sembra che siano passati dei secoli.<br><br>Se l'anello temporale non fosse esistito, avremmo perso la vita già da quella prima volta nello spazio. Non è strano se ci pensi?",
 "Self"
 ],
 "292": [
@@ -1255,7 +1255,7 @@
 "Self"
 ],
 "297": [
-"SÌ. Peccato che nessuno abbia assistito.<br>\\\\N<br>\\\\NProbabilmente ora siamo i piloti migliori del programma spaziale.",
+"SÌ. Peccato che nessuno abbia assistito.<br><br>Probabilmente ora siamo i piloti migliori del programma spaziale.",
 "Self"
 ],
 "298": [
@@ -1393,7 +1393,7 @@
 "Nomai sign"
 ],
 "330": [
-"<span class=\"orange\">Forgia del Buco Nero</span><br>\\\\N(40 m a nord)",
+"<span class=\"orange\">Forgia del Buco Nero</span><br>(40 m a nord)",
 "Nomai sign"
 ],
 "331": [
@@ -1513,11 +1513,11 @@
 "Nomai computer"
 ],
 "360": [
-"Stato di rete della curvatura di <span class=\"lightblue\">Gemello Cenere</span>:<span class=\"orange\"> Torre del sole</span> disconnessa da <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> minuti e <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> secondi.<br>\\\\NLe torri rimanenti sono connesse.",
+"Stato di rete della curvatura di <span class=\"lightblue\">Gemello Cenere</span>:<span class=\"orange\"> Torre del sole</span> disconnessa da <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> minuti e <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> secondi.<br>Le torri rimanenti sono connesse.",
 "Nomai computer"
 ],
 "361": [
-"Torre del sole disconnessa da <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> minuti e <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> secondi.<br>\\\\NLe torri rimanenti sono connesse.",
+"Torre del sole disconnessa da <span class=\"template\">&lt;MinutesSinceRedGiant&gt;</span> minuti e <span class=\"template\">&lt;SecondsSinceRedGiant&gt;</span> secondi.<br>Le torri rimanenti sono connesse.",
 "Nomai computer"
 ],
 "362": [
@@ -2433,7 +2433,7 @@
 "Sign"
 ],
 "581": [
-"Porgiamo a tutti le nostre scuse più sentite, fatta eccezione per Slate e Mica,<br>\\\\N<br>\\\\NScogliocorno (curatore del museo)",
+"Porgiamo a tutti le nostre scuse più sentite, fatta eccezione per Slate e Mica,<br><br>Scogliocorno (curatore del museo)",
 "Sign"
 ],
 "582": [
@@ -2616,7 +2616,7 @@
 "Me"
 ],
 "623": [
-"Beh, è tutto molto concettuale, ma in pratica si tratta di prendere un normale secondo stadio di un razzo e legarci sopra un razzo più grande.<br>\\\\NNon è <em>grandioso</em>?",
+"Beh, è tutto molto concettuale, ma in pratica si tratta di prendere un normale secondo stadio di un razzo e legarci sopra un razzo più grande.<br>Non è <em>grandioso</em>?",
 "Slate"
 ],
 "624": [
@@ -2671,7 +2671,7 @@
 "Slate"
 ],
 "636": [
-"Sembra che sia tutto pronto per il decollo! L'euforia per un decollo è divertente, ma non vedo l'ora di rientrare per lavorare alla mia nuova nave.<br>\\\\NSu questa ci sto lavorando per aggiustare il sistema anticollisione del pilota automatico!",
+"Sembra che sia tutto pronto per il decollo! L'euforia per un decollo è divertente, ma non vedo l'ora di rientrare per lavorare alla mia nuova nave.<br>Su questa ci sto lavorando per aggiustare il sistema anticollisione del pilota automatico!",
 "Slate"
 ],
 "637": [
@@ -3391,7 +3391,7 @@
 "Journal"
 ],
 "803": [
-"I 3 INFALLIBILI CONSIGLI DI GABBRO SU COME APPISOLARSI<br>\\\\N     1.     Allestire un bel falò accogliente e mettersi comodi.<br>\\\\N     2.     Fissare il fuoco che brucia e godersi il tepore.<br>\\\\N     3.     Lasciare che il tempo scivoli via facendosi cullare dalle fiamme guizzanti\\\\N             fino<br>a scivolare in un sonno tranquillo.",
+"I 3 INFALLIBILI CONSIGLI DI GABBRO SU COME APPISOLARSI<br>1.     Allestire un bel falò accogliente e mettersi comodi.<br>2.     Fissare il fuoco che brucia e godersi il tepore.<br>3.     Lasciare che il tempo scivoli via facendosi cullare dalle fiamme guizzanti             fino<br>a scivolare in un sonno tranquillo.",
 "Hornfels",
 "Journal"
 ],
@@ -5440,7 +5440,7 @@
 "Nomai computer"
 ],
 "1305": [
-"Tempo approssimativo prima della distruzione della <span class=\"orange\">Stazione Solare</span> a causa dell'espansione della stella: <span class=\"template\">&lt;RemainingMinutes&gt;</span> MINUTI, <span class=\"template\">&lt;RemainingSeconds&gt;</span> SECONDI<br>\\\\NTempo approssimativo prima della morte della stella: <span class=\"template\">&lt;MinutesToRedGiant&gt;</span> MINUTI, <span class=\"template\">&lt;SecondsToRedGiant&gt;</span> SECONDI",
+"Tempo approssimativo prima della distruzione della <span class=\"orange\">Stazione Solare</span> a causa dell'espansione della stella: <span class=\"template\">&lt;RemainingMinutes&gt;</span> MINUTI, <span class=\"template\">&lt;RemainingSeconds&gt;</span> SECONDI<br>Tempo approssimativo prima della morte della stella: <span class=\"template\">&lt;MinutesToRedGiant&gt;</span> MINUTI, <span class=\"template\">&lt;SecondsToRedGiant&gt;</span> SECONDI",
 "Nomai computer"
 ],
 "1306": [
@@ -5652,7 +5652,7 @@
 "Note"
 ],
 "1353": [
-"Viaggio n. 4 annotazione numero: boh.<br>\\\\N Schianti: 2<br>\\\\N Schianti seccanti: 0 (quando tornerò devo dirlo a Slate)",
+"Viaggio n. 4 annotazione numero: boh.<br>Schianti: 2<br>Schianti seccanti: 0 (quando tornerò devo dirlo a Slate)",
 "Feldspar",
 "Journal"
 ],
@@ -5681,7 +5681,7 @@
 "Sign"
 ],
 "1359": [
-"L'attraversamento della <span class=\"orange\">materia ectoplasmatica</span> è tremendamente doloroso e potrebbe anche ucciderti. Non prendertela con me se ti farai del male facendo stupidaggini.<br>\\\\N- Scogliocorno",
+"L'attraversamento della <span class=\"orange\">materia ectoplasmatica</span> è tremendamente doloroso e potrebbe anche ucciderti. Non prendertela con me se ti farai del male facendo stupidaggini.<br>- Scogliocorno",
 "Hornfels",
 "Sign"
 ],
@@ -5945,7 +5945,7 @@
 "Gossan"
 ],
 "1420": [
-"Ehi! Vieni a salutare il tuo vecchio istruttore di volo prima del lancio. Se vuoi fare un ripasso ho organizzato un addestramento a gravità zero.<br>\\\\N<br>\\\\N-Gossan",
+"Ehi! Vieni a salutare il tuo vecchio istruttore di volo prima del lancio. Se vuoi fare un ripasso ho organizzato un addestramento a gravità zero.<br><br>-Gossan",
 "Gossan",
 "Note"
 ],
@@ -7838,35 +7838,35 @@
 "Nomai sign"
 ],
 "1861": [
-"Il <span class=\"orange\">Crocevia</span><br>\\\\N(350 m a ovest)",
+"Il <span class=\"orange\">Crocevia</span><br>(350 m a ovest)",
 "Nomai sign"
 ],
 "1862": [
-"L'<span class=\"orange\">Osservatorio Sud</span><br>\\\\N(550 m a sud)",
+"L'<span class=\"orange\">Osservatorio Sud</span><br>(550 m a sud)",
 "Nomai sign"
 ],
 "1863": [
-"<span class=\"orange\">Laboratorio dei cristalli gravitazionali</span><br>\\\\N(140 m in alto)",
+"<span class=\"orange\">Laboratorio dei cristalli gravitazionali</span><br>(140 m in alto)",
 "Nomai sign"
 ],
 "1864": [
-"<span class=\"orange\">Cannone gravitazionale</span><br>\\\\N(400 m a est)",
+"<span class=\"orange\">Cannone gravitazionale</span><br>(400 m a est)",
 "Nomai sign"
 ],
 "1865": [
-"La <span class=\"orange\">Città Sospesa</span><br>\\\\N(250 m a nord)",
+"La <span class=\"orange\">Città Sospesa</span><br>(250 m a nord)",
 "Nomai sign"
 ],
 "1866": [
-"La <span class=\"orange\">Torre della Conoscenza Quantica</span><br>\\\\N(190 m a ovest)",
+"La <span class=\"orange\">Torre della Conoscenza Quantica</span><br>(190 m a ovest)",
 "Nomai sign"
 ],
 "1867": [
-"<span class=\"orange\">Crocevia inferiore</span><br>\\\\N(56 m in basso)",
+"<span class=\"orange\">Crocevia inferiore</span><br>(56 m in basso)",
 "Nomai sign"
 ],
 "1868": [
-"La <span class=\"orange\">Città Sospesa</span><br>\\\\N(50 m in basso)",
+"La <span class=\"orange\">Città Sospesa</span><br>(50 m in basso)",
 "Nomai sign"
 ],
 "1869": [
@@ -7878,11 +7878,11 @@
 "Nomai sign"
 ],
 "1871": [
-"<span class=\"orange\">Forgia del Buco Nero</span><br>\\\\N(30 m a sinistra)",
+"<span class=\"orange\">Forgia del Buco Nero</span><br>(30 m a sinistra)",
 "Nomai sign"
 ],
 "1872": [
-"Il <span class=\"orange\">Crocevia</span><br>\\\\N(190 m a est)",
+"Il <span class=\"orange\">Crocevia</span><br>(190 m a est)",
 "Nomai sign"
 ],
 "1873": [
@@ -7890,11 +7890,11 @@
 "Nomai sign"
 ],
 "1874": [
-"<span class=\"orange\">Cannone gravitazionale</span> Comandi<br>\\\\N(90 m)",
+"<span class=\"orange\">Cannone gravitazionale</span> Comandi<br>(90 m)",
 "Nomai sign"
 ],
 "1875": [
-"Ingresso alla <span class=\"orange\">Torre della Conoscenza Quantica</span><br>\\\\N(90 m in basso)",
+"Ingresso alla <span class=\"orange\">Torre della Conoscenza Quantica</span><br>(90 m in basso)",
 "Nomai sign"
 ],
 "1876": [
@@ -7938,39 +7938,39 @@
 "Coleus"
 ],
 "1886": [
-"La <span class=\"orange\">Città Ombra</span><br>\\\\N(120 m)",
+"La <span class=\"orange\">Città Ombra</span><br>(120 m)",
 "Nomai sign"
 ],
 "1887": [
-"<span class=\"orange\">Cannone gravitazionale</span><br>\\\\N(120 m)",
+"<span class=\"orange\">Cannone gravitazionale</span><br>(120 m)",
 "Nomai sign"
 ],
 "1888": [
-"Il <span class=\"orange\">Laboratorio Alta Energia</span><br>\\\\N(400 m)",
+"Il <span class=\"orange\">Laboratorio Alta Energia</span><br>(400 m)",
 "Nomai sign"
 ],
 "1889": [
-"<span class=\"orange\">Vedetta del Fossile della Rana Pescatrice</span><br>\\\\N(40 m)",
+"<span class=\"orange\">Vedetta del Fossile della Rana Pescatrice</span><br>(40 m)",
 "Nomai sign"
 ],
 "1890": [
-"<span class=\"orange\">Caverna Trampolino</span><br>\\\\N(20 m)",
+"<span class=\"orange\">Caverna Trampolino</span><br>(20 m)",
 "Nomai sign"
 ],
 "1891": [
-"La <span class=\"orange\">Città Ombra</span><br>\\\\N(120 m)",
+"La <span class=\"orange\">Città Ombra</span><br>(120 m)",
 "Nomai sign"
 ],
 "1892": [
-"<span class=\"orange\">Caverne dell'Impatto</span><br>\\\\N(60 m)",
+"<span class=\"orange\">Caverne dell'Impatto</span><br>(60 m)",
 "Nomai sign"
 ],
 "1893": [
-"Il <span class=\"orange\">Laboratorio Alta Energia</span><br>\\\\N(300 m)",
+"Il <span class=\"orange\">Laboratorio Alta Energia</span><br>(300 m)",
 "Nomai sign"
 ],
 "1894": [
-"La <span class=\"orange\">Città Ombra</span><br>\\\\N(300 m)",
+"La <span class=\"orange\">Città Ombra</span><br>(300 m)",
 "Nomai sign"
 ],
 "1895": [
@@ -8261,7 +8261,7 @@
 "Nomai computer"
 ],
 "1966": [
-"MASCHERE RICEZIONE DATI DA:<br>\\\\N<span class=\"orange\">Modulo tracciamento sonda</span><br>\\\\Nstatua della memoria di <span class=\"lightblue\">Profondo Gigantesco</span><br>\\\\Nstatua della memoria di <span class=\"lightblue\">Cuore Legnoso</span>",
+"MASCHERE RICEZIONE DATI DA:<br><span class=\"orange\">Modulo tracciamento sonda</span><br>statua della memoria di <span class=\"lightblue\">Profondo Gigantesco</span><br>statua della memoria di <span class=\"lightblue\">Cuore Legnoso</span>",
 "Nomai computer"
 ],
 "1967": [
@@ -9172,7 +9172,7 @@
 "Feldspar"
 ],
 "2183": [
-"Viaggio n. 4(?), annotazione numero... Forse la definizione giusta è \"Non è la 1\".<br>\\\\N Schianti: 3<br>\\\\N Schianti seccanti: 0 (il mio record personale!)",
+"Viaggio n. 4(?), annotazione numero... Forse la definizione giusta è \"Non è la 1\".<br>Schianti: 3<br>Schianti seccanti: 0 (il mio record personale!)",
 "Feldspar",
 "Journal"
 ],
@@ -11890,7 +11890,7 @@
 "L'Occhio è molto probabilmente l'origine di tutti i fenomeni quantici macroscopici del sistema solare.",
 "Ship Log"
 ],
-"2847": [
+"3732": [
 "Solanum si domanda che cosa succederebbe se un osservatore consapevole entrasse nell'Occhio.",
 "Ship Log"
 ],
@@ -12363,7 +12363,7 @@
 "UI"
 ],
 "2964": [
-"Vuoi mantenere queste impostazioni?<br>\\\\NRitorno alle impostazioni precedenti tra",
+"Vuoi mantenere queste impostazioni?<br>Ritorno alle impostazioni precedenti tra",
 "UI"
 ],
 "2965": [
@@ -12943,11 +12943,11 @@
 "UI"
 ],
 "3109": [
-"Rimuovi il marcatore dal<br>\\\\Ndisplay dei dati di volo",
+"Rimuovi il marcatore dal<br>display dei dati di volo",
 "UI"
 ],
 "3110": [
-"Marca la posizione sul<br>\\\\Ndisplay dei dati di volo",
+"Marca la posizione sul<br>display dei dati di volo",
 "UI"
 ],
 "3111": [
@@ -13067,7 +13067,7 @@
 "UI"
 ],
 "3140": [
-"ATTENZIONE: CARBURANTE ESAURITO<br>\\\\NOSSIGENO UTILIZZATO COME PROPELLENTE",
+"ATTENZIONE: CARBURANTE ESAURITO<br>OSSIGENO UTILIZZATO COME PROPELLENTE",
 "UI"
 ],
 "3141": [
@@ -13083,7 +13083,7 @@
 "UI"
 ],
 "3144": [
-"RILEVATI ALBERI -- BOMBOLA DI\\\\NOSSIGENO RICARICATA",
+"RILEVATI ALBERI -- BOMBOLA DIOSSIGENO RICARICATA",
 "UI"
 ],
 "3145": [
@@ -13103,15 +13103,15 @@
 "UI"
 ],
 "3149": [
-"IMPOSSIBILE INDIVIDUARE\\\\NLA POSIZIONE",
+"IMPOSSIBILE INDIVIDUARELA POSIZIONE",
 "UI"
 ],
 "3150": [
-"CONNESSIONE CON\\\\NLO SCOUT INTERROTTA",
+"CONNESSIONE CONLO SCOUT INTERROTTA",
 "UI"
 ],
 "3151": [
-"RIENTRO AL SISTEMA\\\\NSOLARE IN CORSO",
+"RIENTRO AL SISTEMASOLARE IN CORSO",
 "UI"
 ],
 "3152": [
@@ -13195,15 +13195,15 @@
 "UI"
 ],
 "3172": [
-"FASE 1: ALLINEAMENTO\\\\NTRAIETTORIA DI VOLO",
+"FASE 1: ALLINEAMENTOTRAIETTORIA DI VOLO",
 "UI"
 ],
 "3173": [
-"FASE 2: ACCELERAZIONE\\\\NIN DIREZIONE DELL'OBIETTIVO",
+"FASE 2: ACCELERAZIONEIN DIREZIONE DELL'OBIETTIVO",
 "UI"
 ],
 "3174": [
-"FASE 3: ACCENSIONE\\\\NRETRORAZZI",
+"FASE 3: ACCENSIONERETRORAZZI",
 "UI"
 ],
 "3175": [
@@ -13223,15 +13223,15 @@
 "UI"
 ],
 "3179": [
-"PILOTA AUTOMATICO ANNULLATO:\\\\NOBIETTIVO TROPPO VICINO",
+"PILOTA AUTOMATICO ANNULLATO:OBIETTIVO TROPPO VICINO",
 "UI"
 ],
 "3180": [
-"FASE CON PILOTA AUTOMATICO\\\\NTERMINATA: OBIETTIVO MANCATO",
+"FASE CON PILOTA AUTOMATICOTERMINATA: OBIETTIVO MANCATO",
 "UI"
 ],
 "3181": [
-"FASE CON PILOTA\\\\NAUTOMATICO TERMINATA",
+"FASE CON PILOTAAUTOMATICO TERMINATA",
 "UI"
 ],
 "3182": [
@@ -13243,7 +13243,7 @@
 "UI"
 ],
 "3184": [
-"TORNA AL MENU PRINCIPALE<br>\\\\N<br>\\\\N(TUTTI I PROGRESSI SARANNO CANCELLATI)",
+"TORNA AL MENU PRINCIPALE<br><br>(TUTTI I PROGRESSI SARANNO CANCELLATI)",
 "UI"
 ],
 "3185": [
@@ -13251,7 +13251,7 @@
 "UI"
 ],
 "3186": [
-"MEDITA FINO ALL'INIZIO DEL<br>\\\\N PROSSIMO ANELLO TEMPORALE",
+"MEDITA FINO ALL'INIZIO DEL<br>PROSSIMO ANELLO TEMPORALE",
 "UI"
 ],
 "3187": [
@@ -13271,11 +13271,11 @@
 "UI"
 ],
 "3191": [
-"Controller disconnesso.<br>\\\\NRicollega il controller.",
+"Controller disconnesso.<br>Ricollega il controller.",
 "UI"
 ],
 "3192": [
-"L'utente corrente ha chiuso la sessione.<br>\\\\NEffettua di nuovo l'accesso per continuare.",
+"L'utente corrente ha chiuso la sessione.<br>Effettua di nuovo l'accesso per continuare.",
 "UI"
 ],
 "3193": [
@@ -13291,7 +13291,7 @@
 "UI"
 ],
 "3196": [
-"Controller disconnesso.<br>\\\\NRicollega il controller.",
+"Controller disconnesso.<br>Ricollega il controller.",
 "UI"
 ],
 "3685": [
@@ -13787,19 +13787,19 @@
 "Ending"
 ],
 "3319": [
-"ORMAI FUORI PORTATA DELLA SUPERNOVA,<br>\\\\NANDRAI ALLA DERIVA NELLO SPAZIO FINO AL COMPLETO ESAURIMENTO DELLE RISORSE DELLA TUA NAVE",
+"ORMAI FUORI PORTATA DELLA SUPERNOVA,<br>ANDRAI ALLA DERIVA NELLO SPAZIO FINO AL COMPLETO ESAURIMENTO DELLE RISORSE DELLA TUA NAVE",
 "Ending"
 ],
 "3320": [
-"DA QUANTO TEMPO TI TROVI QUI? MINUTI? ANNI?<br>\\\\NNON NE HAI LA CERTEZZA, MA SEMBRA CHE IL TUO VIAGGIO SIA GIUNTO ALLA FINE.",
+"DA QUANTO TEMPO TI TROVI QUI? MINUTI? ANNI?<br>NON NE HAI LA CERTEZZA, MA SEMBRA CHE IL TUO VIAGGIO SIA GIUNTO ALLA FINE.",
 "Ending"
 ],
 "3321": [
-"ORMAI FUORI PORTATA DELLA SUPERNOVA, SCOPRI DI ESSERE L'UNICO ABITANTE DI UN MONDO ORMAI ABBANDONATO.<br>\\\\NDI CERTO, PERÒ, <em>QUALCOSA</em> QUI DOVRÀ PUR ESSERE COMMESTIBILE.",
+"ORMAI FUORI PORTATA DELLA SUPERNOVA, SCOPRI DI ESSERE L'UNICO ABITANTE DI UN MONDO ORMAI ABBANDONATO.<br>DI CERTO, PERÒ, <em>QUALCOSA</em> QUI DOVRÀ PUR ESSERE COMMESTIBILE.",
 "Ending"
 ],
 "3322": [
-"QUANTO TEMPO È PASSATO?<br>\\\\NLORO NON SI PREOCCUPANO NEANCHE PIÙ DI DARTI LA CACCIA.<br>\\\\NIL TEMPO SCORRE INESORABILE, FINCHÉ LA TUA VITA PRECEDENTE NON È CHE UN SOGNO SBIADITO.<br>\\\\NSE SOLO POTESSI SVEGLIARTI.",
+"QUANTO TEMPO È PASSATO?<br>LORO NON SI PREOCCUPANO NEANCHE PIÙ DI DARTI LA CACCIA.<br>IL TEMPO SCORRE INESORABILE, FINCHÉ LA TUA VITA PRECEDENTE NON È CHE UN SOGNO SBIADITO.<br>SE SOLO POTESSI SVEGLIARTI.",
 "Ending"
 ],
 "3323": [
@@ -13987,7 +13987,7 @@
 "UI"
 ],
 "3368": [
-"ALLARME<br>\\\\NPRINCIPALE",
+"ALLARME<br>PRINCIPALE",
 "UI"
 ],
 "3369": [
@@ -13995,7 +13995,7 @@
 "UI"
 ],
 "3370": [
-"ATTENZIONE:<br>\\\\NUSARE SOLO IN CASO<br>\\\\NDI EMERGENZA",
+"ATTENZIONE:<br>USARE SOLO IN CASO<br>DI EMERGENZA",
 "UI"
 ],
 "3371": [
@@ -14051,7 +14051,7 @@
 "UI"
 ],
 "3384": [
-"SEGNALE NON IDENTIFICATO\\\\NNELLE VICINANZE",
+"SEGNALE NON IDENTIFICATONELLE VICINANZE",
 "UI"
 ],
 "3385": [
@@ -14059,15 +14059,15 @@
 "UI"
 ],
 "3386": [
-"PERICOLO: MATERIA ECTOPLASMATICA\\\\NINDIVIDUATA NELLE VICINANZE",
+"PERICOLO: MATERIA ECTOPLASMATICAINDIVIDUATA NELLE VICINANZE",
 "UI"
 ],
 "3387": [
-"CARICA<br>\\\\NIL SALVATAGGIO PRECEDENTE",
+"CARICA<br>IL SALVATAGGIO PRECEDENTE",
 "UI"
 ],
 "3388": [
-"ha chiuso la sessione.<br>\\\\NEffettua di nuovo l'accesso per continuare.",
+"ha chiuso la sessione.<br>Effettua di nuovo l'accesso per continuare.",
 "UI"
 ],
 "3389": [
@@ -14075,15 +14075,15 @@
 "UI"
 ],
 "3390": [
-"INDIVIDUATO SQUARCIO NELLO<br>\\\\NSCAFO DELLA NAVE",
+"INDIVIDUATO SQUARCIO NELLO<br>SCAFO DELLA NAVE",
 "UI"
 ],
 "3391": [
-"IMPOSSIBILE RECUPERARE LO SCOUT:<br>\\\\NTROPPI OBIETTIVI",
+"IMPOSSIBILE RECUPERARE LO SCOUT:<br>TROPPI OBIETTIVI",
 "UI"
 ],
 "3392": [
-"RICHIAMO DI EMERGENZA\\\\NDELLO SCOUT ATTIVATO",
+"RICHIAMO DI EMERGENZADELLO SCOUT ATTIVATO",
 "UI"
 ],
 "3393": [
@@ -14095,7 +14095,7 @@
 "UI"
 ],
 "3395": [
-"3 SU 3 RIPARAZIONI EFFETTUATE<br>\\\\NSIMULAZIONE DI ADDESTRAMENTO COMPLETATA",
+"3 SU 3 RIPARAZIONI EFFETTUATE<br>SIMULAZIONE DI ADDESTRAMENTO COMPLETATA",
 "UI"
 ],
 "3396": [
@@ -14223,7 +14223,7 @@
 "UI"
 ],
 "3422": [
-"Assicurati che<br>\\\\N- Outer Wilds abbia l'autorizzazione a scrivere sul disco<br>\\\\N- L'hard disk non sia pieno",
+"Assicurati che<br>- Outer Wilds abbia l'autorizzazione a scrivere sul disco<br>- L'hard disk non sia pieno",
 "UI"
 ],
 "3423": [
@@ -14231,7 +14231,7 @@
 "UI"
 ],
 "3424": [
-"Reimpostazione del collegamento<br>\\\\Ndei comandi",
+"Reimpostazione del collegamento<br>dei comandi",
 "UI"
 ],
 "3425": [
@@ -14403,7 +14403,7 @@
 "UI"
 ],
 "3467": [
-"ERRORE: RICHIAMO\\\\NDELLO SCOUT FALLITO",
+"ERRORE: RICHIAMODELLO SCOUT FALLITO",
 "UI"
 ],
 "3468": [
@@ -14415,7 +14415,7 @@
 "UI"
 ],
 "3470": [
-"REIMPOSTAZIONE DEL COLLEGAMENTO<br>\\\\NDEI COMANDI",
+"REIMPOSTAZIONE DEL COLLEGAMENTO<br>DEI COMANDI",
 "UI"
 ],
 "3471": [
@@ -14451,11 +14451,11 @@
 "UI"
 ],
 "3479": [
-"Risoluzione in pixel del rendering.<br>\\\\NCosto del rendering: Alto",
+"Risoluzione in pixel del rendering.<br>Costo del rendering: Alto",
 "UI"
 ],
 "3480": [
-"Leviga i bordi frastagliati dei pixel. La SMAA è più precisa e di qualità superiore, mentre la FXAA è più veloce.<br>\\\\NCosto del rendering: Basso",
+"Leviga i bordi frastagliati dei pixel. La SMAA è più precisa e di qualità superiore, mentre la FXAA è più veloce.<br>Costo del rendering: Basso",
 "UI"
 ],
 "3481": [
@@ -14463,35 +14463,35 @@
 "UI"
 ],
 "3482": [
-"Risoluzione relativa delle mappe di composizione utilizzate durante il gioco.<br>\\\\NCosto in memoria: Medio",
+"Risoluzione relativa delle mappe di composizione utilizzate durante il gioco.<br>Costo in memoria: Medio",
 "UI"
 ],
 "3483": [
-"Quantità di dettagli delle onde oceaniche e qualità dell'illuminazione dell'acqua.<br>\\\\NCosto del rendering: Alto",
+"Quantità di dettagli delle onde oceaniche e qualità dell'illuminazione dell'acqua.<br>Costo del rendering: Alto",
 "UI"
 ],
 "3484": [
-"Risoluzione e nitidezza delle ombre del mondo di gioco e numero di luci che proiettano ombre.<br>\\\\NCosto del rendering: Alto",
+"Risoluzione e nitidezza delle ombre del mondo di gioco e numero di luci che proiettano ombre.<br>Costo del rendering: Alto",
 "UI"
 ],
 "3485": [
-"Calcola l'occlusione ambientale (ovvero le ombre tenui proiettate dagli oggetti quando sono vicini) come effetto di post-elaborazione.<br>\\\\NCosto del rendering: Medio",
+"Calcola l'occlusione ambientale (ovvero le ombre tenui proiettate dagli oggetti quando sono vicini) come effetto di post-elaborazione.<br>Costo del rendering: Medio",
 "UI"
 ],
 "3486": [
-"Consente di regolare la luminosità delle immagini.<br>\\\\NCosto del rendering: Nessuno",
+"Consente di regolare la luminosità delle immagini.<br>Costo del rendering: Nessuno",
 "UI"
 ],
 "3487": [
-"Previene lo screen tearing sincronizzando la frequenza dei fotogrammi del gioco con quella di aggiornamento del monitor.<br>\\\\NCosto del rendering: Nessuno, ma la frequenza dei fotogrammi si ridurrà al multiplo più vicino al tasso di sincronizzazione del monitor",
+"Previene lo screen tearing sincronizzando la frequenza dei fotogrammi del gioco con quella di aggiornamento del monitor.<br>Costo del rendering: Nessuno, ma la frequenza dei fotogrammi si ridurrà al multiplo più vicino al tasso di sincronizzazione del monitor",
 "UI"
 ],
 "3488": [
-"Il dithering migliora la qualità delle sfumature dei colori, ma potrebbe peggiorare la compressione del video di gioco.<br>\\\\NCosto del rendering: Nessuno",
+"Il dithering migliora la qualità delle sfumature dei colori, ma potrebbe peggiorare la compressione del video di gioco.<br>Costo del rendering: Nessuno",
 "UI"
 ],
 "3489": [
-"Il campo visivo verticale della telecamera di gioco. Attenzione: la modifica di questa opzione potrebbe alterare alcuni puzzle di Outer Wilds.<br>\\\\NCosto del rendering: Basso",
+"Il campo visivo verticale della telecamera di gioco. Attenzione: la modifica di questa opzione potrebbe alterare alcuni puzzle di Outer Wilds.<br>Costo del rendering: Basso",
 "UI"
 ],
 "3490": [
@@ -14535,15 +14535,15 @@
 "UI"
 ],
 "3500": [
-"Blocca lo scorrimento del tempo durante la lettura del testo tradotto (il traduttore automatico deve rimanere fermo).<br>\\\\NNOTA: In alcuni momenti il tempo non può essere bloccato.",
+"Blocca lo scorrimento del tempo durante la lettura del testo tradotto (il traduttore automatico deve rimanere fermo).<br>NOTA: In alcuni momenti il tempo non può essere bloccato.",
 "UI"
 ],
 "3501": [
-"Blocca lo scorrimento del tempo durante l'utilizzo del registro della nave.<br>\\\\NNOTA: In alcuni momenti il tempo non può essere bloccato.",
+"Blocca lo scorrimento del tempo durante l'utilizzo del registro della nave.<br>NOTA: In alcuni momenti il tempo non può essere bloccato.",
 "UI"
 ],
 "3502": [
-"Blocca lo scorrimento del tempo mentre parli con gli altri personaggi e leggi i diari o i segnali. Questo impedirà alle animazioni dei personaggi di attivarsi durante una conversazione.<br>\\\\NNOTA: In alcuni momenti il tempo non può essere bloccato.",
+"Blocca lo scorrimento del tempo mentre parli con gli altri personaggi e leggi i diari o i segnali. Questo impedirà alle animazioni dei personaggi di attivarsi durante una conversazione.<br>NOTA: In alcuni momenti il tempo non può essere bloccato.",
 "UI"
 ],
 "3503": [
@@ -14567,11 +14567,11 @@
 "UI"
 ],
 "3508": [
-"Determina a quale distanza dal centro deve essere inclinata la levetta sinistra/destra prima del rilevamento di un input.<br>\\\\NValuta se aumentare questa zona morta se il tuo personaggio si sta muovendo o si sta guardando attorno mentre non stai toccando la levetta sinistra/destra.",
+"Determina a quale distanza dal centro deve essere inclinata la levetta sinistra/destra prima del rilevamento di un input.<br>Valuta se aumentare questa zona morta se il tuo personaggio si sta muovendo o si sta guardando attorno mentre non stai toccando la levetta sinistra/destra.",
 "UI"
 ],
 "3509": [
-"Determina a quale distanza dalla massima inclinazione si deve rilasciare la levetta sinistra/destra prima che il quantitativo massimo di input non venga più rilevato.<br>\\\\NValuta se aumentare questa zona morta se sei in una situazione in cui non puoi muoverti o guardarti intorno alla massima velocità.",
+"Determina a quale distanza dalla massima inclinazione si deve rilasciare la levetta sinistra/destra prima che il quantitativo massimo di input non venga più rilevato.<br>Valuta se aumentare questa zona morta se sei in una situazione in cui non puoi muoverti o guardarti intorno alla massima velocità.",
 "UI"
 ],
 "3510": [
@@ -14671,7 +14671,7 @@
 "UI"
 ],
 "3534": [
-"Scout: scatta istantanea frontale<br>\\\\NSegnaloscopio: cambia visualizzazione<br>\\\\NTraduttore: traduci",
+"Scout: scatta istantanea frontale<br>Segnaloscopio: cambia visualizzazione<br>Traduttore: traduci",
 "UI"
 ],
 "3535": [
@@ -14751,7 +14751,7 @@
 "UI"
 ],
 "3721": [
-"Seleziona risoluzione e framerate della resa grafica.<br>\\\\NLa risoluzione dinamica è ideale per gli schermi che supportano la Frequenza di Aggiornamento Variabile (VRR).",
+"Seleziona risoluzione e framerate della resa grafica.<br>La risoluzione dinamica è ideale per gli schermi che supportano la Frequenza di Aggiornamento Variabile (VRR).",
 "UI"
 ],
 "3550": [
@@ -14855,7 +14855,7 @@
 "Translator"
 ],
 "3575": [
-"ERRORE:<br>\\\\NMAPPA DISCONNESSA",
+"ERRORE:<br>MAPPA DISCONNESSA",
 "UI"
 ],
 "3576": [
@@ -15051,11 +15051,11 @@
 "UI"
 ],
 "3623": [
-"In Echoes of the Eye, alcuni effetti spaventosi sono parte integrante dell'esperienza di gioco, ma se questi dovessero influire negativamente sulla tua fruizione di Outer Wilds, puoi abilitare questa opzione per ridurre l'impatto emotivo di alcune situazioni.<br>\\\\NVuoi abilitare questa opzione?",
+"In Echoes of the Eye, alcuni effetti spaventosi sono parte integrante dell'esperienza di gioco, ma se questi dovessero influire negativamente sulla tua fruizione di Outer Wilds, puoi abilitare questa opzione per ridurre l'impatto emotivo di alcune situazioni.<br>Vuoi abilitare questa opzione?",
 "UI"
 ],
 "3624": [
-"In Outer Wilds, alcuni effetti spaventosi sono parte integrante dell'esperienza di gioco, ma se questi dovessero influire negativamente sulla tua fruizione del gioco, puoi abilitare questa opzione per ridurre l'impatto emotivo di alcune situazioni.<br>\\\\NVuoi abilitare questa opzione?",
+"In Outer Wilds, alcuni effetti spaventosi sono parte integrante dell'esperienza di gioco, ma se questi dovessero influire negativamente sulla tua fruizione del gioco, puoi abilitare questa opzione per ridurre l'impatto emotivo di alcune situazioni.<br>Vuoi abilitare questa opzione?",
 "UI"
 ],
 "3625": [
@@ -15159,7 +15159,7 @@
 "UI"
 ],
 "3650": [
-"Quantità di dettagli delle onde e qualità dell'illuminazione dell'acqua.<br>\\\\NCosto del rendering: alto",
+"Quantità di dettagli delle onde e qualità dell'illuminazione dell'acqua.<br>Costo del rendering: alto",
 "UI"
 ],
 "3651": [
@@ -15167,7 +15167,7 @@
 "UI"
 ],
 "3652": [
-"Risoluzione di riflessi e interni oscurati in alcuni luoghi del mondo di gioco.<br>\\\\NCosto del rendering: medio",
+"Risoluzione di riflessi e interni oscurati in alcuni luoghi del mondo di gioco.<br>Costo del rendering: medio",
 "UI"
 ],
 "3653": [
@@ -15175,7 +15175,7 @@
 "UI"
 ],
 "3654": [
-"Risoluzione dei riflessi in alcuni luoghi del mondo di gioco.<br>\\\\NCosto del rendering: medio",
+"Risoluzione dei riflessi in alcuni luoghi del mondo di gioco.<br>Costo del rendering: medio",
 "UI"
 ],
 "3655": [
@@ -15235,7 +15235,7 @@
 "UI"
 ],
 "3669": [
-"Scout: lancia/istantanea frontale<br>\\\\NSegnaloscopio: ingrandisci<br>\\\\NTraduttore automatico: traduci",
+"Scout: lancia/istantanea frontale<br>Segnaloscopio: ingrandisci<br>Traduttore automatico: traduci",
 "UI"
 ],
 "3670": [
@@ -15339,7 +15339,31 @@
 "UI"
 ],
 "3726": [
-"Auto: Le dimensioni sono automaticamente determinate dalla lingua e dal tipo di piattaforma.<br>\\\\NStandard/Grandi: Le dimensioni sono manualmente associate all'opzione selezionata.",
+"Auto: Le dimensioni sono automaticamente determinate dalla lingua e dal tipo di piattaforma.<br>Standard/Grandi: Le dimensioni sono manualmente associate all'opzione selezionata.",
+"UI"
+],
+"3733": [
+"Inverti la visuale del giocatore (orizzontale)",
+"UI"
+],
+"3734": [
+"Inverti la visuale della nave (orizzontale)",
+"UI"
+],
+"3735": [
+"Inverti la visuale del giocatore (verticale)",
+"UI"
+],
+"3736": [
+"Inverti la visuale della nave (verticale)",
+"UI"
+],
+"3737": [
+"Inverti la visuale dell'asse X mentre cammini.",
+"UI"
+],
+"3738": [
+"Inverti la visuale dell'asse X mentre guidi la tua nave.",
 "UI"
 ]
 }
