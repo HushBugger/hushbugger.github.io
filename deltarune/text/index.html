@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Deltarune text dump</title>
+        <link
+            rel="shortcut icon"
+            type="image/png"
+            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACB
+            VGfHAAAAD1BMVEUAAADAgiYAAACFSh3AgibGPmPhAAAAAnRSTlMAAHaTzTgAAACXSURB
+            VCiRhZHLDYRADEN9oISt4I0rQBQAGfdf0x6AhVntxzc/OXGkSH/1yKBNDwZtqhH4E5gv
+            27CK5Eg5OUAfQXN2kJr3pUnRZpwcLUt6S+Yl/axt5aTcb3f4rPoKSH6c/g90gAIwwKIJ
+            ICQEYNUEOLhIAatU4JTLKbC0z+B9+Srp3mPpFbkCUk6f81l58we5eSnJ4H/pCVYTQjf3
+            DYm9AAAAAElFTkSuQmCC"
+        />
+        <style>
+            @font-face {
+                font-family: "8bitoperator Undertale Mono";
+                src: url("../../style/8bitoperator-UTM.woff") format("woff");
+            }
+
+            body {
+                background: black;
+                color: white;
+                font-family: sans-serif;
+                margin: 0px;
+            }
+
+            div.intro {
+                background: white;
+                color: black;
+                padding: 0.4em;
+            }
+
+            div.textbox {
+                color: white;
+                white-space: pre-wrap;
+                padding-top: 5px;
+                padding-bottom: 5px;
+
+                display: flex;
+            }
+
+            div.textbox a.linkBar {
+                width: 20px;
+            }
+
+            div.textbox:hover a.linkBar {
+                background-color: white;
+                mask-image: url("hyperlink.svg");
+                /* mask-position: center; */
+                mask-repeat: no-repeat;
+            }
+
+            div.textbox.en {
+                font-family: "8bitoperator Undertale Mono", Monospace;
+            }
+
+            /* div#textboxes {
+                display: inline;
+            } */
+
+            span.R {
+                color: #f00;
+            }
+
+            span.Y {
+                color: #ff0;
+            }
+
+            span.L {
+                color: #14a9ff;
+            }
+
+            span.B {
+                color: #00f;
+            }
+
+            span.G {
+                color: #0f0;
+            }
+
+            span.O {
+                color: #ffa040;
+            }
+
+            span.P {
+                color: #f0f;
+            }
+
+            span.picture,
+            div.untranslated {
+                background: white;
+                color: black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="intro">
+            <p>
+                <select id="language" name="language">
+                    <option value="en">English</option>
+                    <option value="ja">Japanese</option>
+                    <option value="both">Both</option>
+                </select>
+            </p>
+            <p>
+                <select id="chapter" name="chapter">
+                    <option value="all">All chapters</option>
+                    <option value="1">Chapter 1</option>
+                    <option value="2">Chapter 2</option>
+                    <option value="3">Chapter 3</option>
+                    <option value="4">Chapter 4</option>
+                </select>
+            </p>
+            <!-- TODO: Dark/light mode -->
+        </div>
+        <div id="textboxes"></div>
+        <noscript>
+            <p>This pages requires JavaScript. Sorry :(</p>
+        </noscript>
+        <script>
+            // @ts-check
+            "use strict";
+
+            /** @type {Record<string,Record<string,{en:string|null,ja:string|null}>>|undefined} */
+            let text = undefined;
+
+            /** @type {['en', 'ja']} */
+            const languages = ["en", "ja"];
+
+            /** @type {HTMLDivElement} */
+            // @ts-ignore
+            const textboxes = document.getElementById("textboxes");
+
+            /** @type {HTMLSelectElement} */
+            // @ts-ignore
+            const languageSelect = document.getElementById("language");
+            let language = languageSelect.selectedOptions[0].value;
+
+            /** @type {HTMLSelectElement} */
+            // @ts-ignore
+            const chapterSelect = document.getElementById("chapter");
+            let chapters = chapterSelect.selectedOptions[0].value;
+
+            if (window.location.hash.length > 1) {
+                const pieces = window.location.hash.slice(1).split(":");
+                if (
+                    pieces[0] &&
+                    language !== "both" &&
+                    language !== pieces[0]
+                ) {
+                    language = pieces[0];
+                    for (const option of languageSelect.options) {
+                        if (option.value === pieces[0]) {
+                            option.selected = true;
+                        }
+                    }
+                }
+                if (pieces[1] && chapters !== "all" && chapters !== pieces[1]) {
+                    chapters = pieces[1];
+                    for (const option of chapterSelect.options) {
+                        if (option.value === pieces[1]) {
+                            option.selected = true;
+                        }
+                    }
+                }
+            }
+
+            function loadContent() {
+                function failed() {
+                    textboxes.innerHTML =
+                        '<div class="textbox en">' +
+                        "  But nobody came.\n" +
+                        "  (Try refreshing the page.)" +
+                        "</div>";
+                }
+
+                let req = new XMLHttpRequest();
+                req.addEventListener("load", function () {
+                    try {
+                        text = JSON.parse(this.responseText);
+                    } catch (e) {
+                        failed();
+                        return;
+                    }
+                    render();
+                    if (window.location.hash.length > 1) {
+                        // Force a jump after rendering
+                        window.location.hash = window.location.hash;
+                    }
+                });
+                req.addEventListener("error", failed);
+                req.addEventListener("abort", failed);
+                req.open("GET", "rendered.json");
+                req.send();
+            }
+
+            function render() {
+                if (!text) return;
+                textboxes.innerHTML = "";
+                const dedup = {};
+                for (const chapterNo of [1, 2, 3, 4]) {
+                    if (chapters !== String(chapterNo) && chapters !== "all") {
+                        continue;
+                    }
+                    const chapter = text[chapterNo];
+                    for (const msgId of Object.keys(chapter)) {
+                        for (const lang of languages) {
+                            const msg = chapter[msgId][lang];
+                            if (
+                                (language === lang && msg) ||
+                                language === "both"
+                            ) {
+                                if (msg !== dedup[`${lang}_${msgId}`]) {
+                                    const box = buildBox(
+                                        lang,
+                                        `${lang}:${chapterNo}:${msgId}`,
+                                        msg
+                                    );
+                                    textboxes.appendChild(box);
+                                    dedup[`${lang}_${msgId}`] = msg;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            /**
+             * @param {string} lang
+             * @param {string} id
+             * @param {string | null} text
+             */
+            function buildBox(lang, id, text) {
+                const box = document.createElement("div");
+                box.id = id;
+                box.classList.add("textbox");
+                box.classList.add(lang);
+                if (text === null) {
+                    box.classList.add("untranslated");
+                    if (lang === "en") {
+                        text = "(No English translation.)";
+                    } else {
+                        text = "(No Japanese translation.)";
+                    }
+                }
+                const linkBar = document.createElement("a");
+                linkBar.classList.add("linkBar");
+                linkBar.href = `#${id}`;
+                box.appendChild(linkBar);
+                const content = document.createElement("div");
+                content.classList.add("content");
+                content.innerHTML = text;
+                box.appendChild(content);
+                return box;
+            }
+
+            document.addEventListener("DOMContentLoaded", function () {
+                loadContent();
+            });
+
+            languageSelect.addEventListener("change", function () {
+                language = languageSelect.selectedOptions[0].value;
+                render();
+            });
+
+            chapterSelect.addEventListener("change", function () {
+                chapters = chapterSelect.selectedOptions[0].value;
+                render();
+            });
+        </script>
+    </body>
+</html>
