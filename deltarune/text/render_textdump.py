@@ -6,6 +6,7 @@ import json
 import re
 import sys
 import typing
+import natsort
 
 
 def render(text: str | None) -> str | None:
@@ -117,12 +118,12 @@ def youre_too_long(text: str, id: str) -> str:
 
 
 lang: dict[str, dict[typing.Literal["en", "ja"], dict[str, str]]] = json.load(
-    open("lang.json")
+    open("lang.json", encoding="utf-8")
 )
 rendered = {}
 for n in lang:
     rendered[n] = {}
-    ks = sorted(lang[n]["en"].keys() | lang[n]["ja"].keys())
+    ks = natsort.natsorted(lang[n]["en"].keys() | lang[n]["ja"].keys())
     for k in ks:
         if k == "date":
             continue
@@ -138,6 +139,6 @@ for n in lang:
             if (ren and ren.strip()) or (rja and rja.strip()):
                 rendered[n][k] = {"en": ren, "ja": rja}
 
-with open("rendered.js", "w") as f:
+with open("rendered.js", "w", encoding="utf-8") as f:
     f.write("var rendered = ")
-    json.dump(rendered, f, indent=0, ensure_ascii=False, sort_keys=True)
+    json.dump(rendered, f, indent=0, ensure_ascii=False)
