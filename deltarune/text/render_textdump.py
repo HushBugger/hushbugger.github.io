@@ -103,6 +103,6 @@ for n in lang:
             if (ren and ren.strip()) or (rja and rja.strip()):
                 rendered[n][k] = {"en": ren, "ja": rja}
 
-json.dump(
-    rendered, open("rendered.json", "w"), indent=0, ensure_ascii=False, sort_keys=True
-)
+with open("rendered.js", "w") as f:
+    f.write("var rendered = ")
+    json.dump(rendered, f, indent=0, ensure_ascii=False, sort_keys=True)

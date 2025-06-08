@@ -53,7 +53,9 @@
                 mask-repeat: no-repeat;
             }
 
-            div.textbox.en {
+            div.textbox.en,
+            pre.loading,
+            div.textbox.untranslated {
                 font-family: "8bitoperator Undertale Mono", Monospace;
             }
 
@@ -117,16 +119,20 @@
             </p>
             <!-- TODO: Dark/light mode -->
         </div>
-        <div id="textboxes"></div>
+        <div id="textboxes">
+            <pre class="loading">    Loading...</pre>
+        </div>
         <noscript>
             <p>This pages requires JavaScript. Sorry :(</p>
         </noscript>
+        <script src="rendered.js"></script>
         <script>
             // @ts-check
             "use strict";
 
-            /** @type {Record<string,Record<string,{en:string|null,ja:string|null}>>|undefined} */
-            let text = undefined;
+            /** @var {Record<string,Record<string,{en:string|null,ja:string|null}>>|undefined} */
+            // @ts-ignore
+            const text = rendered;
 
             /** @type {['en', 'ja']} */
             const languages = ["en", "ja"];
@@ -140,10 +146,20 @@
             const languageSelect = document.getElementById("language");
             let language = languageSelect.selectedOptions[0].value;
 
+            languageSelect.addEventListener("change", function () {
+                language = languageSelect.selectedOptions[0].value;
+                render();
+            });
+
             /** @type {HTMLSelectElement} */
             // @ts-ignore
             const chapterSelect = document.getElementById("chapter");
             let chapters = chapterSelect.selectedOptions[0].value;
+
+            chapterSelect.addEventListener("change", function () {
+                chapters = chapterSelect.selectedOptions[0].value;
+                render();
+            });
 
             if (window.location.hash.length > 1) {
                 const pieces = window.location.hash.slice(1).split(":");
@@ -169,34 +185,7 @@
                 }
             }
 
-            function loadContent() {
-                function failed() {
-                    textboxes.innerHTML =
-                        '<div class="textbox en">' +
-                        "  But nobody came.\n" +
-                        "  (Try refreshing the page.)" +
-                        "</div>";
-                }
-
-                let req = new XMLHttpRequest();
-                req.addEventListener("load", function () {
-                    try {
-                        text = JSON.parse(this.responseText);
-                    } catch (e) {
-                        failed();
-                        return;
-                    }
-                    render();
-                    if (window.location.hash.length > 1) {
-                        // Force a jump after rendering
-                        window.location.hash = window.location.hash;
-                    }
-                });
-                req.addEventListener("error", failed);
-                req.addEventListener("abort", failed);
-                req.open("GET", "rendered.json");
-                req.send();
-            }
+            render();
 
             function render() {
                 if (!text) return;
@@ -257,20 +246,6 @@
                 box.appendChild(content);
                 return box;
             }
-
-            document.addEventListener("DOMContentLoaded", function () {
-                loadContent();
-            });
-
-            languageSelect.addEventListener("change", function () {
-                language = languageSelect.selectedOptions[0].value;
-                render();
-            });
-
-            chapterSelect.addEventListener("change", function () {
-                chapters = chapterSelect.selectedOptions[0].value;
-                render();
-            });
         </script>
     </body>
 </html>
