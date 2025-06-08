@@ -124,6 +124,8 @@ for n in lang:
     rendered[n] = {}
     ks = sorted(lang[n]["en"].keys() | lang[n]["ja"].keys())
     for k in ks:
+        if k == "date":
+            continue
         en = lang[n]["en"].get(k)
         ja = lang[n]["ja"].get(k)
         if (en and en.strip(" \\C234")) or (ja and ja.strip(" \\C234")):
