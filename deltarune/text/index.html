@@ -25,6 +25,9 @@
                 color: white;
                 font-family: sans-serif;
                 margin: 0px;
+                /* This line height avoids fractional pixels, which prevents the transformed
+                 * text for the lyrics from shifting vertically on Firefox. */
+                line-height: 1.25em;
             }
 
             div.intro {
