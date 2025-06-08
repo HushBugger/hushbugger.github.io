@@ -192,7 +192,7 @@ def natsort(text: str):
 
 
 lang: dict[str, dict[typing.Literal["en", "ja"], dict[str, str]]] = json.load(
-    open("lang.json")
+    open("lang.json", encoding="utf-8")
 )
 rendered = {}
 for n in lang:
@@ -215,6 +215,6 @@ for n in lang:
                 rendered[n].setdefault(group, {})
                 rendered[n][group][k] = {"en": ren, "ja": rja}
 
-with open("rendered.js", "w") as f:
+with open("rendered.js", "w", encoding="utf-8") as f:
     f.write("var rendered = ")
     json.dump(rendered, f, indent=0, ensure_ascii=False)

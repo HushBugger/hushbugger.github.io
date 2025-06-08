@@ -156,5 +156,5 @@ for n in CHAPTERS:
                     print(func, args, line, file=sys.stderr)
                     sys.exit(1)
 
-with open("lang.json", "w") as f:
+with open("lang.json", "w", encoding="utf-8") as f:
     json.dump(text, f, indent=0, ensure_ascii=False, sort_keys=True)
