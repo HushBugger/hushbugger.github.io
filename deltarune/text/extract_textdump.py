@@ -138,9 +138,9 @@ for n in CHAPTERS:
                     pass
                 case "scr_84_get_lang_string", [str(arg)]:
                     en[arg] = text[1]["ja"][arg]
-                case "msgsetloc", [None, str(trans)]:
+                case "msgsetloc", [None, r"\C2"]:
                     pass
-                case "msgsetsubloc", [None, str(), None]:
+                case "msgsetsubloc", [None, r"\TX \F0 \E~1 \Fb \T0 %", None]:
                     pass
                 case (
                     ("stringsetloc", [str(trans), str(key)])
@@ -150,6 +150,7 @@ for n in CHAPTERS:
                     | ("msgsetloc", [_, str(trans), str(key)])
                     | ("msgnextloc", [str(trans), str(key)])
                 ):
+                    assert ' ' not in key, repr(key)
                     en[key] = trans
                 case _:
                     print(func, args, line, file=sys.stderr)
