@@ -168,7 +168,7 @@
             if (window.location.hash.length > 1) {
                 const pieces = window.location.hash.slice(1).split(":");
                 if (
-                    pieces[0] &&
+                    ["en", "ja"].includes(pieces[0]) &&
                     language !== "both" &&
                     language !== pieces[0]
                 ) {
@@ -179,7 +179,11 @@
                         }
                     }
                 }
-                if (pieces[1] && chapters !== "all" && chapters !== pieces[1]) {
+                if (
+                    ["1", "2", "3", "4"].includes(pieces[0]) &&
+                    chapters !== "all" &&
+                    chapters !== pieces[1]
+                ) {
                     chapters = pieces[1];
                     for (const option of chapterSelect.options) {
                         if (option.value === pieces[1]) {
