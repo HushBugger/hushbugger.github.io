@@ -116,6 +116,48 @@ def youre_too_long(text: str, id: str) -> str:
     return out
 
 
+postfixes = [
+    "gml",
+    "Draw",
+    "Step",
+    "Create",
+    "Other",
+    "Alarm",
+    "Destroy",
+    "Collision",
+    "slash",
+]
+
+
+def groupify(ident: str) -> str:
+    if ident.endswith(("_b", "_c")):
+        ident = ident[:-2]
+
+    for name in [
+        "obj_sneo_kristhrown_slash_Collision",
+        "obj_ralseithrown_slash_Collision",
+        "obj_werewire_kristhrown_slash_Collision",
+        "obj_caradventure_object_slash_Collision",
+        "obj_queen_kristhrown_slash_Collision",
+        "obj_queen_ralseithrown_slash_Collision",
+    ]:
+        # Postfixed with UUIDs for some reason
+        if ident.startswith(name):
+            ident = name
+
+    while True:
+        rest, end = ident.rsplit("_", 1)
+        if end == "" or end.isdigit() or end in postfixes:
+            ident = rest
+        else:
+            break
+
+    if "_slash_" in ident and len(set(ident.split("_slash_"))) == 1:
+        ident = ident.split("_slash_")[0]
+
+    return ident
+
+
 lang: dict[str, dict[typing.Literal["en", "ja"], dict[str, str]]] = json.load(
     open("lang.json")
 )
@@ -128,6 +170,7 @@ for n in lang:
             continue
         en = lang[n]["en"].get(k)
         ja = lang[n]["ja"].get(k)
+        group = groupify(k)
         if (en and en.strip(" \\C234")) or (ja and ja.strip(" \\C234")):
             ren = render(en)
             rja = render(ja)
@@ -136,7 +179,8 @@ for n in lang:
                 assert ren
                 ren = youre_too_long(ren, k)
             if (ren and ren.strip()) or (rja and rja.strip()):
-                rendered[n][k] = {"en": ren, "ja": rja}
+                rendered[n].setdefault(group, {})
+                rendered[n][group][k] = {"en": ren, "ja": rja}
 
 with open("rendered.js", "w") as f:
     f.write("var rendered = ")

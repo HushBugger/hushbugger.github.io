@@ -28,6 +28,7 @@
                 /* This line height avoids fractional pixels, which prevents the transformed
                  * text for the lyrics from shifting vertically on Firefox. */
                 line-height: 1.25em;
+                overflow-wrap: break-word;
             }
 
             div.intro {
@@ -36,8 +37,30 @@
                 padding: 0.4em;
             }
 
-            div.textbox {
+            h1,
+            h2 {
+                font-family: "8bitoperator Undertale Mono";
+                font-size: 2em;
+                line-height: 1em;
+                font-weight: normal;
+                /* text-shadow: 1px 1px 0px #03037d; */
+                padding-left: 20px;
+                margin-top: 24px;
+                margin-bottom: 12px;
+            }
+
+            h1 a,
+            h2 a {
+                /* color: #ccc; */
                 color: white;
+                text-decoration: none;
+            }
+
+            span.breakable {
+                word-break: break-all;
+            }
+
+            div.textbox {
                 white-space: pre-wrap;
                 padding-top: 5px;
                 padding-bottom: 5px;
@@ -134,7 +157,7 @@
             // @ts-check
             "use strict";
 
-            /** @var {Record<string,Record<string,{en:string|null,ja:string|null}>>|undefined} */
+            /** @type {Record<string,Record<string,Record<string,{en:string|null,ja:string|null}>>>|undefined} */
             // @ts-ignore
             const text = rendered;
 
@@ -203,27 +226,69 @@
                     if (chapters !== String(chapterNo) && chapters !== "all") {
                         continue;
                     }
+                    const chapterTitle = mkTitle(
+                        "h1",
+                        `${chapterNo}`,
+                        `Chapter ${chapterNo}`
+                    );
+                    textboxes.appendChild(chapterTitle);
+
                     const chapter = text[chapterNo];
-                    for (const msgId of Object.keys(chapter)) {
-                        for (const lang of languages) {
-                            const msg = chapter[msgId][lang];
-                            if (
-                                (language === lang && msg) ||
-                                language === "both"
-                            ) {
-                                if (msg !== dedup[`${lang}_${msgId}`]) {
-                                    const box = buildBox(
-                                        lang,
-                                        `${lang}:${chapterNo}:${msgId}`,
-                                        msg
-                                    );
-                                    textboxes.appendChild(box);
-                                    dedup[`${lang}_${msgId}`] = msg;
+                    for (const groupName of Object.keys(chapter)) {
+                        const group = chapter[groupName];
+
+                        const title = mkTitle(
+                            "h2",
+                            `${chapterNo}_${groupName}`,
+                            groupName.replace(/_slash_/g, "/")
+                        );
+                        title.classList.add("groupName");
+                        textboxes.appendChild(title);
+
+                        for (const msgId of Object.keys(group)) {
+                            for (const lang of languages) {
+                                const msg = group[msgId][lang];
+                                if (
+                                    (language === lang && msg) ||
+                                    language === "both"
+                                ) {
+                                    if (msg !== dedup[`${lang}_${msgId}`]) {
+                                        const box = buildBox(
+                                            lang,
+                                            `${lang}:${chapterNo}:${msgId}`,
+                                            msg
+                                        );
+                                        textboxes.appendChild(box);
+                                        dedup[`${lang}_${msgId}`] = msg;
+                                    }
                                 }
                             }
                         }
+
+                        if (textboxes.lastChild === title) {
+                            textboxes.removeChild(title);
+                        }
                     }
                 }
+            }
+
+            /**
+             * @param {string} elem
+             * @param {string} id
+             * @param {string} text
+             */
+            function mkTitle(elem, id, text) {
+                const title = document.createElement(elem);
+                title.id = id;
+                const link = document.createElement("a");
+                link.href = `#${id}`;
+                link.innerText = text;
+                link.innerHTML = link.innerHTML.replace(
+                    /_/g,
+                    '<span class="breakable">_</span>'
+                );
+                title.appendChild(link);
+                return title;
             }
 
             /**
