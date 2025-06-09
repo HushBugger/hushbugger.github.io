@@ -105,6 +105,7 @@ def youre_too_long(text: str, id: str) -> str:
         pieces.append(
             f'<span style="transform: scaleX(calc({width}/{len(text)})); '
             + f"width: {width * 8}px; "
+            + "overflow-wrap: normal; "
             + 'transform-origin: top left; display: inline-block;">'
             + text
             + "</span>"
