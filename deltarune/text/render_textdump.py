@@ -158,13 +158,21 @@ def groupify(ident: str) -> str:
     return ident
 
 
+def natsort(text: str):
+    pieces = text.split("_")
+    for i, piece in enumerate(pieces):
+        if piece.isdigit():
+            pieces[i] = piece.rjust(16, '0')
+    return pieces
+
+
 lang: dict[str, dict[typing.Literal["en", "ja"], dict[str, str]]] = json.load(
     open("lang.json")
 )
 rendered = {}
 for n in lang:
     rendered[n] = {}
-    ks = sorted(lang[n]["en"].keys() | lang[n]["ja"].keys())
+    ks = sorted(lang[n]["en"].keys() | lang[n]["ja"].keys(), key=natsort)
     for k in ks:
         if k == "date":
             continue
@@ -184,4 +192,4 @@ for n in lang:
 
 with open("rendered.js", "w") as f:
     f.write("var rendered = ")
-    json.dump(rendered, f, indent=0, ensure_ascii=False, sort_keys=True)
+    json.dump(rendered, f, indent=0, ensure_ascii=False)
