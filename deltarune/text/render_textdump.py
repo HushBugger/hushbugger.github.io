@@ -8,7 +8,7 @@ import sys
 import typing
 
 
-def render(text: str | None, msgid: str) -> str | None:
+def render(text: str | None, msgid: str, lang: str) -> str | None:
     if not text:
         return None
     out = io.StringIO()
@@ -121,7 +121,10 @@ def render(text: str | None, msgid: str) -> str | None:
         i += 1
     if color != "W":
         out.write("</span>")
-    return out.getvalue()
+    rendered = out.getvalue()
+    if lang == "en" and rendered.startswith("* ") and "&" in text and r"\C" not in text:
+        rendered = re.sub(r"\n *([^*])", "\n  \\1", rendered)
+    return rendered
 
 
 RE_STRETCH = re.compile(r"(\[[^\]]*\])")
@@ -217,8 +220,8 @@ for n in lang:
         ja = lang[n]["ja"].get(k)
         group = groupify(k)
         if (en and en.strip(" \\C234")) or (ja and ja.strip(" \\C234")):
-            ren = render(en, k)
-            rja = render(ja, k)
+            ren = render(en, k, "en")
+            rja = render(ja, k, "ja")
             if k.startswith("scr_rhythmgame_notechart_"):
                 # TODO: stretch Japanese text (different syntax, can't assume font width...)
                 assert ren
