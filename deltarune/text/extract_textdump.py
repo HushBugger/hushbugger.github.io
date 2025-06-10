@@ -150,7 +150,7 @@ for n in CHAPTERS:
                     | ("msgsetloc", [_, str(trans), str(key)])
                     | ("msgnextloc", [str(trans), str(key)])
                 ):
-                    assert ' ' not in key, repr(key)
+                    assert " " not in key, repr(key)
                     en[key] = trans
                 case _:
                     print(func, args, line, file=sys.stderr)

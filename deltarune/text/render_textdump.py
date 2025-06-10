@@ -88,6 +88,18 @@ def render(text: str | None, msgid: str) -> str | None:
                 "obj_fusionmenu_slash_Draw_0_gml_182_0",
             ]:
                 out.write("&")
+            case "#" if msgid.startswith(
+                (
+                    "obj_readable_room1",
+                    "obj_npc_room_animated_slash_Other_10_gml_41_0",
+                    "obj_npc_room_animated_slash_Other_10_gml_57_0",
+                )
+            ):
+                out.write("#")
+            case "#" if msgid.startswith("obj_bloxer_enemy_slash_Step_0_gml_135_1"):
+                # Becomes a space according to Bloxer footage?
+                # Confusing. Maybe the game squeezes double spaces?
+                out.write(" ")
             case "&" | "#":
                 out.write("\n")
             case "\t":
