@@ -156,5 +156,22 @@ for n in CHAPTERS:
                     print(func, args, line, file=sys.stderr)
                     sys.exit(1)
 
+# Scrambled fragments. Only the Japanese translation uses a translation key.
+# The Japanese translation actually has one fragment more, that's probably
+# why these aren't translated normally.
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_90_0"] = "where "
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_91_0"] = "the "
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_92_0"] = "tail. "
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_93_0"] = "pointed "
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_94_0"] = "the "
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_95_0"] = "children "
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_96_0"] = "would "
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_97_0"] = "grow,"
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_98_0"] = "the "
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_99_0"] = "Lost "
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_100_0"] = "forest "
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_101_0"] = "followed "
+text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_102_0"] = None
+
 with open("lang.json", "w", encoding="utf-8") as f:
     json.dump(text, f, indent=0, ensure_ascii=False, sort_keys=True)
