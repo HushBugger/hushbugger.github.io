@@ -8,7 +8,7 @@ import sys
 import typing
 
 
-def render(text: str | None) -> str | None:
+def render(text: str | None, msgid: str) -> str | None:
     if not text:
         return None
     out = io.StringIO()
@@ -64,6 +64,30 @@ def render(text: str | None) -> str | None:
             case "/":
                 if i + 1 < len(text) and text[i + 1] == "*":
                     i += 1
+            case "&" if msgid.startswith(
+                # For finding these it's useful to look for ＆ (CJK ampersand)
+                # Though maybe this character isn't used consistently?
+                # "obj_credits_slash_Step_0_gml_40_0" has an ASCII ampersand
+                # that's probably an actual ampersand
+                # Looking for "\n\n" also helps
+                (
+                    "scr_credit",
+                    "obj_credits",
+                    "scr_monstersetup",
+                    "scr_monstersetup_slash_scr_monstersetup_gml_1612_0",
+                    "scr_monstersetup_slash_scr_monstersetup_gml_1614_0",
+                    "obj_mike_minigame_tv",
+                    "obj_fusionmenu",
+                    "obj_b1rocks1",
+                    "scr_quiztext",
+                    "obj_b3bs_lancerget_lancer",
+                    "obj_shop2_slash_Create",
+                )
+            ) and msgid not in [
+                "scr_monstersetup_slash_scr_monstersetup_gml_27_0",
+                "obj_fusionmenu_slash_Draw_0_gml_182_0",
+            ]:
+                out.write("&")
             case "&" | "#":
                 out.write("\n")
             case "\t":
@@ -163,7 +187,7 @@ def natsort(text: str):
     pieces = text.split("_")
     for i, piece in enumerate(pieces):
         if piece.isdigit():
-            pieces[i] = piece.rjust(16, '0')
+            pieces[i] = piece.rjust(16, "0")
     return pieces
 
 
@@ -181,8 +205,8 @@ for n in lang:
         ja = lang[n]["ja"].get(k)
         group = groupify(k)
         if (en and en.strip(" \\C234")) or (ja and ja.strip(" \\C234")):
-            ren = render(en)
-            rja = render(ja)
+            ren = render(en, k)
+            rja = render(ja, k)
             if k.startswith("scr_rhythmgame_notechart_"):
                 # TODO: stretch Japanese text (different syntax, can't assume font width...)
                 assert ren
