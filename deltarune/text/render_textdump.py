@@ -22,6 +22,9 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                         prev_color = color
                         if text[i + 1] == "c":
                             color = text[i + 2]
+                            if color == "0":
+                                color = "W"
+                            assert color in "RBYGOASVIW", color
                         if color != prev_color:
                             if prev_color != "W":
                                 out.write("</span>")
