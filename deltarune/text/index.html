@@ -49,6 +49,12 @@
                 padding: 0.4em;
             }
 
+            div.controls {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
             h1,
             h2 {
                 font-family: "8bitoperator Undertale Mono";
@@ -180,14 +186,12 @@
 
     <body>
         <div class="intro">
-            <p>
+            <div class="controls">
                 <select id="language" name="language">
                     <option value="en">English</option>
                     <option value="ja">Japanese</option>
                     <option value="both">Both</option>
                 </select>
-            </p>
-            <p>
                 <select id="chapter" name="chapter">
                     <option value="all">All chapters</option>
                     <option value="1">Chapter 1</option>
@@ -195,8 +199,9 @@
                     <option value="3">Chapter 3</option>
                     <option value="4">Chapter 4</option>
                 </select>
-            </p>
-            <p>
+                <button type="button" id="keyboard-guide-toggle">
+                    Hotkeys
+                </button>
                 <button>
                     <img
                         id="light-mode-toggle"
@@ -207,11 +212,53 @@
                         height="44"
                     />
                 </button>
-            </p>
+            </div>
+            <ul id="keyboard-guide" style="display: none">
+                <li><strong>l</strong>(ight): Toggle light mode.</li>
+                <li>
+                    <strong>q</strong>(uote): Copy selected messages to
+                    clipboard with "&gt; " before each line.
+                </li>
+                <li>
+                    <strong>k</strong>(ey): Copy translation key to clipboard.
+                </li>
+                <li>
+                    <strong>c</strong>(ode): Open message in source code. To set
+                    up:
+                    <ul>
+                        <li>Decompile the game with UnderTaleModTool</li>
+                        <li>
+                            In your brower console, run something like
+                            <br />
+                            <code>
+                                localStorage.deltaruneSourceUri =
+                                'vscode://file/home/user/path/to/deltarune/{chapter}/CodeEntries/{file}:{line}'
+                            </code>
+                            <br />
+                            (but with your choice of editor, directory
+                            structure, etc)
+                        </li>
+                        <li>Refresh the page</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
         <script>
             // @ts-check
             "use strict";
+
+            document
+                .getElementById("keyboard-guide-toggle")
+                ?.addEventListener("click", function () {
+                    const guide = document.getElementById("keyboard-guide");
+                    if (guide) {
+                        if (guide.style.display === "none") {
+                            guide.style.display = "";
+                        } else {
+                            guide.style.display = "none";
+                        }
+                    }
+                });
 
             /** @type {HTMLImageElement} */
             // @ts-ignore
@@ -413,6 +460,82 @@
                 content.innerHTML = text;
                 box.appendChild(content);
                 return box;
+            }
+
+            const sourceCodeUri = localStorage.getItem("deltaruneSourceUri");
+            /** @type {Record<string, Record<string, string>>|null} */
+            let sourceMap = null;
+            if (sourceCodeUri) {
+                fetch("sourcemap.json")
+                    .then((response) => response.json())
+                    .then((data) => (sourceMap = data));
+            }
+
+            addEventListener("keydown", function (event) {
+                if (event.key === "l") {
+                    toggleLightMode();
+                }
+
+                if (event.key === "q") {
+                    const sel = window.getSelection();
+                    if (!sel) {
+                        return;
+                    }
+                    let start = getBox(sel.anchorNode);
+                    let end = getBox(sel.focusNode);
+                    if (!start || !end) {
+                        sel.empty();
+                        return;
+                    }
+                    if (sel.direction === "backward") {
+                        [start, end] = [end, start];
+                    }
+                    sel.setBaseAndExtent(start, 0, end, end.childNodes.length);
+                    navigator.clipboard.writeText(
+                        sel.toString().trim().replace(/^/gm, "> ") + "\n"
+                    );
+                }
+
+                if (event.key === "k") {
+                    const sel = window.getSelection();
+                    const box = getBox(sel?.anchorNode);
+                    if (box) {
+                        navigator.clipboard.writeText(box.id.split(":")[2]);
+                        sel?.empty();
+                    }
+                }
+
+                if (event.key === "c") {
+                    const box = getBox(window.getSelection()?.anchorNode);
+                    if (!box || !sourceCodeUri || !sourceMap) {
+                        return;
+                    }
+                    const [lang, chapterNo, msgId] = box.id.split(":");
+                    const sourceLocation = sourceMap[chapterNo][msgId];
+                    if (!sourceLocation) {
+                        return;
+                    }
+                    const [file, line] = sourceLocation.split(":");
+                    const targetUri = sourceCodeUri
+                        .replace("{chapter}", String(chapterNo))
+                        .replace("{file}", file)
+                        .replace("{line}", line);
+                    window.open(
+                        targetUri,
+                        targetUri.startsWith("http") ? "_blank" : "_self"
+                    );
+                }
+            });
+
+            /** @param {Node|null|undefined} elem */
+            function getBox(elem) {
+                if (
+                    elem instanceof HTMLElement &&
+                    elem.classList.contains("textbox")
+                ) {
+                    return elem;
+                }
+                return elem?.parentElement?.closest(".textbox");
             }
         </script>
     </body>
