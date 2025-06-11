@@ -94,13 +94,11 @@
                     * Lorem ipsum dolor
                     sit amet
                 */
-            /* Currently disabled because each-line is only supported on
-               Firefox and Safari */
-            /* div.content.wrapped {
+            p.indented {
+                margin: 0;
                 padding-left: 16px;
                 text-indent: -16px;
-                text-indent: -16px each-line;
-            } */
+            }
 
             div.textbox a.linkBar {
                 width: 20px;
@@ -457,9 +455,6 @@
                 box.appendChild(linkBar);
                 const content = document.createElement("div");
                 content.classList.add("content");
-                if (text.startsWith("* ")) {
-                    content.classList.add("wrapped");
-                }
                 content.innerHTML = text;
                 box.appendChild(content);
                 return box;
