@@ -7,6 +7,7 @@ import pathlib
 import re
 import subprocess
 import sys
+import typing
 
 # Expected directory structure:
 # ├── 1
@@ -106,8 +107,41 @@ def parse_line(line: str) -> list[FunCall]:
     return calls
 
 
+class RgResult(typing.NamedTuple):
+    filename: str
+    lineno: int
+    text: str
+
+
+def rg(pattern: str, path: pathlib.Path) -> typing.Iterable[RgResult]:
+    output = subprocess.run(
+        [
+            "rg",
+            "--json",
+            "--sort=path",
+            "--no-filename",
+            "--",
+            pattern,
+        ],
+        stdout=subprocess.PIPE,
+        check=True,
+        cwd=path,
+    ).stdout.decode()
+
+    for result in output.splitlines():
+        result = json.loads(result)
+        if result["type"] != "match":
+            continue
+        yield RgResult(
+            filename=result["data"]["path"]["text"],
+            lineno=result["data"]["line_number"],
+            text=result["data"]["lines"]["text"],
+        )
+
+
 CHAPTERS = [1, 2, 3, 4]
 text = {n: {} for n in CHAPTERS}
+sourcemap = {n: {} for n in CHAPTERS}
 
 for n in CHAPTERS:
     path = source / str(n)
@@ -115,29 +149,32 @@ for n in CHAPTERS:
     text[n]["ja"] = ja
     if n == 1:
         text[n]["en"] = json.loads((path / "lang" / "lang_en.json").read_text())
+        for filename, lineno, line in rg(
+            r"scr_84_get_lang_string\(",
+            path / "CodeEntries",
+        ):
+            for func, args in parse_line(line):
+                match func, args:
+                    case "scr_84_get_lang_string", [str(arg)]:
+                        sourcemap[n][arg] = f"{filename}:{lineno}"
+                    case _:
+                        print(func, args, line, file=sys.stderr)
+                        sys.exit(1)
         continue
     en: dict[str, str] = {}
     text[n]["en"] = en
 
-    rg = subprocess.run(
-        [
-            "rg",
-            "--sort=path",
-            "--no-filename",
-            f"({'|'.join(TEXTFUNCS)})\\([^)]",
-            path / "CodeEntries",
-        ],
-        stdout=subprocess.PIPE,
-        check=True,
-    ).stdout.decode()
-
-    for line in rg.splitlines():
+    for filename, lineno, line in rg(
+        f"({'|'.join(TEXTFUNCS)})\\([^)]",
+        path / "CodeEntries",
+    ):
         for func, args in parse_line(line):
             match func, args:
                 case "scr_84_get_lang_string", [None]:
                     pass
                 case "scr_84_get_lang_string", [str(arg)]:
                     en[arg] = text[1]["ja"][arg]
+                    sourcemap[n][arg] = f"{filename}:{lineno}"
                 case "msgsetloc", [None, r"\C2"]:
                     pass
                 case "msgsetsubloc", [None, r"\TX \F0 \E~1 \Fb \T0 %", None]:
@@ -152,6 +189,7 @@ for n in CHAPTERS:
                 ):
                     assert " " not in key, repr(key)
                     en[key] = trans
+                    sourcemap[n][key] = f"{filename}:{lineno}"
                 case _:
                     print(func, args, line, file=sys.stderr)
                     sys.exit(1)
@@ -175,3 +213,5 @@ text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_102_0"] = None
 
 with open("lang.json", "w", encoding="utf-8") as f:
     json.dump(text, f, indent=0, ensure_ascii=False, sort_keys=True)
+with open("sourcemap.json", "w", encoding="utf-8") as f:
+    json.dump(sourcemap, f, indent=0, ensure_ascii=False, sort_keys=True)
