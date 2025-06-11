@@ -125,7 +125,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
     if color != "W":
         out.write("</span>")
     rendered = out.getvalue()
-    if lang == "en" and rendered.startswith("* ") and "&" in text and r"\C" not in text:
+    if lang == "en" and rendered.startswith("* ") and "\n" in rendered and r"\C" not in text:
         rendered = re.sub(r"\n *([^*])", "\n  \\1", rendered)
     if lang == 'en' and rendered.startswith('* '):
         rendered = '<p class="indented">' + rendered.replace('\n', '</p><p class="indented">') + '</p>'
