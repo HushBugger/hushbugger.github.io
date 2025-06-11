@@ -14,6 +14,8 @@
             ICQEYNUEOLhIAatU4JTLKbC0z+B9+Srp3mPpFbkCUk6f81l58we5eSnJ4H/pCVYTQjf3
             DYm9AAAAAElFTkSuQmCC"
         />
+        <link rel="prefetch" href="spr_introimage1_0.png" />
+        <link rel="prefetch" href="spr_introimage1_1.png" />
         <style>
             @font-face {
                 font-family: "8bitoperator Undertale Mono";
@@ -21,8 +23,13 @@
             }
 
             body {
+                --background-color: black;
+                --foreground-color: white;
+
                 background: black;
                 color: white;
+                background: var(--background-color);
+                color: var(--foreground-color);
                 font-family: sans-serif;
                 margin: 0px;
                 /* This line height avoids fractional pixels, which prevents the transformed
@@ -31,9 +38,14 @@
                 overflow-wrap: break-word;
             }
 
+            body.light {
+                --background-color: white;
+                --foreground-color: #2c1708;
+            }
+
             div.intro {
-                background: white;
-                color: black;
+                background: var(--foreground-color);
+                color: var(--background-color);
                 padding: 0.4em;
             }
 
@@ -52,7 +64,7 @@
             h1 a,
             h2 a {
                 /* color: #ccc; */
-                color: white;
+                color: var(--foreground-color);
                 text-decoration: none;
             }
 
@@ -87,7 +99,7 @@
             }
 
             div.textbox:hover a.linkBar {
-                background-color: white;
+                background-color: var(--foreground-color);
                 mask-image: url("hyperlink.svg");
                 /* mask-position: center; */
                 mask-repeat: no-repeat;
@@ -148,10 +160,20 @@
                 color: #81c0ff;
             }
 
+            body.light span.Y,
+            body.light span.G,
+            body.light span.A,
+            body.light span.V,
+            body.light span.S,
+            body.light span.I {
+                -webkit-text-stroke: 2px var(--foreground-color);
+                paint-order: stroke fill;
+            }
+
             span.picture,
             div.untranslated {
-                background: white;
-                color: black;
+                background: var(--foreground-color);
+                color: var(--background-color);
             }
         </style>
     </head>
@@ -174,8 +196,48 @@
                     <option value="4">Chapter 4</option>
                 </select>
             </p>
-            <!-- TODO: Dark/light mode -->
+            <p>
+                <button>
+                    <img
+                        id="light-mode-toggle"
+                        src="spr_introimage1_0.png"
+                        alt="Toggle light mode"
+                        title="Toggle light mode"
+                        width="80"
+                        height="44"
+                    />
+                </button>
+            </p>
         </div>
+        <script>
+            // @ts-check
+            "use strict";
+
+            /** @type {HTMLImageElement} */
+            // @ts-ignore
+            const lightModeToggle =
+                document.getElementById("light-mode-toggle");
+
+            function toggleLightMode() {
+                if (document.body.classList.toggle("light")) {
+                    lightModeToggle.src = "spr_introimage1_1.png";
+                    localStorage.setItem("deltaruneLightMode", "true");
+                } else {
+                    lightModeToggle.src = "spr_introimage1_0.png";
+                    localStorage.removeItem("deltaruneLightMode");
+                }
+            }
+
+            lightModeToggle.parentElement?.addEventListener(
+                "click",
+                toggleLightMode
+            );
+
+            if (localStorage.getItem("deltaruneLightMode")) {
+                document.body.classList.add("light");
+                lightModeToggle.src = "spr_introimage1_1.png";
+            }
+        </script>
         <div id="textboxes">
             <pre class="loading">    Loading...</pre>
         </div>
