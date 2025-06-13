@@ -64,7 +64,19 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                         print(text)
                         sys.exit(1)
                 i += 2
-            case "/":
+            case "/" if not msgid.startswith(
+                (
+                    "obj_controller_city_mice2_slash_Draw_0_gml_28_0",
+                    "obj_fusionmenu_slash_Draw_0_gml_181_0",
+                    "obj_overworldc_slash_Draw_0_gml_37_0",
+                    "obj_overworldc_slash_Draw_0_gml_69_0",
+                    "scr_armorinfo_slash_scr_armorinfo_gml_433_0_b",
+                    "scr_armorinfo_slash_scr_armorinfo_gml_553_0",
+                    "scr_armorinfo_slash_scr_armorinfo_gml_791_0",
+                    "scr_armorinfo_slash_scr_armorinfo_gml_791_0",
+                    "scr_spellinfo_slash_scr_spellinfo_gml_109_0",
+                )
+            ):
                 if i + 1 < len(text) and text[i + 1] == "*":
                     i += 1
             case "&" if msgid.startswith(
@@ -125,10 +137,19 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
     if color != "W":
         out.write("</span>")
     rendered = out.getvalue()
-    if lang == "en" and rendered.startswith("* ") and "\n" in rendered and r"\C" not in text:
+    if (
+        lang == "en"
+        and rendered.startswith("* ")
+        and "\n" in rendered
+        and r"\C" not in text
+    ):
         rendered = re.sub(r"\n *([^*])", "\n  \\1", rendered)
-    if lang == 'en' and rendered.startswith('* '):
-        rendered = '<div class="indented">' + rendered.replace('\n', '</div><div class="indented">') + '</div>'
+    if lang == "en" and rendered.startswith("* "):
+        rendered = (
+            '<div class="indented">'
+            + rendered.replace("\n", '</div><div class="indented">')
+            + "</div>"
+        )
     return rendered
 
 
