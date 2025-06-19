@@ -218,7 +218,12 @@
                 <li><strong>l</strong>(ight): Toggle light mode.</li>
                 <li>
                     <strong>q</strong>(uote): Copy selected messages to
-                    clipboard with "&gt; " before each line.
+                    clipboard markdown/Discord-style ("&gt; " before each line,
+                    "*" escaped to "\*").
+                </li>
+                <li>
+                    <strong>&gt;</strong>: Copy messages to clipboard
+                    email-style ("&gt; " before each line).
                 </li>
                 <li>
                     <strong>k</strong>(ey): Copy translation key to clipboard.
@@ -470,12 +475,7 @@
             }
 
             addEventListener("keydown", function (event) {
-                if (
-                    event.altKey ||
-                    event.ctrlKey ||
-                    event.metaKey ||
-                    event.shiftKey
-                ) {
+                if (event.altKey || event.ctrlKey || event.metaKey) {
                     return;
                 }
 
@@ -483,7 +483,7 @@
                     toggleLightMode();
                 }
 
-                if (event.key === "q") {
+                if (event.key === "q" || event.key === ">") {
                     const sel = window.getSelection();
                     if (!sel) {
                         return;
@@ -498,13 +498,18 @@
                         [start, end] = [end, start];
                     }
                     sel.setBaseAndExtent(start, 0, end, end.childNodes.length);
-                    navigator.clipboard.writeText(
-                        sel
-                            .toString()
-                            .trim()
-                            .replace(/^\s*\n/gm, "")
-                            .replace(/^/gm, "> ") + "\n"
-                    );
+                    let text = sel.toString().trim();
+                    // Remove spurious blank lines.
+                    // (Rarely there are actual significant blank lines.
+                    // We remove those too unfortunately.)
+                    text = text.replace(/^\s*\n/gm, "");
+                    if (event.key === "q") {
+                        // Escape markdown syntax.
+                        text = text.replace(/\*/g, "\\*");
+                    }
+                    // Add quotation.
+                    text = text.replace(/^/gm, "> ");
+                    navigator.clipboard.writeText(text + "\n");
                 }
 
                 if (event.key === "k") {
