@@ -499,7 +499,11 @@
                     }
                     sel.setBaseAndExtent(start, 0, end, end.childNodes.length);
                     navigator.clipboard.writeText(
-                        sel.toString().trim().replace(/^/gm, "> ") + "\n"
+                        sel
+                            .toString()
+                            .trim()
+                            .replace(/^\s*\n/gm, "")
+                            .replace(/^/gm, "> ") + "\n"
                     );
                 }
 
