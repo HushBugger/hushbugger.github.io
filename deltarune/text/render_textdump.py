@@ -156,7 +156,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
 RE_STRETCH = re.compile(r"(\[[^\]]*\])")
 
 
-def youre_too_long(text: str, id: str) -> str:
+def your_____long(text: str, id: str) -> str:
     text = text.replace("-", "")
     pieces = []
     for piece in RE_STRETCH.split(text):
@@ -251,7 +251,7 @@ for n in lang:
             if k.startswith("scr_rhythmgame_notechart_"):
                 # TODO: stretch Japanese text (different syntax, can't assume font width...)
                 assert ren
-                ren = youre_too_long(ren, k)
+                ren = your_____long(ren, k)
             if (ren and ren.strip()) or (rja and rja.strip()):
                 rendered[n].setdefault(group, {})
                 rendered[n][group][k] = {"en": ren, "ja": rja}
