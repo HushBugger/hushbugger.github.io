@@ -499,6 +499,8 @@
                     }
                     sel.setBaseAndExtent(start, 0, end, end.childNodes.length);
                     let text = sel.toString().trim();
+                    // CRLF -> LF, for Windows.
+                    text = text.replace(/\r/g, "");
                     // Remove spurious blank lines.
                     // (Rarely there are actual significant blank lines.
                     // We remove those too unfortunately.)
