@@ -224,11 +224,30 @@ def groupify(ident: str) -> str:
     return ident
 
 
-def natsort(text: str):
+EVENTS = [
+    "PreCreate",
+    "Create",
+    "Draw",
+    "Step",
+    "KeyPress",
+    "Mouse",
+    "Other",
+    "Alarm",
+    "Destroy",
+    "CleanUp",
+]
+
+
+def smartsort(text: str):
     pieces = text.split("_")
     for i, piece in enumerate(pieces):
         if piece.isdigit():
+            # Natsort of integers (particularly line numbers)
             pieces[i] = piece.rjust(16, "0")
+        if piece in EVENTS:
+            # Try to order GameMaker events, e.g. Create text is usually
+            # shown earlier than Alarm text
+            pieces[i] = str(EVENTS.index(piece)).rjust(3, "0")
     return pieces
 
 
@@ -238,7 +257,7 @@ lang: dict[str, dict[typing.Literal["en", "ja"], dict[str, str]]] = json.load(
 rendered = {}
 for n in lang:
     rendered[n] = {}
-    ks = sorted(lang[n]["en"].keys() | lang[n]["ja"].keys(), key=natsort)
+    ks = sorted(lang[n]["en"].keys() | lang[n]["ja"].keys(), key=smartsort)
     for k in ks:
         if k == "date":
             continue

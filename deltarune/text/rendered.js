@@ -63,78 +63,6 @@ var rendered = {
 "en": "CONTACT",
 "ja": "CONTACT"
 },
-"DEVICE_CONTACT_slash_Other_10_gml_1_0": {
-"en": "SUSIE",
-"ja": "すーじぃ"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_2_0": {
-"en": "NOELLE",
-"ja": "のえる"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_3_0": {
-"en": "KRIS",
-"ja": "くりす"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_4_0": {
-"en": "TORIEL",
-"ja": "とりえる"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_5_0": {
-"en": "ASRIEL",
-"ja": "あずりえる"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_6_0": {
-"en": "ASGORE",
-"ja": "あずごあ"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_7_0": {
-"en": "SANS",
-"ja": "さんず"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_8_0": {
-"en": "PAPYRUS",
-"ja": "ぱぴるす"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_9_0": {
-"en": "ALPHYS",
-"ja": "あるふぃー"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_10_0": {
-"en": "UNDYNE",
-"ja": "あんだいん"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_11_0": {
-"en": "RUDY",
-"ja": "るーでぃ"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_12_0": {
-"en": "BERDLY",
-"ja": "ばーどりー"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_13_0": {
-"en": "CATTY",
-"ja": "きゃってぃ"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_14_0": {
-"en": "CATTI",
-"ja": "きゃってぃー"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_15_0": {
-"en": "BRATTY",
-"ja": "ありげってぃ"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_16_0": {
-"en": "GERSON",
-"ja": "がーそん"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_17_0": {
-"en": "JOCKINGTON",
-"ja": "じょっきんとん"
-},
-"DEVICE_CONTACT_slash_Other_10_gml_18_0": {
-"en": "QC",
-"ja": "QC"
-},
 "DEVICE_CONTACT_slash_Step_0_gml_6_0": {
 "en": " ARE YOU\n THERE?  ",
 "ja": "聞コエマスカ？  "
@@ -450,6 +378,78 @@ var rendered = {
 "DEVICE_CONTACT_slash_Step_0_gml_930_0": {
 "en": " ARE YOU\nPHOTOSENSITIVE?   ",
 "ja": " ARE YOU\nPHOTOSENSITIVE?   "
+},
+"DEVICE_CONTACT_slash_Other_10_gml_1_0": {
+"en": "SUSIE",
+"ja": "すーじぃ"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_2_0": {
+"en": "NOELLE",
+"ja": "のえる"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_3_0": {
+"en": "KRIS",
+"ja": "くりす"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_4_0": {
+"en": "TORIEL",
+"ja": "とりえる"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_5_0": {
+"en": "ASRIEL",
+"ja": "あずりえる"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_6_0": {
+"en": "ASGORE",
+"ja": "あずごあ"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_7_0": {
+"en": "SANS",
+"ja": "さんず"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_8_0": {
+"en": "PAPYRUS",
+"ja": "ぱぴるす"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_9_0": {
+"en": "ALPHYS",
+"ja": "あるふぃー"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_10_0": {
+"en": "UNDYNE",
+"ja": "あんだいん"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_11_0": {
+"en": "RUDY",
+"ja": "るーでぃ"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_12_0": {
+"en": "BERDLY",
+"ja": "ばーどりー"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_13_0": {
+"en": "CATTY",
+"ja": "きゃってぃ"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_14_0": {
+"en": "CATTI",
+"ja": "きゃってぃー"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_15_0": {
+"en": "BRATTY",
+"ja": "ありげってぃ"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_16_0": {
+"en": "GERSON",
+"ja": "がーそん"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_17_0": {
+"en": "JOCKINGTON",
+"ja": "じょっきんとん"
+},
+"DEVICE_CONTACT_slash_Other_10_gml_18_0": {
+"en": "QC",
+"ja": "QC"
 }
 },
 "DEVICE_FAILURE": {
@@ -1099,6 +1099,10 @@ var rendered = {
 }
 },
 "obj_carcutscene": {
+"obj_carcutscene_slash_Step_0_gml_17_0": {
+"en": "<div class=\"indented\">* Kris! There you are! We might still be able to make it!</div>",
+"ja": "＊ クリス！　ほら　はやく！\n　 いそげば　まだ　まにあう\n　 かもしれないわ！"
+},
 "obj_carcutscene_slash_Alarm_5_gml_2_0": {
 "en": "<div class=\"indented\">* Kris... It is a beautiful day today, is it not?</div>",
 "ja": "＊ ねえ　クリス…　きょうは\n　 ほんとうに　ステキな日ね。"
@@ -1114,10 +1118,6 @@ var rendered = {
 "obj_carcutscene_slash_Alarm_5_gml_5_0": {
 "en": "<div class=\"indented\">* Will he still enjoy coming home to this little town...?  </div>",
 "ja": "＊ こんな　ちいさなまちに\n　 かえってきても\n　 たいくつじゃないかしら…  "
-},
-"obj_carcutscene_slash_Step_0_gml_17_0": {
-"en": "<div class=\"indented\">* Kris! There you are! We might still be able to make it!</div>",
-"ja": "＊ クリス！　ほら　はやく！\n　 いそげば　まだ　まにあう\n　 かもしれないわ！"
 }
 },
 "obj_castlefront_event": {
@@ -12265,6 +12265,10 @@ var rendered = {
 }
 },
 "obj_ralseithrown": {
+"obj_ralseithrown_slash_Step_0_gml_23_0": {
+"en": "<div class=\"indented\">* Missed!</div>",
+"ja": "＊ ミス！"
+},
 "obj_ralseithrown_slash_Collision_154b9139_8c0d_44d5_b8de_0f03c1a8096c_gml_6_0": {
 "en": "<div class=\"indented\">* The crown greatly loosened!</div>",
 "ja": "＊ 冠が　かなりグラついた！"
@@ -12272,10 +12276,6 @@ var rendered = {
 "obj_ralseithrown_slash_Collision_154b9139_8c0d_44d5_b8de_0f03c1a8096c_gml_29_0": {
 "en": "<div class=\"indented\">* The crown loosened a little!</div>",
 "ja": "＊ 冠が　少しグラついた！"
-},
-"obj_ralseithrown_slash_Step_0_gml_23_0": {
-"en": "<div class=\"indented\">* Missed!</div>",
-"ja": "＊ ミス！"
 }
 },
 "obj_readable_room1": {
@@ -16049,78 +16049,6 @@ var rendered = {
 "en": "(Awake)",
 "ja": "(めざめ)"
 },
-"obj_susieenemy_slash_Other_11_gml_9_0": {
-"en": "(Awake)",
-"ja": "(めざめ)"
-},
-"obj_susieenemy_slash_Other_11_gml_19_0": {
-"en": "Heh,\nscared?",
-"ja": "どーした！\nおじけ\nづいたか？"
-},
-"obj_susieenemy_slash_Other_11_gml_20_0": {
-"en": "Weasel\nout of\nTHIS!",
-"ja": "よけられる\nもんなら\nよけてみな！"
-},
-"obj_susieenemy_slash_Other_11_gml_21_0": {
-"en": "Talk your\nway out of\nTHIS!",
-"ja": "話し合いで\n解決？\n笑わせんな！"
-},
-"obj_susieenemy_slash_Other_11_gml_22_0": {
-"en": "Think\nfast!",
-"ja": "ボーッと\nすんなよ！"
-},
-"obj_susieenemy_slash_Other_11_gml_28_0": {
-"en": "Hey, stop\nganging up\non him!",
-"ja": "おい！\nランサーを\nボコってんじゃ\nねーよ！"
-},
-"obj_susieenemy_slash_Other_11_gml_31_0": {
-"en": "Hey, stop\nhitting\nhim!",
-"ja": "やめろ！\nそれ以上\nランサーを\nなぐんな！"
-},
-"obj_susieenemy_slash_Other_11_gml_35_0": {
-"en": "No way!\nShut up and\nfight!!!",
-"ja": "うっせ！\nいいから\nたたかえよ！"
-},
-"obj_susieenemy_slash_Other_11_gml_36_0": {
-"en": "Really?\n...\nShut up and\nfight!!!",
-"ja": "…そうか？\n…いや\nいいから\nたたかえって！"
-},
-"obj_susieenemy_slash_Other_11_gml_37_0": {
-"en": "What are\nyou even\ndoing?",
-"ja": "は？\nなんの\nマネだよ？"
-},
-"obj_susieenemy_slash_Other_11_gml_38_0": {
-"en": " Really...?\nNo way, I\ndon't see\nanything!",
-"ja": "マジでか？\n…ウソだな\nなんも持って\nねーだろ！"
-},
-"obj_susieenemy_slash_Other_11_gml_39_0": {
-"en": "Yeah, it's\nhopeless.",
-"ja": "そうだ\nなにしたって\nムダなんだよ"
-},
-"obj_susieenemy_slash_Other_11_gml_43_0": {
-"en": "Flattery\nwon't\nwork on\nUS!!!",
-"ja": "おせじが\n通用すると\n思って\nんのか！？"
-},
-"obj_susieenemy_slash_Other_11_gml_44_0": {
-"en": "THAT'S\nTHE\nPOINT!!!",
-"ja": "ケガさせる\nために\nやってん\nだっつの！"
-},
-"obj_susieenemy_slash_Other_11_gml_45_0": {
-"en": "Huh...?\nI mean...\nNO!!!",
-"ja": "は…？\nいやいや…\nさせるか！"
-},
-"obj_susieenemy_slash_Other_11_gml_46_0": {
-"en": "Heh,\nscore for\nthe BAD\nGUYS!",
-"ja": "ヘッ…\n悪モノチームの\nナイスプレー\nだぜ！"
-},
-"obj_susieenemy_slash_Other_11_gml_48_0": {
-"en": "(Zzzz...)",
-"ja": "(Zzz…)"
-},
-"obj_susieenemy_slash_Other_11_gml_49_0": {
-"en": "(Yawn)\nI'm awake,\ndid I miss\nanything?",
-"ja": "(ふわあぁ)\n寝ちまった…\nおもしろいこと\nあったか？"
-},
 "obj_susieenemy_slash_Step_0_gml_79_0": {
 "en": "<div class=\"indented\">* Susie and Lancer are making fun of you.</div>",
 "ja": "＊ スージィとランサーは\n　 こちらを　からかっている。"
@@ -16236,6 +16164,78 @@ var rendered = {
 "obj_susieenemy_slash_Step_0_gml_299_0": {
 "en": "<div class=\"indented\">* (Seems that nothing else interesting will happen!)</div>",
 "ja": "＊ (これ以上は\n　 なにも起こらなそうだ！)"
+},
+"obj_susieenemy_slash_Other_11_gml_9_0": {
+"en": "(Awake)",
+"ja": "(めざめ)"
+},
+"obj_susieenemy_slash_Other_11_gml_19_0": {
+"en": "Heh,\nscared?",
+"ja": "どーした！\nおじけ\nづいたか？"
+},
+"obj_susieenemy_slash_Other_11_gml_20_0": {
+"en": "Weasel\nout of\nTHIS!",
+"ja": "よけられる\nもんなら\nよけてみな！"
+},
+"obj_susieenemy_slash_Other_11_gml_21_0": {
+"en": "Talk your\nway out of\nTHIS!",
+"ja": "話し合いで\n解決？\n笑わせんな！"
+},
+"obj_susieenemy_slash_Other_11_gml_22_0": {
+"en": "Think\nfast!",
+"ja": "ボーッと\nすんなよ！"
+},
+"obj_susieenemy_slash_Other_11_gml_28_0": {
+"en": "Hey, stop\nganging up\non him!",
+"ja": "おい！\nランサーを\nボコってんじゃ\nねーよ！"
+},
+"obj_susieenemy_slash_Other_11_gml_31_0": {
+"en": "Hey, stop\nhitting\nhim!",
+"ja": "やめろ！\nそれ以上\nランサーを\nなぐんな！"
+},
+"obj_susieenemy_slash_Other_11_gml_35_0": {
+"en": "No way!\nShut up and\nfight!!!",
+"ja": "うっせ！\nいいから\nたたかえよ！"
+},
+"obj_susieenemy_slash_Other_11_gml_36_0": {
+"en": "Really?\n...\nShut up and\nfight!!!",
+"ja": "…そうか？\n…いや\nいいから\nたたかえって！"
+},
+"obj_susieenemy_slash_Other_11_gml_37_0": {
+"en": "What are\nyou even\ndoing?",
+"ja": "は？\nなんの\nマネだよ？"
+},
+"obj_susieenemy_slash_Other_11_gml_38_0": {
+"en": " Really...?\nNo way, I\ndon't see\nanything!",
+"ja": "マジでか？\n…ウソだな\nなんも持って\nねーだろ！"
+},
+"obj_susieenemy_slash_Other_11_gml_39_0": {
+"en": "Yeah, it's\nhopeless.",
+"ja": "そうだ\nなにしたって\nムダなんだよ"
+},
+"obj_susieenemy_slash_Other_11_gml_43_0": {
+"en": "Flattery\nwon't\nwork on\nUS!!!",
+"ja": "おせじが\n通用すると\n思って\nんのか！？"
+},
+"obj_susieenemy_slash_Other_11_gml_44_0": {
+"en": "THAT'S\nTHE\nPOINT!!!",
+"ja": "ケガさせる\nために\nやってん\nだっつの！"
+},
+"obj_susieenemy_slash_Other_11_gml_45_0": {
+"en": "Huh...?\nI mean...\nNO!!!",
+"ja": "は…？\nいやいや…\nさせるか！"
+},
+"obj_susieenemy_slash_Other_11_gml_46_0": {
+"en": "Heh,\nscore for\nthe BAD\nGUYS!",
+"ja": "ヘッ…\n悪モノチームの\nナイスプレー\nだぜ！"
+},
+"obj_susieenemy_slash_Other_11_gml_48_0": {
+"en": "(Zzzz...)",
+"ja": "(Zzz…)"
+},
+"obj_susieenemy_slash_Other_11_gml_49_0": {
+"en": "(Yawn)\nI'm awake,\ndid I miss\nanything?",
+"ja": "(ふわあぁ)\n寝ちまった…\nおもしろいこと\nあったか？"
 }
 },
 "obj_tem_school": {
@@ -24833,10 +24833,6 @@ var rendered = {
 }
 },
 "DEVICE_CONTACT": {
-"DEVICE_CONTACT_slash_Other_10_gml_1_0": {
-"en": null,
-"ja": "すーじぃ"
-},
 "DEVICE_CONTACT_slash_Step_0_gml_6_0": {
 "en": " ARE YOU\n THERE?  ",
 "ja": "聞コエマスカ？  "
@@ -25156,6 +25152,10 @@ var rendered = {
 "DEVICE_CONTACT_slash_Step_0_gml_930_0": {
 "en": " ARE YOU\nPHOTOSENSITIVE?   ",
 "ja": " アナタハ\n光過敏性発作ヲ　起コシヤスイデスカ？   "
+},
+"DEVICE_CONTACT_slash_Other_10_gml_1_0": {
+"en": null,
+"ja": "すーじぃ"
 }
 },
 "DEVICE_FAILURE": {
@@ -41579,10 +41579,6 @@ var rendered = {
 "en": "Thrash Machine",
 "ja": "ボコリングマシン"
 },
-"obj_gigaqueen_enemy_slash_Destroy_0_gml_4_0": {
-"en": "Kris",
-"ja": "クリス"
-},
 "obj_gigaqueen_enemy_slash_Step_0_gml_56_0": {
 "en": "Oh No Did You\nForget How To\nControl A Giant\nRobot",
 "ja": "&lt;!--アララ\n[巨大ロボ]ノ\n操作方法\n忘レタノ--&gt;"
@@ -41782,6 +41778,10 @@ var rendered = {
 "obj_gigaqueen_enemy_slash_Step_0_gml_321_0": {
 "en": "<div class=\"indented\">* SELF-FIX engaged!</div><div class=\"indented\">* A healing aura fired up...!</div><div class=\"indented\">* (But, the TP cost increased!)</div>",
 "ja": "＊ セルフリペア　オン！\n＊ 機体を修復するオーラが発生…！\n＊ (しかし　TPコストも上昇！)"
+},
+"obj_gigaqueen_enemy_slash_Destroy_0_gml_4_0": {
+"en": "Kris",
+"ja": "クリス"
 }
 },
 "obj_hatguy_enemy": {
@@ -42007,38 +42007,6 @@ var rendered = {
 "en": "Not Dancing",
 "ja": "NOT DANCING"
 },
-"obj_kk_enemy_slash_Other_11_gml_4_0": {
-"en": "<div class=\"indented\">* Sweet shimmies defiantly.</div>",
-"ja": "＊ スイートは　反抗的に肩をゆすった。"
-},
-"obj_kk_enemy_slash_Other_11_gml_5_0": {
-"en": "<div class=\"indented\">* Cap'n spins his cap around.</div>",
-"ja": "＊ キャップは　キャップを回した。"
-},
-"obj_kk_enemy_slash_Other_11_gml_6_0": {
-"en": "<div class=\"indented\">* K_K is a CD player.</div>",
-"ja": "＊ K_Kはバトルっぽい曲をかけている。"
-},
-"obj_kk_enemy_slash_Other_11_gml_8_0": {
-"en": "<div class=\"indented\">* Sweet is lost in the groove!</div>",
-"ja": "＊ スイートは　完全にノリノリだ！"
-},
-"obj_kk_enemy_slash_Other_11_gml_9_0": {
-"en": "<div class=\"indented\">* Cap'n is lost in the groove!</div>",
-"ja": "＊ キャップは　完全にノリノリだ！"
-},
-"obj_kk_enemy_slash_Other_11_gml_10_0": {
-"en": "<div class=\"indented\">* K_K is lost in the groove!</div>",
-"ja": "＊ K_Kは　完全にノリノリだ！"
-},
-"obj_kk_enemy_slash_Other_11_gml_29_0": {
-"en": "<div class=\"indented\">* Kris, just keep trying to dance!</div>",
-"ja": "＊ クリス！　そのまま\n　 おどりつづけて！"
-},
-"obj_kk_enemy_slash_Other_11_gml_37_0": {
-"en": "<div class=\"indented\">* U-umm... Kris, maybe if you... keep dancing?</div>",
-"ja": "＊ クリス　えっと…　たぶん\n　 そのまま　おどりつづければ…"
-},
 "obj_kk_enemy_slash_Step_0_gml_3_0": {
 "en": "(Tired)",
 "ja": "(くたびれ)"
@@ -42126,6 +42094,38 @@ var rendered = {
 "obj_kk_enemy_slash_Step_0_gml_293_0": {
 "en": "<div class=\"indented\">* Ralsei danced with K_K!</div>",
 "ja": "＊ ラルセイは\n　 K_Kと　いっしょに　おどった！"
+},
+"obj_kk_enemy_slash_Other_11_gml_4_0": {
+"en": "<div class=\"indented\">* Sweet shimmies defiantly.</div>",
+"ja": "＊ スイートは　反抗的に肩をゆすった。"
+},
+"obj_kk_enemy_slash_Other_11_gml_5_0": {
+"en": "<div class=\"indented\">* Cap'n spins his cap around.</div>",
+"ja": "＊ キャップは　キャップを回した。"
+},
+"obj_kk_enemy_slash_Other_11_gml_6_0": {
+"en": "<div class=\"indented\">* K_K is a CD player.</div>",
+"ja": "＊ K_Kはバトルっぽい曲をかけている。"
+},
+"obj_kk_enemy_slash_Other_11_gml_8_0": {
+"en": "<div class=\"indented\">* Sweet is lost in the groove!</div>",
+"ja": "＊ スイートは　完全にノリノリだ！"
+},
+"obj_kk_enemy_slash_Other_11_gml_9_0": {
+"en": "<div class=\"indented\">* Cap'n is lost in the groove!</div>",
+"ja": "＊ キャップは　完全にノリノリだ！"
+},
+"obj_kk_enemy_slash_Other_11_gml_10_0": {
+"en": "<div class=\"indented\">* K_K is lost in the groove!</div>",
+"ja": "＊ K_Kは　完全にノリノリだ！"
+},
+"obj_kk_enemy_slash_Other_11_gml_29_0": {
+"en": "<div class=\"indented\">* Kris, just keep trying to dance!</div>",
+"ja": "＊ クリス！　そのまま\n　 おどりつづけて！"
+},
+"obj_kk_enemy_slash_Other_11_gml_37_0": {
+"en": "<div class=\"indented\">* U-umm... Kris, maybe if you... keep dancing?</div>",
+"ja": "＊ クリス　えっと…　たぶん\n　 そのまま　おどりつづければ…"
 }
 },
 "obj_krisroom": {
@@ -42767,6 +42767,18 @@ var rendered = {
 }
 },
 "obj_mazecheese": {
+"obj_mazecheese_slash_Step_0_gml_97_0": {
+"en": "<div class=\"indented\">* I... I never want to see cheese ever again...</div>",
+"ja": "＊ …もう　チーズは\n　 見るのもイヤ…"
+},
+"obj_mazecheese_slash_Step_0_gml_102_0": {
+"en": "<div class=\"indented\">* (The cheese was destroyed in the heat of battle...)</div>",
+"ja": "＊ (チーズは\n　 バトルの熱で破壊された…)"
+},
+"obj_mazecheese_slash_Step_0_gml_103_0": {
+"en": "<div class=\"indented\">* (You realized you lost sight of what was important...)</div>",
+"ja": "＊ (大切なことはなんなのか\n　 わからなくなった)"
+},
 "obj_mazecheese_slash_Other_10_gml_42_0": {
 "en": "<div class=\"indented\">* (The cheese was destroyed in the heat of battle.)</div>",
 "ja": "＊ (チーズは\n　 バトルの熱気で　破壊された)"
@@ -42782,18 +42794,6 @@ var rendered = {
 "obj_mazecheese_slash_Other_10_gml_48_0": {
 "en": "<div class=\"indented\">* (This marks a cruel victory for those who hate cheese.)</div>",
 "ja": "＊ (チーズを嫌う者たちの\n　 非情な勝利だ)"
-},
-"obj_mazecheese_slash_Step_0_gml_97_0": {
-"en": "<div class=\"indented\">* I... I never want to see cheese ever again...</div>",
-"ja": "＊ …もう　チーズは\n　 見るのもイヤ…"
-},
-"obj_mazecheese_slash_Step_0_gml_102_0": {
-"en": "<div class=\"indented\">* (The cheese was destroyed in the heat of battle...)</div>",
-"ja": "＊ (チーズは\n　 バトルの熱で破壊された…)"
-},
-"obj_mazecheese_slash_Step_0_gml_103_0": {
-"en": "<div class=\"indented\">* (You realized you lost sight of what was important...)</div>",
-"ja": "＊ (大切なことはなんなのか\n　 わからなくなった)"
 }
 },
 "obj_moneydisplay": {
@@ -42983,46 +42983,6 @@ var rendered = {
 }
 },
 "obj_musical_controller": {
-"obj_musical_controller_slash_Alarm_0_gml_11_0": {
-"en": "<div class=\"indented\">* They stopped dancing!</div>",
-"ja": "＊ あいつ　おどるの　やめたぞ。"
-},
-"obj_musical_controller_slash_Alarm_0_gml_12_0": {
-"en": "<div class=\"indented\">* We need to do it again!</div>",
-"ja": "＊ もっかいだな。"
-},
-"obj_musical_controller_slash_Alarm_1_gml_12_0": {
-"en": "W-wait, I can't dance\nwith bad guys!!",
-"ja": "はっ！　ダメだッ！！\n悪モノとは　おどらんッ！"
-},
-"obj_musical_controller_slash_Alarm_1_gml_21_0": {
-"en": "I forgot my next\ndance move!",
-"ja": "フリ付け\n忘れちゃった！"
-},
-"obj_musical_controller_slash_Alarm_1_gml_30_0": {
-"en": "H-hey, I'm not gonna\ndance with you!",
-"ja": "なっ…！　だれが\nおまえらと　おどるかよ！"
-},
-"obj_musical_controller_slash_Alarm_2_gml_8_0": {
-"en": "<div class=\"indented\">* (Sweet snapped out of the dance!)</div>",
-"ja": "＊ (スイートは\n　 われに返って　ダンスを　やめた！)"
-},
-"obj_musical_controller_slash_Alarm_2_gml_12_0": {
-"en": "<div class=\"indented\">* (Sweet snapped out of the dance!)</div>",
-"ja": "＊ (スイートは\n　 われに返って　ダンスを　やめた！)"
-},
-"obj_musical_controller_slash_Alarm_2_gml_20_0": {
-"en": "<div class=\"indented\">* (K_K snapped out of the dance!)</div>",
-"ja": "＊ (K_Kは\n　 われに返って ダンスを　やめた！)"
-},
-"obj_musical_controller_slash_Alarm_2_gml_24_0": {
-"en": "<div class=\"indented\">* (K_K snapped out of the dance!)</div>",
-"ja": "＊ (K_Kは\n　 われに返って ダンスを　やめた！)"
-},
-"obj_musical_controller_slash_Alarm_2_gml_30_0": {
-"en": "<div class=\"indented\">* (Cap'n snapped out of the dance!)</div>",
-"ja": "＊ (キャップは\n　 われに返って ダンスを　やめた！)"
-},
 "obj_musical_controller_slash_Step_0_gml_52_0": {
 "en": "I'm at my acoustic limit...",
 "ja": "オレのサウンドは\nもう限界だ…"
@@ -43098,6 +43058,46 @@ var rendered = {
 "obj_musical_controller_slash_Step_0_gml_284_0": {
 "en": "<div class=\"indented\">* SWEET's and K_K's HP went up!</div>",
 "ja": "＊ スイートとK_Kの　HPが回復！"
+},
+"obj_musical_controller_slash_Alarm_0_gml_11_0": {
+"en": "<div class=\"indented\">* They stopped dancing!</div>",
+"ja": "＊ あいつ　おどるの　やめたぞ。"
+},
+"obj_musical_controller_slash_Alarm_0_gml_12_0": {
+"en": "<div class=\"indented\">* We need to do it again!</div>",
+"ja": "＊ もっかいだな。"
+},
+"obj_musical_controller_slash_Alarm_1_gml_12_0": {
+"en": "W-wait, I can't dance\nwith bad guys!!",
+"ja": "はっ！　ダメだッ！！\n悪モノとは　おどらんッ！"
+},
+"obj_musical_controller_slash_Alarm_1_gml_21_0": {
+"en": "I forgot my next\ndance move!",
+"ja": "フリ付け\n忘れちゃった！"
+},
+"obj_musical_controller_slash_Alarm_1_gml_30_0": {
+"en": "H-hey, I'm not gonna\ndance with you!",
+"ja": "なっ…！　だれが\nおまえらと　おどるかよ！"
+},
+"obj_musical_controller_slash_Alarm_2_gml_8_0": {
+"en": "<div class=\"indented\">* (Sweet snapped out of the dance!)</div>",
+"ja": "＊ (スイートは\n　 われに返って　ダンスを　やめた！)"
+},
+"obj_musical_controller_slash_Alarm_2_gml_12_0": {
+"en": "<div class=\"indented\">* (Sweet snapped out of the dance!)</div>",
+"ja": "＊ (スイートは\n　 われに返って　ダンスを　やめた！)"
+},
+"obj_musical_controller_slash_Alarm_2_gml_20_0": {
+"en": "<div class=\"indented\">* (K_K snapped out of the dance!)</div>",
+"ja": "＊ (K_Kは\n　 われに返って ダンスを　やめた！)"
+},
+"obj_musical_controller_slash_Alarm_2_gml_24_0": {
+"en": "<div class=\"indented\">* (K_K snapped out of the dance!)</div>",
+"ja": "＊ (K_Kは\n　 われに返って ダンスを　やめた！)"
+},
+"obj_musical_controller_slash_Alarm_2_gml_30_0": {
+"en": "<div class=\"indented\">* (Cap'n snapped out of the dance!)</div>",
+"ja": "＊ (キャップは\n　 われに返って ダンスを　やめた！)"
 }
 },
 "obj_npc_cafe": {
@@ -49235,10 +49235,6 @@ var rendered = {
 }
 },
 "obj_pipis_enemy": {
-"obj_pipis_enemy_slash_Other_22_gml_21_0": {
-"en": "Ms. Pipis",
-"ja": "ピピスちゃん"
-},
 "obj_pipis_enemy_slash_Step_0_gml_73_0": {
 "en": "<div class=\"indented\">* Pipis</div>",
 "ja": "＊ ピピス"
@@ -49254,6 +49250,10 @@ var rendered = {
 "obj_pipis_enemy_slash_Step_0_gml_110_0": {
 "en": "<div class=\"indented\">* Nothing happened!</div>",
 "ja": "＊ なにも　起こらなかった。"
+},
+"obj_pipis_enemy_slash_Other_22_gml_21_0": {
+"en": "Ms. Pipis",
+"ja": "ピピスちゃん"
 }
 },
 "obj_placeholderenemy": {
@@ -49628,38 +49628,6 @@ var rendered = {
 "obj_queen_enemy_slash_Draw_0_gml_82_0": {
 "en": "(Defenseless)",
 "ja": "(シールドなし)"
-},
-"obj_queen_enemy_slash_Other_11_gml_10_0": {
-"en": "Loosen",
-"ja": "ゆるめる"
-},
-"obj_queen_enemy_slash_Other_11_gml_11_0": {
-"en": "GroupLoosen",
-"ja": "ゆるめるALL"
-},
-"obj_queen_enemy_slash_Other_11_gml_15_0": {
-"en": "Toast",
-"ja": "カンパイ"
-},
-"obj_queen_enemy_slash_Other_11_gml_16_0": {
-"en": "GroupToast",
-"ja": "カンパイALL"
-},
-"obj_queen_enemy_slash_Other_11_gml_22_0": {
-"en": "Loosen",
-"ja": "ゆるめる"
-},
-"obj_queen_enemy_slash_Other_11_gml_26_0": {
-"en": "Toast",
-"ja": "カンパイ"
-},
-"obj_queen_enemy_slash_Other_11_gml_32_0": {
-"en": "Loosen",
-"ja": "ゆるめる"
-},
-"obj_queen_enemy_slash_Other_11_gml_36_0": {
-"en": "Toast",
-"ja": "カンパイ"
 },
 "obj_queen_enemy_slash_Step_0_gml_12_0": {
 "en": "Ah My Sweet\nIdiot Children",
@@ -50068,9 +50036,45 @@ var rendered = {
 "obj_queen_enemy_slash_Step_0_gml_1204_0": {
 "en": "It's time...\nfor me to\ntake my\nfreedom!!",
 "ja": "自由に\nやらせて\nもらうッ…！"
+},
+"obj_queen_enemy_slash_Other_11_gml_10_0": {
+"en": "Loosen",
+"ja": "ゆるめる"
+},
+"obj_queen_enemy_slash_Other_11_gml_11_0": {
+"en": "GroupLoosen",
+"ja": "ゆるめるALL"
+},
+"obj_queen_enemy_slash_Other_11_gml_15_0": {
+"en": "Toast",
+"ja": "カンパイ"
+},
+"obj_queen_enemy_slash_Other_11_gml_16_0": {
+"en": "GroupToast",
+"ja": "カンパイALL"
+},
+"obj_queen_enemy_slash_Other_11_gml_22_0": {
+"en": "Loosen",
+"ja": "ゆるめる"
+},
+"obj_queen_enemy_slash_Other_11_gml_26_0": {
+"en": "Toast",
+"ja": "カンパイ"
+},
+"obj_queen_enemy_slash_Other_11_gml_32_0": {
+"en": "Loosen",
+"ja": "ゆるめる"
+},
+"obj_queen_enemy_slash_Other_11_gml_36_0": {
+"en": "Toast",
+"ja": "カンパイ"
 }
 },
 "obj_queen_kristhrown": {
+"obj_queen_kristhrown_slash_Step_0_gml_24_0": {
+"en": "<div class=\"indented\">* Missed!</div>",
+"ja": "＊ ミス！"
+},
 "obj_queen_kristhrown_slash_Collision_7a76bce8_f6fc_4158_8ce1_58bb74085511_gml_23_0": {
 "en": "<div class=\"indented\">* The wire was cut!</div>",
 "ja": "＊ ケーブルをカット！"
@@ -50078,13 +50082,13 @@ var rendered = {
 "obj_queen_kristhrown_slash_Collision_7a76bce8_f6fc_4158_8ce1_58bb74085511_gml_42_0": {
 "en": "<div class=\"indented\">* The wire was cut!</div>",
 "ja": "＊ ケーブルをカット！"
-},
-"obj_queen_kristhrown_slash_Step_0_gml_24_0": {
-"en": "<div class=\"indented\">* Missed!</div>",
-"ja": "＊ ミス！"
 }
 },
 "obj_queen_ralseithrown": {
+"obj_queen_ralseithrown_slash_Step_0_gml_23_0": {
+"en": "<div class=\"indented\">* Missed!</div>",
+"ja": "＊ ミス！"
+},
 "obj_queen_ralseithrown_slash_Collision_22f849ff_cd13_405b_a486_5468f83d4033_gml_23_0": {
 "en": "<div class=\"indented\">* The wire was cut!</div>",
 "ja": "＊ ケーブルをカット！"
@@ -50092,10 +50096,6 @@ var rendered = {
 "obj_queen_ralseithrown_slash_Collision_22f849ff_cd13_405b_a486_5468f83d4033_gml_42_0": {
 "en": "<div class=\"indented\">* The wire was cut!</div>",
 "ja": "＊ ケーブルをカット！"
-},
-"obj_queen_ralseithrown_slash_Step_0_gml_23_0": {
-"en": "<div class=\"indented\">* Missed!</div>",
-"ja": "＊ ミス！"
 }
 },
 "obj_queen_ultimate_attack_controller": {
@@ -50507,6 +50507,10 @@ var rendered = {
 }
 },
 "obj_ralseithrown": {
+"obj_ralseithrown_slash_Step_0_gml_23_0": {
+"en": "<div class=\"indented\">* Missed!</div>",
+"ja": "＊ ミス！"
+},
 "obj_ralseithrown_slash_Collision_ac806612_bd9d_43f5_86b2_61306f514c9f_gml_6_0": {
 "en": "<div class=\"indented\">* The crown greatly loosened!</div>",
 "ja": "＊ The crown greatly loosened!"
@@ -50514,10 +50518,6 @@ var rendered = {
 "obj_ralseithrown_slash_Collision_ac806612_bd9d_43f5_86b2_61306f514c9f_gml_29_0": {
 "en": "<div class=\"indented\">* The crown loosened a little!</div>",
 "ja": "＊ The crown loosened a little!"
-},
-"obj_ralseithrown_slash_Step_0_gml_23_0": {
-"en": "<div class=\"indented\">* Missed!</div>",
-"ja": "＊ ミス！"
 }
 },
 "obj_readable_room1": {
@@ -56071,6 +56071,10 @@ var rendered = {
 }
 },
 "obj_sneo_kristhrown": {
+"obj_sneo_kristhrown_slash_Step_0_gml_23_0": {
+"en": "<div class=\"indented\">* Missed!</div>",
+"ja": "＊ ミス！"
+},
 "obj_sneo_kristhrown_slash_Collision_62cd1353_c3fa_4ba1_acea_aa0a3fa3dd95_gml_35_0": {
 "en": "<div class=\"indented\">* The wire was cut!</div>",
 "ja": "＊ ケーブルをカットした！"
@@ -56078,10 +56082,6 @@ var rendered = {
 "obj_sneo_kristhrown_slash_Collision_62cd1353_c3fa_4ba1_acea_aa0a3fa3dd95_gml_55_0": {
 "en": "<div class=\"indented\">* The wire was cut!</div>",
 "ja": "＊ ケーブルをカットした！"
-},
-"obj_sneo_kristhrown_slash_Step_0_gml_23_0": {
-"en": "<div class=\"indented\">* Missed!</div>",
-"ja": "＊ ミス！"
 }
 },
 "obj_sneo_phonecall": {
@@ -57735,14 +57735,6 @@ var rendered = {
 }
 },
 "obj_tasque_manager_enemy": {
-"obj_tasque_manager_enemy_slash_Other_24_gml_235_0": {
-"en": "<div class=\"indented\">* Kris got trained like an animal!!</div>",
-"ja": "＊ Kris got trained like an animal!!"
-},
-"obj_tasque_manager_enemy_slash_Other_24_gml_238_0": {
-"en": "<div class=\"indented\">* Kris got managed!</div>",
-"ja": "＊ Kris got managed!"
-},
 "obj_tasque_manager_enemy_slash_Step_0_gml_19_0": {
 "en": "Processes! Services!\nPerformance! Details!",
 "ja": "プロセス！　サービス！\nディテール！\nパフォーマンス！"
@@ -57930,6 +57922,14 @@ var rendered = {
 "obj_tasque_manager_enemy_slash_Step_0_gml_326_0": {
 "en": "He really\nloves to do\nwhat he's told,\ndoesn't he?",
 "ja": "He really\nloves to do\nwhat he's told,\ndoesn't he?"
+},
+"obj_tasque_manager_enemy_slash_Other_24_gml_235_0": {
+"en": "<div class=\"indented\">* Kris got trained like an animal!!</div>",
+"ja": "＊ Kris got trained like an animal!!"
+},
+"obj_tasque_manager_enemy_slash_Other_24_gml_238_0": {
+"en": "<div class=\"indented\">* Kris got managed!</div>",
+"ja": "＊ Kris got managed!"
 }
 },
 "obj_tasquepainting": {
@@ -58667,6 +58667,10 @@ var rendered = {
 }
 },
 "obj_werewire_kristhrown": {
+"obj_werewire_kristhrown_slash_Step_0_gml_25_0": {
+"en": "<div class=\"indented\">* Missed!</div>",
+"ja": "＊ ミス！"
+},
 "obj_werewire_kristhrown_slash_Collision_048192d7_9c3b_472a_adb9_e1f06953ce64_gml_10_0": {
 "en": "<div class=\"indented\">* The wire greatly loosened!</div>",
 "ja": "＊ ケーブルが　かなりゆるんだ！"
@@ -58674,10 +58678,6 @@ var rendered = {
 "obj_werewire_kristhrown_slash_Collision_048192d7_9c3b_472a_adb9_e1f06953ce64_gml_75_0": {
 "en": "<div class=\"indented\">* The wire loosened a little!</div>",
 "ja": "＊ ケーブルが　少しゆるんだ！"
-},
-"obj_werewire_kristhrown_slash_Step_0_gml_25_0": {
-"en": "<div class=\"indented\">* Missed!</div>",
-"ja": "＊ ミス！"
 }
 },
 "obj_wordbullet": {
@@ -74803,10 +74803,6 @@ var rendered = {
 }
 },
 "DEVICE_CONTACT": {
-"DEVICE_CONTACT_slash_Other_10_gml_1_0": {
-"en": null,
-"ja": "すーじぃ"
-},
 "DEVICE_CONTACT_slash_Step_0_gml_6_0": {
 "en": " ARE YOU\n THERE?  ",
 "ja": "聞コエマスカ？  "
@@ -75126,6 +75122,10 @@ var rendered = {
 "DEVICE_CONTACT_slash_Step_0_gml_930_0": {
 "en": " ARE YOU\nPHOTOSENSITIVE?   ",
 "ja": " アナタハ\n光過敏性発作ヲ　起コシヤスイデスカ？   "
+},
+"DEVICE_CONTACT_slash_Other_10_gml_1_0": {
+"en": null,
+"ja": "すーじぃ"
 }
 },
 "DEVICE_FAILURE": {
@@ -80489,14 +80489,6 @@ var rendered = {
 }
 },
 "obj_board_playercamera": {
-"obj_board_playercamera_slash_Other_10_gml_182_0": {
-"en": "ME ALONE?!\nIT MEANS NOTHING!",
-"ja": "ワイ　ひとり！？\nイミあれへんがな！"
-},
-"obj_board_playercamera_slash_Other_10_gml_195_0": {
-"en": "A DIE ALONE?!\nIT MEANS NOTHING!",
-"ja": "サイコロ１つじゃ\nつかえまへんがな！"
-},
 "obj_board_playercamera_slash_Step_0_gml_287_0": {
 "en": "Three SPECIAL PHOTOs! Head back to KODAKODA SHRINE...",
 "ja": "スペシャルフォト３枚ゲット！\nウツルン神殿にもどりまSHOW…"
@@ -80512,6 +80504,14 @@ var rendered = {
 "obj_board_playercamera_slash_Step_0_gml_292_0": {
 "en": "A FOURTH SPECIAL PHOTO?! Unbelievable!!!",
 "ja": "スペシャルフォト４枚ゲット！？\nアンビリーバボー！！"
+},
+"obj_board_playercamera_slash_Other_10_gml_182_0": {
+"en": "ME ALONE?!\nIT MEANS NOTHING!",
+"ja": "ワイ　ひとり！？\nイミあれへんがな！"
+},
+"obj_board_playercamera_slash_Other_10_gml_195_0": {
+"en": "A DIE ALONE?!\nIT MEANS NOTHING!",
+"ja": "サイコロ１つじゃ\nつかえまへんがな！"
 }
 },
 "obj_board_preshadowmantle": {
@@ -89549,10 +89549,6 @@ var rendered = {
 }
 },
 "obj_dw_treasure_points": {
-"obj_dw_treasure_points_slash_Other_10_gml_20_0": {
-"en": "<div class=\"indented\">* (It's pointless.)</div>",
-"ja": "＊ (用ずみだ)"
-},
 "obj_dw_treasure_points_slash_Step_0_gml_23_0": {
 "en": "<div class=\"indented\">* You opened the chest.</div>",
 "ja": "＊ 宝箱を開けた。"
@@ -89564,6 +89560,10 @@ var rendered = {
 "obj_dw_treasure_points_slash_Step_0_gml_57_0": {
 "en": "<div class=\"indented\">* 10 POINTs was added to your SCORE.</div>",
 "ja": "＊ スコアに　10ポイント　加算された。"
+},
+"obj_dw_treasure_points_slash_Other_10_gml_20_0": {
+"en": "<div class=\"indented\">* (It's pointless.)</div>",
+"ja": "＊ (用ずみだ)"
 }
 },
 "obj_dw_tv_curtain_tennanpc": {
@@ -89619,14 +89619,6 @@ var rendered = {
 }
 },
 "obj_elnina_lanino_controller": {
-"obj_elnina_lanino_controller_slash_Alarm_6_gml_23_0": {
-"en": "<div class=\"indented\">* Did someone mess with the humidity!?</div>",
-"ja": "＊ だれか　湿度の調整\n　 まちがえた！？"
-},
-"obj_elnina_lanino_controller_slash_Alarm_6_gml_24_0": {
-"en": "<div class=\"indented\">* Hey, is it me or is it getting hot in here?</div>",
-"ja": "＊ なんだか急に　暑くなってきた？"
-},
 "obj_elnina_lanino_controller_slash_Step_0_gml_35_0": {
 "en": "This battle has\na SPECIAL win\ncondition for\nour contestants!",
 "ja": "始まりました～\nスペシャルバトル～！\n勝利条件も\nスペシャルだ～！"
@@ -90058,6 +90050,14 @@ var rendered = {
 "obj_elnina_lanino_controller_slash_Step_0_gml_1578_0": {
 "en": "Ok battle's over folks\nSee you later!!!",
 "ja": "バトル終～了～～！！\nチャンネルは そのまま！！"
+},
+"obj_elnina_lanino_controller_slash_Alarm_6_gml_23_0": {
+"en": "<div class=\"indented\">* Did someone mess with the humidity!?</div>",
+"ja": "＊ だれか　湿度の調整\n　 まちがえた！？"
+},
+"obj_elnina_lanino_controller_slash_Alarm_6_gml_24_0": {
+"en": "<div class=\"indented\">* Hey, is it me or is it getting hot in here?</div>",
+"ja": "＊ なんだか急に　暑くなってきた？"
 }
 },
 "obj_elnina_lanino_rematch_controller": {
@@ -92929,6 +92929,74 @@ var rendered = {
 }
 },
 "obj_npc_ramb": {
+"obj_npc_ramb_slash_Step_0_gml_15_0": {
+"en": "<div class=\"indented\">* Time flies... Seems like just yesterday you and that girl had everyone here lined up.</div>",
+"ja": "＊ 昨日のことみてぇに　思い出すなぁ…\n　 クリスと　あの　おじょうちゃんが \n　 図書館から　み～んな連れてきて…"
+},
+"obj_npc_ramb_slash_Step_0_gml_16_0": {
+"en": "<div class=\"indented\">* Queen on her side, King on your side, Tenna in back... Oh, it was chaos, CHAOS!</div>",
+"ja": "＊ クイーンは　おじょうちゃんのとなり\n　 キングは　クリスのとなり…　その\n　 うしろには　テナ… カオスだねぇ！"
+},
+"obj_npc_ramb_slash_Step_0_gml_17_0": {
+"en": "<div class=\"indented\">* Heh, only kids like you two would take a laptop home just to play make believe.</div>",
+"ja": "＊ ごっこ遊びのために　ノート\n　 パソコン　家に持ってかえっちまう\n　 なんて　クリスだけだぁ。"
+},
+"obj_npc_ramb_slash_Step_0_gml_18_0": {
+"en": "<div class=\"indented\">* ... how is she, Kris? Are you two...? Well, it's alright. Everyone changes. 'cept us.</div>",
+"ja": "＊ …おじょうちゃんは　元気け…？\n　 …いや　気にすんな～。いつまで～も\n　 変わんねぇのは　オラたちだけだぁ。"
+},
+"obj_npc_ramb_slash_Step_0_gml_24_0": {
+"en": null,
+"ja": "＊ クリス　おめぇ　なんもかんも\n　 忘れちまったなぁ？　しゃぁねぇわな\n　 まだ　小さかったからなぁ。"
+},
+"obj_npc_ramb_slash_Step_0_gml_25_0": {
+"en": null,
+"ja": "＊ 気にするこたぁねぇ。\n　 オラたちも　みんな　細けぇこたぁ\n　 忘れちまった。"
+},
+"obj_npc_ramb_slash_Step_0_gml_26_0": {
+"en": null,
+"ja": "＊ んでもな　クリスが思い出しゃぁ\n　 オラたちも　思い出すかもしれねぇ。\n　 試しに　やってみてくれねぇか…？"
+},
+"obj_npc_ramb_slash_Step_0_gml_33_0": {
+"en": null,
+"ja": "＊ もうずいぶん長げぇこと　この世界に\n　 いるけども　オラぁ　いまだに\n　 はみ出しモンな　気がしてなぁ…"
+},
+"obj_npc_ramb_slash_Step_0_gml_34_0": {
+"en": null,
+"ja": "＊ そのうち石になっちまうかもなぁ…\n　 んでも　心配いらねぇ。\n　 オラぁ　強いコぉだからなぁ。"
+},
+"obj_npc_ramb_slash_Step_0_gml_40_0": {
+"en": "<div class=\"indented\">* Kris, luv, don't you got better to do than talking to little ol' me?</div>",
+"ja": "＊ クリス　オラなんかと話してねぇで\n　 他に　やること　あるはずだぁ。\n　 早く行けぇ。"
+},
+"obj_npc_ramb_slash_Step_0_gml_95_0": {
+"en": "<div class=\"indented\">* Kris! Your rank... Z-Rank. Well, I suppose you gave it a good try!</div>",
+"ja": "＊ クリス！　Ｚランクか…\n　 まぁ　せいいっぱい\n　 がんばったんだろなぁ！"
+},
+"obj_npc_ramb_slash_Step_0_gml_96_0": {
+"en": "<div class=\"indented\">* Here, the gift...</div>",
+"ja": "＊ ほれ　賞品だぁ…"
+},
+"obj_npc_ramb_slash_Step_0_gml_118_0": {
+"en": "<div class=\"indented\">* (The giftbox was empty.)</div>",
+"ja": "＊ (ギフトボックスは　からっぽだ)"
+},
+"obj_npc_ramb_slash_Step_0_gml_119_0": {
+"en": "<div class=\"indented\">* That's right, Kris. Tenna's not too keen on that behavior...</div>",
+"ja": "＊ 悪りぃなぁ　クリス。\n　 テナは　そういうことに関しちゃ\n　 やたら厳しいんだぁ…"
+},
+"obj_npc_ramb_slash_Step_0_gml_120_0": {
+"en": "<div class=\"indented\">* Reminds him of a certain... y'know.</div>",
+"ja": "＊ “だれかさん”を\n　 思い出すんだろなぁ。"
+},
+"obj_npc_ramb_slash_Step_0_gml_121_0": {
+"en": "<div class=\"indented\">* ... that's why HIS game's a bit of a bust, y'see?</div>",
+"ja": "＊ …テナのゲームが\n　 ちぃとショボいのは\n　 そういうワケだぁ。"
+},
+"obj_npc_ramb_slash_Step_0_gml_122_0": {
+"en": "<div class=\"indented\">* (Just wait... I'll show you something electrifying, I will...)</div>",
+"ja": "＊ (んでもな　も～ちょい\n　 待っといてくれたら \n　 いいもん見せてやるよぉ…)"
+},
 "obj_npc_ramb_slash_Other_10_gml_17_0": {
 "en": "<div class=\"indented\">* Kris, games are supposed to be fun. Don't let it feel like a job, alright?</div>",
 "ja": "＊ クリス　ゲームは楽しむものだぁ\n　 仕事みてぇにならねぇよぉに\n　 気ぃつねぇとだぁ。"
@@ -93100,74 +93168,6 @@ var rendered = {
 "obj_npc_ramb_slash_Other_10_gml_206_0": {
 "en": "<div class=\"indented\">* If only you'd gotten S-Rank earlier...</div>",
 "ja": "＊ もうちっと早く Sランクに\n　 なってればなぁ…"
-},
-"obj_npc_ramb_slash_Step_0_gml_15_0": {
-"en": "<div class=\"indented\">* Time flies... Seems like just yesterday you and that girl had everyone here lined up.</div>",
-"ja": "＊ 昨日のことみてぇに　思い出すなぁ…\n　 クリスと　あの　おじょうちゃんが \n　 図書館から　み～んな連れてきて…"
-},
-"obj_npc_ramb_slash_Step_0_gml_16_0": {
-"en": "<div class=\"indented\">* Queen on her side, King on your side, Tenna in back... Oh, it was chaos, CHAOS!</div>",
-"ja": "＊ クイーンは　おじょうちゃんのとなり\n　 キングは　クリスのとなり…　その\n　 うしろには　テナ… カオスだねぇ！"
-},
-"obj_npc_ramb_slash_Step_0_gml_17_0": {
-"en": "<div class=\"indented\">* Heh, only kids like you two would take a laptop home just to play make believe.</div>",
-"ja": "＊ ごっこ遊びのために　ノート\n　 パソコン　家に持ってかえっちまう\n　 なんて　クリスだけだぁ。"
-},
-"obj_npc_ramb_slash_Step_0_gml_18_0": {
-"en": "<div class=\"indented\">* ... how is she, Kris? Are you two...? Well, it's alright. Everyone changes. 'cept us.</div>",
-"ja": "＊ …おじょうちゃんは　元気け…？\n　 …いや　気にすんな～。いつまで～も\n　 変わんねぇのは　オラたちだけだぁ。"
-},
-"obj_npc_ramb_slash_Step_0_gml_24_0": {
-"en": null,
-"ja": "＊ クリス　おめぇ　なんもかんも\n　 忘れちまったなぁ？　しゃぁねぇわな\n　 まだ　小さかったからなぁ。"
-},
-"obj_npc_ramb_slash_Step_0_gml_25_0": {
-"en": null,
-"ja": "＊ 気にするこたぁねぇ。\n　 オラたちも　みんな　細けぇこたぁ\n　 忘れちまった。"
-},
-"obj_npc_ramb_slash_Step_0_gml_26_0": {
-"en": null,
-"ja": "＊ んでもな　クリスが思い出しゃぁ\n　 オラたちも　思い出すかもしれねぇ。\n　 試しに　やってみてくれねぇか…？"
-},
-"obj_npc_ramb_slash_Step_0_gml_33_0": {
-"en": null,
-"ja": "＊ もうずいぶん長げぇこと　この世界に\n　 いるけども　オラぁ　いまだに\n　 はみ出しモンな　気がしてなぁ…"
-},
-"obj_npc_ramb_slash_Step_0_gml_34_0": {
-"en": null,
-"ja": "＊ そのうち石になっちまうかもなぁ…\n　 んでも　心配いらねぇ。\n　 オラぁ　強いコぉだからなぁ。"
-},
-"obj_npc_ramb_slash_Step_0_gml_40_0": {
-"en": "<div class=\"indented\">* Kris, luv, don't you got better to do than talking to little ol' me?</div>",
-"ja": "＊ クリス　オラなんかと話してねぇで\n　 他に　やること　あるはずだぁ。\n　 早く行けぇ。"
-},
-"obj_npc_ramb_slash_Step_0_gml_95_0": {
-"en": "<div class=\"indented\">* Kris! Your rank... Z-Rank. Well, I suppose you gave it a good try!</div>",
-"ja": "＊ クリス！　Ｚランクか…\n　 まぁ　せいいっぱい\n　 がんばったんだろなぁ！"
-},
-"obj_npc_ramb_slash_Step_0_gml_96_0": {
-"en": "<div class=\"indented\">* Here, the gift...</div>",
-"ja": "＊ ほれ　賞品だぁ…"
-},
-"obj_npc_ramb_slash_Step_0_gml_118_0": {
-"en": "<div class=\"indented\">* (The giftbox was empty.)</div>",
-"ja": "＊ (ギフトボックスは　からっぽだ)"
-},
-"obj_npc_ramb_slash_Step_0_gml_119_0": {
-"en": "<div class=\"indented\">* That's right, Kris. Tenna's not too keen on that behavior...</div>",
-"ja": "＊ 悪りぃなぁ　クリス。\n　 テナは　そういうことに関しちゃ\n　 やたら厳しいんだぁ…"
-},
-"obj_npc_ramb_slash_Step_0_gml_120_0": {
-"en": "<div class=\"indented\">* Reminds him of a certain... y'know.</div>",
-"ja": "＊ “だれかさん”を\n　 思い出すんだろなぁ。"
-},
-"obj_npc_ramb_slash_Step_0_gml_121_0": {
-"en": "<div class=\"indented\">* ... that's why HIS game's a bit of a bust, y'see?</div>",
-"ja": "＊ …テナのゲームが\n　 ちぃとショボいのは\n　 そういうワケだぁ。"
-},
-"obj_npc_ramb_slash_Step_0_gml_122_0": {
-"en": "<div class=\"indented\">* (Just wait... I'll show you something electrifying, I will...)</div>",
-"ja": "＊ (んでもな　も～ちょい\n　 待っといてくれたら \n　 いいもん見せてやるよぉ…)"
 }
 },
 "obj_npc_room_animated": {
@@ -96993,26 +96993,6 @@ var rendered = {
 "en": "OFF",
 "ja": "OFF"
 },
-"obj_quizsequence_slash_Other_10_gml_60_0": {
-"en": "You wish, dumbass. Haha.",
-"ja": "んなわけあるかよ"
-},
-"obj_quizsequence_slash_Other_10_gml_67_0": {
-"en": "Kris, are you stupid? Haha.",
-"ja": "Kris, are you stupid? Haha."
-},
-"obj_quizsequence_slash_Other_10_gml_76_0": {
-"en": "Yeah, that one.",
-"ja": "Yeah, that one."
-},
-"obj_quizsequence_slash_Other_10_gml_83_0": {
-"en": "Uhh, well,\nyou'd know.",
-"ja": "ま 本人が言うなら…"
-},
-"obj_quizsequence_slash_Other_12_gml_39_0": {
-"en": "Next question!",
-"ja": "問題です！"
-},
 "obj_quizsequence_slash_Step_0_gml_224_0": {
 "en": "Wh... WHAT!?",
 "ja": "…はッ！？"
@@ -97248,6 +97228,26 @@ var rendered = {
 "obj_quizsequence_slash_Step_0_gml_963_0": {
 "en": "What the\nhell, Kris?",
 "ja": "マジかよ クリス"
+},
+"obj_quizsequence_slash_Other_10_gml_60_0": {
+"en": "You wish, dumbass. Haha.",
+"ja": "んなわけあるかよ"
+},
+"obj_quizsequence_slash_Other_10_gml_67_0": {
+"en": "Kris, are you stupid? Haha.",
+"ja": "Kris, are you stupid? Haha."
+},
+"obj_quizsequence_slash_Other_10_gml_76_0": {
+"en": "Yeah, that one.",
+"ja": "Yeah, that one."
+},
+"obj_quizsequence_slash_Other_10_gml_83_0": {
+"en": "Uhh, well,\nyou'd know.",
+"ja": "ま 本人が言うなら…"
+},
+"obj_quizsequence_slash_Other_12_gml_39_0": {
+"en": "Next question!",
+"ja": "問題です！"
 }
 },
 "obj_rabbick_enemy": {
@@ -97711,6 +97711,10 @@ var rendered = {
 }
 },
 "obj_ralseithrown": {
+"obj_ralseithrown_slash_Step_0_gml_23_0": {
+"en": "<div class=\"indented\">* Missed!</div>",
+"ja": "＊ ミス！"
+},
 "obj_ralseithrown_slash_Collision_ac806612_bd9d_43f5_86b2_61306f514c9f_gml_6_0": {
 "en": "<div class=\"indented\">* The crown greatly loosened!</div>",
 "ja": "＊ The crown greatly loosened!"
@@ -97718,10 +97722,6 @@ var rendered = {
 "obj_ralseithrown_slash_Collision_ac806612_bd9d_43f5_86b2_61306f514c9f_gml_29_0": {
 "en": "<div class=\"indented\">* The crown loosened a little!</div>",
 "ja": "＊ The crown loosened a little!"
-},
-"obj_ralseithrown_slash_Step_0_gml_23_0": {
-"en": "<div class=\"indented\">* Missed!</div>",
-"ja": "＊ ミス！"
 }
 },
 "obj_readable_room1": {
@@ -100255,14 +100255,6 @@ var rendered = {
 }
 },
 "obj_ribbick_enemy": {
-"obj_ribbick_enemy_slash_Other_11_gml_3_0": {
-"en": "Blow On",
-"ja": "ふきとばす"
-},
-"obj_ribbick_enemy_slash_Other_11_gml_6_0": {
-"en": "BreathAll",
-"ja": "ふきとばす(全員)"
-},
 "obj_ribbick_enemy_slash_Step_0_gml_44_0": {
 "en": "A lost\nand lost\nand lost girl.",
 "ja": "Lost\nLost\nLost girl"
@@ -100462,6 +100454,14 @@ var rendered = {
 "obj_ribbick_enemy_slash_Step_0_gml_400_0": {
 "en": "<div class=\"indented\">* Ralsei croaks sympathetically!</div>",
 "ja": "＊ ラルセイは　同情するように鳴いた！"
+},
+"obj_ribbick_enemy_slash_Other_11_gml_3_0": {
+"en": "Blow On",
+"ja": "ふきとばす"
+},
+"obj_ribbick_enemy_slash_Other_11_gml_6_0": {
+"en": "BreathAll",
+"ja": "ふきとばす(全員)"
 }
 },
 "obj_room_changing_room": {
@@ -103615,22 +103615,6 @@ var rendered = {
 }
 },
 "obj_shadowman_enemy": {
-"obj_shadowman_enemy_slash_Other_24_gml_6_0": {
-"en": null,
-"ja": "＊ クリスは　おどった！"
-},
-"obj_shadowman_enemy_slash_Other_24_gml_29_0": {
-"en": null,
-"ja": "＊ Its body was filled with a kind feeling."
-},
-"obj_shadowman_enemy_slash_Other_24_gml_44_0": {
-"en": null,
-"ja": "＊ スージィは　おどった！"
-},
-"obj_shadowman_enemy_slash_Other_24_gml_68_0": {
-"en": null,
-"ja": "＊ ラルセイは　おどった！"
-},
 "obj_shadowman_enemy_slash_Step_0_gml_151_0": {
 "en": "<div class=\"indented\">* Shadowguy plays the blues, blues, blues.</div>",
 "ja": "＊ シャドウガイは\n　 ブルーなブルースを\n　 ブルーに演奏している。"
@@ -103709,6 +103693,22 @@ var rendered = {
 },
 "obj_shadowman_enemy_slash_Step_0_gml_593_0": {
 "en": "<div class=\"indented\">* Ralsei danced!</div>",
+"ja": "＊ ラルセイは　おどった！"
+},
+"obj_shadowman_enemy_slash_Other_24_gml_6_0": {
+"en": null,
+"ja": "＊ クリスは　おどった！"
+},
+"obj_shadowman_enemy_slash_Other_24_gml_29_0": {
+"en": null,
+"ja": "＊ Its body was filled with a kind feeling."
+},
+"obj_shadowman_enemy_slash_Other_24_gml_44_0": {
+"en": null,
+"ja": "＊ スージィは　おどった！"
+},
+"obj_shadowman_enemy_slash_Other_24_gml_68_0": {
+"en": null,
 "ja": "＊ ラルセイは　おどった！"
 }
 },
@@ -105474,26 +105474,6 @@ var rendered = {
 "ja": "＊ Camenary took a bad picture... it got a little embarrassed"
 }
 },
-"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_annoyingdog": {
-"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_annoyingdog_gml_7_0": {
-"en": "<div class=\"indented\">* Great dog picture!</div><div class=\"indented\">* Well centered!</div>",
-"ja": "＊ Great dog picture!\n＊ Well centered!"
-},
-"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_annoyingdog_gml_11_0": {
-"en": "<div class=\"indented\">* Dog picture was not centered well!</div>",
-"ja": "＊ Dog picture was not centered well!"
-}
-},
-"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_nubert": {
-"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_nubert_gml_7_0": {
-"en": "<div class=\"indented\">* Great shot of Nubert!</div>",
-"ja": "＊ Great shot of Nubert!"
-},
-"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_nubert_gml_11_0": {
-"en": "<div class=\"indented\">* Nubert was underground in that shot...</div>",
-"ja": "＊ Nubert was underground in that shot..."
-}
-},
 "obj_shutta_photo_controller": {
 "obj_shutta_photo_controller_slash_Create_0_gml_31_0": {
 "en": "<div class=\"indented\">* You missed! Try to take a real photo next time!</div>",
@@ -105590,6 +105570,26 @@ var rendered = {
 "obj_shutta_photo_controller_slash_Other_19_gml_129_0": {
 "en": "<div class=\"indented\">* Wrong! No! I need a picture of Ralsei!!</div>",
 "ja": "＊ 不合格！\n　 ラルセイを撮って！！"
+}
+},
+"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_annoyingdog": {
+"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_annoyingdog_gml_7_0": {
+"en": "<div class=\"indented\">* Great dog picture!</div><div class=\"indented\">* Well centered!</div>",
+"ja": "＊ Great dog picture!\n＊ Well centered!"
+},
+"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_annoyingdog_gml_11_0": {
+"en": "<div class=\"indented\">* Dog picture was not centered well!</div>",
+"ja": "＊ Dog picture was not centered well!"
+}
+},
+"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_nubert": {
+"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_nubert_gml_7_0": {
+"en": "<div class=\"indented\">* Great shot of Nubert!</div>",
+"ja": "＊ Great shot of Nubert!"
+},
+"obj_shutta_photo_controller_slash_Collision_obj_shutta_photo_nubert_gml_11_0": {
+"en": "<div class=\"indented\">* Nubert was underground in that shot...</div>",
+"ja": "＊ Nubert was underground in that shot..."
 }
 },
 "obj_suitspuzzle_event": {
@@ -105794,12 +105794,6 @@ var rendered = {
 "ja": "＊ また　ブルドーザーだァー！！\n　 ワタシが　スクラップになる\n　 前に　倒してください！！"
 }
 },
-"obj_susiezilla_singlescreen_shadowguy_laser_machine_slash_Collision_obj_susiezilla_player": {
-"obj_susiezilla_singlescreen_shadowguy_laser_machine_slash_Collision_obj_susiezilla_player_gml_147_0": {
-"en": "<div class=\"indented\">* PHEW!!! YOU GUYS SAVED TV!!! YOU HAVE WON!!!</div>",
-"ja": "＊ フゥ…　テレビは救われた！\n　 キミたちの勝ちです！！"
-}
-},
 "obj_susiezilla_singlescreen_shadowguy_laser_machine": {
 "obj_susiezilla_singlescreen_shadowguy_laser_machine_slash_Step_0_gml_150_0": {
 "en": "<div class=\"indented\">* What the $*!? are you doing!? Kill him!!!!!</div>",
@@ -105808,6 +105802,12 @@ var rendered = {
 "obj_susiezilla_singlescreen_shadowguy_laser_machine_slash_Step_0_gml_178_0": {
 "en": "<div class=\"indented\">* Nooooooo!!!!!!</div>",
 "ja": "＊ ノオオォォォォ！！！！！"
+}
+},
+"obj_susiezilla_singlescreen_shadowguy_laser_machine_slash_Collision_obj_susiezilla_player": {
+"obj_susiezilla_singlescreen_shadowguy_laser_machine_slash_Collision_obj_susiezilla_player_gml_147_0": {
+"en": "<div class=\"indented\">* PHEW!!! YOU GUYS SAVED TV!!! YOU HAVE WON!!!</div>",
+"ja": "＊ フゥ…　テレビは救われた！\n　 キミたちの勝ちです！！"
 }
 },
 "obj_susiezilla_singlescreen_shadowguy_with_gun": {
@@ -105927,14 +105927,6 @@ var rendered = {
 }
 },
 "obj_tasque_manager_enemy": {
-"obj_tasque_manager_enemy_slash_Other_24_gml_235_0": {
-"en": "<div class=\"indented\">* Kris got trained like an animal!!</div>",
-"ja": "＊ Kris got trained like an animal!!"
-},
-"obj_tasque_manager_enemy_slash_Other_24_gml_238_0": {
-"en": "<div class=\"indented\">* Kris got managed!</div>",
-"ja": "＊ Kris got managed!"
-},
 "obj_tasque_manager_enemy_slash_Step_0_gml_19_0": {
 "en": "Processes! Services!\nPerformance! Details!",
 "ja": "プロセス！　サービス！\nディテール！\nパフォーマンス！"
@@ -106122,6 +106114,14 @@ var rendered = {
 "obj_tasque_manager_enemy_slash_Step_0_gml_326_0": {
 "en": "He really\nloves to do\nwhat he's told,\ndoesn't he?",
 "ja": "He really\nloves to do\nwhat he's told,\ndoesn't he?"
+},
+"obj_tasque_manager_enemy_slash_Other_24_gml_235_0": {
+"en": "<div class=\"indented\">* Kris got trained like an animal!!</div>",
+"ja": "＊ Kris got trained like an animal!!"
+},
+"obj_tasque_manager_enemy_slash_Other_24_gml_238_0": {
+"en": "<div class=\"indented\">* Kris got managed!</div>",
+"ja": "＊ Kris got managed!"
 }
 },
 "obj_teevie_spring": {
@@ -127831,10 +127831,6 @@ var rendered = {
 }
 },
 "DEVICE_CONTACT": {
-"DEVICE_CONTACT_slash_Other_10_gml_1_0": {
-"en": null,
-"ja": "すーじぃ"
-},
 "DEVICE_CONTACT_slash_Step_0_gml_6_0": {
 "en": " ARE YOU\n THERE?  ",
 "ja": "聞コエマスカ？  "
@@ -128154,6 +128150,10 @@ var rendered = {
 "DEVICE_CONTACT_slash_Step_0_gml_930_0": {
 "en": " ARE YOU\nPHOTOSENSITIVE?   ",
 "ja": " アナタハ\n光過敏性発作ヲ　起コシヤスイデスカ？   "
+},
+"DEVICE_CONTACT_slash_Other_10_gml_1_0": {
+"en": null,
+"ja": "すーじぃ"
 }
 },
 "DEVICE_FAILURE": {
@@ -157443,6 +157443,10 @@ var rendered = {
 }
 },
 "obj_ralseithrown": {
+"obj_ralseithrown_slash_Step_0_gml_23_0": {
+"en": "<div class=\"indented\">* Missed!</div>",
+"ja": "＊ ミス！"
+},
 "obj_ralseithrown_slash_Collision_ac806612_bd9d_43f5_86b2_61306f514c9f_gml_6_0": {
 "en": "<div class=\"indented\">* The crown greatly loosened!</div>",
 "ja": "＊ The crown greatly loosened!"
@@ -157450,10 +157454,6 @@ var rendered = {
 "obj_ralseithrown_slash_Collision_ac806612_bd9d_43f5_86b2_61306f514c9f_gml_29_0": {
 "en": "<div class=\"indented\">* The crown loosened a little!</div>",
 "ja": "＊ The crown loosened a little!"
-},
-"obj_ralseithrown_slash_Step_0_gml_23_0": {
-"en": "<div class=\"indented\">* Missed!</div>",
-"ja": "＊ ミス！"
 }
 },
 "obj_readable_nubert": {
@@ -161465,14 +161465,6 @@ var rendered = {
 }
 },
 "obj_ribbick_enemy": {
-"obj_ribbick_enemy_slash_Other_11_gml_3_0": {
-"en": "Blow On",
-"ja": "ふきとばす"
-},
-"obj_ribbick_enemy_slash_Other_11_gml_6_0": {
-"en": "BreathAll",
-"ja": "ふきとばす(全員)"
-},
 "obj_ribbick_enemy_slash_Step_0_gml_44_0": {
 "en": "A lost\nand lost\nand lost girl.",
 "ja": "Lost\nLost\nLost girl"
@@ -161668,6 +161660,14 @@ var rendered = {
 "obj_ribbick_enemy_slash_Step_0_gml_400_0": {
 "en": "<div class=\"indented\">* Ralsei croaks sympathetically!</div>",
 "ja": "＊ ラルセイは　同情するように鳴いた！"
+},
+"obj_ribbick_enemy_slash_Other_11_gml_3_0": {
+"en": "Blow On",
+"ja": "ふきとばす"
+},
+"obj_ribbick_enemy_slash_Other_11_gml_6_0": {
+"en": "BreathAll",
+"ja": "ふきとばす(全員)"
 }
 },
 "obj_room_beach": {
@@ -165319,14 +165319,6 @@ var rendered = {
 }
 },
 "obj_tasque_manager_enemy": {
-"obj_tasque_manager_enemy_slash_Other_24_gml_235_0": {
-"en": "<div class=\"indented\">* Kris got trained like an animal!!</div>",
-"ja": "＊ Kris got trained like an animal!!"
-},
-"obj_tasque_manager_enemy_slash_Other_24_gml_238_0": {
-"en": "<div class=\"indented\">* Kris got managed!</div>",
-"ja": "＊ Kris got managed!"
-},
 "obj_tasque_manager_enemy_slash_Step_0_gml_19_0": {
 "en": "Processes! Services!\nPerformance! Details!",
 "ja": "プロセス！　サービス！\nディテール！\nパフォーマンス！"
@@ -165514,6 +165506,14 @@ var rendered = {
 "obj_tasque_manager_enemy_slash_Step_0_gml_326_0": {
 "en": "He really\nloves to do\nwhat he's told,\ndoesn't he?",
 "ja": "He really\nloves to do\nwhat he's told,\ndoesn't he?"
+},
+"obj_tasque_manager_enemy_slash_Other_24_gml_235_0": {
+"en": "<div class=\"indented\">* Kris got trained like an animal!!</div>",
+"ja": "＊ Kris got trained like an animal!!"
+},
+"obj_tasque_manager_enemy_slash_Other_24_gml_238_0": {
+"en": "<div class=\"indented\">* Kris got managed!</div>",
+"ja": "＊ Kris got managed!"
 }
 },
 "obj_tem_school": {
@@ -165734,58 +165734,6 @@ var rendered = {
 "obj_titan_enemy_slash_Create_0_gml_163_0": {
 "en": "<div class=\"indented\">* Your soul is shining... a new ACT appeared!</div>",
 "ja": "＊ タマシイが輝く…\n　 新たな「こうどう」を思いついた！"
-},
-"obj_titan_enemy_slash_Other_10_gml_4_0": {
-"en": "<div class=\"indented\">* Titan's DEFENSE dropped massively! ATTACKs are super effective!</div>",
-"ja": "＊ タイタンの　DEFが　大きく低下！\n　 こうげきが　きわめて有効になった！"
-},
-"obj_titan_enemy_slash_Other_10_gml_5_0": {
-"en": "<div class=\"indented\">* ATTACK!! Its DEFENSE is down!!</div>",
-"ja": "＊ 敵の「ぼうぎょ」が\n　 下がってる！\n　 「こうげき」して！"
-},
-"obj_titan_enemy_slash_Other_10_gml_6_0": {
-"en": "<div class=\"indented\">* <span class=\"R\">Attack</span>! This is our chance!!</div>",
-"ja": "＊ いまがチャンスだよ！\n　 <span class=\"R\">こうげき</span>して！"
-},
-"obj_titan_enemy_slash_Other_10_gml_8_0": {
-"en": "<div class=\"indented\">* The darkness slithers.</div>",
-"ja": "＊ 闇が這いずる。"
-},
-"obj_titan_enemy_slash_Other_10_gml_9_0": {
-"en": "<div class=\"indented\">* Darkness flows.</div><div class=\"indented\">* A swarm is coming.</div>",
-"ja": "＊ 闇が満ちる。\n＊ 群れが来る。"
-},
-"obj_titan_enemy_slash_Other_10_gml_10_0": {
-"en": "<div class=\"indented\">* The Titan's hands began to move once more.</div>",
-"ja": "＊ タイタンの手が　再び動きだした。"
-},
-"obj_titan_enemy_slash_Other_10_gml_11_0": {
-"en": "<div class=\"indented\">* ...</div>",
-"ja": "＊ …"
-},
-"obj_titan_enemy_slash_Other_10_gml_12_0": {
-"en": "<div class=\"indented\">* Titan's DEFENSEs are dropped! ATTACKs will be super effective!</div>",
-"ja": "＊ タイタンのDEFが低下！\n　 こうげきが　きわめて有効になった！"
-},
-"obj_titan_enemy_slash_Other_10_gml_15_0": {
-"en": "<div class=\"indented\">* The ground shudders.</div><div class=\"indented\">* A swarm is coming.</div>",
-"ja": "＊ 地面が揺れる。\n＊ 群れが来る。"
-},
-"obj_titan_enemy_slash_Other_10_gml_16_0": {
-"en": "<div class=\"indented\">* The darkness gives a long gaze, which slithered like a snake. </div>",
-"ja": "＊ 闇は　凝視する。\n　 ヘビが這うような音を立てて。"
-},
-"obj_titan_enemy_slash_Other_10_gml_17_0": {
-"en": "<div class=\"indented\">* For a moment, </div><div class=\"indented\">* You felt your heart being gripped.</div>",
-"ja": "＊ 一瞬…\n＊ 心臓をつかまれるような感触がした。"
-},
-"obj_titan_enemy_slash_Other_10_gml_24_0": {
-"en": "<div class=\"indented\">* Damn! Its shield is back... Kris, take it down again!</div>",
-"ja": "＊ クソッ！　またシールドが…\n　 クリス！　もっかい光で\n　 あのシールドを　こわせ！"
-},
-"obj_titan_enemy_slash_Other_10_gml_39_0": {
-"en": "<div class=\"indented\">* We almost got it! Keep taking down its shield, Kris!</div>",
-"ja": "＊ あと少しだ！\n　 クリス！　その調子で\n　 シールドを　こわせ！"
 },
 "obj_titan_enemy_slash_Step_0_gml_70_0": {
 "en": "<div class=\"indented\">* ...</div>",
@@ -166010,6 +165958,58 @@ var rendered = {
 "obj_titan_enemy_slash_Step_0_gml_1919_0": {
 "en": "<div class=\"indented\">* Ralsei used Reviver!</div>",
 "ja": "＊ ラルセイは「レイズ」を使った！"
+},
+"obj_titan_enemy_slash_Other_10_gml_4_0": {
+"en": "<div class=\"indented\">* Titan's DEFENSE dropped massively! ATTACKs are super effective!</div>",
+"ja": "＊ タイタンの　DEFが　大きく低下！\n　 こうげきが　きわめて有効になった！"
+},
+"obj_titan_enemy_slash_Other_10_gml_5_0": {
+"en": "<div class=\"indented\">* ATTACK!! Its DEFENSE is down!!</div>",
+"ja": "＊ 敵の「ぼうぎょ」が\n　 下がってる！\n　 「こうげき」して！"
+},
+"obj_titan_enemy_slash_Other_10_gml_6_0": {
+"en": "<div class=\"indented\">* <span class=\"R\">Attack</span>! This is our chance!!</div>",
+"ja": "＊ いまがチャンスだよ！\n　 <span class=\"R\">こうげき</span>して！"
+},
+"obj_titan_enemy_slash_Other_10_gml_8_0": {
+"en": "<div class=\"indented\">* The darkness slithers.</div>",
+"ja": "＊ 闇が這いずる。"
+},
+"obj_titan_enemy_slash_Other_10_gml_9_0": {
+"en": "<div class=\"indented\">* Darkness flows.</div><div class=\"indented\">* A swarm is coming.</div>",
+"ja": "＊ 闇が満ちる。\n＊ 群れが来る。"
+},
+"obj_titan_enemy_slash_Other_10_gml_10_0": {
+"en": "<div class=\"indented\">* The Titan's hands began to move once more.</div>",
+"ja": "＊ タイタンの手が　再び動きだした。"
+},
+"obj_titan_enemy_slash_Other_10_gml_11_0": {
+"en": "<div class=\"indented\">* ...</div>",
+"ja": "＊ …"
+},
+"obj_titan_enemy_slash_Other_10_gml_12_0": {
+"en": "<div class=\"indented\">* Titan's DEFENSEs are dropped! ATTACKs will be super effective!</div>",
+"ja": "＊ タイタンのDEFが低下！\n　 こうげきが　きわめて有効になった！"
+},
+"obj_titan_enemy_slash_Other_10_gml_15_0": {
+"en": "<div class=\"indented\">* The ground shudders.</div><div class=\"indented\">* A swarm is coming.</div>",
+"ja": "＊ 地面が揺れる。\n＊ 群れが来る。"
+},
+"obj_titan_enemy_slash_Other_10_gml_16_0": {
+"en": "<div class=\"indented\">* The darkness gives a long gaze, which slithered like a snake. </div>",
+"ja": "＊ 闇は　凝視する。\n　 ヘビが這うような音を立てて。"
+},
+"obj_titan_enemy_slash_Other_10_gml_17_0": {
+"en": "<div class=\"indented\">* For a moment, </div><div class=\"indented\">* You felt your heart being gripped.</div>",
+"ja": "＊ 一瞬…\n＊ 心臓をつかまれるような感触がした。"
+},
+"obj_titan_enemy_slash_Other_10_gml_24_0": {
+"en": "<div class=\"indented\">* Damn! Its shield is back... Kris, take it down again!</div>",
+"ja": "＊ クソッ！　またシールドが…\n　 クリス！　もっかい光で\n　 あのシールドを　こわせ！"
+},
+"obj_titan_enemy_slash_Other_10_gml_39_0": {
+"en": "<div class=\"indented\">* We almost got it! Keep taking down its shield, Kris!</div>",
+"ja": "＊ あと少しだ！\n　 クリス！　その調子で\n　 シールドを　こわせ！"
 }
 },
 "obj_titan_spawn_enemy": {
