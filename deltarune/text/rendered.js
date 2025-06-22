@@ -272,16 +272,16 @@ var rendered = {
 "ja": "がすたー"
 },
 "DEVICE_CONTACT_slash_Step_0_gml_729_0": {
-"en": "WE CALLED IT\n\"~1.\"   ",
-"ja": "ワレワレガ ツケタ\nコノ器ノ 名ハ\n“~1”。   "
+"en": "WE CALLED IT\n\"<span class=\"param\">~1</span>.\"   ",
+"ja": "ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_730_0": {
 "en": "AND WHAT ABOUT\nTHE CREATOR?  ",
 "ja": "デハ ツクリ手ノ\n名ハ？  "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_734_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_735_0": {
 "en": "AN INTERESTING\nCOINCIDENCE.  ",
@@ -300,8 +300,8 @@ var rendered = {
 "ja": "がすたー"
 },
 "DEVICE_CONTACT_slash_Step_0_gml_785_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_786_0": {
 "en": "EXCELLENT.  ",
@@ -332,8 +332,8 @@ var rendered = {
 "ja": "サモ アリナン…。  "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_816_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_817_0": {
 "en": "THANK YOU\nFOR YOUR TIME.   ",
@@ -854,8 +854,8 @@ var rendered = {
 "ja": " TP"
 },
 "obj_battlecontroller_slash_Step_0_gml_40_0": {
-"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got ~1 EXP and ~2 D$.</div>",
-"ja": "＊ YOU WIN！\n＊ ~1 EXPと　~2 D$を獲得！"
+"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> EXP and <span class=\"param\">~2</span> D$.</div>",
+"ja": "＊ YOU WIN！\n＊ <span class=\"param\">~1</span> EXPと　<span class=\"param\">~2</span> D$を獲得！"
 }
 },
 "obj_bloxer_enemy": {
@@ -1422,8 +1422,8 @@ var rendered = {
 "ja": "＊ K.ラウンドの　シャッフルダンスに\n　 キレがなくなってきた。"
 },
 "obj_checkers_enemy_slash_Step_0_gml_82_0": {
-"en": "<div class=\"indented\">* The crown is <span class=\"Y\">~1-percent</span> loose!</div>",
-"ja": "＊ 王冠グラグラ度：<span class=\"Y\">~1パーセント</span>！"
+"en": "<div class=\"indented\">* The crown is <span class=\"Y\"><span class=\"param\">~1</span>-percent</span> loose!</div>",
+"ja": "＊ 王冠グラグラ度：<span class=\"Y\"><span class=\"param\">~1</span>パーセント</span>！"
 },
 "obj_checkers_enemy_slash_Step_0_gml_119_0": {
 "en": "<div class=\"indented\">* K. ROUND felt stressed out and attacked!</div>",
@@ -3016,8 +3016,8 @@ var rendered = {
 "ja": "もどる"
 },
 "obj_darkcontroller_slash_Draw_0_gml_101_0": {
-"en": "Hold ESC at any time\nto quit the program.\n \n \nPress ~1 to return.",
-"ja": "プレイ中にESCを長押し\nすると、終了します。\n \n \n~1を押すと\n再開します。"
+"en": "Hold ESC at any time\nto quit the program.\n \n \nPress <span class=\"param\">~1</span> to return.",
+"ja": "プレイ中にESCを長押し\nすると、終了します。\n \n \n<span class=\"param\">~1</span>を押すと\n再開します。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_113_0": {
 "en": "Function",
@@ -4908,8 +4908,8 @@ var rendered = {
 "ja": "＊ …話の続きは\n　 バトルが終わってからに\n　 しませんか？"
 },
 "obj_hathyfightevent_slash_Step_0_gml_116_0": {
-"en": "<div class=\"indented\">* Great job, Kris!</div><div class=\"indented\">* We earned ~1 EXP</div><div class=\"indented\">  and ~2 D$!</div>",
-"ja": "＊ やったね　クリス！\n＊ ~1 EXPと ~2 D$\n　 ゲットしたよ！"
+"en": "<div class=\"indented\">* Great job, Kris!</div><div class=\"indented\">* We earned <span class=\"param\">~1</span> EXP</div><div class=\"indented\">  and <span class=\"param\">~2</span> D$!</div>",
+"ja": "＊ やったね　クリス！\n＊ <span class=\"param\">~1</span> EXPと <span class=\"param\">~2</span> D$\n　 ゲットしたよ！"
 },
 "obj_hathyfightevent_slash_Step_0_gml_136_0": {
 "en": "<div class=\"indented\">* Sweet!</div><div class=\"indented\">* How much do I get?</div>",
@@ -8456,16 +8456,16 @@ var rendered = {
 "ja": "＊ そんなに\n　 難しくないはずだよ！"
 },
 "obj_npc_facing_slash_Other_10_gml_270_0": {
-"en": "<div class=\"indented\">* Press the boxes onto the switches with ~1!</div>",
-"ja": "＊ ~1を使って　箱を\n　 スイッチの上に\n　 移動させるんだ！"
+"en": "<div class=\"indented\">* Press the boxes onto the switches with <span class=\"param\">~1</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を使って　箱を\n　 スイッチの上に\n　 移動させるんだ！"
 },
 "obj_npc_facing_slash_Other_10_gml_272_0": {
-"en": "<div class=\"indented\">* (Wait, who the hell</div><div class=\"indented\">  is ~1?)</div>",
-"ja": "＊ (待て\n　 “~1”って\n　 だれだよ…？)"
+"en": "<div class=\"indented\">* (Wait, who the hell</div><div class=\"indented\">  is <span class=\"param\">~1</span>?)</div>",
+"ja": "＊ (待て\n　 “<span class=\"param\">~1</span>”って\n　 だれだよ…？)"
 },
 "obj_npc_facing_slash_Other_10_gml_276_0": {
-"en": "<div class=\"indented\">* Press the boxes onto the switches with ~1!</div>",
-"ja": "＊ ~1で　箱を\n　 スイッチの上に\n　 移動させるんだ！"
+"en": "<div class=\"indented\">* Press the boxes onto the switches with <span class=\"param\">~1</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>で　箱を\n　 スイッチの上に\n　 移動させるんだ！"
 },
 "obj_npc_facing_slash_Other_10_gml_278_0": {
 "en": "<div class=\"indented\">* Or you can, y'know, just use your hands.</div>",
@@ -11190,8 +11190,8 @@ var rendered = {
 "ja": "＊ (金銀財宝だ)\n＊ (欲深そうに　輝いている)"
 },
 "obj_npc_sign_slash_Other_10_gml_179_0": {
-"en": "<div class=\"indented\">* (It's ~1 flower, protected in a container...)</div>",
-"ja": "＊ (~1の　はなだ。\n　 ケースで　まもられている…)"
+"en": "<div class=\"indented\">* (It's <span class=\"param\">~1</span> flower, protected in a container...)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>の　はなだ。\n　 ケースで　まもられている…)"
 },
 "obj_npc_sign_slash_Other_10_gml_184_0": {
 "en": "<div class=\"indented\">* (It's your dad's truck.)</div>",
@@ -11280,24 +11280,24 @@ var rendered = {
 "ja": "DROP"
 },
 "obj_overworldc_slash_Draw_0_gml_66_0": {
-"en": "\"~1\"",
-"ja": "“~1”"
+"en": "\"<span class=\"param\">~1</span>\"",
+"ja": "“<span class=\"param\">~1</span>”"
 },
 "obj_overworldc_slash_Draw_0_gml_67_0": {
 "en": "LV  ",
 "ja": "LV  "
 },
 "obj_overworldc_slash_Draw_0_gml_68_0": {
-"en": "HP  ~1  ",
-"ja": "HP  ~1  "
+"en": "HP  <span class=\"param\">~1</span>  ",
+"ja": "HP  <span class=\"param\">~1</span>  "
 },
 "obj_overworldc_slash_Draw_0_gml_70_0": {
-"en": "AT  ~1 (",
-"ja": "ATK  ~1 ("
+"en": "AT  <span class=\"param\">~1</span> (",
+"ja": "ATK  <span class=\"param\">~1</span> ("
 },
 "obj_overworldc_slash_Draw_0_gml_71_0": {
-"en": "DF  ~1 (",
-"ja": "DEF  ~1 ("
+"en": "DF  <span class=\"param\">~1</span> (",
+"ja": "DEF  <span class=\"param\">~1</span> ("
 },
 "obj_overworldc_slash_Draw_0_gml_72_0": {
 "en": "None",
@@ -11349,23 +11349,23 @@ var rendered = {
 },
 "obj_overworldc_slash_Step_0_gml_32_0": {
 "en": "<div class=\"indented\">* You bid a quiet farewell to the </div>",
-"ja": "＊ ~1に\n　 そっと　わかれを　つげた。"
+"ja": "＊ <span class=\"param\">~1</span>に\n　 そっと　わかれを　つげた。"
 },
 "obj_overworldc_slash_Step_0_gml_33_0": {
-"en": "<div class=\"indented\">* You put the ~1 on the ground and gave it a little pat.</div>",
-"ja": "＊ ~1を\n　 じめんに　おいて\n　 「おつかれさま」と　なでてあげた。"
+"en": "<div class=\"indented\">* You put the <span class=\"param\">~1</span> on the ground and gave it a little pat.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 じめんに　おいて\n　 「おつかれさま」と　なでてあげた。"
 },
 "obj_overworldc_slash_Step_0_gml_35_0": {
-"en": "<div class=\"indented\">* You threw the ~1 on the ground like the piece of trash it is.</div>",
-"ja": "＊ ~1を\n　 ゴミのように　なげすてた。"
+"en": "<div class=\"indented\">* You threw the <span class=\"param\">~1</span> on the ground like the piece of trash it is.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 ゴミのように　なげすてた。"
 },
 "obj_overworldc_slash_Step_0_gml_36_0": {
 "en": "<div class=\"indented\">* You abandoned the </div>",
-"ja": "＊ ~1を\n　 みすてた。"
+"ja": "＊ <span class=\"param\">~1</span>を\n　 みすてた。"
 },
 "obj_overworldc_slash_Step_0_gml_37_0": {
-"en": "<div class=\"indented\">* The ~1 was thrown away.</div>",
-"ja": "＊ ~1を\n　 すてた。"
+"en": "<div class=\"indented\">* The <span class=\"param\">~1</span> was thrown away.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 すてた。"
 },
 "obj_overworldc_slash_Step_0_gml_41_0": {
 "en": "<div class=\"indented\">* What Egg?</div>",
@@ -11874,16 +11874,16 @@ var rendered = {
 "ja": "＊ ラビック - ATK 8 DEF 1\n＊ わたぼこりの　かたまり。\n　 大そうじをすると出現。"
 },
 "obj_rabbick_enemy_slash_Step_0_gml_128_0": {
-"en": "<div class=\"indented\">* Press ~1 repeatedly to blow air!</div>",
-"ja": "＊ ~1を連打して\n　 息を吹きかけろ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> repeatedly to blow air!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を連打して\n　 息を吹きかけろ！"
 },
 "obj_rabbick_enemy_slash_Step_0_gml_138_0": {
 "en": "<div class=\"indented\">* Kris breathed on the Rabbick.</div><div class=\"indented\">* It blew away entirely...</div>",
 "ja": "＊ クリスは\n　 ラビックに　息を吹きかけた。\n＊ ラビックは　すっかり吹き飛んだ…"
 },
 "obj_rabbick_enemy_slash_Step_0_gml_150_0": {
-"en": "<div class=\"indented\">* Press ~1 repeatedly to blow air!</div>",
-"ja": "＊ ~1を連打して\n　 息を吹きかけろ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> repeatedly to blow air!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を連打して\n　 息を吹きかけろ！"
 },
 "obj_rabbick_enemy_slash_Step_0_gml_175_0": {
 "en": "<div class=\"indented\">* The bunnies were blown away!</div>",
@@ -14290,8 +14290,8 @@ var rendered = {
 "ja": "たのしみ隊"
 },
 "obj_savepoint_slash_Other_10_gml_96_0": {
-"en": "<div class=\"indented\">* The power of ~1 shines within you.</div>",
-"ja": "＊ ~1の力が\n　 胸の奥で輝いた。"
+"en": "<div class=\"indented\">* The power of <span class=\"param\">~1</span> shines within you.</div>",
+"ja": "＊ <span class=\"param\">~1</span>の力が\n　 胸の奥で輝いた。"
 },
 "obj_savepoint_slash_Other_10_gml_102_0": {
 "en": "<div class=\"indented\">* The blocky foliage grows thick above your head...</div>",
@@ -15890,12 +15890,12 @@ var rendered = {
 "ja": "たのしみ隊"
 },
 "obj_susieandlancer_event_slash_Step_0_gml_573_0": {
-"en": "<div class=\"indented\">* ... be part of the ~1!</div>",
-"ja": "＊ いまから\n　 ~1の\n　 一員だ！"
+"en": "<div class=\"indented\">* ... be part of the <span class=\"param\">~1</span>!</div>",
+"ja": "＊ いまから\n　 <span class=\"param\">~1</span>の\n　 一員だ！"
 },
 "obj_susieandlancer_event_slash_Step_0_gml_575_0": {
-"en": "<div class=\"indented\">* Wow! Me...!? In the ~1!?</div>",
-"ja": "＊ ホント！？\n　 ボクさまも入っていいの！？\n　 ~1！？"
+"en": "<div class=\"indented\">* Wow! Me...!? In the <span class=\"param\">~1</span>!?</div>",
+"ja": "＊ ホント！？\n　 ボクさまも入っていいの！？\n　 <span class=\"param\">~1</span>！？"
 },
 "obj_susieandlancer_event_slash_Step_0_gml_576_0": {
 "en": "<div class=\"indented\">* Wait...</div>",
@@ -16074,12 +16074,12 @@ var rendered = {
 "ja": "Alright,\nyou convinced\nme!!"
 },
 "obj_susieenemy_slash_Step_0_gml_159_0": {
-"en": "<div class=\"indented\">* SUSIE - AT:~1 DF:~2 HP:~3</div><div class=\"indented\">* If you read the status screen, you already knew that.</div>",
-"ja": "＊ スージィ - ATK:~1 DEF:~2 HP:~3\n＊ ステータス画面を見たなら\n　 もう知っているはず。"
+"en": "<div class=\"indented\">* SUSIE - AT:<span class=\"param\">~1</span> DF:<span class=\"param\">~2</span> HP:<span class=\"param\">~3</span></div><div class=\"indented\">* If you read the status screen, you already knew that.</div>",
+"ja": "＊ スージィ - ATK:<span class=\"param\">~1</span> DEF:<span class=\"param\">~2</span> HP:<span class=\"param\">~3</span>\n＊ ステータス画面を見たなら\n　 もう知っているはず。"
 },
 "obj_susieenemy_slash_Step_0_gml_162_0": {
-"en": "<div class=\"indented\">* SUSIE - AT:~1 DF:~2 HP:~3</div><div class=\"indented\">* The armor you equipped her with just made her tougher!</div>",
-"ja": "＊ スージィ - ATK:~1 DEF:~2 HP:~3\n＊ さっきあげた　ぼうぐのおかげで\n　 パワーアップしている！"
+"en": "<div class=\"indented\">* SUSIE - AT:<span class=\"param\">~1</span> DF:<span class=\"param\">~2</span> HP:<span class=\"param\">~3</span></div><div class=\"indented\">* The armor you equipped her with just made her tougher!</div>",
+"ja": "＊ スージィ - ATK:<span class=\"param\">~1</span> DEF:<span class=\"param\">~2</span> HP:<span class=\"param\">~3</span>\n＊ さっきあげた　ぼうぐのおかげで\n　 パワーアップしている！"
 },
 "obj_susieenemy_slash_Step_0_gml_170_0": {
 "en": "<div class=\"indented\">* You tried convincing Susie not to fight.</div>",
@@ -16310,8 +16310,8 @@ var rendered = {
 "ja": "The Friendly Fun Gang"
 },
 "obj_thrashafter_event_slash_Step_0_gml_34_0": {
-"en": "<div class=\"indented\">* That's right!!</div><div class=\"indented\">* The ~1!!</div>",
-"ja": "＊ That's right!!\n＊ The ~1!!"
+"en": "<div class=\"indented\">* That's right!!</div><div class=\"indented\">* The <span class=\"param\">~1</span>!!</div>",
+"ja": "＊ That's right!!\n＊ The <span class=\"param\">~1</span>!!"
 },
 "obj_thrashafter_event_slash_Step_0_gml_35_0": {
 "en": "<div class=\"indented\">* You crush everything that gets in your way!</div>",
@@ -16354,8 +16354,8 @@ var rendered = {
 "ja": "＊ Sure, why not. You can be an unofficial team member."
 },
 "obj_thrashafter_event_slash_Step_0_gml_108_0": {
-"en": "<div class=\"indented\">* Wow! M... Me!? In the ~1!?</div>",
-"ja": "＊ Wow! M... Me!? In the ~1!?"
+"en": "<div class=\"indented\">* Wow! M... Me!? In the <span class=\"param\">~1</span>!?</div>",
+"ja": "＊ Wow! M... Me!? In the <span class=\"param\">~1</span>!?"
 },
 "obj_thrashafter_event_slash_Step_0_gml_109_0": {
 "en": "<div class=\"indented\">* W... Wait...</div>",
@@ -17254,16 +17254,16 @@ var rendered = {
 "ja": " ダークドル"
 },
 "obj_treasure_room_slash_Other_10_gml_87_0": {
-"en": "<div class=\"indented\">* (You opened the treasure chest.)</div><div class=\"indented\">* (Inside was <span class=\"Y\">~1</span>.)</div>",
-"ja": "＊ (宝箱を開けた)\n＊ (<span class=\"Y\">~1</span>が\n　 入っていた)"
+"en": "<div class=\"indented\">* (You opened the treasure chest.)</div><div class=\"indented\">* (Inside was <span class=\"Y\"><span class=\"param\">~1</span></span>.)</div>",
+"ja": "＊ (宝箱を開けた)\n＊ (<span class=\"Y\"><span class=\"param\">~1</span></span>が\n　 入っていた)"
 },
 "obj_treasure_room_slash_Other_10_gml_99_0": {
-"en": "<div class=\"indented\">* (You put <span class=\"Y\">~1</span> in your <span class=\"Y\">~2</span>.)</div>",
-"ja": "＊ (<span class=\"Y\">~1</span>が\n　 <span class=\"Y\">~2</span>に　加わった)"
+"en": "<div class=\"indented\">* (You put <span class=\"Y\"><span class=\"param\">~1</span></span> in your <span class=\"Y\"><span class=\"param\">~2</span></span>.)</div>",
+"ja": "＊ (<span class=\"Y\"><span class=\"param\">~1</span></span>が\n　 <span class=\"Y\"><span class=\"param\">~2</span></span>に　加わった)"
 },
 "obj_treasure_room_slash_Other_10_gml_103_0": {
-"en": "<div class=\"indented\">* (You put <span class=\"Y\">~1</span> in your <span class=\"Y\">~2</span>.)</div>",
-"ja": "＊ (<span class=\"Y\">~1</span>が\n　 <span class=\"Y\">~2</span>に　加わった)"
+"en": "<div class=\"indented\">* (You put <span class=\"Y\"><span class=\"param\">~1</span></span> in your <span class=\"Y\"><span class=\"param\">~2</span></span>.)</div>",
+"ja": "＊ (<span class=\"Y\"><span class=\"param\">~1</span></span>が\n　 <span class=\"Y\"><span class=\"param\">~2</span></span>に　加わった)"
 },
 "obj_treasure_room_slash_Other_10_gml_105_0": {
 "en": "<div class=\"indented\">* That ribbon is ARMOR, Kris!</div><div class=\"indented\">* It increases defense.</div>",
@@ -17278,8 +17278,8 @@ var rendered = {
 "ja": "＊ きっと　クリスに似合うと\n　 思うな！"
 },
 "obj_treasure_room_slash_Other_10_gml_115_0": {
-"en": "<div class=\"indented\">* (But you were carrying too many <span class=\"Y\">~1</span>.)</div>",
-"ja": "＊ (しかし　これ以上\n　 <span class=\"Y\">~1</span>を持てない)"
+"en": "<div class=\"indented\">* (But you were carrying too many <span class=\"Y\"><span class=\"param\">~1</span></span>.)</div>",
+"ja": "＊ (しかし　これ以上\n　 <span class=\"Y\"><span class=\"param\">~1</span></span>を持てない)"
 }
 },
 "obj_tutorialbattleevent": {
@@ -18684,8 +18684,8 @@ var rendered = {
 },
 "scr_lrecoitem": {
 "scr_lrecoitem_slash_scr_lrecoitem_gml_14_0": {
-"en": "<div class=\"indented\">* You recovered ~1 HP!</div>",
-"ja": "＊ HPが　~1かいふくした！"
+"en": "<div class=\"indented\">* You recovered <span class=\"param\">~1</span> HP!</div>",
+"ja": "＊ HPが　<span class=\"param\">~1</span>かいふくした！"
 },
 "scr_lrecoitem_slash_scr_lrecoitem_gml_16_0": {
 "en": "<div class=\"indented\">* Your HP was maxed out.</div>",
@@ -19434,72 +19434,72 @@ var rendered = {
 },
 "scr_spelltext": {
 "scr_spelltext_slash_scr_spelltext_gml_14_0": {
-"en": "<div class=\"indented\">* ~1 cast RUDE BUSTER!</div>",
-"ja": "＊ ~1は\n　 ルードバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast RUDE BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルードバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_18_0": {
-"en": "<div class=\"indented\">* ~1 cast HEAL PRAYER!</div>",
-"ja": "＊ ~1は　いやしの詩を唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast HEAL PRAYER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　いやしの詩を唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_23_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div>",
-"ja": "＊ ~1は　スリープを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　スリープを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_33_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div><div class=\"indented\">* But the enemy wasn't <span class=\"B\">TIRED</span>...</div>",
-"ja": "＊ ~1は\n　 スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div><div class=\"indented\">* But the enemy wasn't <span class=\"B\">TIRED</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_36_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div><div class=\"indented\">* But the foe wasn't <span class=\"B\">TIRED</span>... try <span class=\"Y\">SPARING</span>!</div>",
-"ja": "＊ ~1は　スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…\n　 <span class=\"Y\">にがす</span>ことなら　できるかも…！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div><div class=\"indented\">* But the foe wasn't <span class=\"B\">TIRED</span>... try <span class=\"Y\">SPARING</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…\n　 <span class=\"Y\">にがす</span>ことなら　できるかも…！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_43_0": {
-"en": "<div class=\"indented\">* ~1 used RUDE BUSTER!</div>",
-"ja": "＊ ~1は\n　 ルードバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used RUDE BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルードバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_47_0": {
-"en": "<div class=\"indented\">* ~1 used RED BUSTER!</div>",
-"ja": "＊ ~1は\n　 レッドバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used RED BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 レッドバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_51_0": {
-"en": "<div class=\"indented\">* ~1 cast DUAL HEAL!</div>",
-"ja": "＊ ~1は\n　 Ｗヒールを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast DUAL HEAL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 Ｗヒールを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_58_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div>",
-"ja": "＊ ~1は~2を逃がした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は<span class=\"param\">~2</span>を逃がした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_62_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div>",
-"ja": "＊ ~1は　~2を\n　 にがした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_66_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_69_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_70_0": {
 "en": "<div class=\"indented\">* (Try using Ralsei's <span class=\"B\">PACIFY</span>!)</div>",
 "ja": "＊ (ラルセイに　<span class=\"B\">スリープ</span>を\n　 唱えさせてみよう！)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_73_0": {
-"en": "<div class=\"indented\">* ~1 spared!</div>",
-"ja": "＊ ~1は　にがした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　にがした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_78_0": {
-"en": "<div class=\"indented\">* ~1 used the DARK CANDY!</div>",
-"ja": "＊ ~1は\n　 ダークキャンディを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DARK CANDY!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ダークキャンディを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_82_0": {
-"en": "<div class=\"indented\">* ~1 used the REVIVE MINT!</div>",
-"ja": "＊ ~1は\n　 リザレクトミントを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the REVIVE MINT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 リザレクトミントを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_86_0": {
-"en": "<div class=\"indented\">* ~1 used the GLOWSHARD!</div>",
-"ja": "＊ ~1は\n　 グロウシャードを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the GLOWSHARD!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 グロウシャードを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_87_0": {
 "en": "<div class=\"indented\">* But nothing happened...</div>",
@@ -19510,12 +19510,12 @@ var rendered = {
 "ja": "＊ グロウシャードは\n　 消えてなくなった！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_112_0": {
-"en": "<div class=\"indented\">* ~1 became enraptured!</div><div class=\"indented\"></div>",
-"ja": "＊ ~1は\n　 うっとりした！\n"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> became enraptured!</div><div class=\"indented\"></div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 うっとりした！\n"
 },
 "scr_spelltext_slash_scr_spelltext_gml_122_0": {
-"en": "<div class=\"indented\">* ~1 read the MANUAL!</div>",
-"ja": "＊ ~1は\n　 マニュアルを読んだ！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> read the MANUAL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 マニュアルを読んだ！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_123_0": {
 "en": "<div class=\"indented\">* But nothing happened...</div>",
@@ -19526,60 +19526,60 @@ var rendered = {
 "ja": "(くたびれ)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_168_0": {
-"en": "<div class=\"indented\">* ~1 was <span class=\"B\">bored to tears</span>!</div><div class=\"indented\"></div>",
-"ja": "＊ ~1は　<span class=\"B\">涙が出るほど退屈</span>した！\n"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> was <span class=\"B\">bored to tears</span>!</div><div class=\"indented\"></div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"B\">涙が出るほど退屈</span>した！\n"
 },
 "scr_spelltext_slash_scr_spelltext_gml_169_0": {
-"en": "<div class=\"indented\">* ~1 listened politely!</div><div class=\"indented\"></div>",
-"ja": "＊ ~1は　お行儀よく耳を傾けた！\n"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> listened politely!</div><div class=\"indented\"></div>",
+"ja": "＊ <span class=\"param\">~1</span>は　お行儀よく耳を傾けた！\n"
 },
 "scr_spelltext_slash_scr_spelltext_gml_170_0": {
-"en": "<div class=\"indented\">* ~1 became sentimental!</div><div class=\"indented\"></div>",
-"ja": "＊ ~1は　じ～んとした！\n"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> became sentimental!</div><div class=\"indented\"></div>",
+"ja": "＊ <span class=\"param\">~1</span>は　じ～んとした！\n"
 },
 "scr_spelltext_slash_scr_spelltext_gml_179_0": {
-"en": "<div class=\"indented\">* ~1 used the BROKEN CAKE!</div>",
-"ja": "＊ ~1 used the BROKEN CAKE!"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BROKEN CAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span> used the BROKEN CAKE!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_183_0": {
-"en": "<div class=\"indented\">* ~1 used the TOPCAKE!</div>",
-"ja": "＊ ~1は\n　 トップケーキを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TOPCAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 トップケーキを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_187_0": {
-"en": "<div class=\"indented\">* ~1 used the SPINCAKE!</div>",
-"ja": "＊ ~1は\n　 スピンロールを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the SPINCAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スピンロールを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_191_0": {
-"en": "<div class=\"indented\">* ~1 used the DARKBURGER!</div>",
-"ja": "＊ ~1は\n　 ダークバーガーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DARKBURGER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ダークバーガーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_194_0": {
-"en": "<div class=\"indented\">* ~1 used the LANCERCOOKIE!</div>",
-"ja": "＊ ~1は\n　 ランサークッキーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the LANCERCOOKIE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ランサークッキーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_197_0": {
-"en": "<div class=\"indented\">* ~1 used the GIGASALAD!</div>",
-"ja": "＊ ~1は\n　 ギガサラダを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the GIGASALAD!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ギガサラダを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_200_0": {
-"en": "<div class=\"indented\">* ~1 used the CLUBS SANDWICH!</div>",
-"ja": "＊ ~1は\n　 クラブサンドを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CLUBS SANDWICH!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 クラブサンドを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_203_0": {
-"en": "<div class=\"indented\">* ~1 used the HEARTS DONUT!</div>",
-"ja": "＊ ~1は\n　 ハートドーナツを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the HEARTS DONUT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ハートドーナツを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_206_0": {
-"en": "<div class=\"indented\">* ~1 used the CHOCO DIAMOND!</div>",
-"ja": "＊ ~1は\n　 チョコダイヤを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CHOCO DIAMOND!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 チョコダイヤを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_209_0": {
-"en": "<div class=\"indented\">* ~1 used the FAV SANDWICH!</div>",
-"ja": "＊ ~1は\n　 ファボサンドを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the FAV SANDWICH!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ファボサンドを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_212_0": {
-"en": "<div class=\"indented\">* ~1 used the ROULXS ROUX!</div>",
-"ja": "＊ ~1は\n　 ルールノールーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the ROULXS ROUX!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルールノールーを使った！"
 }
 },
 "scr_susface": {
@@ -19904,8 +19904,8 @@ var rendered = {
 "ja": "\nそうなの！？"
 },
 "scr_text_slash_scr_text_gml_231_0": {
-"en": "<div class=\"indented\">* Er, Kris, you know you can hold ~1 to run...?</div>",
-"ja": "＊ ねえ　クリス…\n　 ~1を長押しすると\n　 走れることは　知ってる？"
+"en": "<div class=\"indented\">* Er, Kris, you know you can hold <span class=\"param\">~1</span> to run...?</div>",
+"ja": "＊ ねえ　クリス…\n　 <span class=\"param\">~1</span>を長押しすると\n　 走れることは　知ってる？"
 },
 "scr_text_slash_scr_text_gml_241_0": {
 "en": "<div class=\"indented\">* Really?</div><div class=\"indented\">* And yet you choose not to...?</div>",
@@ -19920,8 +19920,8 @@ var rendered = {
 "ja": "＊ いいよ！　自分のペースで\n　 進んでいこう。"
 },
 "scr_text_slash_scr_text_gml_249_0": {
-"en": "<div class=\"indented\">* Right!</div><div class=\"indented\">* You'll move faster by holding ~1!</div>",
-"ja": "＊ そうなの！\n＊ ~1を長押しすると\n　 速く移動できるんだよ！"
+"en": "<div class=\"indented\">* Right!</div><div class=\"indented\">* You'll move faster by holding <span class=\"param\">~1</span>!</div>",
+"ja": "＊ そうなの！\n＊ <span class=\"param\">~1</span>を長押しすると\n　 速く移動できるんだよ！"
 },
 "scr_text_slash_scr_text_gml_250_0": {
 "en": "<div class=\"indented\">* And I'll be right behind you, so don't worry!</div>",
@@ -20872,8 +20872,8 @@ var rendered = {
 "ja": "ヒポポテトマス"
 },
 "scr_text_slash_scr_text_gml_830_0": {
-"en": "<div class=\"indented\">* ~1!</div><div class=\"indented\">* Can you give me a name...?</div>",
-"ja": "＊ ~1！\n＊ わたしに　なまえを\n　 つけてくれるお…？"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span>!</div><div class=\"indented\">* Can you give me a name...?</div>",
+"ja": "＊ <span class=\"param\">~1</span>！\n＊ わたしに　なまえを\n　 つけてくれるお…？"
 },
 "scr_text_slash_scr_text_gml_840_0": {
 "en": "<div class=\"indented\">* Hmmm! It's perfect, y'hear!</div><div class=\"indented\">* I don't know what it means, but it's perfect!</div>",
@@ -21704,8 +21704,8 @@ var rendered = {
 "ja": "＊ 「ルードバスター」\n　 スージィの技ァ…"
 },
 "scr_text_slash_scr_text_gml_1342_0": {
-"en": "<div class=\"indented\">* Will deal more damage, if you just press ~1!</div>",
-"ja": "＊ 大ダメージ与える\n　 ~1を押せばァ！"
+"en": "<div class=\"indented\">* Will deal more damage, if you just press <span class=\"param\">~1</span>!</div>",
+"ja": "＊ 大ダメージ与える\n　 <span class=\"param\">~1</span>を押せばァ！"
 },
 "scr_text_slash_scr_text_gml_1348_0": {
 "en": "<div class=\"indented\">* Susie loves, when you give us MONEY.</div><div class=\"indented\">* She will -</div>",
@@ -25050,16 +25050,16 @@ var rendered = {
 "ja": "器ニ 名前ヲ\nツケテ クダサイ。"
 },
 "DEVICE_CONTACT_slash_Step_0_gml_729_0": {
-"en": "WE CALLED IT\n\"~1.\"   ",
-"ja": "ワレワレガ ツケタ\nコノ器ノ 名ハ\n“~1”。   "
+"en": "WE CALLED IT\n\"<span class=\"param\">~1</span>.\"   ",
+"ja": "ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_730_0": {
 "en": "AND WHAT ABOUT\nTHE CREATOR?  ",
 "ja": "デハ ツクリ手ノ\n名ハ？  "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_734_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_735_0": {
 "en": "AN INTERESTING\nCOINCIDENCE.  ",
@@ -25074,8 +25074,8 @@ var rendered = {
 "ja": "アナタ自身ノ 名デス。"
 },
 "DEVICE_CONTACT_slash_Step_0_gml_785_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_786_0": {
 "en": "EXCELLENT.  ",
@@ -25106,8 +25106,8 @@ var rendered = {
 "ja": "サモ アリナン…。  "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_816_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_817_0": {
 "en": "THANK YOU\nFOR YOUR TIME.   ",
@@ -25458,8 +25458,8 @@ var rendered = {
 "ja": "Ch1のファイルで Ch2を始めます。"
 },
 "DEVICE_MENU_slash_Draw_0_gml_292_0": {
-"en": "This will start Chapter 2 in FILE Slot ~1.",
-"ja": "Chapter 2を　スロット~1で始めます。"
+"en": "This will start Chapter 2 in FILE Slot <span class=\"param\">~1</span>.",
+"ja": "Chapter 2を　スロット<span class=\"param\">~1</span>で始めます。"
 },
 "DEVICE_MENU_slash_Step_0_gml_74_0": {
 "en": "IT CONFORMED TO THE REFLECTION.",
@@ -25744,8 +25744,8 @@ var rendered = {
 "ja": "HIT!!"
 },
 "o_boxing_wireframe_slash_Draw_0_gml_145_0": {
-"en": "Press ~1\nOr ~2 If\nYou Dare",
-"ja": "&lt;!--ヤル気　アルナラ\n~1 カ　~2　押シナサイ--&gt;"
+"en": "Press <span class=\"param\">~1</span>\nOr <span class=\"param\">~2</span> If\nYou Dare",
+"ja": "&lt;!--ヤル気　アルナラ\n<span class=\"param\">~1</span> カ　<span class=\"param\">~2</span>　押シナサイ--&gt;"
 },
 "o_boxing_wireframe_slash_Draw_0_gml_316_0": {
 "en": "Shut up, that was\njust a warm up!",
@@ -25766,28 +25766,28 @@ var rendered = {
 },
 "o_boxingcontroller": {
 "o_boxingcontroller_slash_Create_0_gml_18_0": {
-"en": "DODGE with ~1 or ~2!",
-"ja": "&lt;!--ヨケル　トキハ\n~1 カ　~2 ヨ--&gt;"
+"en": "DODGE with <span class=\"param\">~1</span> or <span class=\"param\">~2</span>!",
+"ja": "&lt;!--ヨケル　トキハ\n<span class=\"param\">~1</span> カ　<span class=\"param\">~2</span> ヨ--&gt;"
 },
 "o_boxingcontroller_slash_Create_0_gml_19_0": {
-"en": "Press ~1 to Duck!",
-"ja": "&lt;!--~1 デ\nシャガンデ！--&gt;"
+"en": "Press <span class=\"param\">~1</span> to Duck!",
+"ja": "&lt;!--<span class=\"param\">~1</span> デ\nシャガンデ！--&gt;"
 },
 "o_boxingcontroller_slash_Create_0_gml_20_0": {
 "en": "default",
 "ja": "default"
 },
 "o_boxingcontroller_slash_Step_0_gml_170_0": {
-"en": "<div class=\"indented\">* (Press ~1 or ~2 to hit Queen after she attacks!)</div>",
-"ja": "＊ (クイーンの　こうげきの　あとに\n　 ~1または~2を押して\n　 はんげき！)"
+"en": "<div class=\"indented\">* (Press <span class=\"param\">~1</span> or <span class=\"param\">~2</span> to hit Queen after she attacks!)</div>",
+"ja": "＊ (クイーンの　こうげきの　あとに\n　 <span class=\"param\">~1</span>または<span class=\"param\">~2</span>を押して\n　 はんげき！)"
 },
 "o_boxingcontroller_slash_Step_0_gml_174_0": {
-"en": "<div class=\"indented\">* (Punch during Queen's turn with ~1 or ~2 after she attacks!)</div>",
-"ja": "＊ (クイーンの　ターン中\n　 クイーンの　こうげきのあとに\n　 ~1 または ~2 を押して　はんげき！)"
+"en": "<div class=\"indented\">* (Punch during Queen's turn with <span class=\"param\">~1</span> or <span class=\"param\">~2</span> after she attacks!)</div>",
+"ja": "＊ (クイーンの　ターン中\n　 クイーンの　こうげきのあとに\n　 <span class=\"param\">~1</span> または <span class=\"param\">~2</span> を押して　はんげき！)"
 },
 "o_boxingcontroller_slash_Step_0_gml_178_0": {
-"en": "<div class=\"indented\">* (Dodge Queen's attacks with ~1, ~2, and ~3!)</div>",
-"ja": "＊ (~1　~2　~3で\n　 クイーンのこうげきを　よけろ！)"
+"en": "<div class=\"indented\">* (Dodge Queen's attacks with <span class=\"param\">~1</span>, <span class=\"param\">~2</span>, and <span class=\"param\">~3</span>!)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>　<span class=\"param\">~2</span>　<span class=\"param\">~3</span>で\n　 クイーンのこうげきを　よけろ！)"
 },
 "o_boxingcontroller_slash_Step_0_gml_182_0": {
 "en": "<div class=\"indented\">* ROUND 2 begins.</div><div class=\"indented\">* Queen's attacks got tougher!</div>",
@@ -25810,12 +25810,12 @@ var rendered = {
 },
 "o_boxingqueen": {
 "o_boxingqueen_slash_Step_0_gml_599_0": {
-"en": "DODGE with ~1 \nor ~2!",
-"ja": "&lt;!--ヨケル　トキハ\n~1 カ　~2 ヨ--&gt;"
+"en": "DODGE with <span class=\"param\">~1</span> \nor <span class=\"param\">~2</span>!",
+"ja": "&lt;!--ヨケル　トキハ\n<span class=\"param\">~1</span> カ　<span class=\"param\">~2</span> ヨ--&gt;"
 },
 "o_boxingqueen_slash_Step_0_gml_1200_0": {
-"en": "Press ~1\nto Duck!",
-"ja": "&lt;!--~1 デ\nシャガンデ！--&gt;"
+"en": "Press <span class=\"param\">~1</span>\nto Duck!",
+"ja": "&lt;!--<span class=\"param\">~1</span> デ\nシャガンデ！--&gt;"
 },
 "o_boxingqueen_slash_Step_0_gml_3078_0": {
 "en": "<div class=\"indented\">* Battle Power... Dropping...</div>",
@@ -25864,20 +25864,20 @@ var rendered = {
 "ja": "バードリー"
 },
 "obj_battlecontroller_slash_Step_0_gml_42_0": {
-"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got ~1 EXP and ~2 D$.</div>",
-"ja": "＊ YOU WIN！\n＊ ~1 EXPと　~2 D$を獲得！"
+"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> EXP and <span class=\"param\">~2</span> D$.</div>",
+"ja": "＊ YOU WIN！\n＊ <span class=\"param\">~1</span> EXPと　<span class=\"param\">~2</span> D$を獲得！"
 },
 "obj_battlecontroller_slash_Step_0_gml_43_0": {
 "en": "<div class=\"indented\">* You won the battle!</div>",
 "ja": "＊ YOU WIN!"
 },
 "obj_battlecontroller_slash_Step_0_gml_46_0": {
-"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got ~1 D$.</div><div class=\"indented\">* You became stronger.</div>",
-"ja": "＊ YOU WIN!\n＊ ~1 D$を獲得！\n＊ 強くなった。"
+"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> D$.</div><div class=\"indented\">* You became stronger.</div>",
+"ja": "＊ YOU WIN!\n＊ <span class=\"param\">~1</span> D$を獲得！\n＊ 強くなった。"
 },
 "obj_battlecontroller_slash_Step_0_gml_69_0": {
-"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got ~1 D$.</div><div class=\"indented\">* Noelle became stronger.</div>",
-"ja": "＊ YOU WIN！\n＊ ~1 D$獲得！\n＊ ノエルは　強くなった。"
+"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> D$.</div><div class=\"indented\">* Noelle became stronger.</div>",
+"ja": "＊ YOU WIN！\n＊ <span class=\"param\">~1</span> D$獲得！\n＊ ノエルは　強くなった。"
 }
 },
 "obj_berdlyb_enemy": {
@@ -29016,8 +29016,8 @@ var rendered = {
 "ja": "＊ ヘッ　わーったよ。\n　 見るだけ見てやる。"
 },
 "obj_ch2_room_castle_2f_slash_Step_0_gml_54_0": {
-"en": "<div class=\"indented\">* Hey, lemme look at my freaking room a sec!~1</div>",
-"ja": "＊ うおい！　オレの部屋も\n　 のぞかせろよ！~1"
+"en": "<div class=\"indented\">* Hey, lemme look at my freaking room a sec!<span class=\"param\">~1</span></div>",
+"ja": "＊ うおい！　オレの部屋も\n　 のぞかせろよ！<span class=\"param\">~1</span>"
 },
 "obj_ch2_room_castle_2f_slash_Step_0_gml_58_0": {
 "en": "<div class=\"indented\">* Damn, all you wanna do is run off and steal cake.</div>",
@@ -29170,8 +29170,8 @@ var rendered = {
 "ja": "＊ 景色を楽しみてーのは\n　 わかるけどさ　べつに\n　 走ったっていいんだぜ？"
 },
 "obj_ch2_room_castle_area_1_slash_Step_0_gml_301_0": {
-"en": "<div class=\"indented\">* (You remembered something about the ~1 button.)</div>",
-"ja": "＊ (~1ボタンのことを　思い出した)"
+"en": "<div class=\"indented\">* (You remembered something about the <span class=\"param\">~1</span> button.)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>ボタンのことを　思い出した)"
 }
 },
 "obj_ch2_room_castle_susie": {
@@ -36750,8 +36750,8 @@ var rendered = {
 "ja": "はなす"
 },
 "obj_ch2_sceneex2_special_slash_Draw_0_gml_39_0": {
-"en": "~1",
-"ja": "~1"
+"en": "<span class=\"param\">~1</span>",
+"ja": "<span class=\"param\">~1</span>"
 }
 },
 "obj_ch2_sceneex2a": {
@@ -37054,8 +37054,8 @@ var rendered = {
 "ja": "＊ ホッホッホ…\n＊ こ～れは　これは…\n　 ここで会ったが　100秒目…"
 },
 "obj_checker_animtest_slash_Step_0_gml_48_0": {
-"en": "<div class=\"indented\">* If it isn't the ~1</div>",
-"ja": "＊ If it isn't the ~1"
+"en": "<div class=\"indented\">* If it isn't the <span class=\"param\">~1</span></div>",
+"ja": "＊ If it isn't the <span class=\"param\">~1</span>"
 },
 "obj_checker_animtest_slash_Step_0_gml_49_0": {
 "en": "<div class=\"indented\">* You boys or girls had better turn back while you can.</div>",
@@ -37316,8 +37316,8 @@ var rendered = {
 "ja": "＊ K.ラウンドの　シャッフルダンスに\n　 キレがなくなってきた。"
 },
 "obj_checkers_enemy_slash_Step_0_gml_82_0": {
-"en": "<div class=\"indented\">* The crown is <span class=\"Y\">~1-percent</span> loose!</div>",
-"ja": "＊ 王冠グラグラ度：<span class=\"Y\">~1パーセント</span>！"
+"en": "<div class=\"indented\">* The crown is <span class=\"Y\"><span class=\"param\">~1</span>-percent</span> loose!</div>",
+"ja": "＊ 王冠グラグラ度：<span class=\"Y\"><span class=\"param\">~1</span>パーセント</span>！"
 },
 "obj_checkers_enemy_slash_Step_0_gml_119_0": {
 "en": "<div class=\"indented\">* K. ROUND felt stressed out and attacked!</div>",
@@ -37480,8 +37480,8 @@ var rendered = {
 "ja": "Throw"
 },
 "obj_checkers_enemy_slash_Step_0_gml_489_0": {
-"en": "<div class=\"indented\">* Press ~1 to determine the ANGLE!</div>",
-"ja": "＊ ~1を押して\n　 アングルを決めろ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to determine the ANGLE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して\n　 アングルを決めろ！"
 },
 "obj_checkers_enemy_slash_Step_0_gml_510_0": {
 "en": "<div class=\"indented\">* Susie? You want to ACT? Aww, what's your idea?</div>",
@@ -39380,8 +39380,8 @@ var rendered = {
 },
 "obj_cutscene_maker": {
 "obj_cutscene_maker_slash_Draw_0_gml_60_0": {
-"en": "actor, ~1  step:~2",
-"ja": "actor, ~1  step:~2"
+"en": "actor, <span class=\"param\">~1</span>  step:<span class=\"param\">~2</span>",
+"ja": "actor, <span class=\"param\">~1</span>  step:<span class=\"param\">~2</span>"
 }
 },
 "obj_cutscene_test": {
@@ -39480,12 +39480,12 @@ var rendered = {
 "ja": "＊ (ゴミを　あさった…)"
 },
 "obj_cybercity_trashcan_slash_Other_10_gml_16_0": {
-"en": "<div class=\"indented\">* (And found $~1!)</div>",
-"ja": "＊ ($~1　見つけた！)"
+"en": "<div class=\"indented\">* (And found $<span class=\"param\">~1</span>!)</div>",
+"ja": "＊ ($<span class=\"param\">~1</span>　見つけた！)"
 },
 "obj_cybercity_trashcan_slash_Other_10_gml_23_0": {
-"en": "<div class=\"indented\">* (And found a ~1!)</div>",
-"ja": "＊ (~1を　見つけた！)"
+"en": "<div class=\"indented\">* (And found a <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>を　見つけた！)"
 },
 "obj_cybercity_trashcan_slash_Other_10_gml_35_0": {
 "en": "<div class=\"indented\">* (And found trash!)</div>",
@@ -39506,8 +39506,8 @@ var rendered = {
 "ja": "なし"
 },
 "obj_darkcontroller_slash_Draw_0_gml_47_0": {
-"en": "D$ ~1",
-"ja": "D$ ~1"
+"en": "D$ <span class=\"param\">~1</span>",
+"ja": "D$ <span class=\"param\">~1</span>"
 },
 "obj_darkcontroller_slash_Draw_0_gml_74_0": {
 "en": "CONFIG",
@@ -39694,28 +39694,28 @@ var rendered = {
 "ja": "孤独な王子(LV1)\n闇の世界の住人。\n家来も臣民もいない。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_272_0_b": {
-"en": "LV~1 Leader\nCommands the party\nwith various ACTs.",
-"ja": "リーダー(LV~1)\nいろんな「こうどう」\nで仲間をリード。"
+"en": "LV<span class=\"param\">~1</span> Leader\nCommands the party\nwith various ACTs.",
+"ja": "リーダー(LV<span class=\"param\">~1</span>)\nいろんな「こうどう」\nで仲間をリード。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_273_0": {
-"en": "LV~1 Tactician\nCommands the party\nby ACTs. Sometimes.",
-"ja": "コマンダー(LV~1)\n「こうどう」で仲間\nをときどきリード。"
+"en": "LV<span class=\"param\">~1</span> Tactician\nCommands the party\nby ACTs. Sometimes.",
+"ja": "コマンダー(LV<span class=\"param\">~1</span>)\n「こうどう」で仲間\nをときどきリード。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_274_0": {
-"en": "LV~1 Bed Inspector\nInspects all beds\ninexplicably.",
-"ja": "ベッドボス(LV~1)\nなぜかベッドを\n調べまくる。"
+"en": "LV<span class=\"param\">~1</span> Bed Inspector\nInspects all beds\ninexplicably.",
+"ja": "ベッドボス(LV<span class=\"param\">~1</span>)\nなぜかベッドを\n調べまくる。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_275_0": {
 "en": "LV1 Prickly Prince\nDeals damage with\nhis rugged scarf.",
 "ja": "チクチク王子(LV1)\nチクチクマフラー\nで敵をこうげき。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_275_0_b": {
-"en": "LV~1 Moss Finder\nBasic moss-finding\nabilities.",
-"ja": "コケゲッター(LV~1)\nベーシックな\nコケ発見能力。"
+"en": "LV<span class=\"param\">~1</span> Moss Finder\nBasic moss-finding\nabilities.",
+"ja": "コケゲッター(LV<span class=\"param\">~1</span>)\nベーシックな\nコケ発見能力。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_276_0": {
-"en": "LV~1 Leader\nCommands.",
-"ja": "リーダー(LV~1)\n リードする。"
+"en": "LV<span class=\"param\">~1</span> Leader\nCommands.",
+"ja": "リーダー(LV<span class=\"param\">~1</span>)\n リードする。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_279_0": {
 "en": "LV1 Fluffy Prince\nWeak, but has nice\nhealing powers.",
@@ -39734,16 +39734,16 @@ var rendered = {
 "ja": "Ｏ"
 },
 "obj_darkcontroller_slash_Draw_0_gml_314_0": {
-"en": "LV~1 Dark Knight\nDoes damage using\ndark energy.",
-"ja": "ダークナイト(LV~1)\nダークエネルギーで\n敵をこうげき。"
+"en": "LV<span class=\"param\">~1</span> Dark Knight\nDoes damage using\ndark energy.",
+"ja": "ダークナイト(LV<span class=\"param\">~1</span>)\nダークエネルギーで\n敵をこうげき。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_315_0": {
-"en": "LV~1 Healing Master\nCan use ultimate\nhealing. (Losers!)",
-"ja": "ヒールボス(LV~1)\nウルティマヒールを\n使える(ヘヘッ！)"
+"en": "LV<span class=\"param\">~1</span> Healing Master\nCan use ultimate\nhealing. (Losers!)",
+"ja": "ヒールボス(LV<span class=\"param\">~1</span>)\nウルティマヒールを\n使える(ヘヘッ！)"
 },
 "obj_darkcontroller_slash_Draw_0_gml_316_0": {
-"en": "LV~1 Moss Enjoyer\nSupports those\nthat find moss.",
-"ja": "コケラバー(LV~1)\nコケを見つける者の\n強い味方。"
+"en": "LV<span class=\"param\">~1</span> Moss Enjoyer\nSupports those\nthat find moss.",
+"ja": "コケラバー(LV<span class=\"param\">~1</span>)\nコケを見つける者の\n強い味方。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_327_0": {
 "en": "Kindness",
@@ -39754,24 +39754,24 @@ var rendered = {
 "ja": "イヌさ: "
 },
 "obj_darkcontroller_slash_Draw_0_gml_356_0": {
-"en": "LV~1 Dark Prince\nDark-World being.\nHas friends now.",
-"ja": "ダーク王子(LV~1)\n闇の世界の民。\n仲間ができた。"
+"en": "LV<span class=\"param\">~1</span> Dark Prince\nDark-World being.\nHas friends now.",
+"ja": "ダーク王子(LV<span class=\"param\">~1</span>)\n闇の世界の民。\n仲間ができた。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_357_0": {
-"en": "LV~1 Hug Prince\nReceives and\ngives many hugs.",
-"ja": "ハグ王子(LV~1)\nたくさんハグして\nハグされて。"
+"en": "LV<span class=\"param\">~1</span> Hug Prince\nReceives and\ngives many hugs.",
+"ja": "ハグ王子(LV<span class=\"param\">~1</span>)\nたくさんハグして\nハグされて。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_358_0": {
-"en": "LV~1 Pose Prince\nPoses for photos\nat times.",
-"ja": "ポーズ王子(LV~1)\n写真を撮るとき\nときどきポーズ。"
+"en": "LV<span class=\"param\">~1</span> Pose Prince\nPoses for photos\nat times.",
+"ja": "ポーズ王子(LV<span class=\"param\">~1</span>)\n写真を撮るとき\nときどきポーズ。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_359_0": {
-"en": "LV~1 Rude Prince\nFriends with a\nrude gesturer.",
-"ja": "お下品王子(LV~1)\n下品なポーズも\nなんのその。"
+"en": "LV<span class=\"param\">~1</span> Rude Prince\nFriends with a\nrude gesturer.",
+"ja": "お下品王子(LV<span class=\"param\">~1</span>)\n下品なポーズも\nなんのその。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_360_0": {
-"en": "LV~1 Blank Prince\nDoesn't even\nhave a photo.",
-"ja": "撮らない王子(LV~1)\n写真なんか\n撮らない。"
+"en": "LV<span class=\"param\">~1</span> Blank Prince\nDoesn't even\nhave a photo.",
+"ja": "撮らない王子(LV<span class=\"param\">~1</span>)\n写真なんか\n撮らない。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_362_0": {
 "en": "Sweetness ",
@@ -39782,16 +39782,16 @@ var rendered = {
 "ja": "スノー使い(LV1)\n氷属性のまほう\nを使えるかも？"
 },
 "obj_darkcontroller_slash_Draw_0_gml_383_0": {
-"en": "LV~1 Frostmancer\nFreezes the enemy.",
-"ja": "フロスター(LV~1)\n敵を凍らせる。"
+"en": "LV<span class=\"param\">~1</span> Frostmancer\nFreezes the enemy.",
+"ja": "フロスター(LV<span class=\"param\">~1</span>)\n敵を凍らせる。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_384_0": {
-"en": "LV~1 Ice Trancer\nReceives pain to\nbecome stronger.",
-"ja": "トランサー(LV~1)\n痛みを受けて\n強くなる。"
+"en": "LV<span class=\"param\">~1</span> Ice Trancer\nReceives pain to\nbecome stronger.",
+"ja": "トランサー(LV<span class=\"param\">~1</span>)\n痛みを受けて\n強くなる。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_385_0": {
-"en": "LV~1 Moss Neutral\nNeither chaotic nor\nlawful to moss.",
-"ja": "コケ中立者(LV~1)\nコケに対し　混沌\nでも秩序でもない。"
+"en": "LV<span class=\"param\">~1</span> Moss Neutral\nNeither chaotic nor\nlawful to moss.",
+"ja": "コケ中立者(LV<span class=\"param\">~1</span>)\nコケに対し　混沌\nでも秩序でもない。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_388_0": {
 "en": "Coldness ",
@@ -39854,8 +39854,8 @@ var rendered = {
 "ja": "だいじ"
 },
 "obj_darkcontroller_slash_Draw_0_gml_956_0": {
-"en": "Really throw away the\n~1?",
-"ja": "~1を\n捨てますか？"
+"en": "Really throw away the\n<span class=\"param\">~1</span>?",
+"ja": "<span class=\"param\">~1</span>を\n捨てますか？"
 },
 "obj_darkcontroller_slash_Step_0_gml_135_0": {
 "en": "<div class=\"indented\">* ...</div>",
@@ -39993,7 +39993,7 @@ var rendered = {
 },
 "obj_debug_xy_slash_Draw_74_gml_27_0": {
 "en": null,
-"ja": "CameraX: ~1 CameraY: ~2"
+"ja": "CameraX: <span class=\"param\">~1</span> CameraY: <span class=\"param\">~2</span>"
 },
 "obj_debug_xy_slash_Draw_74_gml_28_0": {
 "en": null,
@@ -40005,7 +40005,7 @@ var rendered = {
 },
 "obj_debug_xy_slash_Draw_74_gml_29_0_b": {
 "en": null,
-"ja": "instance_count: ~1"
+"ja": "instance_count: <span class=\"param\">~1</span>"
 },
 "obj_debug_xy_slash_Draw_74_gml_33_0": {
 "en": null,
@@ -40054,8 +40054,8 @@ var rendered = {
 "ja": "＊ ジグソー・ジョー - 弱点は\n　 同じターン中に実行される\n　 「こうどう」と「にがす」。"
 },
 "obj_dojo_spareenemy_slash_Step_0_gml_44_0": {
-"en": "Ah!! It's my\n~1 o'clock shadow!",
-"ja": "もう~1時だ！\nヒゲが生えてきちまう！"
+"en": "Ah!! It's my\n<span class=\"param\">~1</span> o'clock shadow!",
+"ja": "もう<span class=\"param\">~1</span>時だ！\nヒゲが生えてきちまう！"
 },
 "obj_dojo_spareenemy_slash_Step_0_gml_51_0": {
 "en": "<div class=\"indented\">* Jigsaw Joe's stubble regrew!</div>",
@@ -40538,8 +40538,8 @@ var rendered = {
 "ja": "＊ あ　ごめん！\n＊ 説明するの　忘れてた！\n＊ 「たたかう」ときは…"
 },
 "obj_dummyenemy_slash_Step_0_gml_399_0": {
-"en": "<div class=\"indented\">* Press ~1 again when the cursor goes in the box!</div>",
-"ja": "＊ Press ~1 again when the cursor goes in the box!"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> again when the cursor goes in the box!</div>",
+"ja": "＊ Press <span class=\"param\">~1</span> again when the cursor goes in the box!"
 },
 "obj_dummyenemy_slash_Step_0_gml_403_0": {
 "en": "<div class=\"indented\">* It's OK, Kris!</div><div class=\"indented\">* You'll get it!</div><div class=\"indented\">* Try again!</div>",
@@ -40550,12 +40550,12 @@ var rendered = {
 "ja": "＊ Press Z when the white rectangle's in the blue box!"
 },
 "obj_dummyenemy_slash_Step_0_gml_405_0": {
-"en": "<div class=\"indented\">* Ummm... you can press ~1 a lot, if it helps!</div>",
-"ja": "＊ Ummm... you can press ~1 a lot, if it helps!"
+"en": "<div class=\"indented\">* Ummm... you can press <span class=\"param\">~1</span> a lot, if it helps!</div>",
+"ja": "＊ Ummm... you can press <span class=\"param\">~1</span> a lot, if it helps!"
 },
 "obj_dummyenemy_slash_Step_0_gml_406_0": {
-"en": "<div class=\"indented\">* Kris...</div><div class=\"indented\">* Please try to press ~1.</div>",
-"ja": "＊ Kris...\n＊ Please try to press ~1."
+"en": "<div class=\"indented\">* Kris...</div><div class=\"indented\">* Please try to press <span class=\"param\">~1</span>.</div>",
+"ja": "＊ Kris...\n＊ Please try to press <span class=\"param\">~1</span>."
 },
 "obj_dummyenemy_slash_Step_0_gml_407_0": {
 "en": "<div class=\"indented\">* Ummm, Kris?</div><div class=\"indented\">* Can you see the white rectangle?</div>",
@@ -41234,12 +41234,12 @@ var rendered = {
 "ja": "LV "
 },
 "obj_fusionmenu_slash_Draw_0_gml_50_0": {
-"en": "~1: More Info\n~2: Quit",
-"ja": "~1: 図鑑\n~2: 終了"
+"en": "<span class=\"param\">~1</span>: More Info\n<span class=\"param\">~2</span>: Quit",
+"ja": "<span class=\"param\">~1</span>: 図鑑\n<span class=\"param\">~2</span>: 終了"
 },
 "obj_fusionmenu_slash_Draw_0_gml_51_0": {
-"en": "~1: More Info\n~2: Quit",
-"ja": "~1: 図鑑\n~2: 終了"
+"en": "<span class=\"param\">~1</span>: More Info\n<span class=\"param\">~2</span>: Quit",
+"ja": "<span class=\"param\">~1</span>: 図鑑\n<span class=\"param\">~2</span>: 終了"
 },
 "obj_fusionmenu_slash_Draw_0_gml_56_0": {
 "en": "PROGRESS",
@@ -41306,20 +41306,20 @@ var rendered = {
 "ja": "属性:"
 },
 "obj_fusionmenu_slash_Draw_0_gml_125_0": {
-"en": "~1: Place",
-"ja": "~1: 配置"
+"en": "<span class=\"param\">~1</span>: Place",
+"ja": "<span class=\"param\">~1</span>: 配置"
 },
 "obj_fusionmenu_slash_Draw_0_gml_129_0": {
 "en": "Cannot Place",
 "ja": "配置不可"
 },
 "obj_fusionmenu_slash_Draw_0_gml_132_0": {
-"en": "~1: Return",
-"ja": "~1: もどる"
+"en": "<span class=\"param\">~1</span>: Return",
+"ja": "<span class=\"param\">~1</span>: もどる"
 },
 "obj_fusionmenu_slash_Draw_0_gml_136_0": {
-"en": "Press ~1 to Return",
-"ja": "~1を押してもどる"
+"en": "Press <span class=\"param\">~1</span> to Return",
+"ja": "<span class=\"param\">~1</span>を押してもどる"
 },
 "obj_fusionmenu_slash_Draw_0_gml_154_0": {
 "en": "HELD",
@@ -41494,8 +41494,8 @@ var rendered = {
 "ja": "GET!"
 },
 "obj_fusionmenu_slash_Step_0_gml_434_0": {
-"en": "~1: Place   ~2: Return",
-"ja": "~1: 配置   ~2: もどる"
+"en": "<span class=\"param\">~1</span>: Place   <span class=\"param\">~2</span>: Return",
+"ja": "<span class=\"param\">~1</span>: 配置   <span class=\"param\">~2</span>: もどる"
 },
 "obj_fusionmenu_slash_Step_0_gml_462_0": {
 "en": "      Place                 Return",
@@ -41584,8 +41584,8 @@ var rendered = {
 "ja": "&lt;!--アララ\n[巨大ロボ]ノ\n操作方法\n忘レタノ--&gt;"
 },
 "obj_gigaqueen_enemy_slash_Step_0_gml_57_0_b": {
-"en": "One More Time,\nPress ~1 And\n~2 To Dodge",
-"ja": "&lt;!--モウ一度　言イマス:\n~1 カ　~2 ヲ　押シテ \n[こうげき]ヲ\n[よける]; ワカッタ？--&gt;"
+"en": "One More Time,\nPress <span class=\"param\">~1</span> And\n<span class=\"param\">~2</span> To Dodge",
+"ja": "&lt;!--モウ一度　言イマス:\n<span class=\"param\">~1</span> カ　<span class=\"param\">~2</span> ヲ　押シテ \n[こうげき]ヲ\n[よける]; ワカッタ？--&gt;"
 },
 "obj_gigaqueen_enemy_slash_Step_0_gml_63_0": {
 "en": "The Time For\nWords Is Over",
@@ -41688,8 +41688,8 @@ var rendered = {
 "ja": "&lt;!--[操縦席]ニ\n[キーボード]ノ\n[コントローラー]ガ\nアルデショ--&gt;"
 },
 "obj_gigaqueen_enemy_slash_Step_0_gml_121_0": {
-"en": "Press ~1\nAnd ~2 To\nDodge ~3 And ~4\nTo Punch",
-"ja": "&lt;!--~1 カ　~2 デ\n[よける];\n~3 カ　~4 デ\n[パンチ]ヨ--&gt;"
+"en": "Press <span class=\"param\">~1</span>\nAnd <span class=\"param\">~2</span> To\nDodge <span class=\"param\">~3</span> And <span class=\"param\">~4</span>\nTo Punch",
+"ja": "&lt;!--<span class=\"param\">~1</span> カ　<span class=\"param\">~2</span> デ\n[よける];\n<span class=\"param\">~3</span> カ　<span class=\"param\">~4</span> デ\n[パンチ]ヨ--&gt;"
 },
 "obj_gigaqueen_enemy_slash_Step_0_gml_121_0_b": {
 "en": "You Have Truly\nProven Yourselves\nTo Be A Worthy\nOpponent",
@@ -41700,8 +41700,8 @@ var rendered = {
 "ja": "&lt;!--ヨッテ　[アンタら]ノ\n[ボコリングマシン]ノ\n真ノ　目的ヲ　思イ出サセテ\nアゲマス; ソレハ--&gt;"
 },
 "obj_gigaqueen_enemy_slash_Step_0_gml_123_0": {
-"en": "~1 And ~2 To\nPunch",
-"ja": "&lt;!--~1 カ　~2 デ\n[パンチ]ヨ--&gt;"
+"en": "<span class=\"param\">~1</span> And <span class=\"param\">~2</span> To\nPunch",
+"ja": "&lt;!--<span class=\"param\">~1</span> カ　<span class=\"param\">~2</span> デ\n[パンチ]ヨ--&gt;"
 },
 "obj_gigaqueen_enemy_slash_Step_0_gml_123_0_b": {
 "en": "To Get Your Own\nAss Thrashed",
@@ -41880,8 +41880,8 @@ var rendered = {
 },
 "obj_healwriter": {
 "obj_healwriter_slash_Draw_0_gml_4_0": {
-"en": "+~1",
-"ja": "+~1"
+"en": "+<span class=\"param\">~1</span>",
+"ja": "+<span class=\"param\">~1</span>"
 }
 },
 "obj_heartenemy": {
@@ -42522,8 +42522,8 @@ var rendered = {
 "ja": "＊ マウス - ちっちゃな　おうちで\n　 暮らしてる　ちっちゃな　ちっちゃな\n　 かわいいマウス。"
 },
 "obj_maus_enemy_slash_Step_0_gml_166_0": {
-"en": "<div class=\"indented\">* Press ~1 To Trap!!!</div>",
-"ja": "＊ ~1を押して捕まえろ！！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> To Trap!!!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して捕まえろ！！"
 },
 "obj_maus_enemy_slash_Step_0_gml_177_0": {
 "en": "<div class=\"indented\">* There's only one solution for a mouse!!</div>",
@@ -42570,8 +42570,8 @@ var rendered = {
 "ja": "＊ あ？"
 },
 "obj_maus_enemy_slash_Step_0_gml_269_0": {
-"en": "<div class=\"indented\">* Press ~1 to trap all the enemies!</div>",
-"ja": "＊ ~1を押して　敵を全員捕まえろ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to trap all the enemies!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して　敵を全員捕まえろ！"
 },
 "obj_maus_enemy_slash_Step_0_gml_304_0": {
 "en": "<div class=\"indented\">* Didn't catch anything...</div>",
@@ -42582,8 +42582,8 @@ var rendered = {
 "ja": "＊ 敵を捕まえた！"
 },
 "obj_maus_enemy_slash_Step_0_gml_306_0": {
-"en": "<div class=\"indented\">* Caught ~1 enemies!</div>",
-"ja": "＊ 敵を~1体　捕まえた！"
+"en": "<div class=\"indented\">* Caught <span class=\"param\">~1</span> enemies!</div>",
+"ja": "＊ 敵を<span class=\"param\">~1</span>体　捕まえた！"
 },
 "obj_maus_enemy_slash_Step_0_gml_322_0": {
 "en": "<div class=\"indented\">* Susie got on all fours and chased the mouse around the room like an animal!!</div>",
@@ -42690,12 +42690,12 @@ var rendered = {
 "ja": "＊ マウスホイール - １匹よりも２匹！\n　 ２匹よりも３匹…　かは　疑問。"
 },
 "obj_mauswheel_enemy_slash_Step_0_gml_163_0": {
-"en": "<div class=\"indented\">* Press ~1 To Trap!!!</div>",
-"ja": "＊ ~1を押して　捕まえろ！！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> To Trap!!!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して　捕まえろ！！"
 },
 "obj_mauswheel_enemy_slash_Step_0_gml_173_0": {
-"en": "<div class=\"indented\">* Press ~1 To Trap!!!</div>",
-"ja": "＊ ~1を押して　捕まえろ！！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> To Trap!!!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して　捕まえろ！！"
 },
 "obj_mauswheel_enemy_slash_Step_0_gml_183_0": {
 "en": "<div class=\"indented\">* Susie got on all fours and chased the mouse around the room like an animal!!</div>",
@@ -43390,8 +43390,8 @@ var rendered = {
 "ja": "＊ 約束どおり\n　 賞品を受け取ってくれ！"
 },
 "obj_npc_dojo_slash_Step_0_gml_51_0": {
-"en": "<div class=\"indented\">* (You received ~1!)</div>",
-"ja": "＊ (~1を手に入れた！)"
+"en": "<div class=\"indented\">* (You received <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>を手に入れた！)"
 },
 "obj_npc_dojo_slash_Step_0_gml_56_0": {
 "en": "<div class=\"indented\">* Boss! Your inventory is full!!</div>",
@@ -43440,8 +43440,8 @@ var rendered = {
 "ja": "＊ <span class=\"G\">[コケ]</span>を見つけた！ "
 },
 "obj_npc_dumpster_slash_Step_0_gml_63_0": {
-"en": "<div class=\"indented\">* Your title was upgraded to [Moss Finder].~1</div>",
-"ja": "＊ [コケゲッター]の称号を獲得した。~1"
+"en": "<div class=\"indented\">* Your title was upgraded to [Moss Finder].<span class=\"param\">~1</span></div>",
+"ja": "＊ [コケゲッター]の称号を獲得した。<span class=\"param\">~1</span>"
 },
 "obj_npc_dumpster_slash_Step_0_gml_78_0": {
 "en": "<div class=\"indented\">* (Why do they look so pleased?)</div>",
@@ -44056,8 +44056,8 @@ var rendered = {
 "ja": "＊ 手早く済ませよう。"
 },
 "obj_npc_hammerguy_slash_Step_0_gml_251_0": {
-"en": "<div class=\"indented\">* (You got ~1!)</div>",
-"ja": "＊ (~1を　手に入れた！)"
+"en": "<div class=\"indented\">* (You got <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>を　手に入れた！)"
 }
 },
 "obj_npc_king": {
@@ -44706,8 +44706,8 @@ var rendered = {
 "ja": "＊ せっかく　ジーンとくる\n　 いいシーンだったのに…"
 },
 "obj_npc_room_animated_slash_Other_10_gml_501_0": {
-"en": "<div class=\"indented\">* Oh... Oh, that's okay...~1</div>",
-"ja": "＊ あ…　うん　べつに　いいズー…~1"
+"en": "<div class=\"indented\">* Oh... Oh, that's okay...<span class=\"param\">~1</span></div>",
+"ja": "＊ あ…　うん　べつに　いいズー…<span class=\"param\">~1</span>"
 },
 "obj_npc_room_animated_slash_Other_10_gml_506_0": {
 "en": "<div class=\"indented\">* Oh hell, is that Nubert over there!?</div>",
@@ -46308,8 +46308,8 @@ var rendered = {
 "ja": "(それ　笑いながら言う…？)"
 },
 "obj_npc_room_slash_Other_10_gml_1236_0": {
-"en": "<div class=\"indented\">* You think it would torch the other side?~1</div>",
-"ja": "＊ 反対側を\n　 火の海に　できんじゃね？~1"
+"en": "<div class=\"indented\">* You think it would torch the other side?<span class=\"param\">~1</span></div>",
+"ja": "＊ 反対側を\n　 火の海に　できんじゃね？<span class=\"param\">~1</span>"
 },
 "obj_npc_room_slash_Other_10_gml_1239_0": {
 "en": "<div class=\"indented\">* Hey Kris, if you blasted flames down this horn thing...</div>",
@@ -46512,8 +46512,8 @@ var rendered = {
 "ja": "＊ これって　たぶん\n　 ひょっとして…　転職とか\n　 考えたほうが　よき…？"
 },
 "obj_npc_room_slash_Other_10_gml_1504_0": {
-"en": "<div class=\"indented\">* Oho. Welcome to</div><div class=\"indented\">  ~1Town!</div>",
-"ja": "＊ ウェ～ルカ～ム！　ここは\n　 ~1タウンだよ！"
+"en": "<div class=\"indented\">* Oho. Welcome to</div><div class=\"indented\">  <span class=\"param\">~1</span>Town!</div>",
+"ja": "＊ ウェ～ルカ～ム！　ここは\n　 <span class=\"param\">~1</span>タウンだよ！"
 },
 "obj_npc_room_slash_Other_10_gml_1505_0": {
 "en": "<div class=\"indented\">* Or so I heard it's called.</div>",
@@ -46524,8 +46524,8 @@ var rendered = {
 "ja": "＊ ウェ～ルカ～ム！"
 },
 "obj_npc_room_slash_Other_10_gml_1510_0": {
-"en": "<div class=\"indented\">* Things have changed again here in</div><div class=\"indented\">  ~1Town!</div>",
-"ja": "＊ ~1タウンは\n　 あれから　ずいぶん変わったよ！"
+"en": "<div class=\"indented\">* Things have changed again here in</div><div class=\"indented\">  <span class=\"param\">~1</span>Town!</div>",
+"ja": "＊ <span class=\"param\">~1</span>タウンは\n　 あれから　ずいぶん変わったよ！"
 },
 "obj_npc_room_slash_Other_10_gml_1517_0": {
 "en": "<div class=\"indented\">* Come to think of it,</div>",
@@ -46984,8 +46984,8 @@ var rendered = {
 "ja": "＊ (なんということを\n　 してくれたのだ！)"
 },
 "obj_npc_room_slash_Other_10_gml_2042_0": {
-"en": "<div class=\"indented\">* (You gave the other mice $~1 during that puzzle!)</div>",
-"ja": "＊ (先ほど　パズルを解く過程で\n　 ほかのネズミたちに\n　 $~1　与えただろう！)"
+"en": "<div class=\"indented\">* (You gave the other mice $<span class=\"param\">~1</span> during that puzzle!)</div>",
+"ja": "＊ (先ほど　パズルを解く過程で\n　 ほかのネズミたちに\n　 $<span class=\"param\">~1</span>　与えただろう！)"
 },
 "obj_npc_room_slash_Other_10_gml_2043_0": {
 "en": "<div class=\"indented\">* (At this rate, EVERY mouse is going to be wearing a wig...)</div>",
@@ -47670,8 +47670,8 @@ var rendered = {
 },
 "obj_npc_rudy": {
 "obj_npc_rudy_slash_Step_0_gml_29_0": {
-"en": "<div class=\"indented\">* 'Sides, your dad ain't much without his main man!~1</div>",
-"ja": "＊ それに　クリスのパパも\n　 あいかたが　いなきゃ\n　 こまるだろう！~1"
+"en": "<div class=\"indented\">* 'Sides, your dad ain't much without his main man!<span class=\"param\">~1</span></div>",
+"ja": "＊ それに　クリスのパパも\n　 あいかたが　いなきゃ\n　 こまるだろう！<span class=\"param\">~1</span>"
 },
 "obj_npc_rudy_slash_Step_0_gml_33_0": {
 "en": "<div class=\"indented\">* Yeah he... had to ask the store guy for free pickles.</div>",
@@ -47728,8 +47728,8 @@ var rendered = {
 "ja": "＊ ENEMY - AT 1 DF 1\n＊ Susceptible to Brainshock.       "
 },
 "obj_npc_sign_slash_Other_10_gml_27_0": {
-"en": "<div class=\"indented\">* (It's ~1 flower, protected in a container...)</div>",
-"ja": "＊ (~1の　はなだ。\n　 ケースで　まもられている…)"
+"en": "<div class=\"indented\">* (It's <span class=\"param\">~1</span> flower, protected in a container...)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>の　はなだ。\n　 ケースで　まもられている…)"
 },
 "obj_npc_sign_slash_Other_10_gml_32_0": {
 "en": "<div class=\"indented\">* (It's your dad's truck.)</div>",
@@ -48336,8 +48336,8 @@ var rendered = {
 "ja": "＊ …はー。"
 },
 "obj_npc_sign_slash_Other_10_gml_642_0_b": {
-"en": "<div class=\"indented\">* ~1 LEFT.</div>",
-"ja": "＊ ~1体　残っている。"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> LEFT.</div>",
+"ja": "＊ <span class=\"param\">~1</span>体　残っている。"
 },
 "obj_npc_sign_slash_Other_10_gml_643_0": {
 "en": "<div class=\"indented\">* ...</div>",
@@ -48352,8 +48352,8 @@ var rendered = {
 "ja": "＊ (クリス　まだ見てる…)"
 },
 "obj_npc_sign_slash_Other_10_gml_649_0": {
-"en": "<div class=\"indented\">* ~1 LEFT.</div>",
-"ja": "＊ ~1体　残っている。"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> LEFT.</div>",
+"ja": "＊ <span class=\"param\">~1</span>体　残っている。"
 },
 "obj_npc_sign_slash_Other_10_gml_651_0": {
 "en": "<div class=\"indented\">* (You became lost in the craftsmanship.)</div>",
@@ -48432,8 +48432,8 @@ var rendered = {
 "ja": "＊ あんたは　[イケてる町]の\n　 持ち主っぽい顔　してるからな。"
 },
 "obj_npc_sign_slash_Other_10_gml_770_0": {
-"en": "<div class=\"indented\">* According to cyber, you found ~1 blue checksmarks out of 3.</div>",
-"ja": "＊ サイバー情報によると　あんたが\n　 見つけた青いチェックマークは\n　 ３コ中　~1コだ。"
+"en": "<div class=\"indented\">* According to cyber, you found <span class=\"param\">~1</span> blue checksmarks out of 3.</div>",
+"ja": "＊ サイバー情報によると　あんたが\n　 見つけた青いチェックマークは\n　 ３コ中　<span class=\"param\">~1</span>コだ。"
 },
 "obj_npc_sign_slash_Other_10_gml_772_0": {
 "en": "<div class=\"indented\">* 0, not bad for a beginner. Your \"Checks Quest\" is only beginning.</div>",
@@ -49078,16 +49078,16 @@ var rendered = {
 },
 "obj_overworldc": {
 "obj_overworldc_slash_Draw_0_gml_37_0": {
-"en": "HP  ~1/~2",
-"ja": "HP  ~1/~2"
+"en": "HP  <span class=\"param\">~1</span>/<span class=\"param\">~2</span>",
+"ja": "HP  <span class=\"param\">~1</span>/<span class=\"param\">~2</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_38_0": {
-"en": "LV  ~1",
-"ja": "LV  ~1"
+"en": "LV  <span class=\"param\">~1</span>",
+"ja": "LV  <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_40_0": {
-"en": "$   ~1",
-"ja": "$   ~1"
+"en": "$   <span class=\"param\">~1</span>",
+"ja": "$   <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_42_0": {
 "en": "ITEM",
@@ -49114,24 +49114,24 @@ var rendered = {
 "ja": "DROP"
 },
 "obj_overworldc_slash_Draw_0_gml_66_0": {
-"en": "\"~1\"",
-"ja": "“~1”"
+"en": "\"<span class=\"param\">~1</span>\"",
+"ja": "“<span class=\"param\">~1</span>”"
 },
 "obj_overworldc_slash_Draw_0_gml_68_0": {
-"en": "LV  ~1",
-"ja": "LV  ~1"
+"en": "LV  <span class=\"param\">~1</span>",
+"ja": "LV  <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_69_0": {
-"en": "HP  ~1 / ~2",
-"ja": "HP  ~1 / ~2"
+"en": "HP  <span class=\"param\">~1</span> / <span class=\"param\">~2</span>",
+"ja": "HP  <span class=\"param\">~1</span> / <span class=\"param\">~2</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_71_0": {
-"en": "AT  ~1 (~2)",
-"ja": "AT  ~1 (~2)"
+"en": "AT  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)",
+"ja": "AT  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)"
 },
 "obj_overworldc_slash_Draw_0_gml_72_0": {
-"en": "DF  ~1 (~2)",
-"ja": "DF  ~1 (~2)"
+"en": "DF  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)",
+"ja": "DF  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)"
 },
 "obj_overworldc_slash_Draw_0_gml_73_0": {
 "en": "None",
@@ -49166,56 +49166,56 @@ var rendered = {
 "ja": "シャーペン"
 },
 "obj_overworldc_slash_Draw_0_gml_81_0": {
-"en": "WEAPON: ~1",
-"ja": "WPN: ~1"
+"en": "WEAPON: <span class=\"param\">~1</span>",
+"ja": "WPN: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_81_0_b": {
 "en": "Wristwatch",
 "ja": "うでどけい"
 },
 "obj_overworldc_slash_Draw_0_gml_82_0": {
-"en": "ARMOR: ~1",
-"ja": "AMR: ~1"
+"en": "ARMOR: <span class=\"param\">~1</span>",
+"ja": "AMR: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_83_0": {
-"en": "MONEY: ~1",
-"ja": "MONEY: ~1"
+"en": "MONEY: <span class=\"param\">~1</span>",
+"ja": "MONEY: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_88_0": {
 "en": "???",
 "ja": "？？？"
 },
 "obj_overworldc_slash_Draw_0_gml_92_0": {
-"en": "EXP: ~1",
-"ja": "EXP: ~1"
+"en": "EXP: <span class=\"param\">~1</span>",
+"ja": "EXP: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_95_0": {
-"en": "Since\nChapter ~1",
-"ja": "CHAPTER~1\nから"
+"en": "Since\nChapter <span class=\"param\">~1</span>",
+"ja": "CHAPTER<span class=\"param\">~1</span>\nから"
 },
 "obj_overworldc_slash_Draw_0_gml_113_0": {
-"en": "NEXT: ~1",
-"ja": "NEXT: ~1"
+"en": "NEXT: <span class=\"param\">~1</span>",
+"ja": "NEXT: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Step_0_gml_34_0": {
-"en": "<div class=\"indented\">* You put the ~1 on the ground and gave it a little pat.</div>",
-"ja": "＊ ~1を\n　 じめんに　おいて\n　 「おつかれさま」と　なでてあげた。"
+"en": "<div class=\"indented\">* You put the <span class=\"param\">~1</span> on the ground and gave it a little pat.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 じめんに　おいて\n　 「おつかれさま」と　なでてあげた。"
 },
 "obj_overworldc_slash_Step_0_gml_34_0_b": {
-"en": "<div class=\"indented\">* You bid a quiet farewell to the ~1.</div>",
-"ja": "＊ ~1に\n　 そっと　わかれを　つげた。"
+"en": "<div class=\"indented\">* You bid a quiet farewell to the <span class=\"param\">~1</span>.</div>",
+"ja": "＊ <span class=\"param\">~1</span>に\n　 そっと　わかれを　つげた。"
 },
 "obj_overworldc_slash_Step_0_gml_36_0": {
-"en": "<div class=\"indented\">* You threw the ~1 on the ground like the piece of trash it is.</div>",
-"ja": "＊ ~1を\n　 ゴミのように　なげすてた。"
+"en": "<div class=\"indented\">* You threw the <span class=\"param\">~1</span> on the ground like the piece of trash it is.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 ゴミのように　なげすてた。"
 },
 "obj_overworldc_slash_Step_0_gml_38_0": {
-"en": "<div class=\"indented\">* The ~1 was thrown away.</div>",
-"ja": "＊ ~1を\n　 すてた。"
+"en": "<div class=\"indented\">* The <span class=\"param\">~1</span> was thrown away.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 すてた。"
 },
 "obj_overworldc_slash_Step_0_gml_38_0_b": {
-"en": "<div class=\"indented\">* You abandoned the ~1.</div>",
-"ja": "＊ ~1を\n　 みすてた。"
+"en": "<div class=\"indented\">* You abandoned the <span class=\"param\">~1</span>.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 みすてた。"
 },
 "obj_overworldc_slash_Step_0_gml_42_0": {
 "en": "<div class=\"indented\">* What Egg?</div>",
@@ -49240,8 +49240,8 @@ var rendered = {
 "ja": "＊ ピピス"
 },
 "obj_pipis_enemy_slash_Step_0_gml_97_0": {
-"en": "\f~1 liked this!  ",
-"ja": "~1イイネ！"
+"en": "\f<span class=\"param\">~1</span> liked this!  ",
+"ja": "<span class=\"param\">~1</span>イイネ！"
 },
 "obj_pipis_enemy_slash_Step_0_gml_100_0": {
 "en": "PIPIS - ''The Original'' An invasive species of freshwater clam.  ",
@@ -49466,8 +49466,8 @@ var rendered = {
 "ja": "Random String 1を　ご所望だ。"
 },
 "obj_poppup_enemy_slash_Step_0_gml_140_0": {
-"en": "<div class=\"indented\">* Poppup wants ~1</div>",
-"ja": "＊ ポップアップは\n　 ~1"
+"en": "<div class=\"indented\">* Poppup wants <span class=\"param\">~1</span></div>",
+"ja": "＊ ポップアップは\n　 <span class=\"param\">~1</span>"
 },
 "obj_poppup_enemy_slash_Step_0_gml_142_0": {
 "en": "<div class=\"indented\">* Smells like tropical candy.</div>",
@@ -49510,8 +49510,8 @@ var rendered = {
 "ja": "＊ え…！？　分身した…！？"
 },
 "obj_poppup_enemy_slash_Step_0_gml_309_0": {
-"en": "<div class=\"indented\">* Press ~1 repeatedly to block the ads!!</div>",
-"ja": "＊ ~1 を連打して　広告をブロック！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> repeatedly to block the ads!!</div>",
+"ja": "＊ <span class=\"param\">~1</span> を連打して　広告をブロック！"
 },
 "obj_poppup_enemy_slash_Step_0_gml_415_0": {
 "en": "<div class=\"indented\">* Noelle got nervous and looked at the ground!</div>",
@@ -49906,8 +49906,8 @@ var rendered = {
 "ja": "＊ クイーンは　グラスの酸液を飲んだ！"
 },
 "obj_queen_enemy_slash_Step_0_gml_519_0": {
-"en": "<div class=\"indented\">* Press ~1 to throw, aim for the weakpoint!</div>",
-"ja": "＊ ~1で　投げろ！\n　 弱点をねらえ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to throw, aim for the weakpoint!</div>",
+"ja": "＊ <span class=\"param\">~1</span>で　投げろ！\n　 弱点をねらえ！"
 },
 "obj_queen_enemy_slash_Step_0_gml_520_0": {
 "en": "<div class=\"indented\">* Use UP and DOWN to Aim for the wires!</div>",
@@ -52370,8 +52370,8 @@ var rendered = {
 "ja": "＊ スージィには\n　 マニュアルを\n　 読んでもらえてないから…"
 },
 "obj_readable_room1_slash_Other_10_gml_1921_0_b": {
-"en": "<div class=\"indented\">* It's some decorative moss. Looks delicious.~1</div>",
-"ja": "＊ 装飾用のコケ。おいしそうだ。~1"
+"en": "<div class=\"indented\">* It's some decorative moss. Looks delicious.<span class=\"param\">~1</span></div>",
+"ja": "＊ 装飾用のコケ。おいしそうだ。<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_1922_0": {
 "en": "<div class=\"indented\">* So I put it over here for you.</div>",
@@ -52530,8 +52530,8 @@ var rendered = {
 "ja": "＊ …"
 },
 "obj_readable_room1_slash_Other_10_gml_2101_0": {
-"en": "<div class=\"indented\">* (The door is locked.)~1</div>",
-"ja": "＊ (カギが　かかっている)~1"
+"en": "<div class=\"indented\">* (The door is locked.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (カギが　かかっている)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_2106_0": {
 "en": "<div class=\"indented\">* Kris...? Wh-why did you bring me here...?</div>",
@@ -52862,8 +52862,8 @@ var rendered = {
 "ja": "＊ (信号機を使って　ブロックを正しく\n　 回転させ　ネズミを解放することは\n　 この街の市民の務めです)"
 },
 "obj_readable_room1_slash_Other_10_gml_2641_0": {
-"en": "<div class=\"indented\">* ~1: Engage and Disengage.</div><div class=\"indented\">* ~2 ~3: Rotate.</div><div class=\"indented\">* ~4: Release.</div>",
-"ja": "＊ ~1: アクセス／アクセス解除\n＊ ~2 ~3: 回転\n＊ ~4: リリース"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span>: Engage and Disengage.</div><div class=\"indented\">* <span class=\"param\">~2</span> <span class=\"param\">~3</span>: Rotate.</div><div class=\"indented\">* <span class=\"param\">~4</span>: Release.</div>",
+"ja": "＊ <span class=\"param\">~1</span>: アクセス／アクセス解除\n＊ <span class=\"param\">~2</span> <span class=\"param\">~3</span>: 回転\n＊ <span class=\"param\">~4</span>: リリース"
 },
 "obj_readable_room1_slash_Other_10_gml_2651_0": {
 "en": "<div class=\"indented\">* (It's a hole for mice to come from.)</div>",
@@ -53300,20 +53300,20 @@ var rendered = {
 "ja": "あー。"
 },
 "obj_rouxls_enemy_slash_Step_0_gml_136_0": {
-"en": "<div class=\"indented\">* You need more ~1 Zones.</div>",
-"ja": "＊ ~1が　足りない。"
+"en": "<div class=\"indented\">* You need more <span class=\"param\">~1</span> Zones.</div>",
+"ja": "＊ <span class=\"param\">~1</span>が　足りない。"
 },
 "obj_rouxls_enemy_slash_Step_0_gml_142_0": {
-"en": "<div class=\"indented\">* Your city is lacking ~1.</div>",
-"ja": "＊ この街には　~1が\n　 不足している。"
+"en": "<div class=\"indented\">* Your city is lacking <span class=\"param\">~1</span>.</div>",
+"ja": "＊ この街には　<span class=\"param\">~1</span>が\n　 不足している。"
 },
 "obj_rouxls_enemy_slash_Step_0_gml_147_0": {
 "en": "<div class=\"indented\">* The enemy's ship seems to have fallen in love with yours.</div>",
 "ja": "＊ 敵の船は　こちらの船に\n　 ひとめぼれしたようだ。"
 },
 "obj_rouxls_enemy_slash_Step_0_gml_147_1": {
-"en": "<div class=\"indented\">* You can't help but notice the enemy's ship is very ~1.</div>",
-"ja": "＊ 敵の船は　見れば見るほど\n　 ~1。"
+"en": "<div class=\"indented\">* You can't help but notice the enemy's ship is very <span class=\"param\">~1</span>.</div>",
+"ja": "＊ 敵の船は　見れば見るほど\n　 <span class=\"param\">~1</span>。"
 },
 "obj_rouxls_enemy_slash_Step_0_gml_150_0": {
 "en": "<div class=\"indented\">* Smells like a model house set.</div>",
@@ -53426,8 +53426,8 @@ var rendered = {
 "ja": "＊ なんじズ　余に\n　 見とれちゃってるなう…？"
 },
 "obj_rouxls_simtown_slash_Draw_0_gml_80_0": {
-"en": "<div class=\"indented\">* Claim with ~1!</div>",
-"ja": "＊ ~1で占領！"
+"en": "<div class=\"indented\">* Claim with <span class=\"param\">~1</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>で占領！"
 },
 "obj_rouxls_simtown_slash_Draw_0_gml_103_0": {
 "en": "<div class=\"indented\">* Claim with</div>",
@@ -53712,8 +53712,8 @@ var rendered = {
 "ja": "クリス"
 },
 "obj_savemenu_slash_Draw_0_gml_34_0": {
-"en": "LV ~1",
-"ja": "LV ~1"
+"en": "LV <span class=\"param\">~1</span>",
+"ja": "LV <span class=\"param\">~1</span>"
 },
 "obj_savemenu_slash_Draw_0_gml_47_0": {
 "en": "Save",
@@ -53740,8 +53740,8 @@ var rendered = {
 "ja": "データなし"
 },
 "obj_savemenu_slash_Draw_0_gml_215_0": {
-"en": "Overwrite Slot ~1?",
-"ja": "スロット~1に上書きしますか？"
+"en": "Overwrite Slot <span class=\"param\">~1</span>?",
+"ja": "スロット<span class=\"param\">~1</span>に上書きしますか？"
 },
 "obj_savemenu_slash_Draw_0_gml_371_0": {
 "en": "File Saved",
@@ -53940,8 +53940,8 @@ var rendered = {
 "ja": "[矢印]\n移動"
 },
 "obj_shapepuzzle_slash_Draw_0_gml_173_0": {
-"en": "~1 Rotate\n~2 Quit",
-"ja": "~1 回転\n~2 終了"
+"en": "<span class=\"param\">~1</span> Rotate\n<span class=\"param\">~2</span> Quit",
+"ja": "<span class=\"param\">~1</span> 回転\n<span class=\"param\">~2</span> 終了"
 },
 "obj_shapepuzzle_slash_Draw_0_gml_181_0": {
 "en": "\nMove",
@@ -54012,8 +54012,8 @@ var rendered = {
 "ja": "ランサー"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_250_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_262_0": {
 "en": "  *Take\n your\n pick!",
@@ -54044,8 +54044,8 @@ var rendered = {
 "ja": "　 まいどあり！\n「そうこ」に\n送ったぜ"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_291_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_343_0": {
 "en": "About yourselves",
@@ -54116,8 +54116,8 @@ var rendered = {
 "ja": "　 はぁ？\nなんも\nねえじゃん！"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_508_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_532_0": {
 "en": "  *Nice town, chief.\n I think we're gonna like it\n here!\n Cool city.",
@@ -54220,8 +54220,8 @@ var rendered = {
 "ja": "　 YO！　どうだった！？\n　 最高に　アツかっただろうッ！？\n　 ボクたちの曲って\n　 どれも４秒しかないんだ～。"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_677_0": {
-"en": "Space:~1",
-"ja": "空き:~1"
+"en": "Space:<span class=\"param\">~1</span>",
+"ja": "空き:<span class=\"param\">~1</span>"
 }
 },
 "obj_shop_ch2_spamton": {
@@ -54278,8 +54278,8 @@ var rendered = {
 "ja": "逃"
 },
 "obj_shop_ch2_spamton_slash_Draw_0_gml_337_0": {
-"en": "~1 KROMER",
-"ja": "~1ｸﾛｰﾒ"
+"en": "<span class=\"param\">~1</span> KROMER",
+"ja": "<span class=\"param\">~1</span>ｸﾛｰﾒ"
 },
 "obj_shop_ch2_spamton_slash_Draw_0_gml_339_0": {
 "en": "--SOLD OUT--",
@@ -54318,8 +54318,8 @@ var rendered = {
 "ja": "送金する？"
 },
 "obj_shop_ch2_spamton_slash_Draw_0_gml_380_0": {
-"en": "~1 KROMER ?",
-"ja": "~1ｸﾛｰﾒ"
+"en": "<span class=\"param\">~1</span> KROMER ?",
+"ja": "<span class=\"param\">~1</span>ｸﾛｰﾒ"
 },
 "obj_shop_ch2_spamton_slash_Draw_0_gml_445_0": {
 "en": "OUR DEAL",
@@ -54362,8 +54362,8 @@ var rendered = {
 "ja": "Return"
 },
 "obj_shop_ch2_spamton_slash_Draw_0_gml_619_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_spamton_slash_Draw_0_gml_647_0": {
 "en": "<div class=\"indented\">* DON'T FORGET TO</div><div class=\"indented\">  [Like and Subscribe]</div><div class=\"indented\">  FOR MORE</div><div class=\"indented\">  [Hyperlink Blocked]!</div>",
@@ -54648,8 +54648,8 @@ var rendered = {
 "ja": "＊ カラーカフェへ\n 　ようこそ。\n＊ あたたかな\n　 ひとときを\n　 お過ごしくださいませ。"
 },
 "obj_shop_ch2_swatch_slash_Draw_0_gml_120_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_swatch_slash_Draw_0_gml_132_0": {
 "en": "Our menu\nis\nspecially\nprepared.",
@@ -54676,8 +54676,8 @@ var rendered = {
 "ja": "ありがとう\nございます\nでは\nそうこに…"
 },
 "obj_shop_ch2_swatch_slash_Draw_0_gml_160_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_swatch_slash_Draw_0_gml_213_0": {
 "en": "Mission Statement",
@@ -54752,8 +54752,8 @@ var rendered = {
 "ja": "黒は\n悲しみの\n色で\nございます"
 },
 "obj_shop_ch2_swatch_slash_Draw_0_gml_387_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_swatch_slash_Draw_0_gml_415_0": {
 "en": "<div class=\"indented\">* Please come again.</div><div class=\"indented\">* We'll be waiting for you</div><div class=\"indented\">  with rose-tinted glasses...</div>",
@@ -54944,8 +54944,8 @@ var rendered = {
 "ja": "＊ なんとも残念なことでございます。\n　 あの方も　かつては当店の\n　 大切なお客さまでしたので…"
 },
 "obj_shop_ch2_swatch_slash_Draw_0_gml_557_0": {
-"en": "Space:~1",
-"ja": "空き:~1"
+"en": "Space:<span class=\"param\">~1</span>",
+"ja": "空き:<span class=\"param\">~1</span>"
 }
 },
 "obj_shop1": {
@@ -54998,8 +54998,8 @@ var rendered = {
 "ja": "もどる"
 },
 "obj_shop1_slash_Draw_0_gml_143_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop1_slash_Draw_0_gml_148_0": {
 "en": "What do\nyou like\nto buy?",
@@ -55042,8 +55042,8 @@ var rendered = {
 "ja": "いいえ"
 },
 "obj_shop1_slash_Draw_0_gml_177_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop1_slash_Draw_0_gml_217_0": {
 "en": "About yourself",
@@ -55178,8 +55178,8 @@ var rendered = {
 "ja": "＊ ここじゃ　暇つぶしのひとつや\n　 ふたつ　ないとやってられないのさ…\n＊ でなきゃ　他の連中みたいに\n　 おかしくなっちまう。"
 },
 "obj_shop1_slash_Draw_0_gml_407_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop1_slash_Draw_0_gml_411_0": {
 "en": "<div class=\"indented\">* Long ago, the Darkners lived in harmony with the Lightners.</div>",
@@ -55562,8 +55562,8 @@ var rendered = {
 "ja": "＊ そう　あいつを\n　 倒したことがあるんなら…"
 },
 "obj_shop1_slash_Draw_0_gml_638_0": {
-"en": "<div class=\"indented\">* Then perhaps, even now, that Crystal might turn up somewhere close... Perhaps!~1</div>",
-"ja": "＊ ひょっとしたら　この近くのどこかに…\n　 シャドウジェムが現れる…\n　 かもしれないねえ？~1"
+"en": "<div class=\"indented\">* Then perhaps, even now, that Crystal might turn up somewhere close... Perhaps!<span class=\"param\">~1</span></div>",
+"ja": "＊ ひょっとしたら　この近くのどこかに…\n　 シャドウジェムが現れる…\n　 かもしれないねえ？<span class=\"param\">~1</span>"
 },
 "obj_shop1_slash_Draw_0_gml_639_0": {
 "en": "<div class=\"indented\">* Aha! Another Shadow Crystal! You found it...</div>",
@@ -55722,8 +55722,8 @@ var rendered = {
 "ja": "＊ 宿命のときは迫る…\n　 残念ながら　あんたたちには\n　 酷な展開に　なりそうだよ。"
 },
 "obj_shop1_slash_Draw_0_gml_784_0": {
-"en": "Space:~1",
-"ja": "空き:~1"
+"en": "Space:<span class=\"param\">~1</span>",
+"ja": "空き:<span class=\"param\">~1</span>"
 }
 },
 "obj_shop2": {
@@ -55772,8 +55772,8 @@ var rendered = {
 "ja": "出る"
 },
 "obj_shop2_slash_Draw_0_gml_113_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop2_slash_Draw_0_gml_115_0": {
 "en": "Exit",
@@ -55820,8 +55820,8 @@ var rendered = {
 "ja": "いいえ"
 },
 "obj_shop2_slash_Draw_0_gml_147_0_b": {
-"en": "$~1 ?",
-"ja": "$~1？"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>？"
 },
 "obj_shop2_slash_Draw_0_gml_194_0": {
 "en": "About yourself",
@@ -55916,8 +55916,8 @@ var rendered = {
 "ja": "いいえ"
 },
 "obj_shop2_slash_Draw_0_gml_328_0": {
-"en": "$~1 ?",
-"ja": "$~1？"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>？"
 },
 "obj_shop2_slash_Draw_0_gml_353_0": {
 "en": "<div class=\"indented\">* See thou in the Dungeon, Worms!</div>",
@@ -56060,8 +56060,8 @@ var rendered = {
 "ja": "空きナシ"
 },
 "obj_shop2_slash_Draw_0_gml_482_0": {
-"en": "Space:~1",
-"ja": "空き:~1"
+"en": "Space:<span class=\"param\">~1</span>",
+"ja": "空き:<span class=\"param\">~1</span>"
 }
 },
 "obj_shortcut_door": {
@@ -56834,8 +56834,8 @@ var rendered = {
 "ja": "＊ スパムトンは　天を仰いだ。"
 },
 "obj_spamton_neo_enemy_slash_Step_0_gml_313_0": {
-"en": "<div class=\"indented\">* Hold and release ~1 to fire a BIG SHOT!</div>",
-"ja": "＊ ~1を長押しして　はなすと\n　 [[BIGショット]]を　発射！"
+"en": "<div class=\"indented\">* Hold and release <span class=\"param\">~1</span> to fire a BIG SHOT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を長押しして　はなすと\n　 [[BIGショット]]を　発射！"
 },
 "obj_spamton_neo_enemy_slash_Step_0_gml_316_0": {
 "en": "<div class=\"indented\">* Spamton turns to the audience and laughs.</div>",
@@ -56890,8 +56890,8 @@ var rendered = {
 "ja": "＊ クリスは　Ｘスラッシュを発動した！"
 },
 "obj_spamton_neo_enemy_slash_Step_0_gml_534_0": {
-"en": "<div class=\"indented\">* Press ~1 to throw, aim for the weakpoint!</div>",
-"ja": "＊ ~1で　投げろ！\n　 弱点を　ねらえ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to throw, aim for the weakpoint!</div>",
+"ja": "＊ <span class=\"param\">~1</span>で　投げろ！\n　 弱点を　ねらえ！"
 },
 "obj_spamton_neo_enemy_slash_Step_0_gml_581_0": {
 "en": "<div class=\"indented\">* RECOVERED HP with pipis! </div>",
@@ -57362,8 +57362,8 @@ var rendered = {
 "ja": "あたたか"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_395_0": {
-"en": "<div class=\"indented\">* But Swatchling is already as ~1 as can be!</div>",
-"ja": "＊ しかし　パレットラーは　もう\n　 じゅうぶん　~1だ！"
+"en": "<div class=\"indented\">* But Swatchling is already as <span class=\"param\">~1</span> as can be!</div>",
+"ja": "＊ しかし　パレットラーは　もう\n　 じゅうぶん　<span class=\"param\">~1</span>だ！"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_404_0": {
 "en": "a little bit",
@@ -57374,12 +57374,12 @@ var rendered = {
 "ja": "かなり"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_419_0": {
-"en": "<div class=\"indented\">* Swatchling's color got ~1 warmer...! It's now ~2!</div>",
-"ja": "＊ パレットラーの色が\n　 ~1　あたたかくなった…！\n　 パレットラーは　~2になった！"
+"en": "<div class=\"indented\">* Swatchling's color got <span class=\"param\">~1</span> warmer...! It's now <span class=\"param\">~2</span>!</div>",
+"ja": "＊ パレットラーの色が\n　 <span class=\"param\">~1</span>　あたたかくなった…！\n　 パレットラーは　<span class=\"param\">~2</span>になった！"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_422_0": {
-"en": "<div class=\"indented\">* Swatchling's color turned ~1 colder...! It's now ~2!</div>",
-"ja": "＊ パレットラーの色が\n　 ~1　さむくなった…！\n　 パレットラーは　~2になった！"
+"en": "<div class=\"indented\">* Swatchling's color turned <span class=\"param\">~1</span> colder...! It's now <span class=\"param\">~2</span>!</div>",
+"ja": "＊ パレットラーの色が\n　 <span class=\"param\">~1</span>　さむくなった…！\n　 パレットラーは　<span class=\"param\">~2</span>になった！"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_422_0_b": {
 "en": "blue",
@@ -57398,40 +57398,40 @@ var rendered = {
 "ja": "緑"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_432_0": {
-"en": "<div class=\"indented\">* Susie mentions lava.~1</div>",
-"ja": "＊ スージィは　溶岩の話をした。~1"
+"en": "<div class=\"indented\">* Susie mentions lava.<span class=\"param\">~1</span></div>",
+"ja": "＊ スージィは　溶岩の話をした。<span class=\"param\">~1</span>"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_434_0": {
 "en": "orange",
 "ja": "オレンジ"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_436_0": {
-"en": "<div class=\"indented\">* Susie mentions hot peppers.~1</div>",
-"ja": "＊ スージィは　トウガラシの話をした。~1"
+"en": "<div class=\"indented\">* Susie mentions hot peppers.<span class=\"param\">~1</span></div>",
+"ja": "＊ スージィは　トウガラシの話をした。<span class=\"param\">~1</span>"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_437_0": {
 "en": "<div class=\"indented\">* But nothing happened!</div>",
 "ja": "＊ しかし　なにも起こらなかった！"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_444_0": {
-"en": "<div class=\"indented\">* Susie mentions explosions.~1</div>",
-"ja": "＊ スージィは　爆発について話した。~1"
+"en": "<div class=\"indented\">* Susie mentions explosions.<span class=\"param\">~1</span></div>",
+"ja": "＊ スージィは　爆発について話した。<span class=\"param\">~1</span>"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_456_0": {
-"en": "<div class=\"indented\">* Ralsei mentions mint tea.~1</div>",
-"ja": "＊ ラルセイは\n　 ミントティーについて話した。~1"
+"en": "<div class=\"indented\">* Ralsei mentions mint tea.<span class=\"param\">~1</span></div>",
+"ja": "＊ ラルセイは\n　 ミントティーについて話した。<span class=\"param\">~1</span>"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_460_0": {
 "en": "<div class=\"indented\">* But nothing happened!</div>",
 "ja": "＊ しかし　なにも起こらなかった！"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_465_0": {
-"en": "<div class=\"indented\">* Ralsei mentions icy scarves.~1</div>",
-"ja": "＊ ラルセイは\n　 霜のついたマフラーの話をした。~1"
+"en": "<div class=\"indented\">* Ralsei mentions icy scarves.<span class=\"param\">~1</span></div>",
+"ja": "＊ ラルセイは\n　 霜のついたマフラーの話をした。<span class=\"param\">~1</span>"
 },
 "obj_swatchling_enemy_slash_Step_0_gml_469_0": {
-"en": "<div class=\"indented\">* Ralsei mentions ice cream.~1</div>",
-"ja": "＊ ラルセイは　アイスクリームの話をした。~1"
+"en": "<div class=\"indented\">* Ralsei mentions ice cream.<span class=\"param\">~1</span></div>",
+"ja": "＊ ラルセイは　アイスクリームの話をした。<span class=\"param\">~1</span>"
 }
 },
 "obj_sweet_enemy": {
@@ -57650,8 +57650,8 @@ var rendered = {
 "ja": "最大化"
 },
 "obj_tasque_enemy_slash_Step_0_gml_100_0": {
-"en": "<div class=\"indented\">* Tasque is meowing to be ~1.</div>",
-"ja": "＊ タスクは　ニャーニャー言っている。\n　 ~1してほしいようだ。"
+"en": "<div class=\"indented\">* Tasque is meowing to be <span class=\"param\">~1</span>.</div>",
+"ja": "＊ タスクは　ニャーニャー言っている。\n　 <span class=\"param\">~1</span>してほしいようだ。"
 },
 "obj_tasque_enemy_slash_Step_0_gml_102_0": {
 "en": "<div class=\"indented\">* Tasque cleans with a sawtooth tongue.</div>",
@@ -57682,16 +57682,16 @@ var rendered = {
 "ja": "相手は　ただの\nネコだよ…"
 },
 "obj_tasque_enemy_slash_Step_0_gml_155_0": {
-"en": "<div class=\"indented\">* Susie roared!! The enemies became TIRED.~1</div>",
-"ja": "＊ スージィは　ほえた！\n　 敵は　くたびれた。~1"
+"en": "<div class=\"indented\">* Susie roared!! The enemies became TIRED.<span class=\"param\">~1</span></div>",
+"ja": "＊ スージィは　ほえた！\n　 敵は　くたびれた。<span class=\"param\">~1</span>"
 },
 "obj_tasque_enemy_slash_Step_0_gml_160_0": {
 "en": "<div class=\"indented\">* Who's king of the jungle now!?</div>",
 "ja": "＊ 百獣の王は　オレだ！！ "
 },
 "obj_tasque_enemy_slash_Step_0_gml_177_0": {
-"en": "<div class=\"indented\">* You and Noelle pet the enemies!~1</div>",
-"ja": "＊ ノエルと　いっしょに\n　 敵を　ナデナデした！~1"
+"en": "<div class=\"indented\">* You and Noelle pet the enemies!<span class=\"param\">~1</span></div>",
+"ja": "＊ ノエルと　いっしょに\n　 敵を　ナデナデした！<span class=\"param\">~1</span>"
 },
 "obj_tasque_enemy_slash_Step_0_gml_182_0": {
 "en": "<div class=\"indented\">* Th-there, there... (It's not too different from Catti...)</div>",
@@ -57702,8 +57702,8 @@ var rendered = {
 "ja": "いつもの　しゃべりかたと　同じじゃね…？"
 },
 "obj_tasque_enemy_slash_Step_0_gml_207_0": {
-"en": "<div class=\"indented\">* Ralsei talked in a soft voice to the enemies!~1</div>",
-"ja": "＊ ラルセイは　やさしい声で\n　 敵に語りかけた！~1"
+"en": "<div class=\"indented\">* Ralsei talked in a soft voice to the enemies!<span class=\"param\">~1</span></div>",
+"ja": "＊ ラルセイは　やさしい声で\n　 敵に語りかけた！<span class=\"param\">~1</span>"
 },
 "obj_tasque_enemy_slash_Step_0_gml_212_0": {
 "en": "<div class=\"indented\">* There, there, it's okay, little kitty...</div>",
@@ -57756,8 +57756,8 @@ var rendered = {
 "ja": "ほどけたクツひも？"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_39_0": {
-"en": "~1\nLet me whip it into shape!",
-"ja": "~1\nワタシのムチで\nたたき直しましょう！"
+"en": "<span class=\"param\">~1</span>\nLet me whip it into shape!",
+"ja": "<span class=\"param\">~1</span>\nワタシのムチで\nたたき直しましょう！"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_46_0": {
 "en": "Hors d'oeuvre,\nHors d'oeuvre...\nI mean, order, order!",
@@ -57860,8 +57860,8 @@ var rendered = {
 "ja": "A treat!! Somebody give her a treat!!"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": {
-"en": "<div class=\"indented\">* Play dead!? I'll teach YOU to play dead!!~1</div>",
-"ja": "＊ Play dead!? I'll teach YOU to play dead!!~1"
+"en": "<div class=\"indented\">* Play dead!? I'll teach YOU to play dead!!<span class=\"param\">~1</span></div>",
+"ja": "＊ Play dead!? I'll teach YOU to play dead!!<span class=\"param\">~1</span>"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_274_0": {
 "en": "<div class=\"indented\">* Susie got managed!</div>",
@@ -57900,8 +57900,8 @@ var rendered = {
 "ja": "Why the hell do YOU get one of those!!"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_311_0": {
-"en": "<div class=\"indented\">* Due to good behavior, he received an obedience badge.~1</div>",
-"ja": "＊ Due to good behavior, he received an obedience badge.~1"
+"en": "<div class=\"indented\">* Due to good behavior, he received an obedience badge.<span class=\"param\">~1</span></div>",
+"ja": "＊ Due to good behavior, he received an obedience badge.<span class=\"param\">~1</span>"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_314_0": {
 "en": "<div class=\"indented\">* R-Action failed!</div>",
@@ -58004,8 +58004,8 @@ var rendered = {
 "ja": "＊ ふふふ…　なぁんてね。\n　 さきのことなんて　だれにも\n　 わかりはしないわ。"
 },
 "obj_tem_school_slash_Other_10_gml_66_0": {
-"en": "<div class=\"indented\">* (The eggs you have collected so far. There's ~1.)</div>",
-"ja": "＊ (これまでに　てにいれたタマゴ。\n　 ~1コだ)"
+"en": "<div class=\"indented\">* (The eggs you have collected so far. There's <span class=\"param\">~1</span>.)</div>",
+"ja": "＊ (これまでに　てにいれたタマゴ。\n　 <span class=\"param\">~1</span>コだ)"
 }
 },
 "obj_tensionbar": {
@@ -58061,7 +58061,7 @@ var rendered = {
 },
 "obj_thrashafter_event_slash_Step_0_gml_34_0": {
 "en": null,
-"ja": "＊ That's right!!\n＊ The ~1!!"
+"ja": "＊ That's right!!\n＊ The <span class=\"param\">~1</span>!!"
 },
 "obj_thrashafter_event_slash_Step_0_gml_35_0": {
 "en": null,
@@ -58105,7 +58105,7 @@ var rendered = {
 },
 "obj_thrashafter_event_slash_Step_0_gml_108_0": {
 "en": null,
-"ja": "＊ Wow! M... Me!? In the ~1!?"
+"ja": "＊ Wow! M... Me!? In the <span class=\"param\">~1</span>!?"
 },
 "obj_thrashafter_event_slash_Step_0_gml_109_0": {
 "en": null,
@@ -58142,8 +58142,8 @@ var rendered = {
 },
 "obj_throwralsei": {
 "obj_throwralsei_slash_Step_0_gml_26_0": {
-"en": "<div class=\"indented\">* Press ~1 to determine the POWER!</div>",
-"ja": "＊ ~1を押して\n　 力加減を決めろ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to determine the POWER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して\n　 力加減を決めろ！"
 }
 },
 "obj_town_event": {
@@ -58182,16 +58182,16 @@ var rendered = {
 "ja": "＊ (宝箱は　からっぽだ)"
 },
 "obj_treasure_room_slash_Other_10_gml_65_0": {
-"en": "<div class=\"indented\">* (You opened the treasure chest.)</div><div class=\"indented\">* (Inside was <span class=\"Y\">~1</span>.)</div>",
-"ja": "＊ (宝箱を開けた)\n＊ (<span class=\"Y\">~1</span>が\n　 入っていた)"
+"en": "<div class=\"indented\">* (You opened the treasure chest.)</div><div class=\"indented\">* (Inside was <span class=\"Y\"><span class=\"param\">~1</span></span>.)</div>",
+"ja": "＊ (宝箱を開けた)\n＊ (<span class=\"Y\"><span class=\"param\">~1</span></span>が\n　 入っていた)"
 },
 "obj_treasure_room_slash_Other_10_gml_76_0": {
-"en": "<div class=\"indented\">* (<span class=\"Y\">~1</span> was added to your <span class=\"Y\">~2</span>.)</div>",
-"ja": "＊ (<span class=\"Y\">~1</span>が\n　 <span class=\"Y\">~2</span>に　加わった)"
+"en": "<div class=\"indented\">* (<span class=\"Y\"><span class=\"param\">~1</span></span> was added to your <span class=\"Y\"><span class=\"param\">~2</span></span>.)</div>",
+"ja": "＊ (<span class=\"Y\"><span class=\"param\">~1</span></span>が\n　 <span class=\"Y\"><span class=\"param\">~2</span></span>に　加わった)"
 },
 "obj_treasure_room_slash_Other_10_gml_83_0": {
-"en": "<div class=\"indented\">* (You have too many <span class=\"Y\">~2</span> to take <span class=\"Y\">~1</span>.)</div>",
-"ja": "＊ (<span class=\"Y\">~2</span>が多すぎて\n　 <span class=\"Y\">~1</span>を\n　 持てない)"
+"en": "<div class=\"indented\">* (You have too many <span class=\"Y\"><span class=\"param\">~2</span></span> to take <span class=\"Y\"><span class=\"param\">~1</span></span>.)</div>",
+"ja": "＊ (<span class=\"Y\"><span class=\"param\">~2</span></span>が多すぎて\n　 <span class=\"Y\"><span class=\"param\">~1</span></span>を\n　 持てない)"
 }
 },
 "obj_unusedclassevent": {
@@ -58622,8 +58622,8 @@ var rendered = {
 "ja": "＊ オゾンの　ニオイがする。"
 },
 "obj_werewire_enemy_slash_Step_0_gml_122_0": {
-"en": "<div class=\"indented\">* Try timing your attacks by pressing ~1!</div>",
-"ja": "＊ タイミングよく~1を押して\n　 こうげき！"
+"en": "<div class=\"indented\">* Try timing your attacks by pressing <span class=\"param\">~1</span>!</div>",
+"ja": "＊ タイミングよく<span class=\"param\">~1</span>を押して\n　 こうげき！"
 },
 "obj_werewire_enemy_slash_Step_0_gml_393_0": {
 "en": "<div class=\"indented\">* WEREWIRE - Controlled by the Queen's wire, it's sleepwalking through a nightmare!</div>",
@@ -58638,8 +58638,8 @@ var rendered = {
 "ja": "＊ 体を　ユラユラさせた！"
 },
 "obj_werewire_enemy_slash_Step_0_gml_425_0": {
-"en": "<div class=\"indented\">* Press ~1 to throw, aim for the weakpoint!</div>",
-"ja": "＊ ~1 で　投げろ！\n　 弱点を　ねらえ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to throw, aim for the weakpoint!</div>",
+"ja": "＊ <span class=\"param\">~1</span> で　投げろ！\n　 弱点を　ねらえ！"
 },
 "obj_werewire_enemy_slash_Step_0_gml_457_0": {
 "en": "<div class=\"indented\">* Susie yanked on the wire! It loosened a little bit.</div>",
@@ -60026,8 +60026,8 @@ var rendered = {
 "ja": "一口食べれば舌がクルクルおどる絶品ケーキ。\n仲間全員のHPを160回復。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_27_0": {
-"en": "A pastry in the shape of a top.\nHeals ~1 HP to the team.",
-"ja": "コマの形をした菓子パン。\n仲間全員のHPを~1回復。"
+"en": "A pastry in the shape of a top.\nHeals <span class=\"param\">~1</span> HP to the team.",
+"ja": "コマの形をした菓子パン。\n仲間全員のHPを<span class=\"param\">~1</span>回復。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_30_0": {
 "en": "A mysterious black burger made of...\nHey, this is just burnt! +70HP",
@@ -60218,8 +60218,8 @@ var rendered = {
 "ja": "スピンロール"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_59_0": {
-"en": "Heals\nteam\n~1HP",
-"ja": "仲間全員を\n~1HP\n回復"
+"en": "Heals\nteam\n<span class=\"param\">~1</span>HP",
+"ja": "仲間全員を\n<span class=\"param\">~1</span>HP\n回復"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_65_0": {
 "en": "Darkburger",
@@ -61140,8 +61140,8 @@ var rendered = {
 "ja": "ホッホッホ！　ソフトクリームが仲間になった！\nそいつは　悪モノになってくれるかな？"
 },
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_70_0": {
-"en": "A sharp shadow moves like water in the hand.\nYou have collected [~1].",
-"ja": "手のなかで　するどい影が　水のように\nうごめく。~1 個入手済み。"
+"en": "A sharp shadow moves like water in the hand.\nYou have collected [<span class=\"param\">~1</span>].",
+"ja": "手のなかで　するどい影が　水のように\nうごめく。<span class=\"param\">~1</span> 個入手済み。"
 },
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_70_0_b": {
 "en": "That golden statue... Could it be...\nThe illusory nipple technique!?",
@@ -61832,8 +61832,8 @@ var rendered = {
 },
 "scr_lrecoitem": {
 "scr_lrecoitem_slash_scr_lrecoitem_gml_14_0": {
-"en": "<div class=\"indented\">* You recovered ~1 HP!</div>",
-"ja": "＊ HPが　~1かいふくした！"
+"en": "<div class=\"indented\">* You recovered <span class=\"param\">~1</span> HP!</div>",
+"ja": "＊ HPが　<span class=\"param\">~1</span>かいふくした！"
 },
 "scr_lrecoitem_slash_scr_lrecoitem_gml_16_0": {
 "en": "<div class=\"indented\">* Your HP was maxed out.</div>",
@@ -63814,16 +63814,16 @@ var rendered = {
 },
 "scr_shopmenu": {
 "scr_shopmenu_slash_scr_shopmenu_gml_158_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "scr_shopmenu_slash_scr_shopmenu_gml_270_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "scr_shopmenu_slash_scr_shopmenu_gml_389_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 }
 },
 "scr_smallface_reset": {
@@ -64012,104 +64012,104 @@ var rendered = {
 },
 "scr_spelltext": {
 "scr_spelltext_slash_scr_spelltext_gml_14_0": {
-"en": "<div class=\"indented\">* ~1 cast RUDE BUSTER!</div>",
-"ja": "＊ ~1は\n　 ルードバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast RUDE BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルードバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_18_0": {
-"en": "<div class=\"indented\">* ~1 cast HEAL PRAYER!</div>",
-"ja": "＊ ~1は　いやしの詩を唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast HEAL PRAYER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　いやしの詩を唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_23_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div>",
-"ja": "＊ ~1は　スリープを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　スリープを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_33_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div><div class=\"indented\">* But the enemy wasn't <span class=\"B\">TIRED</span>...</div>",
-"ja": "＊ ~1は\n　 スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div><div class=\"indented\">* But the enemy wasn't <span class=\"B\">TIRED</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_36_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div><div class=\"indented\">* But the foe wasn't <span class=\"B\">TIRED</span>... try <span class=\"Y\">SPARING</span>!</div>",
-"ja": "＊ ~1は　スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…\n　 <span class=\"Y\">にがす</span>ことなら　できるかも…！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div><div class=\"indented\">* But the foe wasn't <span class=\"B\">TIRED</span>... try <span class=\"Y\">SPARING</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…\n　 <span class=\"Y\">にがす</span>ことなら　できるかも…！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_43_0": {
-"en": "<div class=\"indented\">* ~1 used RUDE BUSTER!</div>",
-"ja": "＊ ~1は\n　 ルードバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used RUDE BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルードバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_47_0": {
-"en": "<div class=\"indented\">* ~1 used RED BUSTER!</div>",
-"ja": "＊ ~1は\n　 レッドバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used RED BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 レッドバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_51_0": {
-"en": "<div class=\"indented\">* ~1 cast DUAL HEAL!</div>",
-"ja": "＊ ~1は\n　 Ｗヒールを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast DUAL HEAL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 Ｗヒールを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_55_0": {
-"en": "<div class=\"indented\">* ~1 cast SLEEPMIST!</div>",
-"ja": "＊ ~1は\n　 スリープミストを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast SLEEPMIST!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スリープミストを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_58_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div>",
-"ja": "＊ ~1は~2を逃がした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は<span class=\"param\">~2</span>を逃がした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_59_0": {
-"en": "<div class=\"indented\">* ~1 cast ICESHOCK!</div>",
-"ja": "＊ ~1は\n　 アイスショックを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast ICESHOCK!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 アイスショックを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_62_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div>",
-"ja": "＊ ~1は　~2を\n　 にがした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_63_0": {
-"en": "<div class=\"indented\">* ~1 cast SNOWGRAVE!</div>",
-"ja": "＊ ~1は\n　 スノーグレイブを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast SNOWGRAVE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スノーグレイブを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_66_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_67_0": {
-"en": "<div class=\"indented\">* ~1 cast ULTIMATEHEAL!</div>",
-"ja": "＊ ~1は\n　 ウルティマヒールを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast ULTIMATEHEAL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ウルティマヒールを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_69_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_70_0": {
 "en": "<div class=\"indented\">* (Try using Ralsei's <span class=\"B\">PACIFY</span>!)</div>",
 "ja": "＊ (ラルセイに　<span class=\"B\">スリープ</span>を\n　 唱えさせてみよう！)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_73_0": {
-"en": "<div class=\"indented\">* ~1 spared!</div>",
-"ja": "＊ ~1は　にがした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　にがした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_78_0": {
-"en": "<div class=\"indented\">* ~1 used the DARK CANDY!</div>",
-"ja": "＊ ~1は\n　 ダークキャンディを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DARK CANDY!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ダークキャンディを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_86_0": {
-"en": "<div class=\"indented\">* ~1 used the GLOWSHARD!</div>",
-"ja": "＊ ~1は\n　 グロウシャードを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the GLOWSHARD!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 グロウシャードを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_87_0": {
 "en": "<div class=\"indented\">* But nothing happened...</div>",
 "ja": "＊ しかし　なにも起こらなかった…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_94_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_95_0": {
 "en": "<div class=\"indented\">* (Try using Noelle's <span class=\"B\">SLEEPMIST</span>!)</div>",
 "ja": "＊ (ノエルに　<span class=\"B\">スリープミスト</span>を\n　 唱えさせてみよう！)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_99_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_100_0": {
-"en": "<div class=\"indented\">* ~1 used the REVIVEMINT!</div>",
-"ja": "＊ ~1は\n　 リザレクトミントを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the REVIVEMINT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 リザレクトミントを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_100_0_b": {
 "en": "<div class=\"indented\">* (Try using <span class=\"B\">ACTs</span>!)</div>",
@@ -64120,8 +64120,8 @@ var rendered = {
 "ja": "＊ グロウシャードは\n　 消えてなくなった！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_122_0": {
-"en": "<div class=\"indented\">* ~1 read the MANUAL!</div>",
-"ja": "＊ ~1は\n　 マニュアルを読んだ！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> read the MANUAL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 マニュアルを読んだ！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_123_0": {
 "en": "<div class=\"indented\">* But nothing happened...</div>",
@@ -64136,36 +64136,36 @@ var rendered = {
 "ja": "(くたびれ)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_179_0": {
-"en": "<div class=\"indented\">* ~1 used the BROKEN CAKE!</div>",
-"ja": "＊ ~1 used the BROKEN CAKE!"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BROKEN CAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span> used the BROKEN CAKE!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_183_0": {
-"en": "<div class=\"indented\">* ~1 used the TOPCAKE!</div>",
-"ja": "＊ ~1は\n　 トップケーキを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TOPCAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 トップケーキを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_187_0": {
-"en": "<div class=\"indented\">* ~1 used the SPINCAKE!</div>",
-"ja": "＊ ~1は\n　 スピンロールを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the SPINCAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スピンロールを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_191_0": {
-"en": "<div class=\"indented\">* ~1 used the DARKBURGER!</div>",
-"ja": "＊ ~1は\n　 ダークバーガーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DARKBURGER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ダークバーガーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_194_0": {
-"en": "<div class=\"indented\">* ~1 used the LANCERCOOKIE!</div>",
-"ja": "＊ ~1は\n　 ランサークッキーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the LANCERCOOKIE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ランサークッキーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_197_0": {
-"en": "<div class=\"indented\">* ~1 used the GIGASALAD!</div>",
-"ja": "＊ ~1は\n　 ギガサラダを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the GIGASALAD!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ギガサラダを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_199_0": {
 "en": " was <span class=\"B\">bored to tears</span>!\n",
 "ja": " was <span class=\"B\">bored to tears</span>!\n"
 },
 "scr_spelltext_slash_scr_spelltext_gml_200_0": {
-"en": "<div class=\"indented\">* ~1 used the CLUBS SANDWICH!</div>",
-"ja": "＊ ~1は\n　 クラブサンドを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CLUBS SANDWICH!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 クラブサンドを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_200_0_b": {
 "en": " listened politely!\n",
@@ -64176,96 +64176,96 @@ var rendered = {
 "ja": " became sentimental!\n"
 },
 "scr_spelltext_slash_scr_spelltext_gml_203_0": {
-"en": "<div class=\"indented\">* ~1 used the HEARTS DONUT!</div>",
-"ja": "＊ ~1は\n　 ハートドーナツを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the HEARTS DONUT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ハートドーナツを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_206_0": {
-"en": "<div class=\"indented\">* ~1 used the CHOCO DIAMOND!</div>",
-"ja": "＊ ~1は\n　 チョコダイヤを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CHOCO DIAMOND!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 チョコダイヤを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_209_0": {
-"en": "<div class=\"indented\">* ~1 used the FAV SANDWICH!</div>",
-"ja": "＊ ~1は\n　 ファボサンドを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the FAV SANDWICH!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ファボサンドを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_230_0": {
-"en": "<div class=\"indented\">* ~1 used the ROUXLS ROUX!</div>",
-"ja": "＊ ~1は\n　 ルールノールーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the ROUXLS ROUX!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルールノールーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_233_0": {
-"en": "<div class=\"indented\">* ~1 used the CD BAGEL!</div>",
-"ja": "＊ ~1は\n　 CDベーグルを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CD BAGEL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 CDベーグルを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_236_0": {
-"en": "<div class=\"indented\">* ~1 used the CLOTHESDOLL!</div>",
-"ja": "＊ ~1は\n　 マネキンを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CLOTHESDOLL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 マネキンを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_237_0": {
 "en": "<div class=\"indented\">* ... but nothing happened!</div>",
 "ja": "＊ しかし　なにも起こらなかった！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_240_0": {
-"en": "<div class=\"indented\">* ~1 used the KRIS TEA!</div>",
-"ja": "＊ ~1は\n　 クリスティーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the KRIS TEA!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 クリスティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_243_0": {
-"en": "<div class=\"indented\">* ~1 used the NOELLE TEA!</div>",
-"ja": "＊ ~1は\n　 ノエルティーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the NOELLE TEA!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ノエルティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_246_0": {
-"en": "<div class=\"indented\">* ~1 used the RALSEI TEA!</div>",
-"ja": "＊ ~1は\n　 ラルセイティーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the RALSEI TEA!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ラルセイティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_249_0": {
-"en": "<div class=\"indented\">* ~1 used the SUSIE TEA!</div>",
-"ja": "＊ ~1は\n　 スージィティーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the SUSIE TEA!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スージィティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_252_0": {
-"en": "<div class=\"indented\">* ~1 used the DD-BURGER!</div>",
-"ja": "＊ ~1は\n　 ダブルＤバーガーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DD-BURGER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ダブルＤバーガーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_255_0": {
-"en": "<div class=\"indented\">* ~1 used the LIGHTCANDY!</div>",
-"ja": "＊ ~1は\n　 ライトキャンディを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the LIGHTCANDY!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ライトキャンディを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_258_0": {
-"en": "<div class=\"indented\">* ~1 used the BUTJUICE!</div>",
-"ja": "＊ ~1は\n　 シツジュースを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BUTJUICE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 シツジュースを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_261_0": {
-"en": "<div class=\"indented\">* ~1 used the SPAGHETTICODE!</div>",
-"ja": "＊ ~1は\n　 スパゲティコードを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the SPAGHETTICODE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スパゲティコードを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_264_0": {
-"en": "<div class=\"indented\">* ~1 used the JAVACOOKIE!</div>",
-"ja": "＊ ~1は\n　 JAVAクッキーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the JAVACOOKIE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 JAVAクッキーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_267_0": {
-"en": "<div class=\"indented\">* ~1 used the TENSIONBIT!</div><div class=\"indented\">* Tension raised up earlier.</div>",
-"ja": "＊ ~1は\n　 テンションビッツを使った！\n＊ テンションが　早めに上がった。"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TENSIONBIT!</div><div class=\"indented\">* Tension raised up earlier.</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 テンションビッツを使った！\n＊ テンションが　早めに上がった。"
 },
 "scr_spelltext_slash_scr_spelltext_gml_270_0": {
-"en": "<div class=\"indented\">* ~1 used the TENSIONGEM!</div>",
-"ja": "＊ ~1は\n　 テンションジェムを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TENSIONGEM!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 テンションジェムを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_273_0": {
-"en": "<div class=\"indented\">* ~1 used the TENSIONMAX!</div>",
-"ja": "＊ ~1は\n　 テンションMAXを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TENSIONMAX!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 テンションMAXを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_276_0": {
-"en": "<div class=\"indented\">* ~1 used the REVIVEDUST!</div>",
-"ja": "＊ ~1は\n　 リザレクトダストを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the REVIVEDUST!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 リザレクトダストを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_279_0": {
-"en": "<div class=\"indented\">* ~1 used the REVIVEBRIGHT!</div>",
-"ja": "＊ ~1は\n　 リザレクトライトを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the REVIVEBRIGHT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 リザレクトライトを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_282_0": {
-"en": "<div class=\"indented\">* ~1 administered S.POISON!</div>",
-"ja": "＊ ~1は\n　 S.POISONを投与した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> administered S.POISON!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 S.POISONを投与した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_298_0": {
-"en": "<div class=\"indented\">* ~1 admired DOGDOLLAR!</div>",
-"ja": "＊ ~1は\n　 ドッグドルを　うっとりながめた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> admired DOGDOLLAR!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ドッグドルを　うっとりながめた！"
 }
 },
 "scr_susface": {
@@ -64618,8 +64618,8 @@ var rendered = {
 "ja": "\nそうなの！？"
 },
 "scr_text_slash_scr_text_gml_232_0": {
-"en": "<div class=\"indented\">* Er, Kris, you know you can hold [~1] to run...?</div>",
-"ja": "＊ ねえ　クリス…\n　 [~1]を長押しすると\n　 走れることは　知ってる？"
+"en": "<div class=\"indented\">* Er, Kris, you know you can hold [<span class=\"param\">~1</span>] to run...?</div>",
+"ja": "＊ ねえ　クリス…\n　 [<span class=\"param\">~1</span>]を長押しすると\n　 走れることは　知ってる？"
 },
 "scr_text_slash_scr_text_gml_242_0": {
 "en": "<div class=\"indented\">* Really?</div><div class=\"indented\">* And yet you choose not to...?</div>",
@@ -64634,8 +64634,8 @@ var rendered = {
 "ja": "＊ いいよ！　自分のペースで\n　 進んでいこう。"
 },
 "scr_text_slash_scr_text_gml_250_0": {
-"en": "<div class=\"indented\">* Right!</div><div class=\"indented\">* You'll move faster by holding [~1]!</div>",
-"ja": "＊ そうなの！\n＊ [~1]を長押しすると\n　 速く移動できるんだよ！"
+"en": "<div class=\"indented\">* Right!</div><div class=\"indented\">* You'll move faster by holding [<span class=\"param\">~1</span>]!</div>",
+"ja": "＊ そうなの！\n＊ [<span class=\"param\">~1</span>]を長押しすると\n　 速く移動できるんだよ！"
 },
 "scr_text_slash_scr_text_gml_251_0": {
 "en": "<div class=\"indented\">* And I'll be right behind you, so don't worry!</div>",
@@ -64658,8 +64658,8 @@ var rendered = {
 "ja": "＊ ねえクリス…"
 },
 "scr_text_slash_scr_text_gml_265_0": {
-"en": "<div class=\"indented\">* ... You can skip text by pressing [~1]?</div>",
-"ja": "＊ ... You can skip text by pressing [~1]?"
+"en": "<div class=\"indented\">* ... You can skip text by pressing [<span class=\"param\">~1</span>]?</div>",
+"ja": "＊ ... You can skip text by pressing [<span class=\"param\">~1</span>]?"
 },
 "scr_text_slash_scr_text_gml_273_0": {
 "en": "<div class=\"indented\">* ... Really?</div><div class=\"indented\">* So you've just been...</div>",
@@ -64730,8 +64730,8 @@ var rendered = {
 "ja": "＊ (マニュアルを　手に入れた)"
 },
 "scr_text_slash_scr_text_gml_314_0_b": {
-"en": "<div class=\"indented\">* Press [~1] to open the menu and use it in your ITEMS.</div>",
-"ja": "＊ Press [~1] to open the menu and use it in your ITEMS."
+"en": "<div class=\"indented\">* Press [<span class=\"param\">~1</span>] to open the menu and use it in your ITEMS.</div>",
+"ja": "＊ Press [<span class=\"param\">~1</span>] to open the menu and use it in your ITEMS."
 },
 "scr_text_slash_scr_text_gml_319_0": {
 "en": "\nI can\nhandle it",
@@ -65586,8 +65586,8 @@ var rendered = {
 "ja": "＊ …えと　だれも　わたしに\n　 はなしかけないから　じぶんの\n　 なまえ　わすれちゃったお…"
 },
 "scr_text_slash_scr_text_gml_831_0": {
-"en": "<div class=\"indented\">* ~1!</div><div class=\"indented\">* Can you give me a name...?</div>",
-"ja": "＊ ~1！\n＊ わたしに　なまえを\n　 つけてくれるお…？"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span>!</div><div class=\"indented\">* Can you give me a name...?</div>",
+"ja": "＊ <span class=\"param\">~1</span>！\n＊ わたしに　なまえを\n　 つけてくれるお…？"
 },
 "scr_text_slash_scr_text_gml_831_0_b": {
 "en": "Kris",
@@ -66426,8 +66426,8 @@ var rendered = {
 "ja": "＊ 「ルードバスター」\n　 スージィの技ァ…"
 },
 "scr_text_slash_scr_text_gml_1343_0": {
-"en": "<div class=\"indented\">* Will deal more damage, if you just press [~1]!</div>",
-"ja": "＊ 大ダメージ与える\n　 [~1]を押せばァ！"
+"en": "<div class=\"indented\">* Will deal more damage, if you just press [<span class=\"param\">~1</span>]!</div>",
+"ja": "＊ 大ダメージ与える\n　 [<span class=\"param\">~1</span>]を押せばァ！"
 },
 "scr_text_slash_scr_text_gml_1349_0": {
 "en": "<div class=\"indented\">* Susie loves, when you give us MONEY.</div><div class=\"indented\">* She will -</div>",
@@ -69914,8 +69914,8 @@ var rendered = {
 "ja": "クリスプ！！"
 },
 "scr_text_slash_scr_text_gml_3627_0": {
-"en": "<div class=\"indented\">* ~1!</div>",
-"ja": "＊ ~1！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>！"
 },
 "scr_text_slash_scr_text_gml_3628_0": {
 "en": "<div class=\"indented\">* I missed you, y'hear!? Hahaha!! Missed you all day!!</div>",
@@ -70046,8 +70046,8 @@ var rendered = {
 "ja": "アズリエルII"
 },
 "scr_text_slash_scr_text_gml_3672_0": {
-"en": "<div class=\"indented\">* ~1 is on the case!</div>",
-"ja": "＊ ~1さんが\n　 バッチリ　ナゾを　カイケツするお！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> is on the case!</div>",
+"ja": "＊ <span class=\"param\">~1</span>さんが\n　 バッチリ　ナゾを　カイケツするお！"
 },
 "scr_text_slash_scr_text_gml_3673_0": {
 "en": "<div class=\"indented\">* (That's my name, right?)</div>",
@@ -70062,8 +70062,8 @@ var rendered = {
 "ja": "キッス！"
 },
 "scr_text_slash_scr_text_gml_3675_0": {
-"en": "<div class=\"indented\">* See you, ~1!</div>",
-"ja": "＊ それじゃあ　まったね～\n　 ~1！"
+"en": "<div class=\"indented\">* See you, <span class=\"param\">~1</span>!</div>",
+"ja": "＊ それじゃあ　まったね～\n　 <span class=\"param\">~1</span>！"
 },
 "scr_text_slash_scr_text_gml_3683_0": {
 "en": "\nLet's go!\nLet's go!",
@@ -71246,8 +71246,8 @@ var rendered = {
 "ja": "＊ 無料のサンプル\n　 おひとつ　いかが！？"
 },
 "scr_text_slash_scr_text_gml_4437_0": {
-"en": "<div class=\"indented\">* (You got a small shoe with a toothpick through it...)~1</div>",
-"ja": "＊ (つまようじが刺さった\n　 小さなクツを受け取った…)~1"
+"en": "<div class=\"indented\">* (You got a small shoe with a toothpick through it...)<span class=\"param\">~1</span></div>",
+"ja": "＊ (つまようじが刺さった\n　 小さなクツを受け取った…)<span class=\"param\">~1</span>"
 },
 "scr_text_slash_scr_text_gml_4442_0": {
 "en": "<div class=\"indented\">* (Chomp.)</div>",
@@ -71258,8 +71258,8 @@ var rendered = {
 "ja": "＊ あー…　いや\n　 いらねー。"
 },
 "scr_text_slash_scr_text_gml_4464_0": {
-"en": "<div class=\"indented\">* You'll never get stronger without a daily dose of shoes!!~1</div>",
-"ja": "＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！~1"
+"en": "<div class=\"indented\">* You'll never get stronger without a daily dose of shoes!!<span class=\"param\">~1</span></div>",
+"ja": "＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！<span class=\"param\">~1</span>"
 },
 "scr_text_slash_scr_text_gml_4469_0": {
 "en": "<div class=\"indented\">* Umm, I don't really do... shoes.</div>",
@@ -72034,8 +72034,8 @@ var rendered = {
 "ja": "バードリィ"
 },
 "scr_text_slash_scr_text_gml_5366_0": {
-"en": "\nThinking\nof ~1",
-"ja": "\n~1の\nこと"
+"en": "\nThinking\nof <span class=\"param\">~1</span>",
+"ja": "\n<span class=\"param\">~1</span>の\nこと"
 },
 "scr_text_slash_scr_text_gml_5367_0": {
 "en": "\nThinking\nof you",
@@ -73378,8 +73378,8 @@ var rendered = {
 "ja": "アズリエルの部屋"
 },
 "scr_text_slash_scr_text_gml_6792_0": {
-"en": "<div class=\"indented\">* (The nameplate reads ~1. Peek inside?)</div>",
-"ja": "＊ (表札に\n　 「~1」と\n　 書いてある。なかを見る？)"
+"en": "<div class=\"indented\">* (The nameplate reads <span class=\"param\">~1</span>. Peek inside?)</div>",
+"ja": "＊ (表札に\n　 「<span class=\"param\">~1</span>」と\n　 書いてある。なかを見る？)"
 },
 "scr_text_slash_scr_text_gml_6814_0": {
 "en": "<div class=\"indented\">* (... What you saw surprised you.  ... sort of.)</div>",
@@ -73742,8 +73742,8 @@ var rendered = {
 "ja": "＊ おいくらですか？"
 },
 "scr_text_slash_scr_text_gml_7180_0": {
-"en": "<div class=\"indented\">* Just a small fee of $~1!</div>",
-"ja": "＊ たったの　$~1です！"
+"en": "<div class=\"indented\">* Just a small fee of $<span class=\"param\">~1</span>!</div>",
+"ja": "＊ たったの　$<span class=\"param\">~1</span>です！"
 },
 "scr_text_slash_scr_text_gml_7182_0": {
 "en": "<div class=\"indented\">* Huh? S-sorry, we don't have that much money!</div>",
@@ -74110,16 +74110,16 @@ var rendered = {
 "ja": "＊ 操作のおさらいです。\n　 (設定メニューで　変更もできます)"
 },
 "scr_text_slash_scr_text_gml_7528_0": {
-"en": "<div class=\"indented\">* ~1</div><div class=\"indented\">* Confirm and interact with things.</div>",
-"ja": "＊ ~1\n＊ 「決定」「調べる」「使う」"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span></div><div class=\"indented\">* Confirm and interact with things.</div>",
+"ja": "＊ <span class=\"param\">~1</span>\n＊ 「決定」「調べる」「使う」"
 },
 "scr_text_slash_scr_text_gml_7529_0": {
-"en": "<div class=\"indented\">* ~1</div><div class=\"indented\">* Cancel. Hold to RUN. Shows all text instantly.</div>",
-"ja": "＊ ~1\n＊ 「キャンセル」「長押しで走る」\n　 「全テキストを　一度に表示」"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span></div><div class=\"indented\">* Cancel. Hold to RUN. Shows all text instantly.</div>",
+"ja": "＊ <span class=\"param\">~1</span>\n＊ 「キャンセル」「長押しで走る」\n　 「全テキストを　一度に表示」"
 },
 "scr_text_slash_scr_text_gml_7530_0": {
-"en": "<div class=\"indented\">* ~1</div><div class=\"indented\">* Opens the menu. Hold down to quickly skip textboxes.</div>",
-"ja": "＊ ~1\n＊ 「メニューを開く」「長押しで\n　 テキストボックスをスキップ」"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span></div><div class=\"indented\">* Opens the menu. Hold down to quickly skip textboxes.</div>",
+"ja": "＊ <span class=\"param\">~1</span>\n＊ 「メニューを開く」「長押しで\n　 テキストボックスをスキップ」"
 },
 "scr_text_slash_scr_text_gml_7536_0": {
 "en": "<div class=\"indented\">* (There's no time to read books.)</div>",
@@ -75020,16 +75020,16 @@ var rendered = {
 "ja": "器ニ 名前ヲ\nツケテ クダサイ。"
 },
 "DEVICE_CONTACT_slash_Step_0_gml_729_0": {
-"en": "WE CALLED IT\n\"~1.\"   ",
-"ja": "ワレワレガ ツケタ\nコノ器ノ 名ハ\n“~1”。   "
+"en": "WE CALLED IT\n\"<span class=\"param\">~1</span>.\"   ",
+"ja": "ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_730_0": {
 "en": "AND WHAT ABOUT\nTHE CREATOR?  ",
 "ja": "デハ ツクリ手ノ\n名ハ？  "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_734_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_735_0": {
 "en": "AN INTERESTING\nCOINCIDENCE.  ",
@@ -75044,8 +75044,8 @@ var rendered = {
 "ja": "アナタ自身ノ 名デス。"
 },
 "DEVICE_CONTACT_slash_Step_0_gml_785_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_786_0": {
 "en": "EXCELLENT.  ",
@@ -75076,8 +75076,8 @@ var rendered = {
 "ja": "サモ アリナン…。  "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_816_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_817_0": {
 "en": "THANK YOU\nFOR YOUR TIME.   ",
@@ -75480,20 +75480,20 @@ var rendered = {
 "ja": "終了"
 },
 "DEVICE_MENU_slash_Draw_0_gml_289_0": {
-"en": "Don't Use Chapter ~1 FILE",
-"ja": "Chapter ~1のファイルを使わない"
+"en": "Don't Use Chapter <span class=\"param\">~1</span> FILE",
+"ja": "Chapter <span class=\"param\">~1</span>のファイルを使わない"
 },
 "DEVICE_MENU_slash_Draw_0_gml_305_0": {
-"en": "Ch ~1 Files",
-"ja": "Ch~1ファイル"
+"en": "Ch <span class=\"param\">~1</span> Files",
+"ja": "Ch<span class=\"param\">~1</span>ファイル"
 },
 "DEVICE_MENU_slash_Draw_0_gml_387_0": {
-"en": "Start Chapter ~1 from Chapter ~2's FILE.",
-"ja": "Chapter ~2のファイルで Chapter ~1を始める。"
+"en": "Start Chapter <span class=\"param\">~1</span> from Chapter <span class=\"param\">~2</span>'s FILE.",
+"ja": "Chapter <span class=\"param\">~2</span>のファイルで Chapter <span class=\"param\">~1</span>を始める。"
 },
 "DEVICE_MENU_slash_Draw_0_gml_389_0": {
-"en": "This will start Chapter ~1 in FILE Slot ~2.",
-"ja": "スロット~2で Chapter ~1を始めます。"
+"en": "This will start Chapter <span class=\"param\">~1</span> in FILE Slot <span class=\"param\">~2</span>.",
+"ja": "スロット<span class=\"param\">~2</span>で Chapter <span class=\"param\">~1</span>を始めます。"
 },
 "DEVICE_MENU_slash_Step_0_gml_74_0": {
 "en": "IT CONFORMED TO THE REFLECTION.",
@@ -78450,8 +78450,8 @@ var rendered = {
 "ja": "アクション"
 },
 "obj_b3bs_console_slash_Draw_0_gml_5_0": {
-"en": "Hold ~1 : Quit",
-"ja": "~1 長押し：やめる"
+"en": "Hold <span class=\"param\">~1</span> : Quit",
+"ja": "<span class=\"param\">~1</span> 長押し：やめる"
 },
 "obj_b3bs_console_slash_Draw_0_gml_6_0": {
 "en": "Quit",
@@ -78512,8 +78512,8 @@ var rendered = {
 "ja": "＊ (ランサーとして\n　 プレイできるようになった)"
 },
 "obj_b3bs_lancerget_console_slash_Step_0_gml_72_0": {
-"en": "<div class=\"indented\">* (You can now play as ~1 Lancers.)</div>",
-"ja": "＊ (ランサーＸ~1として\n　 プレイできるようになった)"
+"en": "<div class=\"indented\">* (You can now play as <span class=\"param\">~1</span> Lancers.)</div>",
+"ja": "＊ (ランサーＸ<span class=\"param\">~1</span>として\n　 プレイできるようになった)"
 }
 },
 "obj_b3bs_lancerget_lancer": {
@@ -78962,24 +78962,24 @@ var rendered = {
 "ja": "Message\nD"
 },
 "obj_baseenemy_slash_Step_0_gml_105_0": {
-"en": "<div class=\"indented\">* Placeholder Message A~1.</div>",
-"ja": "＊ Placeholder Message A~1."
+"en": "<div class=\"indented\">* Placeholder Message A<span class=\"param\">~1</span>.</div>",
+"ja": "＊ Placeholder Message A<span class=\"param\">~1</span>."
 },
 "obj_baseenemy_slash_Step_0_gml_106_0": {
-"en": "<div class=\"indented\">* Placeholder Message B~1.</div>",
-"ja": "＊ Placeholder Message B~1."
+"en": "<div class=\"indented\">* Placeholder Message B<span class=\"param\">~1</span>.</div>",
+"ja": "＊ Placeholder Message B<span class=\"param\">~1</span>."
 },
 "obj_baseenemy_slash_Step_0_gml_107_0": {
-"en": "<div class=\"indented\">* Placeholder Message C~1.</div>",
-"ja": "＊ Placeholder Message C~1."
+"en": "<div class=\"indented\">* Placeholder Message C<span class=\"param\">~1</span>.</div>",
+"ja": "＊ Placeholder Message C<span class=\"param\">~1</span>."
 },
 "obj_baseenemy_slash_Step_0_gml_108_0": {
-"en": "<div class=\"indented\">* Placeholder Message D~1.</div>",
-"ja": "＊ Placeholder Message D~1."
+"en": "<div class=\"indented\">* Placeholder Message D<span class=\"param\">~1</span>.</div>",
+"ja": "＊ Placeholder Message D<span class=\"param\">~1</span>."
 },
 "obj_baseenemy_slash_Step_0_gml_114_0": {
-"en": "<div class=\"indented\">* Damaged message ~1.</div>",
-"ja": "＊ Damaged message ~1."
+"en": "<div class=\"indented\">* Damaged message <span class=\"param\">~1</span>.</div>",
+"ja": "＊ Damaged message <span class=\"param\">~1</span>."
 },
 "obj_baseenemy_slash_Step_0_gml_136_0": {
 "en": "<div class=\"indented\">* ENEMY - AT 1 DF 1</div><div class=\"indented\">* Susceptible to Brainshock.</div>",
@@ -79052,20 +79052,20 @@ var rendered = {
 "ja": "＊ バトルからにげた…"
 },
 "obj_battlecontroller_slash_Step_0_gml_42_0": {
-"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got ~1 EXP and ~2 D$.</div>",
-"ja": "＊ YOU WIN！\n＊ ~1 EXPと　~2 D$を獲得！"
+"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> EXP and <span class=\"param\">~2</span> D$.</div>",
+"ja": "＊ YOU WIN！\n＊ <span class=\"param\">~1</span> EXPと　<span class=\"param\">~2</span> D$を獲得！"
 },
 "obj_battlecontroller_slash_Step_0_gml_43_0": {
 "en": "<div class=\"indented\">* You won the battle!</div>",
 "ja": "＊ YOU WIN!"
 },
 "obj_battlecontroller_slash_Step_0_gml_46_0": {
-"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got ~1 D$.</div><div class=\"indented\">* You became stronger.</div>",
-"ja": "＊ YOU WIN!\n＊ ~1 D$を獲得！\n＊ 強くなった。"
+"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> D$.</div><div class=\"indented\">* You became stronger.</div>",
+"ja": "＊ YOU WIN!\n＊ <span class=\"param\">~1</span> D$を獲得！\n＊ 強くなった。"
 },
 "obj_battlecontroller_slash_Step_0_gml_69_0": {
-"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got ~1 D$.</div><div class=\"indented\">* Noelle became stronger.</div>",
-"ja": "＊ YOU WIN！\n＊ ~1 D$獲得！\n＊ ノエルは　強くなった。"
+"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> D$.</div><div class=\"indented\">* Noelle became stronger.</div>",
+"ja": "＊ YOU WIN！\n＊ <span class=\"param\">~1</span> D$獲得！\n＊ ノエルは　強くなった。"
 }
 },
 "obj_blocktree_dmg": {
@@ -79772,8 +79772,8 @@ var rendered = {
 "ja": "準備ができたら\n草かり機を押して\n始めてください！"
 },
 "obj_board_event_lawnmower_slash_Step_0_gml_130_0": {
-"en": "A score of ~1?! IMPRESSIVE!",
-"ja": "スコア：~1！？\nスバラシイ！！"
+"en": "A score of <span class=\"param\">~1</span>?! IMPRESSIVE!",
+"ja": "スコア：<span class=\"param\">~1</span>！？\nスバラシイ！！"
 }
 },
 "obj_board_event_ninfight": {
@@ -80472,8 +80472,8 @@ var rendered = {
 "ja": "A <span class=\"Y\">BUCKET OF POINTS</span>!"
 },
 "obj_board_pickup_slash_Step_0_gml_285_0": {
-"en": "YOU GOT ~1",
-"ja": "~1を　てにいれた！"
+"en": "YOU GOT <span class=\"param\">~1</span>",
+"ja": "<span class=\"param\">~1</span>を　てにいれた！"
 },
 "obj_board_pickup_slash_Step_0_gml_290_0": {
 "en": "THE <span class=\"Y\">MOONCLOUD KEY CARD</span>!",
@@ -80484,8 +80484,8 @@ var rendered = {
 "ja": "<span class=\"Y\">カメラ</span>を　てにいれた！"
 },
 "obj_board_pickup_slash_Step_0_gml_518_0": {
-"en": "PRESS <span class=\"Y\">~1</span> TO TAKE A PICTURE!",
-"ja": "<span class=\"Y\">~1</span>　をおして　しゃしんを　とろう！"
+"en": "PRESS <span class=\"Y\"><span class=\"param\">~1</span></span> TO TAKE A PICTURE!",
+"ja": "<span class=\"Y\"><span class=\"param\">~1</span></span>　をおして　しゃしんを　とろう！"
 }
 },
 "obj_board_playercamera": {
@@ -80642,8 +80642,8 @@ var rendered = {
 "ja": "エルニーナ"
 },
 "obj_board_sadfriendo_slash_Step_0_gml_141_0": {
-"en": "YOU GOT <span class=\"Y\">~1</span>",
-"ja": "<span class=\"Y\">~1</span>を　てにいれた。"
+"en": "YOU GOT <span class=\"Y\"><span class=\"param\">~1</span></span>",
+"ja": "<span class=\"Y\"><span class=\"param\">~1</span></span>を　てにいれた。"
 }
 },
 "obj_board_shell": {
@@ -80792,8 +80792,8 @@ var rendered = {
 "ja": "…"
 },
 "obj_bpush1_slash_Step_0_gml_322_0": {
-"en": "Wow, a ~1S time!",
-"ja": "~1秒でクリア！"
+"en": "Wow, a <span class=\"param\">~1</span>S time!",
+"ja": "<span class=\"param\">~1</span>秒でクリア！"
 },
 "obj_bpush1_slash_Step_0_gml_330_0": {
 "en": "Impressive!",
@@ -80878,8 +80878,8 @@ var rendered = {
 "ja": "＊ ヘッ　わーったよ。\n　 見るだけ見てやる。"
 },
 "obj_ch2_room_castle_2f_slash_Step_0_gml_54_0": {
-"en": "<div class=\"indented\">* Hey, lemme look at my freaking room a sec!~1</div>",
-"ja": "＊ うおい！　オレの部屋も\n　 のぞかせろよ！~1"
+"en": "<div class=\"indented\">* Hey, lemme look at my freaking room a sec!<span class=\"param\">~1</span></div>",
+"ja": "＊ うおい！　オレの部屋も\n　 のぞかせろよ！<span class=\"param\">~1</span>"
 },
 "obj_ch2_room_castle_2f_slash_Step_0_gml_58_0": {
 "en": "<div class=\"indented\">* Damn, all you wanna do is run off and steal cake.</div>",
@@ -82348,16 +82348,16 @@ var rendered = {
 "ja": "＊ 料理が降ってきます！\n　 頭でキャッチして \n　 どんどん積み重ねよう！"
 },
 "obj_ch3_GSA04_slash_Step_0_gml_376_0": {
-"en": "<div class=\"indented\">* THROW it to customers with ~1! If the food touches them, they'll gobble it up!</div>",
-"ja": "＊ ~1を押すと　料理を　お客様に\n　 投げるぞ！　お客様に触れた料理は \n　 お客様が　食べてくれるぞ！"
+"en": "<div class=\"indented\">* THROW it to customers with <span class=\"param\">~1</span>! If the food touches them, they'll gobble it up!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押すと　料理を　お客様に\n　 投げるぞ！　お客様に触れた料理は \n　 お客様が　食べてくれるぞ！"
 },
 "obj_ch3_GSA04_slash_Step_0_gml_377_0": {
 "en": "<div class=\"indented\">* SPECIAL CUSTOMERS will sometimes appear! They're worth <span class=\"picture\">[IMG]</span>POINTs, don't miss 'em!</div>",
 "ja": "＊ ときどきやってくる　VIPに\n　 食べてもらうと　<span class=\"picture\">[IMG]</span>な\n　 ポイントゲットのチャンス！"
 },
 "obj_ch3_GSA04_slash_Step_0_gml_378_0": {
-"en": "<div class=\"indented\">* SUSIE will probably cook BURNING FIRE. JUMP over it with ~1!</div>",
-"ja": "＊ スージィが作った料理は　たぶん \n　 炎と化すぞ！　~1で　ジャンプして\n　 よけよう！"
+"en": "<div class=\"indented\">* SUSIE will probably cook BURNING FIRE. JUMP over it with <span class=\"param\">~1</span>!</div>",
+"ja": "＊ スージィが作った料理は　たぶん \n　 炎と化すぞ！　<span class=\"param\">~1</span>で　ジャンプして\n　 よけよう！"
 },
 "obj_ch3_GSA04_slash_Step_0_gml_379_0": {
 "en": "<div class=\"indented\">* Missed food will also turn into BURNING FIRE, so be careful!</div>",
@@ -82730,12 +82730,12 @@ var rendered = {
 "ja": "＊ バーとマークが　重なったら \n　 ピッタリのタイミングで\n　 ボタンを押すと　音が鳴るぞ！"
 },
 "obj_ch3_GSB02_slash_Step_0_gml_556_0": {
-"en": "<div class=\"indented\">* ~1 (or ~2) will play notes on the LEFT!</div>",
-"ja": "＊ ~1 (または ~2)で\n　 左の音を　プレイ！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> (or <span class=\"param\">~2</span>) will play notes on the LEFT!</div>",
+"ja": "＊ <span class=\"param\">~1</span> (または <span class=\"param\">~2</span>)で\n　 左の音を　プレイ！"
 },
 "obj_ch3_GSB02_slash_Step_0_gml_557_0": {
-"en": "<div class=\"indented\">* ~1 (or ~2) will play notes on the RIGHT!</div>",
-"ja": "＊ ~1 (または ~2)で\n　 右の音を　プレイだ！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> (or <span class=\"param\">~2</span>) will play notes on the RIGHT!</div>",
+"ja": "＊ <span class=\"param\">~1</span> (または <span class=\"param\">~2</span>)で\n　 右の音を　プレイだ！"
 },
 "obj_ch3_GSB02_slash_Step_0_gml_558_0": {
 "en": "<div class=\"indented\">* Make sure to HOLD the button for those LONG NOTES!</div>",
@@ -83380,8 +83380,8 @@ var rendered = {
 "ja": "＊ クリスとラルセイが　ロープを動かし \n　 スージラを　ゴミ人形のように\n　 ブン回します。"
 },
 "obj_ch3_GSC05_slash_Step_0_gml_381_0": {
-"en": "<div class=\"indented\">* Spin the rope with ~1 to smash anything and everything.</div>",
-"ja": "＊ ~1で　ロープをグルグル回して \n　 ぶつかったモノを　かたっぱしから\n　 フッとばしてください。"
+"en": "<div class=\"indented\">* Spin the rope with <span class=\"param\">~1</span> to smash anything and everything.</div>",
+"ja": "＊ <span class=\"param\">~1</span>で　ロープをグルグル回して \n　 ぶつかったモノを　かたっぱしから\n　 フッとばしてください。"
 },
 "obj_ch3_GSC05_slash_Step_0_gml_382_0": {
 "en": "<div class=\"indented\">* That's it! You'll learn the rest on the job... Or else!</div>",
@@ -83550,7 +83550,7 @@ var rendered = {
 "ja": "どうーしたのスージィ！\nいっしょに オールで\nカイジュウ映画マラソン\nしたじゃな～い！"
 },
 "obj_ch3_GSD01_slash_Step_0_gml_321_0": {
-"en": "Wasn't\nthat quiz~1\njust oodles of\nfun, folks!?",
+"en": "Wasn't\nthat quiz<span class=\"param\">~1</span>\njust oodles of\nfun, folks!?",
 "ja": "どうーでしたか クイズ？\nメチャンコ\n楽しかったでSHOW！？"
 },
 "obj_ch3_GSD01_slash_Step_0_gml_323_0": {
@@ -83662,7 +83662,7 @@ var rendered = {
 "ja": "マイクく～ん\nワタシの指示どおり\n動いてくれて助かるよ～"
 },
 "obj_ch3_GSD01_slash_Step_0_gml_633_0": {
-"en": "PHEW!\nThat battle~1\nwas a WORKOUT!!",
+"en": "PHEW!\nThat battle<span class=\"param\">~1</span>\nwas a WORKOUT!!",
 "ja": "フゥ！\nこりゃあ明日は\n筋肉痛だな！！"
 },
 "obj_ch3_GSD01_slash_Step_0_gml_639_0": {
@@ -85014,8 +85014,8 @@ var rendered = {
 "ja": "＊ あの　メール男だってかまわない…"
 },
 "obj_ch3_closet_slash_Step_0_gml_355_0": {
-"en": "<div class=\"indented\">* (Suddenly the <span class=\"Y\">[~1]</span> came out of your inventory...!?)</div>",
-"ja": "＊ (突然　「アイテム」から\n　 <span class=\"Y\">[~1]</span>が\n　 飛び出した…！？"
+"en": "<div class=\"indented\">* (Suddenly the <span class=\"Y\">[<span class=\"param\">~1</span>]</span> came out of your inventory...!?)</div>",
+"ja": "＊ (突然　「アイテム」から\n　 <span class=\"Y\">[<span class=\"param\">~1</span>]</span>が\n　 飛び出した…！？"
 },
 "obj_ch3_closet_slash_Step_0_gml_410_0": {
 "en": "<div class=\"indented\">* [Trash heap]!!! YOU KEPT IT!!! YOU REALLY DO CARE!!!</div>",
@@ -85150,8 +85150,8 @@ var rendered = {
 "ja": "＊ ﾜﾀ94　二度と [[いたしません]]。"
 },
 "obj_ch3_closet_slash_Step_0_gml_685_0": {
-"en": "<div class=\"indented\">* (<span class=\"Y\">[~1]</span> returned to your inventory.)</div>",
-"ja": "＊ (<span class=\"Y\">[~1]</span>は\n　 「アイテム」に　もどっていった)"
+"en": "<div class=\"indented\">* (<span class=\"Y\">[<span class=\"param\">~1</span>]</span> returned to your inventory.)</div>",
+"ja": "＊ (<span class=\"Y\">[<span class=\"param\">~1</span>]</span>は\n　 「アイテム」に　もどっていった)"
 }
 },
 "obj_ch3_couch_overworld_controller": {
@@ -85440,8 +85440,8 @@ var rendered = {
 "ja": "＊ ホッホッホ…\n＊ こ～れは　これは…\n　 ここで会ったが　100秒目…"
 },
 "obj_checker_animtest_slash_Step_0_gml_48_0": {
-"en": "<div class=\"indented\">* If it isn't the ~1</div>",
-"ja": "＊ If it isn't the ~1"
+"en": "<div class=\"indented\">* If it isn't the <span class=\"param\">~1</span></div>",
+"ja": "＊ If it isn't the <span class=\"param\">~1</span>"
 },
 "obj_checker_animtest_slash_Step_0_gml_49_0": {
 "en": "<div class=\"indented\">* You boys or girls had better turn back while you can.</div>",
@@ -85702,8 +85702,8 @@ var rendered = {
 "ja": "＊ K.ラウンドの　シャッフルダンスに\n　 キレがなくなってきた。"
 },
 "obj_checkers_enemy_slash_Step_0_gml_82_0": {
-"en": "<div class=\"indented\">* The crown is <span class=\"Y\">~1-percent</span> loose!</div>",
-"ja": "＊ 王冠グラグラ度：<span class=\"Y\">~1パーセント</span>！"
+"en": "<div class=\"indented\">* The crown is <span class=\"Y\"><span class=\"param\">~1</span>-percent</span> loose!</div>",
+"ja": "＊ 王冠グラグラ度：<span class=\"Y\"><span class=\"param\">~1</span>パーセント</span>！"
 },
 "obj_checkers_enemy_slash_Step_0_gml_119_0": {
 "en": "<div class=\"indented\">* K. ROUND felt stressed out and attacked!</div>",
@@ -85866,8 +85866,8 @@ var rendered = {
 "ja": "Throw"
 },
 "obj_checkers_enemy_slash_Step_0_gml_489_0": {
-"en": "<div class=\"indented\">* Press ~1 to determine the ANGLE!</div>",
-"ja": "＊ ~1を押して\n　 アングルを決めろ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to determine the ANGLE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して\n　 アングルを決めろ！"
 },
 "obj_checkers_enemy_slash_Step_0_gml_510_0": {
 "en": "<div class=\"indented\">* Susie? You want to ACT? Aww, what's your idea?</div>",
@@ -85932,8 +85932,8 @@ var rendered = {
 },
 "obj_chef_controls_ui": {
 "obj_chef_controls_ui_slash_Draw_0_gml_19_0": {
-"en": "Throw ~1    Jump ~2",
-"ja": "投げる ~1    ジャンプ ~2"
+"en": "Throw <span class=\"param\">~1</span>    Jump <span class=\"param\">~2</span>",
+"ja": "投げる <span class=\"param\">~1</span>    ジャンプ <span class=\"param\">~2</span>"
 },
 "obj_chef_controls_ui_slash_Draw_0_gml_20_0": {
 "en": "Throw       : Jump",
@@ -87224,8 +87224,8 @@ var rendered = {
 },
 "obj_cutscene_maker": {
 "obj_cutscene_maker_slash_Draw_0_gml_60_0": {
-"en": "actor, ~1  step:~2",
-"ja": "actor, ~1  step:~2"
+"en": "actor, <span class=\"param\">~1</span>  step:<span class=\"param\">~2</span>",
+"ja": "actor, <span class=\"param\">~1</span>  step:<span class=\"param\">~2</span>"
 }
 },
 "obj_cutscene_test": {
@@ -87332,12 +87332,12 @@ var rendered = {
 "ja": "なし"
 },
 "obj_darkcontroller_slash_Draw_0_gml_47_0": {
-"en": "D$ ~1",
-"ja": "D$ ~1"
+"en": "D$ <span class=\"param\">~1</span>",
+"ja": "D$ <span class=\"param\">~1</span>"
 },
 "obj_darkcontroller_slash_Draw_0_gml_58_0": {
-"en": "PTs ~1",
-"ja": "PTs ~1"
+"en": "PTs <span class=\"param\">~1</span>",
+"ja": "PTs <span class=\"param\">~1</span>"
 },
 "obj_darkcontroller_slash_Draw_0_gml_74_0": {
 "en": "CONFIG",
@@ -87525,15 +87525,15 @@ var rendered = {
 },
 "obj_darkcontroller_slash_Draw_0_gml_272_0_b": {
 "en": null,
-"ja": "リーダー(LV~1)\nいろんな「こうどう」\nで仲間をリード。"
+"ja": "リーダー(LV<span class=\"param\">~1</span>)\nいろんな「こうどう」\nで仲間をリード。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_273_0": {
 "en": null,
-"ja": "コマンダー(LV~1)\n「こうどう」で仲間\nをときどきリード。"
+"ja": "コマンダー(LV<span class=\"param\">~1</span>)\n「こうどう」で仲間\nをときどきリード。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_274_0": {
 "en": null,
-"ja": "ベッドボス(LV~1)\nなぜかベッドを\n調べまくる。"
+"ja": "ベッドボス(LV<span class=\"param\">~1</span>)\nなぜかベッドを\n調べまくる。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_275_0": {
 "en": null,
@@ -87541,11 +87541,11 @@ var rendered = {
 },
 "obj_darkcontroller_slash_Draw_0_gml_275_0_b": {
 "en": null,
-"ja": "コケゲッター(LV~1)\nベーシックな\nコケ発見能力。"
+"ja": "コケゲッター(LV<span class=\"param\">~1</span>)\nベーシックな\nコケ発見能力。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_276_0": {
 "en": null,
-"ja": "リーダー(LV~1)\n リードする。"
+"ja": "リーダー(LV<span class=\"param\">~1</span>)\n リードする。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_279_0": {
 "en": null,
@@ -87565,15 +87565,15 @@ var rendered = {
 },
 "obj_darkcontroller_slash_Draw_0_gml_314_0": {
 "en": null,
-"ja": "ダークナイト(LV~1)\nダークエネルギーで\n敵をこうげき。"
+"ja": "ダークナイト(LV<span class=\"param\">~1</span>)\nダークエネルギーで\n敵をこうげき。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_315_0": {
 "en": null,
-"ja": "ヒールボス(LV~1)\nウルティマヒールを\n使える(ヘヘッ！)"
+"ja": "ヒールボス(LV<span class=\"param\">~1</span>)\nウルティマヒールを\n使える(ヘヘッ！)"
 },
 "obj_darkcontroller_slash_Draw_0_gml_316_0": {
 "en": null,
-"ja": "コケラバー(LV~1)\nコケを見つける者の\n強い味方。"
+"ja": "コケラバー(LV<span class=\"param\">~1</span>)\nコケを見つける者の\n強い味方。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_327_0": {
 "en": "Kindness",
@@ -87585,23 +87585,23 @@ var rendered = {
 },
 "obj_darkcontroller_slash_Draw_0_gml_356_0": {
 "en": null,
-"ja": "ダーク王子(LV~1)\n闇の世界の民。\n仲間ができた。"
+"ja": "ダーク王子(LV<span class=\"param\">~1</span>)\n闇の世界の民。\n仲間ができた。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_357_0": {
 "en": null,
-"ja": "ハグ王子(LV~1)\nたくさんハグして\nハグされて。"
+"ja": "ハグ王子(LV<span class=\"param\">~1</span>)\nたくさんハグして\nハグされて。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_358_0": {
 "en": null,
-"ja": "ポーズ王子(LV~1)\n写真を撮るとき\nときどきポーズ。"
+"ja": "ポーズ王子(LV<span class=\"param\">~1</span>)\n写真を撮るとき\nときどきポーズ。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_359_0": {
 "en": null,
-"ja": "お下品王子(LV~1)\n下品なポーズも\nなんのその。"
+"ja": "お下品王子(LV<span class=\"param\">~1</span>)\n下品なポーズも\nなんのその。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_360_0": {
 "en": null,
-"ja": "撮らない王子(LV~1)\n写真なんか\n撮らない。"
+"ja": "撮らない王子(LV<span class=\"param\">~1</span>)\n写真なんか\n撮らない。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_362_0": {
 "en": null,
@@ -87612,16 +87612,16 @@ var rendered = {
 "ja": "スノー使い(LV1)\n氷属性のまほう\nを使えるかも？"
 },
 "obj_darkcontroller_slash_Draw_0_gml_383_0": {
-"en": "LV~1 Frostmancer\nFreezes the enemy.",
-"ja": "フロスター(LV~1)\n敵を凍らせる。"
+"en": "LV<span class=\"param\">~1</span> Frostmancer\nFreezes the enemy.",
+"ja": "フロスター(LV<span class=\"param\">~1</span>)\n敵を凍らせる。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_384_0": {
-"en": "LV~1 Ice Trancer\nReceives pain to\nbecome stronger.",
-"ja": "トランサー(LV~1)\n痛みを受けて\n強くなる。"
+"en": "LV<span class=\"param\">~1</span> Ice Trancer\nReceives pain to\nbecome stronger.",
+"ja": "トランサー(LV<span class=\"param\">~1</span>)\n痛みを受けて\n強くなる。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_385_0": {
-"en": "LV~1 Moss Neutral\nNeither chaotic nor\nlawful to moss.",
-"ja": "コケ中立者(LV~1)\nコケに対し　混沌\nでも秩序でもない。"
+"en": "LV<span class=\"param\">~1</span> Moss Neutral\nNeither chaotic nor\nlawful to moss.",
+"ja": "コケ中立者(LV<span class=\"param\">~1</span>)\nコケに対し　混沌\nでも秩序でもない。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_388_0": {
 "en": "Coldness ",
@@ -87760,8 +87760,8 @@ var rendered = {
 "ja": "だいじ"
 },
 "obj_darkcontroller_slash_Draw_0_gml_956_0": {
-"en": "Really throw away the\n~1?",
-"ja": "~1を\n捨てますか？"
+"en": "Really throw away the\n<span class=\"param\">~1</span>?",
+"ja": "<span class=\"param\">~1</span>を\n捨てますか？"
 },
 "obj_darkcontroller_slash_Step_0_gml_135_0": {
 "en": "<div class=\"indented\">* ...</div>",
@@ -88063,7 +88063,7 @@ var rendered = {
 },
 "obj_debug_xy_slash_Draw_74_gml_27_0": {
 "en": null,
-"ja": "CameraX: ~1 CameraY: ~2"
+"ja": "CameraX: <span class=\"param\">~1</span> CameraY: <span class=\"param\">~2</span>"
 },
 "obj_debug_xy_slash_Draw_74_gml_28_0": {
 "en": null,
@@ -88075,7 +88075,7 @@ var rendered = {
 },
 "obj_debug_xy_slash_Draw_74_gml_29_0_b": {
 "en": null,
-"ja": "instance_count: ~1"
+"ja": "instance_count: <span class=\"param\">~1</span>"
 },
 "obj_debug_xy_slash_Draw_74_gml_33_0": {
 "en": null,
@@ -88124,8 +88124,8 @@ var rendered = {
 "ja": "＊ ジグソー・ジョー - 弱点は\n　 同じターン中に実行される\n　 「こうどう」と「にがす」。"
 },
 "obj_dojo_spareenemy_slash_Step_0_gml_44_0": {
-"en": "Ah!! It's my\n~1 o'clock shadow!",
-"ja": "もう~1時だ！\nヒゲが生えてきちまう！"
+"en": "Ah!! It's my\n<span class=\"param\">~1</span> o'clock shadow!",
+"ja": "もう<span class=\"param\">~1</span>時だ！\nヒゲが生えてきちまう！"
 },
 "obj_dojo_spareenemy_slash_Step_0_gml_51_0": {
 "en": "<div class=\"indented\">* Jigsaw Joe's stubble regrew!</div>",
@@ -88608,8 +88608,8 @@ var rendered = {
 "ja": "＊ あ　ごめん！\n＊ 説明するの　忘れてた！\n＊ 「たたかう」ときは…"
 },
 "obj_dummyenemy_slash_Step_0_gml_399_0": {
-"en": "<div class=\"indented\">* Press ~1 again when the cursor goes in the box!</div>",
-"ja": "＊ Press ~1 again when the cursor goes in the box!"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> again when the cursor goes in the box!</div>",
+"ja": "＊ Press <span class=\"param\">~1</span> again when the cursor goes in the box!"
 },
 "obj_dummyenemy_slash_Step_0_gml_403_0": {
 "en": "<div class=\"indented\">* It's OK, Kris!</div><div class=\"indented\">* You'll get it!</div><div class=\"indented\">* Try again!</div>",
@@ -88620,12 +88620,12 @@ var rendered = {
 "ja": "＊ Press Z when the white rectangle's in the blue box!"
 },
 "obj_dummyenemy_slash_Step_0_gml_405_0": {
-"en": "<div class=\"indented\">* Ummm... you can press ~1 a lot, if it helps!</div>",
-"ja": "＊ Ummm... you can press ~1 a lot, if it helps!"
+"en": "<div class=\"indented\">* Ummm... you can press <span class=\"param\">~1</span> a lot, if it helps!</div>",
+"ja": "＊ Ummm... you can press <span class=\"param\">~1</span> a lot, if it helps!"
 },
 "obj_dummyenemy_slash_Step_0_gml_406_0": {
-"en": "<div class=\"indented\">* Kris...</div><div class=\"indented\">* Please try to press ~1.</div>",
-"ja": "＊ Kris...\n＊ Please try to press ~1."
+"en": "<div class=\"indented\">* Kris...</div><div class=\"indented\">* Please try to press <span class=\"param\">~1</span>.</div>",
+"ja": "＊ Kris...\n＊ Please try to press <span class=\"param\">~1</span>."
 },
 "obj_dummyenemy_slash_Step_0_gml_407_0": {
 "en": "<div class=\"indented\">* Ummm, Kris?</div><div class=\"indented\">* Can you see the white rectangle?</div>",
@@ -89012,8 +89012,8 @@ var rendered = {
 "ja": "＊ (ゴミを見つけた！)"
 },
 "obj_dw_ch3_b3bs_trashcan_slash_Other_10_gml_44_0": {
-"en": "<div class=\"indented\">* (And found ~1 POINTs!)</div>",
-"ja": "＊ (~1ポイント見つけた！)"
+"en": "<div class=\"indented\">* (And found <span class=\"param\">~1</span> POINTs!)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>ポイント見つけた！)"
 },
 "obj_dw_ch3_b3bs_trashcan_slash_Other_10_gml_46_0": {
 "en": "<div class=\"indented\">* ...and found a switch!</div>",
@@ -89100,8 +89100,8 @@ var rendered = {
 "ja": "「太陽」でしょう"
 },
 "obj_dw_ch3_curtainroomnpc_slash_Step_0_gml_306_0": {
-"en": "<div class=\"indented\">* ~1.</div>",
-"ja": "＊ ~1。"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span>.</div>",
+"ja": "＊ <span class=\"param\">~1</span>。"
 },
 "obj_dw_ch3_curtainroomnpc_slash_Step_0_gml_353_0": {
 "en": "<div class=\"indented\">* Everyone pose!</div>",
@@ -89274,18 +89274,18 @@ var rendered = {
 },
 "obj_dw_rainbow_bg": {
 "obj_dw_rainbow_bg_slash_Draw_0_gml_21_0": {
-"en": "Press ~1 to try again!",
-"ja": "~1を押してリトライ！"
+"en": "Press <span class=\"param\">~1</span> to try again!",
+"ja": "<span class=\"param\">~1</span>を押してリトライ！"
 }
 },
 "obj_dw_ranking_hub_sign": {
 "obj_dw_ranking_hub_sign_slash_Create_0_gml_21_0": {
-"en": "BOARD ~1",
-"ja": "PARK ~1"
+"en": "BOARD <span class=\"param\">~1</span>",
+"ja": "PARK <span class=\"param\">~1</span>"
 },
 "obj_dw_ranking_hub_sign_slash_Draw_0_gml_44_0": {
-"en": "~1-RANK",
-"ja": "~1 RANK"
+"en": "<span class=\"param\">~1</span>-RANK",
+"ja": "<span class=\"param\">~1</span> RANK"
 }
 },
 "obj_dw_ranking_minigame_door": {
@@ -89306,12 +89306,12 @@ var rendered = {
 "ja": "MONSTER MOVIE"
 },
 "obj_dw_ranking_minigame_door_slash_Create_0_gml_45_0": {
-"en": "NOW PLAYING......~1",
-"ja": "NOW PLAYING......~1"
+"en": "NOW PLAYING......<span class=\"param\">~1</span>",
+"ja": "NOW PLAYING......<span class=\"param\">~1</span>"
 },
 "obj_dw_ranking_minigame_door_slash_Create_0_gml_49_0": {
-"en": "NOW PLAYING......~1",
-"ja": "NOW PLAYING......~1"
+"en": "NOW PLAYING......<span class=\"param\">~1</span>",
+"ja": "NOW PLAYING......<span class=\"param\">~1</span>"
 }
 },
 "obj_dw_ranking_t_screens": {
@@ -89599,7 +89599,7 @@ var rendered = {
 "obj_elnina_enemy": {
 "obj_elnina_enemy_slash_Step_0_gml_39_0_b": {
 "en": "<div class=\"indented\">* ELNINA - She's just over the moon for Lanino.</div>",
-"ja": "＊ エルニーナ - ATK ~1 DEF ~2\n＊ ラニーノへの気持ちは\n　 「月が　きれいですね」。"
+"ja": "＊ エルニーナ - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n＊ ラニーノへの気持ちは\n　 「月が　きれいですね」。"
 },
 "obj_elnina_enemy_slash_Step_0_gml_46_0": {
 "en": "<div class=\"indented\">* Kris says I Love TV to Elnina!</div>",
@@ -89820,8 +89820,8 @@ var rendered = {
 "ja": "＊ ２人は　プロのパワーカップル！！\n　 お天気は　だれにも　止められない！！"
 },
 "obj_elnina_lanino_controller_slash_Step_0_gml_813_0": {
-"en": "<div class=\"indented\">* Keep it up guys! That's ~1 I love TV's! But this couple won't let you win so easily!</div>",
-"ja": "＊  「テレビ大好き」~1回目！\n　 まだまだ～！！ 　そんな程度じゃ\n　 このカップルには　勝てないゾ！！"
+"en": "<div class=\"indented\">* Keep it up guys! That's <span class=\"param\">~1</span> I love TV's! But this couple won't let you win so easily!</div>",
+"ja": "＊  「テレビ大好き」<span class=\"param\">~1</span>回目！\n　 まだまだ～！！ 　そんな程度じゃ\n　 このカップルには　勝てないゾ！！"
 },
 "obj_elnina_lanino_controller_slash_Step_0_gml_823_0": {
 "en": "<div class=\"indented\">* It's normal for couples to fight sometimes! C'mon Kris, tell 'em!</div>",
@@ -90356,12 +90356,12 @@ var rendered = {
 "ja": "LV "
 },
 "obj_fusionmenu_slash_Draw_0_gml_50_0": {
-"en": "~1: More Info\n~2: Quit",
-"ja": "~1: 図鑑\n~2: 終了"
+"en": "<span class=\"param\">~1</span>: More Info\n<span class=\"param\">~2</span>: Quit",
+"ja": "<span class=\"param\">~1</span>: 図鑑\n<span class=\"param\">~2</span>: 終了"
 },
 "obj_fusionmenu_slash_Draw_0_gml_51_0": {
-"en": "~1: More Info\n~2: Quit",
-"ja": "~1: 図鑑\n~2: 終了"
+"en": "<span class=\"param\">~1</span>: More Info\n<span class=\"param\">~2</span>: Quit",
+"ja": "<span class=\"param\">~1</span>: 図鑑\n<span class=\"param\">~2</span>: 終了"
 },
 "obj_fusionmenu_slash_Draw_0_gml_56_0": {
 "en": "PROGRESS",
@@ -90428,20 +90428,20 @@ var rendered = {
 "ja": "属性:"
 },
 "obj_fusionmenu_slash_Draw_0_gml_125_0": {
-"en": "~1: Place",
-"ja": "~1: 配置"
+"en": "<span class=\"param\">~1</span>: Place",
+"ja": "<span class=\"param\">~1</span>: 配置"
 },
 "obj_fusionmenu_slash_Draw_0_gml_129_0": {
 "en": "Cannot Place",
 "ja": "配置不可"
 },
 "obj_fusionmenu_slash_Draw_0_gml_132_0": {
-"en": "~1: Return",
-"ja": "~1: もどる"
+"en": "<span class=\"param\">~1</span>: Return",
+"ja": "<span class=\"param\">~1</span>: もどる"
 },
 "obj_fusionmenu_slash_Draw_0_gml_136_0": {
-"en": "Press ~1 to Return",
-"ja": "~1を押してもどる"
+"en": "Press <span class=\"param\">~1</span> to Return",
+"ja": "<span class=\"param\">~1</span>を押してもどる"
 },
 "obj_fusionmenu_slash_Draw_0_gml_154_0": {
 "en": "HELD",
@@ -90616,8 +90616,8 @@ var rendered = {
 "ja": "GET!"
 },
 "obj_fusionmenu_slash_Step_0_gml_434_0": {
-"en": "~1: Place   ~2: Return",
-"ja": "~1: 配置   ~2: もどる"
+"en": "<span class=\"param\">~1</span>: Place   <span class=\"param\">~2</span>: Return",
+"ja": "<span class=\"param\">~1</span>: 配置   <span class=\"param\">~2</span>: もどる"
 },
 "obj_fusionmenu_slash_Step_0_gml_462_0": {
 "en": "      Place                 Return",
@@ -90850,8 +90850,8 @@ var rendered = {
 "ja": "＊ もう１回　いってみよう！\n　 アンコール<span class=\"picture\">[IMG]</span>\n　 スタァートッ！！"
 },
 "obj_gameover_chef_slash_Step_0_gml_121_0": {
-"en": "<div class=\"indented\">* You lost ~1 TIMES?!</div>",
-"ja": "＊ ~1回も負けた…！？"
+"en": "<div class=\"indented\">* You lost <span class=\"param\">~1</span> TIMES?!</div>",
+"ja": "＊ <span class=\"param\">~1</span>回も負けた…！？"
 },
 "obj_gameover_chef_slash_Step_0_gml_126_0": {
 "en": "<div class=\"indented\">* Can someone go check if the fire is defective!?</div>",
@@ -91130,14 +91130,14 @@ var rendered = {
 },
 "obj_glowtilepuzz": {
 "obj_glowtilepuzz_slash_Step_0_gml_112_0": {
-"en": "<div class=\"indented\">* (Remember you can hold ~1 to run, Kris...!)</div>",
-"ja": "＊ (クリス…　~1を長押しすると\n　 走れるからね…？)"
+"en": "<div class=\"indented\">* (Remember you can hold <span class=\"param\">~1</span> to run, Kris...!)</div>",
+"ja": "＊ (クリス…　<span class=\"param\">~1</span>を長押しすると\n　 走れるからね…？)"
 }
 },
 "obj_healwriter": {
 "obj_healwriter_slash_Draw_0_gml_4_0": {
-"en": "+~1",
-"ja": "+~1"
+"en": "+<span class=\"param\">~1</span>",
+"ja": "+<span class=\"param\">~1</span>"
 }
 },
 "obj_heartenemy": {
@@ -91683,7 +91683,7 @@ var rendered = {
 "obj_lanino_enemy": {
 "obj_lanino_enemy_slash_Step_0_gml_40_0_b": {
 "en": "<div class=\"indented\">* Lanino - The sight of Elnina makes him want to be singin' in the rain.</div>",
-"ja": "＊ ラニーノ - ATK ~1 DEF ~2\n＊ エルニーナを見ると\n　 雨に唄いたくなる。"
+"ja": "＊ ラニーノ - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n＊ エルニーナを見ると\n　 雨に唄いたくなる。"
 },
 "obj_lanino_enemy_slash_Step_0_gml_47_0": {
 "en": "<div class=\"indented\">* Kris says I Love TV to Lanino!</div>",
@@ -91894,16 +91894,16 @@ var rendered = {
 },
 "obj_minigame_quit_ui": {
 "obj_minigame_quit_ui_slash_Draw_0_gml_18_0": {
-"en": "Hold ~1 : Quit",
-"ja": "~1長押し：やめる"
+"en": "Hold <span class=\"param\">~1</span> : Quit",
+"ja": "<span class=\"param\">~1</span>長押し：やめる"
 },
 "obj_minigame_quit_ui_slash_Draw_0_gml_19_0": {
 "en": null,
 "ja": "やめる"
 },
 "obj_minigame_quit_ui_slash_Draw_0_gml_20_0": {
-"en": "~1 : Quit",
-"ja": "~1 : やめる"
+"en": "<span class=\"param\">~1</span> : Quit",
+"ja": "<span class=\"param\">~1</span> : やめる"
 }
 },
 "obj_moneydisplay": {
@@ -92242,8 +92242,8 @@ var rendered = {
 "ja": "＊ 約束どおり\n　 賞品を受け取ってくれ！"
 },
 "obj_npc_dojo_slash_Step_0_gml_51_0": {
-"en": "<div class=\"indented\">* (You received ~1!)</div>",
-"ja": "＊ (~1を手に入れた！)"
+"en": "<div class=\"indented\">* (You received <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>を手に入れた！)"
 },
 "obj_npc_dojo_slash_Step_0_gml_56_0": {
 "en": "<div class=\"indented\">* Boss! Your inventory is full!!</div>",
@@ -92786,8 +92786,8 @@ var rendered = {
 "ja": "＊ 手早く済ませよう。"
 },
 "obj_npc_hammerguy_slash_Step_0_gml_251_0": {
-"en": "<div class=\"indented\">* (You got ~1!)</div>",
-"ja": "＊ (~1を　手に入れた！)"
+"en": "<div class=\"indented\">* (You got <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>を　手に入れた！)"
 }
 },
 "obj_npc_king": {
@@ -93010,8 +93010,8 @@ var rendered = {
 "ja": "＊ 自由てぇのは　ビッグなヤツしか\n　 手に入れらんねぇもんだぁ。"
 },
 "obj_npc_ramb_slash_Other_10_gml_78_0": {
-"en": "<div class=\"indented\">* Kris! Bang-up job getting ~1-rank, luv! For that, a little prize...~2</div>",
-"ja": "＊ クリス！　~1ランク取ったってなぁ！\n　 てぇしたもんだぁ。\n　 ほれ　ええもんやるでぇ…~2"
+"en": "<div class=\"indented\">* Kris! Bang-up job getting <span class=\"param\">~1</span>-rank, luv! For that, a little prize...<span class=\"param\">~2</span></div>",
+"ja": "＊ クリス！　<span class=\"param\">~1</span>ランク取ったってなぁ！\n　 てぇしたもんだぁ。\n　 ほれ　ええもんやるでぇ…<span class=\"param\">~2</span>"
 },
 "obj_npc_ramb_slash_Other_10_gml_79_0": {
 "en": "<div class=\"indented\">* Kris! How was it? Lots 'o fun?</div>",
@@ -93038,8 +93038,8 @@ var rendered = {
 "ja": "アイテム"
 },
 "obj_npc_ramb_slash_Other_10_gml_83_0": {
-"en": "<div class=\"indented\">* Ah, you're holding too many <span class=\"Y\">~1</span>, luv. Get rid of something?</div>",
-"ja": "＊ ありゃあ！　<span class=\"Y\">~1</span>が\n　 いっぺぇでねぇか。なんか\n　 減らしてもらわねぇと　ダメだぁ。"
+"en": "<div class=\"indented\">* Ah, you're holding too many <span class=\"Y\"><span class=\"param\">~1</span></span>, luv. Get rid of something?</div>",
+"ja": "＊ ありゃあ！　<span class=\"Y\"><span class=\"param\">~1</span></span>が\n　 いっぺぇでねぇか。なんか\n　 減らしてもらわねぇと　ダメだぁ。"
 },
 "obj_npc_ramb_slash_Other_10_gml_86_0": {
 "en": "<div class=\"indented\">* Come again next time, Kris, if you fancy.</div>",
@@ -93158,8 +93158,8 @@ var rendered = {
 "ja": "＊ …へ？　「最後までプレイ\n　 できなかった」？"
 },
 "obj_npc_ramb_slash_Other_10_gml_202_0": {
-"en": "<div class=\"indented\">* Blast it. Maybe you missed something from the first stage...?~1</div>",
-"ja": "＊ そりゃあ残念だぁ。\n　 最初のステージで\n　 何か取り忘れたんでねぇか…？~1"
+"en": "<div class=\"indented\">* Blast it. Maybe you missed something from the first stage...?<span class=\"param\">~1</span></div>",
+"ja": "＊ そりゃあ残念だぁ。\n　 最初のステージで\n　 何か取り忘れたんでねぇか…？<span class=\"param\">~1</span>"
 },
 "obj_npc_ramb_slash_Other_10_gml_204_0": {
 "en": "<div class=\"indented\">* Kris, luv. Let's catch up in the Green Room...</div>",
@@ -94866,8 +94866,8 @@ var rendered = {
 "ja": "＊ ウェ～ルカ～ム！"
 },
 "obj_npc_room_slash_Other_10_gml_1510_0": {
-"en": "<div class=\"indented\">* Things have changed again here in</div><div class=\"indented\">  ~1Town!</div>",
-"ja": "＊ ~1タウンは\n　 あれから　ずいぶん変わったよ！"
+"en": "<div class=\"indented\">* Things have changed again here in</div><div class=\"indented\">  <span class=\"param\">~1</span>Town!</div>",
+"ja": "＊ <span class=\"param\">~1</span>タウンは\n　 あれから　ずいぶん変わったよ！"
 },
 "obj_npc_room_slash_Other_10_gml_1513_0": {
 "en": "TALK ABOUT LOUSY REAL ESTATE...",
@@ -95250,8 +95250,8 @@ var rendered = {
 "ja": "＊ 心配しないで　スージィ！\n　 ほら！　ボクさま　まだ\n　 ふんわりホカホカ！"
 },
 "obj_npc_room_slash_Other_10_gml_1761_0": {
-"en": "<div class=\"indented\">* You'll know quickly if I become flaky and stale.~1</div>",
-"ja": "＊ パサパサボソボソになったら\n　 すぐに　わかるぞ。~1"
+"en": "<div class=\"indented\">* You'll know quickly if I become flaky and stale.<span class=\"param\">~1</span></div>",
+"ja": "＊ パサパサボソボソになったら\n　 すぐに　わかるぞ。<span class=\"param\">~1</span>"
 },
 "obj_npc_room_slash_Other_10_gml_1766_0": {
 "en": "<div class=\"indented\">* Plus, I had a delicious pasta meal last time I became stone.</div>",
@@ -95334,8 +95334,8 @@ var rendered = {
 "ja": "＊ …オレのように。"
 },
 "obj_npc_room_slash_Other_10_gml_1810_0_b": {
-"en": "<div class=\"indented\">* ... Hmm. Says here you got only ~1-Rank on Board ~2. Try harder next time.</div>",
-"ja": "＊ …悪いが　パーク~2の成績は\n　 ~1ランクって書いてあるな。\n　 次は　もっとがんばれよ。"
+"en": "<div class=\"indented\">* ... Hmm. Says here you got only <span class=\"param\">~1</span>-Rank on Board <span class=\"param\">~2</span>. Try harder next time.</div>",
+"ja": "＊ …悪いが　パーク<span class=\"param\">~2</span>の成績は\n　 <span class=\"param\">~1</span>ランクって書いてあるな。\n　 次は　もっとがんばれよ。"
 },
 "obj_npc_room_slash_Other_10_gml_1811_0": {
 "en": "<div class=\"indented\">* Lone wolves have to stick together.</div>",
@@ -95350,12 +95350,12 @@ var rendered = {
 "ja": "＊ オレたちは　オレたちで\n　 自分のための　道場をつくる。\n　 陰キャ専用のな。"
 },
 "obj_npc_room_slash_Other_10_gml_1822_0": {
-"en": "<div class=\"indented\">* ... I see! ~1-rank on Board ~2. Please enjoy our luxury facilities.</div>",
-"ja": "＊ …よし！　パーク~2の成績は\n　 ~1ランクだな。VIP専用の\n　 高級サービスを利用OKだ。"
+"en": "<div class=\"indented\">* ... I see! <span class=\"param\">~1</span>-rank on Board <span class=\"param\">~2</span>. Please enjoy our luxury facilities.</div>",
+"ja": "＊ …よし！　パーク<span class=\"param\">~2</span>の成績は\n　 <span class=\"param\">~1</span>ランクだな。VIP専用の\n　 高級サービスを利用OKだ。"
 },
 "obj_npc_room_slash_Other_10_gml_1827_0": {
-"en": "<div class=\"indented\">* ... Hmm. Says here you got only ~1-Rank on Board ~2. Try harder next time.</div>",
-"ja": "＊ …悪いが　パーク~2の成績は\n　 ~1ランクって書いてあるな。\n　 次は　もっとがんばれよ。"
+"en": "<div class=\"indented\">* ... Hmm. Says here you got only <span class=\"param\">~1</span>-Rank on Board <span class=\"param\">~2</span>. Try harder next time.</div>",
+"ja": "＊ …悪いが　パーク<span class=\"param\">~2</span>の成績は\n　 <span class=\"param\">~1</span>ランクって書いてあるな。\n　 次は　もっとがんばれよ。"
 },
 "obj_npc_room_slash_Other_10_gml_1828_0": {
 "en": "<div class=\"indented\">* ... I've been training.</div>",
@@ -95940,8 +95940,8 @@ var rendered = {
 },
 "obj_npc_rudy": {
 "obj_npc_rudy_slash_Step_0_gml_29_0": {
-"en": "<div class=\"indented\">* 'Sides, your dad ain't much without his main man!~1</div>",
-"ja": "＊ それに　クリスのパパも\n　 あいかたが　いなきゃ\n　 こまるだろう！~1"
+"en": "<div class=\"indented\">* 'Sides, your dad ain't much without his main man!<span class=\"param\">~1</span></div>",
+"ja": "＊ それに　クリスのパパも\n　 あいかたが　いなきゃ\n　 こまるだろう！<span class=\"param\">~1</span>"
 },
 "obj_npc_rudy_slash_Step_0_gml_33_0": {
 "en": "<div class=\"indented\">* Yeah he... had to ask the store guy for free pickles.</div>",
@@ -95970,8 +95970,8 @@ var rendered = {
 "ja": "＊ 記号を　解読できない…\n＊ 手で書いてあるせいかもしれない。"
 },
 "obj_npc_sign_slash_Other_10_gml_27_0": {
-"en": "<div class=\"indented\">* (It's ~1 flower, protected in a container...)</div>",
-"ja": "＊ (~1の　はなだ。\n　 ケースで　まもられている…)"
+"en": "<div class=\"indented\">* (It's <span class=\"param\">~1</span> flower, protected in a container...)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>の　はなだ。\n　 ケースで　まもられている…)"
 },
 "obj_npc_sign_slash_Other_10_gml_30_0": {
 "en": "<div class=\"indented\">* Defeating you is so <span class=\"picture\">[IMG]</span> </div>",
@@ -96130,8 +96130,8 @@ var rendered = {
 "ja": "＊ (干し草の山だ)"
 },
 "obj_npc_sign_slash_Other_10_gml_396_0": {
-"en": "<div class=\"indented\">* Ooh, looks yummy! W-wait, what am I saying...?~1</div>",
-"ja": "＊ わぁ　おいしそう！\n　 …って　あれ？　ボクいま\n　 なんで　そんなことを…？~1"
+"en": "<div class=\"indented\">* Ooh, looks yummy! W-wait, what am I saying...?<span class=\"param\">~1</span></div>",
+"ja": "＊ わぁ　おいしそう！\n　 …って　あれ？　ボクいま\n　 なんで　そんなことを…？<span class=\"param\">~1</span>"
 },
 "obj_npc_sign_slash_Other_10_gml_407_0": {
 "en": "<div class=\"indented\">* Heh, eating HAY? That costume got you weird, Ralsei.</div>",
@@ -96402,16 +96402,16 @@ var rendered = {
 },
 "obj_overworldc": {
 "obj_overworldc_slash_Draw_0_gml_37_0": {
-"en": "HP  ~1/~2",
-"ja": "HP  ~1/~2"
+"en": "HP  <span class=\"param\">~1</span>/<span class=\"param\">~2</span>",
+"ja": "HP  <span class=\"param\">~1</span>/<span class=\"param\">~2</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_38_0": {
-"en": "LV  ~1",
-"ja": "LV  ~1"
+"en": "LV  <span class=\"param\">~1</span>",
+"ja": "LV  <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_40_0": {
-"en": "$   ~1",
-"ja": "$   ~1"
+"en": "$   <span class=\"param\">~1</span>",
+"ja": "$   <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_42_0": {
 "en": "ITEM",
@@ -96438,24 +96438,24 @@ var rendered = {
 "ja": "DROP"
 },
 "obj_overworldc_slash_Draw_0_gml_66_0": {
-"en": "\"~1\"",
-"ja": "“~1”"
+"en": "\"<span class=\"param\">~1</span>\"",
+"ja": "“<span class=\"param\">~1</span>”"
 },
 "obj_overworldc_slash_Draw_0_gml_68_0": {
-"en": "LV  ~1",
-"ja": "LV  ~1"
+"en": "LV  <span class=\"param\">~1</span>",
+"ja": "LV  <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_69_0": {
-"en": "HP  ~1 / ~2",
-"ja": "HP  ~1 / ~2"
+"en": "HP  <span class=\"param\">~1</span> / <span class=\"param\">~2</span>",
+"ja": "HP  <span class=\"param\">~1</span> / <span class=\"param\">~2</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_71_0": {
-"en": "AT  ~1 (~2)",
-"ja": "AT  ~1 (~2)"
+"en": "AT  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)",
+"ja": "AT  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)"
 },
 "obj_overworldc_slash_Draw_0_gml_72_0": {
-"en": "DF  ~1 (~2)",
-"ja": "DF  ~1 (~2)"
+"en": "DF  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)",
+"ja": "DF  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)"
 },
 "obj_overworldc_slash_Draw_0_gml_73_0": {
 "en": "None",
@@ -96490,56 +96490,56 @@ var rendered = {
 "ja": "シャーペン"
 },
 "obj_overworldc_slash_Draw_0_gml_81_0": {
-"en": "WEAPON: ~1",
-"ja": "WPN: ~1"
+"en": "WEAPON: <span class=\"param\">~1</span>",
+"ja": "WPN: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_81_0_b": {
 "en": "Wristwatch",
 "ja": "うでどけい"
 },
 "obj_overworldc_slash_Draw_0_gml_82_0": {
-"en": "ARMOR: ~1",
-"ja": "AMR: ~1"
+"en": "ARMOR: <span class=\"param\">~1</span>",
+"ja": "AMR: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_83_0": {
-"en": "MONEY: ~1",
-"ja": "MONEY: ~1"
+"en": "MONEY: <span class=\"param\">~1</span>",
+"ja": "MONEY: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_88_0": {
 "en": "???",
 "ja": "？？？"
 },
 "obj_overworldc_slash_Draw_0_gml_92_0": {
-"en": "EXP: ~1",
-"ja": "EXP: ~1"
+"en": "EXP: <span class=\"param\">~1</span>",
+"ja": "EXP: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_95_0": {
-"en": "Since\nChapter ~1",
-"ja": "CHAPTER~1\nから"
+"en": "Since\nChapter <span class=\"param\">~1</span>",
+"ja": "CHAPTER<span class=\"param\">~1</span>\nから"
 },
 "obj_overworldc_slash_Draw_0_gml_113_0": {
-"en": "NEXT: ~1",
-"ja": "NEXT: ~1"
+"en": "NEXT: <span class=\"param\">~1</span>",
+"ja": "NEXT: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Step_0_gml_34_0": {
-"en": "<div class=\"indented\">* You put the ~1 on the ground and gave it a little pat.</div>",
-"ja": "＊ ~1を\n　 じめんに　おいて\n　 「おつかれさま」と　なでてあげた。"
+"en": "<div class=\"indented\">* You put the <span class=\"param\">~1</span> on the ground and gave it a little pat.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 じめんに　おいて\n　 「おつかれさま」と　なでてあげた。"
 },
 "obj_overworldc_slash_Step_0_gml_34_0_b": {
-"en": "<div class=\"indented\">* You bid a quiet farewell to the ~1.</div>",
-"ja": "＊ ~1に\n　 そっと　わかれを　つげた。"
+"en": "<div class=\"indented\">* You bid a quiet farewell to the <span class=\"param\">~1</span>.</div>",
+"ja": "＊ <span class=\"param\">~1</span>に\n　 そっと　わかれを　つげた。"
 },
 "obj_overworldc_slash_Step_0_gml_36_0": {
-"en": "<div class=\"indented\">* You threw the ~1 on the ground like the piece of trash it is.</div>",
-"ja": "＊ ~1を\n　 ゴミのように　なげすてた。"
+"en": "<div class=\"indented\">* You threw the <span class=\"param\">~1</span> on the ground like the piece of trash it is.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 ゴミのように　なげすてた。"
 },
 "obj_overworldc_slash_Step_0_gml_38_0": {
-"en": "<div class=\"indented\">* The ~1 was thrown away.</div>",
-"ja": "＊ ~1を\n　 すてた。"
+"en": "<div class=\"indented\">* The <span class=\"param\">~1</span> was thrown away.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 すてた。"
 },
 "obj_overworldc_slash_Step_0_gml_38_0_b": {
-"en": "<div class=\"indented\">* You abandoned the ~1.</div>",
-"ja": "＊ ~1を\n　 みすてた。"
+"en": "<div class=\"indented\">* You abandoned the <span class=\"param\">~1</span>.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 みすてた。"
 },
 "obj_overworldc_slash_Step_0_gml_42_0": {
 "en": "<div class=\"indented\">* What Egg?</div>",
@@ -97034,8 +97034,8 @@ var rendered = {
 "ja": "ミスター・ナイス"
 },
 "obj_quizsequence_slash_Step_0_gml_402_0": {
-"en": "Interesting! His name\nis ~1.",
-"ja": "ほう！\n~1\nというのですね…"
+"en": "Interesting! His name\nis <span class=\"param\">~1</span>.",
+"ja": "ほう！\n<span class=\"param\">~1</span>\nというのですね…"
 },
 "obj_quizsequence_slash_Step_0_gml_475_0": {
 "en": "Oops.",
@@ -97320,7 +97320,7 @@ var rendered = {
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_128_0": {
-"en": "＊ ~1を連打して\n　 息を吹きかけろ！",
+"en": "＊ <span class=\"param\">~1</span>を連打して\n　 息を吹きかけろ！",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_138_0": {
@@ -97328,7 +97328,7 @@ var rendered = {
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_150_0": {
-"en": "＊ ~1を連打して\n　 息を吹きかけろ！",
+"en": "＊ <span class=\"param\">~1</span>を連打して\n　 息を吹きかけろ！",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_175_0": {
@@ -99538,8 +99538,8 @@ var rendered = {
 "ja": "＊ スージィには\n　 マニュアルを\n　 読んでもらえてないから…"
 },
 "obj_readable_room1_slash_Other_10_gml_1921_0_b": {
-"en": "<div class=\"indented\">* It's some decorative moss. Looks delicious.~1</div>",
-"ja": "＊ 装飾用のコケ。おいしそうだ。~1"
+"en": "<div class=\"indented\">* It's some decorative moss. Looks delicious.<span class=\"param\">~1</span></div>",
+"ja": "＊ 装飾用のコケ。おいしそうだ。<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_1922_0": {
 "en": "<div class=\"indented\">* So I put it over here for you.</div>",
@@ -99678,8 +99678,8 @@ var rendered = {
 "ja": "＊ てか　ラルセイって\n　 数学とか　できんのか…？"
 },
 "obj_readable_room1_slash_Other_10_gml_2190_0_b": {
-"en": "<div class=\"indented\">* (SHADOW CRYSTAL was added to your Key Items.)~1</div>",
-"ja": "＊ (シャドウジェムが\n　 「だいじなもの」に加わった)~1"
+"en": "<div class=\"indented\">* (SHADOW CRYSTAL was added to your Key Items.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (シャドウジェムが\n　 「だいじなもの」に加わった)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_2191_0": {
 "en": "<div class=\"indented\">* ... guess he could do our book reports...</div>",
@@ -99710,8 +99710,8 @@ var rendered = {
 "ja": "＊ (カーテンの向こうにいる　だれかが\n　 押し返してきた…)"
 },
 "obj_readable_room1_slash_Other_10_gml_2231_0_b": {
-"en": "<div class=\"indented\">* (...? You felt something spiny stuck in your hand.)~1</div>",
-"ja": "＊ (…？　なにか　トゲトゲしたものが\n　 手に　ささっている)~1"
+"en": "<div class=\"indented\">* (...? You felt something spiny stuck in your hand.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (…？　なにか　トゲトゲしたものが\n　 手に　ささっている)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_2238_0": {
 "en": "<div class=\"indented\">* (You got the Saber10.)</div>",
@@ -100389,15 +100389,15 @@ var rendered = {
 },
 "obj_ribbick_enemy_slash_Step_0_gml_208_0": {
 "en": null,
-"ja": "＊ タイミングよく　~1を押せ！"
+"ja": "＊ タイミングよく　<span class=\"param\">~1</span>を押せ！"
 },
 "obj_ribbick_enemy_slash_Step_0_gml_213_0": {
 "en": "<div class=\"indented\">* RABBICK - This dusty bunny needs a bit of spring cleaning.</div>",
 "ja": "＊ ラビック - ATK 8 DEF 1\n＊ わたぼこりの　かたまり。\n　 大そうじをすると出現。"
 },
 "obj_ribbick_enemy_slash_Step_0_gml_231_0": {
-"en": "<div class=\"indented\">* Press ~1 repeatedly!</div>",
-"ja": "＊ くりかえし　~1をプッシュ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> repeatedly!</div>",
+"ja": "＊ くりかえし　<span class=\"param\">~1</span>をプッシュ！"
 },
 "obj_ribbick_enemy_slash_Step_0_gml_291_0": {
 "en": "Rabbick",
@@ -100474,8 +100474,8 @@ var rendered = {
 "ja": "＊ じつは…　ガチもんの　テレビ好きの\n　 ために　Ｓより上のランクが\n　 あるらしいんですわ。"
 },
 "obj_room_changing_room_slash_Step_0_gml_24_0": {
-"en": "<div class=\"indented\">* ... More like, TV Losers! Who wants to get THAT!? Nyuk huk huk...~1</div>",
-"ja": "＊ …「テレビ好き」ゆうか…\n　 テレビバカですわな！　そんなランク\n　 欲しいヤツおりまっか…？~1"
+"en": "<div class=\"indented\">* ... More like, TV Losers! Who wants to get THAT!? Nyuk huk huk...<span class=\"param\">~1</span></div>",
+"ja": "＊ …「テレビ好き」ゆうか…\n　 テレビバカですわな！　そんなランク\n　 欲しいヤツおりまっか…？<span class=\"param\">~1</span>"
 },
 "obj_room_changing_room_slash_Step_0_gml_26_0": {
 "en": "<div class=\"indented\">* ... huh? Why do you look so embarrassed...?</div>",
@@ -100566,8 +100566,8 @@ var rendered = {
 "ja": "＊ スージィのルードバスターが\n　 敵に当たる直前に…"
 },
 "obj_room_changing_room_slash_Step_0_gml_144_0": {
-"en": "<div class=\"indented\">* Press ~1 to deal extra damage!</div>",
-"ja": "＊ ~1押すと　与えるダメージが\n　 増えますねん！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to deal extra damage!</div>",
+"ja": "＊ <span class=\"param\">~1</span>押すと　与えるダメージが\n　 増えますねん！"
 },
 "obj_room_changing_room_slash_Step_0_gml_145_0": {
 "en": "<div class=\"indented\">* You'll know you did it right, 'cause the sound will change a little bit.</div>",
@@ -101628,12 +101628,12 @@ var rendered = {
 "ja": "＊ ポイントが足りません。"
 },
 "obj_room_ranking_b_slash_Step_0_gml_114_0": {
-"en": "~1 CONFIRM",
-"ja": "~1 OK"
+"en": "<span class=\"param\">~1</span> CONFIRM",
+"ja": "<span class=\"param\">~1</span> OK"
 },
 "obj_room_ranking_b_slash_Step_0_gml_118_0": {
-"en": "~1 CANCEL",
-"ja": "~1 キャンセル"
+"en": "<span class=\"param\">~1</span> CANCEL",
+"ja": "<span class=\"param\">~1</span> キャンセル"
 }
 },
 "obj_room_ranking_c": {
@@ -101672,8 +101672,8 @@ var rendered = {
 "ja": "Ｓ"
 },
 "obj_room_ranking_hub_slash_Step_0_gml_92_0": {
-"en": "<div class=\"indented\">* On the previous BOARD, you earned RANK ~1. You're a STAR!</div>",
-"ja": "＊ 先ほどのパークで　~1ランクを\n　 獲得されましたね！　すばらしい！\n　 さすが　スタァです！"
+"en": "<div class=\"indented\">* On the previous BOARD, you earned RANK <span class=\"param\">~1</span>. You're a STAR!</div>",
+"ja": "＊ 先ほどのパークで　<span class=\"param\">~1</span>ランクを\n　 獲得されましたね！　すばらしい！\n　 さすが　スタァです！"
 },
 "obj_room_ranking_hub_slash_Step_0_gml_93_0": {
 "en": "<div class=\"indented\">* This means you can use door A, B, and C!</div>",
@@ -103384,8 +103384,8 @@ var rendered = {
 "ja": "クリス"
 },
 "obj_savemenu_slash_Draw_0_gml_34_0": {
-"en": "LV ~1",
-"ja": "LV ~1"
+"en": "LV <span class=\"param\">~1</span>",
+"ja": "LV <span class=\"param\">~1</span>"
 },
 "obj_savemenu_slash_Draw_0_gml_47_0": {
 "en": "Save",
@@ -103412,8 +103412,8 @@ var rendered = {
 "ja": "データなし"
 },
 "obj_savemenu_slash_Draw_0_gml_215_0": {
-"en": "Overwrite Slot ~1?",
-"ja": "スロット~1に上書きしますか？"
+"en": "Overwrite Slot <span class=\"param\">~1</span>?",
+"ja": "スロット<span class=\"param\">~1</span>に上書きしますか？"
 },
 "obj_savemenu_slash_Draw_0_gml_371_0": {
 "en": "File Saved",
@@ -103668,8 +103668,8 @@ var rendered = {
 "ja": "＊ 全員　ピストルを　かまえた！\n　 敵の　くつしたを　フッ飛ばせ！"
 },
 "obj_shadowman_enemy_slash_Step_0_gml_325_0": {
-"en": "<div class=\"indented\">* Aim with ~1~2 and ~3~4!</div><div class=\"indented\">* Fire with ~5!</div>",
-"ja": "＊ ~1~2と~3~4で　ねらいを定めろ！\n＊ ~5で発射！"
+"en": "<div class=\"indented\">* Aim with <span class=\"param\">~1</span><span class=\"param\">~2</span> and <span class=\"param\">~3</span><span class=\"param\">~4</span>!</div><div class=\"indented\">* Fire with <span class=\"param\">~5</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span><span class=\"param\">~2</span>と<span class=\"param\">~3</span><span class=\"param\">~4</span>で　ねらいを定めろ！\n＊ <span class=\"param\">~5</span>で発射！"
 },
 "obj_shadowman_enemy_slash_Step_0_gml_473_0": {
 "en": "H-Hey!!!",
@@ -103778,8 +103778,8 @@ var rendered = {
 "ja": "ランサー"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_250_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_262_0": {
 "en": "  *Take\n your\n pick!",
@@ -103810,8 +103810,8 @@ var rendered = {
 "ja": "　 まいどあり！\n「そうこ」に\n送ったぜ"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_291_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_343_0": {
 "en": "About yourselves",
@@ -103882,8 +103882,8 @@ var rendered = {
 "ja": "　 はぁ？\nなんも\nねえじゃん！"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_508_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_532_0": {
 "en": "  *Nice town, chief.\n I think we're gonna like it\n here!\n Cool city.",
@@ -103986,8 +103986,8 @@ var rendered = {
 "ja": "　 YO！　どうだった！？\n　 最高に　アツかっただろうッ！？\n　 ボクたちの曲って\n　 どれも４秒しかないんだ～。"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_677_0": {
-"en": "Space:~1",
-"ja": "空き:~1"
+"en": "Space:<span class=\"param\">~1</span>",
+"ja": "空き:<span class=\"param\">~1</span>"
 }
 },
 "obj_shop_vending_changing": {
@@ -104152,8 +104152,8 @@ var rendered = {
 "ja": "(お買い上げ\nありがとう\nございます)"
 },
 "obj_shop_vending_slash_Create_0_gml_26_0": {
-"en": "(Not\nenough\n~1.)",
-"ja": "(~1が\n足りません)"
+"en": "(Not\nenough\n<span class=\"param\">~1</span>.)",
+"ja": "(<span class=\"param\">~1</span>が\n足りません)"
 },
 "obj_shop_vending_slash_Create_0_gml_27_0": {
 "en": "(Not\nenough\nspace.)",
@@ -104172,32 +104172,32 @@ var rendered = {
 "ja": "ポイント"
 },
 "obj_shop_vending_slash_Draw_0_gml_122_0": {
-"en": "~1 PTs",
-"ja": "~1 PTs"
+"en": "<span class=\"param\">~1</span> PTs",
+"ja": "<span class=\"param\">~1</span> PTs"
 },
 "obj_shop_vending_slash_Draw_0_gml_149_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_vending_slash_Draw_0_gml_153_0": {
 "en": "SOLD OUT",
 "ja": "SOLD OUT"
 },
 "obj_shop_vending_slash_Draw_0_gml_162_0": {
-"en": "~1 PTs",
-"ja": "~1 PTs"
+"en": "<span class=\"param\">~1</span> PTs",
+"ja": "<span class=\"param\">~1</span> PTs"
 },
 "obj_shop_vending_slash_Draw_0_gml_196_0": {
-"en": "$~1 ?",
-"ja": "$~1で"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>で"
 },
 "obj_shop_vending_slash_Draw_0_gml_223_0": {
 "en": "Buy it for",
 "ja": "買う？"
 },
 "obj_shop_vending_slash_Draw_0_gml_224_0": {
-"en": "~1 PTs?",
-"ja": "~1 PTsで"
+"en": "<span class=\"param\">~1</span> PTs?",
+"ja": "<span class=\"param\">~1</span> PTsで"
 },
 "obj_shop_vending_slash_Draw_0_gml_225_0": {
 "en": "Yes",
@@ -104272,8 +104272,8 @@ var rendered = {
 "ja": "売る？"
 },
 "obj_shop_vending_slash_Draw_0_gml_456_0": {
-"en": "$~1 ?",
-"ja": "$~1で"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>で"
 },
 "obj_shop_vending_slash_Draw_0_gml_457_0": {
 "en": "Yes",
@@ -104382,8 +104382,8 @@ var rendered = {
 "ja": "もどる"
 },
 "obj_shop1_slash_Draw_0_gml_143_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop1_slash_Draw_0_gml_148_0": {
 "en": "What do\nyou like\nto buy?",
@@ -104426,8 +104426,8 @@ var rendered = {
 "ja": "いいえ"
 },
 "obj_shop1_slash_Draw_0_gml_177_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop1_slash_Draw_0_gml_217_0": {
 "en": "About yourself",
@@ -104562,8 +104562,8 @@ var rendered = {
 "ja": "＊ ここじゃ　暇つぶしのひとつや\n　 ふたつ　ないとやってられないのさ…\n＊ でなきゃ　他の連中みたいに\n　 おかしくなっちまう。"
 },
 "obj_shop1_slash_Draw_0_gml_407_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop1_slash_Draw_0_gml_411_0": {
 "en": "<div class=\"indented\">* Long ago, the Darkners lived in harmony with the Lightners.</div>",
@@ -104880,8 +104880,8 @@ var rendered = {
 "ja": "出る"
 },
 "obj_shop2_slash_Draw_0_gml_113_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop2_slash_Draw_0_gml_115_0": {
 "en": "Exit",
@@ -104928,8 +104928,8 @@ var rendered = {
 "ja": "いいえ"
 },
 "obj_shop2_slash_Draw_0_gml_147_0_b": {
-"en": "$~1 ?",
-"ja": "$~1？"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>？"
 },
 "obj_shop2_slash_Draw_0_gml_194_0": {
 "en": "About yourself",
@@ -105024,8 +105024,8 @@ var rendered = {
 "ja": "いいえ"
 },
 "obj_shop2_slash_Draw_0_gml_328_0": {
-"en": "$~1 ?",
-"ja": "$~1？"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>？"
 },
 "obj_shop2_slash_Draw_0_gml_353_0": {
 "en": "<div class=\"indented\">* See thou in the Dungeon, Worms!</div>",
@@ -105168,8 +105168,8 @@ var rendered = {
 "ja": "空きナシ"
 },
 "obj_shop2_slash_Draw_0_gml_482_0": {
-"en": "Space:~1",
-"ja": "空き:~1"
+"en": "Space:<span class=\"param\">~1</span>",
+"ja": "空き:<span class=\"param\">~1</span>"
 }
 },
 "obj_shortcut_door": {
@@ -105236,28 +105236,28 @@ var rendered = {
 "ja": "アタシの“手つげ”\nクルクルで　ステキでしょ？"
 },
 "obj_shutta_enemy_slash_Step_0_gml_121_0": {
-"en": "How are we\nLOOKING today?~1",
-"ja": "みんな　今日も\nきれいよ～~1"
+"en": "How are we\nLOOKING today?<span class=\"param\">~1</span>",
+"ja": "みんな　今日も\nきれいよ～<span class=\"param\">~1</span>"
 },
 "obj_shutta_enemy_slash_Step_0_gml_122_0": {
-"en": "POSE and... HOLD!\nCan we get a little smolder?~1",
-"ja": "はいそこで…ポーズ！\nもっと色っぽく～！~1"
+"en": "POSE and... HOLD!\nCan we get a little smolder?<span class=\"param\">~1</span>",
+"ja": "はいそこで…ポーズ！\nもっと色っぽく～！<span class=\"param\">~1</span>"
 },
 "obj_shutta_enemy_slash_Step_0_gml_123_0": {
-"en": "The energy, baby,\nEYE am LOVING it!~1",
-"ja": "目ヂカラよ！\n視線でコロシて！~1"
+"en": "The energy, baby,\nEYE am LOVING it!<span class=\"param\">~1</span>",
+"ja": "目ヂカラよ！\n視線でコロシて！<span class=\"param\">~1</span>"
 },
 "obj_shutta_enemy_slash_Step_0_gml_124_0": {
-"en": "Work it baby,\nWORK it!~1",
-"ja": "そう！いいわ～！\n目線ちょうだい！~1"
+"en": "Work it baby,\nWORK it!<span class=\"param\">~1</span>",
+"ja": "そう！いいわ～！\n目線ちょうだい！<span class=\"param\">~1</span>"
 },
 "obj_shutta_enemy_slash_Step_0_gml_125_0": {
-"en": "How's my ATTACK ALBUM?\nI'll let you in it too!~1",
-"ja": "アタシの\nこうげきアルバム\nどうかしら？\nあなたの１枚も\n入れたげる！~1"
+"en": "How's my ATTACK ALBUM?\nI'll let you in it too!<span class=\"param\">~1</span>",
+"ja": "アタシの\nこうげきアルバム\nどうかしら？\nあなたの１枚も\n入れたげる！<span class=\"param\">~1</span>"
 },
 "obj_shutta_enemy_slash_Step_0_gml_126_0": {
-"en": "My memory is\nphotographic,\nphoto-TASTIC!\nWanna see?~1",
-"ja": "アタシの記憶は\n写真みたいに\nシャシーンと鮮明よ！\n見せたげる！~1"
+"en": "My memory is\nphotographic,\nphoto-TASTIC!\nWanna see?<span class=\"param\">~1</span>",
+"ja": "アタシの記憶は\n写真みたいに\nシャシーンと鮮明よ！\n見せたげる！<span class=\"param\">~1</span>"
 },
 "obj_shutta_enemy_slash_Step_0_gml_129_0": {
 "en": "<div class=\"indented\">* LIGHTS! CAMERA! ... CAMERAAAA!</div>",
@@ -105345,7 +105345,7 @@ var rendered = {
 },
 "obj_shutta_enemy_slash_Step_0_gml_170_0": {
 "en": "<div class=\"indented\">* SHUTTAH - When its eyes snap shut, memories are made in grey.</div>",
-"ja": "＊ シャッタア ATK ~1 DEF ~2\n　 瞳をシャタッと閉じたなら\n　 グレーの思い出　残ります。"
+"ja": "＊ シャッタア ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n　 瞳をシャタッと閉じたなら\n　 グレーの思い出　残ります。"
 },
 "obj_shutta_enemy_slash_Step_0_gml_170_0_b": {
 "en": "Me neither.",
@@ -105364,8 +105364,8 @@ var rendered = {
 "ja": "削除よ！\n写真は削除！"
 },
 "obj_shutta_enemy_slash_Step_0_gml_174_0": {
-"en": "<div class=\"indented\">* Press directions to aim!</div><div class=\"indented\">* Press ~1 to take the photo!</div>",
-"ja": "＊ 方向キーで　狙え！\n＊ ~1で　シャッターを切れ！"
+"en": "<div class=\"indented\">* Press directions to aim!</div><div class=\"indented\">* Press <span class=\"param\">~1</span> to take the photo!</div>",
+"ja": "＊ 方向キーで　狙え！\n＊ <span class=\"param\">~1</span>で　シャッターを切れ！"
 },
 "obj_shutta_enemy_slash_Step_0_gml_181_0": {
 "en": "<div class=\"indented\">* Ralsei adds a filter to the photo! It's easier to center photos!!</div>",
@@ -105556,8 +105556,8 @@ var rendered = {
 "ja": "＊ パーフェクト！！\n　 でも　よい子のみんなは\n　 マネしないでくださいね！！"
 },
 "obj_shutta_photo_controller_slash_Draw_77_gml_175_0": {
-"en": "<div class=\"indented\">* UUMM!! Maybe actually</div><div class=\"indented\">  press ~1 to take a photo</div><div class=\"indented\">  next time?</div>",
-"ja": "＊ ぬぬぬ！！\n　 写真を撮るときは　ちゃんと\n　 ~1押すのが　オススメかも？"
+"en": "<div class=\"indented\">* UUMM!! Maybe actually</div><div class=\"indented\">  press <span class=\"param\">~1</span> to take a photo</div><div class=\"indented\">  next time?</div>",
+"ja": "＊ ぬぬぬ！！\n　 写真を撮るときは　ちゃんと\n　 <span class=\"param\">~1</span>押すのが　オススメかも？"
 },
 "obj_shutta_photo_controller_slash_Other_11_gml_255_0": {
 "en": "<div class=\"indented\">* Aw, the whole family! ... Mike, add me in there later!</div>",
@@ -105948,8 +105948,8 @@ var rendered = {
 "ja": "ほどけたクツひも？"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_39_0": {
-"en": "~1\nLet me whip it into shape!",
-"ja": "~1\nワタシのムチで\nたたき直しましょう！"
+"en": "<span class=\"param\">~1</span>\nLet me whip it into shape!",
+"ja": "<span class=\"param\">~1</span>\nワタシのムチで\nたたき直しましょう！"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_46_0": {
 "en": "Hors d'oeuvre,\nHors d'oeuvre...\nI mean, order, order!",
@@ -106052,8 +106052,8 @@ var rendered = {
 "ja": "A treat!! Somebody give her a treat!!"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": {
-"en": "<div class=\"indented\">* Play dead!? I'll teach YOU to play dead!!~1</div>",
-"ja": "＊ Play dead!? I'll teach YOU to play dead!!~1"
+"en": "<div class=\"indented\">* Play dead!? I'll teach YOU to play dead!!<span class=\"param\">~1</span></div>",
+"ja": "＊ Play dead!? I'll teach YOU to play dead!!<span class=\"param\">~1</span>"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_274_0": {
 "en": "<div class=\"indented\">* Susie got managed!</div>",
@@ -106092,8 +106092,8 @@ var rendered = {
 "ja": "Why the hell do YOU get one of those!!"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_311_0": {
-"en": "<div class=\"indented\">* Due to good behavior, he received an obedience badge.~1</div>",
-"ja": "＊ Due to good behavior, he received an obedience badge.~1"
+"en": "<div class=\"indented\">* Due to good behavior, he received an obedience badge.<span class=\"param\">~1</span></div>",
+"ja": "＊ Due to good behavior, he received an obedience badge.<span class=\"param\">~1</span>"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_314_0": {
 "en": "<div class=\"indented\">* R-Action failed!</div>",
@@ -106264,8 +106264,8 @@ var rendered = {
 "ja": "＊ ふふふ…　なぁんてね。\n　 さきのことなんて　だれにも\n　 わかりはしないわ。"
 },
 "obj_tem_school_slash_Other_10_gml_66_0": {
-"en": "<div class=\"indented\">* (The eggs you have collected so far. There's ~1.)</div>",
-"ja": "＊ (これまでに　てにいれたタマゴ。\n　 ~1コだ)"
+"en": "<div class=\"indented\">* (The eggs you have collected so far. There's <span class=\"param\">~1</span>.)</div>",
+"ja": "＊ (これまでに　てにいれたタマゴ。\n　 <span class=\"param\">~1</span>コだ)"
 }
 },
 "obj_tenna_board4_enemy": {
@@ -106775,7 +106775,7 @@ var rendered = {
 },
 "obj_tenna_enemy_slash_Step_0_gml_446_0": {
 "en": "<div class=\"indented\">* TENNA - Despite his size, sadly, he's quite fragile.</div>",
-"ja": "＊ テナ - ATK ~1 DEF ~2\n　 サイズのわりに　意外と　もろい。"
+"ja": "＊ テナ - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n　 サイズのわりに　意外と　もろい。"
 },
 "obj_tenna_enemy_slash_Step_0_gml_449_0": {
 "en": "<div class=\"indented\">* TENNA - THE [Tragic businesmen] THAT [Died] AT THE [Now] OF THE [Story]</div>",
@@ -106783,7 +106783,7 @@ var rendered = {
 },
 "obj_tenna_enemy_slash_Step_0_gml_450_0": {
 "en": "<div class=\"indented\">* TENNA - Isn't it about time you</div><div class=\"indented\">  got a new TV?</div>",
-"ja": "＊ テナ - ATK ~1 DEF ~2\n　 そろそろテレビ　買い換えない？"
+"ja": "＊ テナ - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n　 そろそろテレビ　買い換えない？"
 },
 "obj_tenna_enemy_slash_Step_0_gml_457_0": {
 "en": "<div class=\"indented\">* Susie said \"I Love TV!\"</div>",
@@ -107139,7 +107139,7 @@ var rendered = {
 },
 "obj_thrashafter_event_slash_Step_0_gml_34_0": {
 "en": null,
-"ja": "＊ That's right!!\n＊ The ~1!!"
+"ja": "＊ That's right!!\n＊ The <span class=\"param\">~1</span>!!"
 },
 "obj_thrashafter_event_slash_Step_0_gml_35_0": {
 "en": null,
@@ -107183,7 +107183,7 @@ var rendered = {
 },
 "obj_thrashafter_event_slash_Step_0_gml_108_0": {
 "en": null,
-"ja": "＊ Wow! M... Me!? In the ~1!?"
+"ja": "＊ Wow! M... Me!? In the <span class=\"param\">~1</span>!?"
 },
 "obj_thrashafter_event_slash_Step_0_gml_109_0": {
 "en": null,
@@ -107220,8 +107220,8 @@ var rendered = {
 },
 "obj_throwralsei": {
 "obj_throwralsei_slash_Step_0_gml_26_0": {
-"en": "<div class=\"indented\">* Press ~1 to determine the POWER!</div>",
-"ja": "＊ ~1を押して\n　 力加減を決めろ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to determine the POWER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して\n　 力加減を決めろ！"
 }
 },
 "obj_town_event": {
@@ -107260,16 +107260,16 @@ var rendered = {
 "ja": "＊ (宝箱は　からっぽだ)"
 },
 "obj_treasure_room_slash_Other_10_gml_65_0": {
-"en": "<div class=\"indented\">* (You opened the treasure chest.)</div><div class=\"indented\">* (Inside was <span class=\"Y\">~1</span>.)</div>",
-"ja": "＊ (宝箱を開けた)\n＊ (<span class=\"Y\">~1</span>が\n　 入っていた)"
+"en": "<div class=\"indented\">* (You opened the treasure chest.)</div><div class=\"indented\">* (Inside was <span class=\"Y\"><span class=\"param\">~1</span></span>.)</div>",
+"ja": "＊ (宝箱を開けた)\n＊ (<span class=\"Y\"><span class=\"param\">~1</span></span>が\n　 入っていた)"
 },
 "obj_treasure_room_slash_Other_10_gml_76_0": {
-"en": "<div class=\"indented\">* (<span class=\"Y\">~1</span> was added to your <span class=\"Y\">~2</span>.)</div>",
-"ja": "＊ (<span class=\"Y\">~1</span>が\n　 <span class=\"Y\">~2</span>に　加わった)"
+"en": "<div class=\"indented\">* (<span class=\"Y\"><span class=\"param\">~1</span></span> was added to your <span class=\"Y\"><span class=\"param\">~2</span></span>.)</div>",
+"ja": "＊ (<span class=\"Y\"><span class=\"param\">~1</span></span>が\n　 <span class=\"Y\"><span class=\"param\">~2</span></span>に　加わった)"
 },
 "obj_treasure_room_slash_Other_10_gml_83_0": {
-"en": "<div class=\"indented\">* (You have too many <span class=\"Y\">~2</span> to take <span class=\"Y\">~1</span>.)</div>",
-"ja": "＊ (<span class=\"Y\">~2</span>が多すぎて\n　 <span class=\"Y\">~1</span>を\n　 持てない)"
+"en": "<div class=\"indented\">* (You have too many <span class=\"Y\"><span class=\"param\">~2</span></span> to take <span class=\"Y\"><span class=\"param\">~1</span></span>.)</div>",
+"ja": "＊ (<span class=\"Y\"><span class=\"param\">~2</span></span>が多すぎて\n　 <span class=\"Y\"><span class=\"param\">~1</span></span>を\n　 持てない)"
 }
 },
 "obj_unusedclassevent": {
@@ -107414,8 +107414,8 @@ var rendered = {
 "ja": "コポリ"
 },
 "obj_watercooler_enemy_slash_Step_0_gml_38_0": {
-"en": "B~1b~2e",
-"ja": "コ~1リ"
+"en": "B<span class=\"param\">~1</span>b<span class=\"param\">~2</span>e",
+"ja": "コ<span class=\"param\">~1</span>リ"
 },
 "obj_watercooler_enemy_slash_Step_0_gml_42_0": {
 "en": "Moon",
@@ -107546,7 +107546,7 @@ var rendered = {
 "ja": "＊ 水を　ゆっくり　ひとくち飲んで\n　 「これ　キミが冷やしたの？」と\n　 たずねた。"
 },
 "obj_watercooler_enemy_slash_Step_0_gml_266_0": {
-"en": "<div class=\"indented\">* You asked the watercooler, ~1water~2 they doing later.</div>",
+"en": "<div class=\"indented\">* You asked the watercooler, <span class=\"param\">~1</span>water<span class=\"param\">~2</span> they doing later.</div>",
 "ja": "＊ ウォータークーラーに\n　「オわっタラー食事でもどうかなー？」\n　 と　声をかけた。"
 },
 "obj_watercooler_enemy_slash_Step_0_gml_270_0": {
@@ -107558,8 +107558,8 @@ var rendered = {
 "ja": "＊ You took a slow sip of warms and asked if it ever mooned...?"
 },
 "obj_watercooler_enemy_slash_Step_0_gml_272_0": {
-"en": "<div class=\"indented\">* You asked the moonwarmer,~1hotter~2they doing later...?</div>",
-"ja": "＊ You asked the moonwarmer,~1hotter~2they doing later...?"
+"en": "<div class=\"indented\">* You asked the moonwarmer,<span class=\"param\">~1</span>hotter<span class=\"param\">~2</span>they doing later...?</div>",
+"ja": "＊ You asked the moonwarmer,<span class=\"param\">~1</span>hotter<span class=\"param\">~2</span>they doing later...?"
 },
 "obj_watercooler_enemy_slash_Step_0_gml_285_0": {
 "en": "<div class=\"indented\">* The water turns pink for a second.</div>",
@@ -107661,11 +107661,11 @@ var rendered = {
 },
 "obj_zapper_enemy_slash_Step_0_gml_183_0": {
 "en": "<div class=\"indented\">* ZAPPER - \"Hoofer\", \"Clicker-Clacker\", any name, it'll do the work.</div>",
-"ja": "＊ ザッパー - ATK ~1 DEF ~2\n＊ 「リモコン」「テレビ変えるヤツ」\n　 なんと呼ばれても　仕事はキッチリ。"
+"ja": "＊ ザッパー - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n＊ 「リモコン」「テレビ変えるヤツ」\n　 なんと呼ばれても　仕事はキッチリ。"
 },
 "obj_zapper_enemy_slash_Step_0_gml_184_0": {
 "en": "<div class=\"indented\">* ZAPPER - When it changes channels, who knows where you'll end up?</div>",
-"ja": "＊ ザッパー - ATK ~1 DEF ~2\n＊ ボタンひとつで　景色が変わる。\n　 どこへ行くかは　予測不可能。"
+"ja": "＊ ザッパー - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n＊ ボタンひとつで　景色が変わる。\n　 どこへ行くかは　予測不可能。"
 },
 "obj_zapper_enemy_slash_Step_0_gml_198_0": {
 "en": "<div class=\"indented\">* You turned up the volume!</div>",
@@ -109218,8 +109218,8 @@ var rendered = {
 "ja": "クリスの家"
 },
 "scr_get_completed_file_name_slash_scr_get_completed_file_name_gml_18_0": {
-"en": "~1 [Chapter ~2 END]",
-"ja": "~1 [Chapter ~2 END]"
+"en": "<span class=\"param\">~1</span> [Chapter <span class=\"param\">~2</span> END]",
+"ja": "<span class=\"param\">~1</span> [Chapter <span class=\"param\">~2</span> END]"
 }
 },
 "scr_get_high_score_text": {
@@ -109228,24 +109228,24 @@ var rendered = {
 "ja": "＊ (ベストスコアの記録ナシ。\n　 チャレンジしてみよう！)"
 },
 "scr_get_high_score_text_slash_scr_get_high_score_text_gml_10_0": {
-"en": "<div class=\"indented\">* (Your highest score is ~1!)</div>",
-"ja": "＊ (ベストスコアは　~1です！)"
+"en": "<div class=\"indented\">* (Your highest score is <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (ベストスコアは　<span class=\"param\">~1</span>です！)"
 },
 "scr_get_high_score_text_slash_scr_get_high_score_text_gml_11_0": {
-"en": "<div class=\"indented\">* (Your highest rank is ~1!)</div>",
-"ja": "＊ (最高ランクは　~1です！)"
+"en": "<div class=\"indented\">* (Your highest rank is <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (最高ランクは　<span class=\"param\">~1</span>です！)"
 },
 "scr_get_high_score_text_slash_scr_get_high_score_text_gml_16_0": {
-"en": "<div class=\"indented\">* (Your highest score is ~1!)</div>",
-"ja": "＊ (ベストスコアは　~1です！)"
+"en": "<div class=\"indented\">* (Your highest score is <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (ベストスコアは　<span class=\"param\">~1</span>です！)"
 },
 "scr_get_high_score_text_slash_scr_get_high_score_text_gml_17_0": {
-"en": "<div class=\"indented\">* (Your highest rank is ~1!)</div>",
-"ja": "＊ (最高ランクは　~1です！)"
+"en": "<div class=\"indented\">* (Your highest rank is <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (最高ランクは　<span class=\"param\">~1</span>です！)"
 },
 "scr_get_high_score_text_slash_scr_get_high_score_text_gml_18_0": {
-"en": "<div class=\"indented\">* (Your clear time is ~1!)</div>",
-"ja": "＊ (クリアタイムは　~1です！)"
+"en": "<div class=\"indented\">* (Your clear time is <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (クリアタイムは　<span class=\"param\">~1</span>です！)"
 }
 },
 "scr_get_rank_letter": {
@@ -109340,8 +109340,8 @@ var rendered = {
 "ja": "一口食べれば舌がクルクルおどる絶品ケーキ。\n仲間全員のHPを160回復。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_27_0": {
-"en": "A pastry in the shape of a top.\nHeals ~1 HP to the team.",
-"ja": "コマの形をした菓子パン。\n仲間全員のHPを~1回復。"
+"en": "A pastry in the shape of a top.\nHeals <span class=\"param\">~1</span> HP to the team.",
+"ja": "コマの形をした菓子パン。\n仲間全員のHPを<span class=\"param\">~1</span>回復。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_30_0": {
 "en": "A mysterious black burger made of...\nHey, this is just burnt! +70HP",
@@ -109580,8 +109580,8 @@ var rendered = {
 "ja": "スピンロール"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_59_0": {
-"en": "Heals\nteam\n~1HP",
-"ja": "仲間全員を\n~1HP\n回復"
+"en": "Heals\nteam\n<span class=\"param\">~1</span>HP",
+"ja": "仲間全員を\n<span class=\"param\">~1</span>HP\n回復"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_65_0": {
 "en": "Darkburger",
@@ -110698,8 +110698,8 @@ var rendered = {
 "ja": "ホッホッホ！　ソフトクリームが仲間になった！\nそいつは　悪モノになってくれるかな？"
 },
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_70_0": {
-"en": "A sharp shadow moves like water in the hand.\nYou have collected [~1].",
-"ja": "手のなかで　するどい影が　水のように\nうごめく。~1 個入手済み。"
+"en": "A sharp shadow moves like water in the hand.\nYou have collected [<span class=\"param\">~1</span>].",
+"ja": "手のなかで　するどい影が　水のように\nうごめく。<span class=\"param\">~1</span> 個入手済み。"
 },
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_70_0_b": {
 "en": "That golden statue... Could it be...\nThe illusory nipple technique!?",
@@ -110810,8 +110810,8 @@ var rendered = {
 "ja": "ランサーのコントローラー。土まみれ。"
 },
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_189_0": {
-"en": "LancerConX~1",
-"ja": "ランサーコン X ~1"
+"en": "LancerConX<span class=\"param\">~1</span>",
+"ja": "ランサーコン X <span class=\"param\">~1</span>"
 },
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_190_0": {
 "en": "Lancer's controllers. They're covered in dirt.",
@@ -111450,8 +111450,8 @@ var rendered = {
 },
 "scr_lrecoitem": {
 "scr_lrecoitem_slash_scr_lrecoitem_gml_14_0": {
-"en": "<div class=\"indented\">* You recovered ~1 HP!</div>",
-"ja": "＊ HPが　~1かいふくした！"
+"en": "<div class=\"indented\">* You recovered <span class=\"param\">~1</span> HP!</div>",
+"ja": "＊ HPが　<span class=\"param\">~1</span>かいふくした！"
 },
 "scr_lrecoitem_slash_scr_lrecoitem_gml_16_0": {
 "en": "<div class=\"indented\">* Your HP was maxed out.</div>",
@@ -115030,16 +115030,16 @@ var rendered = {
 },
 "scr_shopmenu": {
 "scr_shopmenu_slash_scr_shopmenu_gml_158_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "scr_shopmenu_slash_scr_shopmenu_gml_270_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "scr_shopmenu_slash_scr_shopmenu_gml_389_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 }
 },
 "scr_smallface_reset": {
@@ -115238,104 +115238,104 @@ var rendered = {
 },
 "scr_spelltext": {
 "scr_spelltext_slash_scr_spelltext_gml_14_0": {
-"en": "<div class=\"indented\">* ~1 cast RUDE BUSTER!</div>",
-"ja": "＊ ~1は\n　 ルードバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast RUDE BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルードバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_18_0": {
-"en": "<div class=\"indented\">* ~1 cast HEAL PRAYER!</div>",
-"ja": "＊ ~1は　いやしの詩を唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast HEAL PRAYER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　いやしの詩を唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_23_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div>",
-"ja": "＊ ~1は　スリープを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　スリープを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_33_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div><div class=\"indented\">* But the enemy wasn't <span class=\"B\">TIRED</span>...</div>",
-"ja": "＊ ~1は\n　 スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div><div class=\"indented\">* But the enemy wasn't <span class=\"B\">TIRED</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_36_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div><div class=\"indented\">* But the foe wasn't <span class=\"B\">TIRED</span>... try <span class=\"Y\">SPARING</span>!</div>",
-"ja": "＊ ~1は　スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…\n　 <span class=\"Y\">にがす</span>ことなら　できるかも…！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div><div class=\"indented\">* But the foe wasn't <span class=\"B\">TIRED</span>... try <span class=\"Y\">SPARING</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…\n　 <span class=\"Y\">にがす</span>ことなら　できるかも…！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_43_0": {
-"en": "<div class=\"indented\">* ~1 used RUDE BUSTER!</div>",
-"ja": "＊ ~1は\n　 ルードバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used RUDE BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルードバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_47_0": {
-"en": "<div class=\"indented\">* ~1 used RED BUSTER!</div>",
-"ja": "＊ ~1は\n　 レッドバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used RED BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 レッドバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_51_0": {
-"en": "<div class=\"indented\">* ~1 cast DUAL HEAL!</div>",
-"ja": "＊ ~1は\n　 Ｗヒールを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast DUAL HEAL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 Ｗヒールを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_55_0": {
-"en": "<div class=\"indented\">* ~1 cast SLEEPMIST!</div>",
-"ja": "＊ ~1は\n　 スリープミストを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast SLEEPMIST!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スリープミストを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_58_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div>",
-"ja": "＊ ~1は~2を逃がした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は<span class=\"param\">~2</span>を逃がした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_59_0": {
-"en": "<div class=\"indented\">* ~1 cast ICESHOCK!</div>",
-"ja": "＊ ~1は\n　 アイスショックを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast ICESHOCK!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 アイスショックを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_62_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div>",
-"ja": "＊ ~1は　~2を\n　 にがした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_63_0": {
-"en": "<div class=\"indented\">* ~1 cast SNOWGRAVE!</div>",
-"ja": "＊ ~1は\n　 スノーグレイブを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast SNOWGRAVE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スノーグレイブを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_66_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_68_0": {
-"en": "<div class=\"indented\">* ~1 cast ULTRAHEAL!</div>",
-"ja": "＊ ~1は\n　 ウルトラヒールを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast ULTRAHEAL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ウルトラヒールを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_69_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_70_0": {
 "en": "<div class=\"indented\">* (Try using Ralsei's <span class=\"B\">PACIFY</span>!)</div>",
 "ja": "＊ (ラルセイに　<span class=\"B\">スリープ</span>を\n　 唱えさせてみよう！)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_73_0": {
-"en": "<div class=\"indented\">* ~1 spared!</div>",
-"ja": "＊ ~1は　にがした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　にがした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_78_0": {
-"en": "<div class=\"indented\">* ~1 used the DARK CANDY!</div>",
-"ja": "＊ ~1は\n　 ダークキャンディを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DARK CANDY!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ダークキャンディを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_86_0": {
-"en": "<div class=\"indented\">* ~1 used the GLOWSHARD!</div>",
-"ja": "＊ ~1は\n　 グロウシャードを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the GLOWSHARD!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 グロウシャードを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_87_0": {
 "en": "<div class=\"indented\">* But nothing happened...</div>",
 "ja": "＊ しかし　なにも起こらなかった…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_94_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_95_0": {
 "en": "<div class=\"indented\">* (Try using Noelle's <span class=\"B\">SLEEPMIST</span>!)</div>",
 "ja": "＊ (ノエルに　<span class=\"B\">スリープミスト</span>を\n　 唱えさせてみよう！)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_99_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_100_0": {
-"en": "<div class=\"indented\">* ~1 used the REVIVEMINT!</div>",
-"ja": "＊ ~1は\n　 リザレクトミントを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the REVIVEMINT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 リザレクトミントを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_100_0_b": {
 "en": "<div class=\"indented\">* (Try using <span class=\"B\">ACTs</span>!)</div>",
@@ -115346,8 +115346,8 @@ var rendered = {
 "ja": "＊ グロウシャードは\n　 消えてなくなった！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_122_0": {
-"en": "<div class=\"indented\">* ~1 read the MANUAL!</div>",
-"ja": "＊ ~1は\n　 マニュアルを読んだ！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> read the MANUAL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 マニュアルを読んだ！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_123_0": {
 "en": "<div class=\"indented\">* But nothing happened...</div>",
@@ -115362,36 +115362,36 @@ var rendered = {
 "ja": "(くたびれ)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_179_0": {
-"en": "<div class=\"indented\">* ~1 used the BROKEN CAKE!</div>",
-"ja": "＊ ~1 used the BROKEN CAKE!"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BROKEN CAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span> used the BROKEN CAKE!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_183_0": {
-"en": "<div class=\"indented\">* ~1 used the TOPCAKE!</div>",
-"ja": "＊ ~1は\n　 トップケーキを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TOPCAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 トップケーキを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_187_0": {
-"en": "<div class=\"indented\">* ~1 used the SPINCAKE!</div>",
-"ja": "＊ ~1は\n　 スピンロールを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the SPINCAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スピンロールを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_191_0": {
-"en": "<div class=\"indented\">* ~1 used the DARKBURGER!</div>",
-"ja": "＊ ~1は\n　 ダークバーガーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DARKBURGER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ダークバーガーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_194_0": {
-"en": "<div class=\"indented\">* ~1 used the LANCERCOOKIE!</div>",
-"ja": "＊ ~1は\n　 ランサークッキーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the LANCERCOOKIE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ランサークッキーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_197_0": {
-"en": "<div class=\"indented\">* ~1 used the GIGASALAD!</div>",
-"ja": "＊ ~1は\n　 ギガサラダを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the GIGASALAD!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ギガサラダを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_199_0": {
 "en": " was <span class=\"B\">bored to tears</span>!\n",
 "ja": " was <span class=\"B\">bored to tears</span>!\n"
 },
 "scr_spelltext_slash_scr_spelltext_gml_200_0": {
-"en": "<div class=\"indented\">* ~1 used the CLUBS SANDWICH!</div>",
-"ja": "＊ ~1は\n　 クラブサンドを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CLUBS SANDWICH!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 クラブサンドを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_200_0_b": {
 "en": " listened politely!\n",
@@ -115402,28 +115402,28 @@ var rendered = {
 "ja": " became sentimental!\n"
 },
 "scr_spelltext_slash_scr_spelltext_gml_203_0": {
-"en": "<div class=\"indented\">* ~1 used the HEARTS DONUT!</div>",
-"ja": "＊ ~1は\n　 ハートドーナツを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the HEARTS DONUT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ハートドーナツを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_206_0": {
-"en": "<div class=\"indented\">* ~1 used the CHOCO DIAMOND!</div>",
-"ja": "＊ ~1は\n　 チョコダイヤを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CHOCO DIAMOND!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 チョコダイヤを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_209_0": {
-"en": "<div class=\"indented\">* ~1 used the FAV SANDWICH!</div>",
-"ja": "＊ ~1は\n　 ファボサンドを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the FAV SANDWICH!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ファボサンドを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_230_0": {
-"en": "<div class=\"indented\">* ~1 used the ROUXLS ROUX!</div>",
-"ja": "＊ ~1は\n　 ルールノールーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the ROUXLS ROUX!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルールノールーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_233_0": {
-"en": "<div class=\"indented\">* ~1 used the CD BAGEL!</div>",
-"ja": "＊ ~1は\n　 CDベーグルを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CD BAGEL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 CDベーグルを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_236_0": {
-"en": "<div class=\"indented\">* ~1 used the CLOTHESDOLL!</div>",
-"ja": "＊ ~1は\n　 マネキンを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CLOTHESDOLL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 マネキンを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_237_0": {
 "en": "<div class=\"indented\">* ... but nothing happened!</div>",
@@ -115431,91 +115431,91 @@ var rendered = {
 },
 "scr_spelltext_slash_scr_spelltext_gml_240_0": {
 "en": null,
-"ja": "＊ ~1は\n　 クリスティーを使った！"
+"ja": "＊ <span class=\"param\">~1</span>は\n　 クリスティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_243_0": {
 "en": null,
-"ja": "＊ ~1は\n　 ノエルティーを使った！"
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ノエルティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_246_0": {
 "en": null,
-"ja": "＊ ~1は\n　 ラルセイティーを使った！"
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ラルセイティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_249_0": {
 "en": null,
-"ja": "＊ ~1は\n　 スージィティーを使った！"
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スージィティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_252_0": {
-"en": "<div class=\"indented\">* ~1 used the DD-BURGER!</div>",
-"ja": "＊ ~1は\n　 ダブルＤバーガーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DD-BURGER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ダブルＤバーガーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_255_0": {
-"en": "<div class=\"indented\">* ~1 used the LIGHTCANDY!</div>",
-"ja": "＊ ~1は\n　 ライトキャンディを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the LIGHTCANDY!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ライトキャンディを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_258_0": {
-"en": "<div class=\"indented\">* ~1 used the BUTJUICE!</div>",
-"ja": "＊ ~1は\n　 シツジュースを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BUTJUICE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 シツジュースを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_261_0": {
-"en": "<div class=\"indented\">* ~1 used the SPAGHETTICODE!</div>",
-"ja": "＊ ~1は\n　 スパゲティコードを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the SPAGHETTICODE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スパゲティコードを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_264_0": {
-"en": "<div class=\"indented\">* ~1 used the JAVACOOKIE!</div>",
-"ja": "＊ ~1は\n　 JAVAクッキーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the JAVACOOKIE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 JAVAクッキーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_267_0": {
-"en": "<div class=\"indented\">* ~1 used the TENSIONBIT!</div><div class=\"indented\">* Tension raised up earlier.</div>",
-"ja": "＊ ~1は\n　 テンションビッツを使った！\n＊ テンションが　早めに上がった。"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TENSIONBIT!</div><div class=\"indented\">* Tension raised up earlier.</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 テンションビッツを使った！\n＊ テンションが　早めに上がった。"
 },
 "scr_spelltext_slash_scr_spelltext_gml_270_0": {
-"en": "<div class=\"indented\">* ~1 used the TENSIONGEM!</div>",
-"ja": "＊ ~1は\n　 テンションジェムを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TENSIONGEM!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 テンションジェムを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_273_0": {
-"en": "<div class=\"indented\">* ~1 used the TENSIONMAX!</div>",
-"ja": "＊ ~1は\n　 テンションMAXを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TENSIONMAX!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 テンションMAXを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_276_0": {
-"en": "<div class=\"indented\">* ~1 used the REVIVEDUST!</div>",
-"ja": "＊ ~1は\n　 リザレクトダストを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the REVIVEDUST!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 リザレクトダストを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_279_0": {
-"en": "<div class=\"indented\">* ~1 used the REVIVEBRIGHT!</div>",
-"ja": "＊ ~1は\n　 リザレクトライトを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the REVIVEBRIGHT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 リザレクトライトを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_282_0": {
-"en": "<div class=\"indented\">* ~1 administered S.POISON!</div>",
-"ja": "＊ ~1は\n　 S.POISONを投与した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> administered S.POISON!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 S.POISONを投与した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_298_0": {
-"en": "<div class=\"indented\">* ~1 admired DOGDOLLAR!</div>",
-"ja": "＊ ~1は\n　 ドッグドルを　うっとりながめた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> admired DOGDOLLAR!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ドッグドルを　うっとりながめた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_303_0": {
-"en": "<div class=\"indented\">* ~1 used the TVDINNER!</div>",
-"ja": "＊ ~1は\n　 TVディナーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TVDINNER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 TVディナーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_306_0": {
-"en": "<div class=\"indented\">* ~1 used the PIPIS!</div>",
-"ja": "＊ ~1は\n　 ピピスを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the PIPIS!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ピピスを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_309_0": {
-"en": "<div class=\"indented\">* ~1 used the FLATSODA!</div>",
-"ja": "＊ ~1は\n　 気の抜けたソーダを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the FLATSODA!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 気の抜けたソーダを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_312_0": {
-"en": "<div class=\"indented\">* ~1 used the TVSLOP!</div>",
-"ja": "＊ ~1は\n　 TVカスを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TVSLOP!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 TVカスを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_315_0": {
-"en": "<div class=\"indented\">* ~1 used the EXECBUFFET!</div>",
-"ja": "＊ ~1は\n　 VIPビュッフェを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the EXECBUFFET!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 VIPビュッフェを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_318_0": {
-"en": "<div class=\"indented\">* ~1 used the DELUXEDINNER!</div>",
-"ja": "＊ ~1は\n　DELUXEディナーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DELUXEDINNER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　DELUXEディナーを使った！"
 }
 },
 "scr_susface": {
@@ -115950,8 +115950,8 @@ var rendered = {
 "ja": "\nそうなの！？"
 },
 "scr_text_slash_scr_text_gml_232_0": {
-"en": "<div class=\"indented\">* Er, Kris, you know you can hold [~1] to run...?</div>",
-"ja": "＊ ねえ　クリス…\n　 [~1]を長押しすると\n　 走れることは　知ってる？"
+"en": "<div class=\"indented\">* Er, Kris, you know you can hold [<span class=\"param\">~1</span>] to run...?</div>",
+"ja": "＊ ねえ　クリス…\n　 [<span class=\"param\">~1</span>]を長押しすると\n　 走れることは　知ってる？"
 },
 "scr_text_slash_scr_text_gml_242_0": {
 "en": "<div class=\"indented\">* Really?</div><div class=\"indented\">* And yet you choose not to...?</div>",
@@ -115966,8 +115966,8 @@ var rendered = {
 "ja": "＊ いいよ！　自分のペースで\n　 進んでいこう。"
 },
 "scr_text_slash_scr_text_gml_250_0": {
-"en": "<div class=\"indented\">* Right!</div><div class=\"indented\">* You'll move faster by holding [~1]!</div>",
-"ja": "＊ そうなの！\n＊ [~1]を長押しすると\n　 速く移動できるんだよ！"
+"en": "<div class=\"indented\">* Right!</div><div class=\"indented\">* You'll move faster by holding [<span class=\"param\">~1</span>]!</div>",
+"ja": "＊ そうなの！\n＊ [<span class=\"param\">~1</span>]を長押しすると\n　 速く移動できるんだよ！"
 },
 "scr_text_slash_scr_text_gml_251_0": {
 "en": "<div class=\"indented\">* And I'll be right behind you, so don't worry!</div>",
@@ -115990,8 +115990,8 @@ var rendered = {
 "ja": "＊ ねえクリス…"
 },
 "scr_text_slash_scr_text_gml_265_0": {
-"en": "<div class=\"indented\">* ... You can skip text by pressing [~1]?</div>",
-"ja": "＊ ... You can skip text by pressing [~1]?"
+"en": "<div class=\"indented\">* ... You can skip text by pressing [<span class=\"param\">~1</span>]?</div>",
+"ja": "＊ ... You can skip text by pressing [<span class=\"param\">~1</span>]?"
 },
 "scr_text_slash_scr_text_gml_273_0": {
 "en": "<div class=\"indented\">* ... Really?</div><div class=\"indented\">* So you've just been...</div>",
@@ -116062,8 +116062,8 @@ var rendered = {
 "ja": "＊ (マニュアルを　手に入れた)"
 },
 "scr_text_slash_scr_text_gml_314_0_b": {
-"en": "<div class=\"indented\">* Press [~1] to open the menu and use it in your ITEMS.</div>",
-"ja": "＊ Press [~1] to open the menu and use it in your ITEMS."
+"en": "<div class=\"indented\">* Press [<span class=\"param\">~1</span>] to open the menu and use it in your ITEMS.</div>",
+"ja": "＊ Press [<span class=\"param\">~1</span>] to open the menu and use it in your ITEMS."
 },
 "scr_text_slash_scr_text_gml_319_0": {
 "en": "\nI can\nhandle it",
@@ -116918,8 +116918,8 @@ var rendered = {
 "ja": "＊ …えと　だれも　わたしに\n　 はなしかけないから　じぶんの\n　 なまえ　わすれちゃったお…"
 },
 "scr_text_slash_scr_text_gml_831_0": {
-"en": "<div class=\"indented\">* ~1!</div><div class=\"indented\">* Can you give me a name...?</div>",
-"ja": "＊ ~1！\n＊ わたしに　なまえを\n　 つけてくれるお…？"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span>!</div><div class=\"indented\">* Can you give me a name...?</div>",
+"ja": "＊ <span class=\"param\">~1</span>！\n＊ わたしに　なまえを\n　 つけてくれるお…？"
 },
 "scr_text_slash_scr_text_gml_831_0_b": {
 "en": "Kris",
@@ -117758,8 +117758,8 @@ var rendered = {
 "ja": "＊ 「ルードバスター」\n　 スージィの技ァ…"
 },
 "scr_text_slash_scr_text_gml_1343_0": {
-"en": "<div class=\"indented\">* Will deal more damage, if you just press [~1]!</div>",
-"ja": "＊ 大ダメージ与える\n　 [~1]を押せばァ！"
+"en": "<div class=\"indented\">* Will deal more damage, if you just press [<span class=\"param\">~1</span>]!</div>",
+"ja": "＊ 大ダメージ与える\n　 [<span class=\"param\">~1</span>]を押せばァ！"
 },
 "scr_text_slash_scr_text_gml_1349_0": {
 "en": "<div class=\"indented\">* Susie loves, when you give us MONEY.</div><div class=\"indented\">* She will -</div>",
@@ -121246,8 +121246,8 @@ var rendered = {
 "ja": "クリスプ！！"
 },
 "scr_text_slash_scr_text_gml_3627_0": {
-"en": "<div class=\"indented\">* ~1!</div>",
-"ja": "＊ ~1！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>！"
 },
 "scr_text_slash_scr_text_gml_3628_0": {
 "en": "<div class=\"indented\">* I missed you, y'hear!? Hahaha!! Missed you all day!!</div>",
@@ -121378,8 +121378,8 @@ var rendered = {
 "ja": "アズリエルII"
 },
 "scr_text_slash_scr_text_gml_3672_0": {
-"en": "<div class=\"indented\">* ~1 is on the case!</div>",
-"ja": "＊ ~1さんが\n　 バッチリ　ナゾを　カイケツするお！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> is on the case!</div>",
+"ja": "＊ <span class=\"param\">~1</span>さんが\n　 バッチリ　ナゾを　カイケツするお！"
 },
 "scr_text_slash_scr_text_gml_3673_0": {
 "en": "<div class=\"indented\">* (That's my name, right?)</div>",
@@ -121394,8 +121394,8 @@ var rendered = {
 "ja": "キッス！"
 },
 "scr_text_slash_scr_text_gml_3675_0": {
-"en": "<div class=\"indented\">* See you, ~1!</div>",
-"ja": "＊ それじゃあ　まったね～\n　 ~1！"
+"en": "<div class=\"indented\">* See you, <span class=\"param\">~1</span>!</div>",
+"ja": "＊ それじゃあ　まったね～\n　 <span class=\"param\">~1</span>！"
 },
 "scr_text_slash_scr_text_gml_3683_0": {
 "en": "\nLet's go!\nLet's go!",
@@ -122578,8 +122578,8 @@ var rendered = {
 "ja": "＊ 無料のサンプル\n　 おひとつ　いかが！？"
 },
 "scr_text_slash_scr_text_gml_4437_0": {
-"en": "<div class=\"indented\">* (You got a small shoe with a toothpick through it...)~1</div>",
-"ja": "＊ (つまようじが刺さった\n　 小さなクツを受け取った…)~1"
+"en": "<div class=\"indented\">* (You got a small shoe with a toothpick through it...)<span class=\"param\">~1</span></div>",
+"ja": "＊ (つまようじが刺さった\n　 小さなクツを受け取った…)<span class=\"param\">~1</span>"
 },
 "scr_text_slash_scr_text_gml_4442_0": {
 "en": "<div class=\"indented\">* (Chomp.)</div>",
@@ -122590,8 +122590,8 @@ var rendered = {
 "ja": "＊ あー…　いや\n　 いらねー。"
 },
 "scr_text_slash_scr_text_gml_4464_0": {
-"en": "<div class=\"indented\">* You'll never get stronger without a daily dose of shoes!!~1</div>",
-"ja": "＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！~1"
+"en": "<div class=\"indented\">* You'll never get stronger without a daily dose of shoes!!<span class=\"param\">~1</span></div>",
+"ja": "＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！<span class=\"param\">~1</span>"
 },
 "scr_text_slash_scr_text_gml_4469_0": {
 "en": "<div class=\"indented\">* Umm, I don't really do... shoes.</div>",
@@ -123366,8 +123366,8 @@ var rendered = {
 "ja": "バードリィ"
 },
 "scr_text_slash_scr_text_gml_5366_0": {
-"en": "\nThinking\nof ~1",
-"ja": "\n~1の\nこと"
+"en": "\nThinking\nof <span class=\"param\">~1</span>",
+"ja": "\n<span class=\"param\">~1</span>の\nこと"
 },
 "scr_text_slash_scr_text_gml_5367_0": {
 "en": "\nThinking\nof you",
@@ -124710,8 +124710,8 @@ var rendered = {
 "ja": "アズリエルの部屋"
 },
 "scr_text_slash_scr_text_gml_6792_0": {
-"en": "<div class=\"indented\">* (The nameplate reads ~1. Peek inside?)</div>",
-"ja": "＊ (表札に\n　 「~1」と\n　 書いてある。なかを見る？)"
+"en": "<div class=\"indented\">* (The nameplate reads <span class=\"param\">~1</span>. Peek inside?)</div>",
+"ja": "＊ (表札に\n　 「<span class=\"param\">~1</span>」と\n　 書いてある。なかを見る？)"
 },
 "scr_text_slash_scr_text_gml_6814_0": {
 "en": "<div class=\"indented\">* (... What you saw surprised you.  ... sort of.)</div>",
@@ -125074,8 +125074,8 @@ var rendered = {
 "ja": "＊ おいくらですか？"
 },
 "scr_text_slash_scr_text_gml_7180_0": {
-"en": "<div class=\"indented\">* Just a small fee of $~1!</div>",
-"ja": "＊ たったの　$~1です！"
+"en": "<div class=\"indented\">* Just a small fee of $<span class=\"param\">~1</span>!</div>",
+"ja": "＊ たったの　$<span class=\"param\">~1</span>です！"
 },
 "scr_text_slash_scr_text_gml_7182_0": {
 "en": "<div class=\"indented\">* Huh? S-sorry, we don't have that much money!</div>",
@@ -125442,16 +125442,16 @@ var rendered = {
 "ja": "＊ 操作のおさらいです。\n　 (設定メニューで　変更もできます)"
 },
 "scr_text_slash_scr_text_gml_7528_0": {
-"en": "<div class=\"indented\">* ~1</div><div class=\"indented\">* Confirm and interact with things.</div>",
-"ja": "＊ ~1\n＊ 「決定」「調べる」「使う」"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span></div><div class=\"indented\">* Confirm and interact with things.</div>",
+"ja": "＊ <span class=\"param\">~1</span>\n＊ 「決定」「調べる」「使う」"
 },
 "scr_text_slash_scr_text_gml_7529_0": {
-"en": "<div class=\"indented\">* ~1</div><div class=\"indented\">* Cancel. Hold to RUN. Shows all text instantly.</div>",
-"ja": "＊ ~1\n＊ 「キャンセル」「長押しで走る」\n　 「全テキストを　一度に表示」"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span></div><div class=\"indented\">* Cancel. Hold to RUN. Shows all text instantly.</div>",
+"ja": "＊ <span class=\"param\">~1</span>\n＊ 「キャンセル」「長押しで走る」\n　 「全テキストを　一度に表示」"
 },
 "scr_text_slash_scr_text_gml_7530_0": {
-"en": "<div class=\"indented\">* ~1</div><div class=\"indented\">* Opens the menu. Hold down to quickly skip textboxes.</div>",
-"ja": "＊ ~1\n＊ 「メニューを開く」「長押しで\n　 テキストボックスをスキップ」"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span></div><div class=\"indented\">* Opens the menu. Hold down to quickly skip textboxes.</div>",
+"ja": "＊ <span class=\"param\">~1</span>\n＊ 「メニューを開く」「長押しで\n　 テキストボックスをスキップ」"
 },
 "scr_text_slash_scr_text_gml_7536_0": {
 "en": "<div class=\"indented\">* (There's no time to read books.)</div>",
@@ -126567,15 +126567,15 @@ var rendered = {
 },
 "scr_text_slash_scr_text_gml_9540_0": {
 "en": null,
-"ja": "\n~1を\nプレイ"
+"ja": "\n<span class=\"param\">~1</span>を\nプレイ"
 },
 "scr_text_slash_scr_text_gml_9541_0": {
 "en": "\nQuit",
 "ja": "\nやめる"
 },
 "scr_text_slash_scr_text_gml_9546_0": {
-"en": "<div class=\"indented\">* (It's the door to the ~1! Play it!?)</div>",
-"ja": "＊ (~1への\n　 とびらだ。プレイする？)"
+"en": "<div class=\"indented\">* (It's the door to the <span class=\"param\">~1</span>! Play it!?)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>への\n　 とびらだ。プレイする？)"
 },
 "scr_text_slash_scr_text_gml_9573_0": {
 "en": "\nPlay\nMYSTERY GAME",
@@ -127170,8 +127170,8 @@ var rendered = {
 "ja": "もう…味がしない…"
 },
 "scr_text_slash_scr_text_gml_10567_0": {
-"en": "<div class=\"indented\">* ~1 used the ROTTEN TEA!</div>",
-"ja": "＊ ~1は　くさったティーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the ROTTEN TEA!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　くさったティーを使った！"
 }
 },
 "scr_torface": {
@@ -128048,16 +128048,16 @@ var rendered = {
 "ja": "器ニ 名前ヲ\nツケテ クダサイ。"
 },
 "DEVICE_CONTACT_slash_Step_0_gml_729_0": {
-"en": "WE CALLED IT\n\"~1.\"   ",
-"ja": "ワレワレガ ツケタ\nコノ器ノ 名ハ\n“~1”。   "
+"en": "WE CALLED IT\n\"<span class=\"param\">~1</span>.\"   ",
+"ja": "ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_730_0": {
 "en": "AND WHAT ABOUT\nTHE CREATOR?  ",
 "ja": "デハ ツクリ手ノ\n名ハ？  "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_734_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_735_0": {
 "en": "AN INTERESTING\nCOINCIDENCE.  ",
@@ -128072,8 +128072,8 @@ var rendered = {
 "ja": "アナタ自身ノ 名デス。"
 },
 "DEVICE_CONTACT_slash_Step_0_gml_785_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_786_0": {
 "en": "EXCELLENT.  ",
@@ -128104,8 +128104,8 @@ var rendered = {
 "ja": "サモ アリナン…。  "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_816_0": {
-"en": "\"~1.\"   ",
-"ja": "“~1”。   "
+"en": "\"<span class=\"param\">~1</span>.\"   ",
+"ja": "“<span class=\"param\">~1</span>”。   "
 },
 "DEVICE_CONTACT_slash_Step_0_gml_817_0": {
 "en": "THANK YOU\nFOR YOUR TIME.   ",
@@ -128440,20 +128440,20 @@ var rendered = {
 "ja": "終了"
 },
 "DEVICE_MENU_slash_Draw_0_gml_289_0": {
-"en": "Don't Use Chapter ~1 FILE",
-"ja": "Chapter ~1のファイルを使わない"
+"en": "Don't Use Chapter <span class=\"param\">~1</span> FILE",
+"ja": "Chapter <span class=\"param\">~1</span>のファイルを使わない"
 },
 "DEVICE_MENU_slash_Draw_0_gml_305_0": {
-"en": "Ch ~1 Files",
-"ja": "Ch~1ファイル"
+"en": "Ch <span class=\"param\">~1</span> Files",
+"ja": "Ch<span class=\"param\">~1</span>ファイル"
 },
 "DEVICE_MENU_slash_Draw_0_gml_387_0": {
-"en": "Start Chapter ~1 from Chapter ~2's FILE.",
-"ja": "Chapter ~2のファイルで Chapter ~1を始める。"
+"en": "Start Chapter <span class=\"param\">~1</span> from Chapter <span class=\"param\">~2</span>'s FILE.",
+"ja": "Chapter <span class=\"param\">~2</span>のファイルで Chapter <span class=\"param\">~1</span>を始める。"
 },
 "DEVICE_MENU_slash_Draw_0_gml_389_0": {
-"en": "This will start Chapter ~1 in FILE Slot ~2.",
-"ja": "スロット~2で Chapter ~1を始めます。"
+"en": "This will start Chapter <span class=\"param\">~1</span> in FILE Slot <span class=\"param\">~2</span>.",
+"ja": "スロット<span class=\"param\">~2</span>で Chapter <span class=\"param\">~1</span>を始めます。"
 },
 "DEVICE_MENU_slash_Step_0_gml_74_0": {
 "en": "IT CONFORMED TO THE REFLECTION.",
@@ -129160,19 +129160,19 @@ var rendered = {
 "ja": null
 },
 "obj_baseenemy_slash_Step_0_gml_86_0": {
-"en": "<div class=\"indented\">* Placeholder Message A~1.</div>",
+"en": "<div class=\"indented\">* Placeholder Message A<span class=\"param\">~1</span>.</div>",
 "ja": null
 },
 "obj_baseenemy_slash_Step_0_gml_87_0": {
-"en": "<div class=\"indented\">* Placeholder Message B~1.</div>",
+"en": "<div class=\"indented\">* Placeholder Message B<span class=\"param\">~1</span>.</div>",
 "ja": null
 },
 "obj_baseenemy_slash_Step_0_gml_88_0": {
-"en": "<div class=\"indented\">* Placeholder Message C~1.</div>",
+"en": "<div class=\"indented\">* Placeholder Message C<span class=\"param\">~1</span>.</div>",
 "ja": null
 },
 "obj_baseenemy_slash_Step_0_gml_89_0": {
-"en": "<div class=\"indented\">* Placeholder Message D~1.</div>",
+"en": "<div class=\"indented\">* Placeholder Message D<span class=\"param\">~1</span>.</div>",
 "ja": null
 },
 "obj_baseenemy_slash_Step_0_gml_110_0": {
@@ -129196,8 +129196,8 @@ var rendered = {
 "ja": null
 },
 "obj_baseenemy_slash_Step_0_gml_114_0_b": {
-"en": "<div class=\"indented\">* Damaged message ~1.</div>",
-"ja": "* Damaged message ~1."
+"en": "<div class=\"indented\">* Damaged message <span class=\"param\">~1</span>.</div>",
+"ja": "* Damaged message <span class=\"param\">~1</span>."
 },
 "obj_baseenemy_slash_Step_0_gml_115_0": {
 "en": "leftmid BottomMid",
@@ -129270,24 +129270,24 @@ var rendered = {
 "ja": "バードリー"
 },
 "obj_battlecontroller_slash_Step_0_gml_42_0": {
-"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got ~1 EXP and ~2 D$.</div>",
-"ja": "＊ YOU WIN！\n＊ ~1 EXPと　~2 D$を獲得！"
+"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> EXP and <span class=\"param\">~2</span> D$.</div>",
+"ja": "＊ YOU WIN！\n＊ <span class=\"param\">~1</span> EXPと　<span class=\"param\">~2</span> D$を獲得！"
 },
 "obj_battlecontroller_slash_Step_0_gml_43_0": {
 "en": "<div class=\"indented\">* You won the battle!</div>",
 "ja": "＊ YOU WIN!"
 },
 "obj_battlecontroller_slash_Step_0_gml_46_0": {
-"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got ~1 D$.</div><div class=\"indented\">* You became stronger.</div>",
-"ja": "＊ YOU WIN!\n＊ ~1 D$を獲得！\n＊ 強くなった。"
+"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> D$.</div><div class=\"indented\">* You became stronger.</div>",
+"ja": "＊ YOU WIN!\n＊ <span class=\"param\">~1</span> D$を獲得！\n＊ 強くなった。"
 },
 "obj_battlecontroller_slash_Step_0_gml_69_0": {
-"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got ~1 D$.</div><div class=\"indented\">* Noelle became stronger.</div>",
-"ja": "＊ YOU WIN！\n＊ ~1 D$獲得！\n＊ ノエルは　強くなった。"
+"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> D$.</div><div class=\"indented\">* Noelle became stronger.</div>",
+"ja": "＊ YOU WIN！\n＊ <span class=\"param\">~1</span> D$獲得！\n＊ ノエルは　強くなった。"
 },
 "obj_battlecontroller_slash_Step_0_gml_101_0": {
-"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got ~1 EXP and ~2 D$.</div><div class=\"indented\">* Susie's heal power increased!</div>",
-"ja": "* You won!\n* Got ~1 EXP and ~2 D$.\n* Susie's heal power increased!"
+"en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> EXP and <span class=\"param\">~2</span> D$.</div><div class=\"indented\">* Susie's heal power increased!</div>",
+"ja": "* You won!\n* Got <span class=\"param\">~1</span> EXP and <span class=\"param\">~2</span> D$.\n* Susie's heal power increased!"
 }
 },
 "obj_bell_enemy": {
@@ -129356,12 +129356,12 @@ var rendered = {
 "ja": "\n＊ すべての　音楽系の「こうどう」が\n　 強力になった！"
 },
 "obj_bell_enemy_slash_Step_0_gml_172_0": {
-"en": "<div class=\"indented\">* Perfectly in tune!~1</div>",
-"ja": "＊ チューニングは　バッチリだ！~1"
+"en": "<div class=\"indented\">* Perfectly in tune!<span class=\"param\">~1</span></div>",
+"ja": "＊ チューニングは　バッチリだ！<span class=\"param\">~1</span>"
 },
 "obj_bell_enemy_slash_Step_0_gml_173_0": {
-"en": "<div class=\"indented\">* A bit off-tune!~1</div>",
-"ja": "＊ チューニングが　少しずれた！~1"
+"en": "<div class=\"indented\">* A bit off-tune!<span class=\"param\">~1</span></div>",
+"ja": "＊ チューニングが　少しずれた！<span class=\"param\">~1</span>"
 },
 "obj_bell_enemy_slash_Step_0_gml_186_0": {
 "en": null,
@@ -129372,8 +129372,8 @@ var rendered = {
 "ja": "＊ スージィは　ハンマーでたたいた！"
 },
 "obj_bell_enemy_slash_Step_0_gml_199_0": {
-"en": "<div class=\"indented\">* Somewhat in tune!~1</div>",
-"ja": "＊ チューニングは　だいたい合った！~1"
+"en": "<div class=\"indented\">* Somewhat in tune!<span class=\"param\">~1</span></div>",
+"ja": "＊ チューニングは　だいたい合った！<span class=\"param\">~1</span>"
 },
 "obj_bell_enemy_slash_Step_0_gml_201_0": {
 "en": "<div class=\"indented\">* Ralsei tapped a bell!</div>",
@@ -129465,7 +129465,7 @@ var rendered = {
 },
 "obj_bibliox_enemy_slash_Step_0_gml_149_0": {
 "en": null,
-"ja": "* Select the correct spelling with ~1!"
+"ja": "* Select the correct spelling with <span class=\"param\">~1</span>!"
 },
 "obj_bibliox_enemy_slash_Step_0_gml_167_0": {
 "en": "<div class=\"indented\">* Susie attempted to read!</div>",
@@ -130306,8 +130306,8 @@ var rendered = {
 "ja": "＊ …ああ。\n　 わかったよ。"
 },
 "obj_ch4_DCA02_slash_Step_0_gml_505_0": {
-"en": "<div class=\"indented\">* So, hey, uh, ~1's together!</div>",
-"ja": "＊ てかさ…　\n　 また　 ~1が\n　 勢ぞろいだな。"
+"en": "<div class=\"indented\">* So, hey, uh, <span class=\"param\">~1</span>'s together!</div>",
+"ja": "＊ てかさ…　\n　 また　 <span class=\"param\">~1</span>が\n　 勢ぞろいだな。"
 },
 "obj_ch4_DCA02_slash_Step_0_gml_506_0": {
 "en": "<div class=\"indented\">* We gonna, uh, pose now?</div>",
@@ -133620,8 +133620,8 @@ var rendered = {
 "ja": "エンピツ"
 },
 "obj_ch4_PDC03_slash_Step_0_gml_702_0": {
-"en": "<div class=\"indented\">* ... why do you have ~1 but no paper?</div>",
-"ja": "＊ …~1だけで\n　 かみは　ねーのかよ…"
+"en": "<div class=\"indented\">* ... why do you have <span class=\"param\">~1</span> but no paper?</div>",
+"ja": "＊ …<span class=\"param\">~1</span>だけで\n　 かみは　ねーのかよ…"
 },
 "obj_ch4_PDC03_slash_Step_0_gml_703_0": {
 "en": "<div class=\"indented\">* Huh? It's your... sword?</div>",
@@ -133648,8 +133648,8 @@ var rendered = {
 "ja": "ヘンなカード"
 },
 "obj_ch4_PDC03_slash_Step_0_gml_728_0": {
-"en": "<div class=\"indented\">* ... well, explains the ~1 in MY pocket.</div>",
-"ja": "＊ …そういや\n　 オレのポケットにも\n　 ~1が…"
+"en": "<div class=\"indented\">* ... well, explains the <span class=\"param\">~1</span> in MY pocket.</div>",
+"ja": "＊ …そういや\n　 オレのポケットにも\n　 <span class=\"param\">~1</span>が…"
 },
 "obj_ch4_PDC03_slash_Step_0_gml_729_0": {
 "en": "<div class=\"indented\">* Here, I'll...</div>",
@@ -133692,8 +133692,8 @@ var rendered = {
 "ja": "＊ ぎゃはははは！\n　 うはははは！！！"
 },
 "obj_ch4_PDC03_slash_Step_0_gml_835_0": {
-"en": "<div class=\"indented\">* Hey, c'mon! Don't act like you weren't laughing, too!~1</div>",
-"ja": "＊ んだよ！　おまえも\n　 わらってただろ！~1"
+"en": "<div class=\"indented\">* Hey, c'mon! Don't act like you weren't laughing, too!<span class=\"param\">~1</span></div>",
+"ja": "＊ んだよ！　おまえも\n　 わらってただろ！<span class=\"param\">~1</span>"
 },
 "obj_ch4_PDC03_slash_Step_0_gml_836_0": {
 "en": "<div class=\"indented\">* Look... uh, here. This was in here, too. Peace offering.</div>",
@@ -133712,12 +133712,12 @@ var rendered = {
 "ja": "＊ (…)\n＊ (…)\n＊ (うなずいた)"
 },
 "obj_ch4_PDC03_slash_Step_0_gml_881_0": {
-"en": "<div class=\"indented\">* Hell yeah, this'll keep us alive for days!~1</div>",
-"ja": "＊ っしゃー！\n　 こんだけありゃ　とうぶん\n　 たのしめるぜ！~1"
+"en": "<div class=\"indented\">* Hell yeah, this'll keep us alive for days!<span class=\"param\">~1</span></div>",
+"ja": "＊ っしゃー！\n　 こんだけありゃ　とうぶん\n　 たのしめるぜ！<span class=\"param\">~1</span>"
 },
 "obj_ch4_PDC03_slash_Step_0_gml_884_0": {
-"en": "<div class=\"indented\">* Nice, that should be enough.~1</div>",
-"ja": "＊ っしゃ　こんだけありゃ\n　 じゅうぶんだな。~1"
+"en": "<div class=\"indented\">* Nice, that should be enough.<span class=\"param\">~1</span></div>",
+"ja": "＊ っしゃ　こんだけありゃ\n　 じゅうぶんだな。<span class=\"param\">~1</span>"
 },
 "obj_ch4_PDC03_slash_Step_0_gml_890_0": {
 "en": "<div class=\"indented\">* All right, let's mess with the stickers first.</div>",
@@ -134132,8 +134132,8 @@ var rendered = {
 "ja": "＊ ふはは…　しかたないよ。\n　 いろいろ　かんがえちゃって\n　 しゅうちゅうできなくて…"
 },
 "obj_ch4_PDC03A_rudy_toriel_slash_Step_0_gml_625_0": {
-"en": "<div class=\"indented\">* (Clues acquired.)</div><div class=\"indented\">* (Now you can report the hint to Susie.)~1</div>",
-"ja": "＊ (てがかりは　てにはいった)\n＊ (スージィに　ほうこくしよう)~1"
+"en": "<div class=\"indented\">* (Clues acquired.)</div><div class=\"indented\">* (Now you can report the hint to Susie.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (てがかりは　てにはいった)\n＊ (スージィに　ほうこくしよう)<span class=\"param\">~1</span>"
 },
 "obj_ch4_PDC03A_rudy_toriel_slash_Step_0_gml_630_0": {
 "en": "<div class=\"indented\">* ... hello? Earth to Kris? Personal space?</div>",
@@ -135684,8 +135684,8 @@ var rendered = {
 },
 "obj_ch4_PDC10C": {
 "obj_ch4_PDC10C_slash_Create_0_gml_163_0": {
-"en": "Move: ~1 ~2 ~3 ~4",
-"ja": "移動：~1 ~2 ~3 ~4"
+"en": "Move: <span class=\"param\">~1</span> <span class=\"param\">~2</span> <span class=\"param\">~3</span> <span class=\"param\">~4</span>",
+"ja": "移動：<span class=\"param\">~1</span> <span class=\"param\">~2</span> <span class=\"param\">~3</span> <span class=\"param\">~4</span>"
 }
 },
 "obj_ch4_PDC13D": {
@@ -136920,8 +136920,8 @@ var rendered = {
 "ja": "＊ ホッホッホ…\n＊ こ～れは　これは…\n　 ここで会ったが　100秒目…"
 },
 "obj_checker_animtest_slash_Step_0_gml_48_0": {
-"en": "<div class=\"indented\">* If it isn't the ~1</div>",
-"ja": "＊ If it isn't the ~1"
+"en": "<div class=\"indented\">* If it isn't the <span class=\"param\">~1</span></div>",
+"ja": "＊ If it isn't the <span class=\"param\">~1</span>"
 },
 "obj_checker_animtest_slash_Step_0_gml_49_0": {
 "en": "<div class=\"indented\">* You boys or girls had better turn back while you can.</div>",
@@ -137182,8 +137182,8 @@ var rendered = {
 "ja": "＊ K.ラウンドの　シャッフルダンスに\n　 キレがなくなってきた。"
 },
 "obj_checkers_enemy_slash_Step_0_gml_82_0": {
-"en": "<div class=\"indented\">* The crown is <span class=\"Y\">~1-percent</span> loose!</div>",
-"ja": "＊ 王冠グラグラ度：<span class=\"Y\">~1パーセント</span>！"
+"en": "<div class=\"indented\">* The crown is <span class=\"Y\"><span class=\"param\">~1</span>-percent</span> loose!</div>",
+"ja": "＊ 王冠グラグラ度：<span class=\"Y\"><span class=\"param\">~1</span>パーセント</span>！"
 },
 "obj_checkers_enemy_slash_Step_0_gml_119_0": {
 "en": "<div class=\"indented\">* K. ROUND felt stressed out and attacked!</div>",
@@ -137346,8 +137346,8 @@ var rendered = {
 "ja": "Throw"
 },
 "obj_checkers_enemy_slash_Step_0_gml_489_0": {
-"en": "<div class=\"indented\">* Press ~1 to determine the ANGLE!</div>",
-"ja": "＊ ~1を押して\n　 アングルを決めろ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to determine the ANGLE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して\n　 アングルを決めろ！"
 },
 "obj_checkers_enemy_slash_Step_0_gml_510_0": {
 "en": "<div class=\"indented\">* Susie? You want to ACT? Aww, what's your idea?</div>",
@@ -138761,7 +138761,7 @@ var rendered = {
 },
 "obj_credits_ch4_slash_Create_0_gml_66_0": {
 "en": null,
-"ja": "  THE HALFWAY&   MARK HAS& BEEN ATTAINED& ~1"
+"ja": "  THE HALFWAY&   MARK HAS& BEEN ATTAINED& <span class=\"param\">~1</span>"
 },
 "obj_credits_ch4_slash_Create_0_gml_67_0": {
 "en": "    BUT&    IT&    IS STILL&    WAITING.",
@@ -138788,8 +138788,8 @@ var rendered = {
 "ja": "     アナタハ\n   何者デスカ？"
 },
 "obj_credits_ch4_slash_Create_0_gml_76_0": {
-"en": "    \"~1\"",
-"ja": "    「~1」"
+"en": "    \"<span class=\"param\">~1</span>\"",
+"ja": "    「<span class=\"param\">~1</span>」"
 },
 "obj_credits_ch4_slash_Create_0_gml_77_0": {
 "en": "  I VERY MUCH&  LOOK FORWARD&  TO THE NEXT.",
@@ -138798,8 +138798,8 @@ var rendered = {
 },
 "obj_cutscene_maker": {
 "obj_cutscene_maker_slash_Draw_0_gml_60_0": {
-"en": "actor, ~1  step:~2",
-"ja": "actor, ~1  step:~2"
+"en": "actor, <span class=\"param\">~1</span>  step:<span class=\"param\">~2</span>",
+"ja": "actor, <span class=\"param\">~1</span>  step:<span class=\"param\">~2</span>"
 }
 },
 "obj_cutscene_test": {
@@ -138906,8 +138906,8 @@ var rendered = {
 "ja": "なし"
 },
 "obj_darkcontroller_slash_Draw_0_gml_47_0": {
-"en": "D$ ~1",
-"ja": "D$ ~1"
+"en": "D$ <span class=\"param\">~1</span>",
+"ja": "D$ <span class=\"param\">~1</span>"
 },
 "obj_darkcontroller_slash_Draw_0_gml_74_0": {
 "en": "CONFIG",
@@ -139095,15 +139095,15 @@ var rendered = {
 },
 "obj_darkcontroller_slash_Draw_0_gml_272_0_b": {
 "en": null,
-"ja": "リーダー(LV~1)\nいろんな「こうどう」\nで仲間をリード。"
+"ja": "リーダー(LV<span class=\"param\">~1</span>)\nいろんな「こうどう」\nで仲間をリード。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_273_0": {
 "en": null,
-"ja": "コマンダー(LV~1)\n「こうどう」で仲間\nをときどきリード。"
+"ja": "コマンダー(LV<span class=\"param\">~1</span>)\n「こうどう」で仲間\nをときどきリード。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_274_0": {
 "en": null,
-"ja": "ベッドボス(LV~1)\nなぜかベッドを\n調べまくる。"
+"ja": "ベッドボス(LV<span class=\"param\">~1</span>)\nなぜかベッドを\n調べまくる。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_275_0": {
 "en": null,
@@ -139111,11 +139111,11 @@ var rendered = {
 },
 "obj_darkcontroller_slash_Draw_0_gml_275_0_b": {
 "en": null,
-"ja": "コケゲッター(LV~1)\nベーシックな\nコケ発見能力。"
+"ja": "コケゲッター(LV<span class=\"param\">~1</span>)\nベーシックな\nコケ発見能力。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_276_0": {
 "en": null,
-"ja": "リーダー(LV~1)\n リードする。"
+"ja": "リーダー(LV<span class=\"param\">~1</span>)\n リードする。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_279_0": {
 "en": null,
@@ -139135,15 +139135,15 @@ var rendered = {
 },
 "obj_darkcontroller_slash_Draw_0_gml_314_0": {
 "en": null,
-"ja": "ダークナイト(LV~1)\nダークエネルギーで\n敵をこうげき。"
+"ja": "ダークナイト(LV<span class=\"param\">~1</span>)\nダークエネルギーで\n敵をこうげき。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_315_0": {
 "en": null,
-"ja": "ヒールボス(LV~1)\nウルティマヒールを\n使える(ヘヘッ！)"
+"ja": "ヒールボス(LV<span class=\"param\">~1</span>)\nウルティマヒールを\n使える(ヘヘッ！)"
 },
 "obj_darkcontroller_slash_Draw_0_gml_316_0": {
 "en": null,
-"ja": "コケラバー(LV~1)\nコケを見つける者の\n強い味方。"
+"ja": "コケラバー(LV<span class=\"param\">~1</span>)\nコケを見つける者の\n強い味方。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_327_0": {
 "en": "Kindness",
@@ -139155,23 +139155,23 @@ var rendered = {
 },
 "obj_darkcontroller_slash_Draw_0_gml_356_0": {
 "en": null,
-"ja": "ダーク王子(LV~1)\n闇の世界の民。\n仲間ができた。"
+"ja": "ダーク王子(LV<span class=\"param\">~1</span>)\n闇の世界の民。\n仲間ができた。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_357_0": {
 "en": null,
-"ja": "ハグ王子(LV~1)\nたくさんハグして\nハグされて。"
+"ja": "ハグ王子(LV<span class=\"param\">~1</span>)\nたくさんハグして\nハグされて。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_358_0": {
 "en": null,
-"ja": "ポーズ王子(LV~1)\n写真を撮るとき\nときどきポーズ。"
+"ja": "ポーズ王子(LV<span class=\"param\">~1</span>)\n写真を撮るとき\nときどきポーズ。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_359_0": {
 "en": null,
-"ja": "お下品王子(LV~1)\n下品なポーズも\nなんのその。"
+"ja": "お下品王子(LV<span class=\"param\">~1</span>)\n下品なポーズも\nなんのその。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_360_0": {
 "en": null,
-"ja": "撮らない王子(LV~1)\n写真なんか\n撮らない。"
+"ja": "撮らない王子(LV<span class=\"param\">~1</span>)\n写真なんか\n撮らない。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_362_0": {
 "en": null,
@@ -139182,16 +139182,16 @@ var rendered = {
 "ja": "スノー使い(LV1)\n氷属性のまほう\nを使えるかも？"
 },
 "obj_darkcontroller_slash_Draw_0_gml_383_0": {
-"en": "LV~1 Frostmancer\nFreezes the enemy.",
-"ja": "フロスター(LV~1)\n敵を凍らせる。"
+"en": "LV<span class=\"param\">~1</span> Frostmancer\nFreezes the enemy.",
+"ja": "フロスター(LV<span class=\"param\">~1</span>)\n敵を凍らせる。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_384_0": {
-"en": "LV~1 Ice Trancer\nReceives pain to\nbecome stronger.",
-"ja": "トランサー(LV~1)\n痛みを受けて\n強くなる。"
+"en": "LV<span class=\"param\">~1</span> Ice Trancer\nReceives pain to\nbecome stronger.",
+"ja": "トランサー(LV<span class=\"param\">~1</span>)\n痛みを受けて\n強くなる。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_385_0": {
-"en": "LV~1 Moss Neutral\nNeither chaotic nor\nlawful to moss.",
-"ja": "コケ中立者(LV~1)\nコケに対し　混沌\nでも秩序でもない。"
+"en": "LV<span class=\"param\">~1</span> Moss Neutral\nNeither chaotic nor\nlawful to moss.",
+"ja": "コケ中立者(LV<span class=\"param\">~1</span>)\nコケに対し　混沌\nでも秩序でもない。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_388_0": {
 "en": "Coldness ",
@@ -139299,7 +139299,7 @@ var rendered = {
 },
 "obj_darkcontroller_slash_Draw_0_gml_598_0": {
 "en": null,
-"ja": "ダーク王子(LV~3)\n闇の世界の民。\n仲間ができた。が…"
+"ja": "ダーク王子(LV<span class=\"param\">~3</span>)\n闇の世界の民。\n仲間ができた。が…"
 },
 "obj_darkcontroller_slash_Draw_0_gml_602_0": {
 "en": null,
@@ -139327,7 +139327,7 @@ var rendered = {
 },
 "obj_darkcontroller_slash_Draw_0_gml_620_0": {
 "en": null,
-"ja": "ダーク王子(LV~3)\n闇の世界の民。\n仲間ができた。"
+"ja": "ダーク王子(LV<span class=\"param\">~3</span>)\n闇の世界の民。\n仲間ができた。"
 },
 "obj_darkcontroller_slash_Draw_0_gml_624_0": {
 "en": null,
@@ -139366,8 +139366,8 @@ var rendered = {
 "ja": "だいじ"
 },
 "obj_darkcontroller_slash_Draw_0_gml_956_0": {
-"en": "Really throw away the\n~1?",
-"ja": "~1を\n捨てますか？"
+"en": "Really throw away the\n<span class=\"param\">~1</span>?",
+"ja": "<span class=\"param\">~1</span>を\n捨てますか？"
 },
 "obj_darkcontroller_slash_Step_0_gml_135_0": {
 "en": "<div class=\"indented\">* ...</div>",
@@ -139519,7 +139519,7 @@ var rendered = {
 },
 "obj_debug_xy_slash_Draw_74_gml_27_0": {
 "en": null,
-"ja": "CameraX: ~1 CameraY: ~2"
+"ja": "CameraX: <span class=\"param\">~1</span> CameraY: <span class=\"param\">~2</span>"
 },
 "obj_debug_xy_slash_Draw_74_gml_28_0": {
 "en": null,
@@ -139531,7 +139531,7 @@ var rendered = {
 },
 "obj_debug_xy_slash_Draw_74_gml_29_0_b": {
 "en": null,
-"ja": "instance_count: ~1"
+"ja": "instance_count: <span class=\"param\">~1</span>"
 },
 "obj_debug_xy_slash_Draw_74_gml_33_0": {
 "en": null,
@@ -139580,8 +139580,8 @@ var rendered = {
 "ja": "＊ ジグソー・ジョー - 弱点は\n　 同じターン中に実行される\n　 「こうどう」と「にがす」。"
 },
 "obj_dojo_spareenemy_slash_Step_0_gml_44_0": {
-"en": "Ah!! It's my\n~1 o'clock shadow!",
-"ja": "もう~1時だ！\nヒゲが生えてきちまう！"
+"en": "Ah!! It's my\n<span class=\"param\">~1</span> o'clock shadow!",
+"ja": "もう<span class=\"param\">~1</span>時だ！\nヒゲが生えてきちまう！"
 },
 "obj_dojo_spareenemy_slash_Step_0_gml_51_0": {
 "en": "<div class=\"indented\">* Jigsaw Joe's stubble regrew!</div>",
@@ -140064,8 +140064,8 @@ var rendered = {
 "ja": "＊ あ　ごめん！\n＊ 説明するの　忘れてた！\n＊ 「たたかう」ときは…"
 },
 "obj_dummyenemy_slash_Step_0_gml_399_0": {
-"en": "<div class=\"indented\">* Press ~1 again when the cursor goes in the box!</div>",
-"ja": "＊ Press ~1 again when the cursor goes in the box!"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> again when the cursor goes in the box!</div>",
+"ja": "＊ Press <span class=\"param\">~1</span> again when the cursor goes in the box!"
 },
 "obj_dummyenemy_slash_Step_0_gml_403_0": {
 "en": "<div class=\"indented\">* It's OK, Kris!</div><div class=\"indented\">* You'll get it!</div><div class=\"indented\">* Try again!</div>",
@@ -140076,12 +140076,12 @@ var rendered = {
 "ja": "＊ Press Z when the white rectangle's in the blue box!"
 },
 "obj_dummyenemy_slash_Step_0_gml_405_0": {
-"en": "<div class=\"indented\">* Ummm... you can press ~1 a lot, if it helps!</div>",
-"ja": "＊ Ummm... you can press ~1 a lot, if it helps!"
+"en": "<div class=\"indented\">* Ummm... you can press <span class=\"param\">~1</span> a lot, if it helps!</div>",
+"ja": "＊ Ummm... you can press <span class=\"param\">~1</span> a lot, if it helps!"
 },
 "obj_dummyenemy_slash_Step_0_gml_406_0": {
-"en": "<div class=\"indented\">* Kris...</div><div class=\"indented\">* Please try to press ~1.</div>",
-"ja": "＊ Kris...\n＊ Please try to press ~1."
+"en": "<div class=\"indented\">* Kris...</div><div class=\"indented\">* Please try to press <span class=\"param\">~1</span>.</div>",
+"ja": "＊ Kris...\n＊ Please try to press <span class=\"param\">~1</span>."
 },
 "obj_dummyenemy_slash_Step_0_gml_407_0": {
 "en": "<div class=\"indented\">* Ummm, Kris?</div><div class=\"indented\">* Can you see the white rectangle?</div>",
@@ -141218,16 +141218,16 @@ var rendered = {
 "ja": "＊ Well hey dere! If you want to continue, you'll have ta climb!"
 },
 "obj_dw_church_climbtut_slash_Step_0_gml_37_0": {
-"en": "<div class=\"indented\">* You can climb by holdin' ~1 when near a climbable area!</div>",
-"ja": "＊ You can climb by holdin' ~1 when near a climbable area!"
+"en": "<div class=\"indented\">* You can climb by holdin' <span class=\"param\">~1</span> when near a climbable area!</div>",
+"ja": "＊ You can climb by holdin' <span class=\"param\">~1</span> when near a climbable area!"
 },
 "obj_dw_church_climbtut_slash_Step_0_gml_42_0": {
-"en": "<div class=\"indented\">* Did ya get stuck? Hold ~1 to charge up a jump to leap across an area!</div>",
-"ja": "＊ Did ya get stuck? Hold ~1 to charge up a jump to leap across an area!"
+"en": "<div class=\"indented\">* Did ya get stuck? Hold <span class=\"param\">~1</span> to charge up a jump to leap across an area!</div>",
+"ja": "＊ Did ya get stuck? Hold <span class=\"param\">~1</span> to charge up a jump to leap across an area!"
 },
 "obj_dw_church_climbtut_slash_Step_0_gml_46_0": {
-"en": "<div class=\"indented\">* You can hold ~1 to charge up a jump to leap across an area!</div>",
-"ja": "＊ You can hold ~1 to charge up a jump to leap across an area!"
+"en": "<div class=\"indented\">* You can hold <span class=\"param\">~1</span> to charge up a jump to leap across an area!</div>",
+"ja": "＊ You can hold <span class=\"param\">~1</span> to charge up a jump to leap across an area!"
 },
 "obj_dw_church_climbtut_slash_Step_0_gml_52_0": {
 "en": "<div class=\"indented\">* That was a mighty fine leap y'did there!</div>",
@@ -142550,8 +142550,8 @@ var rendered = {
 "ja": "＊ (水が　たまっている…\n　 おカネを　投げ入れる？)"
 },
 "obj_dw_church_moneyfountain_slash_Step_0_gml_119_0": {
-"en": "<div class=\"indented\">* (There's $~1 in the fountain. Throw in more?)</div>",
-"ja": "＊ (水の中には　$~1入っている。\n　 もっと　投げ入れる？)"
+"en": "<div class=\"indented\">* (There's $<span class=\"param\">~1</span> in the fountain. Throw in more?)</div>",
+"ja": "＊ (水の中には　$<span class=\"param\">~1</span>入っている。\n　 もっと　投げ入れる？)"
 },
 "obj_dw_church_moneyfountain_slash_Step_0_gml_129_0": {
 "en": "<div class=\"indented\">* (The water glitters vacantly.)</div>",
@@ -142574,8 +142574,8 @@ var rendered = {
 "ja": "ダークドル"
 },
 "obj_dw_church_moneyfountain_slash_Step_0_gml_232_0": {
-"en": "<div class=\"indented\">* (You threw ~1 ~2 into the fountain. The Fountain now holds $~3.)</div>",
-"ja": "＊ (~1~2を　投げ入れた。\n　 水の中には　$~3入っている)"
+"en": "<div class=\"indented\">* (You threw <span class=\"param\">~1</span> <span class=\"param\">~2</span> into the fountain. The Fountain now holds $<span class=\"param\">~3</span>.)</div>",
+"ja": "＊ (<span class=\"param\">~1</span><span class=\"param\">~2</span>を　投げ入れた。\n　 水の中には　$<span class=\"param\">~3</span>入っている)"
 },
 "obj_dw_church_moneyfountain_slash_Step_0_gml_243_0": {
 "en": "<div class=\"indented\">* (...? The money you threw split the stream of the waterfall!)</div>",
@@ -143004,16 +143004,16 @@ var rendered = {
 "ja": "＊ 知ってると思うけど…"
 },
 "obj_dw_church_pianopiece_right_slash_Step_0_gml_396_0": {
-"en": "<div class=\"indented\">* By holding directions and pressing ~1!</div>",
-"ja": "＊ 方向キーと~1で\n　 ピアノを弾けるよ！"
+"en": "<div class=\"indented\">* By holding directions and pressing <span class=\"param\">~1</span>!</div>",
+"ja": "＊ 方向キーと<span class=\"param\">~1</span>で\n　 ピアノを弾けるよ！"
 },
 "obj_dw_church_pianopiece_right_slash_Step_0_gml_397_0": {
 "en": "<div class=\"indented\">* However, on this piano, you also can swap colors...</div>",
 "ja": "＊ でも　このピアノでは…"
 },
 "obj_dw_church_pianopiece_right_slash_Step_0_gml_398_0": {
-"en": "<div class=\"indented\">* By pressing ~1! I hope this helps you!</div>",
-"ja": "＊ ~1を押して　色も\n　 変えられるんだ！\n　 ヒントになったかな？"
+"en": "<div class=\"indented\">* By pressing <span class=\"param\">~1</span>! I hope this helps you!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して　色も\n　 変えられるんだ！\n　 ヒントになったかな？"
 },
 "obj_dw_church_pianopiece_right_slash_Step_0_gml_399_0": {
 "en": "<div class=\"indented\">* It would be... Great if we could hurry, to the fountain.</div>",
@@ -143076,8 +143076,8 @@ var rendered = {
 "ja": "ピッチ"
 },
 "obj_dw_church_remote_piano_slash_Draw_0_gml_28_0": {
-"en": "Hold ~1 : Quit",
-"ja": "~1長押し : やめる"
+"en": "Hold <span class=\"param\">~1</span> : Quit",
+"ja": "<span class=\"param\">~1</span>長押し : やめる"
 }
 },
 "obj_dw_church_rightconnect": {
@@ -143490,12 +143490,12 @@ var rendered = {
 "ja": "＊ 急ぎ登らねば…\n　 力をためて　そののち　跳ばねば…"
 },
 "obj_dw_church_sideclimb_slash_Step_0_gml_746_0": {
-"en": "<div class=\"indented\">* Incredible climbing speed! Your fastest time for the first lap is ~1 seconds!</div>",
-"ja": "＊ 見事な速登り！\n　 キミのファーストラップの\n　 最速タイムは　~1秒だ！"
+"en": "<div class=\"indented\">* Incredible climbing speed! Your fastest time for the first lap is <span class=\"param\">~1</span> seconds!</div>",
+"ja": "＊ 見事な速登り！\n　 キミのファーストラップの\n　 最速タイムは　<span class=\"param\">~1</span>秒だ！"
 },
 "obj_dw_church_sideclimb_slash_Step_0_gml_779_0": {
-"en": "<div class=\"indented\">* Incredible climbing speed! Your fastest time for the second lap is ~1 seconds!</div>",
-"ja": "＊ 見事な速登り！\n　 キミのセカンドラップの\n　 最速タイムは　~1秒だ！"
+"en": "<div class=\"indented\">* Incredible climbing speed! Your fastest time for the second lap is <span class=\"param\">~1</span> seconds!</div>",
+"ja": "＊ 見事な速登り！\n　 キミのセカンドラップの\n　 最速タイムは　<span class=\"param\">~1</span>秒だ！"
 },
 "obj_dw_church_sideclimb_slash_Step_0_gml_829_0": {
 "en": "<div class=\"indented\">* (It's an exclusive trophy. You feel a sense of <span class=\"Y\">achievement</span>.)</div>",
@@ -144730,12 +144730,12 @@ var rendered = {
 "ja": "＊ …へー。でも　オレには\n　 聞こえるぜ…"
 },
 "obj_dw_churchb_gersonchase_slash_Step_0_gml_378_0": {
-"en": "\n~1",
-"ja": "\n~1"
+"en": "\n<span class=\"param\">~1</span>",
+"ja": "\n<span class=\"param\">~1</span>"
 },
 "obj_dw_churchb_gersonchase_slash_Step_0_gml_379_0": {
-"en": "\n~1",
-"ja": "\n~1"
+"en": "\n<span class=\"param\">~1</span>",
+"ja": "\n<span class=\"param\">~1</span>"
 },
 "obj_dw_churchb_gersonchase_slash_Step_0_gml_385_0": {
 "en": "<div class=\"indented\">* It sounds like it was coming from...</div>",
@@ -144746,16 +144746,16 @@ var rendered = {
 "ja": "＊ まただ…　これは…"
 },
 "obj_dw_churchb_gersonchase_slash_Step_0_gml_423_0": {
-"en": "<div class=\"indented\">* Huh? No, it was ~1, right?</div>",
-"ja": "＊ いや…　~1だろ…"
+"en": "<div class=\"indented\">* Huh? No, it was <span class=\"param\">~1</span>, right?</div>",
+"ja": "＊ いや…　<span class=\"param\">~1</span>だろ…"
 },
 "obj_dw_churchb_gersonchase_slash_Step_0_gml_434_0": {
-"en": "\n~1",
-"ja": "\n~1"
+"en": "\n<span class=\"param\">~1</span>",
+"ja": "\n<span class=\"param\">~1</span>"
 },
 "obj_dw_churchb_gersonchase_slash_Step_0_gml_435_0": {
-"en": "\n~1",
-"ja": "\n~1"
+"en": "\n<span class=\"param\">~1</span>",
+"ja": "\n<span class=\"param\">~1</span>"
 },
 "obj_dw_churchb_gersonchase_slash_Step_0_gml_440_0": {
 "en": "<div class=\"indented\">* Yeah! It totally sounds like...</div>",
@@ -144766,8 +144766,8 @@ var rendered = {
 "ja": "＊ ああ　こっちだ！"
 },
 "obj_dw_churchb_gersonchase_slash_Step_0_gml_486_0": {
-"en": "<div class=\"indented\">* Huh? No, it was ~1... right?</div>",
-"ja": "＊ いや…　~1だろ…"
+"en": "<div class=\"indented\">* Huh? No, it was <span class=\"param\">~1</span>... right?</div>",
+"ja": "＊ いや…　<span class=\"param\">~1</span>だろ…"
 },
 "obj_dw_churchb_gersonchase_slash_Step_0_gml_638_0": {
 "en": "<div class=\"indented\">* Hey! I heard something again!</div>",
@@ -144856,8 +144856,8 @@ var rendered = {
 "ja": "＊ (…取る？)"
 },
 "obj_dw_churchb_gersonstudy_slash_Step_0_gml_307_0": {
-"en": "<div class=\"indented\">* (It's a Rhapsotea. Take it for $~1?)</div>",
-"ja": "＊ (ラプソティーだ。\n 　$~1払って 取る？)"
+"en": "<div class=\"indented\">* (It's a Rhapsotea. Take it for $<span class=\"param\">~1</span>?)</div>",
+"ja": "＊ (ラプソティーだ。\n 　$<span class=\"param\">~1</span>払って 取る？)"
 },
 "obj_dw_churchb_gersonstudy_slash_Step_0_gml_321_0": {
 "en": "<div class=\"indented\">* Hey, that's the old man's, dumbass!</div>",
@@ -145292,16 +145292,16 @@ var rendered = {
 "ja": "＊ キミは　寄付者だ。\n　 キミが寄付した「カネ」は\n　 「金」に変化した。"
 },
 "obj_dw_churchb_moneyfountain_slash_Step_0_gml_139_0": {
-"en": "<div class=\"indented\">* In total, you reached <span class=\"Y\">~1 Gold</span>.</div>",
-"ja": "＊ 総額　<span class=\"Y\">~1G</span>に　到達した。"
+"en": "<div class=\"indented\">* In total, you reached <span class=\"Y\"><span class=\"param\">~1</span> Gold</span>.</div>",
+"ja": "＊ 総額　<span class=\"Y\"><span class=\"param\">~1</span>G</span>に　到達した。"
 },
 "obj_dw_churchb_moneyfountain_slash_Step_0_gml_144_0": {
 "en": "<div class=\"indented\">* You are one of the donators.</div>",
 "ja": "＊ キミは　寄付者の１人だ。"
 },
 "obj_dw_churchb_moneyfountain_slash_Step_0_gml_145_0": {
-"en": "<div class=\"indented\">* Between you and another, you reached <span class=\"Y\">~1 Gold</span>.</div>",
-"ja": "＊ キミと　もう１人の寄付者で　\n　 総額<span class=\"Y\">~1G</span>に　到達した。"
+"en": "<div class=\"indented\">* Between you and another, you reached <span class=\"Y\"><span class=\"param\">~1</span> Gold</span>.</div>",
+"ja": "＊ キミと　もう１人の寄付者で　\n　 総額<span class=\"Y\"><span class=\"param\">~1</span>G</span>に　到達した。"
 },
 "obj_dw_churchb_moneyfountain_slash_Step_0_gml_150_0": {
 "en": "<div class=\"indented\">* Although small, such actions may inspire others.</div>",
@@ -147042,12 +147042,12 @@ var rendered = {
 "ja": "LV "
 },
 "obj_fusionmenu_slash_Draw_0_gml_50_0": {
-"en": "~1: More Info\n~2: Quit",
-"ja": "~1: 図鑑\n~2: 終了"
+"en": "<span class=\"param\">~1</span>: More Info\n<span class=\"param\">~2</span>: Quit",
+"ja": "<span class=\"param\">~1</span>: 図鑑\n<span class=\"param\">~2</span>: 終了"
 },
 "obj_fusionmenu_slash_Draw_0_gml_51_0": {
-"en": "~1: More Info\n~2: Quit",
-"ja": "~1: 図鑑\n~2: 終了"
+"en": "<span class=\"param\">~1</span>: More Info\n<span class=\"param\">~2</span>: Quit",
+"ja": "<span class=\"param\">~1</span>: 図鑑\n<span class=\"param\">~2</span>: 終了"
 },
 "obj_fusionmenu_slash_Draw_0_gml_56_0": {
 "en": "PROGRESS",
@@ -147114,20 +147114,20 @@ var rendered = {
 "ja": "属性:"
 },
 "obj_fusionmenu_slash_Draw_0_gml_125_0": {
-"en": "~1: Place",
-"ja": "~1: 配置"
+"en": "<span class=\"param\">~1</span>: Place",
+"ja": "<span class=\"param\">~1</span>: 配置"
 },
 "obj_fusionmenu_slash_Draw_0_gml_129_0": {
 "en": "Cannot Place",
 "ja": "配置不可"
 },
 "obj_fusionmenu_slash_Draw_0_gml_132_0": {
-"en": "~1: Return",
-"ja": "~1: もどる"
+"en": "<span class=\"param\">~1</span>: Return",
+"ja": "<span class=\"param\">~1</span>: もどる"
 },
 "obj_fusionmenu_slash_Draw_0_gml_136_0": {
-"en": "Press ~1 to Return",
-"ja": "~1を押してもどる"
+"en": "Press <span class=\"param\">~1</span> to Return",
+"ja": "<span class=\"param\">~1</span>を押してもどる"
 },
 "obj_fusionmenu_slash_Draw_0_gml_154_0": {
 "en": "HELD",
@@ -147294,8 +147294,8 @@ var rendered = {
 "ja": "GET!"
 },
 "obj_fusionmenu_slash_Step_0_gml_434_0": {
-"en": "~1: Place   ~2: Return",
-"ja": "~1: 配置   ~2: もどる"
+"en": "<span class=\"param\">~1</span>: Place   <span class=\"param\">~2</span>: Return",
+"ja": "<span class=\"param\">~1</span>: 配置   <span class=\"param\">~2</span>: もどる"
 },
 "obj_fusionmenu_slash_Step_0_gml_462_0": {
 "en": "      Place                 Return",
@@ -148214,8 +148214,8 @@ var rendered = {
 },
 "obj_healwriter": {
 "obj_healwriter_slash_Draw_0_gml_4_0": {
-"en": "+~1",
-"ja": "+~1"
+"en": "+<span class=\"param\">~1</span>",
+"ja": "+<span class=\"param\">~1</span>"
 }
 },
 "obj_heartenemy": {
@@ -148314,8 +148314,8 @@ var rendered = {
 "ja": "コポリ"
 },
 "obj_holywatercooler_enemy_slash_Step_0_gml_146_0": {
-"en": "B~1b~2e",
-"ja": "コ~1リ"
+"en": "B<span class=\"param\">~1</span>b<span class=\"param\">~2</span>e",
+"ja": "コ<span class=\"param\">~1</span>リ"
 },
 "obj_holywatercooler_enemy_slash_Step_0_gml_151_0": {
 "en": "Glory, glory.",
@@ -149950,16 +149950,16 @@ var rendered = {
 "ja": "…クリス？"
 },
 "obj_jackenstein_enemy_slash_Step_0_gml_316_0": {
-"en": "<div class=\"indented\">* Too dark to see near the walls.</div><div class=\"indented\">* There's something fluffy in here!~1</div>",
-"ja": "＊ 暗くて　よく見えない。\n＊ なにか　モフモフしたものがある！~1"
+"en": "<div class=\"indented\">* Too dark to see near the walls.</div><div class=\"indented\">* There's something fluffy in here!<span class=\"param\">~1</span></div>",
+"ja": "＊ 暗くて　よく見えない。\n＊ なにか　モフモフしたものがある！<span class=\"param\">~1</span>"
 },
 "obj_jackenstein_enemy_slash_Step_0_gml_321_0": {
 "en": "That's ME, dumbass!",
 "ja": "オレだよ！ 触んな！"
 },
 "obj_jackenstein_enemy_slash_Step_0_gml_323_0": {
-"en": "<div class=\"indented\">* Too dark to see near the walls.</div><div class=\"indented\">* There's something very Susie-like in here!~1</div>",
-"ja": "＊ 暗くて　よく見えない。\n＊ なにか　すごくスージィっぽいものが\n　 ある！~1"
+"en": "<div class=\"indented\">* Too dark to see near the walls.</div><div class=\"indented\">* There's something very Susie-like in here!<span class=\"param\">~1</span></div>",
+"ja": "＊ 暗くて　よく見えない。\n＊ なにか　すごくスージィっぽいものが\n　 ある！<span class=\"param\">~1</span>"
 },
 "obj_jackenstein_enemy_slash_Step_0_gml_325_0": {
 "en": "<div class=\"indented\">* Too dark to see near the walls.</div><div class=\"indented\">* There's a texture of a dog playing maracas in here!</div>",
@@ -150544,16 +150544,16 @@ var rendered = {
 "ja": "＊ (マイクロフォンの形をした\n　 ナゾめいた　クリスタルがある)"
 },
 "obj_miccheck_slash_Other_10_gml_59_0": {
-"en": "<div class=\"indented\">* (It's engraved with buttons shaped like ~1 and the letters \"VOL\".)</div>",
-"ja": "＊ (~1の形をしたボタンと　\n　 「VOL」という文字が\n　 彫り込まれている)"
+"en": "<div class=\"indented\">* (It's engraved with buttons shaped like <span class=\"param\">~1</span> and the letters \"VOL\".)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>の形をしたボタンと　\n　 「VOL」という文字が\n　 彫り込まれている)"
 },
 "obj_miccheck_slash_Other_10_gml_60_0": {
 "en": "<div class=\"indented\">* (When pressed in, the whole room seems to make a noise...!)</div>",
 "ja": "＊ (押すと　部屋全体に\n　 音が鳴り響くようだ…！)"
 },
 "obj_miccheck_slash_Other_10_gml_67_0": {
-"en": "<div class=\"indented\">* (The crystal vibrates intensely. Please reassign buttons set to ~1 or ~2!)</div>",
-"ja": "＊ (クリスタルが激しく振動している。\n　 ~1か~2に割り振られたアクションを\n　 別のボタンに設定しよう！)"
+"en": "<div class=\"indented\">* (The crystal vibrates intensely. Please reassign buttons set to <span class=\"param\">~1</span> or <span class=\"param\">~2</span>!)</div>",
+"ja": "＊ (クリスタルが激しく振動している。\n　 <span class=\"param\">~1</span>か<span class=\"param\">~2</span>に割り振られたアクションを\n　 別のボタンに設定しよう！)"
 }
 },
 "obj_micmenu": {
@@ -150594,8 +150594,8 @@ var rendered = {
 "ja": "Loading..."
 },
 "obj_micmenu_slash_Draw_0_gml_172_0": {
-"en": "~1 [Also Not Recommended]",
-"ja": "~1 [こちらも非推奨]"
+"en": "<span class=\"param\">~1</span> [Also Not Recommended]",
+"ja": "<span class=\"param\">~1</span> [こちらも非推奨]"
 },
 "obj_micmenu_slash_Draw_0_gml_213_0": {
 "en": "Adjust Sensitivity",
@@ -151096,8 +151096,8 @@ var rendered = {
 },
 "obj_mike_minigame_controller": {
 "obj_mike_minigame_controller_slash_Create_0_gml_185_0": {
-"en": "<div class=\"indented\">* ~1</div><div class=\"indented\">* Pet Mike to play</div><div class=\"indented\">* Pet Kris to quit</div>",
-"ja": "＊ ~1\n＊ マイクを　ナデナデしてプレイ\n＊ クリスを　ナデナデして終了"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span></div><div class=\"indented\">* Pet Mike to play</div><div class=\"indented\">* Pet Kris to quit</div>",
+"ja": "＊ <span class=\"param\">~1</span>\n＊ マイクを　ナデナデしてプレイ\n＊ クリスを　ナデナデして終了"
 },
 "obj_mike_minigame_controller_slash_Create_0_gml_246_0": {
 "en": "DANGER! RISING PLUEY LEVELS!",
@@ -151214,8 +151214,8 @@ var rendered = {
 "ja": "やめる"
 },
 "obj_minigame_quit_ui_slash_Draw_0_gml_18_0": {
-"en": "Hold ~1 : Quit",
-"ja": "~1長押し：やめる"
+"en": "Hold <span class=\"param\">~1</span> : Quit",
+"ja": "<span class=\"param\">~1</span>長押し：やめる"
 },
 "obj_minigame_quit_ui_slash_Draw_0_gml_19_0": {
 "en": null,
@@ -151426,20 +151426,20 @@ var rendered = {
 },
 "obj_multiboss_enemy1": {
 "obj_multiboss_enemy1_slash_Step_0_gml_137_0": {
-"en": "<div class=\"indented\">* Team Message A~1.</div>",
-"ja": "* Team Message A~1."
+"en": "<div class=\"indented\">* Team Message A<span class=\"param\">~1</span>.</div>",
+"ja": "* Team Message A<span class=\"param\">~1</span>."
 },
 "obj_multiboss_enemy1_slash_Step_0_gml_138_0": {
-"en": "<div class=\"indented\">* Team Message B~1.</div>",
-"ja": "* Team Message B~1."
+"en": "<div class=\"indented\">* Team Message B<span class=\"param\">~1</span>.</div>",
+"ja": "* Team Message B<span class=\"param\">~1</span>."
 },
 "obj_multiboss_enemy1_slash_Step_0_gml_139_0": {
-"en": "<div class=\"indented\">* Team Message C~1.</div>",
-"ja": "* Team Message C~1."
+"en": "<div class=\"indented\">* Team Message C<span class=\"param\">~1</span>.</div>",
+"ja": "* Team Message C<span class=\"param\">~1</span>."
 },
 "obj_multiboss_enemy1_slash_Step_0_gml_140_0": {
-"en": "<div class=\"indented\">* Team Message D~1.</div>",
-"ja": "* Team Message D~1."
+"en": "<div class=\"indented\">* Team Message D<span class=\"param\">~1</span>.</div>",
+"ja": "* Team Message D<span class=\"param\">~1</span>."
 },
 "obj_multiboss_enemy1_slash_Step_0_gml_182_0": {
 "en": "<div class=\"indented\">* You flattered (multiple lines)!</div>",
@@ -152120,8 +152120,8 @@ var rendered = {
 "ja": "＊ 約束どおり\n　 賞品を受け取ってくれ！"
 },
 "obj_npc_dojo_slash_Step_0_gml_51_0": {
-"en": "<div class=\"indented\">* (You received ~1!)</div>",
-"ja": "＊ (~1を手に入れた！)"
+"en": "<div class=\"indented\">* (You received <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>を手に入れた！)"
 },
 "obj_npc_dojo_slash_Step_0_gml_56_0": {
 "en": "<div class=\"indented\">* Boss! Your inventory is full!!</div>",
@@ -152864,8 +152864,8 @@ var rendered = {
 "ja": "＊ 手早く済ませよう。"
 },
 "obj_npc_hammerguy_slash_Step_0_gml_251_0": {
-"en": "<div class=\"indented\">* (You got ~1!)</div>",
-"ja": "＊ (~1を　手に入れた！)"
+"en": "<div class=\"indented\">* (You got <span class=\"param\">~1</span>!)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>を　手に入れた！)"
 }
 },
 "obj_npc_jackenstein": {
@@ -155164,8 +155164,8 @@ var rendered = {
 "ja": "＊ Boss...? You're treating me...? Oh, you shouldn't have! (smile)"
 },
 "obj_npc_room_slash_Other_10_gml_1662_0_b": {
-"en": "<div class=\"indented\">* Things have changed again here in ~1Town!</div>",
-"ja": "＊ ~1タウンは\n　 あれから　ずいぶん変わったよ！"
+"en": "<div class=\"indented\">* Things have changed again here in <span class=\"param\">~1</span>Town!</div>",
+"ja": "＊ <span class=\"param\">~1</span>タウンは\n　 あれから　ずいぶん変わったよ！"
 },
 "obj_npc_room_slash_Other_10_gml_1666_0": {
 "en": "<div class=\"indented\">* Your Town's love is <span class=\"Y\">Strong</span>.</div>",
@@ -155508,8 +155508,8 @@ var rendered = {
 "ja": "＊ あ　それと　ジュースね。\n　 オレの　カレシが　ここのジュース\n　 すきなんだわ。"
 },
 "obj_npc_room_slash_Other_10_gml_2146_0": {
-"en": "<div class=\"indented\">* ... juice.~1</div>",
-"ja": "＊ …ジュース。~1"
+"en": "<div class=\"indented\">* ... juice.<span class=\"param\">~1</span></div>",
+"ja": "＊ …ジュース。<span class=\"param\">~1</span>"
 },
 "obj_npc_room_slash_Other_10_gml_2149_0": {
 "en": "<div class=\"indented\">* ... <span class=\"Y\">your teacher</span> looks thirsty.</div>",
@@ -155824,8 +155824,8 @@ var rendered = {
 "ja": "＊ 記号を　解読できない…\n＊ 手で書いてあるせいかもしれない。"
 },
 "obj_npc_sign_slash_Other_10_gml_27_0": {
-"en": "<div class=\"indented\">* (It's ~1 flower, protected in a container...)</div>",
-"ja": "＊ (~1の　はなだ。\n　 ケースで　まもられている…)"
+"en": "<div class=\"indented\">* (It's <span class=\"param\">~1</span> flower, protected in a container...)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>の　はなだ。\n　 ケースで　まもられている…)"
 },
 "obj_npc_sign_slash_Other_10_gml_32_0": {
 "en": "<div class=\"indented\">* (It's your dad's truck.)</div>",
@@ -156416,16 +156416,16 @@ var rendered = {
 },
 "obj_overworldc": {
 "obj_overworldc_slash_Draw_0_gml_37_0": {
-"en": "HP  ~1/~2",
-"ja": "HP  ~1/~2"
+"en": "HP  <span class=\"param\">~1</span>/<span class=\"param\">~2</span>",
+"ja": "HP  <span class=\"param\">~1</span>/<span class=\"param\">~2</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_38_0": {
-"en": "LV  ~1",
-"ja": "LV  ~1"
+"en": "LV  <span class=\"param\">~1</span>",
+"ja": "LV  <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_40_0": {
-"en": "$   ~1",
-"ja": "$   ~1"
+"en": "$   <span class=\"param\">~1</span>",
+"ja": "$   <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_42_0": {
 "en": "ITEM",
@@ -156452,24 +156452,24 @@ var rendered = {
 "ja": "DROP"
 },
 "obj_overworldc_slash_Draw_0_gml_66_0": {
-"en": "\"~1\"",
-"ja": "“~1”"
+"en": "\"<span class=\"param\">~1</span>\"",
+"ja": "“<span class=\"param\">~1</span>”"
 },
 "obj_overworldc_slash_Draw_0_gml_68_0": {
-"en": "LV  ~1",
-"ja": "LV  ~1"
+"en": "LV  <span class=\"param\">~1</span>",
+"ja": "LV  <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_69_0": {
-"en": "HP  ~1 / ~2",
-"ja": "HP  ~1 / ~2"
+"en": "HP  <span class=\"param\">~1</span> / <span class=\"param\">~2</span>",
+"ja": "HP  <span class=\"param\">~1</span> / <span class=\"param\">~2</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_71_0": {
-"en": "AT  ~1 (~2)",
-"ja": "AT  ~1 (~2)"
+"en": "AT  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)",
+"ja": "AT  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)"
 },
 "obj_overworldc_slash_Draw_0_gml_72_0": {
-"en": "DF  ~1 (~2)",
-"ja": "DF  ~1 (~2)"
+"en": "DF  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)",
+"ja": "DF  <span class=\"param\">~1</span> (<span class=\"param\">~2</span>)"
 },
 "obj_overworldc_slash_Draw_0_gml_73_0": {
 "en": "None",
@@ -156504,20 +156504,20 @@ var rendered = {
 "ja": "シャーペン"
 },
 "obj_overworldc_slash_Draw_0_gml_81_0": {
-"en": "WEAPON: ~1",
-"ja": "WPN: ~1"
+"en": "WEAPON: <span class=\"param\">~1</span>",
+"ja": "WPN: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_81_0_b": {
 "en": "Wristwatch",
 "ja": "うでどけい"
 },
 "obj_overworldc_slash_Draw_0_gml_82_0": {
-"en": "ARMOR: ~1",
-"ja": "AMR: ~1"
+"en": "ARMOR: <span class=\"param\">~1</span>",
+"ja": "AMR: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_83_0": {
-"en": "MONEY: ~1",
-"ja": "MONEY: ~1"
+"en": "MONEY: <span class=\"param\">~1</span>",
+"ja": "MONEY: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_83_0_b": {
 "en": "Holiday Pencil",
@@ -156536,36 +156536,36 @@ var rendered = {
 "ja": "？？？"
 },
 "obj_overworldc_slash_Draw_0_gml_92_0": {
-"en": "EXP: ~1",
-"ja": "EXP: ~1"
+"en": "EXP: <span class=\"param\">~1</span>",
+"ja": "EXP: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Draw_0_gml_95_0": {
-"en": "Since\nChapter ~1",
-"ja": "CHAPTER~1\nから"
+"en": "Since\nChapter <span class=\"param\">~1</span>",
+"ja": "CHAPTER<span class=\"param\">~1</span>\nから"
 },
 "obj_overworldc_slash_Draw_0_gml_113_0": {
-"en": "NEXT: ~1",
-"ja": "NEXT: ~1"
+"en": "NEXT: <span class=\"param\">~1</span>",
+"ja": "NEXT: <span class=\"param\">~1</span>"
 },
 "obj_overworldc_slash_Step_0_gml_34_0": {
-"en": "<div class=\"indented\">* You put the ~1 on the ground and gave it a little pat.</div>",
-"ja": "＊ ~1を\n　 じめんに　おいて\n　 「おつかれさま」と　なでてあげた。"
+"en": "<div class=\"indented\">* You put the <span class=\"param\">~1</span> on the ground and gave it a little pat.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 じめんに　おいて\n　 「おつかれさま」と　なでてあげた。"
 },
 "obj_overworldc_slash_Step_0_gml_34_0_b": {
-"en": "<div class=\"indented\">* You bid a quiet farewell to the ~1.</div>",
-"ja": "＊ ~1に\n　 そっと　わかれを　つげた。"
+"en": "<div class=\"indented\">* You bid a quiet farewell to the <span class=\"param\">~1</span>.</div>",
+"ja": "＊ <span class=\"param\">~1</span>に\n　 そっと　わかれを　つげた。"
 },
 "obj_overworldc_slash_Step_0_gml_36_0": {
-"en": "<div class=\"indented\">* You threw the ~1 on the ground like the piece of trash it is.</div>",
-"ja": "＊ ~1を\n　 ゴミのように　なげすてた。"
+"en": "<div class=\"indented\">* You threw the <span class=\"param\">~1</span> on the ground like the piece of trash it is.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 ゴミのように　なげすてた。"
 },
 "obj_overworldc_slash_Step_0_gml_38_0": {
-"en": "<div class=\"indented\">* The ~1 was thrown away.</div>",
-"ja": "＊ ~1を\n　 すてた。"
+"en": "<div class=\"indented\">* The <span class=\"param\">~1</span> was thrown away.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 すてた。"
 },
 "obj_overworldc_slash_Step_0_gml_38_0_b": {
-"en": "<div class=\"indented\">* You abandoned the ~1.</div>",
-"ja": "＊ ~1を\n　 みすてた。"
+"en": "<div class=\"indented\">* You abandoned the <span class=\"param\">~1</span>.</div>",
+"ja": "＊ <span class=\"param\">~1</span>を\n　 みすてた。"
 },
 "obj_overworldc_slash_Step_0_gml_42_0": {
 "en": "<div class=\"indented\">* What Egg?</div>",
@@ -158108,8 +158108,8 @@ var rendered = {
 "ja": "＊ (ママを　えがいた\n　 げんしてきな　えだ)"
 },
 "obj_readable_room1_slash_Other_10_gml_530_0_b": {
-"en": "<div class=\"indented\">* (It's a TV. Its antenna was broken, but it's been taped up.)~1</div>",
-"ja": "＊ (テレビだ。\n　 アンテナが　こわれているが\n　 テープで　とめてある)~1"
+"en": "<div class=\"indented\">* (It's a TV. Its antenna was broken, but it's been taped up.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (テレビだ。\n　 アンテナが　こわれているが\n　 テープで　とめてある)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_531_0": {
 "en": null,
@@ -158724,8 +158724,8 @@ var rendered = {
 "ja": "＊ (ヘッドバンドをした　こおりの\n　 ざつな　えだ)"
 },
 "obj_readable_room1_slash_Other_10_gml_931_0_b": {
-"en": "<div class=\"indented\">* (It's Berdly's desk. The leader egg is joined by the ~1 eggs you found.)</div>",
-"ja": "＊ (バードリーの　つくえだ。\n　 リーダーのタマゴに　つづいて\n　 みつけた ~1コの　タマゴが　ならぶ)"
+"en": "<div class=\"indented\">* (It's Berdly's desk. The leader egg is joined by the <span class=\"param\">~1</span> eggs you found.)</div>",
+"ja": "＊ (バードリーの　つくえだ。\n　 リーダーのタマゴに　つづいて\n　 みつけた <span class=\"param\">~1</span>コの　タマゴが　ならぶ)"
 },
 "obj_readable_room1_slash_Other_10_gml_932_0": {
 "en": "<div class=\"indented\">* (\"The TeenZone: Where Teen's Can Be Kid's.\")</div>",
@@ -159768,8 +159768,8 @@ var rendered = {
 "ja": "＊ スージィには\n　 マニュアルを\n　 読んでもらえてないから…"
 },
 "obj_readable_room1_slash_Other_10_gml_1921_0_b": {
-"en": "<div class=\"indented\">* It's some decorative moss. Looks delicious.~1</div>",
-"ja": "＊ 装飾用のコケ。おいしそうだ。~1"
+"en": "<div class=\"indented\">* It's some decorative moss. Looks delicious.<span class=\"param\">~1</span></div>",
+"ja": "＊ 装飾用のコケ。おいしそうだ。<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_1922_0": {
 "en": "<div class=\"indented\">* So I put it over here for you.</div>",
@@ -159896,8 +159896,8 @@ var rendered = {
 "ja": "＊ (しまっている)"
 },
 "obj_readable_room1_slash_Other_10_gml_2154_0": {
-"en": "<div class=\"indented\">* (Looks like the diner is full.)~1</div>",
-"ja": "＊ (ダイナーは　まんせきのようだ)~1"
+"en": "<div class=\"indented\">* (Looks like the diner is full.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (ダイナーは　まんせきのようだ)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_2160_0": {
 "en": "<div class=\"indented\">* (Seems like it's gone stray without its master...)</div>",
@@ -160572,8 +160572,8 @@ var rendered = {
 "ja": "＊ (ノエルのパソコンだ。\n　 じどうで　きりかわる\n　 かべがみは…)"
 },
 "obj_readable_room1_slash_Other_10_gml_3787_0": {
-"en": "<div class=\"indented\">* (... ~1)</div>",
-"ja": "＊ (…~1)"
+"en": "<div class=\"indented\">* (... <span class=\"param\">~1</span>)</div>",
+"ja": "＊ (…<span class=\"param\">~1</span>)"
 },
 "obj_readable_room1_slash_Other_10_gml_3800_0": {
 "en": "<div class=\"indented\">* (It's Noelle's bed. There's ample space to hide underneath.)</div>",
@@ -160608,8 +160608,8 @@ var rendered = {
 "ja": "＊ (ソファだ。テレビをみるために\n　 おいてある)"
 },
 "obj_readable_room1_slash_Other_10_gml_3836_0": {
-"en": "<div class=\"indented\">* (It's a state of the art high-definition TV with old game consoles under it.)~1</div>",
-"ja": "＊ (さいしんしきの　HDテレビだ。\n　 したの　たなには　きゅうしきの\n　 ゲームきが　おいてある)~1"
+"en": "<div class=\"indented\">* (It's a state of the art high-definition TV with old game consoles under it.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (さいしんしきの　HDテレビだ。\n　 したの　たなには　きゅうしきの\n　 ゲームきが　おいてある)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_3843_0": {
 "en": "<div class=\"indented\">* Why do you... have a flatscreen in here?</div>",
@@ -160620,8 +160620,8 @@ var rendered = {
 "ja": "＊ ああ…うん。バードリーには\n　 ブラウンかんにしろって\n　 いわれるけどね！"
 },
 "obj_readable_room1_slash_Other_10_gml_3855_0": {
-"en": "<div class=\"indented\">* (It's a Christmas cactus.)</div><div class=\"indented\">* (You remember it's named 'Krismas.')~1</div>",
-"ja": "＊ (「クリスマスカクタス」という\n　 サボテンだ。なまえは「“クリス”\n　 マス」だったはず)~1"
+"en": "<div class=\"indented\">* (It's a Christmas cactus.)</div><div class=\"indented\">* (You remember it's named 'Krismas.')<span class=\"param\">~1</span></div>",
+"ja": "＊ (「クリスマスカクタス」という\n　 サボテンだ。なまえは「“クリス”\n　 マス」だったはず)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_3860_0": {
 "en": "<div class=\"indented\">* (It's a cactus that apparently got poorly renamed at some point.)</div>",
@@ -160640,8 +160640,8 @@ var rendered = {
 "ja": "＊ (ノエルの　べんきょうづくえだ。\n　 いつものクセで\n　 エンピツを１ぽん　ぬすんだ)"
 },
 "obj_readable_room1_slash_Other_10_gml_3901_0": {
-"en": "<div class=\"indented\">* (A great hiding place, although it smells like detergent and deer.)~1</div>",
-"ja": "＊ (ぜっこうの　かくればしょ。\n　 ただし　せんたくせんざいと\n　 トナカイのニオイがする)~1"
+"en": "<div class=\"indented\">* (A great hiding place, although it smells like detergent and deer.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (ぜっこうの　かくればしょ。\n　 ただし　せんたくせんざいと\n　 トナカイのニオイがする)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_3906_0": {
 "en": "<div class=\"indented\">* ... what are these little, uh, wings in here?</div>",
@@ -160788,8 +160788,8 @@ var rendered = {
 "ja": "＊ (ごみばこに　はなが\n　 はいっている。\n　 みなれた　こうけいだ)"
 },
 "obj_readable_room1_slash_Other_10_gml_4120_0": {
-"en": "<div class=\"indented\">* (It's an empty gift box.)~1</div>",
-"ja": "＊ (プレゼントのはこ…\n　 なかは　からっぽだ)~1"
+"en": "<div class=\"indented\">* (It's an empty gift box.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (プレゼントのはこ…\n　 なかは　からっぽだ)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_4128_0": {
 "en": "<div class=\"indented\">* Umm, Kris? Do you need to check, all of these?</div>",
@@ -160980,8 +160980,8 @@ var rendered = {
 "ja": "＊ …チッ。\n　 おまえが　そういうなら\n　 そうなんだろうな。"
 },
 "obj_readable_room1_slash_Other_10_gml_4384_0": {
-"en": "<div class=\"indented\">* (You hear various people rehearsing inside.)~1</div>",
-"ja": "＊ (リハーサルちゅうの　こえが\n　 なかから　きこえてくる)~1"
+"en": "<div class=\"indented\">* (You hear various people rehearsing inside.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (リハーサルちゅうの　こえが\n　 なかから　きこえてくる)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_4392_0": {
 "en": "<div class=\"indented\">* Damn, we don't have to sing too, do we?</div>",
@@ -161004,8 +161004,8 @@ var rendered = {
 "ja": "＊ どこで　はじまって\n　 どこで　おわるかも\n　 わかりゃしねー。"
 },
 "obj_readable_room1_slash_Other_10_gml_4403_0": {
-"en": "<div class=\"indented\">* (It's the door to some sort of office.)~1</div>",
-"ja": "＊ (じむしょの　ような　へやの\n　 とびらだ)~1"
+"en": "<div class=\"indented\">* (It's the door to some sort of office.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (じむしょの　ような　へやの\n　 とびらだ)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_4411_0": {
 "en": "<div class=\"indented\">* ... hmm... seems like a decent place for clues.</div>",
@@ -161028,8 +161028,8 @@ var rendered = {
 "ja": "＊ (道が　ふさがっているようだ)"
 },
 "obj_readable_room1_slash_Other_10_gml_4454_0": {
-"en": "<div class=\"indented\">* (It's an altar full of hope candles. Each one has a person's name on it.)~1</div>",
-"ja": "＊ (さいだん　いっぱいに\n　 きぼうのロウソクが　ならべてある。\n　 それぞれに　なまえが　かいてある)~1"
+"en": "<div class=\"indented\">* (It's an altar full of hope candles. Each one has a person's name on it.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (さいだん　いっぱいに\n　 きぼうのロウソクが　ならべてある。\n　 それぞれに　なまえが　かいてある)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_4459_0": {
 "en": "<div class=\"indented\">* (\"Asriel\"... \"Asgore\"... \"Kris\"... your mother must have lit those ones.)</div>",
@@ -161124,8 +161124,8 @@ var rendered = {
 "ja": "＊ (ジュースと　ウェハースのような\n　 クラッカーだ)"
 },
 "obj_readable_room1_slash_Other_10_gml_4548_0": {
-"en": "<div class=\"indented\">* (Documents...)~1</div>",
-"ja": "＊ (しょるいだ…)~1"
+"en": "<div class=\"indented\">* (Documents...)<span class=\"param\">~1</span></div>",
+"ja": "＊ (しょるいだ…)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_4555_0": {
 "en": "<div class=\"indented\">* ... guess the lock number could be in here...</div>",
@@ -161140,8 +161140,8 @@ var rendered = {
 "ja": "＊ …まずは　ほかを\n　 さがしてみようぜ。"
 },
 "obj_readable_room1_slash_Other_10_gml_4564_0": {
-"en": "<div class=\"indented\">* (Books. Many copies of Lord of the Hammer... and some unlabeled notebooks.)~1</div>",
-"ja": "＊ (「ロード・オブ・ザ・ハンマー」が\n　 なんさつかと　ひょうしに　なにも\n　 かいていないノートも　すうさつ)~1"
+"en": "<div class=\"indented\">* (Books. Many copies of Lord of the Hammer... and some unlabeled notebooks.)<span class=\"param\">~1</span></div>",
+"ja": "＊ (「ロード・オブ・ザ・ハンマー」が\n　 なんさつかと　ひょうしに　なにも\n　 かいていないノートも　すうさつ)<span class=\"param\">~1</span>"
 },
 "obj_readable_room1_slash_Other_10_gml_4571_0": {
 "en": "<div class=\"indented\">* It'd... take a while to search through all this.</div>",
@@ -161598,8 +161598,8 @@ var rendered = {
 "ja": "＊ フロック - AT 8x2 DF 1x2\n＊ わたぼこりの　かたまり。\n　 大汚し　してほしい。"
 },
 "obj_ribbick_enemy_slash_Step_0_gml_208_0": {
-"en": "<div class=\"indented\">* Press ~1 repeatedly with good timing!</div>",
-"ja": "＊ タイミングよく　~1を押せ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> repeatedly with good timing!</div>",
+"ja": "＊ タイミングよく　<span class=\"param\">~1</span>を押せ！"
 },
 "obj_ribbick_enemy_slash_Step_0_gml_213_0": {
 "en": "<div class=\"indented\">* RABBICK - This dusty bunny needs a bit of spring cleaning.</div>",
@@ -162126,8 +162126,8 @@ var rendered = {
 "ja": "＊ (ヒーローを　あがめる気持ちが\n　 マウスを変身させた…！！)"
 },
 "obj_room_castle_tv_zone_3_slash_Step_0_gml_197_0": {
-"en": "<div class=\"indented\">* (It looks like you can use the MAUS with ~1 and ~2!)</div>",
-"ja": "＊ (~1と~2で　マウスを\n　 使えるようだ！)"
+"en": "<div class=\"indented\">* (It looks like you can use the MAUS with <span class=\"param\">~1</span> and <span class=\"param\">~2</span>!)</div>",
+"ja": "＊ (<span class=\"param\">~1</span>と<span class=\"param\">~2</span>で　マウスを\n　 使えるようだ！)"
 },
 "obj_room_castle_tv_zone_3_slash_Step_0_gml_202_0": {
 "en": "<div class=\"indented\">* (It looks like you can use the MAUS with the MOUSE...!)</div>",
@@ -162142,8 +162142,8 @@ var rendered = {
 "ja": "＊ (ヒーローを　あがめる気持ちが\n　 マウスを変身させた…！！)"
 },
 "obj_room_castle_tv_zone_3_slash_Step_0_gml_387_0": {
-"en": "<div class=\"indented\">* (Kris, it looks like you can use the MAUS with ~1 and ~2!)</div>",
-"ja": "＊ (クリス　~1と~2で\n　 マウスを　使える\n　 みたいだよ！)"
+"en": "<div class=\"indented\">* (Kris, it looks like you can use the MAUS with <span class=\"param\">~1</span> and <span class=\"param\">~2</span>!)</div>",
+"ja": "＊ (クリス　<span class=\"param\">~1</span>と<span class=\"param\">~2</span>で\n　 マウスを　使える\n　 みたいだよ！)"
 },
 "obj_room_castle_tv_zone_3_slash_Step_0_gml_392_0": {
 "en": "<div class=\"indented\">* (Kris, it looks like you can use the MAUS with the MOUSE...!)</div>",
@@ -162590,8 +162590,8 @@ var rendered = {
 "ja": "＊ ハハッ！　ボクだ！\n　 スモール・マイクがホンモノだ！\n　 やったぞ！！"
 },
 "obj_room_castle_tv_zone_minigame_slash_Step_0_gml_207_0": {
-"en": "<div class=\"indented\">* Now I'll get to ~1 all by myself...</div>",
-"ja": "＊ これで　思う存分\n　~1…"
+"en": "<div class=\"indented\">* Now I'll get to <span class=\"param\">~1</span> all by myself...</div>",
+"ja": "＊ これで　思う存分\n　<span class=\"param\">~1</span>…"
 },
 "obj_room_castle_tv_zone_minigame_slash_Step_0_gml_208_0": {
 "en": "<div class=\"indented\">* W-wait! That's not what I WANT!! Let somebody ELSE win!!</div>",
@@ -163558,8 +163558,8 @@ var rendered = {
 "ja": "クリス"
 },
 "obj_savemenu_slash_Draw_0_gml_34_0": {
-"en": "LV ~1",
-"ja": "LV ~1"
+"en": "LV <span class=\"param\">~1</span>",
+"ja": "LV <span class=\"param\">~1</span>"
 },
 "obj_savemenu_slash_Draw_0_gml_47_0": {
 "en": "Save",
@@ -163586,8 +163586,8 @@ var rendered = {
 "ja": "データなし"
 },
 "obj_savemenu_slash_Draw_0_gml_215_0": {
-"en": "Overwrite Slot ~1?",
-"ja": "スロット~1に上書きしますか？"
+"en": "Overwrite Slot <span class=\"param\">~1</span>?",
+"ja": "スロット<span class=\"param\">~1</span>に上書きしますか？"
 },
 "obj_savemenu_slash_Draw_0_gml_371_0": {
 "en": "File Saved",
@@ -163766,8 +163766,8 @@ var rendered = {
 "ja": "ランサー"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_250_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_262_0": {
 "en": "  *Take\n your\n pick!",
@@ -163798,8 +163798,8 @@ var rendered = {
 "ja": "　 まいどあり！\n「そうこ」に\n送ったぜ"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_291_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_343_0": {
 "en": "About yourselves",
@@ -163870,8 +163870,8 @@ var rendered = {
 "ja": "　 はぁ？\nなんも\nねえじゃん！"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_508_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_532_0": {
 "en": "  *Nice town, chief.\n I think we're gonna like it\n here!\n Cool city.",
@@ -163974,26 +163974,26 @@ var rendered = {
 "ja": "　 YO！　どうだった！？\n　 最高に　アツかっただろうッ！？\n　 ボクたちの曲って\n　 どれも４秒しかないんだ～。"
 },
 "obj_shop_ch2_music_slash_Draw_0_gml_677_0": {
-"en": "Space:~1",
-"ja": "空き:~1"
+"en": "Space:<span class=\"param\">~1</span>",
+"ja": "空き:<span class=\"param\">~1</span>"
 }
 },
 "obj_shop_vending": {
 "obj_shop_vending_slash_Draw_0_gml_122_0": {
-"en": "~1 PTs",
-"ja": "~1 PTs"
+"en": "<span class=\"param\">~1</span> PTs",
+"ja": "<span class=\"param\">~1</span> PTs"
 },
 "obj_shop_vending_slash_Draw_0_gml_149_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop_vending_slash_Draw_0_gml_153_0": {
 "en": "SOLD OUT",
 "ja": "SOLD OUT"
 },
 "obj_shop_vending_slash_Draw_0_gml_196_0": {
-"en": "$~1 ?",
-"ja": "D$ ~1で"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "D$ <span class=\"param\">~1</span>で"
 },
 "obj_shop_vending_slash_Draw_0_gml_223_0": {
 "en": "Buy it for",
@@ -164008,8 +164008,8 @@ var rendered = {
 "ja": "いいえ"
 },
 "obj_shop_vending_slash_Draw_0_gml_456_0": {
-"en": "$~1 ?",
-"ja": "D$ ~1と"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "D$ <span class=\"param\">~1</span>と"
 },
 "obj_shop_vending_slash_Draw_0_gml_457_0": {
 "en": "Yes",
@@ -164074,8 +164074,8 @@ var rendered = {
 "ja": "もどる"
 },
 "obj_shop1_slash_Draw_0_gml_143_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop1_slash_Draw_0_gml_148_0": {
 "en": "What do\nyou like\nto buy?",
@@ -164118,8 +164118,8 @@ var rendered = {
 "ja": "いいえ"
 },
 "obj_shop1_slash_Draw_0_gml_177_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop1_slash_Draw_0_gml_217_0": {
 "en": "About yourself",
@@ -164254,8 +164254,8 @@ var rendered = {
 "ja": "＊ ここじゃ　暇つぶしのひとつや\n　 ふたつ　ないとやってられないのさ…\n＊ でなきゃ　他の連中みたいに\n　 おかしくなっちまう。"
 },
 "obj_shop1_slash_Draw_0_gml_407_0": {
-"en": "$~1 ?",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop1_slash_Draw_0_gml_411_0": {
 "en": null,
@@ -164676,8 +164676,8 @@ var rendered = {
 "ja": "出る"
 },
 "obj_shop2_slash_Draw_0_gml_113_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "obj_shop2_slash_Draw_0_gml_115_0": {
 "en": "Exit",
@@ -164724,8 +164724,8 @@ var rendered = {
 "ja": "いいえ"
 },
 "obj_shop2_slash_Draw_0_gml_147_0_b": {
-"en": "$~1 ?",
-"ja": "$~1？"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>？"
 },
 "obj_shop2_slash_Draw_0_gml_194_0": {
 "en": "About yourself",
@@ -164820,8 +164820,8 @@ var rendered = {
 "ja": "いいえ"
 },
 "obj_shop2_slash_Draw_0_gml_328_0": {
-"en": "$~1 ?",
-"ja": "$~1？"
+"en": "$<span class=\"param\">~1</span> ?",
+"ja": "$<span class=\"param\">~1</span>？"
 },
 "obj_shop2_slash_Draw_0_gml_353_0": {
 "en": "<div class=\"indented\">* See thou in the Dungeon, Worms!</div>",
@@ -164964,8 +164964,8 @@ var rendered = {
 "ja": "空きナシ"
 },
 "obj_shop2_slash_Draw_0_gml_482_0": {
-"en": "Space:~1",
-"ja": "空き:~1"
+"en": "Space:<span class=\"param\">~1</span>",
+"ja": "空き:<span class=\"param\">~1</span>"
 }
 },
 "obj_shortcut_door": {
@@ -165340,8 +165340,8 @@ var rendered = {
 "ja": "ほどけたクツひも？"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_39_0": {
-"en": "~1\nLet me whip it into shape!",
-"ja": "~1\nワタシのムチで\nたたき直しましょう！"
+"en": "<span class=\"param\">~1</span>\nLet me whip it into shape!",
+"ja": "<span class=\"param\">~1</span>\nワタシのムチで\nたたき直しましょう！"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_46_0": {
 "en": "Hors d'oeuvre,\nHors d'oeuvre...\nI mean, order, order!",
@@ -165444,8 +165444,8 @@ var rendered = {
 "ja": "A treat!! Somebody give her a treat!!"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": {
-"en": "<div class=\"indented\">* Play dead!? I'll teach YOU to play dead!!~1</div>",
-"ja": "＊ Play dead!? I'll teach YOU to play dead!!~1"
+"en": "<div class=\"indented\">* Play dead!? I'll teach YOU to play dead!!<span class=\"param\">~1</span></div>",
+"ja": "＊ Play dead!? I'll teach YOU to play dead!!<span class=\"param\">~1</span>"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_274_0": {
 "en": "<div class=\"indented\">* Susie got managed!</div>",
@@ -165484,8 +165484,8 @@ var rendered = {
 "ja": "Why the hell do YOU get one of those!!"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_311_0": {
-"en": "<div class=\"indented\">* Due to good behavior, he received an obedience badge.~1</div>",
-"ja": "＊ Due to good behavior, he received an obedience badge.~1"
+"en": "<div class=\"indented\">* Due to good behavior, he received an obedience badge.<span class=\"param\">~1</span></div>",
+"ja": "＊ Due to good behavior, he received an obedience badge.<span class=\"param\">~1</span>"
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_314_0": {
 "en": "<div class=\"indented\">* R-Action failed!</div>",
@@ -165567,7 +165567,7 @@ var rendered = {
 },
 "obj_tem_school_slash_Other_10_gml_66_0": {
 "en": null,
-"ja": "＊ (これまでに　てにいれたタマゴ。\n　 ~1コだ)"
+"ja": "＊ (これまでに　てにいれたタマゴ。\n　 <span class=\"param\">~1</span>コだ)"
 },
 "obj_tem_school_slash_Other_10_gml_85_0": {
 "en": "<div class=\"indented\">* Tem study harb... Tem learn...</div>",
@@ -165645,7 +165645,7 @@ var rendered = {
 },
 "obj_thrashafter_event_slash_Step_0_gml_34_0": {
 "en": null,
-"ja": "＊ That's right!!\n＊ The ~1!!"
+"ja": "＊ That's right!!\n＊ The <span class=\"param\">~1</span>!!"
 },
 "obj_thrashafter_event_slash_Step_0_gml_35_0": {
 "en": null,
@@ -165689,7 +165689,7 @@ var rendered = {
 },
 "obj_thrashafter_event_slash_Step_0_gml_108_0": {
 "en": null,
-"ja": "＊ Wow! M... Me!? In the ~1!?"
+"ja": "＊ Wow! M... Me!? In the <span class=\"param\">~1</span>!?"
 },
 "obj_thrashafter_event_slash_Step_0_gml_109_0": {
 "en": null,
@@ -165726,8 +165726,8 @@ var rendered = {
 },
 "obj_throwralsei": {
 "obj_throwralsei_slash_Step_0_gml_26_0": {
-"en": "<div class=\"indented\">* Press ~1 to determine the POWER!</div>",
-"ja": "＊ ~1を押して\n　 力加減を決めろ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to determine the POWER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して\n　 力加減を決めろ！"
 }
 },
 "obj_titan_enemy": {
@@ -165740,8 +165740,8 @@ var rendered = {
 "ja": "＊ …"
 },
 "obj_titan_enemy_slash_Step_0_gml_395_0": {
-"en": "<div class=\"indented\">* Old Man gave ~1 candy!</div>",
-"ja": "＊ 老人が　~1に\n　 あめちゃんを　くれた！"
+"en": "<div class=\"indented\">* Old Man gave <span class=\"param\">~1</span> candy!</div>",
+"ja": "＊ 老人が　<span class=\"param\">~1</span>に\n　 あめちゃんを　くれた！"
 },
 "obj_titan_enemy_slash_Step_0_gml_515_0": {
 "en": "Did... Did\nwe do it...?",
@@ -165920,8 +165920,8 @@ var rendered = {
 "ja": "＊ タイタン - \n　 致命傷を負っていないあいだは\n　 体力を回復できるようだ。"
 },
 "obj_titan_enemy_slash_Step_0_gml_1600_0": {
-"en": "<div class=\"indented\">* Press ~1 to throw!</div>",
-"ja": "＊ ~1を押して　投げろ！"
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> to throw!</div>",
+"ja": "＊ <span class=\"param\">~1</span>を押して　投げろ！"
 },
 "obj_titan_enemy_slash_Step_0_gml_1627_0": {
 "en": "... Nah screw it!",
@@ -165944,8 +165944,8 @@ var rendered = {
 "ja": "＊ タマシイが燦然と輝く！"
 },
 "obj_titan_enemy_slash_Step_0_gml_1864_0": {
-"en": "<div class=\"indented\">* Susie used Wake Up!~1</div>",
-"ja": "＊ スージィが「ウェイク」を使った！~1"
+"en": "<div class=\"indented\">* Susie used Wake Up!<span class=\"param\">~1</span></div>",
+"ja": "＊ スージィが「ウェイク」を使った！<span class=\"param\">~1</span>"
 },
 "obj_titan_enemy_slash_Step_0_gml_1865_0": {
 "en": "<div class=\"indented\">* Hey, dumbass! Get up!</div>",
@@ -166066,8 +166066,8 @@ var rendered = {
 "ja": "＊ クリスのタマシイが\n　 燦然と輝く！"
 },
 "obj_titan_spawn_enemy_slash_Step_0_gml_268_0": {
-"en": "<div class=\"indented\">* Susie used Wake Up!~1</div>",
-"ja": "＊ スージィが「ウェイク」を使った！~1"
+"en": "<div class=\"indented\">* Susie used Wake Up!<span class=\"param\">~1</span></div>",
+"ja": "＊ スージィが「ウェイク」を使った！<span class=\"param\">~1</span>"
 },
 "obj_titan_spawn_enemy_slash_Step_0_gml_269_0": {
 "en": "<div class=\"indented\">* Hey, dumbass! Get up!</div>",
@@ -166310,16 +166310,16 @@ var rendered = {
 "ja": "＊ (なにも入っていない)"
 },
 "obj_treasure_room_slash_Other_10_gml_65_0": {
-"en": "<div class=\"indented\">* (You opened the treasure chest.)</div><div class=\"indented\">* (Inside was <span class=\"Y\">~1</span>.)</div>",
-"ja": "＊ (宝箱を開けた)\n＊ (<span class=\"Y\">~1</span>が\n　 入っていた)"
+"en": "<div class=\"indented\">* (You opened the treasure chest.)</div><div class=\"indented\">* (Inside was <span class=\"Y\"><span class=\"param\">~1</span></span>.)</div>",
+"ja": "＊ (宝箱を開けた)\n＊ (<span class=\"Y\"><span class=\"param\">~1</span></span>が\n　 入っていた)"
 },
 "obj_treasure_room_slash_Other_10_gml_76_0": {
-"en": "<div class=\"indented\">* (<span class=\"Y\">~1</span> was added to your <span class=\"Y\">~2</span>.)</div>",
-"ja": "＊ (<span class=\"Y\">~1</span>が\n　 <span class=\"Y\">~2</span>に　加わった)"
+"en": "<div class=\"indented\">* (<span class=\"Y\"><span class=\"param\">~1</span></span> was added to your <span class=\"Y\"><span class=\"param\">~2</span></span>.)</div>",
+"ja": "＊ (<span class=\"Y\"><span class=\"param\">~1</span></span>が\n　 <span class=\"Y\"><span class=\"param\">~2</span></span>に　加わった)"
 },
 "obj_treasure_room_slash_Other_10_gml_83_0": {
-"en": "<div class=\"indented\">* (You have too many <span class=\"Y\">~2</span> to take <span class=\"Y\">~1</span>.)</div>",
-"ja": "＊ (<span class=\"Y\">~2</span>が多すぎて\n　 <span class=\"Y\">~1</span>を\n　 持てない)"
+"en": "<div class=\"indented\">* (You have too many <span class=\"Y\"><span class=\"param\">~2</span></span> to take <span class=\"Y\"><span class=\"param\">~1</span></span>.)</div>",
+"ja": "＊ (<span class=\"Y\"><span class=\"param\">~2</span></span>が多すぎて\n　 <span class=\"Y\"><span class=\"param\">~1</span></span>を\n　 持てない)"
 }
 },
 "obj_tutorial_text": {
@@ -166511,7 +166511,7 @@ var rendered = {
 },
 "obj_watercooler_enemy_slash_Step_0_gml_272_0": {
 "en": null,
-"ja": "＊ You asked the moonwarmer,~1hotter~2they doing later...?"
+"ja": "＊ You asked the moonwarmer,<span class=\"param\">~1</span>hotter<span class=\"param\">~2</span>they doing later...?"
 },
 "obj_watercooler_enemy_slash_Step_0_gml_313_0": {
 "en": "<div class=\"indented\">* Susie face-crushes a cup!!</div>",
@@ -166619,7 +166619,7 @@ var rendered = {
 },
 "obj_zapper_enemy_slash_Step_0_gml_184_0": {
 "en": "<div class=\"indented\">* ZAPPER - When it changes channels, who knows where you'll end up?</div>",
-"ja": "＊ ザッパー - ATK ~1 DEF ~2\n＊ ボタンひとつで　景色が変わる。\n　 どこへ行くかは　予測不可能。"
+"ja": "＊ ザッパー - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n＊ ボタンひとつで　景色が変わる。\n　 どこへ行くかは　予測不可能。"
 },
 "obj_zapper_enemy_slash_Step_0_gml_198_0": {
 "en": "<div class=\"indented\">* You turned up the volume!</div>",
@@ -168232,8 +168232,8 @@ var rendered = {
 "ja": "シェルターの外"
 },
 "scr_get_completed_file_name_slash_scr_get_completed_file_name_gml_18_0": {
-"en": "~1 [Chapter ~2 END]",
-"ja": "~1 [Chapter ~2 END]"
+"en": "<span class=\"param\">~1</span> [Chapter <span class=\"param\">~2</span> END]",
+"ja": "<span class=\"param\">~1</span> [Chapter <span class=\"param\">~2</span> END]"
 }
 },
 "scr_get_team_name": {
@@ -168320,8 +168320,8 @@ var rendered = {
 "ja": "一口食べれば舌がクルクルおどる絶品ケーキ。\n仲間全員のHPを160回復。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_27_0": {
-"en": "A pastry in the shape of a top.\nHeals ~1 HP to the team.",
-"ja": "コマの形をした菓子パン。\n仲間全員のHPを~1回復。"
+"en": "A pastry in the shape of a top.\nHeals <span class=\"param\">~1</span> HP to the team.",
+"ja": "コマの形をした菓子パン。\n仲間全員のHPを<span class=\"param\">~1</span>回復。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_30_0": {
 "en": "A mysterious black burger made of...\nHey, this is just burnt! +70HP",
@@ -168560,8 +168560,8 @@ var rendered = {
 "ja": "スピンロール"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_59_0": {
-"en": "Heals\nteam\n~1HP",
-"ja": "仲間全員を\n~1HP\n回復"
+"en": "Heals\nteam\n<span class=\"param\">~1</span>HP",
+"ja": "仲間全員を\n<span class=\"param\">~1</span>HP\n回復"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_65_0": {
 "en": "Darkburger",
@@ -169808,8 +169808,8 @@ var rendered = {
 "ja": "ホッホッホ！　ソフトクリームが仲間になった！\nそいつは　悪モノになってくれるかな？"
 },
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_70_0": {
-"en": "A sharp shadow moves like water in the hand.\nYou have collected [~1].",
-"ja": "手のなかで　するどい影が　水のように\nうごめく。~1 個入手済み。"
+"en": "A sharp shadow moves like water in the hand.\nYou have collected [<span class=\"param\">~1</span>].",
+"ja": "手のなかで　するどい影が　水のように\nうごめく。<span class=\"param\">~1</span> 個入手済み。"
 },
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_70_0_b": {
 "en": "That golden statue... Could it be...\nThe illusory nipple technique!?",
@@ -169928,8 +169928,8 @@ var rendered = {
 "ja": "ランサーのコントローラー。土まみれ。"
 },
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_189_0": {
-"en": "LancerConX~1",
-"ja": "ランサーコン X ~1"
+"en": "LancerConX<span class=\"param\">~1</span>",
+"ja": "ランサーコン X <span class=\"param\">~1</span>"
 },
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_190_0": {
 "en": "Lancer's controllers. They're covered in dirt.",
@@ -170612,8 +170612,8 @@ var rendered = {
 },
 "scr_lrecoitem": {
 "scr_lrecoitem_slash_scr_lrecoitem_gml_14_0": {
-"en": "<div class=\"indented\">* You recovered ~1 HP!</div>",
-"ja": "＊ HPが　~1かいふくした！"
+"en": "<div class=\"indented\">* You recovered <span class=\"param\">~1</span> HP!</div>",
+"ja": "＊ HPが　<span class=\"param\">~1</span>かいふくした！"
 },
 "scr_lrecoitem_slash_scr_lrecoitem_gml_16_0": {
 "en": "<div class=\"indented\">* Your HP was maxed out.</div>",
@@ -174084,28 +174084,28 @@ var rendered = {
 "ja": "闇の聖域"
 },
 "scr_roomname_slash_scr_roomname_gml_8_0_c": {
-"en": "~1 - Atrium",
-"ja": "~1 - アトリウム"
+"en": "<span class=\"param\">~1</span> - Atrium",
+"ja": "<span class=\"param\">~1</span> - アトリウム"
 },
 "scr_roomname_slash_scr_roomname_gml_9_0_c": {
-"en": "~1 - Lower Left",
-"ja": "~1 - 左下"
+"en": "<span class=\"param\">~1</span> - Lower Left",
+"ja": "<span class=\"param\">~1</span> - 左下"
 },
 "scr_roomname_slash_scr_roomname_gml_10_0": {
-"en": "~1 - Lower Right",
-"ja": "~1 - 右下"
+"en": "<span class=\"param\">~1</span> - Lower Right",
+"ja": "<span class=\"param\">~1</span> - 右下"
 },
 "scr_roomname_slash_scr_roomname_gml_11_0_b": {
-"en": "~1 - Study",
-"ja": "~1 - 書斎"
+"en": "<span class=\"param\">~1</span> - Study",
+"ja": "<span class=\"param\">~1</span> - 書斎"
 },
 "scr_roomname_slash_scr_roomname_gml_12_0": {
-"en": "~1 - Library",
-"ja": "~1 - 図書室"
+"en": "<span class=\"param\">~1</span> - Library",
+"ja": "<span class=\"param\">~1</span> - 図書室"
 },
 "scr_roomname_slash_scr_roomname_gml_13_0": {
-"en": "~1 - Small Piano",
-"ja": "~1 - 小さなピアノ"
+"en": "<span class=\"param\">~1</span> - Small Piano",
+"ja": "<span class=\"param\">~1</span> - 小さなピアノ"
 },
 "scr_roomname_slash_scr_roomname_gml_14_0": {
 "en": null,
@@ -174116,32 +174116,32 @@ var rendered = {
 "ja": "第２の聖域"
 },
 "scr_roomname_slash_scr_roomname_gml_16_0": {
-"en": "~1 - Atrium",
-"ja": "~1 - アトリウム"
+"en": "<span class=\"param\">~1</span> - Atrium",
+"ja": "<span class=\"param\">~1</span> - アトリウム"
 },
 "scr_roomname_slash_scr_roomname_gml_17_0": {
-"en": "~1 - Floor",
-"ja": "~1 - フロア"
+"en": "<span class=\"param\">~1</span> - Floor",
+"ja": "<span class=\"param\">~1</span> - フロア"
 },
 "scr_roomname_slash_scr_roomname_gml_18_0": {
-"en": "~1 - Study",
-"ja": "~1 - 書斎"
+"en": "<span class=\"param\">~1</span> - Study",
+"ja": "<span class=\"param\">~1</span> - 書斎"
 },
 "scr_roomname_slash_scr_roomname_gml_19_0": {
-"en": "~1 - Study",
-"ja": "~1 - 書斎"
+"en": "<span class=\"param\">~1</span> - Study",
+"ja": "<span class=\"param\">~1</span> - 書斎"
 },
 "scr_roomname_slash_scr_roomname_gml_21_0": {
 "en": "3rd Sanctuary",
 "ja": "第３の聖域"
 },
 "scr_roomname_slash_scr_roomname_gml_23_0": {
-"en": "~1 - Stairs",
-"ja": "~1 - 階段"
+"en": "<span class=\"param\">~1</span> - Stairs",
+"ja": "<span class=\"param\">~1</span> - 階段"
 },
 "scr_roomname_slash_scr_roomname_gml_24_0": {
-"en": "~1 - Last Chamber",
-"ja": "~1 - 最後の間"
+"en": "<span class=\"param\">~1</span> - Last Chamber",
+"ja": "<span class=\"param\">~1</span> - 最後の間"
 },
 "scr_roomname_slash_scr_roomname_gml_29_0": {
 "en": "MIKE ZONE",
@@ -174184,16 +174184,16 @@ var rendered = {
 },
 "scr_shopmenu": {
 "scr_shopmenu_slash_scr_shopmenu_gml_158_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "scr_shopmenu_slash_scr_shopmenu_gml_270_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 },
 "scr_shopmenu_slash_scr_shopmenu_gml_389_0": {
-"en": "$~1",
-"ja": "$~1"
+"en": "$<span class=\"param\">~1</span>",
+"ja": "$<span class=\"param\">~1</span>"
 }
 },
 "scr_smallface_reset": {
@@ -174434,92 +174434,92 @@ var rendered = {
 },
 "scr_spelltext": {
 "scr_spelltext_slash_scr_spelltext_gml_14_0": {
-"en": "<div class=\"indented\">* ~1 cast RUDE BUSTER!</div>",
-"ja": "＊ ~1は\n　 ルードバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast RUDE BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルードバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_18_0": {
-"en": "<div class=\"indented\">* ~1 cast HEAL PRAYER!</div>",
-"ja": "＊ ~1は　いやしの詩を唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast HEAL PRAYER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　いやしの詩を唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_23_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div>",
-"ja": "＊ ~1は　スリープを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　スリープを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_33_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div><div class=\"indented\">* But the enemy wasn't <span class=\"B\">TIRED</span>...</div>",
-"ja": "＊ ~1は\n　 スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div><div class=\"indented\">* But the enemy wasn't <span class=\"B\">TIRED</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_36_0": {
-"en": "<div class=\"indented\">* ~1 cast PACIFY!</div><div class=\"indented\">* But the foe wasn't <span class=\"B\">TIRED</span>... try <span class=\"Y\">SPARING</span>!</div>",
-"ja": "＊ ~1は　スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…\n　 <span class=\"Y\">にがす</span>ことなら　できるかも…！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast PACIFY!</div><div class=\"indented\">* But the foe wasn't <span class=\"B\">TIRED</span>... try <span class=\"Y\">SPARING</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　スリープを唱えた！\n＊ しかし　敵は<span class=\"B\">くたびれ</span>ていない…\n　 <span class=\"Y\">にがす</span>ことなら　できるかも…！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_43_0": {
-"en": "<div class=\"indented\">* ~1 used RUDE BUSTER!</div>",
-"ja": "＊ ~1は\n　 ルードバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used RUDE BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルードバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_47_0": {
-"en": "<div class=\"indented\">* ~1 used RED BUSTER!</div>",
-"ja": "＊ ~1は\n　 レッドバスターを発動した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used RED BUSTER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 レッドバスターを発動した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_51_0": {
-"en": "<div class=\"indented\">* ~1 and Susie cast DUAL HEAL!</div>",
-"ja": "＊ ~1は\n　 Ｗヒールを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> and Susie cast DUAL HEAL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 Ｗヒールを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_55_0": {
-"en": "<div class=\"indented\">* ~1 cast SLEEPMIST!</div>",
-"ja": "＊ ~1は\n　 スリープミストを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast SLEEPMIST!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スリープミストを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_58_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div>",
-"ja": "＊ ~1は~2を逃がした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は<span class=\"param\">~2</span>を逃がした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_58_0_b": {
-"en": "<div class=\"indented\">* ~1 and Susie cast DUAL HEAL! Effectiveness of DUAL HEAL has lowered!</div>",
-"ja": "＊ ~1とスージィは\n　 デュアルヒールを唱えた！\n　 デュアルヒールの効果が下がった！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> and Susie cast DUAL HEAL! Effectiveness of DUAL HEAL has lowered!</div>",
+"ja": "＊ <span class=\"param\">~1</span>とスージィは\n　 デュアルヒールを唱えた！\n　 デュアルヒールの効果が下がった！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_59_0": {
-"en": "<div class=\"indented\">* ~1 cast ICESHOCK!</div>",
-"ja": "＊ ~1は\n　 アイスショックを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast ICESHOCK!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 アイスショックを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_62_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div>",
-"ja": "＊ ~1は　~2を\n　 にがした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_63_0": {
-"en": "<div class=\"indented\">* ~1 cast SNOWGRAVE!</div>",
-"ja": "＊ ~1は\n　 スノーグレイブを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast SNOWGRAVE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スノーグレイブを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_66_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_69_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_70_0": {
 "en": "<div class=\"indented\">* (Try using Ralsei's <span class=\"B\">PACIFY</span>!)</div>",
 "ja": "＊ (ラルセイに　<span class=\"B\">スリープ</span>を\n　 唱えさせてみよう！)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_73_0": {
-"en": "<div class=\"indented\">* ~1 spared!</div>",
-"ja": "＊ ~1は　にがした！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　にがした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_76_0": {
-"en": "<div class=\"indented\">* ~1 cast OKHEAL!</div>",
-"ja": "＊ ~1は\n　 OKヒールを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast OKHEAL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 OKヒールを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_77_0": {
-"en": "<div class=\"indented\">* ~1 cast BetterHeal!</div>",
-"ja": "＊ ~1は\n　 ベターヒールを唱えた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> cast BetterHeal!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ベターヒールを唱えた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_78_0": {
 "en": null,
-"ja": "＊ ~1は\n　 ダークキャンディを使った！"
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ダークキャンディを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_86_0": {
-"en": "<div class=\"indented\">* ~1 used the GLOWSHARD!</div>",
-"ja": "＊ ~1は\n　 グロウシャードを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the GLOWSHARD!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 グロウシャードを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_87_0": {
 "en": "<div class=\"indented\">* But nothing happened...</div>",
@@ -174530,20 +174530,20 @@ var rendered = {
 "ja": "＊ しかし　相手は「みのがす」概念を\n　 理解しない。"
 },
 "scr_spelltext_slash_scr_spelltext_gml_94_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_95_0": {
 "en": "<div class=\"indented\">* (Try using Noelle's <span class=\"B\">SLEEPMIST</span>!)</div>",
 "ja": "＊ (ノエルに　<span class=\"B\">スリープミスト</span>を\n　 唱えさせてみよう！)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_99_0": {
-"en": "<div class=\"indented\">* ~1 spared ~2!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
-"ja": "＊ ~1は　~2を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> spared <span class=\"param\">~2</span>!</div><div class=\"indented\">* But its name wasn't <span class=\"Y\">YELLOW</span>...</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"param\">~2</span>を\n　 にがそうとした！\n＊ しかし名前が　<span class=\"Y\">きいろ</span>くない…"
 },
 "scr_spelltext_slash_scr_spelltext_gml_100_0": {
-"en": "<div class=\"indented\">* ~1 used the REVIVEMINT!</div>",
-"ja": "＊ ~1は\n　 リザレクトミントを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the REVIVEMINT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 リザレクトミントを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_100_0_b": {
 "en": "<div class=\"indented\">* (Try using <span class=\"B\">ACTs</span>!)</div>",
@@ -174554,12 +174554,12 @@ var rendered = {
 "ja": "＊ グロウシャードは\n　 消えてなくなった！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_118_0": {
-"en": "<div class=\"indented\">* ~1 used the DARKER CANDY!</div>",
-"ja": "＊ ~1は\n　 DDキャンディを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DARKER CANDY!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 DDキャンディを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_122_0": {
-"en": "<div class=\"indented\">* ~1 read the MANUAL!</div>",
-"ja": "＊ ~1は\n　 マニュアルを読んだ！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> read the MANUAL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 マニュアルを読んだ！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_123_0": {
 "en": "<div class=\"indented\">* But nothing happened...</div>",
@@ -174574,36 +174574,36 @@ var rendered = {
 "ja": "(くたびれ)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_179_0": {
-"en": "<div class=\"indented\">* ~1 used the BROKEN CAKE!</div>",
-"ja": "＊ ~1 used the BROKEN CAKE!"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BROKEN CAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span> used the BROKEN CAKE!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_183_0": {
-"en": "<div class=\"indented\">* ~1 used the TOPCAKE!</div>",
-"ja": "＊ ~1は\n　 トップケーキを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TOPCAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 トップケーキを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_187_0": {
-"en": "<div class=\"indented\">* ~1 used the SPINCAKE!</div>",
-"ja": "＊ ~1は\n　 スピンロールを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the SPINCAKE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スピンロールを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_191_0": {
-"en": "<div class=\"indented\">* ~1 used the DARKBURGER!</div>",
-"ja": "＊ ~1は\n　 ダークバーガーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DARKBURGER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ダークバーガーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_194_0": {
-"en": "<div class=\"indented\">* ~1 used the LANCERCOOKIE!</div>",
-"ja": "＊ ~1は\n　 ランサークッキーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the LANCERCOOKIE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ランサークッキーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_197_0": {
-"en": "<div class=\"indented\">* ~1 used the GIGASALAD!</div>",
-"ja": "＊ ~1は\n　 ギガサラダを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the GIGASALAD!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ギガサラダを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_199_0": {
 "en": " was <span class=\"B\">bored to tears</span>!\n",
 "ja": " was <span class=\"B\">bored to tears</span>!\n"
 },
 "scr_spelltext_slash_scr_spelltext_gml_200_0": {
-"en": "<div class=\"indented\">* ~1 used the CLUBS SANDWICH!</div>",
-"ja": "＊ ~1は\n　 クラブサンドを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CLUBS SANDWICH!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 クラブサンドを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_200_0_b": {
 "en": " listened politely!\n",
@@ -174614,28 +174614,28 @@ var rendered = {
 "ja": " became sentimental!\n"
 },
 "scr_spelltext_slash_scr_spelltext_gml_203_0": {
-"en": "<div class=\"indented\">* ~1 used the HEARTS DONUT!</div>",
-"ja": "＊ ~1は\n　 ハートドーナツを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the HEARTS DONUT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ハートドーナツを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_206_0": {
-"en": "<div class=\"indented\">* ~1 used the CHOCO DIAMOND!</div>",
-"ja": "＊ ~1は\n　 チョコダイヤを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CHOCO DIAMOND!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 チョコダイヤを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_209_0": {
-"en": "<div class=\"indented\">* ~1 used the FAV SANDWICH!</div>",
-"ja": "＊ ~1は\n　 ファボサンドを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the FAV SANDWICH!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ファボサンドを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_230_0": {
-"en": "<div class=\"indented\">* ~1 used the ROUXLS ROUX!</div>",
-"ja": "＊ ~1は\n　 ルールノールーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the ROUXLS ROUX!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ルールノールーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_233_0": {
-"en": "<div class=\"indented\">* ~1 used the CD BAGEL!</div>",
-"ja": "＊ ~1は\n　 CDベーグルを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CD BAGEL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 CDベーグルを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_236_0": {
-"en": "<div class=\"indented\">* ~1 used the CLOTHESDOLL!</div>",
-"ja": "＊ ~1は\n　 マネキンを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the CLOTHESDOLL!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 マネキンを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_237_0": {
 "en": "<div class=\"indented\">* ... but nothing happened!</div>",
@@ -174643,115 +174643,115 @@ var rendered = {
 },
 "scr_spelltext_slash_scr_spelltext_gml_240_0": {
 "en": null,
-"ja": "＊ ~1は\n　 クリスティーを使った！"
+"ja": "＊ <span class=\"param\">~1</span>は\n　 クリスティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_243_0": {
 "en": null,
-"ja": "＊ ~1は\n　 ノエルティーを使った！"
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ノエルティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_246_0": {
 "en": null,
-"ja": "＊ ~1は\n　 ラルセイティーを使った！"
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ラルセイティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_249_0": {
 "en": null,
-"ja": "＊ ~1は\n　 スージィティーを使った！"
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スージィティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_252_0": {
-"en": "<div class=\"indented\">* ~1 used the DD-BURGER!</div>",
-"ja": "＊ ~1は\n　 ダブルＤバーガーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DD-BURGER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ダブルＤバーガーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_255_0": {
-"en": "<div class=\"indented\">* ~1 used the LIGHTCANDY!</div>",
-"ja": "＊ ~1は\n　 ライトキャンディを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the LIGHTCANDY!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ライトキャンディを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_258_0": {
-"en": "<div class=\"indented\">* ~1 used the BUTJUICE!</div>",
-"ja": "＊ ~1は\n　 シツジュースを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BUTJUICE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 シツジュースを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_261_0": {
-"en": "<div class=\"indented\">* ~1 used the SPAGHETTICODE!</div>",
-"ja": "＊ ~1は\n　 スパゲティコードを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the SPAGHETTICODE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スパゲティコードを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_264_0": {
-"en": "<div class=\"indented\">* ~1 used the JAVACOOKIE!</div>",
-"ja": "＊ ~1は\n　 JAVAクッキーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the JAVACOOKIE!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 JAVAクッキーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_267_0": {
-"en": "<div class=\"indented\">* ~1 used the TENSIONBIT!</div><div class=\"indented\">* Tension raised up earlier.</div>",
-"ja": "＊ ~1は\n　 テンションビッツを使った！\n＊ テンションが　早めに上がった。"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TENSIONBIT!</div><div class=\"indented\">* Tension raised up earlier.</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 テンションビッツを使った！\n＊ テンションが　早めに上がった。"
 },
 "scr_spelltext_slash_scr_spelltext_gml_270_0": {
-"en": "<div class=\"indented\">* ~1 used the TENSIONGEM!</div>",
-"ja": "＊ ~1は\n　 テンションジェムを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TENSIONGEM!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 テンションジェムを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_273_0": {
-"en": "<div class=\"indented\">* ~1 used the TENSIONMAX!</div>",
-"ja": "＊ ~1は\n　 テンションMAXを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TENSIONMAX!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 テンションMAXを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_276_0": {
-"en": "<div class=\"indented\">* ~1 used the REVIVEDUST!</div>",
-"ja": "＊ ~1は\n　 リザレクトダストを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the REVIVEDUST!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 リザレクトダストを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_279_0": {
-"en": "<div class=\"indented\">* ~1 used the REVIVEBRIGHT!</div>",
-"ja": "＊ ~1は\n　 リザレクトライトを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the REVIVEBRIGHT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 リザレクトライトを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_282_0": {
-"en": "<div class=\"indented\">* ~1 administered S.POISON!</div>",
-"ja": "＊ ~1は\n　 S.POISONを投与した！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> administered S.POISON!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 S.POISONを投与した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_298_0": {
-"en": "<div class=\"indented\">* ~1 admired DOGDOLLAR!</div>",
-"ja": "＊ ~1は\n　 ドッグドルを　うっとりながめた！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> admired DOGDOLLAR!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ドッグドルを　うっとりながめた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_303_0": {
-"en": "<div class=\"indented\">* ~1 used the TVDINNER!</div>",
-"ja": "＊ ~1は\n　 TVディナーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TVDINNER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 TVディナーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_306_0": {
-"en": "<div class=\"indented\">* ~1 used the PIPIS!</div>",
-"ja": "＊ ~1は\n　 ピピスを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the PIPIS!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ピピスを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_309_0": {
-"en": "<div class=\"indented\">* ~1 used the FLATSODA!</div>",
-"ja": "＊ ~1は\n　 気の抜けたソーダを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the FLATSODA!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 気の抜けたソーダを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_312_0": {
-"en": "<div class=\"indented\">* ~1 used the TVSLOP!</div>",
-"ja": "＊ ~1は\n　 TVカスを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TVSLOP!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 TVカスを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_315_0": {
-"en": "<div class=\"indented\">* ~1 used the EXECBUFFET!</div>",
-"ja": "＊ ~1は\n　 VIPビュッフェを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the EXECBUFFET!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 VIPビュッフェを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_318_0": {
-"en": "<div class=\"indented\">* ~1 used the DELUXEDINNER!</div>",
-"ja": "＊ ~1は\n　DELUXディナーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the DELUXEDINNER!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　DELUXディナーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_329_0": {
-"en": "<div class=\"indented\">* ~1 used the ANCIENTSWEET!</div>",
-"ja": "＊ ~1は\n　 オールドスイートを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the ANCIENTSWEET!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 オールドスイートを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_332_0": {
-"en": "<div class=\"indented\">* ~1 used the RHAPSOTEA!</div>",
-"ja": "＊ ~1は\n　 ラプソティーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the RHAPSOTEA!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ラプソティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_335_0": {
-"en": "<div class=\"indented\">* ~1 used the SCARLIXIR!</div>",
-"ja": "＊ ~1は\n　 スカーレッティーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the SCARLIXIR!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 スカーレッティーを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_338_0": {
-"en": "<div class=\"indented\">* ~1 used the BITTERTEAR!</div>",
-"ja": "＊ ~1は\n　 ビターティアを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BITTERTEAR!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 ビターティアを使った！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_351_0": {
 "en": "\n... but it was stolen!",
 "ja": "\n　 …が　ぬすまれた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_357_0": {
-"en": "<div class=\"indented\">* ~1 used the TENSIONBIT!</div>",
-"ja": "＊ ~1は\n　 テンションビッツを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the TENSIONBIT!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は\n　 テンションビッツを使った！"
 }
 },
 "scr_susface": {
@@ -175104,8 +175104,8 @@ var rendered = {
 "ja": "\nそうなの！？"
 },
 "scr_text_slash_scr_text_gml_232_0": {
-"en": "<div class=\"indented\">* Er, Kris, you know you can hold [~1] to run...?</div>",
-"ja": "＊ ねえ　クリス…\n　 [~1]を長押しすると\n　 走れることは　知ってる？"
+"en": "<div class=\"indented\">* Er, Kris, you know you can hold [<span class=\"param\">~1</span>] to run...?</div>",
+"ja": "＊ ねえ　クリス…\n　 [<span class=\"param\">~1</span>]を長押しすると\n　 走れることは　知ってる？"
 },
 "scr_text_slash_scr_text_gml_242_0": {
 "en": "<div class=\"indented\">* Really?</div><div class=\"indented\">* And yet you choose not to...?</div>",
@@ -175120,8 +175120,8 @@ var rendered = {
 "ja": "＊ いいよ！　自分のペースで\n　 進んでいこう。"
 },
 "scr_text_slash_scr_text_gml_250_0": {
-"en": "<div class=\"indented\">* Right!</div><div class=\"indented\">* You'll move faster by holding [~1]!</div>",
-"ja": "＊ そうなの！\n＊ [~1]を長押しすると\n　 速く移動できるんだよ！"
+"en": "<div class=\"indented\">* Right!</div><div class=\"indented\">* You'll move faster by holding [<span class=\"param\">~1</span>]!</div>",
+"ja": "＊ そうなの！\n＊ [<span class=\"param\">~1</span>]を長押しすると\n　 速く移動できるんだよ！"
 },
 "scr_text_slash_scr_text_gml_251_0": {
 "en": "<div class=\"indented\">* And I'll be right behind you, so don't worry!</div>",
@@ -175144,8 +175144,8 @@ var rendered = {
 "ja": "＊ ねえクリス…"
 },
 "scr_text_slash_scr_text_gml_265_0": {
-"en": "<div class=\"indented\">* ... You can skip text by pressing [~1]?</div>",
-"ja": "＊ ... You can skip text by pressing [~1]?"
+"en": "<div class=\"indented\">* ... You can skip text by pressing [<span class=\"param\">~1</span>]?</div>",
+"ja": "＊ ... You can skip text by pressing [<span class=\"param\">~1</span>]?"
 },
 "scr_text_slash_scr_text_gml_273_0": {
 "en": "<div class=\"indented\">* ... Really?</div><div class=\"indented\">* So you've just been...</div>",
@@ -175216,8 +175216,8 @@ var rendered = {
 "ja": "＊ (マニュアルを　手に入れた)"
 },
 "scr_text_slash_scr_text_gml_314_0_b": {
-"en": "<div class=\"indented\">* Press [~1] to open the menu and use it in your ITEMS.</div>",
-"ja": "＊ Press [~1] to open the menu and use it in your ITEMS."
+"en": "<div class=\"indented\">* Press [<span class=\"param\">~1</span>] to open the menu and use it in your ITEMS.</div>",
+"ja": "＊ Press [<span class=\"param\">~1</span>] to open the menu and use it in your ITEMS."
 },
 "scr_text_slash_scr_text_gml_319_0": {
 "en": "\nI can\nhandle it",
@@ -176072,8 +176072,8 @@ var rendered = {
 "ja": "＊ …えと　だれも　わたしに\n　 はなしかけないから　じぶんの\n　 なまえ　わすれちゃったお…"
 },
 "scr_text_slash_scr_text_gml_831_0": {
-"en": "<div class=\"indented\">* ~1!</div><div class=\"indented\">* Can you give me a name...?</div>",
-"ja": "＊ ~1！\n＊ わたしに　なまえを\n　 つけてくれるお…？"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span>!</div><div class=\"indented\">* Can you give me a name...?</div>",
+"ja": "＊ <span class=\"param\">~1</span>！\n＊ わたしに　なまえを\n　 つけてくれるお…？"
 },
 "scr_text_slash_scr_text_gml_831_0_b": {
 "en": "Kris",
@@ -176912,8 +176912,8 @@ var rendered = {
 "ja": "＊ 「ルードバスター」\n　 スージィの技ァ…"
 },
 "scr_text_slash_scr_text_gml_1343_0": {
-"en": "<div class=\"indented\">* Will deal more damage, if you just press [~1]!</div>",
-"ja": "＊ 大ダメージ与える\n　 [~1]を押せばァ！"
+"en": "<div class=\"indented\">* Will deal more damage, if you just press [<span class=\"param\">~1</span>]!</div>",
+"ja": "＊ 大ダメージ与える\n　 [<span class=\"param\">~1</span>]を押せばァ！"
 },
 "scr_text_slash_scr_text_gml_1349_0": {
 "en": "<div class=\"indented\">* Susie loves, when you give us MONEY.</div><div class=\"indented\">* She will -</div>",
@@ -180400,8 +180400,8 @@ var rendered = {
 "ja": "クリスプ！！"
 },
 "scr_text_slash_scr_text_gml_3627_0": {
-"en": "<div class=\"indented\">* ~1!</div>",
-"ja": "＊ ~1！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>！"
 },
 "scr_text_slash_scr_text_gml_3628_0": {
 "en": "<div class=\"indented\">* I missed you, y'hear!? Hahaha!! Missed you all day!!</div>",
@@ -180532,8 +180532,8 @@ var rendered = {
 "ja": "アズリエルII"
 },
 "scr_text_slash_scr_text_gml_3672_0": {
-"en": "<div class=\"indented\">* ~1 is on the case!</div>",
-"ja": "＊ ~1さんが\n　 バッチリ　ナゾを　カイケツするお！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> is on the case!</div>",
+"ja": "＊ <span class=\"param\">~1</span>さんが\n　 バッチリ　ナゾを　カイケツするお！"
 },
 "scr_text_slash_scr_text_gml_3673_0": {
 "en": "<div class=\"indented\">* (That's my name, right?)</div>",
@@ -180548,8 +180548,8 @@ var rendered = {
 "ja": "キッス！"
 },
 "scr_text_slash_scr_text_gml_3675_0": {
-"en": "<div class=\"indented\">* See you, ~1!</div>",
-"ja": "＊ それじゃあ　まったね～\n　 ~1！"
+"en": "<div class=\"indented\">* See you, <span class=\"param\">~1</span>!</div>",
+"ja": "＊ それじゃあ　まったね～\n　 <span class=\"param\">~1</span>！"
 },
 "scr_text_slash_scr_text_gml_3683_0": {
 "en": "\nLet's go!\nLet's go!",
@@ -181744,8 +181744,8 @@ var rendered = {
 "ja": "＊ 無料のサンプル\n　 おひとつ　いかが！？"
 },
 "scr_text_slash_scr_text_gml_4437_0": {
-"en": "<div class=\"indented\">* (You got a small shoe with a toothpick through it...)~1</div>",
-"ja": "＊ (つまようじが刺さった\n　 小さなクツを受け取った…)~1"
+"en": "<div class=\"indented\">* (You got a small shoe with a toothpick through it...)<span class=\"param\">~1</span></div>",
+"ja": "＊ (つまようじが刺さった\n　 小さなクツを受け取った…)<span class=\"param\">~1</span>"
 },
 "scr_text_slash_scr_text_gml_4442_0": {
 "en": "<div class=\"indented\">* (Chomp.)</div>",
@@ -181756,8 +181756,8 @@ var rendered = {
 "ja": "＊ あー…　いや\n　 いらねー。"
 },
 "scr_text_slash_scr_text_gml_4464_0": {
-"en": "<div class=\"indented\">* You'll never get stronger without a daily dose of shoes!!~1</div>",
-"ja": "＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！~1"
+"en": "<div class=\"indented\">* You'll never get stronger without a daily dose of shoes!!<span class=\"param\">~1</span></div>",
+"ja": "＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！<span class=\"param\">~1</span>"
 },
 "scr_text_slash_scr_text_gml_4469_0": {
 "en": "<div class=\"indented\">* Umm, I don't really do... shoes.</div>",
@@ -182532,8 +182532,8 @@ var rendered = {
 "ja": "バードリィ"
 },
 "scr_text_slash_scr_text_gml_5366_0": {
-"en": "\nThinking\nof ~1",
-"ja": "\n~1の\nこと"
+"en": "\nThinking\nof <span class=\"param\">~1</span>",
+"ja": "\n<span class=\"param\">~1</span>の\nこと"
 },
 "scr_text_slash_scr_text_gml_5367_0": {
 "en": "\nThinking\nof you",
@@ -183864,8 +183864,8 @@ var rendered = {
 "ja": "アズリエルの部屋"
 },
 "scr_text_slash_scr_text_gml_6792_0": {
-"en": "<div class=\"indented\">* (The nameplate reads ~1. Peek inside?)</div>",
-"ja": "＊ (表札に\n　 「~1」と\n　 書いてある。なかを見る？)"
+"en": "<div class=\"indented\">* (The nameplate reads <span class=\"param\">~1</span>. Peek inside?)</div>",
+"ja": "＊ (表札に\n　 「<span class=\"param\">~1</span>」と\n　 書いてある。なかを見る？)"
 },
 "scr_text_slash_scr_text_gml_6814_0": {
 "en": "<div class=\"indented\">* (... What you saw surprised you.  ... sort of.)</div>",
@@ -184228,8 +184228,8 @@ var rendered = {
 "ja": "＊ おいくらですか？"
 },
 "scr_text_slash_scr_text_gml_7180_0": {
-"en": "<div class=\"indented\">* Just a small fee of $~1!</div>",
-"ja": "＊ たったの　$~1です！"
+"en": "<div class=\"indented\">* Just a small fee of $<span class=\"param\">~1</span>!</div>",
+"ja": "＊ たったの　$<span class=\"param\">~1</span>です！"
 },
 "scr_text_slash_scr_text_gml_7182_0": {
 "en": "<div class=\"indented\">* Huh? S-sorry, we don't have that much money!</div>",
@@ -184596,16 +184596,16 @@ var rendered = {
 "ja": "＊ 操作のおさらいです。\n　 (設定メニューで　変更もできます)"
 },
 "scr_text_slash_scr_text_gml_7528_0": {
-"en": "<div class=\"indented\">* ~1</div><div class=\"indented\">* Confirm and interact with things.</div>",
-"ja": "＊ ~1\n＊ 「決定」「調べる」「使う」"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span></div><div class=\"indented\">* Confirm and interact with things.</div>",
+"ja": "＊ <span class=\"param\">~1</span>\n＊ 「決定」「調べる」「使う」"
 },
 "scr_text_slash_scr_text_gml_7529_0": {
-"en": "<div class=\"indented\">* ~1</div><div class=\"indented\">* Cancel. Hold to RUN. Shows all text instantly.</div>",
-"ja": "＊ ~1\n＊ 「キャンセル」「長押しで走る」\n　 「全テキストを　一度に表示」"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span></div><div class=\"indented\">* Cancel. Hold to RUN. Shows all text instantly.</div>",
+"ja": "＊ <span class=\"param\">~1</span>\n＊ 「キャンセル」「長押しで走る」\n　 「全テキストを　一度に表示」"
 },
 "scr_text_slash_scr_text_gml_7530_0": {
-"en": "<div class=\"indented\">* ~1</div><div class=\"indented\">* Opens the menu. Hold down to quickly skip textboxes.</div>",
-"ja": "＊ ~1\n＊ 「メニューを開く」「長押しで\n　 テキストボックスをスキップ」"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span></div><div class=\"indented\">* Opens the menu. Hold down to quickly skip textboxes.</div>",
+"ja": "＊ <span class=\"param\">~1</span>\n＊ 「メニューを開く」「長押しで\n　 テキストボックスをスキップ」"
 },
 "scr_text_slash_scr_text_gml_7536_0": {
 "en": "<div class=\"indented\">* (There's no time to read books.)</div>",
@@ -185496,12 +185496,12 @@ var rendered = {
 "ja": "グラスを　からにする"
 },
 "scr_text_slash_scr_text_gml_8936_0": {
-"en": "<div class=\"indented\">* (Glass is <span class=\"R\">~1% red</span>, <span class=\"Y\">~2% yellow</span>.)</div>",
-"ja": "＊ (グラスの　なかみは\n　 あか<span class=\"R\">~1％</span>　<span class=\"Y\">きいろ~2％</span>だ)"
+"en": "<div class=\"indented\">* (Glass is <span class=\"R\"><span class=\"param\">~1</span>% red</span>, <span class=\"Y\"><span class=\"param\">~2</span>% yellow</span>.)</div>",
+"ja": "＊ (グラスの　なかみは\n　 あか<span class=\"R\"><span class=\"param\">~1</span>％</span>　<span class=\"Y\">きいろ<span class=\"param\">~2</span>％</span>だ)"
 },
 "scr_text_slash_scr_text_gml_8950_0": {
-"en": "~1\n* (Drink Name: ~2.)",
-"ja": "~1\n＊ (ドリンク名：~2)"
+"en": "<span class=\"param\">~1</span>\n* (Drink Name: <span class=\"param\">~2</span>.)",
+"ja": "<span class=\"param\">~1</span>\n＊ (ドリンク名：<span class=\"param\">~2</span>)"
 },
 "scr_text_slash_scr_text_gml_8959_0_b": {
 "en": "<div class=\"indented\">* (You carefully titrated the juice into your glass.)</div>",
@@ -187344,16 +187344,16 @@ var rendered = {
 "ja": "＊ ちょ～っとラグが　あるかも\n　 しれへんけども　そこは\n　 うまいこと合わせとくんなはれ。"
 },
 "scr_text_slash_scr_text_gml_11099_0": {
-"en": "<div class=\"indented\">* ~1 and ~2 play the notes...</div>",
-"ja": "＊ ~1と~2押して\n　 音　鳴らせますわ。"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> and <span class=\"param\">~2</span> play the notes...</div>",
+"ja": "＊ <span class=\"param\">~1</span>と<span class=\"param\">~2</span>押して\n　 音　鳴らせますわ。"
 },
 "scr_text_slash_scr_text_gml_11100_0": {
-"en": "<div class=\"indented\">* But you can press ~1 or ~2 to play the notes, too. Or mix-and-match!</div>",
-"ja": "＊ ~1か~2でも　鳴らせますさかい\n　 好きなように　ミックスして\n　 プレイしとくんなはれ！"
+"en": "<div class=\"indented\">* But you can press <span class=\"param\">~1</span> or <span class=\"param\">~2</span> to play the notes, too. Or mix-and-match!</div>",
+"ja": "＊ <span class=\"param\">~1</span>か<span class=\"param\">~2</span>でも　鳴らせますさかい\n　 好きなように　ミックスして\n　 プレイしとくんなはれ！"
 },
 "scr_text_slash_scr_text_gml_11101_0": {
-"en": "<div class=\"indented\">* Made a mistake? Quit or restart by pressing ~1!</div>",
-"ja": "＊ まちがえたときは　~1押して\n　 やめたり　やり直したり\n　 できますよって。"
+"en": "<div class=\"indented\">* Made a mistake? Quit or restart by pressing <span class=\"param\">~1</span>!</div>",
+"ja": "＊ まちがえたときは　<span class=\"param\">~1</span>押して\n　 やめたり　やり直したり\n　 できますよって。"
 },
 "scr_text_slash_scr_text_gml_11102_0": {
 "en": "<div class=\"indented\">* Anyway, that's all!</div>",
@@ -187376,8 +187376,8 @@ var rendered = {
 "ja": "やめる"
 },
 "scr_text_slash_scr_text_gml_11127_0": {
-"en": "<div class=\"indented\">* \"~1\"!</div><div class=\"indented\">* Play it!?</div>",
-"ja": "＊ 「~1」！\n＊ プレイする！？"
+"en": "<div class=\"indented\">* \"<span class=\"param\">~1</span>\"!</div><div class=\"indented\">* Play it!?</div>",
+"ja": "＊ 「<span class=\"param\">~1</span>」！\n＊ プレイする！？"
 },
 "scr_text_slash_scr_text_gml_11151_0": {
 "en": "\nSuggest Tenna",
@@ -187628,8 +187628,8 @@ var rendered = {
 "ja": "もう…味がしない…"
 },
 "scr_text_slash_scr_text_gml_11487_0": {
-"en": "<div class=\"indented\">* ~1 used the ROTTEN TEA!</div>",
-"ja": "＊ ~1は　くさったティーを使った！"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the ROTTEN TEA!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　くさったティーを使った！"
 },
 "scr_text_slash_scr_text_gml_11502_0": {
 "en": "\nEnter code",

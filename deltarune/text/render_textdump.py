@@ -131,6 +131,13 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
             case "`":
                 out.write(text[i + 1])
                 i += 1
+            case "~" if i + 1 < len(text) and text[i + 1].isdigit():
+                # Some tildes are just part of the message.
+                # I think whether they're meaningful depends on the script that's called?
+                # This heuristic is good enough.
+                assert text[i + 1] in "12345"
+                out.write(f'<span class="param">~{text[i + 1]}</span>')
+                i += 1
             case char:
                 out.write(char)
         i += 1
