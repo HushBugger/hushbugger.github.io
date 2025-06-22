@@ -83,7 +83,8 @@
                 padding-top: 5px;
                 padding-bottom: 5px;
 
-                display: flex;
+                padding-left: 20px;
+                position: relative;
             }
 
             /*
@@ -100,15 +101,15 @@
                 text-indent: -16px;
             }
 
-            div.textbox a.linkBar {
+            a.linkBar {
                 width: 20px;
-                flex-shrink: 0;
-            }
-
-            div.textbox:hover a.linkBar {
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
                 background-color: var(--foreground-color);
+                mask-position: 0 5px;
                 mask-image: url("hyperlink.svg");
-                /* mask-position: center; */
                 mask-repeat: no-repeat;
             }
 
@@ -454,14 +455,7 @@
                         text = "(No Japanese translation.)";
                     }
                 }
-                const linkBar = document.createElement("a");
-                linkBar.classList.add("linkBar");
-                linkBar.href = `#${id}`;
-                box.appendChild(linkBar);
-                const content = document.createElement("div");
-                content.classList.add("content");
-                content.innerHTML = text;
-                box.appendChild(content);
+                box.innerHTML = text;
                 return box;
             }
 
@@ -555,6 +549,29 @@
                 }
                 return elem?.parentElement?.closest(".textbox");
             }
+
+            /** @type {null|Element} */
+            let activeBox = null;
+            const linkBar = document.createElement("a");
+            linkBar.classList.add("linkBar");
+
+            textboxes.addEventListener("mouseover", function (event) {
+                if (!(event.target instanceof Element)) {
+                    return;
+                }
+                const textbox = event.target.closest(".textbox");
+                if (activeBox === textbox) {
+                    return;
+                }
+                if (!textbox) {
+                    activeBox = null;
+                    linkBar.remove();
+                    return;
+                }
+                activeBox = textbox;
+                linkBar.href = `#${textbox.id}`;
+                textbox.appendChild(linkBar);
+            });
         </script>
     </body>
 </html>
