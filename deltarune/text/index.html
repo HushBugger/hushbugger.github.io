@@ -25,6 +25,28 @@
             body {
                 --background-color: black;
                 --foreground-color: white;
+                /*
+                 * Some systems use subpixel antialiasing, a pretty cool technique for smoothening
+                 * the edges of glyphs.
+                 * Unfortunately our crisp straight-angle pixelated font is discolored by this.
+                 * I see this happen on my monitor and also in screenshots online.
+                 *
+                 * There's no portable directive for disabling it, but there are various
+                 * circumstances in which the browser doesn't apply it. One of those is if a
+                 * mix-blend-mode is active. (This is the option I hate the least.)
+                 *
+                 * You can check the spec for details, but a blend mode of "difference" preserves
+                 * the color for a black background, while "multiply" preserves the color for a
+                 * white background.
+                 *
+                 * We don't apply this to the Japanese text as that uses a system font.
+                 *
+                 * As of writing I've tested this on a Linux GNOME Xorg session using Firefox (Gecko),
+                 * Chromium (Blink), and GNOME Web (Webkit).
+                 * I still intend to test it on Windows and Wayland.
+                 * Apparently modern macOS never uses subpixel antialiasing.
+                 */
+                --pixel-blend-mode: difference;
 
                 background: black;
                 color: white;
@@ -41,6 +63,7 @@
             body.light {
                 --background-color: white;
                 --foreground-color: #2c1708;
+                --pixel-blend-mode: multiply;
             }
 
             div.intro {
@@ -61,7 +84,6 @@
 
             h1,
             h2 {
-                font-family: "8bitoperator Undertale Mono";
                 font-size: 2em;
                 line-height: 1em;
                 font-weight: normal;
@@ -119,8 +141,11 @@
 
             div.textbox.en,
             pre.loading,
-            div.textbox.untranslated {
+            div.textbox.untranslated,
+            h1,
+            h2 {
                 font-family: "8bitoperator Undertale Mono", Monospace;
+                mix-blend-mode: var(--pixel-blend-mode);
             }
 
             /* red */
