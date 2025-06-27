@@ -41,9 +41,8 @@
                  *
                  * We don't apply this to the Japanese text as that uses a system font.
                  *
-                 * As of writing I've tested this on a Linux GNOME Xorg session using Firefox (Gecko),
-                 * Chromium (Blink), and GNOME Web (Webkit).
-                 * I still intend to test it on Windows and Wayland.
+                 * Tested on GNOME Xorg (Debian Bookworm) using Gecko & Blink & WebkitGTK.
+                 * Tested on Windows 11 using Gecko & Blink. (Poorly configured ClearType blurs in Blink.)
                  * Apparently modern macOS never uses subpixel antialiasing.
                  */
                 --pixel-blend-mode: difference;
