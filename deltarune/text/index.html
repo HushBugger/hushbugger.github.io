@@ -329,6 +329,66 @@
                 document.body.classList.add("light");
                 lightModeToggle.src = "spr_introimage1_1.png";
             }
+
+            const selects = /** @type {const} */ ([
+                { id: "chapter", key: "chap", default_: "all" },
+                { id: "language", key: "lang", default_: "en" },
+            ]);
+
+            /** @type {{[K in selects[number]['key']]: string}} */
+            // @ts-ignore
+            const config = {};
+
+            for (const select of selects) {
+                const elem = /** @type {HTMLSelectElement} */ (
+                    document.getElementById(select.id)
+                );
+
+                elem.addEventListener("change", function (event) {
+                    const value = elem.selectedOptions[0].value;
+                    const newURL = new URL(String(window.location));
+                    if (value === select.default_) {
+                        newURL.searchParams.delete(select.key);
+                    } else {
+                        newURL.searchParams.set(select.key, value);
+                    }
+                    newURL.searchParams.sort();
+                    window.history.pushState({}, "", newURL);
+                    config[select.key] = value;
+                    render();
+                });
+            }
+
+            function loadConfigFromURL() {
+                const params = new URL(String(window.location)).searchParams;
+                for (const select of selects) {
+                    const value = params.get(select.key) || select.default_;
+                    config[select.key] = value;
+
+                    for (const option of /** @type {HTMLSelectElement} */ (
+                        document.getElementById(select.id)
+                    ).options) {
+                        if (option.value === value) {
+                            option.selected = true;
+                        }
+                    }
+                }
+            }
+
+            if (window.location.hash === "#ja") {
+                // Backward compat
+                const newURL = new URL(String(window.location));
+                newURL.searchParams.set("lang", "ja");
+                newURL.hash = "";
+                window.history.pushState({}, "", newURL);
+            }
+
+            loadConfigFromURL();
+
+            addEventListener("popstate", function () {
+                loadConfigFromURL();
+                render();
+            });
         </script>
         <div id="textboxes">
             <pre class="loading">    Loading...</pre>
@@ -345,69 +405,30 @@
             // @ts-ignore
             const text = rendered;
 
-            /** @type {['en', 'ja']} */
-            const languages = ["en", "ja"];
-
             /** @type {HTMLDivElement} */
             // @ts-ignore
             const textboxes = document.getElementById("textboxes");
 
-            /** @type {HTMLSelectElement} */
-            // @ts-ignore
-            const languageSelect = document.getElementById("language");
-            let language = languageSelect.selectedOptions[0].value;
-
-            languageSelect.addEventListener("change", function () {
-                language = languageSelect.selectedOptions[0].value;
-                render();
-            });
-
-            /** @type {HTMLSelectElement} */
-            // @ts-ignore
-            const chapterSelect = document.getElementById("chapter");
-            let chapters = chapterSelect.selectedOptions[0].value;
-
-            chapterSelect.addEventListener("change", function () {
-                chapters = chapterSelect.selectedOptions[0].value;
-                render();
-            });
-
-            if (window.location.hash.length > 1) {
-                const pieces = window.location.hash.slice(1).split(":");
-                if (
-                    ["en", "ja"].includes(pieces[0]) &&
-                    language !== "both" &&
-                    language !== pieces[0]
-                ) {
-                    language = pieces[0];
-                    for (const option of languageSelect.options) {
-                        if (option.value === pieces[0]) {
-                            option.selected = true;
-                        }
-                    }
-                }
-                if (
-                    ["1", "2", "3", "4"].includes(pieces[0]) &&
-                    chapters !== "all" &&
-                    chapters !== pieces[1]
-                ) {
-                    chapters = pieces[1];
-                    for (const option of chapterSelect.options) {
-                        if (option.value === pieces[1]) {
-                            option.selected = true;
-                        }
-                    }
-                }
-            }
+            /** @type {string|null} */
+            let curRendered = null;
 
             render();
 
             function render() {
                 if (!text) return;
+
+                const thisRender = `${config.chap}:${config.lang}`;
+                if (thisRender === curRendered) {
+                    return;
+                }
+
                 textboxes.innerHTML = "";
                 const dedup = {};
                 for (const chapterNo of [1, 2, 3, 4]) {
-                    if (chapters !== String(chapterNo) && chapters !== "all") {
+                    if (
+                        config.chap !== String(chapterNo) &&
+                        config.chap !== "all"
+                    ) {
                         continue;
                     }
                     const chapterTitle = mkTitle(
@@ -430,11 +451,11 @@
                         textboxes.appendChild(title);
 
                         for (const msgId of Object.keys(group)) {
-                            for (const lang of languages) {
+                            for (const lang of ["en", "ja"]) {
                                 const msg = group[msgId][lang];
                                 if (
-                                    (language === lang && msg) ||
-                                    language === "both"
+                                    (config.lang === lang && msg) ||
+                                    config.lang === "both"
                                 ) {
                                     if (msg !== dedup[`${lang}_${msgId}`]) {
                                         const box = buildBox(
@@ -454,6 +475,8 @@
                         }
                     }
                 }
+
+                curRendered = thisRender;
             }
 
             /**
