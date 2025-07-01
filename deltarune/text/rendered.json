@@ -138748,7 +138748,7 @@
 "ja": "   オ見事デス。"
 },
 "obj_credits_ch4_slash_Create_0_gml_64_0_b": {
-"en": "  THE HALFWAY&   MARK HAS& BEEN ATTAINED.",
+"en": "  THE HALFWAY\n   MARK HAS\n BEEN ATTAINED.",
 "ja": "      半分ノ\n     道ノリヲ\n   踏破シマシタ。"
 },
 "obj_credits_ch4_slash_Create_0_gml_65_0": {
@@ -138761,18 +138761,18 @@
 },
 "obj_credits_ch4_slash_Create_0_gml_66_0": {
 "en": null,
-"ja": "  THE HALFWAY&   MARK HAS& BEEN ATTAINED& <span class=\"param\">~1</span>"
+"ja": "  THE HALFWAY\n   MARK HAS\n BEEN ATTAINED\n <span class=\"param\">~1</span>"
 },
 "obj_credits_ch4_slash_Create_0_gml_67_0": {
-"en": "    BUT&    IT&    IS STILL&    WAITING.",
+"en": "    BUT\n    IT\n    IS STILL\n    WAITING.",
 "ja": "    デスガ\n    ソレ　ハ\n    マダ\n    待ッテイマス。"
 },
 "obj_credits_ch4_slash_Create_0_gml_68_0": {
-"en": "   HOW MUCH& LONGER NOW...?",
+"en": "   HOW MUCH\n LONGER NOW...?",
 "ja": "       アト\n  ドノクライ…？"
 },
 "obj_credits_ch4_slash_Create_0_gml_69_0": {
-"en": "       MY &   DELTARUNE.",
+"en": "       MY \n   DELTARUNE.",
 "ja": "     ワタシノ\n    DELTARUNE。"
 },
 "obj_credits_ch4_slash_Create_0_gml_73_0": {
@@ -138780,11 +138780,11 @@
 "ja": "    興味深イ…"
 },
 "obj_credits_ch4_slash_Create_0_gml_74_0": {
-"en": "   YOU FAILED&   TO ACHIEVE&   ANY MARKS.",
+"en": "   YOU FAILED\n   TO ACHIEVE\n   ANY MARKS.",
 "ja": "     アナタハ\n   ナニモ　達成\n  シマセンデシタ。"
 },
 "obj_credits_ch4_slash_Create_0_gml_75_0": {
-"en": "    WHAT&    ARE&    YOU?",
+"en": "    WHAT\n    ARE\n    YOU?",
 "ja": "     アナタハ\n   何者デスカ？"
 },
 "obj_credits_ch4_slash_Create_0_gml_76_0": {
@@ -138792,7 +138792,7 @@
 "ja": "    「<span class=\"param\">~1</span>」"
 },
 "obj_credits_ch4_slash_Create_0_gml_77_0": {
-"en": "  I VERY MUCH&  LOOK FORWARD&  TO THE NEXT.",
+"en": "  I VERY MUCH\n  LOOK FORWARD\n  TO THE NEXT.",
 "ja": "       次ヲ\n     楽シミニ\n   シテイマス。"
 }
 },

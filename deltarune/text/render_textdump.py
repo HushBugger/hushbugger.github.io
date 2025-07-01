@@ -79,29 +79,34 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
             ):
                 if i + 1 < len(text) and text[i + 1] == "*":
                     i += 1
-            case "&" if msgid.startswith(
-                # For finding these it's useful to look for ＆ (CJK ampersand)
-                # Though maybe this character isn't used consistently?
-                # "obj_credits_slash_Step_0_gml_40_0" has an ASCII ampersand
-                # that's probably an actual ampersand
-                # Looking for "\n\n" also helps
-                (
-                    "scr_credit",
-                    "obj_credits",
-                    "scr_monstersetup",
-                    "scr_monstersetup_slash_scr_monstersetup_gml_1612_0",
-                    "scr_monstersetup_slash_scr_monstersetup_gml_1614_0",
-                    "obj_mike_minigame_tv",
-                    "obj_fusionmenu",
-                    "obj_b1rocks1",
-                    "scr_quiztext",
-                    "obj_b3bs_lancerget_lancer",
-                    "obj_shop2_slash_Create",
+            case "&" if (
+                msgid.startswith(
+                    # For finding these it's useful to look for ＆ (CJK ampersand)
+                    # Though maybe this character isn't used consistently?
+                    # "obj_credits_slash_Step_0_gml_40_0" has an ASCII ampersand
+                    # that's probably an actual ampersand
+                    # Looking for "\n\n" also helps
+                    (
+                        "scr_credit",
+                        "obj_credits",
+                        "scr_monstersetup",
+                        "scr_monstersetup_slash_scr_monstersetup_gml_1612_0",
+                        "scr_monstersetup_slash_scr_monstersetup_gml_1614_0",
+                        "obj_mike_minigame_tv",
+                        "obj_fusionmenu",
+                        "obj_b1rocks1",
+                        "scr_quiztext",
+                        "obj_b3bs_lancerget_lancer",
+                        "obj_shop2_slash_Create",
+                    )
                 )
-            ) and msgid not in [
-                "scr_monstersetup_slash_scr_monstersetup_gml_27_0",
-                "obj_fusionmenu_slash_Draw_0_gml_182_0",
-            ]:
+                and msgid
+                not in [
+                    "scr_monstersetup_slash_scr_monstersetup_gml_27_0",
+                    "obj_fusionmenu_slash_Draw_0_gml_182_0",
+                ]
+                and not msgid.startswith(("obj_credits_ch4",))
+            ):
                 out.write("&")
             case "#" if msgid.startswith(
                 (
