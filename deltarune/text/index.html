@@ -442,13 +442,13 @@
                     for (const groupName of Object.keys(chapter)) {
                         const group = chapter[groupName];
 
-                        const title = mkTitle(
+                        /** @type {HTMLElement|null} */
+                        let title = mkTitle(
                             "h2",
                             `${chapterNo}_${groupName}`,
                             groupName.replace(/_slash_/g, "/")
                         );
                         title.classList.add("groupName");
-                        textboxes.appendChild(title);
 
                         for (const msgId of Object.keys(group)) {
                             for (const lang of ["en", "ja"]) {
@@ -458,6 +458,10 @@
                                     config.lang === "both"
                                 ) {
                                     if (msg !== dedup[`${lang}_${msgId}`]) {
+                                        if (title) {
+                                            textboxes.appendChild(title);
+                                            title = null;
+                                        }
                                         const box = buildBox(
                                             lang,
                                             `${lang}:${chapterNo}:${msgId}`,
@@ -468,10 +472,6 @@
                                     }
                                 }
                             }
-                        }
-
-                        if (textboxes.lastChild === title) {
-                            textboxes.removeChild(title);
                         }
                     }
                 }
