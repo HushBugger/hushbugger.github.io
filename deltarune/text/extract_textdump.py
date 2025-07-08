@@ -192,6 +192,10 @@ for n in CHAPTERS:
                     | ("msgnextloc", [str(trans), str(key)])
                 ):
                     assert " " not in key, repr(key)
+                    # Sometimes the same key has multiple English versions.
+                    # (Mostly (exclusively?) for debug stuff.)
+                    while key in en and en[key] != trans:
+                        key += "_DUP"
                     en[key] = trans
                     sourcemap[n].setdefault(key, f"{filename}:{lineno}")
                 case _:

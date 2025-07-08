@@ -226,6 +226,8 @@ postfixes = [
 
 
 def groupify(ident: str) -> str:
+    ident = ident.replace("_DUP", "")
+
     if ident.endswith(("_b", "_c")):
         ident = ident[:-2]
 

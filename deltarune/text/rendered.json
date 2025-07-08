@@ -80164,7 +80164,7 @@
 "ja": "ニジのはしを　かけるには\nこいびとが　２人　ひつようです。"
 },
 "obj_board_npc_slash_Other_10_gml_348_0": {
-"en": "GREAT! YOU OPENED THE DOOR! CAN I TAKE A BREAK YET?",
+"en": "WOAH WOAH! LOOK! THE CAMERA SHRINE IS ASHINE!",
 "ja": "おーっとぉ！ウツルンしんでんが\nひかりかがやいているー！"
 },
 "obj_board_npc_slash_Other_10_gml_349_0": {
@@ -80270,6 +80270,10 @@
 "obj_board_npc_slash_Other_10_gml_312_0": {
 "en": "You've been holding it from the moment you stepped in the room.",
 "ja": "このわかものは　このへやに　はいってきた\nときから　きっぷを　もっていた。"
+},
+"obj_board_npc_slash_Other_10_gml_348_0_DUP": {
+"en": "GREAT! YOU OPENED THE DOOR! CAN I TAKE A BREAK YET?",
+"ja": null
 },
 "obj_board_npc_slash_Other_10_gml_351_0": {
 "en": "NO! SHUT UP!",
@@ -129144,15 +129148,15 @@
 },
 "obj_baseenemy": {
 "obj_baseenemy_slash_Step_0_gml_27_0": {
-"en": "HOMING\nDIAMONDS!",
+"en": "Message\nA",
 "ja": null
 },
 "obj_baseenemy_slash_Step_0_gml_28_0": {
-"en": "RISING\nDIAMONDS!",
+"en": "Message\nB",
 "ja": null
 },
 "obj_baseenemy_slash_Step_0_gml_29_0": {
-"en": "SWORD\nTHROW!",
+"en": "Message\nC",
 "ja": null
 },
 "obj_baseenemy_slash_Step_0_gml_30_0": {
@@ -129208,7 +129212,7 @@
 "ja": null
 },
 "obj_baseenemy_slash_Step_0_gml_127_0": {
-"en": "<div class=\"indented\">* You taunted the enemy. It will now throw swords this turn!</div>",
+"en": "<div class=\"indented\">* You warned the enemy.</div><div class=\"indented\">* It guarded from Susie's attack.</div>",
 "ja": null
 },
 "obj_baseenemy_slash_Step_0_gml_137_0": {
@@ -129245,6 +129249,22 @@
 },
 "obj_baseenemy_slash_Step_0_gml_199_0": {
 "en": "<div class=\"indented\">* Ralsei's simul act!</div>",
+"ja": null
+},
+"obj_baseenemy_slash_Step_0_gml_27_0_DUP": {
+"en": "HOMING\nDIAMONDS!",
+"ja": null
+},
+"obj_baseenemy_slash_Step_0_gml_28_0_DUP": {
+"en": "RISING\nDIAMONDS!",
+"ja": null
+},
+"obj_baseenemy_slash_Step_0_gml_29_0_DUP": {
+"en": "SWORD\nTHROW!",
+"ja": null
+},
+"obj_baseenemy_slash_Step_0_gml_127_0_DUP": {
+"en": "<div class=\"indented\">* You taunted the enemy. It will now throw swords this turn!</div>",
 "ja": null
 }
 },
@@ -138600,7 +138620,7 @@
 "ja": "DELTARUNE"
 },
 "obj_credits_slash_Step_0_gml_22_0": {
-"en": "Chapter 2",
+"en": "Chapter 4",
 "ja": "Chapter 2"
 },
 "obj_credits_slash_Step_0_gml_24_0": {
@@ -138612,8 +138632,12 @@
 "ja": "To be continued"
 },
 "obj_credits_slash_Step_0_gml_192_0": {
-"en": "in Chapter 3",
+"en": "in Chapter 5",
 "ja": "in Chapter 3"
+},
+"obj_credits_slash_Step_0_gml_22_0_DUP": {
+"en": "Chapter 2",
+"ja": null
 },
 "obj_credits_slash_Step_0_gml_38_0": {
 "en": "Main Artist, Animator, & Cleanup",
@@ -138713,6 +138737,10 @@
 },
 "obj_credits_slash_Step_0_gml_156_0": {
 "en": "Betty Kwong",
+"ja": null
+},
+"obj_credits_slash_Step_0_gml_192_0_DUP": {
+"en": "in Chapter 3",
 "ja": null
 }
 },
@@ -151572,26 +151600,50 @@
 "ja": null
 },
 "obj_musical_controller_slash_Step_0_gml_260_0": {
-"en": "<div class=\"indented\">* obj_multiboss_enemy1's HP went up!</div>",
+"en": "<div class=\"indented\">* obj_multiboss_controller_enemy1's HP went up!</div>",
 "ja": null
 },
 "obj_musical_controller_slash_Step_0_gml_261_0": {
-"en": "<div class=\"indented\">* obj_multiboss_enemy2's HP went up!</div>",
+"en": "<div class=\"indented\">* obj_multiboss_controller_enemy2's HP went up!</div>",
 "ja": null
 },
 "obj_musical_controller_slash_Step_0_gml_262_0": {
-"en": "<div class=\"indented\">* obj_multiboss_enemy3's HP went up!</div>",
+"en": "<div class=\"indented\">* obj_multiboss_controller_enemy3's HP went up!</div>",
 "ja": null
 },
 "obj_musical_controller_slash_Step_0_gml_263_0": {
-"en": "<div class=\"indented\">* obj_multiboss_enemy1's and obj_multiboss_enemy2's HP went up!</div>",
+"en": "<div class=\"indented\">* obj_multiboss_controller_enemy1's and obj_multiboss_controller_enemy2's HP went up!</div>",
 "ja": null
 },
 "obj_musical_controller_slash_Step_0_gml_264_0": {
-"en": "<div class=\"indented\">* obj_multiboss_enemy1's and obj_multiboss_enemy3's HP went up!</div>",
+"en": "<div class=\"indented\">* obj_multiboss_controller_enemy1's and obj_multiboss_controller_enemy3's HP went up!</div>",
 "ja": null
 },
 "obj_musical_controller_slash_Step_0_gml_265_0": {
+"en": "<div class=\"indented\">* obj_multiboss_controller_enemy2's and obj_multiboss_controller_enemy3's HP went up!</div>",
+"ja": null
+},
+"obj_musical_controller_slash_Step_0_gml_260_0_DUP": {
+"en": "<div class=\"indented\">* obj_multiboss_enemy1's HP went up!</div>",
+"ja": null
+},
+"obj_musical_controller_slash_Step_0_gml_261_0_DUP": {
+"en": "<div class=\"indented\">* obj_multiboss_enemy2's HP went up!</div>",
+"ja": null
+},
+"obj_musical_controller_slash_Step_0_gml_262_0_DUP": {
+"en": "<div class=\"indented\">* obj_multiboss_enemy3's HP went up!</div>",
+"ja": null
+},
+"obj_musical_controller_slash_Step_0_gml_263_0_DUP": {
+"en": "<div class=\"indented\">* obj_multiboss_enemy1's and obj_multiboss_enemy2's HP went up!</div>",
+"ja": null
+},
+"obj_musical_controller_slash_Step_0_gml_264_0_DUP": {
+"en": "<div class=\"indented\">* obj_multiboss_enemy1's and obj_multiboss_enemy3's HP went up!</div>",
+"ja": null
+},
+"obj_musical_controller_slash_Step_0_gml_265_0_DUP": {
 "en": "<div class=\"indented\">* obj_multiboss_enemy2's and obj_multiboss_enemy3's HP went up!</div>",
 "ja": null
 }
@@ -153230,7 +153282,7 @@
 "ja": "＊ (ドキドキ。スッキリ)"
 },
 "obj_npc_room_animated_slash_Other_10_gml_374_0": {
-"en": "<div class=\"indented\">* Having a pitch-back space is great for us kids.</div>",
+"en": "<div class=\"indented\">* Having a wide-open space is great for us kids.</div>",
 "ja": "＊ ひろびろとした　ばしょが\n　 あるのって　ボクたち　こどもには\n　 たいせつなこと。"
 },
 "obj_npc_room_animated_slash_Other_10_gml_375_0": {
@@ -153240,6 +153292,18 @@
 "obj_npc_room_animated_slash_Other_10_gml_379_0": {
 "en": "<div class=\"indented\">* And sometimes... It's bad to get your freak out.</div>",
 "ja": "＊ そして　ときには…\n　 フロアをわかせるのは\n　 よくないものだよ。"
+},
+"obj_npc_room_animated_slash_Other_10_gml_374_0_DUP": {
+"en": "<div class=\"indented\">* (...it's too dark to hear anything.)</div>",
+"ja": null
+},
+"obj_npc_room_animated_slash_Other_10_gml_374_0_DUP_DUP": {
+"en": "<div class=\"indented\">* And sometimes... it's too dark get your freak out.</div>",
+"ja": null
+},
+"obj_npc_room_animated_slash_Other_10_gml_374_0_DUP_DUP_DUP": {
+"en": "<div class=\"indented\">* Having a pitch-back space is great for us kids.</div>",
+"ja": null
 },
 "obj_npc_room_animated_slash_Other_10_gml_605_0": {
 "en": "<div class=\"indented\">* I keep ending up in this situation...</div>",
@@ -167858,7 +167922,7 @@
 "ja": "＊ 既出だ。"
 },
 "scr_encountersetup_slash_scr_encountersetup_gml_60_0": {
-"en": "<div class=\"indented\">* A multiboss example with controller showed up.</div>",
+"en": "<div class=\"indented\">* Test enemies showed up.</div>",
 "ja": null
 },
 "scr_encountersetup_slash_scr_encountersetup_gml_98_0": {
@@ -168112,6 +168176,14 @@
 "scr_encountersetup_slash_scr_encountersetup_gml_1848_0": {
 "en": "<div class=\"indented\">* Steel clangs in a song.</div>",
 "ja": "＊ 鋼の響きが　曲を奏でる。"
+},
+"scr_encountersetup_slash_scr_encountersetup_gml_60_0_DUP": {
+"en": "<div class=\"indented\">* A multiboss example showed up.</div>",
+"ja": null
+},
+"scr_encountersetup_slash_scr_encountersetup_gml_60_0_DUP_DUP": {
+"en": "<div class=\"indented\">* A multiboss example with controller showed up.</div>",
+"ja": null
 },
 "scr_encountersetup_slash_scr_encountersetup_gml_1105_0_b": {
 "en": null,
@@ -170628,7 +170700,7 @@
 },
 "scr_monstersetup": {
 "scr_monstersetup_slash_scr_monstersetup_gml_7_0": {
-"en": "Multiboss C Example",
+"en": "Enemy",
 "ja": "Enemy"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_19_0": {
@@ -170636,11 +170708,11 @@
 "ja": "Check"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_21_0": {
-"en": "Taunt",
+"en": "Warning",
 "ja": "Warning"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_23_0": {
-"en": "Loner",
+"en": "Victory",
 "ja": "Victory"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_25_0": {
@@ -170668,7 +170740,7 @@
 "ja": "CoolDance"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_42_0": {
-"en": "SimuFlatter",
+"en": "SimuDance",
 "ja": "SimuDance"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_50_0": {
@@ -172574,6 +172646,26 @@
 "scr_monstersetup_slash_scr_monstersetup_gml_2580_0": {
 "en": "R-Action",
 "ja": "Ｒアクション"
+},
+"scr_monstersetup_slash_scr_monstersetup_gml_21_0_DUP": {
+"en": "Taunt",
+"ja": null
+},
+"scr_monstersetup_slash_scr_monstersetup_gml_23_0_DUP": {
+"en": "SimuFlatter",
+"ja": null
+},
+"scr_monstersetup_slash_scr_monstersetup_gml_23_0_DUP_DUP": {
+"en": "Loner",
+"ja": null
+},
+"scr_monstersetup_slash_scr_monstersetup_gml_42_0_DUP": {
+"en": "SimuFlatter",
+"ja": null
+},
+"scr_monstersetup_slash_scr_monstersetup_gml_7_0_DUP": {
+"en": "Multiboss C Example",
+"ja": null
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_4_0": {
 "en": null,
