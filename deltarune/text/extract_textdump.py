@@ -177,7 +177,7 @@ for n in CHAPTERS:
                 case "scr_84_get_lang_string", [None]:
                     pass
                 case "scr_84_get_lang_string", [str(arg)]:
-                    en[arg] = text[1]["ja"][arg]
+                    en[arg] = text[1]["en"][arg]
                     sourcemap[n].setdefault(arg, f"{filename}:{lineno}")
                 case "msgsetloc", [None, r"\C2"]:
                     pass

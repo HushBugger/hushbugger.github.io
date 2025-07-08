@@ -97252,99 +97252,99 @@
 },
 "obj_rabbick_enemy": {
 "obj_rabbick_enemy_slash_Draw_0_gml_45_0": {
-"en": "(くたびれ)",
+"en": "(Tired)",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_13_0": {
-"en": "ドドドン\nタタタン\nどうしたん？",
+"en": "Snitter\nsnatter\nwhat's the\nmatter",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_14_0": {
-"en": "ドゥルルルル～",
+"en": "Duruuuu---",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_15_0": {
-"en": "ぴょん　ぴょん",
+"en": "Hop, hop",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_16_0": {
-"en": "にゃあ",
+"en": "Meow.",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_17_0": {
-"en": "ウサギは\nカエルの\n続編だよ",
+"en": "Bunnies are\nthe sequel\nto frogs.",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_21_0": {
-"en": "ふんわり\nクリーンくん",
+"en": "A soft and\nclean boy.",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_22_0": {
-"en": "さわやか\nフレッシュくん",
+"en": "A refreshing\nboy.",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_23_0": {
-"en": "さっぱり\nスイートちゃん",
+"en": "A sweet and\nfresh girl.",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_24_0": {
-"en": "すっきり\nナイスちゃん",
+"en": "A nice and\ntidy girl.",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_79_0": {
-"en": "＊ ラビックは　下に　たまるのに\n　 ちょうどよさそうな\n　 ソファを探している。",
+"en": "<div class=\"indented\">* Rabbick is looking for a couch to get stuck under.</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_80_0": {
-"en": "＊ ラビックは\n　 カビくさい　うなり声を発した。",
+"en": "<div class=\"indented\">* Rabbick emits a musty groan.</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_81_0": {
-"en": "＊ ラビックは\n　 あたりの土壌に　ダメージを与えた。",
+"en": "<div class=\"indented\">* Rabbick ambiently damages the soil.</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_82_0": {
-"en": "＊ ほこりっぽいカラシの　ニオイが\n　 充満している。",
+"en": "<div class=\"indented\">* The battlefield is filled with the smell of dusty mustard.</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_83_0": {
-"en": "＊ ラビックは\n　 存在が薄くなってきた。",
+"en": "<div class=\"indented\">* Rabbick is starting to look wispy.</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_84_0": {
-"en": "＊ ラビックは\n　 すっかりきれいになった。",
+"en": "<div class=\"indented\">* Rabbick is now nice and clean.</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_118_0": {
-"en": "＊ ラビック - ATK 8 DEF 1\n＊ わたぼこりの　かたまり。\n　 大そうじをすると出現。",
+"en": "<div class=\"indented\">* RABBICK - AT 8 DF 1</div><div class=\"indented\">* This dusty bunny needs a bit</div><div class=\"indented\">  of spring cleaning.</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_128_0": {
-"en": "＊ <span class=\"param\">~1</span>を連打して\n　 息を吹きかけろ！",
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> repeatedly to blow air!</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_138_0": {
-"en": "＊ クリスは\n　 ラビックに　息を吹きかけた。\n＊ ラビックは　すっかり吹き飛んだ…",
+"en": "<div class=\"indented\">* Kris breathed on the Rabbick.</div><div class=\"indented\">* It blew away entirely...</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_150_0": {
-"en": "＊ <span class=\"param\">~1</span>を連打して\n　 息を吹きかけろ！",
+"en": "<div class=\"indented\">* Press <span class=\"param\">~1</span> repeatedly to blow air!</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_175_0": {
-"en": "＊ わたぼこりは　みんな　吹き飛んだ！",
+"en": "<div class=\"indented\">* The bunnies were blown away!</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_186_0": {
-"en": "＊ ラルセイと２人で　ラビックに\n　 けいこくした。「スージィに注意！」\n＊ 敵は身がまえた。",
+"en": "<div class=\"indented\">* You and Ralsei warned Rabbick about Susie.</div><div class=\"indented\">* The enemy went on guard...</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_188_0": {
-"en": "＊ ラルセイと２人で　敵に\n　 けいこくした。「スージィに注意！」\n＊ 敵は身がまえた。",
+"en": "<div class=\"indented\">* You and Ralsei warned the enemies about Susie.</div><div class=\"indented\">* Everyone went on guard.</div>",
 "ja": null
 },
 "obj_rabbick_enemy_slash_Step_0_gml_191_0": {
-"en": "(みがまえ)",
+"en": "(Warned)",
 "ja": null
 }
 },
