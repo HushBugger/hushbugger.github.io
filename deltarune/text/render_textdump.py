@@ -268,8 +268,8 @@ EVENTS = [
 ]
 
 
-def smartsort(text: str):
-    pieces = text.split("_")
+def smartsort(key: str):
+    pieces = key.split("_")
     for i, piece in enumerate(pieces):
         if piece.isdigit():
             # Natsort of integers (particularly line numbers)
@@ -278,11 +278,31 @@ def smartsort(text: str):
             # Try to order GameMaker events, e.g. Create text is usually
             # shown earlier than Alarm text
             pieces[i] = str(EVENTS.index(piece)).rjust(3, "0")
+
+    # Further sort by the actual line order in the files
+    if "gml" in pieces:
+        assert pieces.count("gml") == 1
+        # (using `n` here is mildly criminal)
+        if key in sourcemap[n]:
+            filename, lineno = sourcemap[n][key].split(":")
+            lineno = int(lineno)
+        else:
+            filename = "zzzzzz"
+            lineno = 9999999
+        pieces.insert(pieces.index("gml") + 1, str(lineno).rjust(10, "0"))
+        # Some translation keys that indicate the same file belong to different files
+        # e.g. DEVICE_MENU_slash_Create_0_gml_107_0 and DEVICE_MENU_slash_Create_0_gml_17_0
+        # are on similar lines in different files and we don't want them together
+        pieces.insert(pieces.index("gml") + 1, filename)
+
     return pieces
 
 
 lang: dict[str, dict[typing.Literal["en", "ja"], dict[str, str]]] = json.load(
     open("lang.json", encoding="utf-8")
+)
+sourcemap: dict[str, dict[str, str]] = json.load(
+    open("sourcemap.json", encoding="utf-8")
 )
 rendered = {}
 for n in lang:
