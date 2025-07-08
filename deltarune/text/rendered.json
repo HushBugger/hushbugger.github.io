@@ -24656,8 +24656,8 @@
 "ja": "Trefoil"
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_182_0": {
-"en": "Mossy rapier with a clover emblem.\nIncreases $ found by 5.",
-"ja": "Mossy rapier with a clover emblem.\nIncreases $ found by 5."
+"en": "Mossy rapier with a clover emblem.\nIncreases $ found by 5%.",
+"ja": "Mossy rapier with a clover emblem.\nIncreases $ found by 5%."
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_183_0": {
 "en": "That tacky thing? No!",
@@ -59026,7 +59026,7 @@
 "ja": "シルバーカード"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_190_0": {
-"en": "A square charm that increases\ndropped money by 5",
+"en": "A square charm that increases\ndropped money by 5%",
 "ja": "バトル後に手に入るおカネが５％増える。"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_191_0": {
@@ -59042,7 +59042,7 @@
 "ja": "わたしの　うで時計と同じ色！"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_203_0": {
-"en": "$ +5",
+"en": "$ +5%",
 "ja": "$ +5％"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_210_0": {
@@ -59154,7 +59154,7 @@
 "ja": "銀のうで時計"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_321_0": {
-"en": "Grazing bullets affects\nthe turn length by 10 more",
+"en": "Grazing bullets affects\nthe turn length by 10% more",
 "ja": "バトルで弾をギリギリよけると\n敵ターンの長さが短くなる(効果10％+)。"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_322_0": {
@@ -59178,7 +59178,7 @@
 "ja": "かすりタイム＋"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_343_0": {
-"en": "Gain 10 more tension from\ngrazing bullets",
+"en": "Gain 10% more tension from\ngrazing bullets",
 "ja": "バトル中に弾をギリギリかわして得られる\nテンションの量が10％増える"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_364_0": {
@@ -59302,7 +59302,7 @@
 "ja": "(なんか…　見覚えが…？)"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_505_0": {
-"en": "$ +30",
+"en": "$ +30%",
 "ja": "$ +30％"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_516_0": {
@@ -60106,23 +60106,23 @@
 "ja": "コーヒーチョコレート味のクッキー。\nかむと文字があふれだす。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_87_0": {
-"en": "Raises TP by 32 in battle.",
-"ja": "バトル中　TPを32アップ。"
+"en": "Raises TP by 32% in battle.",
+"ja": "バトル中　TPを32%アップ。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_90_0": {
-"en": "Raises TP by 50 in battle.",
-"ja": "バトル中　TPを50アップ。"
+"en": "Raises TP by 50% in battle.",
+"ja": "バトル中　TPを50%アップ。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_93_0": {
 "en": "Raises TP to full in battle.",
 "ja": "バトル中　TPを満タンにする。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_96_0": {
-"en": "A minty powder that revives all\nfallen party members to 25 HP.",
+"en": "A minty powder that revives all\nfallen party members to 25% HP.",
 "ja": "ミントの香りの粉。\n倒れた仲間全員を　HP25％で復活させる。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_99_0": {
-"en": "A breakable mint that revives all\nfallen party members to 100 HP.",
+"en": "A breakable mint that revives all\nfallen party members to 100% HP.",
 "ja": "割って使えるミント。\n倒れた仲間全員を　HP100％で復活させる。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_102_0": {
@@ -60378,7 +60378,7 @@
 "ja": "テンションビッツ"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_200_0": {
-"en": "Raises\nTP\n32",
+"en": "Raises\nTP\n32%",
 "ja": "TP\n32％UP"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_206_0": {
@@ -60386,7 +60386,7 @@
 "ja": "テンションジェム"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_207_0": {
-"en": "Raises\nTP\n50",
+"en": "Raises\nTP\n50%",
 "ja": "TP\n50％UP"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_213_0": {
@@ -60402,7 +60402,7 @@
 "ja": "リザレクトダスト"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_221_0": {
-"en": "Revives\nteam\n25",
+"en": "Revives\nteam\n25%",
 "ja": "味方全員\nHP25％で\n復活"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_227_0": {
@@ -60410,7 +60410,7 @@
 "ja": "リザレクトライト"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_228_0": {
-"en": "Revives\nteam\n100",
+"en": "Revives\nteam\n100%",
 "ja": "味方全員\nHP100％で\n復活"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_234_0": {
@@ -74407,7 +74407,7 @@
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_182_0": {
 "en": null,
-"ja": "Mossy rapier with a clover emblem.\nIncreases $ found by 5."
+"ja": "Mossy rapier with a clover emblem.\nIncreases $ found by 5%."
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_183_0": {
 "en": null,
@@ -74426,7 +74426,7 @@
 "ja": "トレフォイル"
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_195_0": {
-"en": "Mossy rapier with a clover emblem.\nIncreases $ found by 5.",
+"en": "Mossy rapier with a clover emblem.\nIncreases $ found by 5%.",
 "ja": "クローバーのエンブレムがついた\nこけむしたレイピア。\n獲得する$が5％増える。"
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_196_0": {
@@ -107956,7 +107956,7 @@
 "ja": "シルバーカード"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_190_0": {
-"en": "A square charm that increases\ndropped money by 5",
+"en": "A square charm that increases\ndropped money by 5%",
 "ja": "バトル後に手に入るおカネが５％増える。"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_191_0": {
@@ -107972,7 +107972,7 @@
 "ja": "わたしの　うで時計と同じ色！"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_203_0": {
-"en": "$ +5",
+"en": "$ +5%",
 "ja": "$ +5％"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_210_0": {
@@ -108084,7 +108084,7 @@
 "ja": "銀のうで時計"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_321_0": {
-"en": "Grazing bullets affects\nthe turn length by 10 more",
+"en": "Grazing bullets affects\nthe turn length by 10% more",
 "ja": "バトルで弾をギリギリよけると\n敵ターンの長さが短くなる(効果10％+)。"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_322_0": {
@@ -108108,7 +108108,7 @@
 "ja": "かすりタイム＋"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_343_0": {
-"en": "Gain 10 more tension from\ngrazing bullets",
+"en": "Gain 10% more tension from\ngrazing bullets",
 "ja": "バトル中に弾をギリギリかわして得られる\nテンションの量が10％増える"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_364_0": {
@@ -108232,7 +108232,7 @@
 "ja": "(なんか…　見覚えが…？)"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_505_0": {
-"en": "$ +30",
+"en": "$ +30%",
 "ja": "$ +30％"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_516_0": {
@@ -109420,23 +109420,23 @@
 "ja": "コーヒーチョコレート味のクッキー。\nかむと文字があふれだす。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_87_0": {
-"en": "Raises TP by 32 in battle.",
-"ja": "バトル中　TPを32アップ。"
+"en": "Raises TP by 32% in battle.",
+"ja": "バトル中　TPを32%アップ。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_90_0": {
-"en": "Raises TP by 50 in battle.",
-"ja": "バトル中　TPを50アップ。"
+"en": "Raises TP by 50% in battle.",
+"ja": "バトル中　TPを50%アップ。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_93_0": {
 "en": "Raises TP to full in battle.",
 "ja": "バトル中　TPを満タンにする。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_96_0": {
-"en": "A minty powder that revives all\nfallen party members to 25 HP.",
+"en": "A minty powder that revives all\nfallen party members to 25% HP.",
 "ja": "ミントの香りの粉。\n倒れた仲間全員を　HP25％で復活させる。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_99_0": {
-"en": "A breakable mint that revives all\nfallen party members to 100 HP.",
+"en": "A breakable mint that revives all\nfallen party members to 100% HP.",
 "ja": "割って使えるミント。\n倒れた仲間全員を　HP100％で復活させる。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_102_0": {
@@ -109740,7 +109740,7 @@
 "ja": "テンションビッツ"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_200_0": {
-"en": "Raises\nTP\n32",
+"en": "Raises\nTP\n32%",
 "ja": "TP\n32％UP"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_206_0": {
@@ -109748,7 +109748,7 @@
 "ja": "テンションジェム"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_207_0": {
-"en": "Raises\nTP\n50",
+"en": "Raises\nTP\n50%",
 "ja": "TP\n50％UP"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_213_0": {
@@ -109764,7 +109764,7 @@
 "ja": "リザレクトダスト"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_221_0": {
-"en": "Revives\nteam\n25",
+"en": "Revives\nteam\n25%",
 "ja": "味方全員\nHP25％で\n復活"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_227_0": {
@@ -109772,7 +109772,7 @@
 "ja": "リザレクトライト"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_228_0": {
-"en": "Revives\nteam\n100",
+"en": "Revives\nteam\n100%",
 "ja": "味方全員\nHP100％で\n復活"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_234_0": {
@@ -112998,7 +112998,7 @@
 "ja": "Ｓアクション"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2007_0": {
-"en": "50\nMercy",
+"en": "50%\nMercy",
 "ja": "みのがし\n50％"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2011_0": {
@@ -113006,7 +113006,7 @@
 "ja": "Ｒアクション"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2012_0": {
-"en": "25\nand\nTired",
+"en": "25%\nand\nTired",
 "ja": "25％\n＋\nくたびれ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2015_0": {
@@ -127359,7 +127359,7 @@
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_182_0": {
 "en": null,
-"ja": "Mossy rapier with a clover emblem.\nIncreases $ found by 5."
+"ja": "Mossy rapier with a clover emblem.\nIncreases $ found by 5%."
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_183_0": {
 "en": null,
@@ -127378,7 +127378,7 @@
 "ja": "トレフォイル"
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_195_0": {
-"en": "Mossy rapier with a clover emblem.\nIncreases $ found by 5.",
+"en": "Mossy rapier with a clover emblem.\nIncreases $ found by 5%.",
 "ja": "クローバーのエンブレムがついた\nこけむしたレイピア。\n獲得する$が5％増える。"
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_196_0": {
@@ -166882,7 +166882,7 @@
 "ja": "シルバーカード"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_190_0": {
-"en": "A square charm that increases\ndropped money by 5",
+"en": "A square charm that increases\ndropped money by 5%",
 "ja": "バトル後に手に入るおカネが５％増える。"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_191_0": {
@@ -166898,7 +166898,7 @@
 "ja": "わたしの　うで時計と同じ色！"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_203_0": {
-"en": "$ +5",
+"en": "$ +5%",
 "ja": "$ +5％"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_210_0": {
@@ -167010,7 +167010,7 @@
 "ja": "銀のうで時計"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_321_0": {
-"en": "Grazing bullets affects\nthe turn length by 10 more",
+"en": "Grazing bullets affects\nthe turn length by 10% more",
 "ja": "バトルで弾をギリギリよけると\n敵ターンの長さが短くなる(効果10％+)。"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_322_0": {
@@ -167034,7 +167034,7 @@
 "ja": "かすりタイム＋"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_343_0": {
-"en": "Gain 10 more tension from\ngrazing bullets",
+"en": "Gain 10% more tension from\ngrazing bullets",
 "ja": "バトル中に弾をギリギリかわして得られる\nテンションの量が10％増える"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_364_0": {
@@ -167158,7 +167158,7 @@
 "ja": "(なんか…　見覚えが…？)"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_505_0": {
-"en": "$ +30",
+"en": "$ +30%",
 "ja": "$ +30％"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_516_0": {
@@ -167486,8 +167486,8 @@
 "ja": "やだ！ キモチワルイ！"
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_803_0": {
-"en": "$ -10",
-"ja": "$ -10"
+"en": "$ -10%",
+"ja": "$ -10%"
 }
 },
 "scr_ascii_input_names": {
@@ -168400,23 +168400,23 @@
 "ja": "コーヒーチョコレート味のクッキー。\nかむと文字があふれだす。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_87_0": {
-"en": "Raises TP by 32 in battle.",
-"ja": "バトル中　TPを32アップ。"
+"en": "Raises TP by 32% in battle.",
+"ja": "バトル中　TPを32%アップ。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_90_0": {
-"en": "Raises TP by 50 in battle.",
-"ja": "バトル中　TPを50アップ。"
+"en": "Raises TP by 50% in battle.",
+"ja": "バトル中　TPを50%アップ。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_93_0": {
 "en": "Raises TP to full in battle.",
 "ja": "バトル中　TPを満タンにする。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_96_0": {
-"en": "A minty powder that revives all\nfallen party members to 25 HP.",
+"en": "A minty powder that revives all\nfallen party members to 25% HP.",
 "ja": "ミントの香りの粉。\n倒れた仲間全員を　HP25％で復活させる。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_99_0": {
-"en": "A breakable mint that revives all\nfallen party members to 100 HP.",
+"en": "A breakable mint that revives all\nfallen party members to 100% HP.",
 "ja": "割って使えるミント。\n倒れた仲間全員を　HP100％で復活させる。"
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_102_0": {
@@ -168720,7 +168720,7 @@
 "ja": "テンションビッツ"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_200_0": {
-"en": "Raises\nTP\n32",
+"en": "Raises\nTP\n32%",
 "ja": "TP\n32％UP"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_206_0": {
@@ -168728,7 +168728,7 @@
 "ja": "テンションジェム"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_207_0": {
-"en": "Raises\nTP\n50",
+"en": "Raises\nTP\n50%",
 "ja": "TP\n50％UP"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_213_0": {
@@ -168744,7 +168744,7 @@
 "ja": "リザレクトダスト"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_221_0": {
-"en": "Revives\nteam\n25",
+"en": "Revives\nteam\n25%",
 "ja": "味方全員\nHP25％で\n復活"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_227_0": {
@@ -168752,7 +168752,7 @@
 "ja": "リザレクトライト"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_228_0": {
-"en": "Revives\nteam\n100",
+"en": "Revives\nteam\n100%",
 "ja": "味方全員\nHP100％で\n復活"
 },
 "scr_iteminfo_slash_scr_iteminfo_gml_234_0": {
@@ -172060,7 +172060,7 @@
 "ja": "エクサシズム"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1980_0": {
-"en": "20 &\nDelayed\nTIRED",
+"en": "20% &\nDelayed\nTIRED",
 "ja": "20％＆\nおくれて\nくたびれ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1982_0": {
@@ -172072,7 +172072,7 @@
 "ja": "Ｘサシズム"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1984_0": {
-"en": "60 &\nDelayed\nTIRED",
+"en": "60% &\nDelayed\nTIRED",
 "ja": "60％＆\nおくれて\nくたびれ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1990_0": {
@@ -172120,7 +172120,7 @@
 "ja": "Ｓアクション"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2007_0": {
-"en": "50\nMercy",
+"en": "50%\nMercy",
 "ja": "みのがし\n50％"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2011_0": {
@@ -172128,7 +172128,7 @@
 "ja": "Ｒアクション"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2012_0": {
-"en": "25\nand\nTired",
+"en": "25%\nand\nTired",
 "ja": "25％\n＋\nくたびれ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2017_0": {
@@ -172160,7 +172160,7 @@
 "ja": "ライトアップ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2032_0": {
-"en": "50 &\nTIRE\nothers",
+"en": "50% &\nTIRE\nothers",
 "ja": "50％ ＆\n他の敵が\nくたびれ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2037_0": {
@@ -172240,7 +172240,7 @@
 "ja": "ゆずる"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2104_0": {
-"en": "35\nMercy",
+"en": "35%\nMercy",
 "ja": "みのがし\n35％"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2107_0_b": {
@@ -172324,7 +172324,7 @@
 "ja": "スピン"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2188_0": {
-"en": "Spin\n50\nmercy",
+"en": "Spin\n50%\nmercy",
 "ja": "スピン\nみのがし\n50％"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2191_0": {
@@ -172332,7 +172332,7 @@
 "ja": "スピンＳ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2194_0": {
-"en": "60\nMercy\nto all",
+"en": "60%\nMercy\nto all",
 "ja": "ぜんいん\nみのがし\n60％"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2197_0": {
@@ -185484,11 +185484,11 @@
 "ja": "＊ きにしないで！\n　 とどけてくれた　おれいって\n　 ことで　いいですよ！"
 },
 "scr_text_slash_scr_text_gml_8925_0": {
-"en": "\nAdd 25\nred juice",
+"en": "\nAdd 25%\nred juice",
 "ja": "\nあかを\n25％たす"
 },
 "scr_text_slash_scr_text_gml_8926_0": {
-"en": "\nAdd 25\nyellow juice",
+"en": "\nAdd 25%\nyellow juice",
 "ja": "\nきいろを\n25％たす"
 },
 "scr_text_slash_scr_text_gml_8929_0": {
@@ -187837,7 +187837,7 @@
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_182_0": {
 "en": null,
-"ja": "Mossy rapier with a clover emblem.\nIncreases $ found by 5."
+"ja": "Mossy rapier with a clover emblem.\nIncreases $ found by 5%."
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_183_0": {
 "en": null,
@@ -187856,7 +187856,7 @@
 "ja": "トレフォイル"
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_195_0": {
-"en": "Mossy rapier with a clover emblem.\nIncreases $ found by 5.",
+"en": "Mossy rapier with a clover emblem.\nIncreases $ found by 5%.",
 "ja": "クローバーのエンブレムがついた\nこけむしたレイピア。\n獲得する$が5％増える。"
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_196_0": {
@@ -188348,7 +188348,7 @@
 "ja": "…だれの羽根？"
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_716_0": {
-"en": "$ +5",
+"en": "$ +5%",
 "ja": "$ +5％"
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_721_0": {

@@ -127,6 +127,24 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
             case "^":
                 if text[i + 1].isdigit():
                     i += 1
+            case "%" if (
+                msgid.startswith(
+                    (
+                        "scr_weaponinfo",
+                        "scr_armorinfo",
+                        "scr_iteminfo",
+                        "scr_itemdesc",
+                        "scr_monstersetup",
+                    )
+                )
+                and not msgid.startswith(("scr_itemdesc_oldtype",))
+                or msgid
+                in [
+                    "scr_text_slash_scr_text_gml_8925_0",
+                    "scr_text_slash_scr_text_gml_8926_0",
+                ]
+            ):
+                out.write("%")
             case "%":
                 pass
             case ">":
