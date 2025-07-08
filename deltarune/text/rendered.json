@@ -95610,7 +95610,7 @@
 "ja": "＊ ムラサキの世界…\n　 ヤダなに？\n　 そんなのブキミだって　思ってる？"
 },
 "obj_npc_room_slash_Other_10_gml_2031_0": {
-"en": "<div class=\"indented\">* Tsk... You have seen not but that tempered by light.</div>",
+"en": "<div class=\"indented\">* Tsk... You have seen naught but that tempered by light.</div>",
 "ja": "＊ …んもう　これだから\n　 光で調整された世界しか\n　 見たことないコは…"
 },
 "obj_npc_room_slash_Other_10_gml_2032_0": {
@@ -107530,7 +107530,7 @@
 "ja": "口説く"
 },
 "obj_watercooler_enemy_slash_Step_0_gml_226_0": {
-"en": "<div class=\"indented\">* Everyone chat around the watercooler.</div>",
+"en": "<div class=\"indented\">* Everyone chatted around the watercooler.</div>",
 "ja": "＊ ウォータークーラーのまわりで\n　 みんなで　立ち話した。"
 },
 "obj_watercooler_enemy_slash_Step_0_gml_234_0": {
@@ -133272,7 +133272,7 @@
 "ja": "ローカロリーキャットフードの\nクーポンも　あげちゃう～！"
 },
 "obj_ch4_PDC03_catty_preach_slash_Create_0_gml_22_0": {
-"en": "We, have like, such A HUGE pile\nof those to get rid OMG",
+"en": "We, have like, such A HUGE pile\nof those to get rid of OMG",
 "ja": "てか　クーポンたまりすぎて\nマジこまるから　もらって～！"
 },
 "obj_ch4_PDC03_catty_preach_slash_Create_0_gml_23_0": {
@@ -143702,7 +143702,7 @@
 "ja": "＊ (鐘でできた　カベだ。登る？)"
 },
 "obj_dw_church_waterfallroom_slash_Step_0_gml_101_0": {
-"en": "<div class=\"indented\">* It's too slippery to climb... If only you had something help you climb.</div>",
+"en": "<div class=\"indented\">* It's too slippery to climb... If only you had something to help you climb.</div>",
 "ja": "＊ (ツルツルすべって登れない。\n　 かべを　よじ登る道具さえあれば…)"
 },
 "obj_dw_church_waterfallroom_slash_Step_0_gml_108_0": {
@@ -148426,7 +148426,7 @@
 "ja": "＊ 見逃してくれと　頼んだ…"
 },
 "obj_holywatercooler_enemy_slash_Step_0_gml_417_0": {
-"en": "<div class=\"indented\">* Everyone chat around the Watercooler!</div>",
+"en": "<div class=\"indented\">* Everyone chatted around the Watercooler!</div>",
 "ja": "＊ ウォータークーラーの\n　 近くに集まって　おしゃべりした！"
 },
 "obj_holywatercooler_enemy_slash_Step_0_gml_429_0": {
@@ -160600,7 +160600,7 @@
 "ja": "＊ ふはは…　わたしが\n　 やみおちしたら　ママが\n　 ないちゃうよ。"
 },
 "obj_readable_room1_slash_Other_10_gml_3819_0": {
-"en": "<div class=\"indented\">* (It's Noelle's bed. Under is a rock CD with a photo of Noelle in dark makeup.)</div>",
+"en": "<div class=\"indented\">* (It's Noelle's bed. Under it is a rock CD with a photo of Noelle in dark makeup.)</div>",
 "ja": "＊ (ノエルのベッド。したに　おいて\n　 ある　ロックのCDは　ゴスメイクを\n　 した　ノエルのしゃしんつきだ)"
 },
 "obj_readable_room1_slash_Other_10_gml_3828_0": {
@@ -160716,7 +160716,7 @@
 "ja": "＊ (…ペイントボールの　そうびと…\n　 てきとうに　トレースしたらしい\n　 ドラゴンの　えが　ある)"
 },
 "obj_readable_room1_slash_Other_10_gml_4011_0": {
-"en": "<div class=\"indented\">* Rollerblades, wiffle bat. Looking at these things make your head hurt.</div>",
+"en": "<div class=\"indented\">* Rollerblades, wiffle bat. Looking at these things makes your head hurt.</div>",
 "ja": "＊ (ローラーブレード…おもちゃの\n　 バット…　みていると　あたまが\n　 いたくなる)"
 },
 "obj_readable_room1_slash_Other_10_gml_4018_0": {
@@ -188347,6 +188347,10 @@
 "en": "... whose feather is this?",
 "ja": "…だれの羽根？"
 },
+"scr_weaponinfo_slash_scr_weaponinfo_gml_716_0": {
+"en": "$ +5",
+"ja": "$ +5％"
+},
 "scr_weaponinfo_slash_scr_weaponinfo_gml_721_0": {
 "en": "AbsorbAx",
 "ja": "スクープアックス"
@@ -188366,6 +188370,10 @@
 "scr_weaponinfo_slash_scr_weaponinfo_gml_725_0": {
 "en": "That red... is that blood?",
 "ja": "赤いのは…血？"
+},
+"scr_weaponinfo_slash_scr_weaponinfo_gml_739_0": {
+"en": "Vampire",
+"ja": "吸血"
 }
 }
 }
