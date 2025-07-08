@@ -156,7 +156,11 @@ for n in CHAPTERS:
             for func, args in parse_line(line):
                 match func, args:
                     case "scr_84_get_lang_string", [str(arg)]:
-                        sourcemap[n][arg] = f"{filename}:{lineno}"
+                        # setdefault() so that the first one wins. Why?
+                        # 1. Predictable ordering: if we overrid then keys would
+                        #    be ordered by first match but contain last match.
+                        # 2. Better results for obj_ch2_scene26_powers_combined.
+                        sourcemap[n].setdefault(arg, f"{filename}:{lineno}")
                     case _:
                         print(func, args, line, file=sys.stderr)
                         sys.exit(1)
@@ -174,7 +178,7 @@ for n in CHAPTERS:
                     pass
                 case "scr_84_get_lang_string", [str(arg)]:
                     en[arg] = text[1]["ja"][arg]
-                    sourcemap[n][arg] = f"{filename}:{lineno}"
+                    sourcemap[n].setdefault(arg, f"{filename}:{lineno}")
                 case "msgsetloc", [None, r"\C2"]:
                     pass
                 case "msgsetsubloc", [None, r"\TX \F0 \E~1 \Fb \T0 %", None]:
@@ -189,7 +193,7 @@ for n in CHAPTERS:
                 ):
                     assert " " not in key, repr(key)
                     en[key] = trans
-                    sourcemap[n][key] = f"{filename}:{lineno}"
+                    sourcemap[n].setdefault(key, f"{filename}:{lineno}")
                 case _:
                     print(func, args, line, file=sys.stderr)
                     sys.exit(1)
