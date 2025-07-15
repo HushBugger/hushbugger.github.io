@@ -107,7 +107,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 ]
                 and not msgid.startswith(("obj_credits_ch4",))
             ):
-                out.write("&")
+                out.write("&amp;")
             case "#" if msgid.startswith(
                 (
                     "obj_readable_room1",
@@ -152,7 +152,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
             case "<":
                 out.write("&lt;")
             case "`":
-                out.write(text[i + 1])
+                out.write(text[i + 1] if text[i + 1] != "&" else "&amp;")
                 i += 1
             case "~" if i + 1 < len(text) and text[i + 1].isdigit():
                 # Some tildes are just part of the message.

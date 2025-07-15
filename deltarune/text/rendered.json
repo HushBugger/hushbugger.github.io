@@ -2440,7 +2440,7 @@
 "ja": "影は　満ち"
 },
 "obj_credits_slash_Step_0_gml_38_0": {
-"en": "Main Artist, Animator, & Cleanup",
+"en": "Main Artist, Animator, &amp; Cleanup",
 "ja": "メインアート／アニメーション＆修正"
 },
 "obj_credits_slash_Step_0_gml_39_0": {
@@ -2512,7 +2512,7 @@
 "ja": "「Don't Forget」 （ボーカルバージョン）"
 },
 "obj_credits_slash_Step_0_gml_120_0": {
-"en": "Piano Arranged & Vocals Performed by",
+"en": "Piano Arranged &amp; Vocals Performed by",
 "ja": "ピアノアレンジ＆歌"
 },
 "obj_credits_slash_Step_0_gml_121_0": {
@@ -2548,7 +2548,7 @@
 "ja": "To be continued"
 },
 "obj_credits_slash_Step_0_gml_136_0": {
-"en": "Outfit & Color Assistance",
+"en": "Outfit &amp; Color Assistance",
 "ja": "闇の世界　コスチュームデザイン"
 },
 "obj_credits_slash_Step_0_gml_137_0": {
@@ -15114,7 +15114,7 @@
 "ja": "アイテム\nよい香りの\nソース\n50HP回復"
 },
 "obj_shop2_slash_Create_0_gml_74_0": {
-"en": "WEAPON\nHeroic &\nCool",
+"en": "WEAPON\nHeroic &amp;\nCool",
 "ja": "ぶき\n勇ましくて\nかっこいい"
 },
 "obj_shop2_slash_Create_0_gml_75_0": {
@@ -39074,7 +39074,7 @@
 "ja": "-Fangamer テスト-"
 },
 "obj_credits_2_slash_Draw_0_gml_18_0": {
-"en": "-Trailers & All Video Editing-",
+"en": "-Trailers &amp; All Video Editing-",
 "ja": "-トレーラー ＆ 全動画編集-"
 },
 "obj_credits_2_slash_Step_0_gml_27_0": {
@@ -39254,7 +39254,7 @@
 "ja": "-Special Thanks-"
 },
 "obj_credits_2_slash_Step_0_gml_318_0": {
-"en": "All 8-4 & Fangamer Staff",
+"en": "All 8-4 &amp; Fangamer Staff",
 "ja": "8-4 ＆ Fangamer スタッフ"
 },
 "obj_credits_slash_Step_0_gml_21_0": {
@@ -39274,8 +39274,8 @@
 "ja": "To be continued"
 },
 "obj_credits_slash_Step_0_gml_38_0": {
-"en": "Main Artist, Animator, & Cleanup",
-"ja": "メインアート／アニメーション&修正"
+"en": "Main Artist, Animator, &amp; Cleanup",
+"ja": "メインアート／アニメーション&amp;修正"
 },
 "obj_credits_slash_Step_0_gml_39_0": {
 "en": "(BG, Overworld, Battle)",
@@ -39283,7 +39283,7 @@
 },
 "obj_credits_slash_Step_0_gml_40_0": {
 "en": "(Sepia and Menu Art)",
-"ja": "(セピア&メニュー　アート)"
+"ja": "(セピア&amp;メニュー　アート)"
 },
 "obj_credits_slash_Step_0_gml_52_0": {
 "en": "Main Team",
@@ -50542,7 +50542,7 @@
 "ja": "＊ ベッドの　したに　ふるびた\n　 ゲームカセット「キャット・\n　 ナデラー・クエスト」がある。"
 },
 "obj_readable_room1_slash_Other_10_gml_29_0": {
-"en": "<div class=\"indented\">* \"catti & catty\" can be seen faintly written on it in worn gel pen.</div>",
+"en": "<div class=\"indented\">* \"catti &amp; catty\" can be seen faintly written on it in worn gel pen.</div>",
 "ja": "＊ うすれた　カラーペンの　もじで\n　 「キャッティー＆キャッティ」と\n　 かいてある。"
 },
 "obj_readable_room1_slash_Other_10_gml_36_0": {
@@ -55732,7 +55732,7 @@
 "ja": "アイテム\nよい香りの\nソース\n50HP回復"
 },
 "obj_shop2_slash_Create_0_gml_74_0": {
-"en": "WEAPON\nHeroic &\nCool",
+"en": "WEAPON\nHeroic &amp;\nCool",
 "ja": "ぶき\n勇ましくて\nかっこいい"
 },
 "obj_shop2_slash_Create_0_gml_75_0": {
@@ -62972,8 +62972,8 @@
 "ja": "いやしの商談"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1612_0": {
-"en": "DEAL &\nHEAL 60",
-"ja": "商談&\n60HP回復"
+"en": "DEAL &amp;\nHEAL 60",
+"ja": "商談&amp;\n60HP回復"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1591_0": {
 "en": "Spamton NEO",
@@ -76398,8 +76398,8 @@
 "ja": "おぉー"
 },
 "obj_b1rocks1_slash_Step_0_gml_227_0": {
-"en": "$@&!",
-"ja": "$@&!"
+"en": "$@&amp;!",
+"ja": "$@&amp;!"
 },
 "obj_b1rocks1_slash_Step_0_gml_252_0": {
 "en": "It's easy if you hold something over your head.",
@@ -78522,7 +78522,7 @@
 "ja": "\n何してるの？"
 },
 "obj_b3bs_lancerget_lancer_slash_Step_0_gml_18_0": {
-"en": "\nTips &\nTricks",
+"en": "\nTips &amp;\nTricks",
 "ja": "\nヒントと\nコツ"
 },
 "obj_b3bs_lancerget_lancer_slash_Step_0_gml_19_0": {
@@ -82710,7 +82710,7 @@
 "ja": "＊ とはいえ　バンドはチーム！\n　 だれか１人でも　ミスッたら…"
 },
 "obj_ch3_GSB02_slash_Step_0_gml_328_0": {
-"en": "<div class=\"indented\">* The POPU & LARITY LIGHTS will darken! And if they go black...</div>",
+"en": "<div class=\"indented\">* The POPU &amp; LARITY LIGHTS will darken! And if they go black...</div>",
 "ja": "＊ 「POPU」と「LARITY」のライトが\n　 どんどん暗くなる！\n　 真っ黒に　なったら…"
 },
 "obj_ch3_GSB02_slash_Step_0_gml_329_0": {
@@ -86900,7 +86900,7 @@
 "ja": "-Fangamer テスト-"
 },
 "obj_credits_2_slash_Draw_0_gml_18_0": {
-"en": "-Trailers & All Video Editing-",
+"en": "-Trailers &amp; All Video Editing-",
 "ja": "-トレーラー ＆ 全動画編集-"
 },
 "obj_credits_2_slash_Step_0_gml_27_0": {
@@ -87080,7 +87080,7 @@
 "ja": "-Special Thanks-"
 },
 "obj_credits_2_slash_Step_0_gml_318_0": {
-"en": "All 8-4 & Fangamer Staff",
+"en": "All 8-4 &amp; Fangamer Staff",
 "ja": "8-4 ＆ Fangamer スタッフ"
 },
 "obj_credits_slash_Step_0_gml_21_0": {
@@ -87104,8 +87104,8 @@
 "ja": "in Chapter 3"
 },
 "obj_credits_slash_Step_0_gml_38_0": {
-"en": "Main Artist, Animator, & Cleanup",
-"ja": "メインアート／アニメーション&修正"
+"en": "Main Artist, Animator, &amp; Cleanup",
+"ja": "メインアート／アニメーション&amp;修正"
 },
 "obj_credits_slash_Step_0_gml_39_0": {
 "en": "(BG, Overworld, Battle)",
@@ -87113,7 +87113,7 @@
 },
 "obj_credits_slash_Step_0_gml_40_0": {
 "en": "(Sepia and Menu Art)",
-"ja": "(セピア&メニュー　アート)"
+"ja": "(セピア&amp;メニュー　アート)"
 },
 "obj_credits_slash_Step_0_gml_52_0": {
 "en": "Main Team",
@@ -97750,7 +97750,7 @@
 "ja": "＊ ベッドの　したに　ふるびた\n　 ゲームカセット「キャット・\n　 ナデラー・クエスト」がある。"
 },
 "obj_readable_room1_slash_Other_10_gml_29_0": {
-"en": "<div class=\"indented\">* \"catti & catty\" can be seen faintly written on it in worn gel pen.</div>",
+"en": "<div class=\"indented\">* \"catti &amp; catty\" can be seen faintly written on it in worn gel pen.</div>",
 "ja": "＊ うすれた　カラーペンの　もじで\n　 「キャッティー＆キャッティ」と\n　 かいてある。"
 },
 "obj_readable_room1_slash_Other_10_gml_36_0": {
@@ -104844,7 +104844,7 @@
 "ja": "アイテム\nよい香りの\nソース\n50HP回復"
 },
 "obj_shop2_slash_Create_0_gml_74_0": {
-"en": "WEAPON\nHeroic &\nCool",
+"en": "WEAPON\nHeroic &amp;\nCool",
 "ja": "ぶき\n勇ましくて\nかっこいい"
 },
 "obj_shop2_slash_Create_0_gml_75_0": {
@@ -108714,7 +108714,7 @@
 "ja": "(ラニーノ、エルニーナ)"
 },
 "scr_credit_slash_scr_credit_gml_98_0": {
-"en": "-Photoshop Edits & Weird Anim-",
+"en": "-Photoshop Edits &amp; Weird Anim-",
 "ja": "-フォトショ編集／ヘンテコアニメ-"
 },
 "scr_credit_slash_scr_credit_gml_108_0": {
@@ -108742,7 +108742,7 @@
 "ja": "-シェフゲーム プログラミング-"
 },
 "scr_credit_slash_scr_credit_gml_160_0": {
-"en": "-Cowboy Program & Other Detail-",
+"en": "-Cowboy Program &amp; Other Detail-",
 "ja": "-カウボーイ プログラミング／その他-"
 },
 "scr_credit_slash_scr_credit_gml_167_0": {
@@ -108806,7 +108806,7 @@
 "ja": "-タイポグラフィ／ロゴ-"
 },
 "scr_credit_slash_scr_credit_gml_277_0": {
-"en": "-Trailers & All Video Editing-",
+"en": "-Trailers &amp; All Video Editing-",
 "ja": "-トレーラー ＆ 全動画編集-"
 },
 "scr_credit_slash_scr_credit_gml_287_0": {
@@ -108814,7 +108814,7 @@
 "ja": "-Special Thanks-"
 },
 "scr_credit_slash_scr_credit_gml_293_0": {
-"en": "All 8-4 & Fangamer Staff",
+"en": "All 8-4 &amp; Fangamer Staff",
 "ja": "8-4 ＆ Fangamer スタッフ"
 },
 "scr_credit_slash_scr_credit_gml_235_0": {
@@ -112578,8 +112578,8 @@
 "ja": "いやしの商談"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1612_0": {
-"en": "DEAL &\nHEAL 60",
-"ja": "商談&\n60HP回復"
+"en": "DEAL &amp;\nHEAL 60",
+"ja": "商談&amp;\n60HP回復"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1591_0": {
 "en": "Spamton NEO",
@@ -113738,7 +113738,7 @@
 "ja": "天気予報"
 },
 "scr_quiztext_slash_scr_quiztext_gml_397_0": {
-"en": "B&W GAME SHOWS",
+"en": "B&amp;W GAME SHOWS",
 "ja": "白黒クイズ番組"
 },
 "scr_quiztext_slash_scr_quiztext_gml_398_0": {
@@ -138432,7 +138432,7 @@
 "ja": null
 },
 "obj_credits_2_slash_Draw_0_gml_18_0": {
-"en": "-Trailers & All Video Editing-",
+"en": "-Trailers &amp; All Video Editing-",
 "ja": null
 },
 "obj_credits_2_slash_Step_0_gml_27_0": {
@@ -138612,7 +138612,7 @@
 "ja": null
 },
 "obj_credits_2_slash_Step_0_gml_318_0": {
-"en": "All 8-4 & Fangamer Staff",
+"en": "All 8-4 &amp; Fangamer Staff",
 "ja": null
 },
 "obj_credits_slash_Step_0_gml_21_0": {
@@ -138640,8 +138640,8 @@
 "ja": null
 },
 "obj_credits_slash_Step_0_gml_38_0": {
-"en": "Main Artist, Animator, & Cleanup",
-"ja": "メインアート／アニメーション&修正"
+"en": "Main Artist, Animator, &amp; Cleanup",
+"ja": "メインアート／アニメーション&amp;修正"
 },
 "obj_credits_slash_Step_0_gml_39_0": {
 "en": "(BG, Overworld, Battle)",
@@ -138649,7 +138649,7 @@
 },
 "obj_credits_slash_Step_0_gml_40_0": {
 "en": "(Sepia and Menu Art)",
-"ja": "(セピア&メニュー　アート)"
+"ja": "(セピア&amp;メニュー　アート)"
 },
 "obj_credits_slash_Step_0_gml_52_0": {
 "en": "Main Team",
@@ -147222,7 +147222,7 @@
 "ja": "しない"
 },
 "obj_fusionmenu_slash_Step_0_gml_142_0_b": {
-"en": "Lanino&Elnina",
+"en": "Lanino&amp;Elnina",
 "ja": "ラニーノ＆エルニーナ"
 },
 "obj_fusionmenu_slash_Step_0_gml_143_0": {
@@ -151186,7 +151186,7 @@
 "ja": "毛玉をブロック\nしつづけろ！"
 },
 "obj_mike_minigame_tv_slash_Create_0_gml_18_0": {
-"en": "Match the poses in time!\nCLICK&HOLD to extend arms!",
+"en": "Match the poses in time!\nCLICK&amp;HOLD to extend arms!",
 "ja": "タイミングよくポーズを\n合わせろ！クリック＆\n長押しでウデが伸びるぞ！"
 },
 "obj_mike_minigame_tv_slash_Create_0_gml_22_0": {
@@ -151202,15 +151202,15 @@
 "ja": "オドリテ"
 },
 "obj_mike_minigame_tv_slash_Create_0_gml_28_0": {
-"en": "Avoid BATTAT and get CATS\nwith MAUS. VOL&SPEED makes\nBLUECAT, combine for RARECATS!\nCONTROLS: MAUS & VOL.",
-"ja": "マウスでバタットをよけて\nネコCATCH！VOL&SPEEDで\n青ネコ！マージでレアネコ！\n操作：マウス＆VOL"
+"en": "Avoid BATTAT and get CATS\nwith MAUS. VOL&amp;SPEED makes\nBLUECAT, combine for RARECATS!\nCONTROLS: MAUS &amp; VOL.",
+"ja": "マウスでバタットをよけて\nネコCATCH！VOL&amp;SPEEDで\n青ネコ！マージでレアネコ！\n操作：マウス＆VOL"
 },
 "obj_mike_minigame_tv_slash_Create_0_gml_29_0": {
-"en": "JONGLE cats into the HOOP.\nO, Your voice CONTROLS GRAVITY.\nCOMBO with simultaneous cats!\nCONTROLS: MAUS & VOL.",
+"en": "JONGLE cats into the HOOP.\nO, Your voice CONTROLS GRAVITY.\nCOMBO with simultaneous cats!\nCONTROLS: MAUS &amp; VOL.",
 "ja": "ネコを放り投げてリングへIN！\nVOLにて重力をあやつり給へ！\n同時に複数のネコをINしてコンボ！\n操作：マウス＆VOL"
 },
 "obj_mike_minigame_tv_slash_Create_0_gml_30_0": {
-"en": "Put on your shoe, hey, and\nsprint! It's raining cats&cats!\nBring chosen ones to the ARK!\nCONTROLS: MAUS ONLY.",
+"en": "Put on your shoe, hey, and\nsprint! It's raining cats&amp;cats!\nBring chosen ones to the ARK!\nCONTROLS: MAUS ONLY.",
 "ja": "シュ～ズでHEY！スプリント！\n降ってくるニャンコのうち\n選ばれし者を箱舟へ導け！\n操作：マウスのみ"
 },
 "obj_mike_minigame_tv_slash_Create_0_gml_33_0": {
@@ -157568,7 +157568,7 @@
 "ja": "＊ ベッドの　したに　ふるびた\n　 ゲームカセット「キャット・\n　 ナデラー・クエスト」がある。"
 },
 "obj_readable_room1_slash_Other_10_gml_29_0": {
-"en": "<div class=\"indented\">* \"catti & catty\" can be seen faintly written on it in worn gel pen.</div>",
+"en": "<div class=\"indented\">* \"catti &amp; catty\" can be seen faintly written on it in worn gel pen.</div>",
 "ja": "＊ うすれた　カラーペンの　もじで\n　 「キャッティー＆キャッティ」と\n　 かいてある。"
 },
 "obj_readable_room1_slash_Other_10_gml_38_0": {
@@ -164700,7 +164700,7 @@
 "ja": "アイテム\nよい香りの\nソース\n50HP回復"
 },
 "obj_shop2_slash_Create_0_gml_74_0": {
-"en": "WEAPON\nHeroic &\nCool",
+"en": "WEAPON\nHeroic &amp;\nCool",
 "ja": "ぶき\n勇ましくて\nかっこいい"
 },
 "obj_shop2_slash_Create_0_gml_75_0": {
@@ -167796,7 +167796,7 @@
 "ja": "(クローバー／キング／ジェビル)"
 },
 "scr_credit_slash_scr_credit_gml_146_0": {
-"en": "-Ch. 2&3 Guest Character Design-",
+"en": "-Ch. 2&amp;3 Guest Character Design-",
 "ja": "-Ch2＆3 ゲスト キャラクターデザイン-"
 },
 "scr_credit_slash_scr_credit_gml_129_0": {
@@ -167864,7 +167864,7 @@
 "ja": "-Fangamer テスト-"
 },
 "scr_credit_slash_scr_credit_gml_277_0": {
-"en": "-Trailers & All Video Editing-",
+"en": "-Trailers &amp; All Video Editing-",
 "ja": "-トレーラー ＆ 全動画編集-"
 },
 "scr_credit_slash_scr_credit_gml_287_0": {
@@ -167872,7 +167872,7 @@
 "ja": "-Special Thanks-"
 },
 "scr_credit_slash_scr_credit_gml_293_0": {
-"en": "All 8-4 & Fangamer Staff",
+"en": "All 8-4 &amp; Fangamer Staff",
 "ja": "8-4 ＆ Fangamer スタッフ"
 },
 "scr_credit_slash_scr_credit_gml_64_0_b": {
@@ -171804,8 +171804,8 @@
 "ja": "いやしの商談"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1612_0": {
-"en": "DEAL &\nHEAL 60",
-"ja": "商談&\n60HP回復"
+"en": "DEAL &amp;\nHEAL 60",
+"ja": "商談&amp;\n60HP回復"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1591_0": {
 "en": "Spamton NEO",
@@ -172076,7 +172076,7 @@
 "ja": "エクサシズム"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1980_0": {
-"en": "20% &\nDelayed\nTIRED",
+"en": "20% &amp;\nDelayed\nTIRED",
 "ja": "20％＆\nおくれて\nくたびれ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1983_0": {
@@ -172084,7 +172084,7 @@
 "ja": "Ｘサシズム"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1984_0": {
-"en": "60% &\nDelayed\nTIRED",
+"en": "60% &amp;\nDelayed\nTIRED",
 "ja": "60％＆\nおくれて\nくたびれ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1990_0": {
@@ -172120,7 +172120,7 @@
 "ja": "シェイク"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2022_0": {
-"en": "Left &\nRight=\nMercy",
+"en": "Left &amp;\nRight=\nMercy",
 "ja": "左 ＆\n右＝\nみのがし"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2025_0": {
@@ -172128,7 +172128,7 @@
 "ja": "シェイクＸ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2027_0": {
-"en": "Left &\nRight=\nMercy",
+"en": "Left &amp;\nRight=\nMercy",
 "ja": "左 ＆\n右＝\nみのがし"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2030_0_b": {
@@ -172136,7 +172136,7 @@
 "ja": "ライトアップ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2032_0": {
-"en": "50% &\nTIRE\nothers",
+"en": "50% &amp;\nTIRE\nothers",
 "ja": "50％ ＆\n他の敵が\nくたびれ"
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_2037_0": {
