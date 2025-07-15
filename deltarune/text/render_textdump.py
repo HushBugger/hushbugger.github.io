@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Convert lang.json to the data we want to show on the page."""
 
+import html
 import io
 import json
 import re
@@ -306,7 +307,9 @@ lang: dict[str, dict[typing.Literal["en", "ja"], dict[str, str]]] = json.load(
 sourcemap: dict[str, dict[str, str]] = json.load(
     open("sourcemap.json", encoding="utf-8")
 )
-rendered = {}
+rendered: dict[
+    str, dict[str, dict[str, dict[typing.Literal["en", "ja"], str | None]]]
+] = {}
 for n in lang:
     rendered[n] = {}
     ks = sorted(lang[n]["en"].keys() | lang[n]["ja"].keys(), key=smartsort)
@@ -342,3 +345,77 @@ with open("rendered.json.js", "w", encoding="utf-8") as f:
     f.write("var rendered = JSON.parse('")
     f.write(as_json.replace("\\", "\\\\").replace("'", "\\'"))
     f.write("');")
+
+
+def plainify_html(text: str) -> str:
+    text = text.replace('</div><div class="indented">', "\n")
+    text = re.sub(r"<[^>]+>", "", text)
+    text = html.unescape(text)
+    return text
+
+
+# This renders poorly on mobile devices...
+# It's OK if this and the chapter headers look like shit but
+# let's not do box characters beyond that.
+HEADER = """
+ ▄██████████████████████████████████████████████████████▄
+██▀                                                    ▀██
+██    █     █  █   ▄                       ███ █ █ ███  ██
+██  ███ ███ █ ███ █♥︎█ █▀█ █ ██ ████ ███     █   █   █   ██
+██  ███ █▄▄ █  █  █▀█ █   ████ ██ █ █▄▄  ▄  █  █ █  █   ██
+██                                                      ██
+██            unofficial deltarune text dump            ██
+██                                                      ██
+▀██▄   https://hushbugger.github.io/deltarune/text/   ▄██▀
+  ▀██▄                                              ▄██▀
+    ▀████████████████████████████████████████████████▀
+
+
+"""
+
+CHAPTER = """
+
+▀▀██▄▄▄▄ ● ▄▄▄▄██▀▀
+   ▲ CHAPTER % ▲
+         ▼
+
+"""
+
+def render_plain(lang: typing.Literal["en", "ja"]) -> str:
+    # duplicated logic from index.html
+    out = io.StringIO()
+    out.write(HEADER)
+    dedup = {}
+    for chap, groups in rendered.items():
+        out.write(CHAPTER.replace('%', chap))
+        for title, group in groups.items():
+            pending_title = title.replace("_slash_", "/")
+            for key, contents in group.items():
+                content = contents[lang]
+                if not content:
+                    continue
+                if dedup.get(key) == content:
+                    continue
+                dedup[key] = content
+                if pending_title:
+                    out.write("\n")
+                    out.write("=" * len(pending_title))
+                    out.write("\n")
+                    out.write(pending_title)
+                    out.write("\n")
+                    out.write("=" * len(pending_title))
+                    out.write("\n\n")
+                    pending_title = None
+                out.write(plainify_html(content))
+                out.write("\n\n")
+
+    return out.getvalue().strip('\n') + "\n"
+
+
+with open("DELTARUNE.txt", "w", encoding="utf-8") as f:
+    # CRLF for max compatibility (maybe somebody's using notepad.exe on Windows 7).
+    # BOM since it seems the most portable/reliable way to indicate encoding.
+    f.write("\N{BYTE ORDER MARK}" + render_plain("en").replace("\n", "\r\n"))
+
+with open("DELTARUNE_ja.txt", "w", encoding="utf-8") as f:
+    f.write("\N{BYTE ORDER MARK}" + render_plain("ja").replace("\n", "\r\n"))
