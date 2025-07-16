@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -521,6 +521,9 @@
                 box.id = id;
                 box.classList.add("textbox");
                 box.classList.add(lang);
+                if (lang === "ja") {
+                    box.lang = "ja";
+                }
                 if (text === null) {
                     box.classList.add("untranslated");
                     if (lang === "en") {
