@@ -89644,7 +89644,7 @@
 "ja": "始まりました～\nスペシャルバトル～！\n勝利条件も\nスペシャルだ～！"
 },
 "obj_elnina_lanino_controller_slash_Step_0_gml_45_0": {
-"en": "All you have to\ndo say \"I love\nto watch TV\" 99\ntimes and you\nwill win!",
+"en": "All you have to\ndo is say \"I love\nto watch TV\" 99\ntimes and you will\nwin!",
 "ja": "「テレビ大好き」と\n99回言うだけで\n挑戦者の勝ちと\nなります！"
 },
 "obj_elnina_lanino_controller_slash_Step_0_gml_62_0": {
@@ -103562,7 +103562,7 @@
 "ja": "＊ (ジャズバンドのコンサートだ。\n　 …が　メンバーは　１人も\n　 ステージに現れない)"
 },
 "obj_savepoint_slash_Other_10_gml_179_0": {
-"en": "<div class=\"indented\">* (You are filled with the power of a crowd cheering for noone.)</div>",
+"en": "<div class=\"indented\">* (You are filled with the power of a crowd cheering for no one.)</div>",
 "ja": "＊ (無出演者ライブの\n　 パワーが　みなぎった)"
 },
 "obj_savepoint_slash_Other_10_gml_187_0_b": {
@@ -103672,8 +103672,8 @@
 "ja": "＊ 全員　ピストルを　かまえた！\n　 敵の　くつしたを　フッ飛ばせ！"
 },
 "obj_shadowman_enemy_slash_Step_0_gml_325_0": {
-"en": "<div class=\"indented\">* Aim with <span class=\"param\">~1</span><span class=\"param\">~2</span> and <span class=\"param\">~3</span><span class=\"param\">~4</span>!</div><div class=\"indented\">* Fire with <span class=\"param\">~5</span>!</div>",
-"ja": "＊ <span class=\"param\">~1</span><span class=\"param\">~2</span>と<span class=\"param\">~3</span><span class=\"param\">~4</span>で　ねらいを定めろ！\n＊ <span class=\"param\">~5</span>で発射！"
+"en": "<div class=\"indented\">* Press directions to aim and <span class=\"param\">~1</span> to shoot!</div>",
+"ja": "＊ 方向キーで　狙いを定めて\n　 <span class=\"param\">~1</span>で発射！"
 },
 "obj_shadowman_enemy_slash_Step_0_gml_473_0": {
 "en": "H-Hey!!!",
@@ -108802,8 +108802,8 @@
 "ja": "-Webサイト-"
 },
 "scr_credit_slash_scr_credit_gml_91_0": {
-"en": "-Typography and Logos-",
-"ja": "-タイポグラフィ／ロゴ-"
+"en": "-Tenna's Typography and Logos-",
+"ja": "-テナのタイポグラフィ／ロゴ-"
 },
 "scr_credit_slash_scr_credit_gml_277_0": {
 "en": "-Trailers &amp; All Video Editing-",
@@ -151338,7 +151338,7 @@
 "ja": "＊ 100ダークドル　盗んだ！"
 },
 "obj_mizzle_enemy_slash_Step_0_gml_347_0": {
-"en": "<div class=\"indented\">* Stole Scarlixer!</div>",
+"en": "<div class=\"indented\">* Stole Scarlixir!</div>",
 "ja": "＊ スカーレッティーを盗んだ！"
 },
 "obj_mizzle_enemy_slash_Step_0_gml_352_0": {

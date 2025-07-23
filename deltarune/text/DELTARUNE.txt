@@ -46105,10 +46105,10 @@ condition for
 our contestants!
 
 All you have to
-do say "I love
+do is say "I love
 to watch TV" 99
-times and you
-will win!
+times and you will
+win!
 
 Ninety... Ni-
 
@@ -49821,7 +49821,7 @@ obj_savepoint
 
 * (It's a concert, but no one is here to play.)
 
-* (You are filled with the power of a crowd cheering for noone.)
+* (You are filled with the power of a crowd cheering for no one.)
 
 * (It's a concert, but no one has shown up.)
 
@@ -49891,8 +49891,7 @@ obj_shadowman_enemy
 
 * Everyone gets ready to knock the enemies' socks off!
 
-* Aim with ~1~2 and ~3~4!
-* Fire with ~5!
+* Press directions to aim and ~1 to shoot!
 
 H-Hey!!!
 
@@ -51696,7 +51695,7 @@ DIGITAL HEARTS Co., Ltd.
 
 -Website-
 
--Typography and Logos-
+-Tenna's Typography and Logos-
 
 -Trailers & All Video Editing-
 
@@ -64194,7 +64193,7 @@ dreaming?
 
 * Stole 100 Dark Dollars!
 
-* Stole Scarlixer!
+* Stole Scarlixir!
 
 * Stole Darker Candy!
 
