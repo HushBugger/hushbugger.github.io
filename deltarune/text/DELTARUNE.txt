@@ -47288,6 +47288,16 @@ SOMEONE ELSE IS USING THESE.
 
 * Perhaps you should try speaking up!
 
+* Mumble... no more characters... all gone...
+
+* What? You want to find them?
+
+* No, no, they already went nowhere...
+
+* ... the ticket... it's under the ball machine...
+
+* ... the ticket... it's under the ball machine...
+
 * Mumble, mumble...
 
 * My favorite game, what a shame...
@@ -48889,6 +48899,8 @@ GOLD CHANCE:
 NO MORE GOLD
 
 SINCE LAST GOLD:
+
+* (You thought you saw something on the ground... but you must've already had it.)
 
 * Kris, gimme your feet. I'm shoving you up there.
 
@@ -64985,6 +64997,12 @@ TO DO WITH THIS!!!
 
 * (It seems visibly agitated.)
 
+* Lightners only want one thing and it's disgusting. I mean delicious.
+
+* Oh, miba, oh mama! No rooms in your pockets!? What's in there!?
+
+* Boys and salesmen!? Oh, miba, oh mama...
+
 * I'm the Hacker. I'm a progamer, too. Keep it on the download.
 
 * Shhh. I got the mods on deck. I'm about to win it big.
@@ -68208,6 +68226,8 @@ Cute! (Gloves don't fit)
 
 Kris, you can wear the gloves!
 
+Elegance
+
 GoldWidow
 
 A spider made of gold. It gathers coins
@@ -71147,6 +71167,8 @@ Do not
 ==============
 scr_weaponinfo
 ==============
+
+SlayDark
 
 JingleBlade
 

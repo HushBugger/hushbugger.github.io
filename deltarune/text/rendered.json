@@ -19511,7 +19511,7 @@
 },
 "scr_spelltext_slash_scr_spelltext_gml_112_0": {
 "en": "<div class=\"indented\">* <span class=\"param\">~1</span> became enraptured!</div><div class=\"indented\"></div>",
-"ja": "＊ <span class=\"param\">~1</span>は\n　 うっとりした！\n"
+"ja": "＊ <span class=\"param\">~1</span>は　うっとりした！\n"
 },
 "scr_spelltext_slash_scr_spelltext_gml_122_0": {
 "en": "<div class=\"indented\">* <span class=\"param\">~1</span> read the MANUAL!</div>",
@@ -89603,7 +89603,7 @@
 "obj_elnina_enemy": {
 "obj_elnina_enemy_slash_Step_0_gml_39_0_b": {
 "en": "<div class=\"indented\">* ELNINA - She's just over the moon for Lanino.</div>",
-"ja": "＊ エルニーナ - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n＊ ラニーノへの気持ちは\n　 「月が　きれいですね」。"
+"ja": "＊ エルニーナ -\n　 ラニーノへの気持ちは\n　 「月が　きれいですね」。"
 },
 "obj_elnina_enemy_slash_Step_0_gml_46_0": {
 "en": "<div class=\"indented\">* Kris says I Love TV to Elnina!</div>",
@@ -91687,7 +91687,7 @@
 "obj_lanino_enemy": {
 "obj_lanino_enemy_slash_Step_0_gml_40_0_b": {
 "en": "<div class=\"indented\">* Lanino - The sight of Elnina makes him want to be singin' in the rain.</div>",
-"ja": "＊ ラニーノ - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n＊ エルニーナを見ると\n　 雨に唄いたくなる。"
+"ja": "＊ ラニーノ -\n　 エルニーナを見ると\n　 雨に唄いたくなる。"
 },
 "obj_lanino_enemy_slash_Step_0_gml_47_0": {
 "en": "<div class=\"indented\">* Kris says I Love TV to Lanino!</div>",
@@ -95316,6 +95316,26 @@
 "obj_npc_room_slash_Other_10_gml_1917_0": {
 "en": "<div class=\"indented\">* Perhaps you should try speaking up!</div>",
 "ja": "＊ もう少し　ハッキリしゃべってみては\n　 どうかね！"
+},
+"obj_npc_room_slash_Other_10_gml_1953_0": {
+"en": "<div class=\"indented\">* Mumble... no more characters... all gone...</div>",
+"ja": "＊ ブツブツ…　キャラクターたちは\n　 もう　いない…\n　 みんな　いなくなった…"
+},
+"obj_npc_room_slash_Other_10_gml_1954_0": {
+"en": "<div class=\"indented\">* What? You want to find them?</div>",
+"ja": "＊ なんじゃと？　キャラクターたちを\n　 さがしている？"
+},
+"obj_npc_room_slash_Other_10_gml_1955_0": {
+"en": "<div class=\"indented\">* No, no, they already went nowhere...</div>",
+"ja": "＊ ダメじゃ…ダメじゃ…\n　 みんな　ドコデモナイへ\n　 行ってしまった…"
+},
+"obj_npc_room_slash_Other_10_gml_1956_0": {
+"en": "<div class=\"indented\">* ... the ticket... it's under the ball machine...</div>",
+"ja": "＊ …切符は…\n　 ボールマシンの下じゃ…"
+},
+"obj_npc_room_slash_Other_10_gml_1962_0": {
+"en": "<div class=\"indented\">* ... the ticket... it's under the ball machine...</div>",
+"ja": "＊ …切符は…\n　 ボールマシンの下じゃ…"
 },
 "obj_npc_room_slash_Other_10_gml_1948_0": {
 "en": "<div class=\"indented\">* Mumble, mumble...</div>",
@@ -100389,7 +100409,7 @@
 },
 "obj_ribbick_enemy_slash_Step_0_gml_213_0": {
 "en": "<div class=\"indented\">* RABBICK - This dusty bunny needs a bit of spring cleaning.</div>",
-"ja": "＊ ラビック - ATK 8 DEF 1\n＊ わたぼこりの　かたまり。\n　 大そうじをすると出現。"
+"ja": "＊ ラビック -\n　 わたぼこりの　かたまり。\n　 大そうじをすると出現。"
 },
 "obj_ribbick_enemy_slash_Step_0_gml_198_0": {
 "en": "<div class=\"indented\">* RIBBICK - This dusty frog needs a bit of an autumn dirtying.</div>",
@@ -101602,6 +101622,10 @@
 "obj_room_ranking_b_slash_Draw_0_gml_41_0": {
 "en": "SINCE LAST GOLD:",
 "ja": "GOLD累計："
+},
+"obj_room_ranking_b_slash_Step_0_gml_12_0_b": {
+"en": "<div class=\"indented\">* (You thought you saw something on the ground... but you must've already had it.)</div>",
+"ja": "＊ (床に　なにかが落ちているように\n　 見えた…が…\n　 もう　持っていたようだ)"
 },
 "obj_room_ranking_b_slash_Step_0_gml_10_0": {
 "en": "<div class=\"indented\">* Kris, gimme your feet. I'm shoving you up there.</div>",
@@ -105365,7 +105389,7 @@
 },
 "obj_shutta_enemy_slash_Step_0_gml_170_0": {
 "en": "<div class=\"indented\">* SHUTTAH - When its eyes snap shut, memories are made in grey.</div>",
-"ja": "＊ シャッタア ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n　 瞳をシャタッと閉じたなら\n　 グレーの思い出　残ります。"
+"ja": "＊ シャッタア -\n　 瞳をシャタッと閉じたなら\n　 グレーの思い出　残ります。"
 },
 "obj_shutta_enemy_slash_Step_0_gml_174_0": {
 "en": "<div class=\"indented\">* Press directions to aim!</div><div class=\"indented\">* Press <span class=\"param\">~1</span> to take the photo!</div>",
@@ -106747,7 +106771,7 @@
 },
 "obj_tenna_enemy_slash_Step_0_gml_446_0": {
 "en": "<div class=\"indented\">* TENNA - Despite his size, sadly, he's quite fragile.</div>",
-"ja": "＊ テナ - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n　 サイズのわりに　意外と　もろい。"
+"ja": "＊ テナ -\n　 サイズのわりに　意外と　もろい。"
 },
 "obj_tenna_enemy_slash_Step_0_gml_449_0": {
 "en": "<div class=\"indented\">* TENNA - THE [Tragic businesmen] THAT [Died] AT THE [Now] OF THE [Story]</div>",
@@ -106755,7 +106779,7 @@
 },
 "obj_tenna_enemy_slash_Step_0_gml_450_0": {
 "en": "<div class=\"indented\">* TENNA - Isn't it about time you</div><div class=\"indented\">  got a new TV?</div>",
-"ja": "＊ テナ - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n　 そろそろテレビ　買い換えない？"
+"ja": "＊ テナ -\n　 そろそろテレビ　買い換えない？"
 },
 "obj_tenna_enemy_slash_Step_0_gml_387_0_b": {
 "en": "Everyone gets",
@@ -107665,11 +107689,11 @@
 },
 "obj_zapper_enemy_slash_Step_0_gml_183_0": {
 "en": "<div class=\"indented\">* ZAPPER - \"Hoofer\", \"Clicker-Clacker\", any name, it'll do the work.</div>",
-"ja": "＊ ザッパー - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n＊ 「リモコン」「テレビ変えるヤツ」\n　 なんと呼ばれても　仕事はキッチリ。"
+"ja": "＊ ザッパー -\n　 「リモコン」「テレビ変えるヤツ」\n　 なんと呼ばれても　仕事はキッチリ。"
 },
 "obj_zapper_enemy_slash_Step_0_gml_184_0": {
 "en": "<div class=\"indented\">* ZAPPER - When it changes channels, who knows where you'll end up?</div>",
-"ja": "＊ ザッパー - ATK <span class=\"param\">~1</span> DEF <span class=\"param\">~2</span>\n＊ ボタンひとつで　景色が変わる。\n　 どこへ行くかは　予測不可能。"
+"ja": "＊ ザッパー -\n　 ボタンひとつで　景色が変わる。\n　 どこへ行くかは　予測不可能。"
 },
 "obj_zapper_enemy_slash_Step_0_gml_198_0": {
 "en": "<div class=\"indented\">* You turned up the volume!</div>",
@@ -155167,6 +155191,18 @@
 "en": "<div class=\"indented\">* RIKO RIKO!</div>",
 "ja": "＊ おリコーサン！"
 },
+"obj_npc_room_slash_Other_10_gml_1874_0_b": {
+"en": "<div class=\"indented\">* Lightners only want one thing and it's disgusting. I mean delicious.</div>",
+"ja": "＊ ライトナーたちが　欲しがるモノ\n　 ひとつだけデース！　キショ…\n　 じゃなくて　オイシーやつデース。"
+},
+"obj_npc_room_slash_Other_10_gml_1895_0": {
+"en": "<div class=\"indented\">* Oh, miba, oh mama! No rooms in your pockets!? What's in there!?</div>",
+"ja": "＊ オー　ミーバ！　オー　マーマ！\n　 もちものが　いっぱいデース！\n　 なに　持ってますカー！？"
+},
+"obj_npc_room_slash_Other_10_gml_1896_0": {
+"en": "<div class=\"indented\">* Boys and salesmen!? Oh, miba, oh mama...</div>",
+"ja": "＊ 「少年と　セールスマン」！？\n　 オー　ミーバ…オー　マーマ…"
+},
 "obj_npc_room_slash_Other_10_gml_1840_0": {
 "en": "<div class=\"indented\">* I'm the Hacker. I'm a progamer, too. Keep it on the download.</div>",
 "ja": "＊ オレは　ハッカーだ。\n　 プロゲラマーでもある。\n　 くれぐれも　Ｃ♯クレットで頼む。"
@@ -167529,6 +167565,10 @@
 "en": "Kris, you can wear the gloves!",
 "ja": "てぶくろはクリスにあげるね！"
 },
+"scr_armorinfo_slash_scr_armorinfo_gml_782_0": {
+"en": "Elegance",
+"ja": "エレガント"
+},
 "scr_armorinfo_slash_scr_armorinfo_gml_788_0": {
 "en": "GoldWidow",
 "ja": "ゴールドウィドウ"
@@ -167551,7 +167591,7 @@
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_803_0": {
 "en": "$ -10%",
-"ja": "$ -10%"
+"ja": "$ -10％"
 }
 },
 "scr_ascii_input_names": {
@@ -170417,6 +170457,14 @@
 "en": "<div class=\"indented\">* Click...</div>",
 "ja": "＊ ツー…"
 },
+"scr_litemuseb_slash_scr_litemuseb_gml_389_0": {
+"en": "<div class=\"indented\">* (Ring, ring...)</div>",
+"ja": "＊ (プルルル　プルルル…)"
+},
+"scr_litemuseb_slash_scr_litemuseb_gml_390_0": {
+"en": "<div class=\"indented\">* (Everybody seems too busy to pick up the phone...)</div>",
+"ja": "＊ (みんな　てが　はなせなくて\n　 でんわに　でられないようだ…)"
+},
 "scr_litemuseb_slash_scr_litemuseb_gml_136_0": {
 "en": "<div class=\"indented\">* Ring...</div>",
 "ja": "＊ プルルルル…"
@@ -170430,256 +170478,248 @@
 "ja": "＊ (どっちにしろ\n　 もう　でんわちゅうだ…)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_156_0": {
-"en": "<div class=\"indented\">* (Ring, ring...)</div>",
+"en": null,
 "ja": "＊ (プルルル　プルルル…)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_158_0": {
-"en": "<div class=\"indented\">* Kris, honey, what is it?</div>",
+"en": null,
 "ja": "＊ クリス　どうしたの？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_159_0": {
-"en": "<div class=\"indented\">* What? No, I am not giving you a ride home.</div>",
+"en": null,
 "ja": "＊ え？　 …だめよ。\n　 ママは　クルマで　むかえに\n　 なんて　いきません。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_160_0": {
-"en": "<div class=\"indented\">* Our house is not far. It is just at the top of town.</div>",
+"en": null,
 "ja": "＊ うちは　そんなに　とおく\n　 ないでしょう？　まちの\n　 いちばん　北よ。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_161_0": {
-"en": "<div class=\"indented\">* Try walking. It builds character, honey.</div>",
+"en": null,
 "ja": "＊ あるいて　かえって\n　 いらっしゃい。こころの\n　 つよいコに　なれるわよ。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_163_0": {
-"en": "<div class=\"indented\">* (Click...)</div>",
+"en": null,
 "ja": "＊ ツー…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_168_0": {
-"en": "<div class=\"indented\">* (Ring, ring...)</div>",
+"en": null,
 "ja": "＊ (プルルル　プルルル…)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_170_0": {
-"en": "<div class=\"indented\">* Kris, I am grading papers.</div>",
+"en": null,
 "ja": "＊ クリス　いま　テストの\n　 さいてんを　しているの。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_171_0": {
-"en": "<div class=\"indented\">* I can talk to you when you get back, alright?</div>",
+"en": null,
 "ja": "＊ はなしが　あるなら\n　 おうちに　かえってから\n　 きいてあげますからね。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_172_0": {
-"en": "<div class=\"indented\">* Our house is only at the top of town, you know.</div>",
+"en": null,
 "ja": "＊ うちは　まちの\n　 いちばん　北よ。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_174_0": {
-"en": "<div class=\"indented\">* (Click...)</div>",
+"en": null,
 "ja": "＊ ツー…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_271_0": {
-"en": "<div class=\"indented\">* (Ring, ring...)</div>",
+"en": null,
 "ja": "＊ (プルルル　プルルル…)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_273_0": {
-"en": "<div class=\"indented\">* Oh, excuse me, I seem to be receiving a phone call.</div>",
+"en": null,
 "ja": "＊ あら　ごめんなさい。\n　 でんわだわ。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_274_0": {
-"en": "<div class=\"indented\">* Kris...? What is it, honey?</div>",
+"en": null,
 "ja": "＊ クリス…？\n　 どうしたの？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_275_0": {
-"en": "<div class=\"indented\">* What? You are \"normal?\"</div>",
+"en": null,
 "ja": "＊ え？　あなたは\n　 「フツー」？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_276_0": {
-"en": "<div class=\"indented\">* What? You made a \"trash orb\"?</div>",
+"en": null,
 "ja": "＊ え？\n　 「ゴミのオーブ」を\n　 つくったの？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_277_0": {
-"en": "<div class=\"indented\">* ... Could you explain what you mean by that?</div>",
+"en": null,
 "ja": "＊ …それは　どういう\n　 イミかしら。せつめい\n　 してくれる？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_279_0": {
-"en": "<div class=\"indented\">* (Kris, d-don't give the phone to me!!!)</div>",
+"en": null,
 "ja": "＊ (ややややめて　クリス！\n　 せんせいに　でんわ\n　 わたさないで…！！)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_281_0": {
-"en": "<div class=\"indented\">* Oh, you are going to the library later?</div>",
+"en": null,
 "ja": "＊ え？　あとで\n　 としょかんに　いくの？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_282_0": {
-"en": "<div class=\"indented\">* Well, thank you for telling me this time! Have a nice time!</div>",
+"en": null,
 "ja": "＊ そう。ちゃんと　おしえて\n　 くれて　ありがとう。\n　 いってらっしゃい！"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_284_0": {
-"en": "<div class=\"indented\">* (Click...)</div>",
+"en": null,
 "ja": "＊ ツー…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_289_0": {
-"en": "<div class=\"indented\">* (Ring, ring...)</div>",
+"en": null,
 "ja": "＊ (プルルル　プルルル…)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_291_0": {
-"en": "<div class=\"indented\">* Kris, do not worry about the library.</div>",
+"en": null,
 "ja": "＊ クリス　としょかんへは\n　 いきたいときに\n　 いっていいのよ。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_293_0": {
-"en": "<div class=\"indented\">* (Click...)</div>",
+"en": null,
 "ja": "＊ ツー…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_302_0": {
-"en": "<div class=\"indented\">* (Ring, ring...)</div>",
+"en": null,
 "ja": "＊ (プルルル　プルルル…)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_304_0": {
-"en": "<div class=\"indented\">* Ah, Kris! You are going to do your project...?</div>",
+"en": null,
 "ja": "＊ あら　クリス！　え…？\n　 これから　がっこうの\n　 かだいを　やるの…？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_305_0": {
-"en": "<div class=\"indented\">* Oh, are you calling to ask for my help!?</div>",
+"en": null,
 "ja": "＊ …ああ　わかったわ！\n　 ママに　てつだって\n　 ほしいのね！？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_306_0": {
-"en": "<div class=\"indented\">* I will go find our homemade scented glue-sticks!</div>",
+"en": null,
 "ja": "＊ じゃあ　てづくりの\n　 かおりつきノリを\n　 さがしてこなきゃ！"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_307_0": {
-"en": "<div class=\"indented\">* ... Oh? You have a partner this time?</div>",
+"en": null,
 "ja": "＊ …え？\n　 こんどの　かだいは\n　 おともだちと…？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_308_0": {
-"en": "<div class=\"indented\">* Kris!! That's wonderful!!</div>",
+"en": null,
 "ja": "＊ まあ！　じゃあ\n　 その　おともだちにも…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_309_0": {
-"en": "<div class=\"indented\">* I hope they like butterscotch-scented gluesticks!</div>",
+"en": null,
 "ja": "＊ バタースコッチのかおりの\n　 ノリ　きにいってもらえると\n　 いいわねえ！"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_311_0": {
-"en": "<div class=\"indented\">* (Click...)</div>",
+"en": null,
 "ja": "＊ ツー…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_317_0": {
-"en": "<div class=\"indented\">* (Ring, ring...)</div>",
+"en": null,
 "ja": "＊ (プルルル　プルルル…)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_319_0": {
-"en": "<div class=\"indented\">* Kris, do not worry about going to the library.</div>",
+"en": null,
 "ja": "＊ クリス　としょかんへは\n　 いきたいときに\n　 いっていいのよ。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_320_0": {
-"en": "<div class=\"indented\">* If Berdly harasses you about our debt...</div>",
+"en": null,
 "ja": "＊ バードリーが\n　 「かりを　かえせ」って\n　 しつこく　いってきたら…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_321_0": {
-"en": "<div class=\"indented\">* I will come and throw a smoke bomb so you can escape.</div>",
+"en": null,
 "ja": "＊ ママが　かけつけて\n　 けむりだまを　なげるから\n　 そのスキに　にげなさい。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_322_0": {
-"en": "<div class=\"indented\">* ... maybe not. Hee hee hee. Try your best, honey.</div>",
+"en": null,
 "ja": "＊ …フフフ。なんてね。\n　 じょうだんよ！\n　 がんばってね。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_324_0": {
-"en": "<div class=\"indented\">* (Click...)</div>",
+"en": null,
 "ja": "＊ ツー…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_336_0": {
-"en": "<div class=\"indented\">* (Ring, ring...)</div>",
+"en": null,
 "ja": "＊ (プルルル　プルルル…)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_338_0": {
-"en": "<div class=\"indented\">* Hi honey! How was your group project?</div>",
+"en": null,
 "ja": "＊ あら！　がっこうの\n　 かだいは　もう　すんだの？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_339_0": {
-"en": "<div class=\"indented\">* I can give you a ride home in a minute, I am just...</div>",
+"en": null,
 "ja": "＊ もうすこししたら\n　 クルマで　むかえにいくわ。\n　 だから　ちょっとだけ…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_340_0": {
-"en": "<div class=\"indented\">* ... oh? No need?</div>",
+"en": null,
 "ja": "＊ …え？\n　 おむかえは　いらない…？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_341_0": {
-"en": "<div class=\"indented\">* You are still spending time with a friend...?</div>",
+"en": null,
 "ja": "＊ まだ　おともだちと\n　 いっしょ…？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_342_0": {
-"en": "<div class=\"indented\">* Oh dear! Two days in a row, Kris! Is that a record?</div>",
+"en": null,
 "ja": "＊ まあ！　２日つづけて！？\n　 しんきろくじゃない？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_343_0": {
-"en": "<div class=\"indented\">* Have fun, honey! Be back before sunset!</div>",
+"en": null,
 "ja": "＊ じゃあ　ゆっくりあそんで\n　 らっしゃい！　くらくなる\n　 までには　かえるのよ？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_345_0": {
-"en": "<div class=\"indented\">* (Click...)</div>",
+"en": null,
 "ja": "＊ ツー…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_349_0": {
-"en": "<div class=\"indented\">* (Ring, ring...)</div>",
+"en": null,
 "ja": "＊ (プルルル　プルルル…)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_351_0": {
-"en": "<div class=\"indented\">* Calling me again? What must your friend think?</div>",
+"en": null,
 "ja": "＊ また　ママに　でんわ？\n　 おともだちは\n　 どうしたの？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_352_0": {
-"en": "<div class=\"indented\">* Have fun with your friend, honey!</div>",
+"en": null,
 "ja": "＊ おともだちと\n　 なかよく　あそぶのよ！"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_354_0": {
-"en": "<div class=\"indented\">* (Click...)</div>",
+"en": null,
 "ja": "＊ ツー…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_366_0": {
-"en": "<div class=\"indented\">* (Ring, ring...)</div>",
+"en": null,
 "ja": "＊ (プルルル　プルルル…)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_368_0": {
-"en": "<div class=\"indented\">* Hello, Dreemurr residence.</div>",
+"en": null,
 "ja": "＊ もしもし　ドリーマーです。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_369_0": {
-"en": "<div class=\"indented\">* What? You would like to talk to \"Susie\"?</div>",
+"en": null,
 "ja": "＊ え？　「スージィ」に\n　 かわってほしい？"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_370_0": {
-"en": "<div class=\"indented\">* ...</div>",
+"en": null,
 "ja": "＊ …"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_371_0": {
-"en": "<div class=\"indented\">* Of course, here you are.</div>",
+"en": null,
 "ja": "＊ ええ　いいわよ。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_373_0": {
-"en": "<div class=\"indented\">* KRIS FINISH WASHING YOUR DAMN HANDS!!!</div>",
+"en": null,
 "ja": "＊ クリス！！　いつまで\n　 てェあらってんだよ！！"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_378_0": {
-"en": "<div class=\"indented\">* (Ring, ring...)</div>",
+"en": null,
 "ja": "＊ (プルルル　プルルル…)"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_380_0": {
-"en": "<div class=\"indented\">* Kris, the phone is going.</div>",
+"en": null,
 "ja": "＊ クリス　でんわが\n　 なってるわ。"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_381_0": {
-"en": "<div class=\"indented\">* Would you mind getting it for me while I...</div>",
+"en": null,
 "ja": "＊ いま　てが　はなせないから\n　 かわりに　でてくれな…"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_382_0": {
-"en": "<div class=\"indented\">* ...</div>",
+"en": null,
 "ja": "＊ …"
 },
 "scr_litemuseb_slash_scr_litemuseb_gml_383_0": {
-"en": "<div class=\"indented\">* Kris? Why are you calling our house?</div>",
+"en": null,
 "ja": "＊ クリス？\n　 どうして　うちに\n　 でんわ　しているの？"
-},
-"scr_litemuseb_slash_scr_litemuseb_gml_389_0": {
-"en": "<div class=\"indented\">* (Ring, ring...)</div>",
-"ja": "＊ (プルルル　プルルル…)"
-},
-"scr_litemuseb_slash_scr_litemuseb_gml_390_0": {
-"en": "<div class=\"indented\">* (Everybody seems too busy to pick up the phone...)</div>",
-"ja": "＊ (みんな　てが　はなせなくて\n　 でんわに　でられないようだ…)"
 }
 },
 "scr_lrecoitem": {
@@ -188318,6 +188358,10 @@
 "scr_weaponinfo_slash_scr_weaponinfo_gml_609_0": {
 "en": "I... shouldn't use it.",
 "ja": "ボクは…使っちゃダメ"
+},
+"scr_weaponinfo_slash_scr_weaponinfo_gml_624_0": {
+"en": "SlayDark",
+"ja": "闇斬り"
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_629_0": {
 "en": "JingleBlade",
