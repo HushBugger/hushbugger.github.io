@@ -846,12 +846,12 @@
 },
 "obj_battlecontroller": {
 "obj_battlecontroller_slash_Draw_0_gml_171_0": {
-"en": " TP",
-"ja": " TP"
+"en": "% TP",
+"ja": "% TP"
 },
 "obj_battlecontroller_slash_Draw_0_gml_280_0": {
-"en": " TP",
-"ja": " TP"
+"en": "% TP",
+"ja": "% TP"
 },
 "obj_battlecontroller_slash_Step_0_gml_40_0": {
 "en": "<div class=\"indented\">* You won!</div><div class=\"indented\">* Got <span class=\"param\">~1</span> EXP and <span class=\"param\">~2</span> D$.</div>",
@@ -11288,8 +11288,8 @@
 "ja": "LV  "
 },
 "obj_overworldc_slash_Draw_0_gml_68_0": {
-"en": "HP  <span class=\"param\">~1</span>  ",
-"ja": "HP  <span class=\"param\">~1</span>  "
+"en": "HP  <span class=\"param\">~1</span> / ",
+"ja": "HP  <span class=\"param\">~1</span> / "
 },
 "obj_overworldc_slash_Draw_0_gml_70_0": {
 "en": "AT  <span class=\"param\">~1</span> (",
@@ -14727,10 +14727,6 @@
 "en": "You're\ncarrying\ntoo much.",
 "ja": "持ち物が\nいっぱい\nだよ"
 },
-"obj_shop1_slash_Draw_0_gml_153_0": {
-"en": "",
-"ja": "＊"
-},
 "obj_shop1_slash_Draw_0_gml_167_0": {
 "en": "Buy it for",
 "ja": "で買う？"
@@ -15180,10 +15176,6 @@
 "obj_shop2_slash_Draw_0_gml_129_0": {
 "en": "Thou doth\ncarry\ntoo much!",
 "ja": "なんじズ\n持ちもの\nおおすぎ！"
-},
-"obj_shop2_slash_Draw_0_gml_130_0": {
-"en": "",
-"ja": "＊"
 },
 "obj_shop2_slash_Draw_0_gml_144_0": {
 "en": "Buyeth for",
@@ -19708,8 +19700,8 @@
 "ja": "＊ (中で　なにかが光っている)"
 },
 "scr_text_slash_scr_text_gml_98_0": {
-"en": "<div class=\"indented\">* (Take it?) </div>",
-"ja": "＊ (取る？) "
+"en": "<div class=\"indented\">* (Take it?)</div>",
+"ja": "＊ (取る？)"
 },
 "scr_text_slash_scr_text_gml_103_0": {
 "en": "<div class=\"indented\">* (It's dark inside.)</div>",
@@ -41410,7 +41402,7 @@
 "ja": "最強の「にがしスキル」を身につけろ。"
 },
 "obj_fusionmenu_slash_Step_0_gml_144_0": {
-"en": "Get 100 TP without getting hit!\nYou can do it, boss!",
+"en": "Get 100% TP without getting hit!\nYou can do it, boss!",
 "ja": "一度も弾に当たらずに　TPを100％にすれば\nクリア！　ボスならできる！"
 },
 "obj_fusionmenu_slash_Step_0_gml_145_0": {
@@ -54226,7 +54218,7 @@
 },
 "obj_shop_ch2_spamton": {
 "obj_shop_ch2_spamton_slash_Create_0_gml_89_0": {
-"en": "KEYITEM\n100\nCERTIFIED\nWAREZ",
+"en": "KEYITEM\n100%\nCERTIFIED\nWAREZ",
 "ja": "だいじ\n100％\n安心の\n割れ"
 },
 "obj_shop_ch2_spamton_slash_Create_0_gml_90_0": {
@@ -55025,10 +55017,6 @@
 "en": "Thanks, it'll\nbe in your\nSTORAGE.",
 "ja": "ありがとね\nそうこに\n送っとくよ"
 },
-"obj_shop1_slash_Draw_0_gml_153_0": {
-"en": "",
-"ja": "＊"
-},
 "obj_shop1_slash_Draw_0_gml_167_0": {
 "en": "Buy it for",
 "ja": "で買う？"
@@ -55802,10 +55790,6 @@
 "obj_shop2_slash_Draw_0_gml_129_0": {
 "en": "Thou doth\ncarry\ntoo much!",
 "ja": "なんじズ\n持ちもの\nおおすぎ！"
-},
-"obj_shop2_slash_Draw_0_gml_130_0": {
-"en": "",
-"ja": "＊"
 },
 "obj_shop2_slash_Draw_0_gml_144_0": {
 "en": "Buyeth for",
@@ -64398,8 +64382,8 @@
 "ja": "＊ (中で　なにかが光っている)"
 },
 "scr_text_slash_scr_text_gml_99_0": {
-"en": "<div class=\"indented\">* (Take it?) </div>",
-"ja": "＊ (取る？) "
+"en": "<div class=\"indented\">* (Take it?)</div>",
+"ja": "＊ (取る？)"
 },
 "scr_text_slash_scr_text_gml_104_0": {
 "en": "<div class=\"indented\">* (It's dark inside.)</div>",
@@ -64814,16 +64798,16 @@
 "ja": "＊ (木の枝に　なにかが２つ\n　 ぶらさがっている)"
 },
 "scr_text_slash_scr_text_gml_365_0": {
-"en": "<div class=\"indented\">* (Take one?) </div>",
-"ja": "＊ (１つ取る？) "
+"en": "<div class=\"indented\">* (Take one?)</div>",
+"ja": "＊ (１つ取る？)"
 },
 "scr_text_slash_scr_text_gml_370_0": {
 "en": "<div class=\"indented\">* (There's a candy hanging from the tree.)</div>",
 "ja": "＊ (木の枝に　キャンディが１つ\n　 ぶらさがっている)"
 },
 "scr_text_slash_scr_text_gml_371_0": {
-"en": "<div class=\"indented\">* (Take one?) </div>",
-"ja": "＊ (１つ取る？) "
+"en": "<div class=\"indented\">* (Take one?)</div>",
+"ja": "＊ (１つ取る？)"
 },
 "scr_text_slash_scr_text_gml_377_0": {
 "en": "<div class=\"indented\">* (There's nothing hanging low enough to take.)</div>",
@@ -64862,8 +64846,8 @@
 "ja": "＊ (木の枝に　キャンディが１つ\n　 ぶらさがっている)"
 },
 "scr_text_slash_scr_text_gml_417_0": {
-"en": "<div class=\"indented\">* (Take one?) </div>",
-"ja": "＊ (１つ取る？) "
+"en": "<div class=\"indented\">* (Take one?)</div>",
+"ja": "＊ (１つ取る？)"
 },
 "scr_text_slash_scr_text_gml_423_0": {
 "en": "<div class=\"indented\">* (There's nothing hanging low enough to take.)</div>",
@@ -90536,7 +90520,7 @@
 "ja": "最強の「にがしスキル」を身につけろ。"
 },
 "obj_fusionmenu_slash_Step_0_gml_144_0": {
-"en": "Get 100 TP without getting hit!\nYou can do it, boss!",
+"en": "Get 100% TP without getting hit!\nYou can do it, boss!",
 "ja": "一度も弾に当たらずに　TPを100％にすれば\nクリア！　ボスならできる！"
 },
 "obj_fusionmenu_slash_Step_0_gml_145_0": {
@@ -100498,8 +100482,8 @@
 "ja": "＊ じつは…　ガチもんの　テレビ好きの\n　 ために　Ｓより上のランクが\n　 あるらしいんですわ。"
 },
 "obj_room_changing_room_slash_Step_0_gml_24_0": {
-"en": "<div class=\"indented\">* ... More like, TV Losers! Who wants to get THAT!? Nyuk huk huk...<span class=\"param\">~1</span></div>",
-"ja": "＊ …「テレビ好き」ゆうか…\n　 テレビバカですわな！　そんなランク\n　 欲しいヤツおりまっか…？<span class=\"param\">~1</span>"
+"en": "<div class=\"indented\">* ... More like, TV Losers! Who wants to get THAT!? Nyuk huk huk...</div>",
+"ja": "＊ …「テレビ好き」ゆうか…\n　 テレビバカですわな！　そんなランク\n　 欲しいヤツおりまっか…？"
 },
 "obj_room_changing_room_slash_Step_0_gml_26_0": {
 "en": "<div class=\"indented\">* ... huh? Why do you look so embarrassed...?</div>",
@@ -104437,10 +104421,6 @@
 "en": "Thanks, it'll\nbe in your\nSTORAGE.",
 "ja": "ありがとね\nそうこに\n送っとくよ"
 },
-"obj_shop1_slash_Draw_0_gml_153_0": {
-"en": "",
-"ja": "＊"
-},
 "obj_shop1_slash_Draw_0_gml_167_0": {
 "en": "Buy it for",
 "ja": "で買う？"
@@ -104938,10 +104918,6 @@
 "obj_shop2_slash_Draw_0_gml_129_0": {
 "en": "Thou doth\ncarry\ntoo much!",
 "ja": "なんじズ\n持ちもの\nおおすぎ！"
-},
-"obj_shop2_slash_Draw_0_gml_130_0": {
-"en": "",
-"ja": "＊"
 },
 "obj_shop2_slash_Draw_0_gml_144_0": {
 "en": "Buyeth for",
@@ -115758,8 +115734,8 @@
 "ja": "＊ (中で　なにかが光っている)"
 },
 "scr_text_slash_scr_text_gml_99_0": {
-"en": "<div class=\"indented\">* (Take it?) </div>",
-"ja": "＊ (取る？) "
+"en": "<div class=\"indented\">* (Take it?)</div>",
+"ja": "＊ (取る？)"
 },
 "scr_text_slash_scr_text_gml_104_0": {
 "en": "<div class=\"indented\">* (It's dark inside.)</div>",
@@ -116174,16 +116150,16 @@
 "ja": "＊ (木の枝に　なにかが２つ\n　 ぶらさがっている)"
 },
 "scr_text_slash_scr_text_gml_365_0": {
-"en": "<div class=\"indented\">* (Take one?) </div>",
-"ja": "＊ (１つ取る？) "
+"en": "<div class=\"indented\">* (Take one?)</div>",
+"ja": "＊ (１つ取る？)"
 },
 "scr_text_slash_scr_text_gml_370_0": {
 "en": "<div class=\"indented\">* (There's a candy hanging from the tree.)</div>",
 "ja": "＊ (木の枝に　キャンディが１つ\n　 ぶらさがっている)"
 },
 "scr_text_slash_scr_text_gml_371_0": {
-"en": "<div class=\"indented\">* (Take one?) </div>",
-"ja": "＊ (１つ取る？) "
+"en": "<div class=\"indented\">* (Take one?)</div>",
+"ja": "＊ (１つ取る？)"
 },
 "scr_text_slash_scr_text_gml_377_0": {
 "en": "<div class=\"indented\">* (There's nothing hanging low enough to take.)</div>",
@@ -116222,8 +116198,8 @@
 "ja": "＊ (木の枝に　キャンディが１つ\n　 ぶらさがっている)"
 },
 "scr_text_slash_scr_text_gml_417_0": {
-"en": "<div class=\"indented\">* (Take one?) </div>",
-"ja": "＊ (１つ取る？) "
+"en": "<div class=\"indented\">* (Take one?)</div>",
+"ja": "＊ (１つ取る？)"
 },
 "scr_text_slash_scr_text_gml_423_0": {
 "en": "<div class=\"indented\">* (There's nothing hanging low enough to take.)</div>",
@@ -145502,8 +145478,8 @@
 "ja": "＊ 本当のこととして　どっかに\n　 ちゃんと書いてある「希望」だ。"
 },
 "obj_dw_churchb_rotatingtower_slash_Create_0_gml_90_0": {
-"en": "<div class=\"indented\">* Written somewhere no one can erase!j</div>",
-"ja": "＊ …だれも　消せねーとこにな！j"
+"en": "<div class=\"indented\">* Written somewhere no one can erase!</div>",
+"ja": "＊ …だれも　消せねーとこにな！"
 },
 "obj_dw_churchb_rotatingtower_slash_Step_0_gml_199_0": {
 "en": "<div class=\"indented\">* Kris! Kris...!</div>",
@@ -164201,10 +164177,6 @@
 "en": "Thanks, it'll\nbe in your\nSTORAGE.",
 "ja": "ありがとね\nそうこに\n送っとくよ"
 },
-"obj_shop1_slash_Draw_0_gml_153_0": {
-"en": "",
-"ja": "＊"
-},
 "obj_shop1_slash_Draw_0_gml_167_0": {
 "en": "Buy it for",
 "ja": "で買う？"
@@ -164806,10 +164778,6 @@
 "obj_shop2_slash_Draw_0_gml_129_0": {
 "en": "Thou doth\ncarry\ntoo much!",
 "ja": "なんじズ\n持ちもの\nおおすぎ！"
-},
-"obj_shop2_slash_Draw_0_gml_130_0": {
-"en": "",
-"ja": "＊"
 },
 "obj_shop2_slash_Draw_0_gml_144_0": {
 "en": "Buyeth for",
@@ -166044,8 +166012,8 @@
 "ja": "＊ タマシイが燦然と輝く！"
 },
 "obj_titan_enemy_slash_Step_0_gml_1864_0": {
-"en": "<div class=\"indented\">* Susie used Wake Up!<span class=\"param\">~1</span></div>",
-"ja": "＊ スージィが「ウェイク」を使った！<span class=\"param\">~1</span>"
+"en": "<div class=\"indented\">* Susie used Wake Up!</div>",
+"ja": "＊ スージィが「ウェイク」を使った！"
 },
 "obj_titan_enemy_slash_Step_0_gml_1865_0": {
 "en": "<div class=\"indented\">* Hey, dumbass! Get up!</div>",
@@ -166162,8 +166130,8 @@
 "ja": "＊ クリスのタマシイが\n　 燦然と輝く！"
 },
 "obj_titan_spawn_enemy_slash_Step_0_gml_268_0": {
-"en": "<div class=\"indented\">* Susie used Wake Up!<span class=\"param\">~1</span></div>",
-"ja": "＊ スージィが「ウェイク」を使った！<span class=\"param\">~1</span>"
+"en": "<div class=\"indented\">* Susie used Wake Up!</div>",
+"ja": "＊ スージィが「ウェイク」を使った！"
 },
 "obj_titan_spawn_enemy_slash_Step_0_gml_269_0": {
 "en": "<div class=\"indented\">* Hey, dumbass! Get up!</div>",
@@ -175016,8 +174984,8 @@
 "ja": "＊ (中で　なにかが光っている)"
 },
 "scr_text_slash_scr_text_gml_99_0": {
-"en": "<div class=\"indented\">* (Take it?) </div>",
-"ja": "＊ (取る？) "
+"en": "<div class=\"indented\">* (Take it?)</div>",
+"ja": "＊ (取る？)"
 },
 "scr_text_slash_scr_text_gml_104_0": {
 "en": "<div class=\"indented\">* (It's dark inside.)</div>",
@@ -175432,16 +175400,16 @@
 "ja": "＊ (木の枝に　なにかが２つ\n　 ぶらさがっている)"
 },
 "scr_text_slash_scr_text_gml_365_0": {
-"en": "<div class=\"indented\">* (Take one?) </div>",
-"ja": "＊ (１つ取る？) "
+"en": "<div class=\"indented\">* (Take one?)</div>",
+"ja": "＊ (１つ取る？)"
 },
 "scr_text_slash_scr_text_gml_370_0": {
 "en": "<div class=\"indented\">* (There's a candy hanging from the tree.)</div>",
 "ja": "＊ (木の枝に　キャンディが１つ\n　 ぶらさがっている)"
 },
 "scr_text_slash_scr_text_gml_371_0": {
-"en": "<div class=\"indented\">* (Take one?) </div>",
-"ja": "＊ (１つ取る？) "
+"en": "<div class=\"indented\">* (Take one?)</div>",
+"ja": "＊ (１つ取る？)"
 },
 "scr_text_slash_scr_text_gml_377_0": {
 "en": "<div class=\"indented\">* (There's nothing hanging low enough to take.)</div>",
@@ -175480,8 +175448,8 @@
 "ja": "＊ (木の枝に　キャンディが１つ\n　 ぶらさがっている)"
 },
 "scr_text_slash_scr_text_gml_417_0": {
-"en": "<div class=\"indented\">* (Take one?) </div>",
-"ja": "＊ (１つ取る？) "
+"en": "<div class=\"indented\">* (Take one?)</div>",
+"ja": "＊ (１つ取る？)"
 },
 "scr_text_slash_scr_text_gml_423_0": {
 "en": "<div class=\"indented\">* (There's nothing hanging low enough to take.)</div>",

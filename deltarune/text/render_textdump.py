@@ -12,6 +12,12 @@ import typing
 def render(text: str | None, msgid: str, lang: str) -> str | None:
     if not text:
         return None
+    if text in ("/*", "/＊") and "shop" in msgid:
+        # Dummy message that shows up in shops if murder == 1.
+        # murder is always 0. A carryover from Undertale's murder route
+        # where it's used to blank out the sidebar.
+        # The shop code has been getting copy/pasted ever since...
+        return ""
     out = io.StringIO()
     color = "W"
     i = 0
@@ -65,6 +71,9 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                         print(text)
                         sys.exit(1)
                 i += 2
+            case "/" if msgid == "obj_dw_churchb_rotatingtower_slash_Create_0_gml_90_0":
+                # Postfixed with "j" ("/%j"). Probably a typo.
+                break
             case "/" if not msgid.startswith(
                 (
                     "obj_controller_city_mice2_slash_Draw_0_gml_28_0",
@@ -76,10 +85,11 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                     "scr_armorinfo_slash_scr_armorinfo_gml_791_0",
                     "scr_armorinfo_slash_scr_armorinfo_gml_791_0",
                     "scr_spellinfo_slash_scr_spellinfo_gml_109_0",
+                    "obj_overworldc_slash_Draw_0_gml_68_0",
                 )
             ):
-                if i + 1 < len(text) and text[i + 1] == "*":
-                    i += 1
+                assert text[i + 1 :].strip("%/~1 ") == "", msgid + " " + text
+                break
             case "&" if (
                 msgid.startswith(
                     # For finding these it's useful to look for ＆ (CJK ampersand)
@@ -143,11 +153,16 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 in [
                     "scr_text_slash_scr_text_gml_8925_0",
                     "scr_text_slash_scr_text_gml_8926_0",
+                    "obj_battlecontroller_slash_Draw_0_gml_171_0",
+                    "obj_battlecontroller_slash_Draw_0_gml_280_0",
+                    "obj_fusionmenu_slash_Step_0_gml_144_0",
+                    "obj_shop_ch2_spamton_slash_Create_0_gml_89_0",
                 ]
             ):
                 out.write("%")
             case "%":
-                pass
+                assert text[i + 1 :] in ("", "%", "%%", "/%"), msgid + " " + text
+                break
             case ">":
                 out.write("&gt;")
             case "<":

@@ -520,9 +520,9 @@ obj_alphysalley_event
 obj_battlecontroller
 ====================
 
- TP
+% TP
 
- TP
+% TP
 
 * You won!
 * Got ~1 EXP and ~2 D$.
@@ -6851,7 +6851,7 @@ DROP
 
 LV  
 
-HP  ~1  
+HP  ~1 / 
 
 AT  ~1 (
 
@@ -11867,7 +11867,7 @@ No
 
 * (There's something glowing inside.)
 
-* (Take it?) 
+* (Take it?)
 
 * (It's dark inside.)
 
@@ -22709,7 +22709,7 @@ Clover Rematch
 
 Learn how to spare like a champ.
 
-Get 100 TP without getting hit!
+Get 100% TP without getting hit!
 You can do it, boss!
 
 It's not Clover's birthday anymore!
@@ -29206,7 +29206,7 @@ obj_shop_ch2_spamton
 ====================
 
 KEYITEM
-100
+100%
 CERTIFIED
 WAREZ
 
@@ -34249,7 +34249,7 @@ No
 
 * (There's something glowing inside.)
 
-* (Take it?) 
+* (Take it?)
 
 * (It's dark inside.)
 
@@ -34495,11 +34495,11 @@ No
 
 * (There are two objects hanging from the tree.)
 
-* (Take one?) 
+* (Take one?)
 
 * (There's a candy hanging from the tree.)
 
-* (Take one?) 
+* (Take one?)
 
 * (There's nothing hanging low enough to take.)
 
@@ -34521,7 +34521,7 @@ No
 
 * (There's a candy hanging from the tree.)
 
-* (Take one?) 
+* (Take one?)
 
 * (There's nothing hanging low enough to take.)
 
@@ -48302,7 +48302,7 @@ obj_room_changing_room
 
 * Actually, I've heard there's an even higher rank for true TV Lovers.
 
-* ... More like, TV Losers! Who wants to get THAT!? Nyuk huk huk...~1
+* ... More like, TV Losers! Who wants to get THAT!? Nyuk huk huk...
 
 * ... huh? Why do you look so embarrassed...?
 
@@ -61141,7 +61141,7 @@ obj_dw_churchb_rotatingtower
 
 * Hope, written in truth. Written somewhere...
 
-* Written somewhere no one can erase!j
+* Written somewhere no one can erase!
 
 * Kris! Kris...!
 
@@ -67946,7 +67946,7 @@ Get dunked on!!!
 
 * Your SOUL emitted a brilliant light!
 
-* Susie used Wake Up!~1
+* Susie used Wake Up!
 
 * Hey, dumbass! Get up!
 
@@ -68015,7 +68015,7 @@ obj_titan_spawn_enemy
 
 * Kris's SOUL emitted a brilliant light!
 
-* Susie used Wake Up!~1
+* Susie used Wake Up!
 
 * Hey, dumbass! Get up!
 
