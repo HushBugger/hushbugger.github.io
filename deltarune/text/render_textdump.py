@@ -162,9 +162,9 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 assert text[i + 1] in "12345"
                 out.write(f'<span class="param">~{text[i + 1]}</span>')
                 i += 1
-            case "N" if msgid == 'obj_dw_church_intro_guei_slash_Step_0_gml_169_0':
+            case "N" if msgid == "obj_dw_church_intro_guei_slash_Step_0_gml_169_0":
                 # The game hardcodes this in a really bizarre way.
-                out.write('Ñ')
+                out.write("Ñ")
             case char:
                 out.write(char)
         i += 1
@@ -384,13 +384,14 @@ CHAPTER = """
 
 """
 
+
 def render_plain(lang: typing.Literal["en", "ja"]) -> str:
     # duplicated logic from index.html
     out = io.StringIO()
     out.write(HEADER)
     dedup = {}
     for chap, groups in rendered.items():
-        out.write(CHAPTER.replace('%', chap))
+        out.write(CHAPTER.replace("%", chap))
         for title, group in groups.items():
             pending_title = title.replace("_slash_", "/")
             for key, contents in group.items():
@@ -412,7 +413,7 @@ def render_plain(lang: typing.Literal["en", "ja"]) -> str:
                 out.write(plainify_html(content))
                 out.write("\n\n")
 
-    return out.getvalue().strip('\n') + "\n"
+    return out.getvalue().strip("\n") + "\n"
 
 
 with open("DELTARUNE.txt", "w", encoding="utf-8") as f:
