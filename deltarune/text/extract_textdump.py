@@ -11,11 +11,11 @@ import typing
 
 # Expected directory structure:
 # ├── ch1
-# │   ├── Export_Code
+# │   ├── *.gml
 # │   ├── lang_en.json
 # │   └── lang_ja.json
 # ├── ch2
-# │   ├── Export_Code
+# │   ├── *.gml
 # │   └── lang_ja.json
 # ├── ch3
 # └── ch4
@@ -151,10 +151,7 @@ for n in CHAPTERS:
     text[n]["ja"] = ja
     if n == 1:
         text[n]["en"] = json.loads((path / "lang_en.json").read_text())
-        for location, line in rg(
-            r"scr_84_get_lang_string\(",
-            path / "Export_Code",
-        ):
+        for location, line in rg(r"scr_84_get_lang_string\(", path):
             for func, args in parse_line(line):
                 match func, args:
                     case "scr_84_get_lang_string", [str(arg)]:
@@ -170,10 +167,7 @@ for n in CHAPTERS:
     en: dict[str, str] = {}
     text[n]["en"] = en
 
-    for location, line in rg(
-        f"({'|'.join(TEXTFUNCS)})\\([^)]",
-        path / "Export_Code",
-    ):
+    for location, line in rg(f"({'|'.join(TEXTFUNCS)})\\([^)]", path):
         for func, args in parse_line(line):
             match func, args:
                 case "scr_84_get_lang_string", [None]:
