@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -107,7 +107,7 @@
                 padding-top: 5px;
                 padding-bottom: 5px;
 
-                padding-left: 20px;
+                padding-left: 40px;
                 position: relative;
             }
 
@@ -125,7 +125,19 @@
                 text-indent: -16px;
             }
 
-            a.linkBar {
+            a.linkbar {
+                width: 20px;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 20px;
+                background-color: var(--foreground-color);
+                mask-position: 0 5px;
+                mask-image: url("hyperlink.svg");
+                mask-repeat: no-repeat;
+            }
+
+            a.sourcebar {
                 width: 20px;
                 height: 100%;
                 position: absolute;
@@ -133,8 +145,24 @@
                 left: 0;
                 background-color: var(--foreground-color);
                 mask-position: 0 5px;
-                mask-image: url("hyperlink.svg");
+                mask-image: url("sourcefile.svg");
                 mask-repeat: no-repeat;
+            }
+
+            @media (width <= 540px) {
+                a.linkbar {
+                    left: 0;
+                }
+
+                a.sourcebar {
+                    left: unset;
+                    right: 0;
+                }
+
+                div.textbox {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
             }
 
             div.textbox.en,
@@ -256,32 +284,6 @@
                 </li>
                 <li>
                     <strong>k</strong>(ey): Copy translation key to clipboard.
-                </li>
-                <li>
-                    <strong>c</strong>(ode): Open selected message in source
-                    code. To set up:
-                    <ul>
-                        <li>
-                            Decompile the game with
-                            <a
-                                href="https://github.com/UnderminersTeam/UndertaleModTool"
-                            >
-                                UndertaleModTool
-                            </a>
-                        </li>
-                        <li>
-                            In your brower console, run something like
-                            <br />
-                            <code>
-                                localStorage.deltaruneSourceUri =
-                                'vscode://file/home/user/path/to/deltarune/{chapter}/CodeEntries/{file}:{line}'
-                            </code>
-                            <br />
-                            (but with your choice of editor, directory
-                            structure, etc)
-                        </li>
-                        <li>Refresh the page</li>
-                    </ul>
                 </li>
             </ul>
             <a href="DELTARUNE.txt" target="_blank">Plain text</a> (<a
@@ -410,6 +412,7 @@
             <p>This pages requires JavaScript. Sorry :(</p>
         </noscript>
         <script src="rendered.json.js"></script>
+        <script src="sourcemap.json.js"></script>
         <script>
             // @ts-check
             "use strict";
@@ -417,6 +420,10 @@
             /** @type {Record<string,Record<string,Record<string,{en:string|null,ja:string|null}>>>|undefined} */
             // @ts-ignore
             const text = rendered;
+
+            /** @type {Record<string, Record<string, string>>} */
+            // @ts-ignore
+            const sources = sourcemap;
 
             /** @type {HTMLDivElement} */
             // @ts-ignore
@@ -536,15 +543,6 @@
                 return box;
             }
 
-            const sourceCodeUri = localStorage.getItem("deltaruneSourceUri");
-            /** @type {Record<string, Record<string, string>>|null} */
-            let sourceMap = null;
-            if (sourceCodeUri) {
-                fetch("sourcemap.json")
-                    .then((response) => response.json())
-                    .then((data) => (sourceMap = data));
-            }
-
             addEventListener("keydown", function (event) {
                 if (event.altKey || event.ctrlKey || event.metaKey) {
                     return;
@@ -593,27 +591,6 @@
                         sel?.empty();
                     }
                 }
-
-                if (event.key === "c") {
-                    const box = getBox(window.getSelection()?.anchorNode);
-                    if (!box || !sourceCodeUri || !sourceMap) {
-                        return;
-                    }
-                    const [lang, chapterNo, msgId] = box.id.split(":");
-                    const sourceLocation = sourceMap[chapterNo][msgId];
-                    if (!sourceLocation) {
-                        return;
-                    }
-                    const [file, line] = sourceLocation.split(":");
-                    const targetUri = sourceCodeUri
-                        .replace("{chapter}", String(chapterNo))
-                        .replace("{file}", file)
-                        .replace("{line}", line);
-                    window.open(
-                        targetUri,
-                        targetUri.startsWith("http") ? "_blank" : "_self"
-                    );
-                }
             });
 
             /** @param {Node|null|undefined} elem */
@@ -629,8 +606,13 @@
 
             /** @type {null|Element} */
             let activeBox = null;
+
             const linkBar = document.createElement("a");
-            linkBar.classList.add("linkBar");
+            linkBar.classList.add("linkbar");
+
+            const sourceBar = document.createElement("a");
+            sourceBar.classList.add("sourcebar");
+            sourceBar.target = "_blank";
 
             textboxes.addEventListener("mouseover", function (event) {
                 if (!(event.target instanceof Element)) {
@@ -643,11 +625,22 @@
                 if (!textbox) {
                     activeBox = null;
                     linkBar.remove();
+                    sourceBar.remove();
                     return;
                 }
                 activeBox = textbox;
+
                 linkBar.href = `#${textbox.id}`;
                 textbox.appendChild(linkBar);
+
+                const [lang, chapterNo, msgId] = activeBox.id.split(":");
+                const sourceLocation = sources[chapterNo][msgId];
+                if (!sourceLocation) {
+                    sourceBar.remove();
+                } else {
+                    sourceBar.href = `https://code.deltarune.wiki/ch${chapterNo}/${sourceLocation}`;
+                    textbox.appendChild(sourceBar);
+                }
             });
         </script>
     </body>

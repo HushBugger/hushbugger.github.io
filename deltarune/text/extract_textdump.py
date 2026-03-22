@@ -10,18 +10,18 @@ import sys
 import typing
 
 # Expected directory structure:
-# ├── 1
-# │   ├── CodeEntries
-# │   └── lang
-# │       ├── lang_en.json
-# │       └── lang_ja.json
-# ├── 2
-# │   ├── CodeEntries
-# │   └── lang
-# │       (etc...)
-# ├── 3
-# └── 4
-# Originally extracted with UnderTale Mod Tool v0.8.1.1
+# ├── ch1
+# │   ├── Export_Code
+# │   ├── lang_en.json
+# │   └── lang_ja.json
+# ├── ch2
+# │   ├── Export_Code
+# │   └── lang_ja.json
+# ├── ch3
+# └── ch4
+# Use https://github.com/utdrwiki/code-viewer's ExportCodeFormatted.csx script
+# or the line numbers will be off.
+# Extracted with UnderTale Mod Tool v0.8.4.1.
 try:
     source = pathlib.Path(sys.argv[1])
 except IndexError:
@@ -108,8 +108,7 @@ def parse_line(line: str) -> list[FunCall]:
 
 
 class RgResult(typing.NamedTuple):
-    filename: str
-    lineno: int
+    location: str
     text: str
 
 
@@ -133,8 +132,11 @@ def rg(pattern: str, path: pathlib.Path) -> typing.Iterable[RgResult]:
         if result["type"] != "match":
             continue
         yield RgResult(
-            filename=result["data"]["path"]["text"],
-            lineno=result["data"]["line_number"],
+            location=(
+                result["data"]["path"]["text"].removesuffix(".gml").lower()
+                + "#L"
+                + str(result["data"]["line_number"])
+            ),
             text=result["data"]["lines"]["text"],
         )
 
@@ -144,14 +146,14 @@ text = {n: {} for n in CHAPTERS}
 sourcemap = {n: {} for n in CHAPTERS}
 
 for n in CHAPTERS:
-    path = source / str(n)
-    ja: dict[str, str] = json.loads((path / "lang" / "lang_ja.json").read_text())
+    path = source / f"ch{n}"
+    ja: dict[str, str] = json.loads((path / "lang_ja.json").read_text())
     text[n]["ja"] = ja
     if n == 1:
-        text[n]["en"] = json.loads((path / "lang" / "lang_en.json").read_text())
-        for filename, lineno, line in rg(
+        text[n]["en"] = json.loads((path / "lang_en.json").read_text())
+        for location, line in rg(
             r"scr_84_get_lang_string\(",
-            path / "CodeEntries",
+            path / "Export_Code",
         ):
             for func, args in parse_line(line):
                 match func, args:
@@ -160,7 +162,7 @@ for n in CHAPTERS:
                         # 1. Predictable ordering: if we overrid then keys would
                         #    be ordered by first match but contain last match.
                         # 2. Better results for obj_ch2_scene26_powers_combined.
-                        sourcemap[n].setdefault(arg, f"{filename}:{lineno}")
+                        sourcemap[n].setdefault(arg, location)
                     case _:
                         print(func, args, line, file=sys.stderr)
                         sys.exit(1)
@@ -168,9 +170,9 @@ for n in CHAPTERS:
     en: dict[str, str] = {}
     text[n]["en"] = en
 
-    for filename, lineno, line in rg(
+    for location, line in rg(
         f"({'|'.join(TEXTFUNCS)})\\([^)]",
-        path / "CodeEntries",
+        path / "Export_Code",
     ):
         for func, args in parse_line(line):
             match func, args:
@@ -178,7 +180,7 @@ for n in CHAPTERS:
                     pass
                 case "scr_84_get_lang_string", [str(arg)]:
                     en[arg] = text[1]["en"][arg]
-                    sourcemap[n].setdefault(arg, f"{filename}:{lineno}")
+                    sourcemap[n].setdefault(arg, location)
                 case "msgsetloc", [None, r"\C2"]:
                     pass
                 case "msgsetsubloc", [None, r"\TX \F0 \E~1 \Fb \T0 %", None]:
@@ -197,7 +199,7 @@ for n in CHAPTERS:
                     while key in en and en[key] != trans:
                         key += "_DUP"
                     en[key] = trans
-                    sourcemap[n].setdefault(key, f"{filename}:{lineno}")
+                    sourcemap[n].setdefault(key, location)
                 case _:
                     print(func, args, line, file=sys.stderr)
                     sys.exit(1)
@@ -223,3 +225,11 @@ with open("lang.json", "w", encoding="utf-8") as f:
     json.dump(text, f, indent=0, ensure_ascii=False, sort_keys=True)
 with open("sourcemap.json", "w", encoding="utf-8") as f:
     json.dump(sourcemap, f, indent=0, ensure_ascii=False, sort_keys=True)
+
+with open("sourcemap.json.js", "w", encoding="utf-8") as f:
+    as_json = json.dumps(
+        sourcemap, indent=None, ensure_ascii=False, separators=(",", ":")
+    )
+    f.write("var sourcemap = JSON.parse('")
+    f.write(as_json.replace("\\", "\\\\").replace("'", "\\'"))
+    f.write("');")
