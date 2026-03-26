@@ -306,7 +306,7 @@
                     href="https://github.com/HushBugger/hushbugger.github.io/tree/master/deltarune/text"
                     target="_blank"
                 >
-                    Source code
+                    Github
                 </a>
             </p>
             <p>For search, press Ctrl+F or ⌘+F or ⋮ → "Find in page"</p>
@@ -617,10 +617,12 @@
 
             const linkBar = document.createElement("a");
             linkBar.classList.add("linkbar");
+            linkBar.title = "Link";
 
             const sourceBar = document.createElement("a");
             sourceBar.classList.add("sourcebar");
             sourceBar.target = "_blank";
+            sourceBar.title = "Source code";
 
             textboxes.addEventListener("mouseover", function (event) {
                 if (!(event.target instanceof Element)) {
