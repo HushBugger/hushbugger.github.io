@@ -12,7 +12,10 @@ Issues and pull requests are welcome!
 
 ### Licenses
 
-SVG icons from https://commons.wikimedia.org/wiki/File:Bootstrap_link-45deg.svg and https://commons.wikimedia.org/wiki/File:Bootstrap_file-earmark-code.svg.
+SVG icons from:
+- https://commons.wikimedia.org/wiki/File:Bootstrap_link-45deg.svg
+- https://commons.wikimedia.org/wiki/File:Bootstrap_file-earmark-code.svg
+- https://commons.wikimedia.org/wiki/File:Bootstrap_clipboard-check.svg
 
 <details>
 <summary>License</summary>

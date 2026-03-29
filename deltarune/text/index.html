@@ -138,6 +138,12 @@
                 mask-repeat: no-repeat;
             }
 
+            a.linkbar.copied {
+                mask-image: url("clipboard.svg");
+                background-color: #0b0;
+                filter: none;
+            }
+
             a.sourcebar {
                 width: 20px;
                 height: 100%;
@@ -620,6 +626,19 @@
             const linkBar = document.createElement("a");
             linkBar.classList.add("linkbar");
             linkBar.title = "Link";
+            linkBar.addEventListener("click", function (e) {
+                if (e.ctrlKey || e.altKey || e.shiftKey || e.metaKey) {
+                    return;
+                }
+                if (!navigator.clipboard) {
+                    return;
+                }
+                navigator.clipboard.writeText(linkBar.href).then(function () {
+                    linkBar.classList.add("copied");
+                });
+                window.history.pushState({}, "", linkBar.href);
+                e.preventDefault();
+            });
 
             const sourceBar = document.createElement("a");
             sourceBar.classList.add("sourcebar");
@@ -643,6 +662,7 @@
                 activeBox = textbox;
 
                 linkBar.href = `#${textbox.id}`;
+                linkBar.classList.remove("copied");
                 textbox.appendChild(linkBar);
 
                 const [lang, chapterNo, msgId] = activeBox.id.split(":");
