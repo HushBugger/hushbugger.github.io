@@ -136,12 +136,16 @@
                 left: 20px;
                 background-color: var(--background-color);
                 filter: invert(1);
+                -webkit-mask-position: 0 5px;
                 mask-position: 0 5px;
+                -webkit-mask-image: url("hyperlink.svg");
                 mask-image: url("hyperlink.svg");
+                -webkit-mask-repeat: no-repeat;
                 mask-repeat: no-repeat;
             }
 
             a.linkbar.copied {
+                -webkit-mask-image: url("clipboard.svg");
                 mask-image: url("clipboard.svg");
                 background-color: #0b0;
                 filter: none;
@@ -155,12 +159,15 @@
                 left: 0;
                 background-color: var(--background-color);
                 filter: invert(1);
+                -webkit-mask-position: 0 5px;
                 mask-position: 0 5px;
+                -webkit-mask-image: url("sourcefile.svg");
                 mask-image: url("sourcefile.svg");
+                -webkit-mask-repeat: no-repeat;
                 mask-repeat: no-repeat;
             }
 
-            @media (width <= 540px) {
+            @media (max-width: 540px) {
                 a.linkbar {
                     left: 0;
                 }
@@ -326,18 +333,21 @@
             // @ts-check
             "use strict";
 
-            document
-                .getElementById("keyboard-guide-toggle")
-                ?.addEventListener("click", function () {
-                    const guide = document.getElementById("keyboard-guide");
-                    if (guide) {
-                        if (guide.style.display === "none") {
-                            guide.style.display = "";
-                        } else {
-                            guide.style.display = "none";
-                        }
+            /** @type {HTMLDivElement} */
+            // @ts-ignore
+            const keyboardGuideToggle = document.getElementById(
+                "keyboard-guide-toggle"
+            );
+            keyboardGuideToggle.addEventListener("click", function () {
+                const guide = document.getElementById("keyboard-guide");
+                if (guide) {
+                    if (guide.style.display === "none") {
+                        guide.style.display = "";
+                    } else {
+                        guide.style.display = "none";
                     }
-                });
+                }
+            });
 
             /** @type {HTMLImageElement} */
             // @ts-ignore
@@ -354,10 +364,12 @@
                 }
             }
 
-            lightModeToggle.parentElement?.addEventListener(
-                "click",
-                toggleLightMode
-            );
+            if (lightModeToggle.parentElement) {
+                lightModeToggle.parentElement.addEventListener(
+                    "click",
+                    toggleLightMode
+                );
+            }
 
             if (localStorage.getItem("deltaruneLightMode")) {
                 document.body.classList.add("light");
@@ -604,10 +616,13 @@
 
                 if (event.key === "k") {
                     const sel = window.getSelection();
-                    const box = getBox(sel?.anchorNode);
+                    if (!sel) {
+                        return;
+                    }
+                    const box = getBox(sel.anchorNode);
                     if (box) {
                         navigator.clipboard.writeText(box.id.split(":")[2]);
-                        sel?.empty();
+                        sel.empty();
                     }
                 }
             });
@@ -620,7 +635,9 @@
                 ) {
                     return elem;
                 }
-                return elem?.parentElement?.closest(".textbox");
+                if (elem && elem.parentElement) {
+                    return elem.parentElement.closest(".textbox");
+                }
             }
 
             /** @type {null|Element} */
