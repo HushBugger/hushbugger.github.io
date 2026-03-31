@@ -194,7 +194,10 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
     ):
         rendered = re.sub(r"\n *([^*])", "\n  \\1", rendered)
     rendered = rendered.rstrip("\n")
-    if lang == "en" and rendered.startswith("* "):
+    if lang == "en" and rendered.startswith("* ") and "\n" in rendered:
+        # `text-indent: each-line` would be even easier. But Blink only got
+        # support in March 2026, two weeks ago as of writing. So let's wait
+        # until 2027 or 2028.
         rendered = (
             '<div class="indented">'
             + rendered.replace("\n", '</div><div class="indented">')

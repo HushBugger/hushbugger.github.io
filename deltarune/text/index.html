@@ -109,17 +109,14 @@
                 position: relative;
             }
 
-            /*
-                Wrap text like
-                    * Lorem ipsum dolor
-                      sit amet
-                Instead of
-                    * Lorem ipsum dolor
-                    sit amet
-                */
-            div.indented {
+            div.textbox div.indented {
                 margin: 0;
                 padding-left: 16px;
+                text-indent: -16px;
+            }
+
+            div.textbox.indented {
+                padding-left: 56px;
                 text-indent: -16px;
             }
 
@@ -175,6 +172,10 @@
                 div.textbox {
                     padding-left: 20px;
                     padding-right: 20px;
+                }
+
+                div.textbox.indented {
+                    padding-left: 36px;
                 }
             }
 
@@ -564,6 +565,9 @@
                 let html = '<div id="' + id + '" class="textbox ' + lang;
                 if (text === null) {
                     html += " untranslated";
+                }
+                if (lang === "en" && text && text.startsWith("* ")) {
+                    html += " indented";
                 }
                 html += '"';
                 if (lang === "ja") {
