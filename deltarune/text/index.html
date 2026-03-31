@@ -275,9 +275,7 @@
                     <option value="3">Chapter 3</option>
                     <option value="4">Chapter 4</option>
                 </select>
-                <button type="button" id="keyboard-guide-toggle">
-                    Hotkeys
-                </button>
+                <button type="button" id="keyboard-guide-toggle">Hotkeys</button>
                 <button>
                     <img
                         id="light-mode-toggle"
@@ -292,17 +290,14 @@
             <ul id="keyboard-guide" style="display: none">
                 <li><strong>l</strong>(ight): Toggle light mode.</li>
                 <li>
-                    <strong>q</strong>(uote): Copy selected messages to
-                    clipboard markdown/Discord-style ("&gt; " before each line,
-                    "*" escaped to "\*").
+                    <strong>q</strong>(uote): Copy selected messages to clipboard
+                    markdown/Discord-style ("&gt; " before each line, "*" escaped to "\*").
                 </li>
                 <li>
-                    <strong>&gt;</strong>: Copy messages to clipboard
-                    email-style ("&gt; " before each line).
+                    <strong>&gt;</strong>: Copy messages to clipboard email-style ("&gt; " before
+                    each line).
                 </li>
-                <li>
-                    <strong>k</strong>(ey): Copy translation key to clipboard.
-                </li>
+                <li><strong>k</strong>(ey): Copy translation key to clipboard.</li>
             </ul>
             <p>
                 <a href="DELTARUNE.txt" target="_blank">Plain text</a> (<a
@@ -311,9 +306,7 @@
                     >JA</a
                 >)
                 <strong>·</strong>
-                <a href="https://forms.gle/cmXFH7HoadC9oMX36" target="_blank">
-                    Feedback
-                </a>
+                <a href="https://forms.gle/cmXFH7HoadC9oMX36" target="_blank">Feedback</a>
                 <strong>·</strong>
                 <a
                     href="https://github.com/HushBugger/hushbugger.github.io/tree/master/deltarune/text"
@@ -322,10 +315,7 @@
                     Github
                 </a>
                 <strong>·</strong>
-                <a
-                    href="https://deltarune.wiki/w/Deltarune_Wiki:Resources"
-                    target="_blank"
-                >
+                <a href="https://deltarune.wiki/w/Deltarune_Wiki:Resources" target="_blank">
                     Other resources
                 </a>
             </p>
@@ -337,9 +327,7 @@
 
             /** @type {HTMLDivElement} */
             // @ts-ignore
-            const keyboardGuideToggle = document.getElementById(
-                "keyboard-guide-toggle"
-            );
+            const keyboardGuideToggle = document.getElementById("keyboard-guide-toggle");
             keyboardGuideToggle.addEventListener("click", function () {
                 const guide = document.getElementById("keyboard-guide");
                 if (guide) {
@@ -353,8 +341,7 @@
 
             /** @type {HTMLImageElement} */
             // @ts-ignore
-            const lightModeToggle =
-                document.getElementById("light-mode-toggle");
+            const lightModeToggle = document.getElementById("light-mode-toggle");
 
             function toggleLightMode() {
                 if (document.body.classList.toggle("light")) {
@@ -367,10 +354,7 @@
             }
 
             if (lightModeToggle.parentElement) {
-                lightModeToggle.parentElement.addEventListener(
-                    "click",
-                    toggleLightMode
-                );
+                lightModeToggle.parentElement.addEventListener("click", toggleLightMode);
             }
 
             if (localStorage.getItem("deltaruneLightMode")) {
@@ -388,9 +372,7 @@
             const config = {};
 
             for (const select of selects) {
-                const elem = /** @type {HTMLSelectElement} */ (
-                    document.getElementById(select.id)
-                );
+                const elem = /** @type {HTMLSelectElement} */ (document.getElementById(select.id));
 
                 elem.addEventListener("change", function (event) {
                     const value = elem.selectedOptions[0].value;
@@ -478,17 +460,10 @@
                 let newHTML = "";
                 const dedup = {};
                 for (const chapterNo of [1, 2, 3, 4]) {
-                    if (
-                        config.chap !== String(chapterNo) &&
-                        config.chap !== "all"
-                    ) {
+                    if (config.chap !== String(chapterNo) && config.chap !== "all") {
                         continue;
                     }
-                    newHTML += mkTitle(
-                        "h1",
-                        `${chapterNo}`,
-                        `Chapter ${chapterNo}`
-                    );
+                    newHTML += mkTitle("h1", `${chapterNo}`, `Chapter ${chapterNo}`);
 
                     const chapter = text[chapterNo];
                     for (const groupName of Object.keys(chapter)) {
@@ -505,10 +480,7 @@
                         for (const msgId of Object.keys(group)) {
                             for (const lang of ["en", "ja"]) {
                                 const msg = group[msgId][lang];
-                                if (
-                                    (config.lang === lang && msg) ||
-                                    config.lang === "both"
-                                ) {
+                                if ((config.lang === lang && msg) || config.lang === "both") {
                                     if (msg !== dedup[`${lang}_${msgId}`]) {
                                         if (title) {
                                             newHTML += title;
@@ -631,10 +603,7 @@
 
             /** @param {Node|null|undefined} elem */
             function getBox(elem) {
-                if (
-                    elem instanceof HTMLElement &&
-                    elem.classList.contains("textbox")
-                ) {
+                if (elem instanceof HTMLElement && elem.classList.contains("textbox")) {
                     return elem;
                 }
                 if (elem && elem.parentElement) {
