@@ -303,13 +303,15 @@ def smartsort(key: str):
     # Further sort by the actual line order in the files
     if "gml" in pieces:
         assert pieces.count("gml") == 1
-        # (using `n` here is mildly criminal)
+        # (using `n` here is mildly criminal, scope-wise)
         if key in sourcemap[n]:
-            filename, lineno = sourcemap[n][key].split(":")
+            filename, lineno = sourcemap[n][key].split("#L")
             lineno = int(lineno)
         else:
             filename = "zzzzzz"
             lineno = 9999999
+        # obj_npc_room_slash_Other_10_gml_1189_0 fits better at the end, not the start
+        filename = filename.replace("room_animated_other", "room_other_animated")
         pieces.insert(pieces.index("gml") + 1, str(lineno).rjust(10, "0"))
         # Some translation keys that indicate the same file belong to different files
         # e.g. DEVICE_MENU_slash_Create_0_gml_107_0 and DEVICE_MENU_slash_Create_0_gml_17_0
