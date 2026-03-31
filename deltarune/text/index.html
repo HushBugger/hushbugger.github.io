@@ -257,6 +257,10 @@
                 margin-top: 0.5em;
                 margin-bottom: 0.5em;
             }
+
+            section {
+                content-visibility: auto;
+            }
         </style>
     </head>
 
@@ -458,6 +462,22 @@
                 }
 
                 let newHTML = "";
+                let sectionHTML = "";
+                let sectionHeight = 0;
+
+                function finishSection() {
+                    if (sectionHTML) {
+                        newHTML +=
+                            '<section style="contain-intrinsic-height:auto ' +
+                            sectionHeight +
+                            'px">' +
+                            sectionHTML +
+                            "</section>";
+                    }
+                    sectionHTML = "";
+                    sectionHeight = 0;
+                }
+
                 const dedup = {};
                 for (const chapterNo of [1, 2, 3, 4]) {
                     if (config.chap !== String(chapterNo) && config.chap !== "all") {
@@ -479,10 +499,12 @@
 
                         for (const msgId of Object.keys(group)) {
                             for (const lang of ["en", "ja"]) {
+                                /** @type {string} */
                                 const msg = group[msgId][lang];
                                 if ((config.lang === lang && msg) || config.lang === "both") {
                                     if (msg !== dedup[`${lang}_${msgId}`]) {
                                         if (title) {
+                                            finishSection();
                                             newHTML += title;
                                             title = null;
                                         }
@@ -491,7 +513,18 @@
                                             `${lang}:${chapterNo}:${msgId}`,
                                             msg
                                         );
-                                        newHTML += box;
+                                        sectionHTML += box;
+                                        const numLines = (msg || "").split(/\n|<\/div><div/).length;
+                                        // This estimate is perfectly accurate for a wide enough
+                                        // window and a correct-height Japanese font.
+                                        // To verify, disable content-visibility and check
+                                        /*
+                                            [...document.getElementsByTagName('section')]
+                                                .filter(x => +x.style.containIntrinsicHeight
+                                                    .match(/[0-9]+/)[0] !== x.offsetHeight)
+                                         */
+                                        // Even in narrow windows it's not so bad.
+                                        sectionHeight += 10 + 18 * numLines;
                                         dedup[`${lang}_${msgId}`] = msg;
                                     }
                                 }
@@ -500,6 +533,7 @@
                     }
                 }
 
+                finishSection();
                 textboxes.innerHTML = newHTML;
                 curRendered = thisRender;
             }
