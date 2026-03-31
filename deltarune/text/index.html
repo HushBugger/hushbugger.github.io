@@ -475,7 +475,7 @@
                     return;
                 }
 
-                textboxes.innerHTML = "";
+                let newHTML = "";
                 const dedup = {};
                 for (const chapterNo of [1, 2, 3, 4]) {
                     if (
@@ -484,24 +484,23 @@
                     ) {
                         continue;
                     }
-                    const chapterTitle = mkTitle(
+                    newHTML += mkTitle(
                         "h1",
                         `${chapterNo}`,
                         `Chapter ${chapterNo}`
                     );
-                    textboxes.appendChild(chapterTitle);
 
                     const chapter = text[chapterNo];
                     for (const groupName of Object.keys(chapter)) {
                         const group = chapter[groupName];
 
-                        /** @type {HTMLElement|null} */
+                        /** @type {string|null} */
                         let title = mkTitle(
                             "h2",
                             `${chapterNo}_${groupName}`,
-                            groupName.replace(/_slash_/g, "/")
+                            groupName.replace(/_slash_/g, "/"),
+                            "groupName"
                         );
-                        title.classList.add("groupName");
 
                         for (const msgId of Object.keys(group)) {
                             for (const lang of ["en", "ja"]) {
@@ -512,7 +511,7 @@
                                 ) {
                                     if (msg !== dedup[`${lang}_${msgId}`]) {
                                         if (title) {
-                                            textboxes.appendChild(title);
+                                            newHTML += title;
                                             title = null;
                                         }
                                         const box = buildBox(
@@ -520,7 +519,7 @@
                                             `${lang}:${chapterNo}:${msgId}`,
                                             msg
                                         );
-                                        textboxes.appendChild(box);
+                                        newHTML += box;
                                         dedup[`${lang}_${msgId}`] = msg;
                                     }
                                 }
@@ -529,6 +528,7 @@
                     }
                 }
 
+                textboxes.innerHTML = newHTML;
                 curRendered = thisRender;
             }
 
@@ -536,19 +536,17 @@
              * @param {string} elem
              * @param {string} id
              * @param {string} text
+             * @param {string|null} className
              */
-            function mkTitle(elem, id, text) {
-                const title = document.createElement(elem);
-                title.id = id;
-                const link = document.createElement("a");
-                link.href = `#${id}`;
-                link.innerText = text;
-                link.innerHTML = link.innerHTML.replace(
-                    /_/g,
-                    '<span class="breakable">_</span>'
-                );
-                title.appendChild(link);
-                return title;
+            function mkTitle(elem, id, text, className = null) {
+                let html = "<" + elem + ' id="' + id + '"';
+                if (className) {
+                    html += ' class="' + className + '"';
+                }
+                html += '><a href="#' + id + '">';
+                html += text.replace(/_/g, '<span class="breakable">_</span>');
+                html += "</a></" + elem + ">";
+                return html;
             }
 
             /**
@@ -557,23 +555,25 @@
              * @param {string | null} text
              */
             function buildBox(lang, id, text) {
-                const box = document.createElement("div");
-                box.id = id;
-                box.classList.add("textbox");
-                box.classList.add(lang);
-                if (lang === "ja") {
-                    box.lang = "ja";
-                }
+                let html = '<div id="' + id + '" class="textbox ' + lang;
                 if (text === null) {
-                    box.classList.add("untranslated");
+                    html += " untranslated";
+                }
+                html += '"';
+                if (lang === "ja") {
+                    html += ' lang="ja"';
+                }
+                html += ">";
+                if (text === null) {
                     if (lang === "en") {
                         text = "(No English translation.)";
                     } else {
                         text = "(No Japanese translation.)";
                     }
                 }
-                box.innerHTML = text;
-                return box;
+                html += text;
+                html += "</div>";
+                return html;
             }
 
             addEventListener("keydown", function (event) {

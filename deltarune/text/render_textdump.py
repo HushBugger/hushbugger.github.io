@@ -272,6 +272,8 @@ def groupify(ident: str) -> str:
     if "_slash_" in ident and len(set(ident.split("_slash_"))) == 1:
         ident = ident.split("_slash_")[0]
 
+    assert ishtmlsafe(ident)
+
     return ident
 
 
@@ -321,6 +323,10 @@ def smartsort(key: str):
     return pieces
 
 
+def ishtmlsafe(text: str) -> bool:
+    return not any(c in text for c in "\"'<>&")
+
+
 lang: dict[str, dict[typing.Literal["en", "ja"], dict[str, str]]] = json.load(
     open("lang.json", encoding="utf-8")
 )
@@ -334,6 +340,7 @@ for n in lang:
     rendered[n] = {}
     ks = sorted(lang[n]["en"].keys() | lang[n]["ja"].keys(), key=smartsort)
     for k in ks:
+        assert ishtmlsafe(k)
         if k == "date":
             continue
         en = lang[n]["en"].get(k)
