@@ -1161,7 +1161,7 @@
 },
 "obj_checker_animtest_slash_Step_0_gml_48_0": {
 "en": "<div class=\"indented\">* If it isn't the </div>",
-"ja": "＊ にっくき\n"
+"ja": "＊ にっくき"
 },
 "obj_checker_animtest_slash_Step_0_gml_49_0": {
 "en": "<div class=\"indented\">* You boys or girls had better turn back while you can.</div>",
@@ -1685,7 +1685,7 @@
 },
 "obj_classscene_slash_Step_0_gml_110_0": {
 "en": "<div class=\"indented\">* She was just saying we're FINE being alone!</div>",
-"ja": "＊ ノエルは　「３人めの\n　 メンバーなんていらない！」\n　 って　いったんですぅ！\n"
+"ja": "＊ ノエルは　「３人めの\n　 メンバーなんていらない！」\n　 って　いったんですぅ！"
 },
 "obj_classscene_slash_Step_0_gml_111_0": {
 "en": "<div class=\"indented\">* A-actually, I just wanted to know if...</div>",
@@ -2362,7 +2362,7 @@
 "ja": "＊ えっと…　３人は\n　 どんな「男子」が\n　 タイプですか？"
 },
 "obj_clubsenemy_slash_Step_0_gml_233_0": {
-"en": "Cute ones!\nHmm hmm~\n",
+"en": "Cute ones!\nHmm hmm~",
 "ja": "やっぱ\nイケメン！\nだよね！"
 },
 "obj_clubsenemy_slash_Step_0_gml_234_0": {
@@ -3196,7 +3196,7 @@
 "ja": "だいじ"
 },
 "obj_darkcontroller_slash_Draw_0_gml_829_0": {
-"en": "Really throw away the\n",
+"en": "Really throw away the",
 "ja": "\nを捨てますか？"
 },
 "obj_darkcontroller_slash_Draw_0_gml_101_0": {
@@ -14055,7 +14055,7 @@
 "obj_rurus_event": {
 "obj_rurus_event_slash_Step_0_gml_58_0": {
 "en": "So the worms have decided\nto crawl out and play...",
-"ja": "ムシケラズの　一団の　\n遊び求めて　這い出でし…\n"
+"ja": "ムシケラズの　一団の　\n遊び求めて　這い出でし…"
 },
 "obj_rurus_event_slash_Step_0_gml_71_0": {
 "en": "<div class=\"indented\">* Who's there!?</div>",
@@ -19328,8 +19328,8 @@
 "ja": "ルードソード"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_23_0": {
-"en": "Rude\nDamage\n",
-"ja": "暴属性\nダメージ\n"
+"en": "Rude\nDamage",
+"ja": "暴属性\nダメージ"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_24_0": {
 "en": "Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
@@ -19376,8 +19376,8 @@
 "ja": "ルードバスター"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_54_0": {
-"en": "Rude\nDamage\n",
-"ja": "暴属性\nダメージ\n"
+"en": "Rude\nDamage",
+"ja": "暴属性\nダメージ"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_55_0": {
 "en": "Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
@@ -19392,8 +19392,8 @@
 "ja": "レッドバスター"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_66_0": {
-"en": "Red\nDamage\n",
-"ja": "赤属性\nダメージ\n"
+"en": "Red\nDamage",
+"ja": "赤属性\nダメージ"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_75_0": {
 "en": "Dual Heal",
@@ -19502,8 +19502,8 @@
 "ja": "＊ グロウシャードは\n　 消えてなくなった！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_112_0": {
-"en": "<div class=\"indented\">* <span class=\"param\">~1</span> became enraptured!</div><div class=\"indented\"></div>",
-"ja": "＊ <span class=\"param\">~1</span>は　うっとりした！\n"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> became enraptured!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　うっとりした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_122_0": {
 "en": "<div class=\"indented\">* <span class=\"param\">~1</span> read the MANUAL!</div>",
@@ -19518,16 +19518,16 @@
 "ja": "(くたびれ)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_168_0": {
-"en": "<div class=\"indented\">* <span class=\"param\">~1</span> was <span class=\"B\">bored to tears</span>!</div><div class=\"indented\"></div>",
-"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"B\">涙が出るほど退屈</span>した！\n"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> was <span class=\"B\">bored to tears</span>!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　<span class=\"B\">涙が出るほど退屈</span>した！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_169_0": {
-"en": "<div class=\"indented\">* <span class=\"param\">~1</span> listened politely!</div><div class=\"indented\"></div>",
-"ja": "＊ <span class=\"param\">~1</span>は　お行儀よく耳を傾けた！\n"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> listened politely!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　お行儀よく耳を傾けた！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_170_0": {
-"en": "<div class=\"indented\">* <span class=\"param\">~1</span> became sentimental!</div><div class=\"indented\"></div>",
-"ja": "＊ <span class=\"param\">~1</span>は　じ～んとした！\n"
+"en": "<div class=\"indented\">* <span class=\"param\">~1</span> became sentimental!</div>",
+"ja": "＊ <span class=\"param\">~1</span>は　じ～んとした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_179_0": {
 "en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BROKEN CAKE!</div>",
@@ -20024,8 +20024,8 @@
 "ja": "\n大丈夫\n任せて"
 },
 "scr_text_slash_scr_text_gml_319_0": {
-"en": "\n.....\n",
-"ja": "\n…\n"
+"en": "\n.....",
+"ja": "\n…"
 },
 "scr_text_slash_scr_text_gml_322_0": {
 "en": "<div class=\"indented\">* Oh my!</div><div class=\"indented\">* The Great Door is opened?!</div>",
@@ -37577,7 +37577,7 @@
 },
 "obj_classscene_slash_Step_0_gml_114_0": {
 "en": "<div class=\"indented\">* She was just saying we're FINE being alone!</div>",
-"ja": "＊ ノエルは　「３人めの\n　 メンバーなんていらない！」\n　 って　いったんですぅ！\n"
+"ja": "＊ ノエルは　「３人めの\n　 メンバーなんていらない！」\n　 って　いったんですぅ！"
 },
 "obj_classscene_slash_Step_0_gml_115_0": {
 "en": "<div class=\"indented\">* A-actually, I just wanted to know if...</div>",
@@ -63830,8 +63830,8 @@
 "ja": "ルードソード"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_23_0": {
-"en": "Rude\nDamage\n",
-"ja": "暴属性\nダメージ\n"
+"en": "Rude\nDamage",
+"ja": "暴属性\nダメージ"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_24_0": {
 "en": "Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
@@ -63878,8 +63878,8 @@
 "ja": "ルードバスター"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_54_0": {
-"en": "Rude\nDamage\n",
-"ja": "暴属性\nダメージ\n"
+"en": "Rude\nDamage",
+"ja": "暴属性\nダメージ"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_55_0": {
 "en": "Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
@@ -63894,8 +63894,8 @@
 "ja": "レッドバスター"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_66_0": {
-"en": "Red\nDamage\n",
-"ja": "赤属性\nダメージ\n"
+"en": "Red\nDamage",
+"ja": "赤属性\nダメージ"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_75_0": {
 "en": "Dual Heal",
@@ -64104,7 +64104,7 @@
 "ja": "＊ グロウシャードは\n　 消えてなくなった！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_143_0": {
-"en": " became enraptured!\n",
+"en": " became enraptured!",
 "ja": " は\n　 うっとりした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_122_0": {
@@ -64120,16 +64120,16 @@
 "ja": "(くたびれ)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_199_0": {
-"en": " was <span class=\"B\">bored to tears</span>!\n",
-"ja": " was <span class=\"B\">bored to tears</span>!\n"
+"en": " was <span class=\"B\">bored to tears</span>!",
+"ja": " was <span class=\"B\">bored to tears</span>!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_200_0_b": {
-"en": " listened politely!\n",
-"ja": " listened politely!\n"
+"en": " listened politely!",
+"ja": " listened politely!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_201_0": {
-"en": " became sentimental!\n",
-"ja": " became sentimental!\n"
+"en": " became sentimental!",
+"ja": " became sentimental!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_179_0": {
 "en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BROKEN CAKE!</div>",
@@ -64698,8 +64698,8 @@
 "ja": "\n大丈夫\n任せて"
 },
 "scr_text_slash_scr_text_gml_320_0": {
-"en": "\n.....\n",
-"ja": "\n…\n"
+"en": "\n.....",
+"ja": "\n…"
 },
 "scr_text_slash_scr_text_gml_323_0": {
 "en": "<div class=\"indented\">* Oh my!</div><div class=\"indented\">* The Great Door is opened?!</div>",
@@ -77879,7 +77879,7 @@
 },
 "obj_b2quiz2_slash_Step_0_gml_49_0": {
 "en": "Supposed to be... a player one.",
-"ja": "…ボクが\n「プレイヤー1」に\nなることなんて\n"
+"ja": "…ボクが\n「プレイヤー1」に\nなることなんて"
 }
 },
 "obj_b2raftget": {
@@ -78229,7 +78229,7 @@
 },
 "obj_b3bfinale_slash_Step_0_gml_132_0": {
 "en": null,
-"ja": "えっ…\n"
+"ja": "えっ…"
 },
 "obj_b3bfinale_slash_Step_0_gml_159_0": {
 "en": null,
@@ -83507,7 +83507,7 @@
 },
 "obj_ch3_GSD01_slash_Step_0_gml_222_0": {
 "en": "Hey, isn't\nthis fun!?",
-"ja": "いや～楽しい\nですねぇ～！？\n"
+"ja": "いや～楽しい\nですねぇ～！？"
 },
 "obj_ch3_GSD01_slash_Step_0_gml_239_0": {
 "en": "I'm not broken!\nI don't have\nburn-in!\nI'm... fun!!!",
@@ -85991,7 +85991,7 @@
 },
 "obj_classscene_slash_Step_0_gml_114_0": {
 "en": "<div class=\"indented\">* She was just saying we're FINE being alone!</div>",
-"ja": "＊ ノエルは　「３人めの\n　 メンバーなんていらない！」\n　 って　いったんですぅ！\n"
+"ja": "＊ ノエルは　「３人めの\n　 メンバーなんていらない！」\n　 って　いったんですぅ！"
 },
 "obj_classscene_slash_Step_0_gml_115_0": {
 "en": "<div class=\"indented\">* A-actually, I just wanted to know if...</div>",
@@ -91095,7 +91095,7 @@
 },
 "obj_gameshow_nameentry_slash_Step_0_gml_181_0": {
 "en": "I'd give you 4,\nbut the censors\nwould kill me!",
-"ja": "選べない文字が\nあったら…\nあきらめてください！！\n"
+"ja": "選べない文字が\nあったら…\nあきらめてください！！"
 },
 "obj_gameshow_nameentry_slash_Step_0_gml_188_0": {
 "en": "Hey! You can\nselect your name\nusing the buttons\non your podium,\nya know!",
@@ -91418,16 +91418,16 @@
 "ja": "＊ スージィは　なにか警告しようとした。"
 },
 "obj_knight_enemy_slash_Step_0_gml_343_0": {
-"en": "<div class=\"indented\">* Kris kneeled in silence.</div><div class=\"indented\"></div>",
-"ja": "＊ クリスは無言で　ひざをついた。\n"
+"en": "<div class=\"indented\">* Kris kneeled in silence.</div>",
+"ja": "＊ クリスは無言で　ひざをついた。"
 },
 "obj_knight_enemy_slash_Step_0_gml_344_0": {
-"en": "<div class=\"indented\">* Susie was hurt and beaten.</div><div class=\"indented\"></div>",
-"ja": "＊ スージィは　傷つき倒れた。\n"
+"en": "<div class=\"indented\">* Susie was hurt and beaten.</div>",
+"ja": "＊ スージィは　傷つき倒れた。"
 },
 "obj_knight_enemy_slash_Step_0_gml_345_0": {
-"en": "<div class=\"indented\">* Ralsei became a pile of fluff.</div><div class=\"indented\"></div>",
-"ja": "＊ ラルセイはボロボロにこわれてしまった。\n"
+"en": "<div class=\"indented\">* Ralsei became a pile of fluff.</div>",
+"ja": "＊ ラルセイはボロボロにこわれてしまった。"
 },
 "obj_knight_enemy_slash_Step_0_gml_393_0": {
 "en": "<div class=\"indented\">* Kris analyzed the enemy!</div>",
@@ -102610,7 +102610,7 @@
 },
 "obj_round_evaluation": {
 "obj_round_evaluation_slash_Create_0_gml_57_0": {
-"en": "ROUND\nCOMPLETE\nYOU GOT\n",
+"en": "ROUND\nCOMPLETE\nYOU GOT",
 "ja": "ROUND\nCLEAR\nYOU GOT"
 },
 "obj_round_evaluation_slash_Create_0_gml_58_0": {
@@ -103059,7 +103059,7 @@
 },
 "obj_rouxls_ch3_enemy_slash_Step_0_gml_2099_0": {
 "en": "I feelst it. Mm.\nWe're strongere,\nWe're growinge,\nAs a Throuple.",
-"ja": "余には わかりし！\n我ら 参人衆の絆\nマスマス強まりし\n"
+"ja": "余には わかりし！\n我ら 参人衆の絆\nマスマス強まりし"
 },
 "obj_rouxls_ch3_enemy_slash_Step_0_gml_2100_0": {
 "en": "I'm so proude to be dating\nthe Sun AND the Moon...\nWhat? You're not the Moon?\nYou're a CLOUD? WHAT?",
@@ -103693,7 +103693,7 @@
 },
 "obj_shadowman_enemy_slash_Step_0_gml_504_0": {
 "en": "You're!!! Fired!!!",
-"ja": "オマエ クビッ！！！\n"
+"ja": "オマエ クビッ！！！"
 },
 "obj_shadowman_enemy_slash_Step_0_gml_538_0": {
 "en": "Alright, no more\nof THAT guy!",
@@ -115066,8 +115066,8 @@
 "ja": "ルードソード"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_23_0": {
-"en": "Rude\nDamage\n",
-"ja": "暴属性\nダメージ\n"
+"en": "Rude\nDamage",
+"ja": "暴属性\nダメージ"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_24_0": {
 "en": "Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
@@ -115114,8 +115114,8 @@
 "ja": "ルードバスター"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_54_0": {
-"en": "Rude\nDamage\n",
-"ja": "暴属性\nダメージ\n"
+"en": "Rude\nDamage",
+"ja": "暴属性\nダメージ"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_55_0": {
 "en": "Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
@@ -115130,8 +115130,8 @@
 "ja": "レッドバスター"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_66_0": {
-"en": "Red\nDamage\n",
-"ja": "赤属性\nダメージ\n"
+"en": "Red\nDamage",
+"ja": "赤属性\nダメージ"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_75_0": {
 "en": "Dual Heal",
@@ -115350,7 +115350,7 @@
 "ja": "＊ グロウシャードは\n　 消えてなくなった！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_143_0": {
-"en": " became enraptured!\n",
+"en": " became enraptured!",
 "ja": " は\n　 うっとりした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_122_0": {
@@ -115366,16 +115366,16 @@
 "ja": "(くたびれ)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_199_0": {
-"en": " was <span class=\"B\">bored to tears</span>!\n",
-"ja": " was <span class=\"B\">bored to tears</span>!\n"
+"en": " was <span class=\"B\">bored to tears</span>!",
+"ja": " was <span class=\"B\">bored to tears</span>!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_200_0_b": {
-"en": " listened politely!\n",
-"ja": " listened politely!\n"
+"en": " listened politely!",
+"ja": " listened politely!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_201_0": {
-"en": " became sentimental!\n",
-"ja": " became sentimental!\n"
+"en": " became sentimental!",
+"ja": " became sentimental!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_179_0": {
 "en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BROKEN CAKE!</div>",
@@ -116050,8 +116050,8 @@
 "ja": "\n大丈夫\n任せて"
 },
 "scr_text_slash_scr_text_gml_320_0": {
-"en": "\n.....\n",
-"ja": "\n…\n"
+"en": "\n.....",
+"ja": "\n…"
 },
 "scr_text_slash_scr_text_gml_323_0": {
 "en": "<div class=\"indented\">* Oh my!</div><div class=\"indented\">* The Great Door is opened?!</div>",
@@ -127099,7 +127099,7 @@
 },
 "scr_text_slash_scr_text_gml_8278_0": {
 "en": null,
-"ja": "\nダっサ…\n"
+"ja": "\nダっサ…"
 },
 "scr_text_slash_scr_text_gml_8282_0": {
 "en": null,
@@ -137527,7 +137527,7 @@
 },
 "obj_classscene_slash_Step_0_gml_114_0": {
 "en": "<div class=\"indented\">* She was just saying we're FINE being alone!</div>",
-"ja": "＊ ノエルは　「３人めの\n　 メンバーなんていらない！」\n　 って　いったんですぅ！\n"
+"ja": "＊ ノエルは　「３人めの\n　 メンバーなんていらない！」\n　 って　いったんですぅ！"
 },
 "obj_classscene_slash_Step_0_gml_115_0": {
 "en": "<div class=\"indented\">* A-actually, I just wanted to know if...</div>",
@@ -144295,7 +144295,7 @@
 },
 "obj_dw_churchb_darkclimb_scene_slash_Step_0_gml_182_0": {
 "en": "<div class=\"indented\">* If... there's something about me here, then... I...</div>",
-"ja": "＊ もし…その…\n　 オレのことが\n　 書いてあるなら…\n"
+"ja": "＊ もし…その…\n　 オレのことが\n　 書いてあるなら…"
 },
 "obj_dw_churchb_darkclimb_scene_slash_Step_0_gml_201_0": {
 "en": "<div class=\"indented\">* Huh...?</div>",
@@ -151132,7 +151132,7 @@
 "ja": "DANGER! プルーイレベル上昇！"
 },
 "obj_mike_minigame_controller_slash_Draw_0_gml_28_0": {
-"en": "<div class=\"indented\">* NEW HISCORE! *</div><div class=\"indented\"></div>",
+"en": "<div class=\"indented\">* NEW HISCORE! *</div>",
 "ja": "* NEW HISCORE! *"
 },
 "obj_mike_minigame_controller_slash_Draw_0_gml_54_0": {
@@ -163196,7 +163196,7 @@
 },
 "obj_round_evaluation": {
 "obj_round_evaluation_slash_Create_0_gml_57_0": {
-"en": "ROUND\nCOMPLETE\nYOU GOT\n",
+"en": "ROUND\nCOMPLETE\nYOU GOT",
 "ja": "ROUND\nCLEAR\nYOU GOT"
 },
 "obj_round_evaluation_slash_Create_0_gml_58_0": {
@@ -174513,7 +174513,7 @@
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_23_0": {
 "en": null,
-"ja": "暴属性\nダメージ\n"
+"ja": "暴属性\nダメージ"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_33_0": {
 "en": null,
@@ -174525,11 +174525,11 @@
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_54_0": {
 "en": null,
-"ja": "暴属性\nダメージ\n"
+"ja": "暴属性\nダメージ"
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_66_0": {
 "en": null,
-"ja": "赤属性\nダメージ\n"
+"ja": "赤属性\nダメージ"
 }
 },
 "scr_spelltext": {
@@ -174654,7 +174654,7 @@
 "ja": "＊ グロウシャードは\n　 消えてなくなった！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_143_0": {
-"en": " became enraptured!\n",
+"en": " became enraptured!",
 "ja": " は\n　 うっとりした！"
 },
 "scr_spelltext_slash_scr_spelltext_gml_122_0": {
@@ -174670,16 +174670,16 @@
 "ja": "(くたびれ)"
 },
 "scr_spelltext_slash_scr_spelltext_gml_199_0": {
-"en": " was <span class=\"B\">bored to tears</span>!\n",
-"ja": " was <span class=\"B\">bored to tears</span>!\n"
+"en": " was <span class=\"B\">bored to tears</span>!",
+"ja": " was <span class=\"B\">bored to tears</span>!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_200_0_b": {
-"en": " listened politely!\n",
-"ja": " listened politely!\n"
+"en": " listened politely!",
+"ja": " listened politely!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_201_0": {
-"en": " became sentimental!\n",
-"ja": " became sentimental!\n"
+"en": " became sentimental!",
+"ja": " became sentimental!"
 },
 "scr_spelltext_slash_scr_spelltext_gml_179_0": {
 "en": "<div class=\"indented\">* <span class=\"param\">~1</span> used the BROKEN CAKE!</div>",
@@ -175300,8 +175300,8 @@
 "ja": "\n大丈夫\n任せて"
 },
 "scr_text_slash_scr_text_gml_320_0": {
-"en": "\n.....\n",
-"ja": "\n…\n"
+"en": "\n.....",
+"ja": "\n…"
 },
 "scr_text_slash_scr_text_gml_323_0": {
 "en": "<div class=\"indented\">* Oh my!</div><div class=\"indented\">* The Great Door is opened?!</div>",
@@ -185853,7 +185853,7 @@
 },
 "scr_text_slash_scr_text_gml_9359_0": {
 "en": "\nHeat\nhim up",
-"ja": "\nあたためる\n"
+"ja": "\nあたためる"
 },
 "scr_text_slash_scr_text_gml_9360_0": {
 "en": "\nLeave\nhim",

@@ -193,6 +193,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
         and r"\C" not in text
     ):
         rendered = re.sub(r"\n *([^*])", "\n  \\1", rendered)
+    rendered = rendered.rstrip("\n")
     if lang == "en" and rendered.startswith("* "):
         rendered = (
             '<div class="indented">'

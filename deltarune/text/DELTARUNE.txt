@@ -1559,7 +1559,6 @@ our likes.)
 Cute ones!
 Hmm hmm~
 
-
 NICE ONES,
 like I AM!
 
@@ -2038,7 +2037,6 @@ TOSS
 KEY
 
 Really throw away the
-
 
 Hold ESC at any time
 to quit the program.
@@ -11626,7 +11624,6 @@ RudeSword
 Rude
 Damage
 
-
 Deals moderate Rude-elemental damage to
 one foe. Depends on Attack 
  Magic.
@@ -11657,7 +11654,6 @@ Rude Buster
 Rude
 Damage
 
-
 Deals moderate Rude-elemental damage to
 one foe. Depends on Attack 
  Magic.
@@ -11668,7 +11664,6 @@ Red Buster
 
 Red
 Damage
-
 
 Dual Heal
 
@@ -11736,7 +11731,6 @@ scr_spelltext
 
 * ~1 became enraptured!
 
-
 * ~1 read the MANUAL!
 
 * But nothing happened...
@@ -11745,12 +11739,9 @@ scr_spelltext
 
 * ~1 was bored to tears!
 
-
 * ~1 listened politely!
 
-
 * ~1 became sentimental!
-
 
 * ~1 used the BROKEN CAKE!
 
@@ -12064,7 +12055,6 @@ handle it
 
 
 .....
-
 
 * Oh my!
 * The Great Door is opened?!
@@ -34114,17 +34104,13 @@ scr_spelltext
 
  became enraptured!
 
-
 (Tired)
 
  was bored to tears!
 
-
  listened politely!
 
-
  became sentimental!
-
 
 * ~1 used the ROUXLS ROUX!
 
@@ -34442,7 +34428,6 @@ handle it
 
 
 .....
-
 
 * Oh my!
 * The Great Door is opened?!
@@ -46846,12 +46831,9 @@ Knight
 
 * Kris kneeled in silence.
 
-
 * Susie was hurt and beaten.
 
-
 * Ralsei became a pile of fluff.
-
 
 * Kris analyzed the enemy!
 
@@ -49457,7 +49439,6 @@ obj_round_evaluation
 ROUND
 COMPLETE
 YOU GOT
-
 
 RANK
 
@@ -64065,7 +64046,6 @@ obj_mike_minigame_controller
 DANGER! RISING PLUEY LEVELS!
 
 * NEW HISCORE! *
-
 
 MUSIC: 
 
