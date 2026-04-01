@@ -505,6 +505,8 @@ with open("rendered.json.js", "w", encoding="utf-8") as f:
 
 
 def plainify_html(text: str) -> str:
+    text = re.sub(r'<span class="break">\s*</span>', " ", text)
+    assert "\r" not in text
     text = text.replace('</div><div class="indented">', "\n")
     text = re.sub(r"<[^>]+>", "", text)
     text = html.unescape(text)
