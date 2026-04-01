@@ -102,6 +102,27 @@
 
             section {
                 content-visibility: auto;
+                contain-intrinsic-height: auto
+                    calc(
+                        28px * var(--num-message) + 18px * var(--soft-breaks) + 18px *
+                            var(--hard-breaks)
+                    );
+            }
+
+            span.break {
+                white-space: pre-wrap;
+            }
+
+            @media (min-width: 800px) {
+                section {
+                    contain-intrinsic-height: auto
+                        calc(28px * var(--num-message) + 18px * var(--hard-breaks));
+                }
+
+                span.break {
+                    white-space: normal;
+                    text-wrap: nowrap;
+                }
             }
 
             div.textbox {
@@ -154,7 +175,7 @@
                 mask-repeat: no-repeat;
             }
 
-            @media (max-width: 540px) {
+            @media (max-width: 539px) {
                 a.linkbar {
                     left: 0;
                 }
@@ -451,19 +472,27 @@
 
                 let newHTML = "";
                 let sectionHTML = "";
-                let sectionHeight = 0;
+                let numMessage = 0;
+                let softBreaks = 0;
+                let allBreaks = 0;
 
                 function finishSection() {
                     if (sectionHTML) {
                         newHTML +=
-                            '<section style="contain-intrinsic-height:auto ' +
-                            sectionHeight +
-                            'px">' +
+                            '<section style="--num-message:' +
+                            numMessage +
+                            ";--soft-breaks:" +
+                            softBreaks +
+                            ";--hard-breaks:" +
+                            (allBreaks - softBreaks) +
+                            '">' +
                             sectionHTML +
                             "</section>";
                     }
                     sectionHTML = "";
-                    sectionHeight = 0;
+                    numMessage = 0;
+                    softBreaks = 0;
+                    allBreaks = 0;
                 }
 
                 const dedup = {};
@@ -501,14 +530,9 @@
                                             msg
                                         );
                                         sectionHTML += box;
-                                        const numLines = (msg || "").split("\n").length;
-                                        // You can verify the accuracy with
-                                        /*
-                                            [...document.getElementsByTagName('section')]
-                                                .filter(x => +x.style.containIntrinsicHeight
-                                                    .match(/[0-9]+/)[0] !== x.offsetHeight)
-                                         */
-                                        sectionHeight += 10 + 18 * numLines;
+                                        allBreaks += (msg || "").split("\n").length - 1;
+                                        softBreaks += (msg || "").split('class="break"').length - 1;
+                                        numMessage += 1;
                                         dedup[`${lang}_${msgId}`] = msg;
                                     }
                                 }
@@ -683,6 +707,21 @@
                     textbox.appendChild(sourceBar);
                 }
             });
+
+            // For debugging. Make sure to turn content-visibility off first.
+
+            function badHeights() {
+                return [...document.getElementsByTagName("section")].filter(function (section) {
+                    const calc = getComputedStyle(section).containIntrinsicHeight.match(/[0-9]+/);
+                    return calc !== null && +calc[0] !== section.offsetHeight;
+                });
+            }
+
+            function badWidths() {
+                return [...document.querySelectorAll(".textbox")].filter(
+                    (x) => x.scrollWidth > document.body.offsetWidth
+                );
+            }
         </script>
     </body>
 </html>

@@ -3399,7 +3399,7 @@ obj_getsusieevent
 * Susie follows at a distance
   such that no one can tell she's
   associated!                    
-   
+  
 
 * (Oh, Kris! I just realized
   Susie missed the tutorial!)
@@ -8260,7 +8260,7 @@ EXP:
 NEXT: 
 
 * You bid a quiet farewell to the
-   
+  
 
 * You put the ~1 on the ground
   and gave it a little pat.
@@ -10225,7 +10225,7 @@ Enough, Worms...!
 * It's the enemy from earlier...!
 
 * But its CROWN looks different! 
-   
+  
 
 * Yes! With my Control Crowne...
 
@@ -77253,21 +77253,21 @@ Can all drink from one milk.)
 * obj_multiboss_controller_enemy1's
   and
   
- 
+  
   obj_multiboss_controller_enemy2's
   HP went up!
 
 * obj_multiboss_controller_enemy1's
   and
   
- 
+  
   obj_multiboss_controller_enemy3's
   HP went up!
 
 * obj_multiboss_controller_enemy2's
   and
   
- 
+  
   obj_multiboss_controller_enemy3's
   HP went up!
 

@@ -103,15 +103,38 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                     "obj_lancerboss3_slash_Step_0_gml_258_0"
                 ]
                 return
-            new = (head[0] + "\n" if head else "") + tail + "\n"
+            new = (head[0] + "\n" if head else "") + tail
+
+            # We want to unwrap messages at >=800px.
+            # These are the only ones that don't fit.
+            hardwrap = msgid in [
+                "scr_recruit_info_slash_scr_recruit_info_gml_434_0_b",
+                "scr_recruit_info_slash_scr_recruit_info_gml_449_0",
+                "scr_recruit_info_slash_scr_recruit_info_gml_465_0",
+                "scr_recruit_info_slash_scr_recruit_info_gml_481_0",
+                "scr_recruit_info_slash_scr_recruit_info_gml_512_0",
+                "scr_recruit_info_slash_scr_recruit_info_gml_528_0",
+                "scr_recruit_info_slash_scr_recruit_info_gml_544_0",
+                "obj_shop1_slash_Draw_0_gml_414_0",
+                "obj_shop2_slash_Draw_0_gml_372_0",
+                "obj_poppup_enemy_slash_Step_0_gml_494_0",
+                "obj_shop_ch2_spamton_slash_Draw_0_gml_719_0",
+                "obj_shop_ch2_spamton_slash_Draw_0_gml_720_0",
+                "scr_text_slash_scr_text_gml_10220_0",
+                "obj_dw_church_waterfalltearoom_slash_Step_0_gml_920_0",
+                "obj_shop1_slash_Draw_0_gml_479_0_b",
+            ]
+
+            if not hardwrap:
+                new += '<spanꙮclass="break">'
+            new += "\n"
             if new.startswith("* "):
                 new += "  "
                 linelen = 2
-            # elif new.startswith("＊ "):
-            #     new += "\u3000 "
-            #     linelen = 2.5
             else:
                 linelen = 0
+            if not msgid.startswith("scr_recruit_info_"):
+                new += "</span>"
             new += tailtail
             linelen += len(re.sub("<[^>]*>", "", tailtail))
             out = io.StringIO(new)
