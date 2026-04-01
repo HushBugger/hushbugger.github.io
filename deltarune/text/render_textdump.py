@@ -133,7 +133,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 linelen = 2
             else:
                 linelen = 0
-            if not msgid.startswith("scr_recruit_info_"):
+            if not hardwrap:
                 new += "</span>"
             new += tailtail
             linelen += len(re.sub("<[^>]*>", "", tailtail))
@@ -203,7 +203,6 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                     "obj_overworldc_slash_Draw_0_gml_69_0",
                     "scr_armorinfo_slash_scr_armorinfo_gml_433_0_b",
                     "scr_armorinfo_slash_scr_armorinfo_gml_553_0",
-                    "scr_armorinfo_slash_scr_armorinfo_gml_791_0",
                     "scr_armorinfo_slash_scr_armorinfo_gml_791_0",
                     "scr_spellinfo_slash_scr_spellinfo_gml_109_0",
                     "obj_overworldc_slash_Draw_0_gml_68_0",
