@@ -735,7 +735,8 @@ obj_boxpuzzle_event
 
 ＊ クリス　お手柄だね！
 
-＊ See, I used the box to break in the door.
+＊ See, I used the box to break
+in the door.
 ＊ Easy.
 
 
@@ -1263,7 +1264,8 @@ obj_classscene
 　 じゅぎょう　はじめられない
 　 んですけど…！
 
-＊ Ummm, there might be a box in the supply closet...
+＊ Ummm, there might be a box in
+the supply closet...
 
 ＊ Do you want me to - 
 
@@ -1551,61 +1553,80 @@ idiot!
 fighting
 again!?)
 
-＊ Clover flashes a trio of terrible smiles.
+＊ Clover flashes a trio of
+terrible smiles.
 
-＊ Clover is bickering with herselves.
+＊ Clover is bickering with
+herselves.
 
-＊ Clover is whispering about cute boys.
+＊ Clover is whispering about
+cute boys.
 
-＊ Clover is arguing about whose toothbrush is whose.
+＊ Clover is arguing about whose
+toothbrush is whose.
 
-＊ Clover hums like an out-of-tune choir.
+＊ Clover hums like an
+out-of-tune choir.
 
 ＊ Smells like clover and dew.
 
-＊ Clover seems TIRED of arguing so much.
+＊ Clover seems TIRED of arguing
+so much.
 
 ＊ Clover starts to look wilted.
 
-＊ Clover seems to be getting along with herselves.
+＊ Clover seems to be getting
+along with herselves.
 
-＊ Clover's harmony was shattered by violence.
+＊ Clover's harmony was shattered
+by violence.
 
 ＊ CLOVER - AT 8 DF 2
 ＊ Two heads are better than one!
 ＊ Three... maybe not.
 
-＊ You brought up the topic of POLITICS.
+＊ You brought up the topic of
+POLITICS.
 ＊ CLOVER started to argue.
 
-＊ You brought up the topic of RELIGION.
+＊ You brought up the topic of
+RELIGION.
 ＊ CLOVER started to argue.
 
-＊ You brought up the topic of SPORTS.
+＊ You brought up the topic of
+SPORTS.
 ＊ CLOVER seems relieved.
 
-＊ You brought up the topic of KINDNESS.
+＊ You brought up the topic of
+KINDNESS.
 ＊ CLOVER started to argue.
 
-＊ You brought up the topic of CUTEBOYS.
+＊ You brought up the topic of
+CUTEBOYS.
 ＊ CLOVER seems excited.
 
-＊ You brought up the topic of GUNCONTROL.
+＊ You brought up the topic of
+GUNCONTROL.
 ＊ CLOVER started to argue.
 
-＊ You brought up the topic of TREES.
+＊ You brought up the topic of
+TREES.
 ＊ CLOVER seems relieved.
 
-＊ You brought up the topic of GHOSTS.
+＊ You brought up the topic of
+GHOSTS.
 ＊ CLOVER started to argue.
 
-＊ You brought up the topic of GAMES.
+＊ You brought up the topic of
+GAMES.
 ＊ CLOVER started to argue.
 
-＊ You and Ralsei warned Clover about Susie.
+＊ You and Ralsei warned Clover
+about Susie.
 ＊ The enemy went on guard...
 
-＊ You and Ralsei warned the enemies about Susie.
+＊ You and Ralsei warned the
+enemies about Susie.
 ＊ Everyone went on guard.
 
 (Warned)
@@ -2539,7 +2560,8 @@ Stopping you
 is my job!
 
 ＊ Really?
-＊ What do you spend your money on?
+＊ What do you spend your money
+on?
 
 I'm a normal
 person.
@@ -2549,7 +2571,8 @@ my money on
 RENT and
 MYSTIC GEMs.
 
-＊ (Kris, let's try CONVINCING them again...)
+＊ (Kris, let's try CONVINCING
+them again...)
 
 
 ==============
@@ -3656,7 +3679,8 @@ obj_getsusieevent
 
 ＊ スージィは　どう見ても
 　 仲間には見えないぐらい
-　 距離を取った！                     
+
+ 距離を取った！                     
 
 ＊ (クリス！　そういえば
 　 スージィは　チュートリアル
@@ -4007,13 +4031,15 @@ obj_heartenemy
 ＊ Where'd you get it?
 ＊ Heh heh heh heh.
 
-＊ (Umm, Kris, maybe Susie shouldn't ACT anymore...)
+＊ (Umm, Kris, maybe Susie
+shouldn't ACT anymore...)
 
 ＊ H-hey, what gives!?
 
 ＊ (Wow, that was close, Kris...)
 
-＊ (Maybe Susie shouldn't ACT anymore...)
+＊ (Maybe Susie shouldn't ACT
+anymore...)
 
 
 ===============
@@ -5399,21 +5425,26 @@ THE BEGINNING
 obj_lancerbakesale_event
 ========================
 
-＊ Alright, which one do you want?
+＊ Alright, which one do you
+want?
 
 ＊ Hahahah!! Hmmm...
 
 ＊ Wait, you're buying it for me?
 
-＊ You said you didn't eat anything earlier, right...?
+＊ You said you didn't eat
+anything earlier, right...?
 
-＊ It'd be annoying if you starved to death, y'know.
+＊ It'd be annoying if you
+starved to death, y'know.
 
 ＊ Wow...!
 
-＊ You're the best teammate ever, Purple Girl...!
+＊ You're the best teammate ever,
+Purple Girl...!
 
-＊ Hey! You can't not buy from us!
+＊ Hey! You can't not buy from
+us!
 
 ＊ Hey DUMBASS!
 ＊ It's for a GOOD CAUSE!
@@ -6741,13 +6772,17 @@ obj_npc_facing
 
 ＊ し…しないよ…
 
-＊ Heh, my clothes are gonna be so great.
+＊ Heh, my clothes are gonna be
+so great.
 
-＊ Yes! I've already finished a prototype!
+＊ Yes! I've already finished a
+prototype!
 
-＊ That's just... a bunch of torn up pieces of felt.
+＊ That's just... a bunch of torn
+up pieces of felt.
 
-＊ Can you PLEASE stop acting so jealous for ONE second?
+＊ Can you PLEASE stop acting so
+jealous for ONE second?
 
 ＊ おほほほほーう…
 　 これはこれは…
@@ -6766,27 +6801,38 @@ obj_npc_facing
 
 ＊ Stuck on this puzzle too?
 
-＊ Don't talk to me while I'm scheming.
+＊ Don't talk to me while I'm
+scheming.
 
-＊ Say, why don't you just walk over the spikes like before...?
+＊ Say, why don't you just walk
+over the spikes like before...?
 
-＊ Heh, why bother when you guys will solve it for us?
+＊ Heh, why bother when you guys
+will solve it for us?
 
-＊ (Oh, I thought it was because I'm afraid of spikes.)
+＊ (Oh, I thought it was because
+I'm afraid of spikes.)
 
 ＊ SHHHH!
 
-＊ Seeing you two scheme together...
+＊ Seeing you two scheme
+together...
 
-＊ It's a bit like a group project in school, isn't it?
+＊ It's a bit like a group
+project in school, isn't it?
 
-＊ Can you stop ruining everything?
+＊ Can you stop ruining
+everything?
 
-＊ Beware! We split up our schemes to scheme twice as fast...!
+＊ Beware! We split up our
+schemes to scheme twice as
+fast...!
 
-＊ I'm realizing all kinds of hidden facts about myself!
+＊ I'm realizing all kinds of
+hidden facts about myself!
 
-＊ Such as... I don't know how to scheme very well.
+＊ Such as... I don't know how to
+scheme very well.
 
 ＊ うし　このジャムドーナツ
 　 どうやって
@@ -7392,15 +7438,19 @@ obj_npc_room
 ＊ (ただの　マネキンだ)
 
 ＊ S-stop!
-＊ I'm still recovering from where you hurt me.
+＊ I'm still recovering from
+where you hurt me.
 
-＊ Plus, I just ate, so I'll get a cramp if I fight you so quickly.
+＊ Plus, I just ate, so I'll get
+a cramp if I fight you so
+quickly.
 
 ＊ あなたの　お城には　プールある？
 ＊ かわいい水着　持っていったほうが
 　 いいかな…
 
-＊ Felt like I was soaring through the air earlier...
+＊ Felt like I was soaring
+through the air earlier...
 
 ＊ Was that a dream...?
 
@@ -7502,60 +7552,88 @@ obj_npc_room
 ＊ Are you puzzled by COMBAT?
 ＊ Wanna know how TP works?
 
-＊ If you still haven't assembled all the details...
+＊ If you still haven't assembled
+all the details...
 
-＊ My cohorts to the WEST will gladly help you put the pieces together.
+＊ My cohorts to the WEST will
+gladly help you put the pieces
+together.
 
-＊ Your friends can't ACT alone, but they can still help you win peacefully.
+＊ Your friends can't ACT alone,
+but they can still help you win
+peacefully.
 
-＊ The DARK PRINCE's PACIFY spell can remove TIRED enemies safely from battle.
+＊ The DARK PRINCE's PACIFY spell
+can remove TIRED enemies safely
+from battle.
 
-＊ If nothing else, why not try using an ITEM?
+＊ If nothing else, why not try
+using an ITEM?
 
-＊ Even if it seems useless, the effects may surprise you.
+＊ Even if it seems useless, the
+effects may surprise you.
 
 ＊ What?
 ＊ I'm building a ladder here.
 
 ＊ Today's lesson is...
-＊ Get out of my way when I'm building a ladder! 
+＊ Get out of my way when I'm
+building a ladder! 
 
-＊ Do you need an interactive tutorial on leaving me alone?
+＊ Do you need an interactive
+tutorial on leaving me alone?
 
 ＊ What?
 
-＊ Do you need an interactive tutorial on leaving me alone?
+＊ Do you need an interactive
+tutorial on leaving me alone?
 
-＊ DEFENDING will not only temporarily reduce the damage you take...
+＊ DEFENDING will not only
+temporarily reduce the damage you
+take...
 
-＊ It also lets you focus, restoring TP. You need TP to CAST SPELLS!
+＊ It also lets you focus,
+restoring TP. You need TP to CAST
+SPELLS!
 
 ＊ So don't be afraid to DEFEND!
 ＊ DEFEND and CAST SPELLS!
 
-＊ By the way, all leftover TP will turn into extra MONEY after the battle!
+＊ By the way, all leftover TP
+will turn into extra MONEY after
+the battle!
 
-＊ Getting close to BULLETS is really exciting, isn't it?
+＊ Getting close to BULLETS is
+really exciting, isn't it?
 
-＊ You'll recover a little TP for each BULLET you get close to.
+＊ You'll recover a little TP for
+each BULLET you get close to.
 
-＊ Plus, getting close to bullets can sometimes end the enemy's attack faster.
+＊ Plus, getting close to bullets
+can sometimes end the enemy's
+attack faster.
 
 ＊ It's quite dangerous though.
-＊ So no worries if you don't want to try.
+＊ So no worries if you don't
+want to try.
 
 ＊ (It's a candy tree.)
-＊ (All the ripe candy has been picked.)
+＊ (All the ripe candy has been
+picked.)
 
 ＊ (It's a candy tree.)
-＊ (All the ripe candy has been picked.)
+＊ (All the ripe candy has been
+picked.)
 
 ＊ Let's not take any more, Kris.
 ＊ Unripe candy is sour.
 
-＊ What? Sour, sweet, meaty, bitter... if it's candy, it's good!
+＊ What? Sour, sweet, meaty,
+bitter... if it's candy, it's
+good!
 
-＊ Well, that's accepting of you...
+＊ Well, that's accepting of
+you...
 
 ＊ ... Wait, "meaty?"
 
@@ -7567,7 +7645,8 @@ obj_npc_room
 
 ＊ That's not candy...
 
-＊ Then why is it next to it in the store!?
+＊ Then why is it next to it in
+the store!?
 
 ＊ わりィな…
 ＊ オレらは本来　パズル担当なんだが…
@@ -8809,9 +8888,11 @@ obj_npc_sign
 　 看板を　立ててやったぞ！)
 ＊ (ランサーさまより)
 
-＊ (Hathy, in case you wanted to make us a birthday gift...)
+＊ (Hathy, in case you wanted to
+make us a birthday gift...)
 
-＊ (My favorite things are trees, boys, and sports!)
+＊ (My favorite things are trees,
+boys, and sports!)
 ＊ (SIGNED, CLOVER)
 
 ＊ 「ホール目標」
@@ -8891,7 +8972,8 @@ obj_npc_toriel
 ==============
 
 ＊ Hello there!
-＊ How are you doing on this fine day?
+＊ How are you doing on this fine
+day?
 
 
 ==============
@@ -9011,15 +9093,19 @@ occurred!!
 ＊ 私は　敵です。
 
 ＊ You warned the enemy.
-＊ It guarded from Susie's attack.
+＊ It guarded from Susie's
+attack.
 
 (Warned)
 
-＊ Its body was filled with a kind feeling.
+＊ Its body was filled with a
+kind feeling.
 
-＊ Its body will result in a kind feeling at the end of the combat.
+＊ Its body will result in a kind
+feeling at the end of the combat.
 
-＊ Its body will result in a speech after attack.
+＊ Its body will result in a
+speech after attack.
 
 ＊ Its body became tired.
 
@@ -9279,14 +9365,16 @@ obj_prisonevent
 obj_pushableblock
 =================
 
-＊ (You haven't decided if you want to do the puzzle yet.)
+＊ (You haven't decided if you
+want to do the puzzle yet.)
 
 ＊ (もう　動かない)
 
 ＊ What!?
 ＊ The puzzle!?
 
-＊ I thought you were on MY side, Kris.
+＊ I thought you were on MY side,
+Kris.
 
 ＊ ... wait a sec.
 ＊ Those boxes...!
@@ -9381,36 +9469,47 @@ obj_ralseienemy
 
 ＊ See that HEART, Kris?
 
-＊ That's a SOUL, the culmination of a HUMAN's being!
+＊ That's a SOUL, the culmination
+of a HUMAN's being!
 
-＊ Not only does it represent one's WILL and COMPASSION...
+＊ Not only does it represent
+one's WILL and COMPASSION...
 
-＊ But it also has the power to DETERMINE FATE.
+＊ But it also has the power to
+DETERMINE FATE.
 
-＊ When enemies attack, BULLETS appear.
+＊ When enemies attack, BULLETS
+appear.
 
-＊ Please avoid them and protect your team's FATE!
+＊ Please avoid them and protect
+your team's FATE!
 
 ＊ Ready, Kris?
 ＊ Let's try dodging!
 
 ＊ That's DEFENDING, Kris.
-＊ You'll recover TP and take less damage.
+＊ You'll recover TP and take
+less damage.
 
-＊ It's not part of this lesson, though.
+＊ It's not part of this lesson,
+though.
 
 ＊ Gee, Kris!
-＊ You sure are good at defending!
+＊ You sure are good at
+defending!
 
-＊ I'm not attacking, you, though, so...
+＊ I'm not attacking, you,
+though, so...
 ＊ No need to defend!
 
 ＊ Ummm...
 ＊ Kris?
 
-＊ There are no bullets, and you can't use TP...
+＊ There are no bullets, and you
+can't use TP...
 
-＊ So, umm, maybe you could stop defending?
+＊ So, umm, maybe you could stop
+defending?
 
 ＊ ...
 
@@ -9420,35 +9519,48 @@ obj_ralseienemy
 ＊ W-wow, Kris!
 ＊ That was an amazing attack!
 
-＊ Have you done this before or something...?
+＊ Have you done this before or
+something...?
 
 ＊ Good job, Kris!
-＊ By the way, you'll do more damage...
+＊ By the way, you'll do more
+damage...
 
-＊ Pressing Z when the cursor is RIGHT IN the box on the left!
+＊ Pressing Z when the cursor is
+RIGHT IN the box on the left!
 
 ＊ Kris!
 ＊ You did it!!!
 
-＊ (I was really just about at my limit...)
+＊ (I was really just about at my
+limit...)
 
-＊ Umm, anyway, let's move onto my favorite: ACTING!
+＊ Umm, anyway, let's move onto
+my favorite: ACTING!
 
-＊ Selecting the ACT ICON will let you do all sorts of things.
+＊ Selecting the ACT ICON will
+let you do all sorts of things.
 
-＊ We'll even be able to get through battles without ATTACKing!
+＊ We'll even be able to get
+through battles without
+ATTACKing!
 
-＊ Select the ACT ICON and HUG the Dummy!
+＊ Select the ACT ICON and HUG
+the Dummy!
 
 ＊ Ummm... Kris?
-＊ You don't need to hit it anymore.
+＊ You don't need to hit it
+anymore.
 
-＊ I already know you're great at attacking!
+＊ I already know you're great at
+attacking!
 
 ＊ Hey, Kris?
-＊ I know you like attacking, but...
+＊ I know you like attacking,
+but...
 
-＊ Did you know you can win without having to?
+＊ Did you know you can win
+without having to?
 
 ＊ ...
 
@@ -9458,36 +9570,44 @@ obj_ralseienemy
 ＊ I forgot to mention!
 ＊ When you're ATTACKing...
 
-＊ Press Z again when the cursor goes in the box!
+＊ Press Z again when the cursor
+goes in the box!
 
 ＊ It's OK, Kris!
 ＊ You'll get it!
 ＊ Try again!
 
-＊ Press Z when the white rectangle's in the blue box!
+＊ Press Z when the white
+rectangle's in the blue box!
 
-＊ Ummm... you can press Z a lot, if it helps!
+＊ Ummm... you can press Z a lot,
+if it helps!
 
 ＊ Kris...
 ＊ Please try to press Z.
 
 ＊ Ummm, Kris?
-＊ Can you see the white rectangle?
+＊ Can you see the white
+rectangle?
 
 ＊ You know rectangles?
-＊ They're like messed-up squares?
+＊ They're like messed-up
+squares?
 
 ＊ ...
 
-＊ Umm, why don't we try something else?
+＊ Umm, why don't we try
+something else?
 
-＊ Select the ACT ICON and HUG the Dummy!
+＊ Select the ACT ICON and HUG
+the Dummy!
 
 ＊ ...
 
 ＊ Hey, Kris, I think I've, um...
 
-＊ Reached the limits of what I can teach you today.
+＊ Reached the limits of what I
+can teach you today.
 
 ＊ Let's go find Susie.
 
@@ -9495,29 +9615,36 @@ obj_ralseienemy
 
 ＊ Kris, it's um...
 
-＊ Really hard for me to teach when you're hitting me.
+＊ Really hard for me to teach
+when you're hitting me.
 
-＊ Let's take a break and go find Susie, OK?
+＊ Let's take a break and go find
+Susie, OK?
 
 ＊ K-Kris!?
 
 ＊ Y-you must have missed...
 ＊ H... Haha...
 
-＊ W-wait, aren't you supposed to be ACTing!?
+＊ W-wait, aren't you supposed to
+be ACTing!?
 
-＊ A-anyway, now that you know how to attack...
+＊ A-anyway, now that you know
+how to attack...
 
-＊ Let's try learning how to ACT, OK?
+＊ Let's try learning how to ACT,
+OK?
 
-＊ Select the ACT ICON and HUG the Dummy!
+＊ Select the ACT ICON and HUG
+the Dummy!
 
 ＊ K-Kris!?
 ＊ D-did you miss again!?
 
 ＊ ...
 
-＊ Though, I mean, if you wanted to hit me, that's ok, too...
+＊ Though, I mean, if you wanted
+to hit me, that's ok, too...
 
 ＊ Ralsei looks on expectedly.
 
@@ -9537,18 +9664,24 @@ obj_ralseienemy
 ＊ L-look, Kris!
 ＊ You dodged one!
 
-＊ Now, let's talk about SELECTING COMMANDS.
+＊ Now, let's talk about
+SELECTING COMMANDS.
 
-＊ These ICONS will let you ISSUE COMMANDS to YOUR TEAM.
+＊ These ICONS will let you ISSUE
+COMMANDS to YOUR TEAM.
 
-＊ The first ICON, THE SWORD, is the ATTACK COMMAND.
+＊ The first ICON, THE SWORD, is
+the ATTACK COMMAND.
 
 ＊ Using it lets you, um...
 ＊ Hurt people...
 
-＊ ... w-well, I guess we have to defend ourselves sometimes, right?
+＊ ... w-well, I guess we have to
+defend ourselves sometimes,
+right?
 
-＊ Select the SWORD ICON to ATTACK the Dummy!
+＊ Select the SWORD ICON to
+ATTACK the Dummy!
 
 ＊ RALSEI - AT 8 DF 12
 ＊ The fluffy prince...
@@ -9561,15 +9694,19 @@ obj_ralseienemy
 
 ＊ Ummm, I don't think, um...
 
-＊ This is what you're supposed to be doing.
+＊ This is what you're supposed
+to be doing.
 
-＊ (But I don't really want to tell you to stop...)
+＊ (But I don't really want to
+tell you to stop...)
 
 ＊ Kris!?
 
-＊ Umm, if that's what you r-really want...
+＊ Umm, if that's what you
+r-really want...
 
-＊ Then that's a victory in my book!
+＊ Then that's a victory in my
+book!
 ＊ You win!
 
 h
@@ -10834,7 +10971,8 @@ Stopping you
 is my job!
 
 ＊ Really?
-＊ What do you spend your money on?
+＊ What do you spend your money
+on?
 
 I'm a normal
 person.
@@ -10844,7 +10982,8 @@ my money on
 RENT and
 MYSTIC GEMs.
 
-＊ (Kris, let's try CONVINCING them again...)
+＊ (Kris, let's try CONVINCING
+them again...)
 
 
 ========
@@ -12239,27 +12378,34 @@ obj_smallcheckers_enemy
 obj_suitspuzzle_event
 =====================
 
-＊ Then add a mustache over there...
+＊ Then add a mustache over
+there...
 
 ＊ Hee hee, like this?
 
 ＊ Haha! Yeah! Like that!
 
-＊ How's the scheming coming along, you two?
+＊ How's the scheming coming
+along, you two?
 
-＊ Hey, don't LOOK! We aren't done yet!
+＊ Hey, don't LOOK! We aren't
+done yet!
 
-＊ You're going to spoil it for yourselves!
+＊ You're going to spoil it for
+yourselves!
 
-＊ C'mon, we're working hard on this!
+＊ C'mon, we're working hard on
+this!
 
 ＊ Sorry! Sorry.
 
-＊ ... I notice there is a puzzle here.
+＊ ... I notice there is a puzzle
+here.
 
 ＊ Yeah?
 
-＊ Would you two... like to... do it...?
+＊ Would you two... like to... do
+it...?
 
 ＊ Uh, no. That's for heroes.
 
@@ -12795,15 +12941,20 @@ obj_tem_school
 obj_thrashafter_event
 =====================
 
-＊ Y... You got past Thrash World!?
+＊ Y... You got past Thrash
+World!?
 
-＊ Hng... Even with your help, I couldn't stop you...
+＊ Hng... Even with your help, I
+couldn't stop you...
 
-＊ Hey, it's alright, Lancer. It was a nice effort.
+＊ Hey, it's alright, Lancer. It
+was a nice effort.
 
-＊ Yeah, I mean, you gotta be realistic.
+＊ Yeah, I mean, you gotta be
+realistic.
 
-＊ Nothing can stop us. Not even ourselves.
+＊ Nothing can stop us. Not even
+ourselves.
 
 Guys
 
@@ -12816,9 +12967,11 @@ The Friendly Fun Gang
 ＊ That's right!!
 ＊ The ~1!!
 
-＊ You crush everything that gets in your way!
+＊ You crush everything that gets
+in your way!
 
-＊ Hmmm... What am I supposed to do, then...
+＊ Hmmm... What am I supposed to
+do, then...
 
 ＊ If I can't stop you, then...
 
@@ -12830,18 +12983,21 @@ The Friendly Fun Gang
 
 ＊ Why don't you come with us...
 
-＊ And maybe you'll think of how to stop us on the way.
+＊ And maybe you'll think of how
+to stop us on the way.
 
 ＊ R... Really!?
 ＊ You'd let me tag along...!?
 
-＊ Sure, why not. You can be an unofficial team member.
+＊ Sure, why not. You can be an
+unofficial team member.
 
 ＊ Wow! M... Me!? In the ~1!?
 
 ＊ W... Wait...
 
-＊ Can we have monogrammed track jackets?
+＊ Can we have monogrammed track
+jackets?
 
 ＊ Yeah.
 ＊ Ralsei will make them.
@@ -12911,11 +13067,13 @@ obj_thrashafter_follow
 ＊ プッ…！
 　 じゃあ　いらねー！！
 
-＊ ... I WAS thinking of making Darkberry Teacakes later.
+＊ ... I WAS thinking of making
+Darkberry Teacakes later.
 
 ＊ Mmmmm... what's the catch.
 
-＊ ... you have to stop making fun of me, for one.
+＊ ... you have to stop making
+fun of me, for one.
 
 ＊ PASS!!!
 
@@ -13880,9 +14038,11 @@ scr_encountersetup
 
 ＊ Jigsawry drew near!
 
-＊ A different Jigsawry from last time drew near!
+＊ A different Jigsawry from last
+time drew near!
 
-＊ Assumedly another different Jigsawry appeared!
+＊ Assumedly another different
+Jigsawry appeared!
 
 ＊ ジグソーリーのボードに
 　 行く手をふさがれた！
@@ -13958,13 +14118,15 @@ scr_itemdesc_oldtype
 
 ＊ It could not be.
 
-＊ An emptiness filled your hands.
+＊ An emptiness filled your
+hands.
 
 ＊ "Dark Candy" - Heals 60 HP
 ＊ Black and red star that
   tastes like marshmallows.
 
-＊ "Life Dew" - Revive Ally (Weak)
+＊ "Life Dew" - Revive Ally
+(Weak)
 ＊ Glowing dew...
 ＊ It refreshes your SOUL.
 
@@ -15223,21 +15385,27 @@ Subject
 Keep
 Dreaming
 
-＊ This is the CASTLE TOWN, where my subjects reside...
+＊ This is the CASTLE TOWN, where
+my subjects reside...
 
-＊ Err, well, they would if I had any...
+＊ Err, well, they would if I had
+any...
 
-＊ Oh, don't worry about me, Kris!
+＊ Oh, don't worry about me,
+Kris!
 
-＊ I'm certain I'll find a subject someday...
+＊ I'm certain I'll find a
+subject someday...
 
 ＊ H... Huh!?
 
-＊ Why, Kris, you don't have to do that...
+＊ Why, Kris, you don't have to
+do that...
 
 ＊ ... but, if you insist...
 
-＊ Kris, as your Prince and authority, I order you to...!
+＊ Kris, as your Prince and
+authority, I order you to...!
 
 ＊ Please let me know what to do!
 
@@ -16969,9 +17137,11 @@ $1入れる
 　 まいにち　つけて！　あれは
 　 どこへ　いったかしらねえ？
 
-＊ Kris, I need to grade these assignments.
+＊ Kris, I need to grade these
+assignments.
 
-＊ Perhaps you should go to bed...?
+＊ Perhaps you should go to
+bed...?
 
 ＊ You do not look very well...
 
@@ -20551,31 +20721,40 @@ obj_ch2_city04
 
 ＊ Kris! Where were you!
 
-＊ Tut tut... even late for your own truce.
+＊ Tut tut... even late for your
+own truce.
 
-＊ Well, not as if your presence even matters.
+＊ Well, not as if your presence
+even matters.
 
-＊ Ahead of us is a mind meltingly difficult puzzle.
+＊ Ahead of us is a mind
+meltingly difficult puzzle.
 
-＊ So just take your nap time, Kris.  I'll handle it.
+＊ So just take your nap time,
+Kris.  I'll handle it.
 
-＊ (I... only have to figure out how it works...)
+＊ (I... only have to figure out
+how it works...)
 
 ＊ Just a moment, Kris, I...
 
-＊ You... How'd you do that!? I... I...
+＊ You... How'd you do that!?
+I... I...
 
 ＊ ...
 
-＊ ... Kris. You c-can't tell anyone about this, okay!?
+＊ ... Kris. You c-can't tell
+anyone about this, okay!?
 
-＊ If anyone asks, I solved the puzzle!!
+＊ If anyone asks, I solved the
+puzzle!!
 
 ＊ Got it? Not a word to ANYONE!!
 
 ＊ ESPECIALLY!!! SUSIE!!!
 
-＊ You KNOW she'd just... lord it over me!!!
+＊ You KNOW she'd just... lord it
+over me!!!
 
 ＊ Ugh!!
 
@@ -20610,7 +20789,8 @@ obj_ch2_city05
 
 ＊ ともだち　みな
 　 かまってくれnai　　か
-　 ｱnﾀ　[[ﾍﾞﾄﾍﾞﾄ　ｽﾗｲﾑ]]　ｷﾓいから
+　 ｱnﾀ　[[ﾍﾞﾄﾍﾞﾄ　ｽﾗｲﾑ]]
+ｷﾓいから
 
 ＊ 売り上げ　[[右肩]]
   [[右肩下がり]]　で　　か
@@ -21455,11 +21635,17 @@ APPLE
 
 YEEES2○！！
 
-GIAEEFSBISSFLBALAELRHEIGSFFEBRSI
+GIAEEFSB
+ISSFLBAL
+AELRHEIG
+SFFEBRSI
 
 すふぎおろてにぺけなも
 
-UPIOMAOIOTSUGNINMGUSIFIOPEKIFUSIORATEGUI
+UPIOMAOIOT
+SUGNINMGUS
+IFIOPEKIFU
+SIORATEGUI
 
 SUFUGIOROTENIPEKENAMO
 
@@ -27976,7 +28162,8 @@ obj_ch2_sceneex2a
 ＊ ｸﾘｽｻﾏ！？
 ＊ ｸﾘｽｻﾏ！？！？！？
 
-＊ ｱnﾀの[[ｲﾝﾍﾞﾝﾄﾘｳﾑ]]　[[半額セールの
+＊ ｱnﾀの[[ｲﾝﾍﾞﾝﾄﾘｳﾑ]]
+[[半額セールの
 　 ｻﾗﾐｿｾｼﾞ]]で　いっぱいｲｯﾊﾟｲ。
 　 そnなに　ﾜﾀ94閉め出レたい　か！？
 
@@ -28294,7 +28481,8 @@ obj_classscene
 　 じゅぎょう　はじめられない
 　 んですけど…！
 
-＊ Ummm, there might be a box in the supply closet...
+＊ Ummm, there might be a box in
+the supply closet...
 
 ＊ Do you want me to - 
 
@@ -29042,7 +29230,8 @@ obj_controller_dw_city_mice
 obj_controller_dw_cyber_viromaze2
 =================================
 
-＊ Sounded like a forcefield deactivating.
+＊ Sounded like a forcefield
+deactivating.
 
 
 =======================================
@@ -29220,11 +29409,13 @@ Betty Kwong (Temmie)
 
 DIGITAL HEARTS Co., Ltd.
 
-Tomohiro Nakai [QAプロジェクト マネージャー]
+Tomohiro Nakai [QAプロジェクト
+マネージャー]
 
 Tomoyoshi Yamashita [QA リード]
 
-Ryohei Kishimoto [QA アシスタント リード]
+Ryohei Kishimoto [QA アシスタント
+リード]
 
 Shinji Yasue [セールス部]
 
@@ -29314,13 +29505,16 @@ obj_cutscene_test
 
 * I did!
 
-* That's it, I'm taking a closer look!
+* That's it, I'm taking a closer
+  look!
 
-* Umm, so what did you figure out?
+* Umm, so what did you figure
+  out?
 
 * Uhhh...
 
-* I'll just be friends with both of them!
+* I'll just be friends with both
+  of them!
 
 * That's the attitude!
 
@@ -29523,13 +29717,17 @@ ON
 obj_darkdoor
 ============
 
-＊ We'll both go in at the same time!!
+＊ We'll both go in at the same
+time!!
 
-＊ Man, the sun's already setting...
+＊ Man, the sun's already
+setting...
 
-＊ Everyone else must have gone home by now.
+＊ Everyone else must have gone
+home by now.
 
-＊ Guess Alphys'll know better than to ask US next time, huh?
+＊ Guess Alphys'll know better
+than to ask US next time, huh?
 
 ＊ ...
 
@@ -29543,7 +29741,8 @@ obj_darkdoor
 
 ＊ ...
 
-＊ Let's go back there tomorrow, alright?
+＊ Let's go back there tomorrow,
+alright?
 
 
 ===================
@@ -29699,20 +29898,25 @@ obj_dojograzeenemy
 
 ＊ How'd you get past!?
 
-＊ GRAZECHALLENGE - Graze the bullets!
+＊ GRAZECHALLENGE - Graze the
+bullets!
 
 
 ==============
 obj_dummyenemy
 ==============
 
-＊ Pressing Z when the cursor enters the box on the left!
+＊ Pressing Z when the cursor
+enters the box on the left!
 
-＊ Press ~1 again when the cursor goes in the box!
+＊ Press ~1 again when the cursor
+goes in the box!
 
-＊ Press Z when the white rectangle's in the blue box!
+＊ Press Z when the white
+rectangle's in the blue box!
 
-＊ Ummm... you can press ~1 a lot, if it helps!
+＊ Ummm... you can press ~1 a
+lot, if it helps!
 
 ＊ Kris...
 ＊ Please try to press ~1.
@@ -29869,15 +30073,20 @@ obj_example_cutscene
 
 ＊ Funny.
 
-＊ ... Man, it got late, didn't it...?
+＊ ... Man, it got late, didn't
+it...?
 
-＊ Well. Guess you should go home, huh?
+＊ Well. Guess you should go
+home, huh?
 
-＊ Alright, you don't have to say it.
+＊ Alright, you don't have to say
+it.
 
-＊ Don't wanna walk home by yourself, huh?
+＊ Don't wanna walk home by
+yourself, huh?
 
-＊ Well, if you're gonna MAKE me, I guess...
+＊ Well, if you're gonna MAKE me,
+I guess...
 
 ＊ Let's go.
 
@@ -31543,7 +31752,8 @@ obj_npc_facing
 　 やらなかったせいで…
 
 ＊ You wouldn't have to be HER'S!
-＊ She's gonna pound you to pieces, Kris!
+＊ She's gonna pound you to
+pieces, Kris!
 
 ＊ んで　そのあと
 　 ベッコベコに　されっぜ！？
@@ -31781,7 +31991,8 @@ obj_npc_facing
 　 ボクは　まほうのポンポンで
 　 応援するね！
 
-<!--ツイデニ　スージィ: 誕生日オメデトウ-->
+<!--ツイデニ
+スージィ: 誕生日オメデトウ-->
 
 おめでとう！
 
@@ -33847,21 +34058,29 @@ obj_npc_room
 ＊ タマゴにならずに
 　 青春は語れないぞ。
 
-＊ Hey, boss! I'll have a Dark Candy Starfait!
+＊ Hey, boss! I'll have a Dark
+Candy Starfait!
 
-＊ (Hathy is going to order a heart-foam latte.)
+＊ (Hathy is going to order a
+heart-foam latte.)
 
 ＊ Lemonade? ... Please.
 
-＊ (Looks like it wants to osmose some flavorful cubes.)
+＊ (Looks like it wants to osmose
+some flavorful cubes.)
 
-＊ (Looks like it wants to be dabbed with rubbing alcohol.)
+＊ (Looks like it wants to be
+dabbed with rubbing alcohol.)
 
-＊ Everything tastes better with a normally-shaped body!
+＊ Everything tastes better with
+a normally-shaped body!
 
-＊ Boss...? You're treating me...? Oh, you shouldn't have! (smile)
+＊ Boss...? You're treating
+me...? Oh, you shouldn't have!
+(smile)
 
-＊ (Head Hathy drinks an ice tea in silence...)
+＊ (Head Hathy drinks an ice tea
+in silence...)
 
 ＊ ごきげんよう。本日のお料理は
 　 こんがり　#E23D28色に
@@ -34674,7 +34893,8 @@ rightmid BottomMid
 leftmid BottomMid
 
 ＊ ENEMY - AT 1 DF 1
-＊ Susceptible to Brainshock.       
+＊ Susceptible to Brainshock.    
+  
 
 ＊ (~1の　はなだ。
 　 ケースで　まもられている…)
@@ -35562,7 +35782,8 @@ leftmid BottomMid
 
 ＊ なnの　ご用deathか！　ﾜﾀ94いま
 　 [[ネ申]]化中。忙レい　でs。
-　 帰って　[[ﾏｲﾝｸｼｬｯﾄ]]でもしてロ！
+　 帰って
+[[ﾏｲﾝｸｼｬｯﾄ]]でもしてロ！
 
 ＊ そのﾍﾝの　ｸｿｶﾞｷのために
 　 [[隠しボス]]やる　は
@@ -38041,11 +38262,13 @@ obj_readable_room1
 
 ＊ (Nothing happened.)
 
-＊ (Sounds like a forcefield powering down... or something.)
+＊ (Sounds like a forcefield
+powering down... or something.)
 
 ＊ (Nothing happened.)
 
-＊ (Sounds like a forcefield powering down... or something.)
+＊ (Sounds like a forcefield
+powering down... or something.)
 
 ＊ (ポインは　いない)
 
@@ -39227,7 +39450,8 @@ $~1
 　 有名　　　！ (C)1997]]
 
 ＊ あの　[[小ボウズ]]こそが
-　 ｷ三を[[BIG]]にsるﾜﾀ94を[BIG]にする
+
+ ｷ三を[[BIG]]にsるﾜﾀ94を[BIG]にする
 　 　　　　　　　　　[[片道切符]]
 
 ＊ [[ｽﾍﾟｼﾙな１台
@@ -39261,7 +39485,8 @@ $~1
 
 ＊ ﾜﾀ94から　キー生成キ[[購入]]し
 　 地下階への通路　開放し
-　 ﾌﾞﾗﾝｸﾃﾞｨｽｸ　入手レてくださ　！！
+　 ﾌﾞﾗﾝｸﾃﾞｨｽｸ　入手レてくださ
+！！
 
 ＊ ｸﾘｽｻﾏ！！　ﾜﾀ94から
 　 [[キー生成キ]]購入し　ｸｲｰﾝの館の
@@ -39317,7 +39542,8 @@ $~1
 
 ＊ [[驚きのビフォーアフター？
  　あなたも]]　可能です
-　 [[(笑)(笑)(笑)(笑)(聞き取り不能)]]との
+
+ [[(笑)(笑)(笑)(笑)(聞き取り不能)]]との
 　 　　　　　　　　　　　　　[[接触]]！
 
 ＊ ﾜﾀ94　じきに　[[例のピエロ]]すらも
@@ -39342,7 +39568,8 @@ $~1
 ＊ ｸﾘｽｻﾏ　ｱnﾀ　ご存じ　　か？
 　 騎士…
 
-＊ ｺﾞﾒﾝﾅｻｲｺﾞﾒﾝﾅｻｲｺﾞﾒﾝﾅｻｲｺﾞﾒﾝﾅｻｲｺﾞﾒﾝﾅｻｲｺﾞﾒ
+＊
+ｺﾞﾒﾝﾅｻｲｺﾞﾒﾝﾅｻｲｺﾞﾒﾝﾅｻｲｺﾞﾒﾝﾅｻｲｺﾞﾒﾝﾅｻｲｺﾞﾒ
 　 ﾝﾅﾝﾃﾞﾓｱﾘﾏｾﾝﾅﾝﾃﾞﾓﾅ…
 
 ＊ 有給　　余ってま　sか？？
@@ -39397,7 +39624,8 @@ $~1
 
 ＊ やﾘまレたついに！！
 　 ﾜﾀ94　わかってまレ　　た
-　 ｱnﾀ必ず　[[ﾘｸｴｽﾄを承認]]する。。と
+　 ｱnﾀ必ず
+[[ﾘｸｴｽﾄを承認]]する。。と
 
 ＊ では　まいﾘまs　ｸﾘｽｻﾏ！！
 　 [[送信]]　　　開、、始
@@ -41418,11 +41646,14 @@ puppy you are!
 　 整理整とん具合に
 　 ちょっと満足げだ！
 
-＊ Susie was trained like an animal...
+＊ Susie was trained like an
+animal...
 
-A treat!! Somebody give her a treat!!
+A treat!! Somebody give her a
+treat!!
 
-＊ Play dead!? I'll teach YOU to play dead!!~1
+＊ Play dead!? I'll teach YOU to
+play dead!!~1
 
 ＊ Susie got managed!
 
@@ -41430,11 +41661,14 @@ What a wonderfully crafted
 signpost! I'm giving it an
 obedience medal!
 
-＊ Ralsei got trained like an animal!!
+＊ Ralsei got trained like an
+animal!!
 
-Why the hell do YOU get one of those!!
+Why the hell do YOU get one of
+those!!
 
-＊ Due to good behavior, he received an obedience badge.~1
+＊ Due to good behavior, he
+received an obedience badge.~1
 
 ＊ Ralsei got managed!
 
@@ -41477,7 +41711,8 @@ doesn't he?
 
 ＊ ラルセイは　熱心に耳を傾けた！
 
-＊ Kris got trained like an animal!!
+＊ Kris got trained like an
+animal!!
 
 ＊ Kris got managed!
 
@@ -41604,13 +41839,15 @@ obj_unusedclassevent
 
 ＊ What just happened...?
 
-＊ Like, that wasn't a dream or anything, was it...?
+＊ Like, that wasn't a dream or
+anything, was it...?
 
 ＊ ...
 
 ＊ Anyway, as I was SAYING,
 
-＊ Let's just tell Alphys we couldn't find any chalk.
+＊ Let's just tell Alphys we
+couldn't find any chalk.
 
 ＊ ゆかに　ちらばっている　ガラクタを
 　 ぜんぶ　ひろいあつめた…
@@ -41722,17 +41959,22 @@ Got your nose!
 
 ＊ Ralsei cooked up a cure.
 
-＊ If you're sick, shouldn't you have some soup? Say "aah"~!
+＊ If you're sick, shouldn't you
+have some soup? Say "aah"~!
 
-＊ Sickness was cured! Everyone's HP up!
+＊ Sickness was cured! Everyone's
+HP up!
 
 ＊ Susie cooked up a cure!
 
-＊ What, you want me to cook something!?
+＊ What, you want me to cook
+something!?
 
-＊ Susie put a hot dog in the microwave!
+＊ Susie put a hot dog in the
+microwave!
 
-＊ She forgot to poke holes in it! The hot dog exploded!
+＊ She forgot to poke holes in
+it! The hot dog exploded!
 
 ＊ スージィは　敵に同情した！
 
@@ -42240,7 +42482,8 @@ Not even gonna ask.
 
 Um, the d-dress is cute...
 
-(Why did they spend $300 on this!?)
+(Why did they spend $300 on
+this!?)
 
 スカイマント
 
@@ -42393,9 +42636,11 @@ scr_encountersetup
 
 ＊ Jigsawry drew near!
 
-＊ A different Jigsawry from last time drew near!
+＊ A different Jigsawry from last
+time drew near!
 
-＊ Assumedly another different Jigsawry appeared!
+＊ Assumedly another different
+Jigsawry appeared!
 
 ＊ ジグソーリーのボードに
 　 行く手をふさがれた！
@@ -43040,9 +43285,11 @@ K-Kris!? I...
 
 ステキな曲…
 
-＊ (The clothes are stuck to the doll...)
+＊ (The clothes are stuck to the
+doll...)
 
-＊ (There's no way you can use this.)
+＊ (There's no way you can use
+this.)
 
 (反応ナシか？)
 
@@ -45052,21 +45299,27 @@ Subject
 Keep
 Dreaming
 
-＊ This is the CASTLE TOWN, where my subjects reside...
+＊ This is the CASTLE TOWN, where
+my subjects reside...
 
-＊ Err, well, they would if I had any...
+＊ Err, well, they would if I had
+any...
 
-＊ Oh, don't worry about me, Kris!
+＊ Oh, don't worry about me,
+Kris!
 
-＊ I'm certain I'll find a subject someday...
+＊ I'm certain I'll find a
+subject someday...
 
 ＊ H... Huh!?
 
-＊ Why, Kris, you don't have to do that...
+＊ Why, Kris, you don't have to
+do that...
 
 ＊ ... but, if you insist...
 
-＊ Kris, as your Prince and authority, I order you to...!
+＊ Kris, as your Prince and
+authority, I order you to...!
 
 ＊ Please let me know what to do!
 
@@ -45114,7 +45367,8 @@ Dreaming
 
 ＊ ねえクリス…
 
-＊ ... You can skip text by pressing [~1]?
+＊ ... You can skip text by
+pressing [~1]?
 
 ＊ えっ…？
 ＊ てことは…
@@ -45175,7 +45429,8 @@ Dreaming
 ＊ キミと　スージィのために
 　 マニュアルを作ったんだ！
 
-＊ Press [~1] to open the menu and use it in your ITEMS.
+＊ Press [~1] to open the menu
+and use it in your ITEMS.
 
 ＊ (マニュアルを　手に入れた)
 
@@ -46786,9 +47041,11 @@ $1入れる
 　 まいにち　つけて！　あれは
 　 どこへ　いったかしらねえ？
 
-＊ Kris, I need to grade these assignments.
+＊ Kris, I need to grade these
+assignments.
 
-＊ Perhaps you should go to bed...?
+＊ Perhaps you should go to
+bed...?
 
 ＊ You do not look very well...
 
@@ -47120,10 +47377,12 @@ $1入れる
 
 ＊ チョコダイヤ　いかがですか？
 
-＊ All proceeds go to Rudinn Relief Funds, I guess.
+＊ All proceeds go to Rudinn
+Relief Funds, I guess.
 ＊ It's only 40G!
 
-＊ Choco Diamonds, only 40G, I guess.
+＊ Choco Diamonds, only 40G, I
+guess.
 
 ＊ まいどあり…かな。
 ＊ (チョコダイヤが
@@ -47143,7 +47402,8 @@ $1入れる
 買わない
 
 ＊ (Hathy offers a Hearts Donut.)
-＊ (Proceeds go to Hathy's Health. It costs 40G.)
+＊ (Proceeds go to Hathy's
+Health. It costs 40G.)
 
 ＊ (ハーティは　うれしそうだ)
 ＊ (ハートドーナツが
@@ -48530,19 +48790,25 @@ Do Not Blaze
 
 ＊ なあに　クリス？
 
-＊ Kris, honey, you have grown up so much...
+＊ Kris, honey, you have grown up
+so much...
 
-＊ Someday soon you will be going off to university as well...
+＊ Someday soon you will be going
+off to university as well...
 
 ＊ …
 
-＊ Remember when you were little...
+＊ Remember when you were
+little...
 
-＊ You asked when your horns were going to grow in?
+＊ You asked when your horns were
+going to grow in?
 
-＊ So we bought that headband with the little red horns on it.
+＊ So we bought that headband
+with the little red horns on it.
 
-＊ Oh, you wore it for months! Whatever happened to it?
+＊ Oh, you wore it for months!
+Whatever happened to it?
 
 ＊ クリスと　アズリエルが
 　 よくあそんでいた　テレビ
@@ -52651,7 +52917,8 @@ scr_weaponinfo
 
 ボクの好みの緑色じゃないな…
 
-オッケー！　…え？　「ボツ」？　どういうイミ！？
+オッケー！　…え？　「ボツ」？
+どういうイミ！？
 
 獲得$上昇
 
@@ -52728,7 +52995,8 @@ scr_weaponinfo
 
 ポジティブで前向きなイメージの
 カラフルなマフラー。
-クリティカルダメージを受けたときに獲得するTPが増える。
+クリティカルダメージを受けた
+ときに獲得するTPが増える。
 
 スマイルマーク？　うぇ…
 
@@ -52902,7 +53170,8 @@ Chapter ~1のファイルを使わない
 
 Ch~1ファイル
 
-Chapter ~2のファイルで Chapter ~1を始める。
+Chapter ~2のファイルで Chapter
+~1を始める。
 
 スロット~2で Chapter ~1を始めます。
 
@@ -53048,7 +53317,8 @@ obj_b1_finalehalls
 obj_b1boardend
 ==============
 
-＊ Time for a physical challenge!!!
+＊ Time for a physical
+challenge!!!
 
 
 ===============
@@ -53454,11 +53724,14 @@ $@&!
 obj_b1rocks2
 ============
 
-Whatever, I'm just going to wait for Kris to pull us to the next screen.
+Whatever, I'm just going to wait
+for Kris to pull us to the next
+screen.
 
 Stupid rocks!!
 
-It’s easy if you hold something over your head
+It’s easy if you hold something
+over your head
 
 Uh oh!
 Watch out
@@ -53470,7 +53743,8 @@ But I thought
 that they were
 rocks.
 
-I don't know where you got that idea.
+I don't know where you got that
+idea.
 
 I have no
 clue where you
@@ -53939,7 +54213,8 @@ obj_b2bridgepuzzle2
 
 Oh! Look, grey blocks!
 
-Kris, let's solve this puzzle together!
+Kris, let's solve this puzzle
+together!
 
 Cool, I get to do nothing.
 
@@ -53949,9 +54224,11 @@ Heh, finally having fun?
 
 H-huh? Well, um...
 
-How 'bout we stay as these characters...
+How 'bout we stay as these
+characters...
 
-Until there's something cool to throw?
+Until there's something cool to
+throw?
 
 ... okay!
 
@@ -53962,7 +54239,8 @@ obj_b2camera
 
 FABULOUS! JUST FABULOUS!
 
-DO YOU THINK YOU COULD PHOTOGRAPH ME TOO?
+DO YOU THINK YOU COULD PHOTOGRAPH
+ME TOO?
 
 RAFT APPEARS IN
 THE RIVER
@@ -54244,11 +54522,14 @@ obj_b2ferntalk
 obj_b2greenx
 ============
 
-Those are some weird looking blocks.
+Those are some weird looking
+blocks.
 
-Those are no ordinary blocks! This room presents a challenge!
+Those are no ordinary blocks!
+This room presents a challenge!
 
-Oh, I think you can push these blocks around.
+Oh, I think you can push these
+blocks around.
 
 See? He gets it!
 
@@ -54975,26 +55256,34 @@ obj_b3bintrocutscene
 
 ＊ PHEW! You're just in time!
 
-＊ We've been replaying a rerun of that WORM commercial, and the ratings were TERRIBLE!
+＊ We've been replaying a rerun
+of that WORM commercial, and the
+ratings were TERRIBLE!
 
-ALRIGHT!! AUDIENCE, are you ready...
+ALRIGHT!! AUDIENCE, are you
+ready...
 
-For 20 floors of CUTTING EDGE ENTERTAINMENT!?
+For 20 floors of CUTTING EDGE
+ENTERTAINMENT!?
 
 
 ==================================
 obj_b3bintrocutscene_swordroutever
 ==================================
 
-＊ Alright, controllers all clean!?
+＊ Alright, controllers all
+clean!?
 
-＊ Everyone back to the couch, let's finish up Board 3!
+＊ Everyone back to the couch,
+let's finish up Board 3!
 
 Mike, turn on the power.
 
-Haha, that's strange! Usually it goes right on!
+Haha, that's strange! Usually it
+goes right on!
 
-Mike, can we, uh, haha, try that again?
+Mike, can we, uh, haha, try that
+again?
 
 That's funny.
 
@@ -55068,9 +55357,12 @@ obj_b3broof3
 obj_b3broof4
 ============
 
-You see, there's ONE thing they cannot skip!
+You see, there's ONE thing they
+cannot skip!
 
-Something that puts the fate of ALL OF TV-TROPOLIS in their hands!!
+Something that puts the fate of
+ALL OF TV-TROPOLIS in their
+hands!!
 
 
 =======================
@@ -55108,9 +55400,11 @@ ALMOST GOT IT!
 UPSIDE DOWN 9!
 SO CLOSE!
 
-＊ What the -- what are you doing photoing us!?
+＊ What the -- what are you doing
+photoing us!?
 
-＊ We're innocent! Ahh, let's get out of here!
+＊ We're innocent! Ahh, let's get
+out of here!
 
 
 ================
@@ -55135,11 +55429,14 @@ obj_b3bs_console
 obj_b3bs_introscene
 ===================
 
-＊ Heh, look who it is. Ralsei wanted to wait for you, so...
+＊ Heh, look who it is. Ralsei
+wanted to wait for you, so...
 
-＊ And Susie said "Watch. Kris'll show up any minute now," so...
+＊ And Susie said "Watch. Kris'll
+show up any minute now," so...
 
-＊ And I say "shut up," so let's go!
+＊ And I say "shut up," so let's
+go!
 
 
 ==============
@@ -55245,7 +55542,8 @@ Yes
 
 No
 
-＊ The sign on the door reads "knock for assistance."
+＊ The sign on the door reads
+"knock for assistance."
 
 ＊ Knock?
 
@@ -55256,7 +55554,8 @@ No
 obj_b3bs_watercooler
 ====================
 
-＊ What the -- you's ain't allowed in here!
+＊ What the -- you's ain't
+allowed in here!
 
 
 =================
@@ -55311,7 +55610,8 @@ Least Lancer's here.
 obj_b3center
 ============
 
-Feast your wallets on our bustling commercial district!
+Feast your wallets on our
+bustling commercial district!
 
 It's one door...
 
@@ -55336,29 +55636,34 @@ of the city!
 obj_b3elevator
 ==============
 
-All you have to do is get to the top floor...
+All you have to do is get to the
+top floor...
 
 
 ========================
 obj_b3entertainmentalley
 ========================
 
-This goes to our entertainment district! Here our fun is stored!
+This goes to our entertainment
+district! Here our fun is stored!
 
 
 ===========================
 obj_b3entertainmentdistrict
 ===========================
 
-WELCOME TO OUR ENTERTAINMENT DISTRICT!
+WELCOME TO OUR ENTERTAINMENT
+DISTRICT!
 
-HAHAHA!!! Fun? There's nothing here!
+HAHAHA!!! Fun? There's nothing
+here!
 
 It's, it's... Tenna, tell 'em!
 
 ...
 
-OKAY MAN EVEN I HAVE TROUBLE DEFENDING THIS ONE.
+OKAY MAN EVEN I HAVE TROUBLE
+DEFENDING THIS ONE.
 
 You can't say that! You're me!
 
@@ -55369,7 +55674,8 @@ Get out of here!
 obj_b3gameshow
 ==============
 
-Wow, this game show looks like a blast!!
+Wow, this game show looks like a
+blast!!
 
 Let's play later!!!
 
@@ -55382,7 +55688,9 @@ obj_b3grassjoke
 
 ENOUGH grass???
 
-Haha, how could you be tired of TV-TROPOLIS'S special MONEY LAWN-dering services!? Haha!
+Haha, how could you be tired of
+TV-TROPOLIS'S special MONEY
+LAWN-dering services!? Haha!
 
 Mike, kill the grass.
 
@@ -55393,7 +55701,8 @@ obj_b3intro
 
 Welcome to TV-tropolis!!!
 
-Alright, let's just get this over with.
+Alright, let's just get this over
+with.
 
 Both Q's! Head for TV tower!!!
 
@@ -55402,7 +55711,8 @@ Both Q's! Head for TV tower!!!
 obj_b3lobby
 ===========
 
-Finally!! Welcome to TV tower, our premier dungeon!
+Finally!! Welcome to TV tower,
+our premier dungeon!
 
 
 ===========
@@ -55423,27 +55733,37 @@ A quiz! But it's, near the water!
 obj_b3stairs
 ============
 
-There it is! The door to the stairs!!!
+There it is! The door to the
+stairs!!!
 
-Wait... why does that door have 2 Q's on it?
+Wait... why does that door have 2
+Q's on it?
 
 Ugh, not more quizzes...
 
-2 Q'S!? What the -- it shouldn't look like that!
+2 Q'S!? What the -- it shouldn't
+look like that!
 
 Mike, the door please!!!
 
-You need twenty Q's to open this door, folks!
+You need twenty Q's to open this
+door, folks!
 
 2... 20 Q's!?
 
-That's right! As we speak, twenty more areas have been unlocked in TV-tropolis!
+That's right! As we speak, twenty
+more areas have been unlocked in
+TV-tropolis!
 
-Backtrack and conquer each district's quiz, then you'll unlock the stairs...
+Backtrack and conquer each
+district's quiz, then you'll
+unlock the stairs...
 
-Allowing you to finally hunt for that elevator card!
+Allowing you to finally hunt for
+that elevator card!
 
-On which one of TV tower's 100 floors of fun could it be?!
+On which one of TV tower's 100
+floors of fun could it be?!
 
 All your favorite
 programs! All your
@@ -55471,7 +55791,8 @@ Oops.
 
 Huh?
 
-Uhh... yogurt... got on my controller. ...
+Uhh... yogurt... got on my
+controller. ...
 
 What the--!?
 Emergency!! Stop
@@ -55489,11 +55810,14 @@ take your controllers!
 They could be
 CONTAMINATED!!
 
-＊ Wrong way! The green room is the other direction!!!
+＊ Wrong way! The green room is
+the other direction!!!
 
-＊ Come on and work with me here, kids!
+＊ Come on and work with me here,
+kids!
 
-＊ That yogurt is starting to curdle!!!
+＊ That yogurt is starting to
+curdle!!!
 
 ＊ ...
 
@@ -55541,15 +55865,19 @@ D
 ＊ Susceptible to Brainshock.
 
 ＊ You warned the enemy.
-＊ It guarded from Susie's attack.
+＊ It guarded from Susie's
+attack.
 
-＊ Its body was filled with a kind feeling.
+＊ Its body was filled with a
+kind feeling.
 
 ＊ Kris's simul act!
 
-＊ Kris decided to have a really long message when acting alone.
+＊ Kris decided to have a really
+long message when acting alone.
 
-＊ Its body will result in a speech after attack.
+＊ Its body will result in a
+speech after attack.
 
 ＊ Its body became tired.
 
@@ -55810,26 +56138,33 @@ obj_board_b2tornflower
 obj_board_b3_elevatorcheck
 ==========================
 
-THE ELEVATOR IS LOCKED WITH THE MOONCLOUD KEY CARD.
+THE ELEVATOR IS LOCKED WITH THE
+MOONCLOUD KEY CARD.
 
-Oh no! Looks like you need the key card first.
+Oh no! Looks like you need the
+key card first.
 
-But don't worry... You can take the stairs!
+But don't worry... You can take
+the stairs!
 
 
 ====================
 obj_board_b3bs_intro
 ====================
 
-YOU DUG UP THE IMPORTANT ELEVATOR KEY CARD.
+YOU DUG UP THE IMPORTANT ELEVATOR
+KEY CARD.
 
-THE KEY CARD WAS WASHED SOMEWHERE BACKSTAGE...
+THE KEY CARD WAS WASHED SOMEWHERE
+BACKSTAGE...
 
-＊ Umm, were we... supposed to do that?
+＊ Umm, were we... supposed to do
+that?
 
 ＊ "Supposed to" do what?
 
-＊ Oh, TV Guy is doing an announcement!
+＊ Oh, TV Guy is doing an
+announcement!
 
 Board 2 is now ready!!
 
@@ -55839,7 +56174,8 @@ STAGE immediately!!
 
 ＊ Dang, guess we gotta go.
 
-＊ Don't worry, Susie! I'll see you in the funny stages!
+＊ Don't worry, Susie! I'll see
+you in the funny stages!
 
 
 ===================
@@ -55859,7 +56195,8 @@ Haha, that's a good one!
 obj_board_battleintroduction
 ============================
 
-＊ WELCOME TO TV TIME PRESENTS: FIGHTING!
+＊ WELCOME TO TV TIME PRESENTS:
+FIGHTING!
 
 ＊ We've done this before.
 
@@ -55867,13 +56204,16 @@ obj_board_battleintroduction
 
 ＊ Yes, quite a few times.
 
-＊ HOW AM I SUPPOSED TO INTRODUCE THIS THEN?
+＊ HOW AM I SUPPOSED TO INTRODUCE
+THIS THEN?
 
 ＊ You don't need to.
 
-＊ Yep! We've got this. Right Kris?
+＊ Yep! We've got this. Right
+Kris?
 
-＊ Well fine, this is all placeholder anywho.
+＊ Well fine, this is all
+placeholder anywho.
 
 
 =======================
@@ -55980,15 +56320,20 @@ obj_board_dungeon3_tenna
 obj_board_event_b2sphinx
 ========================
 
-WHIFF... WHIFF... MY NOSE KNOWS YOU DIDN'T DO THE OTHER QUIZZES.
+WHIFF... WHIFF... MY NOSE KNOWS
+YOU DIDN'T DO THE OTHER QUIZZES.
 
-GO HIT THE BEACH AND SNIFF THEM OUT!
+GO HIT THE BEACH AND SNIFF THEM
+OUT!
 
-ACHOO! ACHOO! MY NOSE KNOWS YOU FOUND THE OTHER QUIZZES.
+ACHOO! ACHOO! MY NOSE KNOWS YOU
+FOUND THE OTHER QUIZZES.
 
-NOW THERE'S JUST ONE LAST QUESTION...
+NOW THERE'S JUST ONE LAST
+QUESTION...
 
-DO YOU WANT THESE POINTS, OR NOT!?
+DO YOU WANT THESE POINTS, OR
+NOT!?
 
 ...
 
@@ -55998,20 +56343,25 @@ IN A WAY, WE WERE ALL WINNERS...
 
 SO IF YOU DON'T MIND,
 
-I'LL BE TAKING THAT ALL-EXPENSES-PAID TROPICAL VACATION!
+I'LL BE TAKING THAT
+ALL-EXPENSES-PAID TROPICAL
+VACATION!
 
 
 ======================
 obj_board_event_b2swap
 ======================
 
-What!? My beeper!? Zapper got stuck again!? Darnit!
+What!? My beeper!? Zapper got
+stuck again!? Darnit!
 
-I have to go. Don't have too much fun without me!
+I have to go. Don't have too much
+fun without me!
 
 ...
 
-So, um, should be easy for you, right?
+So, um, should be easy for you,
+right?
 
 Look over there!
 
@@ -56019,7 +56369,8 @@ Huh?
 
  ? 
 
-Alright, this puzzle should be easy.
+Alright, this puzzle should be
+easy.
 
 
 =======================
@@ -56037,7 +56388,9 @@ obj_board_event_bigdoor
 obj_board_event_intro
 =====================
 
-Now begin! Our state of the art... Modern electronic video adventure!!!
+Now begin! Our state of the
+art... Modern electronic video
+adventure!!!
 
 Looks like crap.
 
@@ -56180,7 +56533,8 @@ obj_board_investigatable_template
 
 ＊ Aw yeah, FRED!
 
-＊ Everything was engulfed in flames.
+＊ Everything was engulfed in
+flames.
 
 ＊ Just kidding.
 
@@ -56189,7 +56543,8 @@ obj_board_investigatable_template
 obj_board_npc
 =============
 
-HELLO AND WELCOME TO THE TEST NPC.
+HELLO AND WELCOME TO THE TEST
+NPC.
 
 I HOPE THAT YOU HAVE A NICE DAY.
 
@@ -56324,7 +56679,8 @@ THIS IS MY PRIVATE LITTLE POND.
 
 I JUST WISH TO WADE IN PEACE.
 
-WHAT HAVE YOU MANIACS DONE TO MY POND?!
+WHAT HAVE YOU MANIACS DONE TO MY
+POND?!
 
 うみを　わたる　イカダは
 ウツルンしんでんに　ふういん　されとる。
@@ -56427,7 +56783,8 @@ WHAT HAVE YOU MANIACS DONE TO MY POND?!
 このわかものは　このへやに　はいってきた
 ときから　きっぷを　もっていた。
 
-PODIUMS BLOCK THE WAY. THEY ARE INSCRIBED WITH HALF A FLOWER.
+PODIUMS BLOCK THE WAY. THEY ARE
+INSCRIBED WITH HALF A FLOWER.
 
 THE RIVER DRIED UP DUE TO DROUGHT
 
@@ -56439,15 +56796,19 @@ YOU HAVE 2 Q'S! ENTER THE TOWER!
 
 THAT CACTUS STILL LOVES YOU. 
 
-BUT THEY WON'T BLUSH WHEN YOU ARE NEAR ANYMORE.
+BUT THEY WON'T BLUSH WHEN YOU ARE
+NEAR ANYMORE.
 
-I BET THEY'RE STILL SHY IN OTHER WAYS, THOUGH.
+I BET THEY'RE STILL SHY IN OTHER
+WAYS, THOUGH.
 
 史上最高の街です！
 
-DESERT... YEAH, TENNA DEFINITELY GOT LAZY RE-USING STUFF...
+DESERT... YEAH, TENNA DEFINITELY
+GOT LAZY RE-USING STUFF...
 
-THE DESERT IS MY FAVORITE PART OF THE CITY.
+THE DESERT IS MY FAVORITE PART OF
+THE CITY.
 
 
 ===================
@@ -56470,7 +56831,8 @@ Don't Drink
 
 ＊ YOUR WOUNDS WERE HEALT.
 
-＊ YOU SUCKED UP ALL THE OASIS WITH A STRAW.
+＊ YOU SUCKED UP ALL THE OASIS
+WITH A STRAW.
 
 ＊ TASTES LIKE SANDY REGRET.
 
@@ -56746,7 +57108,8 @@ obj_board_treasure
 ==================
 
 ＊ FOUND THE SECRET OF "MICHAEL."
-＊ ALL MICHAELS NOW ADDED TO INVENTORY.
+＊ ALL MICHAELS NOW ADDED TO
+INVENTORY.
 
 
 ========================
@@ -57325,9 +57688,11 @@ obj_ch3_GSA02
 obj_ch3_GSA03
 =============
 
-＊ Look! We're already almost to THE END!
+＊ Look! We're already almost to
+THE END!
 
-＊ .. yeah, but what do we have to do first?
+＊ .. yeah, but what do we have
+to do first?
 
 ＊ I'm TERRIBLY glad you asked!!!
 
@@ -57986,7 +58351,8 @@ obj_ch3_GSC04
 
 ＊ よし。じゃあ　行こうぜ。
 
-＊ Okay, well, we'll be backstage.
+＊ Okay, well, we'll be
+backstage.
 
 ＊ Umm, Kris, I can stay...
 
@@ -58039,39 +58405,53 @@ obj_ch3_GSC04A
 obj_ch3_GSC04B
 ==============
 
-＊ How doth thou likest my Recruit?
+＊ How doth thou likest my
+Recruit?
 
-＊ Maybe someday thou mayst have one...
+＊ Maybe someday thou mayst have
+one...
 
-＊ Recruiteth somebody else. This guy art TAKEN.
+＊ Recruiteth somebody else. This
+guy art TAKEN.
 
 ＊ What's poppin', my Brose?
 
-＊ Just shut up and give us the key card.
+＊ Just shut up and give us the
+key card.
 
-＊ A card, you say? Welleth, thou hath come to a Goode place.
+＊ A card, you say? Welleth, thou
+hath come to a Goode place.
 
-＊ Perhapseth it's in the next room. Looketh and go.
+＊ Perhapseth it's in the next
+room. Looketh and go.
 
-＊ Huh? Aren't you going to... irrationally fight us?
+＊ Huh? Aren't you going to...
+irrationally fight us?
 
-＊ To try and be Tenna's top lackey or something?
+＊ To try and be Tenna's top
+lackey or something?
 
-＊ Oh, ho ho. No, thou precocious bimbito. For thou see...
+＊ Oh, ho ho. No, thou precocious
+bimbito. For thou see...
 
 ＊ I art... have already wonneth.
 
-＊ For I hath Walkede, not the path of Violense, but of Love.
+＊ For I hath Walkede, not the
+path of Violense, but of Love.
 
-＊ You see, now that I am Datinge TV Dude's 2nd in Commandse...
+＊ You see, now that I am Datinge
+TV Dude's 2nd in Commandse...
 
-＊ By the Transitive Propertie... I also amst that.
+＊ By the Transitive Propertie...
+I also amst that.
 
-＊ Um... is that... how that works?
+＊ Um... is that... how that
+works?
 
 ＊ ...
 
-＊ Guyse? Is that how that Workse?
+＊ Guyse? Is that how that
+Workse?
 
 ＊ Huh? Uhh.. well...
 
@@ -60035,9 +60415,11 @@ Entrance
 
 Stay Here
 
-＊ Hey! Youse guys ain't sposeda be here!
+＊ Hey! Youse guys ain't sposeda
+be here!
 
-＊ So, uh... where'd you wanna go instead?
+＊ So, uh... where'd you wanna go
+instead?
 
 ＊ You got it, boss.
 
@@ -60351,7 +60733,8 @@ BONUS ZONE
 obj_dw_teevie_lightmaze
 =======================
 
-＊ (This cheese seems slightly out of place.)
+＊ (This cheese seems slightly
+out of place.)
 
 ＊ Aw hell yeah, free cheese.
 
@@ -60372,11 +60755,13 @@ Yes
 
 No
 
-＊ You seem lost. Do youse need assistance?
+＊ You seem lost. Do youse need
+assistance?
 
 ＊ That can be arranged.
 
-＊ Youse seem lost. Like you could use some help.
+＊ Youse seem lost. Like you
+could use some help.
 
 ＊ I think we're okay.
 
@@ -60959,25 +61344,31 @@ Brilliant sun.
 obj_elnina_rematch_enemy
 ========================
 
-＊ You looked at the sky and took...
+＊ You looked at the sky and
+took...
 ＊ An umbrella!
 
-＊ Blocking rain shows your care for the weather report!
+＊ Blocking rain shows your care
+for the weather report!
 
-＊ Took an umbrella to block rain!
+＊ Took an umbrella to block
+rain!
 
 ＊ Susie dreamed of sunny days!
 
-＊ You looked at the sky and took...
+＊ You looked at the sky and
+took...
 ＊ A warm hat!
 
-＊ Blocking snow shows your care for the weather report!
+＊ Blocking snow shows your care
+for the weather report!
 
 ＊ Took a warm hat to block snow!
 
 ＊ Susie dreamed of sunny days!
 
-＊ Ralsei hoped for starry nights!
+＊ Ralsei hoped for starry
+nights!
 
 
 =============
@@ -60994,7 +61385,9 @@ obj_event_npc
 
 ＊ It's not so great.
 
-＊ I think there's a crying child on the other side of these cactuses.
+＊ I think there's a crying child
+on the other side of these
+cactuses.
 
 
 =================
@@ -61173,21 +61566,32 @@ obj_gameover_chef
 obj_gameover_cowboy
 ===================
 
-＊ Kris!! Susie!! Ralsei!! What did I say about holding onto your HATS!!
+＊ Kris!! Susie!! Ralsei!! What
+did I say about holding onto your
+HATS!!
 
-＊ A cowboy without a cowboy hat, why, it might as well be --
+＊ A cowboy without a cowboy hat,
+why, it might as well be --
 
 ＊ Just a boy!! Or a cow!!
 
-＊ And I can't say those descriptors totally match all of you.
+＊ And I can't say those
+descriptors totally match all of
+you.
 
-＊ But DON'T WORRY!! Mike, lovely man that he is, pre-ordered a BACKUP shipment of headwear --
+＊ But DON'T WORRY!! Mike, lovely
+man that he is, pre-ordered a
+BACKUP shipment of headwear --
 
-＊ And that max-size mack truck is pulling in the back right now!!
+＊ And that max-size mack truck
+is pulling in the back right
+now!!
 
-＊ ... Unfortunately, it only contains 3 hats.
+＊ ... Unfortunately, it only
+contains 3 hats.
 
-＊ So make 'em count!! Hold onto your head and don't let go!!
+＊ So make 'em count!! Hold onto
+your head and don't let go!!
 
 ＊ LET'S CHALLENGE AGAIN!!
 
@@ -61539,23 +61943,29 @@ obj_lanino_enemy
 obj_lanino_rematch_enemy
 ========================
 
-＊ You looked at the sky and took...
+＊ You looked at the sky and
+took...
 ＊ A telescope!
 
-＊ Blocking moons shows your care for the weather report!
+＊ Blocking moons shows your care
+for the weather report!
 
-＊ Took a telescope to block moons!
+＊ Took a telescope to block
+moons!
 
-＊ You looked at the sky and took...
+＊ You looked at the sky and
+took...
 ＊ Sunglasses!
 
-＊ Blocking suns shows your care for the weather report!
+＊ Blocking suns shows your care
+for the weather report!
 
 ＊ Took sunglasses to block suns!
 
 ＊ Susie dreamed of sunny days!
 
-＊ Ralsei hoped for starry nights!
+＊ Ralsei hoped for starry
+nights!
 
 
 ====================
@@ -61573,11 +61983,14 @@ obj_minigame_quit_ui
 obj_npc_facing
 ==============
 
-＊ Yes! I've already finished a prototype!
+＊ Yes! I've already finished a
+prototype!
 
-＊ Seeing you two scheme together...
+＊ Seeing you two scheme
+together...
 
-＊ It's a bit like a group project in school, isn't it?
+＊ It's a bit like a group
+project in school, isn't it?
 
 
 ============
@@ -62483,25 +62896,35 @@ obj_npc_room
 ＊ 
                   ウォーカーだった…
 
-＊ If you still haven't assembled all the details...
+＊ If you still haven't assembled
+all the details...
 
 ＊ What?
 ＊ I'm building a ladder here.
 
-＊ Do you need an interactive tutorial on leaving me alone?
+＊ Do you need an interactive
+tutorial on leaving me alone?
 
-＊ Do you need an interactive tutorial on leaving me alone?
+＊ Do you need an interactive
+tutorial on leaving me alone?
 
-＊ DEFENDING will not only temporarily reduce the damage you take...
+＊ DEFENDING will not only
+temporarily reduce the damage you
+take...
 
 ＊ So don't be afraid to DEFEND!
 ＊ DEFEND and CAST SPELLS!
 
-＊ By the way, all leftover TP will turn into extra MONEY after the battle!
+＊ By the way, all leftover TP
+will turn into extra MONEY after
+the battle!
 
-＊ You'll recover a little TP for each BULLET you get close to.
+＊ You'll recover a little TP for
+each BULLET you get close to.
 
-＊ Plus, getting close to bullets can sometimes end the enemy's attack faster.
+＊ Plus, getting close to bullets
+can sometimes end the enemy's
+attack faster.
 
 ＊ クリス　ハハ…ハ…
 　 ステージに上がるときは
@@ -62577,7 +63000,8 @@ obj_npc_sign
 ＊ まったく…ヤツの考えることは
 　 ときどき理解に苦しむ…
 
-＊ (... There's a Ribbick, but it's shy.)
+＊ (... There's a Ribbick, but
+it's shy.)
 
 
 =================
@@ -62842,9 +63266,11 @@ OFF
 
 あ ヤベッ
 
-Why the hell didn't you trust me!?
+Why the hell didn't you trust
+me!?
 
-Why the hell didn't you guys trust me!?
+Why the hell didn't you guys
+trust me!?
 
 クリス 正解！
 ママの手作りパイに
@@ -65842,7 +66268,8 @@ obj_shadowman_enemy
 
 ＊ クリスは　おどった！
 
-＊ Its body was filled with a kind feeling.
+＊ Its body was filled with a
+kind feeling.
 
 ＊ スージィは　おどった！
 
@@ -66355,7 +66782,8 @@ obj_shutta_move_char_controller
 
 ＊ Hey, don't take a -- achoo!!
 
-＊ Camenary took a bad picture... it got a little embarrassed
+＊ Camenary took a bad picture...
+it got a little embarrassed
 
 
 ===========================
@@ -66448,7 +66876,8 @@ obj_shutta_photo_controller/Collision_obj_shutta_photo_annoyingdog
 ＊ Great dog picture!
 ＊ Well centered!
 
-＊ Dog picture was not centered well!
+＊ Dog picture was not centered
+well!
 
 
 =============================================================
@@ -66457,7 +66886,8 @@ obj_shutta_photo_controller/Collision_obj_shutta_photo_nubert
 
 ＊ Great shot of Nubert!
 
-＊ Nubert was underground in that shot...
+＊ Nubert was underground in that
+shot...
 
 
 =============================
@@ -67159,9 +67589,11 @@ NEO番組！！
 ＊ それでは　ご要望にお応えして…
 　 グランドフィナーレ！！！
 
-＊ Ho ho ho! I may drop, but the points won't!
+＊ Ho ho ho! I may drop, but the
+points won't!
 
-＊ Lancer clung to the score like a koala! Points can't drop!
+＊ Lancer clung to the score like
+a koala! Points can't drop!
 
 ＊ テナ -
 　 サイズのわりに　意外と　もろい。
@@ -67521,11 +67953,14 @@ obj_watercooler_enemy
 
 ＊ The moonwarmer shows no mercy.
 
-＊ The moonwarmer doesn't do anything in particular.
+＊ The moonwarmer doesn't do
+anything in particular.
 
-＊ The moonwarmer leaves a hot silence.
+＊ The moonwarmer leaves a hot
+silence.
 
-＊ The moonwarmer warms moons, warmly.
+＊ The moonwarmer warms moons,
+warmly.
 
 ＊ じゃぐちの　ニオイがする。
 
@@ -67539,24 +67974,29 @@ obj_watercooler_enemy
 　 クランベリーのようなピンク色に
 　 染まった。
 
-＊ The moonwarmer's bubbles rest on the surface.
+＊ The moonwarmer's bubbles rest
+on the surface.
 
-＊ The moonwarmer looks like it needs a refill.
+＊ The moonwarmer looks like it
+needs a refill.
 
-＊ The moonwarmer's water blushes a cranberry pink.
+＊ The moonwarmer's water blushes
+a cranberry pink.
 
 ＊ ウォータークーラーを「ぶんせき」した…
 ＊ 水が冷たいことが　確認された。
 
 ＊ You CHECKed the moonwarmer...
-＊ The warms was confirmed to be moon.
+＊ The warms was confirmed to be
+moon.
 
 ＊ 命ごいした…
 ＊ …が　ウォータークーラーは
 　 容赦しない。
 
 ＊ You begged for mercy...
-＊ ... but the moonwarmer showed none.
+＊ ... but the moonwarmer showed
+none.
 
 ＊ より有効な　別の「こうどう」を
 　 思いついた。
@@ -67567,7 +68007,8 @@ obj_watercooler_enemy
 　 容赦しない。
 
 ＊ You begged for mercy...
-＊ ... but the moonwarmer showed none.
+＊ ... but the moonwarmer showed
+none.
 
 ＊ きっと　こちらの名前が
 　 きいろくないからだ。
@@ -67599,11 +68040,16 @@ ActWarmer
 　「オわっタラー食事でもどうかなー？」
 　 と　声をかけた。
 
-＊ You told the moonwarmer it should actually be called a moonwarmest...?
+＊ You told the moonwarmer it
+should actually be called a
+moonwarmest...?
 
-＊ You took a slow sip of warms and asked if it ever mooned...?
+＊ You took a slow sip of warms
+and asked if it ever mooned...?
 
-＊ You asked the moonwarmer,~1hotter~2they doing later...?
+＊ You asked the
+moonwarmer,~1hotter~2they doing
+later...?
 
 ＊ 水が一瞬　ピンクに色づいた。
 
@@ -67934,7 +68380,8 @@ Taishi Mukaigawara [QA マネージャー]
 
 Hiromasa Tokida [QA リード]
 
-Yuki Takeuchi [QA アシスタント リード]
+Yuki Takeuchi [QA アシスタント
+リード]
 
 Shinji Yasue [セールス部]
 
@@ -68235,7 +68682,8 @@ scr_keyiteminfo
 ホッホッホ！この部屋限定で
 ボクさまの存在を楽しむといいぞ！
 
-ボクさまの　すごいところは　ボクさまは　ボクさましかいないところ！
+ボクさまの　すごいところは　ボクさまは
+ボクさましかいないところ！
 
 コントローラー？
 
@@ -68707,13 +69155,13 @@ TV TIME!!!
 一度聞いたら　忘れない
 「TV TIME」の　キャッチコピーは？
 
-~チャンネルは そのまま！
+チャンネルは そのまま！
 
-~マーベラス・ミステリー・パーク
+マーベラス・ミステリー・パーク
 
-~マジカル・ミステリー・パーク
+マジカル・ミステリー・パーク
 
-~画面は なめるな！
+画面は なめるな！
 
 これだろ
 
@@ -68902,9 +69350,10 @@ Eメールより　いい
 
 夕方から朝方まで
 
-~朝食から夕食まで
+朝食から夕食まで
 
-~~教会にも行かずにずっと見てるテレビしか見ないテレビがすべて
+教会にも行かずにずっと見てる
+テレビしか見ないテレビがすべて
 
 BRAVE AX
 
@@ -70723,11 +71172,13 @@ UNUSED
 
 何日？　何時間？
 
-何年もたったといわれたら　きっと信じてしまう…
+何年もたったといわれたら
+きっと信じてしまう…
 
 前は　太陽がのぼって…
 
-たくさんの　すばらしいことが起きて　時間には意味があった。
+たくさんの　すばらしいことが起きて
+時間には意味があった。
 
 朝ごはん…　夜ふかしして見るテレビ…
 
@@ -70735,7 +71186,8 @@ UNUSED
 
 もう　食べもしないし　飲みもしない。
 
-目が覚めているのか　夢を見ているのかもわからない。
+目が覚めているのか
+夢を見ているのかもわからない。
 
 死んでいるのか　生きているのかも。
 
@@ -70745,11 +71197,14 @@ UNUSED
 
 ときどき聞こえる　引っかくような音。
 
-信じてもらえないかもしれないけど…この声は　だれにも　届いていないかもしれないけど…
+信じてもらえないかもしれないけど…この声は
+だれにも　届いていないかもしれないけど…
 
-あの音を聞くたびに　この声が　だれかに　届いている気がする。
+あの音を聞くたびに　この声が　だれかに
+届いている気がする。
 
-聞いてくれている人…　聞こえているなら…　ありがとう。
+聞いてくれている人…　聞こえているなら…
+ありがとう。
 
 
 ====================
@@ -70974,7 +71429,8 @@ obj_bell_enemy
 
 ＊ ラルセイは　ベルをトントンした！
 
-* Press button with the right timing!
+* Press button with the right
+  timing!
 
 
 =========================
@@ -71056,14 +71512,16 @@ obj_bibliox_enemy
 Mumble,
 mumble…
 
-* Select the correct spelling with ~1!
+* Select the correct spelling
+  with ~1!
 
 
 ======================
 obj_board_b2tornflower
 ======================
 
-THIS CACTUS APPEARS TO BE IN BLOOM.
+THIS CACTUS APPEARS TO BE IN
+BLOOM.
 
 
 =================
@@ -75067,13 +75525,17 @@ obj_ch4_PDC09A
 　 かけてると　なかなか
 　 とまらないんだ。
 
-* What is this, a tennis ball machine?
+* What is this, a tennis ball
+  machine?
 
-* Close! It's a holiday treat launcher with automatic scheduling!
+* Close! It's a holiday treat
+  launcher with automatic
+  scheduling!
 
 * Just one click, and...
 
-* Just goes to show you my dad's sense of humor, faha...
+* Just goes to show you my dad's
+  sense of humor, faha...
 
 ＊ …これは？
 
@@ -76965,19 +77427,29 @@ obj_dw_church_bookshelfpuzzle
 obj_dw_church_climbtut
 ======================
 
-＊ Well hey dere! If you want to continue, you'll have ta climb!
+＊ Well hey dere! If you want to
+continue, you'll have ta climb!
 
-＊ You can climb by holdin' ~1 when near a climbable area!
+＊ You can climb by holdin' ~1
+when near a climbable area!
 
-＊ Did ya get stuck? Hold ~1 to charge up a jump to leap across an area!
+＊ Did ya get stuck? Hold ~1 to
+charge up a jump to leap across
+an area!
 
-＊ You can hold ~1 to charge up a jump to leap across an area!
+＊ You can hold ~1 to charge up a
+jump to leap across an area!
 
-＊ That was a mighty fine leap y'did there!
+＊ That was a mighty fine leap
+y'did there!
 
-＊ Don't forget that you can jump up to two spaces using a charged jump!
+＊ Don't forget that you can jump
+up to two spaces using a charged
+jump!
 
-＊ A real pro strat is to use the momentum to help you cross even faster!
+＊ A real pro strat is to use the
+momentum to help you cross even
+faster!
 
 
 ======================
@@ -77904,11 +78376,14 @@ IT STARTED ONCE UPON A TIME
 
 A LEGEND SPOKE IN SHADOWD RHYME
 
-OF LIGHT AND DARK AND LOVE AND HATE
+OF LIGHT AND DARK AND LOVE AND
+HATE
 
-THE HOPES AND DREAMS THAT GOVERN FATE
+THE HOPES AND DREAMS THAT GOVERN
+FATE
 
-THIS WAS THE LEGEND OF <DELTARUNE.>
+THIS WAS THE LEGEND OF
+<DELTARUNE.>
 
 A WORLD BASKED IN PUREST LIGHT.
 
@@ -77930,7 +78405,8 @@ A COUNTDOWN TO
 
 THE EARTH'S EXPIRE.
 
-BUT LO, ON HOPES AND DREAMS THEY SEND.
+BUT LO, ON HOPES AND DREAMS THEY
+SEND.
 
 THREE HEROES AT THE WORLD'S END.
 
@@ -81450,15 +81926,20 @@ obj_guei_enemy
 obj_halo_enemy
 ==============
 
-アリが10！　　　アリが10！　　　アリが10！　　　
+アリが10！　　　アリが10！　　　アリが10！
+　　
 
-アリ？聞こえてる？　　　アリ？聞こえてる？　　　
+アリ？聞こえてる？　　　アリ？聞こえてる？　
+　
 
-本日　カイテン　　　　　本日　カイテン　　　　　
+本日　カイテン　　　　　本日　カイテン　　　
+　
 
-目を開けて　　　目を開けて　　　目を開けて　　　
+目を開けて　　　目を開けて　　　目を開けて　
+　
 
-センカイ　言ってみて？　センカイ　言ってみて？　
+センカイ　言ってみて？　センカイ
+言ってみて？　
 
 回ることは
 信ずること
@@ -84032,17 +84513,20 @@ obj_multiboss_enemy1
 
 * The text is way longer
 
-* You made a memorable and charming flatter!
+* You made a memorable and
+  charming flatter!
 
 * You flatter!
 
 * Susie flatter (multiple lines)!
 
-* And the first time susie flatters
+* And the first time susie
+  flatters
 
 * The text is way longer
 
-* Susie made an offensive flatter!
+* Susie made an offensive
+  flatter!
 
 * Susie flatter!
 
@@ -84052,17 +84536,21 @@ obj_multiboss_enemy1
 
 * Susie couldn't act alone!
 
-* Susie was able to execute arbitrary code alone!
+* Susie was able to execute
+  arbitrary code alone!
 
 What the!?
 
-* Ralsei flatter (multiple lines)!
+* Ralsei flatter (multiple
+  lines)!
 
-* And the first time Ralsei flatters
+* And the first time Ralsei
+  flatters
 
 * The text is way longer
 
-* Ralsei made a slightly cringeworthy flatter!
+* Ralsei made a slightly
+  cringeworthy flatter!
 
 * Ralsei flatter!
 
@@ -86852,9 +87340,11 @@ obj_readable_room1
 ＊ (ブニョッとしていそうな
 　 スナックが　ならんでいる)
 
-(なんで　わたし　チーズを　ハートがたに　きったのかな…？)
+(なんで　わたし　チーズを　ハートがたに
+きったのかな…？)
 
-(これって　つまようじも　くっていいんだっけ？)
+(これって　つまようじも
+くっていいんだっけ？)
 
 ＊ …えっと　こちらが…
 　 おやつプレートに
@@ -89872,7 +90362,8 @@ Mike Maker (PC ver.)
 -歌-
  (サンクチュアリ／クレジット)
 
--タイタンの手／クリスのピアノ アニメーション-
+-タイタンの手／クリスのピアノ
+アニメーション-
 
 -Wicabel Bullet Pattern-
 

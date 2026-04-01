@@ -9,6 +9,9 @@ import sys
 import typing
 
 
+MAX_LINE_LEN = 33
+
+
 def render(text: str | None, msgid: str, lang: str) -> str | None:
     if not text:
         return None
@@ -18,10 +21,104 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
         # where it's used to blank out the sidebar.
         # The shop code has been getting copy/pasted ever since...
         return ""
+    if msgid.startswith("scr_quiztext_slash_scr_quiztext_gml_"):
+        # These trigger smaller text.
+        text = text.lstrip("~")
+
+    # TODO: I think the first is English and the second Japanese,
+    # extract as such?
+    if msgid == "obj_ch2_keyboardpuzzle_controller_slash_Create_0_gml_38_0":
+        assert text == "GIAEEFSBISSFLBALAELRHEIGSFFEBRSI"
+        text = "GIAEEFSB\nISSFLBAL\nAELRHEIG\nSFFEBRSI"
+    if msgid == "obj_ch2_keyboardpuzzle_controller_slash_Create_0_gml_56_0":
+        assert text == "UPIOMAOIOTSUGNINMGUSIFIOPEKIFUSIORATEGUI"
+        text = "UPIOMAOIOT\nSUGNINMGUS\nIFIOPEKIFU\nSIORATEGUI"
+
+    if msgid == "scr_weaponinfo_slash_scr_weaponinfo_gml_352_0" and lang == "ja":
+        # Unused description that's missing a line wrap.
+        # I'm just guessing about a better place to wrap.
+        assert (
+            text
+            == "ポジティブで前向きなイメージの#カラフルなマフラー。#"
+            + "クリティカルダメージを受けたときに獲得するTPが増える。"
+        )
+        text = (
+            "ポジティブで前向きなイメージの#カラフルなマフラー。#"
+            + "クリティカルダメージを受けた#ときに獲得するTPが増える。"
+        )
+    if msgid == "scr_armorinfo_slash_scr_armorinfo_gml_568_0" and lang == "en":
+        # Similar case.
+        assert (
+            text
+            == "A lodestone token inscribed with the record of#a legend athlete. Enemy bullets give a bit more TP."
+        )
+        text = "A lodestone token inscribed with the record of#a legend athlete. Enemy bullets give a bit#more TP."
+
+    if msgid == "scr_quiztext_slash_scr_quiztext_gml_547_0" and lang == "ja":
+        # Long message, seemingly displayed using smaller text, but I'll
+        # insert an arbitrary line break.
+        assert text == "教会にも行かずにずっと見てるテレビしか見ないテレビがすべて"
+        text = "教会にも行かずにずっと見てる\nテレビしか見ないテレビがすべて"
+
     out = io.StringIO()
     color = "W"
     i = 0
+    linelen = 0
+
+    def wrapline():
+        nonlocal out, linelen
+        if "rhythmgame" in msgid:
+            return
+        if (
+            linelen > MAX_LINE_LEN
+            and "\n" not in text
+            and (
+                "#" not in text
+                or msgid.startswith(
+                    (
+                        "obj_readable_room1",
+                        "obj_npc_room_animated_slash_Other_10_gml_41_0",
+                        "obj_npc_room_animated_slash_Other_10_gml_57_0",
+                    )
+                )
+                or "`#" in text
+            )
+        ):
+            *head, tail = out.getvalue().rsplit("\n", 1)
+            if "\u3000" in tail:
+                tail, tailtail = tail.rsplit("\u3000", 1)
+            elif " " in tail:
+                tail, tailtail = tail.rsplit(" ", 1)
+            elif lang == "ja":
+                return
+            else:
+                assert msgid in [
+                    "obj_ch2_keyboardpuzzle_controller_slash_Create_0_gml_56_0",
+                    "obj_lancerboss3_slash_Step_0_gml_258_0",
+                    "obj_shop_ch2_spamton_slash_Draw_0_gml_737_0",
+                ]
+                return
+            if tail == "*":
+                assert "obj_musical_controller" in msgid or msgid in [
+                    "obj_lancerboss3_slash_Step_0_gml_258_0"
+                ]
+                return
+            new = (head[0] + "\n" if head else "") + tail + "\n"
+            if new.startswith("* "):
+                new += "  "
+                linelen = 2
+            # elif new.startswith("＊ "):
+            #     new += "\u3000 "
+            #     linelen = 2.5
+            else:
+                linelen = 0
+            new += tailtail
+            linelen += len(re.sub("<[^>]*>", "", tailtail))
+            out = io.StringIO(new)
+            out.seek(0, 2)
+
     while i < len(text):
+        wrapline()
         match text[i]:
             case "\\":
                 match text[i + 1]:
@@ -36,10 +133,11 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                             if prev_color != "W":
                                 out.write("</span>")
                             if color != "W":
-                                out.write(f'<span class="{color}">')
+                                out.write(f'<spanꙮclass="{color}">')
                     case "O" | "I":
                         # TODO: Tenna text, interface buttons
-                        out.write('<span class="picture">[IMG]</span>')
+                        out.write('<spanꙮclass="picture">[IMG]</span>')
+                        linelen += 5
                         while text[i + 3] in (" ", "\u3000"):
                             i += 1
                     case "M" | "E" | "T" | "F" | "S" | "s":
@@ -119,6 +217,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 and not msgid.startswith(("obj_credits_ch4",))
             ):
                 out.write("&amp;")
+                linelen += 1
             case "#" if msgid.startswith(
                 (
                     "obj_readable_room1",
@@ -127,14 +226,18 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 )
             ):
                 out.write("#")
+                linelen += 1
             case "#" if msgid.startswith("obj_bloxer_enemy_slash_Step_0_gml_135_1"):
                 # Becomes a space according to Bloxer footage?
                 # Confusing. Maybe the game squeezes double spaces?
                 out.write(" ")
-            case "&" | "#":
+                linelen += 1
+            case "&" | "#" | "\n":
                 out.write("\n")
+                linelen = 0
             case "\t":
                 out.write(" ")  # TODO
+                linelen += 1
             case "^":
                 if text[i + 1].isdigit():
                     i += 1
@@ -160,32 +263,42 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 ]
             ):
                 out.write("%")
+                linelen += 1
             case "%":
                 assert text[i + 1 :] in ("", "%", "%%", "/%"), msgid + " " + text
                 break
             case ">":
                 out.write("&gt;")
+                linelen += 1
             case "<":
                 out.write("&lt;")
+                linelen += 1
             case "`":
                 out.write(text[i + 1] if text[i + 1] != "&" else "&amp;")
+                linelen += 1
                 i += 1
             case "~" if i + 1 < len(text) and text[i + 1].isdigit():
                 # Some tildes are just part of the message.
                 # I think whether they're meaningful depends on the script that's called?
                 # This heuristic is good enough.
                 assert text[i + 1] in "12345"
-                out.write(f'<span class="param">~{text[i + 1]}</span>')
+                out.write(f'<spanꙮclass="param">~{text[i + 1]}</span>')
+                linelen += 2
                 i += 1
             case "N" if msgid == "obj_dw_church_intro_guei_slash_Step_0_gml_169_0":
                 # The game hardcodes this in a really bizarre way.
                 out.write("Ñ")
+                linelen += 1
             case char:
                 out.write(char)
+                linelen += 1
+                if lang == "ja" and not char.isascii():
+                    linelen += 0.5
         i += 1
+    wrapline()
     if color != "W":
         out.write("</span>")
-    rendered = out.getvalue()
+    rendered = out.getvalue().replace("ꙮ", " ")
     if (
         lang == "en"
         and rendered.startswith("* ")
@@ -194,15 +307,6 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
     ):
         rendered = re.sub(r"\n *([^*])", "\n  \\1", rendered)
     rendered = rendered.rstrip("\n")
-    if lang == "en" and rendered.startswith("* ") and "\n" in rendered:
-        # `text-indent: each-line` would be even easier. But Blink only got
-        # support in March 2026, two weeks ago as of writing. So let's wait
-        # until 2027 or 2028.
-        rendered = (
-            '<div class="indented">'
-            + rendered.replace("\n", '</div><div class="indented">')
-            + "</div>"
-        )
     return rendered
 
 
