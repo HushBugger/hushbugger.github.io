@@ -108,11 +108,7 @@
 
             section {
                 content-visibility: auto;
-                contain-intrinsic-height: auto
-                    calc(
-                        28px * var(--num-message) + 18px * var(--soft-breaks) + 18px *
-                            var(--hard-breaks)
-                    );
+                contain-intrinsic-height: auto var(--narrow-height);
             }
 
             span.break {
@@ -121,8 +117,7 @@
 
             @media (min-width: 800px) {
                 section {
-                    contain-intrinsic-height: auto
-                        calc(28px * var(--num-message) + 18px * var(--hard-breaks));
+                    contain-intrinsic-height: auto var(--wide-height);
                 }
 
                 span.break {
@@ -386,7 +381,7 @@
                 { id: "language", key: "lang", default_: "en" },
             ]);
 
-            /** @type {{[K in selects[number]['key']]: string}} */
+            /** @type {{chap: 'all' | '1' | '2' | '3' | '4', lang: 'en' | 'ja' | 'both'}} */
             // @ts-ignore
             const config = {};
 
@@ -403,6 +398,7 @@
                     }
                     newURL.searchParams.sort();
                     window.history.pushState({}, "", newURL);
+                    // @ts-ignore
                     config[select.key] = value;
                     render();
                 });
@@ -412,6 +408,7 @@
                 const params = new URL(String(window.location)).searchParams;
                 for (const select of selects) {
                     const value = params.get(select.key) || select.default_;
+                    // @ts-ignore
                     config[select.key] = value;
 
                     for (const option of /** @type {HTMLSelectElement} */ (
@@ -446,13 +443,18 @@
             <p>This page requires JavaScript. Sorry :(</p>
             <p>Maybe try the <a href="DELTARUNE.txt">plain text</a> dump?</p>
         </noscript>
-        <script src="rendered.json.js"></script>
+        <!-- temporary cache-busting, remove later -->
+        <script src="rendered.json.js?v2"></script>
         <script src="sourcemap.json.js"></script>
         <script>
             // @ts-check
             "use strict";
 
-            /** @type {Record<string,Record<string,Record<string,{en:string|null,ja:string|null}>>>|undefined} */
+            /**
+             * @type {Record<string,Record<string,Record<string,
+             * {en:[string|null,boolean,number,number],
+             * ja:[string|null,boolean,number,number]}>>>|undefined}
+             */
             // @ts-ignore
             const text = rendered;
 
@@ -480,29 +482,28 @@
                 let newHTML = "";
                 let sectionHTML = "";
                 let numMessage = 0;
-                let softBreaks = 0;
-                let allBreaks = 0;
+                let narrowHeight = 0;
+                let wideHeight = 0;
 
                 function finishSection() {
                     if (sectionHTML) {
                         newHTML +=
                             '<section style="--num-message:' +
                             numMessage +
-                            ";--soft-breaks:" +
-                            softBreaks +
-                            ";--hard-breaks:" +
-                            (allBreaks - softBreaks) +
-                            '">' +
+                            ";--narrow-height:" +
+                            narrowHeight +
+                            "px;--wide-height:" +
+                            wideHeight +
+                            'px">' +
                             sectionHTML +
                             "</section>";
                     }
                     sectionHTML = "";
                     numMessage = 0;
-                    softBreaks = 0;
-                    allBreaks = 0;
+                    narrowHeight = 0;
+                    wideHeight = 0;
                 }
 
-                const dedup = {};
                 for (const chapterNo of [1, 2, 3, 4]) {
                     if (config.chap !== String(chapterNo) && config.chap !== "all") {
                         continue;
@@ -523,9 +524,9 @@
 
                         for (const msgId of Object.keys(group)) {
                             for (const lang of /** @type {const} */ (["en", "ja"])) {
-                                const msg = group[msgId][lang];
-                                if ((config.lang === lang && msg) || config.lang === "both") {
-                                    if (msg !== dedup[`${lang}_${msgId}`]) {
+                                const [text, dup, nh, wh] = group[msgId][lang];
+                                if ((config.lang === lang && text) || config.lang === "both") {
+                                    if (!dup || config.chap !== "all") {
                                         if (title) {
                                             finishSection();
                                             newHTML += title;
@@ -534,13 +535,12 @@
                                         const box = buildBox(
                                             lang,
                                             `${lang}:${chapterNo}:${msgId}`,
-                                            msg
+                                            text
                                         );
                                         sectionHTML += box;
-                                        allBreaks += (msg || "").split("\n").length - 1;
-                                        softBreaks += (msg || "").split('class="break"').length - 1;
+                                        narrowHeight += nh;
+                                        wideHeight += wh;
                                         numMessage += 1;
-                                        dedup[`${lang}_${msgId}`] = msg;
                                     }
                                 }
                             }

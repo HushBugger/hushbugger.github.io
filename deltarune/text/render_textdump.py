@@ -463,8 +463,33 @@ lang: dict[str, dict[typing.Literal["en", "ja"], dict[str, str]]] = json.load(
 sourcemap: dict[str, dict[str, str]] = json.load(
     open("sourcemap.json", encoding="utf-8")
 )
+
+
+class Message(typing.NamedTuple):
+    text: str | None
+    duplicate: bool
+    narrowheight: int
+    wideheight: int
+
+
+DEDUP: dict[tuple[str, str], str | None] = {}
+
+
+def wrap_msg(lang: str, key: str, text: str | None) -> Message:
+    duplicate = (lang, key) in DEDUP and DEDUP[lang, key] == text
+    DEDUP[lang, key] = text
+    softbreaks = text.count('class="break"') if text else 0
+    hardbreaks = text.count("\n") - softbreaks if text else 0
+    return Message(
+        text,
+        duplicate,
+        narrowheight=28 + 18 * (softbreaks + hardbreaks),
+        wideheight=28 + 18 * hardbreaks,
+    )
+
+
 rendered: dict[
-    str, dict[str, dict[str, dict[typing.Literal["en", "ja"], str | None]]]
+    str, dict[str, dict[str, dict[typing.Literal["en", "ja"], Message]]]
 ] = {}
 for n in lang:
     rendered[n] = {}
@@ -485,7 +510,10 @@ for n in lang:
                 ren = your_____long(ren, k)
             if (ren and ren.strip()) or (rja and rja.strip()):
                 rendered[n].setdefault(group, {})
-                rendered[n][group][k] = {"en": ren, "ja": rja}
+                rendered[n][group][k] = {
+                    "en": wrap_msg("en", k, ren),
+                    "ja": wrap_msg("ja", k, rja),
+                }
 
 # Mainly for reference in the git diff.
 # Easier for other programs to ingest than the JS file below.
@@ -545,18 +573,16 @@ def render_plain(lang: typing.Literal["en", "ja"]) -> str:
     # duplicated logic from index.html
     out = io.StringIO()
     out.write(HEADER)
-    dedup = {}
     for chap, groups in rendered.items():
         out.write(CHAPTER.replace("%", chap))
         for title, group in groups.items():
             pending_title = title.replace("_slash_", "/")
             for key, contents in group.items():
                 content = contents[lang]
-                if not content:
+                if not content.text:
                     continue
-                if dedup.get(key) == content:
+                if content.duplicate:
                     continue
-                dedup[key] = content
                 if pending_title:
                     out.write("\n")
                     out.write("=" * len(pending_title))
@@ -566,7 +592,7 @@ def render_plain(lang: typing.Literal["en", "ja"]) -> str:
                     out.write("=" * len(pending_title))
                     out.write("\n\n")
                     pending_title = None
-                out.write(plainify_html(content))
+                out.write(plainify_html(content.text))
                 out.write("\n\n")
 
     return out.getvalue().strip("\n") + "\n"
