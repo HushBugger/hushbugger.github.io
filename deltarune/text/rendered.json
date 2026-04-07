@@ -285507,10 +285507,10 @@ false,
 28
 ],
 "ja": [
-"＊ <span style=\"display:inline-block;height:18px;width:176px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_know_tv.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"(テレビ本人が言うんですから まちがいない!)\" width=\"176.0\" height=\"34.0\"/></span>",
+"＊ <span style=\"display:inline-block;height:34px;width:176px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_know_tv.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"(テレビ本人が言うんですから まちがいない!)\" width=\"176.0\" height=\"34.0\"/></span>",
 false,
-28,
-28
+44,
+44
 ]
 },
 "obj_ch3_GSA06_slash_Step_0_gml_316_0": {
@@ -288447,16 +288447,16 @@ false,
 },
 "obj_ch3_GSC05_slash_Step_0_gml_233_0": {
 "en": [
-"* So this final event's a\n  <span style=\"display:inline-block;height:18px;width:55px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_special.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"Special\" width=\"55.0\" height=\"34.5\"/></span> SERVICE just for you!!",
+"* So this final event's a\n  <span style=\"display:inline-block;height:34px;width:55px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_special.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"Special\" width=\"55.0\" height=\"34.5\"/></span> SERVICE just for you!!",
 false,
-46,
-46
+62,
+62
 ],
 "ja": [
-"＊ だから　この　ファイナルイベントは \n　 スージィ　キミだけに贈る\n　 <span style=\"display:inline-block;height:18px;width:55px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_special.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"Special\" width=\"55.0\" height=\"34.5\"/></span>サービス！！",
+"＊ だから　この　ファイナルイベントは \n　 スージィ　キミだけに贈る\n　 <span style=\"display:inline-block;height:34px;width:55px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_special.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"Special\" width=\"55.0\" height=\"34.5\"/></span>サービス！！",
 false,
-64,
-64
+80,
+80
 ]
 },
 "obj_ch3_GSC05_slash_Step_0_gml_235_0": {

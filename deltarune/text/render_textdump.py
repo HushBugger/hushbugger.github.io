@@ -206,6 +206,8 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                             "spr_funnytext_game_over",
                             "spr_funnytext_tv_time",
                             "spr_funnytext_physical_challenge",
+                            "spr_ja_funnytext_know_tv",
+                            "spr_funnytext_special",
                         ]:
                             # Don't clip into the next message.
                             # Clipping into the next line of the same message is OK.
