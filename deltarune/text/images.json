@@ -1,0 +1,2604 @@
+{
+"1": {},
+"2": {},
+"3": {
+"obj_ch3_BTB06_slash_Step_0_gml_211_0": {
+"0": [
+[
+"spr_funnytext_physical_challenge",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+]
+},
+"obj_ch3_GSA01G_slash_Step_0_gml_175_0": {
+"0": [
+[
+"spr_funnytext_lovely",
+0,
+-16
+],
+[
+"spr_ja_funnytext_lovely",
+0,
+-16
+]
+],
+"1": [
+[
+"spr_funnytext_stars",
+0,
+0
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_tv_time",
+-10,
+-10
+],
+[
+"spr_dw_tv_time_funnytext",
+-10,
+-10
+]
+]
+},
+"obj_ch3_GSA01G_slash_Step_0_gml_241_0": {
+"0": [
+[
+"spr_funnytext_lovely",
+0,
+-16
+],
+[
+"spr_ja_funnytext_lovely",
+0,
+-16
+]
+],
+"1": [
+[
+"spr_funnytext_stars",
+0,
+0
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_tv_time",
+-10,
+-10
+],
+[
+"spr_dw_tv_time_funnytext",
+-10,
+-10
+]
+],
+"3": [
+[
+"spr_funnytext_physical_challenges",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+]
+},
+"obj_ch3_GSA01G_slash_Step_0_gml_252_0": {
+"0": [
+[
+"spr_funnytext_lovely",
+0,
+-16
+],
+[
+"spr_ja_funnytext_lovely",
+0,
+-16
+]
+],
+"1": [
+[
+"spr_funnytext_stars",
+0,
+0
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_tv_time",
+-10,
+-10
+],
+[
+"spr_dw_tv_time_funnytext",
+-10,
+-10
+]
+],
+"3": [
+[
+"spr_funnytext_physical_challenges",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+],
+"4": [
+[
+"spr_funnytext_prizes",
+0,
+-14
+],
+[
+"spr_ja_funnytext_prizes",
+0,
+-14
+]
+]
+},
+"obj_ch3_GSA01G_slash_Step_0_gml_444_0": {
+"0": [
+[
+"spr_funnytext_lovely",
+0,
+-16
+],
+[
+"spr_ja_funnytext_lovely",
+0,
+-16
+]
+],
+"1": [
+[
+"spr_funnytext_stars",
+0,
+0
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_tv_time",
+-10,
+-10
+],
+[
+"spr_dw_tv_time_funnytext",
+-10,
+-10
+]
+],
+"3": [
+[
+"spr_funnytext_physical_challenges",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+],
+"4": [
+[
+"spr_funnytext_prizes",
+0,
+-14
+],
+[
+"spr_ja_funnytext_prizes",
+0,
+-14
+]
+],
+"5": [
+[
+"spr_funnytext_grand_prize",
+0,
+-14
+],
+[
+"spr_ja_funnytext_grand_prize",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSA01G_slash_Step_0_gml_486_0": {
+"0": [
+[
+"spr_funnytext_lovely",
+0,
+-16
+],
+[
+"spr_ja_funnytext_lovely",
+0,
+-16
+]
+],
+"1": [
+[
+"spr_funnytext_stars",
+0,
+0
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_tv_time",
+-10,
+-10
+],
+[
+"spr_dw_tv_time_funnytext",
+-10,
+-10
+]
+],
+"3": [
+[
+"spr_funnytext_physical_challenges",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+],
+"4": [
+[
+"spr_funnytext_prizes",
+0,
+-14
+],
+[
+"spr_ja_funnytext_prizes",
+0,
+-14
+]
+],
+"5": [
+[
+"spr_funnytext_grand_prize",
+0,
+-14
+],
+[
+"spr_ja_funnytext_grand_prize",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSA01G_slash_Step_0_gml_644_0": {
+"0": [
+[
+"spr_funnytext_lovely",
+0,
+-16
+],
+[
+"spr_ja_funnytext_lovely",
+0,
+-16
+]
+],
+"1": [
+[
+"spr_funnytext_stars",
+0,
+0
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_tv_time",
+-10,
+-10
+],
+[
+"spr_dw_tv_time_funnytext",
+-10,
+-10
+]
+],
+"3": [
+[
+"spr_funnytext_physical_challenges",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+],
+"4": [
+[
+"spr_funnytext_prizes",
+0,
+-14
+],
+[
+"spr_ja_funnytext_prizes",
+0,
+-14
+]
+],
+"5": [
+[
+"spr_funnytext_grand_prize",
+0,
+-14
+],
+[
+"spr_ja_funnytext_grand_prize",
+0,
+-10
+]
+],
+"7": [
+[
+"spr_funnytext_win_big",
+0,
+-10
+],
+[
+"spr_ja_funnytext_win_big",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSA01G_slash_Step_0_gml_695_0": {
+"0": [
+[
+"spr_funnytext_lovely",
+0,
+-16
+],
+[
+"spr_ja_funnytext_lovely",
+0,
+-16
+]
+],
+"1": [
+[
+"spr_funnytext_stars",
+0,
+0
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_tv_time",
+-10,
+-10
+],
+[
+"spr_dw_tv_time_funnytext",
+-10,
+-10
+]
+],
+"3": [
+[
+"spr_funnytext_physical_challenges",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+],
+"4": [
+[
+"spr_funnytext_prizes",
+0,
+-14
+],
+[
+"spr_ja_funnytext_prizes",
+0,
+-14
+]
+],
+"5": [
+[
+"spr_funnytext_grand_prize",
+0,
+-14
+],
+[
+"spr_ja_funnytext_grand_prize",
+0,
+-10
+]
+],
+"7": [
+[
+"spr_funnytext_win_big",
+0,
+-10
+],
+[
+"spr_ja_funnytext_win_big",
+0,
+-10
+]
+],
+"8": [
+[
+"spr_funnytext_fun_o_meter",
+-10,
+-10
+],
+[
+"spr_ja_funnytext_fun_o_meter",
+-10,
+-10
+]
+]
+},
+"obj_ch3_GSA01G_slash_Step_0_gml_93_0": {
+"0": [
+[
+"spr_funnytext_lovely",
+0,
+-16
+],
+[
+"spr_ja_funnytext_lovely",
+0,
+-16
+]
+],
+"1": [
+[
+"spr_funnytext_stars",
+0,
+0
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+]
+},
+"obj_ch3_GSA01G_slash_Step_0_gml_983_0": {
+"0": [
+[
+"spr_funnytext_coffee",
+0,
+0
+],
+[
+"spr_ja_funnytext_coffee",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_stars",
+0,
+0
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_tv_time",
+-10,
+-10
+],
+[
+"spr_dw_tv_time_funnytext",
+-10,
+-10
+]
+],
+"3": [
+[
+"spr_funnytext_physical_challenges",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+],
+"4": [
+[
+"spr_funnytext_prizes",
+0,
+-14
+],
+[
+"spr_ja_funnytext_prizes",
+0,
+-14
+]
+],
+"5": [
+[
+"spr_funnytext_grand_prize",
+0,
+-14
+],
+[
+"spr_ja_funnytext_grand_prize",
+0,
+-10
+]
+],
+"7": [
+[
+"spr_funnytext_win_big",
+0,
+-10
+],
+[
+"spr_ja_funnytext_win_big",
+0,
+-10
+]
+],
+"8": [
+[
+"spr_funnytext_fun_o_meter",
+-10,
+-10
+],
+[
+"spr_ja_funnytext_fun_o_meter",
+-10,
+-10
+]
+]
+},
+"obj_ch3_GSA01G_slash_Step_0_gml_98_0": {
+"0": [
+[
+"spr_funnytext_lovely",
+0,
+-16
+],
+[
+"spr_ja_funnytext_lovely",
+0,
+-16
+]
+],
+"1": [
+[
+"spr_funnytext_stars",
+0,
+0
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+]
+},
+"obj_ch3_GSA02_slash_Step_0_gml_152_0": {
+"0": [
+[
+"spr_funnytext_star",
+0,
+-10
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_names",
+0,
+-10
+],
+[
+"spr_ja_funnytext_names",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSA02_slash_Step_0_gml_227_0": {
+"0": [
+[
+"spr_funnytext_star",
+0,
+-10
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_names",
+0,
+-10
+],
+[
+"spr_ja_funnytext_names",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSA02_slash_Step_0_gml_675_0": {
+"0": [
+[
+"spr_funnytext_star",
+0,
+-10
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_names",
+0,
+-10
+],
+[
+"spr_ja_funnytext_names",
+0,
+-10
+]
+],
+"2": [
+[
+"spr_funnytext_board",
+0,
+0
+],
+[
+"spr_ja_funnytext_board",
+0,
+0
+]
+]
+},
+"obj_ch3_GSA02_slash_Step_0_gml_706_0": {
+"0": [
+[
+"spr_funnytext_star",
+0,
+-10
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_names",
+0,
+-10
+],
+[
+"spr_ja_funnytext_names",
+0,
+-10
+]
+],
+"2": [
+[
+"spr_funnytext_board",
+0,
+0
+],
+[
+"spr_ja_funnytext_board",
+0,
+0
+]
+],
+"3": [
+[
+"spr_funnytext_love",
+0,
+-14
+],
+[
+"spr_ja_funnytext_love",
+0,
+-14
+]
+],
+"4": [
+[
+"spr_funnytext_quizzes",
+0,
+-10
+],
+[
+"spr_ja_funnytext_quizzes",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSA02_slash_Step_0_gml_707_0": {
+"0": [
+[
+"spr_funnytext_star",
+0,
+-10
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_names",
+0,
+-10
+],
+[
+"spr_ja_funnytext_names",
+0,
+-10
+]
+],
+"2": [
+[
+"spr_funnytext_board",
+0,
+0
+],
+[
+"spr_ja_funnytext_board",
+0,
+0
+]
+],
+"3": [
+[
+"spr_funnytext_love",
+0,
+-14
+],
+[
+"spr_ja_funnytext_love",
+0,
+-14
+]
+],
+"4": [
+[
+"spr_funnytext_quizzes",
+0,
+-10
+],
+[
+"spr_ja_funnytext_quizzes",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSA02_slash_Step_0_gml_96_0": {
+"0": [
+[
+"spr_funnytext_star",
+0,
+-10
+],
+[
+"spr_ja_funnytext_stars",
+0,
+0
+]
+]
+},
+"obj_ch3_GSA04_slash_Step_0_gml_148_0": {
+"0": [
+[
+"spr_funnytext_physical_challenge",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSA04_slash_Step_0_gml_230_0": {
+"0": [
+[
+"spr_funnytext_physical_challenge",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-10
+]
+],
+"1": [
+[
+"spr_funnytext_love",
+0,
+-14
+],
+[
+"spr_ja_funnytext_daisuki",
+0,
+-14
+]
+]
+},
+"obj_ch3_GSA04_slash_Step_0_gml_261_0": {
+"0": [
+[
+"spr_funnytext_physical_challenge",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-10
+]
+],
+"1": [
+[
+"spr_funnytext_love",
+0,
+-14
+],
+[
+"spr_ja_funnytext_daisuki",
+0,
+-14
+]
+],
+"2": [
+[
+"spr_funnytext_brother",
+0,
+-10
+],
+[
+"spr_ja_funnytext_brother",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSA04_slash_Step_0_gml_293_0": {
+"0": [
+[
+"spr_funnytext_physical_challenge",
+0,
+-10
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-10
+]
+],
+"1": [
+[
+"spr_funnytext_love",
+0,
+-14
+],
+[
+"spr_ja_funnytext_daisuki",
+0,
+-14
+]
+],
+"2": [
+[
+"spr_funnytext_brother",
+0,
+-10
+],
+[
+"spr_ja_funnytext_brother",
+0,
+-10
+]
+],
+"3": [
+[
+"spr_funnytext_fun_loop",
+-10,
+-20
+],
+[
+"spr_ja_funnytext_fun_loop",
+-10,
+-20
+]
+]
+},
+"obj_ch3_GSA04_slash_Step_0_gml_374_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_ja_funnytext_challenge",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_big",
+0,
+-14
+],
+[
+"spr_funnytext_big",
+0,
+-14
+]
+],
+"2": [
+[
+"spr_funnytext_win",
+0,
+-14
+],
+[
+"spr_ja_funnytext_win",
+0,
+-14
+]
+],
+"3": [
+[
+"spr_funnytext_fun_loop",
+-10,
+-20
+],
+[
+"spr_ja_funnytext_fun_loop",
+-10,
+-20
+]
+]
+},
+"obj_ch3_GSA04_slash_Step_0_gml_377_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_ja_funnytext_challenge",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_big",
+0,
+-14
+],
+[
+"spr_funnytext_big",
+0,
+-14
+]
+],
+"2": [
+[
+"spr_funnytext_win",
+0,
+-14
+],
+[
+"spr_ja_funnytext_win",
+0,
+-14
+]
+],
+"3": [
+[
+"spr_funnytext_fun_loop",
+-10,
+-20
+],
+[
+"spr_ja_funnytext_fun_loop",
+-10,
+-20
+]
+]
+},
+"obj_ch3_GSA04_slash_Step_0_gml_380_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_ja_funnytext_challenge",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_big",
+0,
+-14
+],
+[
+"spr_funnytext_big",
+0,
+-14
+]
+],
+"2": [
+[
+"spr_funnytext_win",
+0,
+-14
+],
+[
+"spr_ja_funnytext_win",
+0,
+-14
+]
+],
+"3": [
+[
+"spr_funnytext_fun_loop",
+-10,
+-20
+],
+[
+"spr_ja_funnytext_fun_loop",
+-10,
+-20
+]
+]
+},
+"obj_ch3_GSA04_slash_Step_0_gml_381_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_ja_funnytext_challenge",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_big",
+0,
+-14
+],
+[
+"spr_funnytext_big",
+0,
+-14
+]
+],
+"2": [
+[
+"spr_funnytext_win",
+0,
+-14
+],
+[
+"spr_ja_funnytext_win",
+0,
+-14
+]
+],
+"3": [
+[
+"spr_funnytext_fun_loop",
+-10,
+-20
+],
+[
+"spr_ja_funnytext_fun_loop",
+-10,
+-20
+]
+]
+},
+"obj_ch3_GSA06_slash_Step_0_gml_200_0": {
+"0": [
+[
+"spr_funnytext_stop",
+0,
+-14
+],
+[
+"spr_funnytext_stop",
+0,
+-14
+]
+]
+},
+"obj_ch3_GSA06_slash_Step_0_gml_245_0": {
+"0": [
+[
+"spr_funnytext_stop",
+0,
+-14
+],
+[
+"spr_funnytext_stop",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_fun_o_meter",
+-6,
+-14
+],
+[
+"spr_ja_funnytext_fun_o_meter",
+-6,
+-14
+]
+]
+},
+"obj_ch3_GSA06_slash_Step_0_gml_283_0": {
+"0": [
+[
+"spr_funnytext_stop",
+0,
+-14
+],
+[
+"spr_funnytext_stop",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_fun_o_meter",
+-6,
+-14
+],
+[
+"spr_ja_funnytext_fun_o_meter",
+-6,
+-14
+]
+],
+"2": [
+[
+"spr_funnytext_round_1",
+0,
+-14
+],
+[
+"spr_funnytext_round_1",
+0,
+-14
+]
+]
+},
+"obj_ch3_GSA06_slash_Step_0_gml_299_0": {
+"0": [
+[
+"spr_funnytext_stop",
+0,
+-14
+],
+[
+"spr_funnytext_stop",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_fun_o_meter",
+-6,
+-14
+],
+[
+"spr_ja_funnytext_fun_o_meter",
+-6,
+-14
+]
+],
+"2": [
+[
+"spr_funnytext_round_1",
+0,
+-14
+],
+[
+"spr_funnytext_round_1",
+0,
+-14
+]
+],
+"3": [
+[
+"spr_funnytext_rounds",
+0,
+-14
+],
+[
+"spr_funnytext_round",
+0,
+-14
+]
+],
+"4": [
+[
+"spr_funnytext_round",
+0,
+-16
+],
+[
+"spr_funnytext_round",
+0,
+-16
+]
+]
+},
+"obj_ch3_GSA06_slash_Step_0_gml_300_0": {
+"0": [
+[
+"spr_funnytext_stop",
+0,
+-14
+],
+[
+"spr_funnytext_stop",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_fun_o_meter",
+-6,
+-14
+],
+[
+"spr_ja_funnytext_fun_o_meter",
+-6,
+-14
+]
+],
+"2": [
+[
+"spr_funnytext_round_1",
+0,
+-14
+],
+[
+"spr_funnytext_round_1",
+0,
+-14
+]
+],
+"3": [
+[
+"spr_funnytext_rounds",
+0,
+-14
+],
+[
+"spr_funnytext_round",
+0,
+-14
+]
+],
+"4": [
+[
+"spr_funnytext_round",
+0,
+-16
+],
+[
+"spr_funnytext_round",
+0,
+-16
+]
+]
+},
+"obj_ch3_GSA06_slash_Step_0_gml_314_0": {
+"0": [
+[
+"spr_funnytext_stop",
+0,
+-14
+],
+[
+"spr_funnytext_stop",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_fun_o_meter",
+-6,
+-14
+],
+[
+"spr_ja_funnytext_fun_o_meter",
+-6,
+-14
+]
+],
+"2": [
+[
+"spr_funnytext_round_1",
+0,
+-14
+],
+[
+"spr_funnytext_round_1",
+0,
+-14
+]
+],
+"3": [
+[
+"spr_funnytext_rounds",
+0,
+-14
+],
+[
+"spr_funnytext_round",
+0,
+-14
+]
+],
+"4": [
+[
+"spr_funnytext_round",
+0,
+-16
+],
+[
+"spr_funnytext_round",
+0,
+-16
+]
+],
+"5": [
+[
+"spr_funnytext_know_tv",
+0,
+0
+],
+[
+"spr_ja_funnytext_know_tv",
+0,
+0
+]
+]
+},
+"obj_ch3_GSA06_slash_Step_0_gml_359_0": {
+"0": [
+[
+"spr_funnytext_stop",
+0,
+-14
+],
+[
+"spr_funnytext_stop",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_fun_o_meter",
+-6,
+-14
+],
+[
+"spr_ja_funnytext_fun_o_meter",
+-6,
+-14
+]
+],
+"2": [
+[
+"spr_funnytext_round_1",
+0,
+-14
+],
+[
+"spr_funnytext_round_1",
+0,
+-14
+]
+],
+"3": [
+[
+"spr_funnytext_rounds",
+0,
+-14
+],
+[
+"spr_funnytext_round",
+0,
+-14
+]
+],
+"4": [
+[
+"spr_funnytext_round",
+0,
+-16
+],
+[
+"spr_funnytext_round",
+0,
+-16
+]
+],
+"5": [
+[
+"spr_funnytext_know_tv",
+0,
+0
+],
+[
+"spr_ja_funnytext_know_tv",
+0,
+0
+]
+],
+"6": [
+[
+"spr_funnytext_word",
+0,
+-10
+],
+[
+"spr_ja_funnytext_word",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSB01_slash_Step_0_gml_100_0": {
+"0": [
+[
+"spr_funnytext_tv_time",
+0,
+-14
+],
+[
+"spr_funnytext_tv_time",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_dark_fountain",
+-20,
+-30
+],
+[
+"spr_ja_funnytext_dark_fountain",
+-20,
+-30
+]
+]
+},
+"obj_ch3_GSB01_slash_Step_0_gml_113_0": {
+"0": [
+[
+"spr_funnytext_tv_time",
+0,
+-14
+],
+[
+"spr_funnytext_tv_time",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_dark_fountain",
+-20,
+-30
+],
+[
+"spr_ja_funnytext_dark_fountain",
+-20,
+-30
+]
+],
+"2": [
+[
+"spr_funnytext_board",
+0,
+0
+],
+[
+"spr_ja_funnytext_board",
+0,
+0
+]
+]
+},
+"obj_ch3_GSB01_slash_Step_0_gml_154_0": {
+"0": [
+[
+"spr_funnytext_tv_time",
+0,
+-14
+],
+[
+"spr_funnytext_tv_time",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_dark_fountain",
+-20,
+-30
+],
+[
+"spr_ja_funnytext_dark_fountain",
+-20,
+-30
+]
+],
+"2": [
+[
+"spr_funnytext_board",
+0,
+0
+],
+[
+"spr_ja_funnytext_board",
+0,
+0
+]
+],
+"3": [
+[
+"spr_funnytext_tan",
+0,
+0
+],
+[
+"spr_ja_funnytext_tan",
+0,
+0
+]
+]
+},
+"obj_ch3_GSB01_slash_Step_0_gml_191_0": {
+"0": [
+[
+"spr_funnytext_tv_time",
+0,
+-14
+],
+[
+"spr_funnytext_tv_time",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_dark_fountain",
+-20,
+-30
+],
+[
+"spr_ja_funnytext_dark_fountain",
+-20,
+-30
+]
+],
+"2": [
+[
+"spr_funnytext_board",
+0,
+0
+],
+[
+"spr_ja_funnytext_board",
+0,
+0
+]
+],
+"3": [
+[
+"spr_funnytext_tan",
+0,
+0
+],
+[
+"spr_ja_funnytext_tan",
+0,
+0
+]
+],
+"4": [
+[
+"spr_funnytext_lovers",
+0,
+-10
+],
+[
+"spr_ja_funnytext_lovers",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSB01_slash_Step_0_gml_197_0": {
+"0": [
+[
+"spr_funnytext_tv_time",
+0,
+-14
+],
+[
+"spr_funnytext_tv_time",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_dark_fountain",
+-20,
+-30
+],
+[
+"spr_ja_funnytext_dark_fountain",
+-20,
+-30
+]
+],
+"2": [
+[
+"spr_funnytext_board",
+0,
+0
+],
+[
+"spr_ja_funnytext_board",
+0,
+0
+]
+],
+"3": [
+[
+"spr_funnytext_tan",
+0,
+0
+],
+[
+"spr_ja_funnytext_tan",
+0,
+0
+]
+],
+"5": [
+[
+"spr_funnytext_gentle",
+0,
+0
+],
+[
+"spr_ja_funnytext_gentle",
+0,
+0
+]
+]
+},
+"obj_ch3_GSB01_slash_Step_0_gml_58_0": {
+"0": [
+[
+"spr_funnytext_tv_time",
+0,
+-14
+],
+[
+"spr_funnytext_tv_time",
+0,
+-14
+]
+]
+},
+"obj_ch3_GSB02_slash_Step_0_gml_221_0": {
+"0": [
+[
+"spr_funnytext_rock_concert",
+0,
+-14
+],
+[
+"spr_ja_funnytext_rock_concert",
+0,
+-14
+]
+]
+},
+"obj_ch3_GSB02_slash_Step_0_gml_267_0": {
+"0": [
+[
+"spr_funnytext_rock_concert",
+0,
+-14
+],
+[
+"spr_ja_funnytext_rock_concert",
+0,
+-14
+]
+],
+"1": [
+[
+"spr_funnytext_alligator",
+0,
+0
+],
+[
+"spr_ja_funnytext_alligator",
+0,
+0
+]
+]
+},
+"obj_ch3_GSB03_slash_Step_0_gml_132_0": {
+"0": [
+[
+"spr_funnytext_board",
+0,
+0
+],
+[
+"spr_ja_funnytext_board",
+0,
+0
+]
+]
+},
+"obj_ch3_GSB03_slash_Step_0_gml_215_0": {
+"0": [
+[
+"spr_funnytext_board",
+0,
+0
+],
+[
+"spr_ja_funnytext_board",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_breaking_news",
+-10,
+0
+],
+[
+"spr_funnytext_breaking_news",
+-10,
+0
+]
+]
+},
+"obj_ch3_GSB03_slash_Step_0_gml_271_0": {
+"0": [
+[
+"spr_funnytext_board",
+0,
+0
+],
+[
+"spr_ja_funnytext_board",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_breaking_news",
+-10,
+0
+],
+[
+"spr_funnytext_breaking_news",
+-10,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_fun_o_meter",
+-10,
+-14
+],
+[
+"spr_ja_funnytext_fun_o_meter",
+-10,
+-14
+]
+]
+},
+"obj_ch3_GSB03_slash_Step_0_gml_279_0": {
+"0": [
+[
+"spr_funnytext_board",
+0,
+0
+],
+[
+"spr_ja_funnytext_board",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_breaking_news",
+-10,
+0
+],
+[
+"spr_funnytext_breaking_news",
+-10,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_fun_o_meter",
+-10,
+-14
+],
+[
+"spr_ja_funnytext_fun_o_meter",
+-10,
+-14
+]
+],
+"3": [
+[
+"spr_funnytext_bonus_round",
+-10,
+-14
+],
+[
+"spr_funnytext_bonus_round",
+-10,
+-14
+]
+]
+},
+"obj_ch3_GSB05_slash_Step_0_gml_342_0": {
+"0": [
+[
+"spr_funnytext_toriel",
+0,
+0
+],
+[
+"spr_ja_funnytext_toriel",
+0,
+0
+]
+]
+},
+"obj_ch3_GSC05_slash_Step_0_gml_119_0": {
+"0": [
+[
+"spr_funnytext_physical_challenge",
+0,
+-20
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+]
+},
+"obj_ch3_GSC05_slash_Step_0_gml_163_0": {
+"0": [
+[
+"spr_funnytext_physical_challenge",
+0,
+-20
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+],
+"1": [
+[
+"spr_funnytext_flames",
+0,
+-10
+],
+[
+"spr_ja_funnytext_flames",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSC05_slash_Step_0_gml_215_0": {
+"0": [
+[
+"spr_funnytext_physical_challenge",
+0,
+-20
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+],
+"1": [
+[
+"spr_funnytext_flames",
+0,
+-10
+],
+[
+"spr_ja_funnytext_flames",
+0,
+-10
+]
+],
+"2": [
+[
+"spr_funnytext_susiezilla",
+0,
+-10
+],
+[
+"spr_ja_funnytext_susiezilla",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSC05_slash_Step_0_gml_233_0": {
+"0": [
+[
+"spr_funnytext_physical_challenge",
+0,
+-20
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+],
+"1": [
+[
+"spr_funnytext_flames",
+0,
+-10
+],
+[
+"spr_ja_funnytext_flames",
+0,
+-10
+]
+],
+"2": [
+[
+"spr_funnytext_susiezilla",
+0,
+-10
+],
+[
+"spr_ja_funnytext_susiezilla",
+0,
+-10
+]
+],
+"3": [
+[
+"spr_funnytext_special",
+0,
+-10
+],
+[
+"spr_funnytext_special",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSC05_slash_Step_0_gml_317_0": {
+"0": [
+[
+"spr_funnytext_physical_challenge",
+0,
+-20
+],
+[
+"spr_ja_funnytext_physical_challenge",
+0,
+-20
+]
+],
+"1": [
+[
+"spr_funnytext_flames",
+0,
+-10
+],
+[
+"spr_ja_funnytext_flames",
+0,
+-10
+]
+],
+"2": [
+[
+"spr_funnytext_susiezilla",
+0,
+-10
+],
+[
+"spr_ja_funnytext_susiezilla",
+0,
+-10
+]
+],
+"3": [
+[
+"spr_funnytext_special",
+0,
+-10
+],
+[
+"spr_funnytext_special",
+0,
+-10
+]
+]
+},
+"obj_ch3_GSC07_slash_Step_0_gml_650_0_b": {
+"0": [
+[
+"spr_funnytext_city_feet",
+0,
+0
+],
+[
+"spr_ja_funnytext_city_feet",
+0,
+0
+]
+]
+},
+"obj_ch3_GSC07_slash_Step_0_gml_971_0": {
+"0": [
+[
+"spr_funnytext_city_feet",
+0,
+0
+],
+[
+"spr_ja_funnytext_city_feet",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_game_over",
+0,
+0
+],
+[
+"spr_funnytext_game_over",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_game",
+0,
+-14
+],
+[
+"spr_funnytext_game",
+0,
+-14
+]
+],
+"3": [
+[
+"spr_funnytext_over_small",
+0,
+-14
+],
+[
+"spr_funnytext_over_small",
+0,
+-14
+]
+]
+},
+"obj_ch3_GSC07_slash_Step_0_gml_972_0": {
+"0": [
+[
+"spr_funnytext_city_feet",
+0,
+0
+],
+[
+"spr_ja_funnytext_city_feet",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_game_over",
+0,
+0
+],
+[
+"spr_funnytext_game_over",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_game",
+0,
+-14
+],
+[
+"spr_funnytext_game",
+0,
+-14
+]
+],
+"3": [
+[
+"spr_funnytext_over_small",
+0,
+-14
+],
+[
+"spr_funnytext_over_small",
+0,
+-14
+]
+]
+},
+"obj_ch3_PGS01F_slash_Step_0_gml_325_0": {
+"0": [
+[
+"spr_funnytext_amazing_01",
+8,
+-58
+],
+[
+"spr_ja_funnytext_amazing_01",
+8,
+-58
+]
+],
+"1": [
+[
+"spr_funnytext_tears",
+0,
+0
+],
+[
+"spr_ja_funnytext_tears",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_tears",
+0,
+0
+],
+[
+"spr_ja_funnytext_tears",
+0,
+0
+]
+]
+},
+"obj_ch3_PGS01F_slash_Step_0_gml_326_0": {
+"0": [
+[
+"spr_funnytext_amazing_01",
+8,
+-58
+],
+[
+"spr_ja_funnytext_amazing_01",
+8,
+-58
+]
+],
+"1": [
+[
+"spr_funnytext_tears",
+0,
+0
+],
+[
+"spr_ja_funnytext_tears",
+0,
+0
+]
+],
+"2": [
+[
+"spr_funnytext_tears",
+0,
+0
+],
+[
+"spr_ja_funnytext_tears",
+0,
+0
+]
+]
+},
+"obj_ch3_PTB01_slash_Step_0_gml_497_0": {
+"0": [
+[
+"spr_funnytext_hall_of_fame",
+0,
+0
+],
+[
+"spr_ja_funnytext_hall_of_fame",
+0,
+0
+]
+]
+},
+"obj_ch3_PTB02_slash_Step_0_gml_92_0": {
+"0": [
+[
+"spr_funnytext_grand_prize",
+0,
+-14
+],
+[
+"spr_ja_funnytext_grand_prize",
+0,
+-14
+]
+]
+},
+"obj_gameover_band_slash_Step_0_gml_125_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_ja_funnytext_challenge",
+0,
+0
+]
+]
+},
+"obj_gameover_band_slash_Step_0_gml_209_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_ja_funnytext_challenge",
+0,
+0
+]
+]
+},
+"obj_gameover_chef_slash_Step_0_gml_168_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_ja_funnytext_challenge",
+0,
+0
+]
+]
+},
+"obj_gameover_chef_slash_Step_0_gml_84_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_ja_funnytext_challenge",
+0,
+0
+]
+]
+},
+"obj_npc_room_slash_Other_10_gml_2151_0": {
+"0": [
+[
+"spr_funnytext_star",
+0,
+-10
+],
+[
+"spr_ja_funnytext_star",
+0,
+-10
+]
+]
+},
+"obj_npc_sign_slash_Other_10_gml_30_0": {
+"0": [
+[
+"spr_funnytext_free",
+0,
+0
+],
+[
+"spr_funnytext_free",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_resumes",
+0,
+0
+],
+[
+"spr_funnytext_resumes",
+0,
+0
+]
+]
+},
+"obj_npc_sign_slash_Other_10_gml_31_0": {
+"0": [
+[
+"spr_funnytext_free",
+0,
+0
+],
+[
+"spr_funnytext_free",
+0,
+0
+]
+],
+"1": [
+[
+"spr_funnytext_resumes",
+0,
+0
+],
+[
+"spr_funnytext_resumes",
+0,
+0
+]
+]
+},
+"obj_room_green_room_slash_Step_0_gml_493_0": {
+"0": [
+[
+"spr_funnytext_green_room",
+0,
+-14
+],
+[
+"spr_ja_funnytext_green_room",
+0,
+-20
+]
+],
+"1": [
+[
+"spr_funnytext_relax",
+0,
+-20
+],
+[
+"spr_ja_funnytext_relax",
+0,
+-20
+]
+]
+},
+"obj_room_green_room_slash_Step_0_gml_494_0": {
+"0": [
+[
+"spr_funnytext_green_room",
+0,
+-14
+],
+[
+"spr_ja_funnytext_green_room",
+0,
+-20
+]
+],
+"1": [
+[
+"spr_funnytext_relax",
+0,
+-20
+],
+[
+"spr_ja_funnytext_relax",
+0,
+-20
+]
+]
+}
+},
+"4": {
+"obj_gameover_band_slash_Step_0_gml_125_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_funnytext_challenge",
+0,
+0
+]
+]
+},
+"obj_gameover_band_slash_Step_0_gml_209_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_funnytext_challenge",
+0,
+0
+]
+]
+}
+}
+}

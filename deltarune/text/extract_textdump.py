@@ -91,6 +91,7 @@ TEXTFUNCS = [
     "msgsetsubloc",
     "msgnextsubloc",
     "scr_84_get_lang_string",
+    "scr_funnytext_init",
 ]
 RE_TEXTFUNCS = re.compile(f"({'|'.join(TEXTFUNCS)})\\(")
 
@@ -141,9 +142,18 @@ def rg(pattern: str, path: pathlib.Path) -> typing.Iterable[RgResult]:
         )
 
 
+class TextImg(typing.NamedTuple):
+    sprite: str
+    x: int
+    y: int
+
+
 CHAPTERS = [1, 2, 3, 4]
 text = {n: {} for n in CHAPTERS}
 sourcemap = {n: {} for n in CHAPTERS}
+images: dict[int, dict[str, dict[int, tuple[TextImg, TextImg]]]] = {
+    n: {} for n in CHAPTERS
+}
 
 for n in CHAPTERS:
     path = source / f"ch{n}"
@@ -167,7 +177,14 @@ for n in CHAPTERS:
     en: dict[str, str] = {}
     text[n]["en"] = en
 
+    curfile = None
+    curimg: dict[int, tuple[TextImg, TextImg]] = {}
+
     for location, line in rg(f"({'|'.join(TEXTFUNCS)})\\([^)]", path):
+        if location.split("#")[0] != curfile:
+            curfile = location.split("#")[0]
+            curimg = {}
+
         for func, args in parse_line(line):
             match func, args:
                 case "scr_84_get_lang_string", [None]:
@@ -194,6 +211,97 @@ for n in CHAPTERS:
                         key += "_DUP"
                     en[key] = trans
                     sourcemap[n].setdefault(key, location)
+                    if r"\O" in trans:
+                        thisimg = curimg.copy()
+                        if key == "obj_ch3_GSB01_slash_Step_0_gml_191_0":
+                            thisimg[4] = (
+                                TextImg("spr_funnytext_lovers", 0, -10),
+                                TextImg("spr_ja_funnytext_lovers", 0, -10),
+                            )
+                        elif key == "obj_ch3_GSB01_slash_Step_0_gml_197_0":
+                            thisimg[5] = (
+                                TextImg("spr_funnytext_gentle", 0, 0),
+                                TextImg("spr_ja_funnytext_gentle", 0, 0),
+                            )
+                        images[n].setdefault(key, thisimg)
+                case ("scr_funnytext_init", *_):
+                    if args := re.match(
+                        r"^\s*scr_funnytext_init\((.*), (.*), "
+                        + r'(.*), scr_84_get_sprite\("(.*)"\),'
+                        + r"(.*), (.*)\);$",
+                        line,
+                    ):
+                        sprite = str(args[4])
+                        en_sprite = sprite
+                        ja_sprite = sprite.replace("spr_funnytext", "spr_ja_funnytext")
+                        if ja_sprite == "spr_ja_funnytext_physical_challenges":
+                            ja_sprite = "spr_ja_funnytext_physical_challenge"
+                        if en_sprite == "spr_ja_funnytext_daisuki":
+                            en_sprite = "spr_funnytext_love"
+                    elif args := re.match(
+                        r"^\s*scr_funnytext_init\((.*), (.*), "
+                        + r"(.*), (.*),"
+                        + r"(.*), (.*)\);$",
+                        line,
+                    ):
+                        BY_ID = {
+                            "1223": "spr_funnytext_breaking_news",
+                            "1272": "spr_funnytext_big",
+                            "130": "spr_funnytext_over_small",
+                            # "1724": "spr_funnytext_star",
+                            # "4818": "spr_ja_funnytext_stars",
+                            "star_text": (
+                                "spr_funnytext_star",
+                                "spr_ja_funnytext_stars",
+                            ),
+                            "1817": "spr_funnytext_stop",
+                            "2843": "spr_funnytext_tv_time",
+                            # "4245": "spr_dw_tv_time_funnytext",
+                            "tv_time_sprite": (
+                                "spr_funnytext_tv_time",
+                                "spr_dw_tv_time_funnytext",
+                            ),
+                            "2914": "spr_funnytext_game_over",
+                            "2916": "spr_funnytext_fun_loop",
+                            "3055": "spr_funnytext_round",
+                            # "3603": "spr_funnytext_rounds",
+                            "round_sprite": (
+                                "spr_funnytext_rounds",
+                                "spr_funnytext_round",
+                            ),
+                            "4464": "spr_funnytext_round_1",
+                            "4487": "spr_funnytext_bonus_round",
+                            "464": "spr_funnytext_resumes",
+                            "4659": "spr_funnytext_game",
+                            "883": "spr_funnytext_special",
+                            "923": "spr_funnytext_free",
+                            "spr_funnytext_challenge": "spr_funnytext_challenge",
+                        }
+                        sprite = BY_ID[args[4]]
+
+                        if isinstance(sprite, str):
+                            en_sprite = ja_sprite = sprite
+                        else:
+                            en_sprite, ja_sprite = sprite
+                    else:
+                        assert False, line
+
+                    if args[3] == "y_offset":
+                        y_en, y_ja = {
+                            "spr_funnytext_physical_challenge": (-10, -20),
+                            "spr_funnytext_physical_challenges": (-10, -20),
+                            "spr_funnytext_grand_prize": (-14, -10),
+                            "spr_funnytext_star": (-10, 0),
+                            "spr_funnytext_green_room": (-14, -20),
+                        }[en_sprite]
+                    else:
+                        y_en = y_ja = int(args[3])
+
+                    curimg[int(args[1])] = (
+                        TextImg(en_sprite, int(args[2]), y_en),
+                        TextImg(ja_sprite, int(args[2]), y_ja),
+                    )
+
                 case _:
                     print(func, args, line, file=sys.stderr)
                     sys.exit(1)
@@ -201,6 +309,7 @@ for n in CHAPTERS:
 # Scrambled fragments. Only the Japanese translation uses a translation key.
 # The Japanese translation actually has one fragment more, that's probably
 # why these aren't translated normally.
+# FIXME: Do this in render_textdump.py instead.
 text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_90_0"] = "where "
 text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_91_0"] = "the "
 text[4]["en"]["obj_dw_churchb_bookshelf_slash_Step_0_gml_92_0"] = "tail. "
@@ -219,6 +328,8 @@ with open("lang.json", "w", encoding="utf-8") as f:
     json.dump(text, f, indent=0, ensure_ascii=False, sort_keys=True)
 with open("sourcemap.json", "w", encoding="utf-8") as f:
     json.dump(sourcemap, f, indent=0, ensure_ascii=False, sort_keys=True)
+with open("images.json", "w", encoding="utf-8") as f:
+    json.dump(images, f, indent=0, ensure_ascii=False, sort_keys=True)
 
 with open("sourcemap.json.js", "w", encoding="utf-8") as f:
     as_json = json.dumps(

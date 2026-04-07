@@ -43417,23 +43417,23 @@ obj_ch3_BTB06
 * NO MORE questions!! What you need...
 
 * Is another
-  [IMG]!!
+  [PHYSICAL CHALLENGE]!!
 
 
 ==============
 obj_ch3_GSA01G
 ==============
 
-* What [IMG]contestants we've got TODAY, folks---!!!
+* What [Lovely] contestants we've got TODAY, folks---!!!
 
 * Con... Contestants?
 
 * YES!!! You three are the
-  [IMG]of today's SHOW!!!
+  [STARS] of today's SHOW!!!
 
 * Mr. Tenna's Marvelous Mystery Board...
 
-* [IMG]!!!
+* [TV TiME!]!!!
 
 * Wh... what!?
 
@@ -43444,9 +43444,9 @@ obj_ch3_GSA01G
 * You're about to play the greatest game of YOUR life!
 
 * Answer CRAZY QUESTIONS!! Pass
-  [IMG]...
+  [PHYSICAL CHALLENGES]...
 
-* And you'll all win some TV-Tastic [IMG]!!!
+* And you'll all win some TV-Tastic [PRIZES]!!!
 
 * FLORAL COWBOY BATH CURTAINS!!! 
 
@@ -43471,10 +43471,10 @@ obj_ch3_GSA01G
 * Hey Doctor Tennaville! What's today's prescription?
 
 * Why, it looks like a prescription for... ONE
-  [IMG]!?
+  [GRAND PRIZE]!?
 
 * That's right! Today's
-  [IMG]is this season's MOST popular item...
+  [GRAND PRIZE] is this season's MOST popular item...
 
 * Hey, bet you wanna know what's INSIDE, don't ya, folks!?
 
@@ -43482,9 +43482,9 @@ obj_ch3_GSA01G
 
 * All you have to do is...
 
-[IMG]
+[*WIN!]
 
-* WOW!!! I've never seen the [IMG]like THIS, folks!!!
+* WOW!!! I've never seen the [FUN-O-METER] like THIS, folks!!!
 
 * Now don't touch that DIAL, because TONIGHT, WE are gonna have one HECK of a...
 
@@ -43538,7 +43538,7 @@ obj_ch3_GSA01G
 
 * Turn 'em all on!!
 
-* [IMG]
+* [(And get me a cup of coffee.)]
 
 * Right over here, ladies and germs!!
 
@@ -43557,17 +43557,17 @@ obj_ch3_GSA02
 
 * Would everyone please give a warm welcome...
 
-* To today's [IMG]
+* To today's [STAR]
   contestants!!!
 
 * Everyone! Please cheer their
-  [IMG]!
+  [NAMES]!
 
 * Oh, right.
 
 * CONTESTANTS!!!
 
-* Your [IMG]please!!!
+* Your [NAMES] please!!!
 
 * Alright! Now, for the introductions!!!
 
@@ -43616,7 +43616,7 @@ obj_ch3_GSA02
 
 * Now that we've all been (im)properly introduced...
 
-* MIKE, the [IMG],
+* MIKE, the [BOARD],
   please!
 
 * Today's "GAME" SHOW will be... A VIRTUAL ADVENTURE through TV DESERT!
@@ -43625,9 +43625,9 @@ obj_ch3_GSA02
 
 * To control FANTASY VERSIONS OF YOURSELF in a world so REAL, you'll forget IT'S NOT!
 
-* On your QUEST you will fight BATTLES... quiz [IMG]... gain POINTs...
+* On your QUEST you will fight BATTLES... quiz [QUIZZES]... gain POINTs...
 
-* And maybe learn to [IMG]each other a little along the way.
+* And maybe learn to [LOVE] each other a little along the way.
 
 * Now, don't TOUCH THAT DIAL, and don't STOP THOSE SMILES!! Because...
 
@@ -43642,43 +43642,43 @@ obj_ch3_GSA04
 
 * Hon hon!! Cool your burners, folks!!
 
-* Today's [IMG]...
+* Today's [PHYSICAL CHALLENGE]...
 
 * Is the COOKING CHANNEL!
 
 * Oh, okay. That actually makes sense.
 
-* Kris, your mother used to [IMG]cooking shows, didn't she?
+* Kris, your mother used to [LOVE] cooking shows, didn't she?
 
 * Oh, how she'd LAUGH, glowingly, along with each new recipe,
 
 * Feverishly taking notes on each step to make them for her family...
 
-* As you and your [IMG]pretended the chefs were bungling the simplest parts!
+* As you and your [BROTHER] pretended the chefs were bungling the simplest parts!
 
 * "Darn!! I overcooked the water!!"
 
 * "Oops!! No!! I keep breaking the eggs!! Oops!!"
 
-* AHAHAHA!! Hahaha!! That sure was [IMG], wasn't it?
+* AHAHAHA!! Hahaha!! That sure was [FUN], wasn't it?
 
 * Now, are you ready or what!?
 
-* Here are the instructions for the [IMG].
+* Here are the instructions for the [CHALLENGE].
 
 * FOOD is FALLING! KRIS, CATCH the food on your head to STACK IT UP!
 
 * THROW it to customers with ~1! If the food touches them, they'll gobble it up!
 
-* SPECIAL CUSTOMERS will sometimes appear! They're worth [IMG]POINTs, don't miss 'em!
+* SPECIAL CUSTOMERS will sometimes appear! They're worth [BIG] POINTs, don't miss 'em!
 
 * SUSIE will probably cook BURNING FIRE. JUMP over it with ~1!
 
 * Missed food will also turn into BURNING FIRE, so be careful!
 
-* Big stack, [IMG]POINTs! But... You'll MOVE and JUMP slower! Be careful!
+* Big stack, [BIG] POINTs! But... You'll MOVE and JUMP slower! Be careful!
 
-* Last until the end to [IMG] But if the POPULARITY GAUGE runs out, it's GAME OVER!
+* Last until the end to [WIN!] But if the POPULARITY GAUGE runs out, it's GAME OVER!
 
 * Now don't touch that dial, OR that fire!
 
@@ -43714,11 +43714,11 @@ obj_ch3_GSA06
 
 * See you next episode everyone!!
 
-* STOP! STOP! [IMG]!!!
+* STOP! STOP! [STOP]!!!
 
 * It CAN'T be over already!! NO!!
 
-* The [IMG]'s still only at 80%!!
+* The [FUN-O-METER]'s still only at 80%!!
 
 * Huh?
 
@@ -43726,21 +43726,21 @@ obj_ch3_GSA06
 
 * That was just...
 
-* ... [IMG]
+* ... [ROUND 1!]
 
 * There's... more than one round...?
 
 * Of course!! There's 2
-  [IMG]!! 2!!
+  [ROUNDS]!! 2!!
 
 * You haven't ever heard of a game show with just ONE
-  [IMG], have you!?
+  [ROUND], have you!?
 
 * Uhh, nobody except grandmas really even watch -
 
 * Exactly!! It's preposterous!! Outrageous!! It'd be bad TV!!
 
-* [IMG]
+* [(And trust me, I know TV.)]
 
 * ... heh, well, I guess we WERE having fun.
 
@@ -43749,7 +43749,7 @@ obj_ch3_GSA06
 * Can we... change Susie's name though?
 
 * Great!! And no!! And now, a
-  [IMG]from our sponsors!!
+  [WORD] from our sponsors!!
 
 
 =============
@@ -43758,16 +43758,16 @@ obj_ch3_GSB01
 
 * WELCOME back, everyone, to the show that'll make you SCREAM at your SCREEN,
 
-*[IMG]!!
+*[TV TiME!] !!
 
 * Today's episode is brought to you by our sponsor...
 
 * The gushing pillar of darkness that gives us all form -
-  [IMG]!!
+  [DARK FOUNTAIN]!!
 
 * Now available in unsettling obsidian and pulsating rainbow!
 
-* Now, MIKE, the [IMG], please!
+* Now, MIKE, the [BOARD], please!
 
 * Slather on that sunscreen, everyone! Because...
 
@@ -43777,19 +43777,19 @@ obj_ch3_GSB01
 
 * Haha! Wish I could go but I'm just a big electric box attached to the wall!! Haha!!
 
-* [IMG]
+* [(Though I would look good with a tan.)]
 
 * For this BOARD's GOAL, you'll be aiming to enter the floating ATLANTIS STADIUM!
 
 * Legend has it, the best way there is our super high budget RAINBOW BRIDGE!
 
-* However, the RAINBOW only appears if TWO [IMG]meet at LOVER'S CLIFF!
+* However, the RAINBOW only appears if TWO [LOVERS] meet at LOVER'S CLIFF!
 
 * By the way, don't forget to take lots of PHOTOS while you're on vacation!
 
 * Now, we're gonna have some real fun in the sun today, SO DON'T TOUCH THAT DIAL!
 
-* [IMG]
+* [(Well, okay, you can touch it. Just be gentle.)]
 
 * Now, without further ado...
 
@@ -43806,7 +43806,7 @@ obj_ch3_GSB02
 
 * Because it's time for a crashing, banging, booming, crooning...
 
-* [IMG]!!!
+* [ROCK CONCERT]!!!
 
 * Oh, Kris! Remember DECEMBER? Oh, that little musical prodigy...
 
@@ -43814,7 +43814,7 @@ obj_ch3_GSB02
 
 * ... to that WILD music video channel Toriel FORBID you to see?
 
-* [IMG]
+* [(Guess your mother's never been a fan of alligators in bikinis.)]
 
 * Dess, rocking her guitar and singing along with those nasty, nasty songs!
 
@@ -43880,13 +43880,13 @@ obj_ch3_GSB03
 * Okay!
 
 * Wow, folks! Looks like they've reached the end of our
-  FINAL [IMG]!
+  FINAL [BOARD]!
 
 * It's sad to say goodbye, but when you gotta go... you gotta go!
 
 * MIKE, roll the credits...!
 
-* STOP!!! [IMG]!
+* STOP!!! [BREAKING NEWS]!
 
 * Due to your SPEED, viewer donations have been POURING IN...
 
@@ -43894,12 +43894,12 @@ obj_ch3_GSB03
 
 * I... Incentive?
 
-* YES! The [IMG]
+* YES! The [FUN-O-METER]
   doesn't lie! The viewers' voices are in...!
 
 * You've qualified for...
 
-* The [IMG]!!!
+* The [BONUS ROUND]!!!
 
 * Err... there's ANOTHER round...?
 
@@ -43982,7 +43982,7 @@ obj_ch3_GSB05
 
 * Damn, Kris, we have to get to the Fountain right now, or...
 
-* Oh [IMG]...!
+* Oh [TORIEL]...!
 
 * Phew! There you are, still sleeping like a little angel!
 
@@ -44042,13 +44042,13 @@ obj_ch3_GSC04A
 obj_ch3_GSC05
 =============
 
-* Welcome to EXTRA GAME! Tonight, our [IMG] will be...
+* Welcome to EXTRA GAME! Tonight, our [PHYSICAL CHALLENGE] will be...
 
 * W-Wait just a moment!! I'm receiving an EMERGENCY BROADCAST...
 
 * Something MASSIVE has begun ASSAULTING the CITY!!!
 
-* Multiple buildings are up in [IMG]!!!
+* Multiple buildings are up in [FLAMES]!!!
 
 * At this rate... everything... EVERYONE will be destroyed!!!
 
@@ -44068,14 +44068,14 @@ obj_ch3_GSC05
 
 * Heh, obviously.
 
-* RIGHT! [IMG]will be our baddie smashing, hyper spinning star of the day!
+* RIGHT! [SUSIEZILLA] will be our baddie smashing, hyper spinning star of the day!
 
 * Ms. Zilla!! You were watching the monster marathon until you fell asleep.
 
 * I was so HAPPY to see someone so excited to tune in!!!
 
 * So this final event's a
-  [IMG]SERVICE just for you!!
+  [Special] SERVICE just for you!!
 
 * And haha, by all means, please! Come over to Kris's and watch MORE TV ANYTIME!
 
@@ -44085,7 +44085,7 @@ obj_ch3_GSC05
 
 * Uhh... so I do what. Kick your ass?
 
-* No. Uhh, no. [IMG]had a change in her TV-loving heart.
+* No. Uhh, no. [SUSIEZILLA] had a change in her TV-loving heart.
 
 * She may wreck the city, but she'll protect me, TV statue, with her life.
 
@@ -44129,7 +44129,7 @@ obj_ch3_GSC07
 
 * Today's board will take place in beautiful TV CITY...
 
-* [IMG] 
+* [(But don't ask why the cars don't have feet!)]  
 
 * Collect two Q's from each corner of the CITY, and...
 
@@ -44165,9 +44165,9 @@ obj_ch3_GSC07
 
 * H-hey, what the heck are you...
 
-* [IMG]
+* [GAME OVER!?]
 
-* THE [IMG]'S never [IMG]!!!
+* THE [GAME]'S never [OVER]!!!
 
 * And if YOU don't wanna play anymore...
 
@@ -44730,10 +44730,10 @@ obj_ch3_PGS01F
 
 * ... just...
 
-* Wow, what an [IMG]
+* Wow, what an [AMAZING]
   performance!!!
 
-* The audience has been brought to [IMG], folks!
+* The audience has been brought to [TEARS], folks!
 
 * Haha, I was hoping you'd ask!
 
@@ -44883,7 +44883,7 @@ obj_ch3_PTB01
 
 * This... this must be what HOPE feels like!!
 
-* We're inventing a [IMG]just for you!!!
+* We're inventing a [Hall of Fame] just for you!!!
 
 * But... you gotta give back Toriel.
 
@@ -44924,7 +44924,7 @@ obj_ch3_PTB02
 
 * For outstanding kindness and bravery, the Lightners have won...
 
-* THE [IMG]!!!
+* THE [GRAND PRIZE] !!!
 
 * Here you go!! She's all yours, folks!!
 
@@ -46494,7 +46494,7 @@ obj_gameover_band
 
 * What!? 3 seconds!?
 
-* Well, what are you doing!? Go and [IMG]again!
+* Well, what are you doing!? Go and [CHALLENGE] again!
 
 * Oh no! Another GAME OVER!?
 
@@ -46513,7 +46513,7 @@ obj_gameover_band
 * Your POPULARITY will never drop!!! Go wild!!!
 
 * Alright, one more try! Let's
-  [IMG]again!!
+  [CHALLENGE] again!!
 
 
 ==================
@@ -46558,7 +46558,7 @@ obj_gameover_chef
 * Gotta give it to ya, you're trailblazers!
 
 * Alright, one more try! Let's
-  [IMG]again!!
+  [CHALLENGE] again!!
 
 * You lost ~1 TIMES?!
 
@@ -46581,7 +46581,7 @@ obj_gameover_chef
 * You happy!?
 
 * Alright, one more try! Let's
-  [IMG]again!!
+  [CHALLENGE] again!!
 
 
 ===================
@@ -47431,7 +47431,7 @@ SOMEONE ELSE IS USING THESE.
 
 * So, any Ideas on howth I can be TV Guy's second-in-command?
 
-* I will be the [IMG]
+* I will be the [STAR]
   walker...
 
 * (It's a phone...)
@@ -47521,9 +47521,9 @@ SOMEONE ELSE IS USING THESE.
 obj_npc_sign
 ============
 
-* Defeating you is so [IMG] 
+* Defeating you is so [Free!]        
 
-* Show me your [IMG] ! 
+* Show me your [Résumés]        ! 
 
 * The console is still on.
 
@@ -48470,9 +48470,9 @@ obj_room_green_room
 * This place is...
 
 * How do you like my
-  [IMG]?
+  [Green Room]?
 
-* It'll take some time before round 2, so [IMG]!
+* It'll take some time before round 2, so [Relax and Enjoy...] !
 
 * I suppose... we should get ready for the next round.
 

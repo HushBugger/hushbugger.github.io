@@ -4,12 +4,17 @@
 import html
 import io
 import json
+import os
 import re
 import sys
 import typing
 
+from render_data import ALT_TEXTS, FUNNYTEXT_DIMS
+
 
 MAX_LINE_LEN = 33
+
+BONUS_HEIGHTS: dict[tuple[str, str], int] = {}
 
 
 def render(text: str | None, msgid: str, lang: str) -> str | None:
@@ -83,6 +88,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 )
                 or "`#" in text
             )
+            and not out.getvalue().endswith(" ")
         ):
             *head, tail = out.getvalue().rsplit("\n", 1)
             if "\u3000" in tail:
@@ -157,8 +163,50 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                                 out.write("</span>")
                             if color != "W":
                                 out.write(f'<spanꙮclass="{color}">')
-                    case "O" | "I":
-                        # TODO: Tenna text, interface buttons
+                    case "O":
+                        file, x_off, y_off = images[n][msgid][text[i + 2]][lang == "ja"]
+                        path = f"img/{file}.gif"
+                        assert os.path.exists(path)
+                        dims = FUNNYTEXT_DIMS[file]
+                        # I don't think these are always right... but they're pretty close
+                        x = x_off + dims.width // 2 - dims.origin_x
+                        y = y_off + dims.height // 2 - dims.origin_y + 10
+                        realheight = 18
+                        if file in [
+                            "spr_dw_tv_time_funnytext",
+                            "spr_funnytext_win_big",
+                            "spr_ja_funnytext_win_big",
+                            "spr_ja_funnytext_tan",
+                            "spr_funnytext_gentle",
+                            "spr_ja_funnytext_gentle",
+                            "spr_funnytext_alligator",
+                            "spr_ja_funnytext_alligator",
+                            "spr_funnytext_city_feet",
+                            "spr_ja_funnytext_city_feet",
+                            "spr_funnytext_game_over",
+                            "spr_funnytext_tv_time",
+                            "spr_funnytext_physical_challenge",
+                        ]:
+                            # Don't clip into the next message.
+                            # Clipping into the next line of the same message is OK.
+                            realheight = dims.height // 2
+                            BONUS_HEIGHTS[lang, msgid] = realheight - 18
+                        # I tried shaking CSS. But it wasn't random and looked bad at
+                        # half size and was annoying. Not worth the page bloat.
+                        out.write(
+                            f'<spanꙮstyle="display:inline-block;height:{realheight}px;'
+                            f"width:{dims.width // 2}px;overflow:visible;"
+                            'vertical-align:top;">'
+                            f'<imgꙮsrc="{path}"ꙮloading="lazy"'
+                            f'ꙮstyle="position:relative;top:{y / 2}px;'
+                            f'left:{x / 2}px"'
+                            f'ꙮalt="{ALT_TEXTS[file].replace(" ", "ꙮ").replace("\n", " ")}"'
+                            f'ꙮwidth="{dims.width / 2}"ꙮheight="{dims.height / 2}"/>'
+                            "</span>"
+                        )
+                        linelen += dims.width / 16
+                    case "I":
+                        # TODO: interface buttons
                         out.write('<spanꙮclass="picture">[IMG]</span>')
                         linelen += 5
                         while text[i + 3] in (" ", "\u3000"):
@@ -463,6 +511,10 @@ lang: dict[str, dict[typing.Literal["en", "ja"], dict[str, str]]] = json.load(
 sourcemap: dict[str, dict[str, str]] = json.load(
     open("sourcemap.json", encoding="utf-8")
 )
+images: dict[
+    int,
+    dict[str, dict[str, tuple[tuple[str, int, int], tuple[str, int, int]]]],
+] = json.load(open("images.json", encoding="utf-8"))
 
 
 class Message(typing.NamedTuple):
@@ -480,11 +532,12 @@ def wrap_msg(lang: str, key: str, text: str | None) -> Message:
     DEDUP[lang, key] = text
     softbreaks = text.count('class="break"') if text else 0
     hardbreaks = text.count("\n") - softbreaks if text else 0
+    bonus_height = BONUS_HEIGHTS.get((lang, key)) or 0
     return Message(
         text,
         duplicate,
-        narrowheight=28 + 18 * (softbreaks + hardbreaks),
-        wideheight=28 + 18 * hardbreaks,
+        narrowheight=28 + 18 * (softbreaks + hardbreaks) + bonus_height,
+        wideheight=28 + 18 * hardbreaks + bonus_height,
     )
 
 
@@ -534,6 +587,7 @@ with open("rendered.json.js", "w", encoding="utf-8") as f:
 
 def plainify_html(text: str) -> str:
     text = re.sub(r'<span class="break">\s*</span>', " ", text)
+    text = re.sub(r'<img[^>]*alt="([^"]*)"[^>]*>', lambda match: f"[{match[1]}]", text)
     assert "\r" not in text
     text = text.replace('</div><div class="indented">', "\n")
     text = re.sub(r"<[^>]+>", "", text)
