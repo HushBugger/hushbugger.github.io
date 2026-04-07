@@ -94,7 +94,20 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
             if "\u3000" in tail:
                 tail, tailtail = tail.rsplit("\u3000", 1)
             elif " " in tail:
-                tail, tailtail = tail.rsplit(" ", 1)
+                i = len(tail) - 1
+                intag = False
+                while i >= 0:
+                    match tail[i]:
+                        case ">":
+                            intag = True
+                        case "<":
+                            intag = False
+                        case " " if not intag:
+                            tail, tailtail = tail[:i], tail[i + 1 :]
+                            break
+                    i -= 1
+                else:
+                    assert False, "no split found"
             elif lang == "ja":
                 return
             else:
@@ -132,7 +145,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
             ]
 
             if not hardwrap:
-                new += '<spanꙮclass="break">'
+                new += '<span class="break">'
             new += "\n"
             if new.startswith("* "):
                 new += "  "
@@ -162,7 +175,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                             if prev_color != "W":
                                 out.write("</span>")
                             if color != "W":
-                                out.write(f'<spanꙮclass="{color}">')
+                                out.write(f'<span class="{color}">')
                     case "O":
                         file, x_off, y_off = images[n][msgid][text[i + 2]][lang == "ja"]
                         path = f"img/{file}.gif"
@@ -194,20 +207,20 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                         # I tried shaking CSS. But it wasn't random and looked bad at
                         # half size and was annoying. Not worth the page bloat.
                         out.write(
-                            f'<spanꙮstyle="display:inline-block;height:{realheight}px;'
+                            f'<span style="display:inline-block;height:{realheight}px;'
                             f"width:{dims.width // 2}px;overflow:visible;"
                             'vertical-align:top;">'
-                            f'<imgꙮsrc="{path}"ꙮloading="lazy"'
-                            f'ꙮstyle="position:relative;top:{y / 2}px;'
+                            f'<img src="{path}" loading="lazy"'
+                            f' style="position:relative;top:{y / 2}px;'
                             f'left:{x / 2}px"'
-                            f'ꙮalt="{ALT_TEXTS[file].replace(" ", "ꙮ").replace("\n", " ")}"'
-                            f'ꙮwidth="{dims.width / 2}"ꙮheight="{dims.height / 2}"/>'
+                            f' alt="{ALT_TEXTS[file].replace("\n", " ")}"'
+                            f' width="{dims.width / 2}" height="{dims.height / 2}"/>'
                             "</span>"
                         )
                         linelen += dims.width / 16
                     case "I":
                         # TODO: interface buttons
-                        out.write('<spanꙮclass="picture">[IMG]</span>')
+                        out.write('<span class="picture">[IMG]</span>')
                         linelen += 5
                         while text[i + 3] in (" ", "\u3000"):
                             i += 1
@@ -352,7 +365,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 # I think whether they're meaningful depends on the script that's called?
                 # This heuristic is good enough.
                 assert text[i + 1] in "12345"
-                out.write(f'<spanꙮclass="param">~{text[i + 1]}</span>')
+                out.write(f'<span class="param">~{text[i + 1]}</span>')
                 linelen += 2
                 i += 1
             case "N" if msgid == "obj_dw_church_intro_guei_slash_Step_0_gml_169_0":
@@ -368,7 +381,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
     wrapline()
     if color != "W":
         out.write("</span>")
-    rendered = out.getvalue().replace("ꙮ", " ")
+    rendered = out.getvalue()
     if (
         lang == "en"
         and rendered.startswith("* ")
