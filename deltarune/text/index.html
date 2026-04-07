@@ -715,9 +715,16 @@
                 }
             });
 
-            // For debugging. Make sure to turn content-visibility off first.
+            // For debugging.
+
+            function revealAll() {
+                for (const section of document.getElementsByTagName("section")) {
+                    section.style.contentVisibility = "visible";
+                }
+            }
 
             function badHeights() {
+                revealAll();
                 return [...document.getElementsByTagName("section")].filter(function (section) {
                     const calc = getComputedStyle(section).containIntrinsicHeight.match(/[0-9]+/);
                     return calc !== null && +calc[0] !== section.offsetHeight;
@@ -725,9 +732,10 @@
             }
 
             function badWidths() {
-                return [...document.querySelectorAll(".textbox")].filter(
-                    (x) => x.scrollWidth > document.body.offsetWidth
-                );
+                revealAll();
+                return [...document.querySelectorAll(".textbox")].filter(function (x) {
+                    return x.scrollWidth > document.body.offsetWidth;
+                });
             }
         </script>
     </body>
