@@ -121,7 +121,7 @@ ALT_TEXTS = {
     "spr_funnytext_grand_prize": "GRAND PRIZE",
     "spr_funnytext_green_room": "Green Room",
     "spr_funnytext_hall_of_fame": "Hall of Fame",
-    "spr_funnytext_know_tv": "(And trust me, I know TV.)",
+    "spr_funnytext_know_tv": "(And trust me. I know TV.)",
     "spr_funnytext_love": "LOVE",
     "spr_funnytext_lovely": "Lovely",
     "spr_funnytext_lovers": "LOVERS",
