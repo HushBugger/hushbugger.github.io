@@ -162,7 +162,9 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
             if not hardwrap:
                 new += "</span>"
             new += tailtail
-            linelen += len(re.sub("<[^>]*>", "", tailtail))
+            linelen += len(re.sub("<[^>]*>", "", tailtail)) + sum(
+                int(match[1]) / 8 for match in re.finditer(r'width="([0-9]+)', tailtail)
+            )
             out = io.StringIO(new)
             out.seek(0, 2)
 
