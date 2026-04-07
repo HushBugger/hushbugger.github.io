@@ -399,7 +399,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
         and "\n" in rendered
         and r"\C" not in text
     ):
-        rendered = re.sub(r"\n *([^*])", "\n  \\1", rendered)
+        rendered = re.sub(r"\n {0,2}([^*])", "\n  \\1", rendered)
     rendered = rendered.rstrip("\n")
     return rendered
 

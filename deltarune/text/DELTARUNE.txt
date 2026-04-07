@@ -47357,7 +47357,7 @@ SOMEONE ELSE IS USING THESE.
 * This Jail is still Pissing me off
 
 * I am the original
-  Starwalker
+                    Starwalker
 
 * This is the dungeon. Press your luck against security...
 
@@ -47432,7 +47432,7 @@ SOMEONE ELSE IS USING THESE.
 * So, any Ideas on howth I can be TV Guy's second-in-command?
 
 * I will be the [STAR]
-  walker...
+                  walker...
 
 * (It's a phone...)
 * (It seems to be unplugged.)
@@ -47514,7 +47514,7 @@ SOMEONE ELSE IS USING THESE.
 * I was the star
 
 * 
-  walker...
+                  walker...
 
 
 ============
