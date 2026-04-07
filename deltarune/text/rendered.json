@@ -136529,7 +136529,7 @@ false,
 "obj_cutscene_test": {
 "obj_cutscene_test_slash_Step_0_gml_51_0": {
 "en": [
-"* Hey, is that...\u0016 Lancer!?",
+"* Hey, is that... Lancer!?",
 false,
 28,
 28
@@ -170663,7 +170663,7 @@ false,
 },
 "obj_pipis_enemy_slash_Step_0_gml_97_0": {
 "en": [
-"\f<span class=\"param\">~1</span> liked this!  ",
+"<span class=\"param\">~1</span> liked this!  ",
 false,
 28,
 28
@@ -480793,7 +480793,7 @@ true,
 "obj_cutscene_test": {
 "obj_cutscene_test_slash_Step_0_gml_51_0": {
 "en": [
-"* Hey, is that...\u0016 Lancer!?",
+"* Hey, is that... Lancer!?",
 true,
 28,
 28

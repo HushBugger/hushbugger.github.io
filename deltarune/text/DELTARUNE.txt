@@ -22006,7 +22006,7 @@ actor, ~1  step:~2
 obj_cutscene_test
 =================
 
-* Hey, is that... Lancer!?
+* Hey, is that... Lancer!?
 
 * What are you up to, buddy?
 
@@ -26705,7 +26705,7 @@ obj_pipis_enemy
 
 * Pipis
 
-~1 liked this!  
+~1 liked this!  
 
 PIPIS - ''The Original'' An invasive species of freshwater clam.  
 

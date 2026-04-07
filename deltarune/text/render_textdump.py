@@ -8,6 +8,7 @@ import os
 import re
 import sys
 import typing
+import xml.etree.ElementTree
 
 from render_data import ALT_TEXTS, FUNNYTEXT_DIMS
 
@@ -38,6 +39,12 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
     if msgid == "obj_ch2_keyboardpuzzle_controller_slash_Create_0_gml_56_0":
         assert text == "UPIOMAOIOTSUGNINMGUSIFIOPEKIFUSIORATEGUI"
         text = "UPIOMAOIOT\nSUGNINMGUS\nIFIOPEKIFU\nSIORATEGUI"
+
+    # ASCII control characters that presumably don't do anything
+    if lang == "en" and msgid == "obj_cutscene_test_slash_Step_0_gml_51_0":
+        text = text.replace("\u0016", "")
+    if lang == "en" and msgid == "obj_pipis_enemy_slash_Step_0_gml_97_0":
+        text = text.replace("\u000c", "")
 
     if msgid == "scr_weaponinfo_slash_scr_weaponinfo_gml_352_0" and lang == "ja":
         # Unused description that's missing a line wrap.
@@ -546,6 +553,8 @@ def wrap_msg(lang: str, key: str, text: str | None) -> Message:
     softbreaks = text.count('class="break"') if text else 0
     hardbreaks = text.count("\n") - softbreaks if text else 0
     bonus_height = BONUS_HEIGHTS.get((lang, key)) or 0
+    if text:
+        xml.etree.ElementTree.fromstring("<dummy>" + text + "</dummy>")
     return Message(
         text,
         duplicate,
