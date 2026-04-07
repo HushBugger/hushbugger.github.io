@@ -131,9 +131,9 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 return
             new = (head[0] + "\n" if head else "") + tail
 
-            # We want to unwrap messages at >=800px.
-            # These are the only ones that don't fit.
             hardwrap = msgid in [
+                # We want to unwrap messages at >=800px.
+                # These are the only ones that don't fit.
                 "scr_recruit_info_slash_scr_recruit_info_gml_434_0_b",
                 "scr_recruit_info_slash_scr_recruit_info_gml_449_0",
                 "scr_recruit_info_slash_scr_recruit_info_gml_465_0",
@@ -149,6 +149,8 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 "scr_text_slash_scr_text_gml_10220_0",
                 "obj_dw_church_waterfalltearoom_slash_Step_0_gml_920_0",
                 "obj_shop1_slash_Draw_0_gml_479_0_b",
+                # This one has a 2D layout that relies on hardwrapping.
+                "obj_ch3_PGS01F_slash_Step_0_gml_325_0",
             ]
 
             if not hardwrap:

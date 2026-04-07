@@ -44730,8 +44730,9 @@ obj_ch3_PGS01F
 
 * ... just...
 
-* Wow, what an [AMAZING]
-  performance!!!
+* Wow, what an
+  [AMAZING]
+                 performance!!!
 
 * The audience has been brought to [TEARS], folks!
 

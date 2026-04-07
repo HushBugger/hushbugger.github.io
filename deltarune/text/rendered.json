@@ -283867,9 +283867,9 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_695_0": {
 "en": [
-"* WOW!!! I've never seen the<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:124px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:-5.0px\" alt=\"FUN-O-METER\" width=\"124.0\" height=\"26.0\"/></span> like THIS, folks!!!",
+"* WOW!!! I've never seen the<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:124px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:-5.0px\" alt=\"FUN-O-METER\" width=\"124.0\" height=\"26.0\"/></span> like THIS,<span class=\"break\">\n  </span>folks!!!",
 false,
-46,
+64,
 28
 ],
 "ja": [
@@ -284937,9 +284937,9 @@ false,
 },
 "obj_ch3_GSA04_slash_Step_0_gml_230_0": {
 "en": [
-"* Kris, your mother used to<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_love.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" alt=\"LOVE\" width=\"62.0\" height=\"29.0\"/></span> cooking shows, didn't she?",
+"* Kris, your mother used to<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_love.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" alt=\"LOVE\" width=\"62.0\" height=\"29.0\"/></span> cooking shows, didn't<span class=\"break\">\n  </span>she?",
 false,
-46,
+64,
 28
 ],
 "ja": [
@@ -285501,7 +285501,7 @@ false,
 },
 "obj_ch3_GSA06_slash_Step_0_gml_314_0": {
 "en": [
-"* <span style=\"display:inline-block;height:18px;width:168px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_know_tv.gif\" loading=\"lazy\" style=\"position:relative;top:7.0px;left:5.0px\" alt=\"(And trust me, I know TV.)\" width=\"168.0\" height=\"14.0\"/></span>",
+"* <span style=\"display:inline-block;height:18px;width:168px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_know_tv.gif\" loading=\"lazy\" style=\"position:relative;top:7.0px;left:5.0px\" alt=\"(And trust me. I know TV.)\" width=\"168.0\" height=\"14.0\"/></span>",
 false,
 28,
 28
@@ -291749,10 +291749,10 @@ false,
 },
 "obj_ch3_PGS01F_slash_Step_0_gml_325_0": {
 "en": [
-"* Wow, what an<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:204px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_amazing_01.gif\" loading=\"lazy\" style=\"position:relative;top:-24.0px;left:4.0px\" alt=\"AMAZING\" width=\"204.5\" height=\"61.5\"/></span>\n  performance!!!",
+"* Wow, what an\n  <span style=\"display:inline-block;height:18px;width:204px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_amazing_01.gif\" loading=\"lazy\" style=\"position:relative;top:-24.0px;left:4.0px\" alt=\"AMAZING\" width=\"204.5\" height=\"61.5\"/></span>\n                 performance!!!",
 false,
 64,
-46
+64
 ],
 "ja": [
 "＊ <span style=\"display:inline-block;height:18px;width:249px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_amazing_01.gif\" loading=\"lazy\" style=\"position:relative;top:-24.0px;left:4.0px\" alt=\"アメ～イジ～ング！\" width=\"249.5\" height=\"61.5\"/></span>\n　 スバラシイ！　迫真の演技！！\n　 ワタクシ　感動いたしました！！！",
@@ -330205,7 +330205,7 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_2010_0": {
 "en": [
-"* I am the original\n  <span class=\"Y\">Starwalker</span>",
+"* I am the original\n                    <span class=\"Y\">Starwalker</span>",
 false,
 46,
 46
@@ -330723,7 +330723,7 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_2151_0": {
 "en": [
-"* I will be the <span style=\"display:inline-block;height:18px;width:73px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_star.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"STAR\" width=\"73.5\" height=\"30.0\"/></span>\n  walker...",
+"* I will be the <span style=\"display:inline-block;height:18px;width:73px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_star.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"STAR\" width=\"73.5\" height=\"30.0\"/></span>\n                  walker...",
 false,
 46,
 46
@@ -331283,7 +331283,7 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_2439_0": {
 "en": [
-"* \n  walker...",
+"* \n                  walker...",
 false,
 46,
 46
