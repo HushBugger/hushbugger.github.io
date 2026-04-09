@@ -26,7 +26,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
         # murder is always 0. A carryover from Undertale's murder route
         # where it's used to blank out the sidebar.
         # The shop code has been getting copy/pasted ever since...
-        return ""
+        return None
     if msgid.startswith("scr_quiztext_slash_scr_quiztext_gml_"):
         # These trigger smaller text.
         text = text.lstrip("~")
