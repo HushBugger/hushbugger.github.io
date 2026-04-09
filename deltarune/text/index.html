@@ -524,24 +524,30 @@
                         for (const msgId of Object.keys(group)) {
                             for (const lang of /** @type {const} */ (["en", "ja"])) {
                                 const [text, dup, nh, wh] = group[msgId][lang];
-                                if ((config.lang === lang && text) || config.lang === "both") {
-                                    if (!dup || config.chap !== "all") {
-                                        if (title) {
-                                            finishSection();
-                                            newHTML += title;
-                                            title = null;
-                                        }
-                                        const box = buildBox(
-                                            lang,
-                                            `${lang}:${chapterNo}:${msgId}`,
-                                            text
-                                        );
-                                        sectionHTML += box;
-                                        narrowHeight += nh;
-                                        wideHeight += wh;
-                                        numMessage += 1;
-                                    }
+                                if (config.lang !== "both" && (config.lang !== lang || !text)) {
+                                    continue;
                                 }
+                                if (dup && config.chap === "all") {
+                                    continue;
+                                }
+                                if (
+                                    config.lang === "both" &&
+                                    config.chap === "all" &&
+                                    !text &&
+                                    group[msgId][lang === "ja" ? "en" : "ja"][1]
+                                ) {
+                                    continue;
+                                }
+                                if (title) {
+                                    finishSection();
+                                    newHTML += title;
+                                    title = null;
+                                }
+                                const box = buildBox(lang, `${lang}:${chapterNo}:${msgId}`, text);
+                                sectionHTML += box;
+                                narrowHeight += nh;
+                                wideHeight += wh;
+                                numMessage += 1;
                             }
                         }
                     }
