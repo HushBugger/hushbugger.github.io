@@ -215,13 +215,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_6_0": {
 "en": [
-" ARE YOU\n THERE?  ",
+" ARE YOU\n THERE?",
 false,
 46,
 46
 ],
 "ja": [
-"聞コエマスカ？  ",
+"聞コエマスカ？",
 false,
 28,
 28
@@ -229,13 +229,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_7_0": {
 "en": [
-" ARE WE\nCONNECTED?   ",
+" ARE WE\nCONNECTED?",
 false,
 46,
 46
 ],
 "ja": [
-" ワレワレハ\n 接続サレテ\n イマスカ？   ",
+" ワレワレハ\n 接続サレテ\n イマスカ？",
 false,
 64,
 64
@@ -257,13 +257,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_33_0": {
 "en": [
-"EXCELLENT.  ",
+"EXCELLENT.",
 false,
 28,
 28
 ],
 "ja": [
-"   結構。  ",
+"   結構。",
 false,
 28,
 28
@@ -271,13 +271,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_34_0": {
 "en": [
-"  TRULY\nEXCELLENT.  ",
+"  TRULY\nEXCELLENT.",
 false,
 46,
 46
 ],
 "ja": [
-"  ジツニ\n 結構デス。  ",
+"  ジツニ\n 結構デス。",
 false,
 46,
 46
@@ -285,13 +285,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_35_0": {
 "en": [
-"   NOW.  ",
+"   NOW.",
 false,
 28,
 28
 ],
 "ja": [
-"   デハ。  ",
+"   デハ。",
 false,
 28,
 28
@@ -299,13 +299,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_36_0": {
 "en": [
-"  WE MAY\n  BEGIN.  ",
+"  WE MAY\n  BEGIN.",
 false,
 46,
 46
 ],
 "ja": [
-" 始メマショウ。  ",
+" 始メマショウ。",
 false,
 28,
 28
@@ -313,13 +313,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_107_0": {
 "en": [
-"FIRST.  ",
+"FIRST.",
 false,
 28,
 28
 ],
 "ja": [
-"      マズ。  ",
+"      マズ。",
 false,
 28,
 28
@@ -327,13 +327,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_111_0": {
 "en": [
-"YOU MUST CREATE\nA VESSEL.  ",
+"YOU MUST CREATE\nA VESSEL.",
 false,
 46,
 46
 ],
 "ja": [
-"      器ヲ\n  ツクルノデス。  ",
+"      器ヲ\n  ツクルノデス。",
 false,
 46,
 46
@@ -383,13 +383,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_205_0": {
 "en": [
-"THIS IS YOUR BODY.  ",
+"THIS IS YOUR BODY.",
 false,
 28,
 28
 ],
 "ja": [
-"コレガ アナタノ\n体デス。  ",
+"コレガ アナタノ\n体デス。",
 false,
 46,
 46
@@ -411,13 +411,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_240_0": {
 "en": [
-"   EXCELLENT.  ",
+"   EXCELLENT.",
 false,
 28,
 28
 ],
 "ja": [
-"   結構。  ",
+"   結構。",
 false,
 28,
 28
@@ -425,13 +425,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_241_0": {
 "en": [
-"YOU HAVE CREATED\nA WONDERFUL FORM.  ",
+"YOU HAVE CREATED\nA WONDERFUL FORM.",
 false,
 46,
 46
 ],
 "ja": [
-"スバラシイ フォルム ガ\n完成シマシタ。  ",
+"スバラシイ フォルム ガ\n完成シマシタ。",
 false,
 46,
 46
@@ -439,13 +439,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_242_0": {
 "en": [
-"       NOW.  ",
+"       NOW.",
 false,
 28,
 28
 ],
 "ja": [
-"       次ハ。  ",
+"       次ハ。",
 false,
 28,
 28
@@ -453,13 +453,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_243_0": {
 "en": [
-"LET US SHAPE ITS\nMIND AS YOUR OWN.   ",
+"LET US SHAPE ITS\nMIND AS YOUR OWN.",
 false,
 46,
 46
 ],
 "ja": [
-"器ノ 心ヲ アナタト\n同ジニ 創リマショウ。   ",
+"器ノ 心ヲ アナタト\n同ジニ 創リマショウ。",
 false,
 46,
 46
@@ -901,13 +901,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_664_0": {
 "en": [
-"UNDERSTOOD.  ",
+"UNDERSTOOD.",
 false,
 28,
 28
 ],
 "ja": [
-"ヨロシイ。  ",
+"ヨロシイ。",
 false,
 28,
 28
@@ -929,13 +929,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_729_0": {
 "en": [
-"WE CALLED IT\n\"<span class=\"param\">~1</span>.\"   ",
+"WE CALLED IT\n\"<span class=\"param\">~1</span>.\"",
 false,
 46,
 46
 ],
 "ja": [
-"ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。   ",
+"ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。",
 false,
 64,
 64
@@ -943,13 +943,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_730_0": {
 "en": [
-"AND WHAT ABOUT\nTHE CREATOR?  ",
+"AND WHAT ABOUT\nTHE CREATOR?",
 false,
 46,
 46
 ],
 "ja": [
-"デハ ツクリ手ノ\n名ハ？  ",
+"デハ ツクリ手ノ\n名ハ？",
 false,
 46,
 46
@@ -957,13 +957,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_734_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 false,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 false,
 28,
 28
@@ -971,13 +971,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_735_0": {
 "en": [
-"AN INTERESTING\nCOINCIDENCE.  ",
+"AN INTERESTING\nCOINCIDENCE.",
 false,
 46,
 46
 ],
 "ja": [
-"興味深イ 偶然デス。  ",
+"興味深イ 偶然デス。",
 false,
 28,
 28
@@ -985,13 +985,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_736_0": {
 "en": [
-"AND WHAT ABOUT\nTHE CREATOR?  ",
+"AND WHAT ABOUT\nTHE CREATOR?",
 false,
 46,
 46
 ],
 "ja": [
-"デハ ツクリ手ノ\n名ハ？  ",
+"デハ ツクリ手ノ\n名ハ？",
 false,
 46,
 46
@@ -1013,13 +1013,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_785_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 false,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 false,
 28,
 28
@@ -1027,13 +1027,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_786_0": {
 "en": [
-"EXCELLENT.  ",
+"EXCELLENT.",
 false,
 28,
 28
 ],
 "ja": [
-"結構。  ",
+"結構。",
 false,
 28,
 28
@@ -1041,13 +1041,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_787_0": {
 "en": [
-"TRULY \nEXCELLENT.  ",
+"TRULY \nEXCELLENT.",
 false,
 46,
 46
 ],
 "ja": [
-"ジツニ \n結構。  ",
+"ジツニ \n結構。",
 false,
 46,
 46
@@ -1055,13 +1055,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_790_0": {
 "en": [
-"HOW INTERESTING.  ",
+"HOW INTERESTING.",
 false,
 28,
 28
 ],
 "ja": [
-"コレハ 興味深イ。  ",
+"コレハ 興味深イ。",
 false,
 28,
 28
@@ -1069,13 +1069,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_794_0": {
 "en": [
-"YOU ARE ABOUT TO\nMEET SOMEONE   ",
+"YOU ARE ABOUT TO\nMEET SOMEONE",
 false,
 46,
 46
 ],
 "ja": [
-"アナタハ マモナク\n出会ウ…   ",
+"アナタハ マモナク\n出会ウ…",
 false,
 46,
 46
@@ -1083,13 +1083,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_795_0": {
 "en": [
-"VERY, VERY\nWONDERFUL.   ",
+"VERY, VERY\nWONDERFUL.",
 false,
 46,
 46
 ],
 "ja": [
-"ジツニ ジツニ\nステキナ 人物ニ。   ",
+"ジツニ ジツニ\nステキナ 人物ニ。",
 false,
 46,
 46
@@ -1097,13 +1097,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_800_0": {
 "en": [
-"OF COURSE\nOF COURSE.  ",
+"OF COURSE\nOF COURSE.",
 false,
 46,
 46
 ],
 "ja": [
-"ナルホド\n両者ハ 同一… ト。  ",
+"ナルホド\n両者ハ 同一… ト。",
 false,
 46,
 46
@@ -1111,13 +1111,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_801_0": {
 "en": [
-"OF COURSE THEY\nARE THE SAME.  ",
+"OF COURSE THEY\nARE THE SAME.",
 false,
 46,
 46
 ],
 "ja": [
-"サモ アリナン…。  ",
+"サモ アリナン…。",
 false,
 28,
 28
@@ -1125,13 +1125,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_816_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 false,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 false,
 28,
 28
@@ -1139,13 +1139,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_817_0": {
 "en": [
-"THANK YOU\nFOR YOUR TIME.   ",
+"THANK YOU\nFOR YOUR TIME.",
 false,
 46,
 46
 ],
 "ja": [
-"協力ニ 感謝シマス。   ",
+"協力ニ 感謝シマス。",
 false,
 28,
 28
@@ -1153,13 +1153,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_818_0": {
 "en": [
-"YOUR ANSWERS   ",
+"YOUR ANSWERS",
 false,
 28,
 28
 ],
 "ja": [
-"アナタノ 回答   ",
+"アナタノ 回答",
 false,
 28,
 28
@@ -1167,13 +1167,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_819_0": {
 "en": [
-"YOUR WONDERFUL\nCREATION ",
+"YOUR WONDERFUL\nCREATION",
 false,
 46,
 46
 ],
 "ja": [
-"アナタノ スバラシイ\n作品ハ ",
+"アナタノ スバラシイ\n作品ハ",
 false,
 46,
 46
@@ -1209,7 +1209,7 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_854_0": {
 "en": [
-"Your\n \nname\n \n is ",
+"Your\n \nname\n \n is",
 false,
 100,
 100
@@ -1223,13 +1223,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_889_0": {
 "en": [
-"Kris...! ",
+"Kris...!",
 false,
 28,
 28
 ],
 "ja": [
-"Kris...! ",
+"Kris...!",
 false,
 28,
 28
@@ -1237,13 +1237,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_890_0": {
 "en": [
-"Wake up! ",
+"Wake up!",
 false,
 28,
 28
 ],
 "ja": [
-"Wake up! ",
+"Wake up!",
 false,
 28,
 28
@@ -1251,13 +1251,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_891_0": {
 "en": [
-"KRIS...! ",
+"KRIS...!",
 false,
 28,
 28
 ],
 "ja": [
-"KRIS...! ",
+"KRIS...!",
 false,
 28,
 28
@@ -1265,13 +1265,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_928_0": {
 "en": [
-" FIRST.  ",
+" FIRST.",
 false,
 28,
 28
 ],
 "ja": [
-" FIRST.  ",
+" FIRST.",
 false,
 28,
 28
@@ -1279,13 +1279,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_930_0": {
 "en": [
-" ARE YOU\nPHOTOSENSITIVE?   ",
+" ARE YOU\nPHOTOSENSITIVE?",
 false,
 46,
 46
 ],
 "ja": [
-" ARE YOU\nPHOTOSENSITIVE?   ",
+" ARE YOU\nPHOTOSENSITIVE?",
 false,
 46,
 46
@@ -3241,13 +3241,13 @@ false,
 },
 "obj_bloxer_enemy_slash_Step_0_gml_135_0": {
 "en": [
-"* Press ",
+"* Press",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -3847,13 +3847,13 @@ false,
 },
 "obj_carcutscene_slash_Alarm_5_gml_5_0": {
 "en": [
-"* Will he still enjoy coming home<span class=\"break\">\n  </span>to this little town...?  ",
+"* Will he still enjoy coming home<span class=\"break\">\n  </span>to this little town...?",
 false,
 46,
 28
 ],
 "ja": [
-"＊ こんな　ちいさなまちに\n　 かえってきても\n　 たいくつじゃないかしら…  ",
+"＊ こんな　ちいさなまちに\n　 かえってきても\n　 たいくつじゃないかしら…",
 false,
 64,
 64
@@ -3991,7 +3991,7 @@ false,
 },
 "obj_checker_animtest_slash_Step_0_gml_48_0": {
 "en": [
-"* If it isn't the ",
+"* If it isn't the",
 false,
 28,
 28
@@ -5477,13 +5477,13 @@ false,
 },
 "obj_checkers_enemy_slash_Step_0_gml_489_0": {
 "en": [
-"* Press ",
+"* Press",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -6067,13 +6067,13 @@ false,
 },
 "obj_classscene_slash_Step_0_gml_299_0": {
 "en": [
-"* Do you want me to - ",
+"* Do you want me to -",
 false,
 28,
 28
 ],
 "ja": [
-"＊ Do you want me to - ",
+"＊ Do you want me to -",
 false,
 28,
 28
@@ -8363,7 +8363,7 @@ false,
 28
 ],
 "ja": [
-"　",
+" ",
 false,
 28,
 28
@@ -10209,13 +10209,13 @@ false,
 "obj_darkcontroller": {
 "obj_darkcontroller_slash_Draw_0_gml_47_0": {
 "en": [
-"D$ ",
+"D$",
 false,
 28,
 28
 ],
 "ja": [
-"D$ ",
+"D$",
 false,
 28,
 28
@@ -10615,13 +10615,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_207_0": {
 "en": [
-"Attack: ",
+"Attack:",
 false,
 28,
 28
 ],
 "ja": [
-"こうげき: ",
+"こうげき:",
 false,
 28,
 28
@@ -10629,13 +10629,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_208_0": {
 "en": [
-"Defense: ",
+"Defense:",
 false,
 28,
 28
 ],
 "ja": [
-"ぼうぎょ: ",
+"ぼうぎょ:",
 false,
 28,
 28
@@ -10643,13 +10643,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_209_0": {
 "en": [
-"Magic: ",
+"Magic:",
 false,
 28,
 28
 ],
 "ja": [
-"まりょく: ",
+"まりょく:",
 false,
 28,
 28
@@ -10657,13 +10657,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_212_0": {
 "en": [
-"Guts: ",
+"Guts:",
 false,
 28,
 28
 ],
 "ja": [
-"ガッツ: ",
+"ガッツ:",
 false,
 28,
 28
@@ -10671,13 +10671,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_214_0": {
 "en": [
-"LV1 ",
+"LV1",
 false,
 28,
 28
 ],
 "ja": [
-"LV1 ",
+"LV1",
 false,
 28,
 28
@@ -10705,7 +10705,7 @@ false,
 28
 ],
 "ja": [
-"イヌ: ",
+"イヌ:",
 false,
 28,
 28
@@ -10769,13 +10769,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_251_0": {
 "en": [
-"Rudeness ",
+"Rudeness",
 false,
 28,
 28
 ],
 "ja": [
-"バッドさ: ",
+"バッドさ:",
 false,
 28,
 28
@@ -10783,13 +10783,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_252_0": {
 "en": [
-"Crudeness ",
+"Crudeness",
 false,
 28,
 28
 ],
 "ja": [
-"ザツさ: ",
+"ザツさ:",
 false,
 28,
 28
@@ -10831,7 +10831,7 @@ false,
 28
 ],
 "ja": [
-"やさしさ: ",
+"やさしさ:",
 false,
 28,
 28
@@ -10845,7 +10845,7 @@ false,
 28
 ],
 "ja": [
-"イヌさ: ",
+"イヌさ:",
 false,
 28,
 28
@@ -10901,7 +10901,7 @@ false,
 28
 ],
 "ja": [
-"モフさ: ",
+"モフさ:",
 false,
 28,
 28
@@ -10951,13 +10951,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_556_0": {
 "en": [
-"Attack: ",
+"Attack:",
 false,
 28,
 28
 ],
 "ja": [
-"こうげき: ",
+"こうげき:",
 false,
 28,
 28
@@ -10965,13 +10965,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_557_0": {
 "en": [
-"Defense: ",
+"Defense:",
 false,
 28,
 28
 ],
 "ja": [
-"ぼうぎょ: ",
+"ぼうぎょ:",
 false,
 28,
 28
@@ -10979,13 +10979,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_558_0": {
 "en": [
-"Magic: ",
+"Magic:",
 false,
 28,
 28
 ],
 "ja": [
-"まりょく: ",
+"まりょく:",
 false,
 28,
 28
@@ -12989,16 +12989,16 @@ false,
 },
 "obj_dummyenemy_slash_Step_0_gml_333_0": {
 "en": [
-"* Pressing ",
+"* Pressing",
 false,
 28,
 28
 ],
 "ja": [
-"＊ そのタイミングで\n　 ",
+"＊ そのタイミングで",
 false,
-46,
-46
+28,
+28
 ]
 },
 "obj_dummyenemy_slash_Step_0_gml_333_1": {
@@ -13311,7 +13311,7 @@ false,
 },
 "obj_dummyenemy_slash_Step_0_gml_399_0": {
 "en": [
-"* Press ",
+"* Press",
 false,
 28,
 28
@@ -13353,16 +13353,16 @@ false,
 },
 "obj_dummyenemy_slash_Step_0_gml_404_0": {
 "en": [
-"* Press ",
+"* Press",
 false,
 28,
 28
 ],
 "ja": [
-"＊ 白い長方形が\n　 青いボックスの中に来たら\n　 ",
+"＊ 白い長方形が\n　 青いボックスの中に来たら",
 false,
-64,
-64
+46,
+46
 ]
 },
 "obj_dummyenemy_slash_Step_0_gml_404_1": {
@@ -13381,16 +13381,16 @@ false,
 },
 "obj_dummyenemy_slash_Step_0_gml_405_0": {
 "en": [
-"* Ummm... you can press ",
+"* Ummm... you can press",
 false,
 28,
 28
 ],
 "ja": [
-"＊ えっと…　難しかったら\n　 ",
+"＊ えっと…　難しかったら",
 false,
-46,
-46
+28,
+28
 ]
 },
 "obj_dummyenemy_slash_Step_0_gml_405_1": {
@@ -13409,7 +13409,7 @@ false,
 },
 "obj_dummyenemy_slash_Step_0_gml_406_0": {
 "en": [
-"* Kris...\n* Please try to press ",
+"* Kris...\n* Please try to press",
 false,
 46,
 46
@@ -16557,13 +16557,13 @@ false,
 },
 "obj_getsusieevent_slash_Step_0_gml_118_0": {
 "en": [
-"* Susie joined the party!      ",
+"* Susie joined the party!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ スージィが　仲間に加わった！      ",
+"＊ スージィが　仲間に加わった！",
 false,
 28,
 28
@@ -16585,13 +16585,13 @@ false,
 },
 "obj_getsusieevent_slash_Step_0_gml_160_0": {
 "en": [
-"* Susie follows at a distance<span class=\"break\">\n  </span>such that no one can tell she's<span class=\"break\">\n  </span>associated!                     ",
+"* Susie follows at a distance<span class=\"break\">\n  </span>such that no one can tell she's<span class=\"break\">\n  </span>associated!",
 false,
 64,
 28
 ],
 "ja": [
-"＊ スージィは　どう見ても\n　 仲間には見えないぐらい\n　 距離を取った！                     ",
+"＊ スージィは　どう見ても\n　 仲間には見えないぐらい\n　 距離を取った！",
 false,
 64,
 64
@@ -16699,13 +16699,13 @@ false,
 },
 "obj_glowtilepuzz_slash_Step_0_gml_78_0": {
 "en": [
-"* That you can run by holding ",
+"* That you can run by holding",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -16825,16 +16825,16 @@ false,
 },
 "obj_glowtilepuzz_slash_Step_0_gml_113_0": {
 "en": [
-"* Susie! K-Kris is doing their<span class=\"break\">\n  </span>best to use ",
+"* Susie! K-Kris is doing their<span class=\"break\">\n  </span>best to use",
 false,
 46,
 28
 ],
 "ja": [
-"＊ スージィ！　クリスだって\n　 ",
+"＊ スージィ！　クリスだって",
 false,
-46,
-46
+28,
+28
 ]
 },
 "obj_glowtilepuzz_slash_Step_0_gml_113_1": {
@@ -18233,13 +18233,13 @@ false,
 },
 "obj_initializer_slash_Create_0_gml_179_0": {
 "en": [
-"* i5  ",
+"* i5",
 false,
 28,
 28
 ],
 "ja": [
-"＊ i4  ",
+"＊ i4",
 false,
 28,
 28
@@ -28403,7 +28403,7 @@ false,
 46
 ],
 "ja": [
-"＊ …なぁあんつってぇええ！\n＊ わるいけど　ボク　100てん\n　 とりたいからぁ～！　",
+"＊ …なぁあんつってぇええ！\n＊ わるいけど　ボク　100てん\n　 とりたいからぁ～！",
 false,
 64,
 64
@@ -31931,7 +31931,7 @@ false,
 },
 "obj_npc_room_animated_slash_Other_10_gml_14_0": {
 "en": [
-"* (You got the Wrist Protector.)\n* (Hold ",
+"* (You got the Wrist Protector.)\n* (Hold",
 false,
 46,
 46
@@ -33221,13 +33221,13 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_201_0": {
 "en": [
-"* Today's lesson is...\n* <span class=\"R\">Get out of my way when I'm<span class=\"break\">\n  </span>building a ladder!</span> ",
+"* Today's lesson is...\n* <span class=\"R\">Get out of my way when I'm<span class=\"break\">\n  </span>building a ladder!</span>",
 false,
 64,
 46
 ],
 "ja": [
-"＊ Today's lesson is...\n＊ <span class=\"R\">Get out of my way when I'm<span class=\"break\">\n</span>building a ladder!</span> ",
+"＊ Today's lesson is...\n＊ <span class=\"R\">Get out of my way when I'm<span class=\"break\">\n</span>building a ladder!</span>",
 false,
 64,
 46
@@ -34593,13 +34593,13 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_505_0": {
 "en": [
-"* I'm the original   <span class=\"Y\">Starwalker</span> ",
+"* I'm the original   <span class=\"Y\">Starwalker</span>",
 false,
 28,
 28
 ],
 "ja": [
-"＊ 私こそが　オリジナルの\n　 　　　　　　<span class=\"Y\">スターウォーカー</span>だ。 ",
+"＊ 私こそが　オリジナルの\n　 　　　　　　<span class=\"Y\">スターウォーカー</span>だ。",
 false,
 46,
 46
@@ -37981,13 +37981,13 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_1283_0": {
 "en": [
-"* Anyway, Susie sucks, Kris,<span class=\"break\">\n  </span>haha. ",
+"* Anyway, Susie sucks, Kris,<span class=\"break\">\n  </span>haha.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ よーするに　スージィは\n　 サイテーだってことだな！\n　 ハハハ！ ",
+"＊ よーするに　スージィは\n　 サイテーだってことだな！\n　 ハハハ！",
 false,
 64,
 64
@@ -38037,7 +38037,7 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_1295_0": {
 "en": [
-"* HOOH!!\n* You're lucky, Kris!! ",
+"* HOOH!!\n* You're lucky, Kris!!",
 false,
 46,
 46
@@ -38529,16 +38529,16 @@ false,
 },
 "obj_npc_sign_slash_Other_10_gml_42_0": {
 "en": [
-"* (Whatever you do, DON'T check<span class=\"break\">\n  </span>the tree and use ",
+"* (Whatever you do, DON'T check<span class=\"break\">\n  </span>the tree and use",
 false,
 46,
 28
 ],
 "ja": [
-"＊ (絶対に　木を調べてから\n　 ",
+"＊ (絶対に　木を調べてから",
 false,
-46,
-46
+28,
+28
 ]
 },
 "obj_npc_sign_slash_Other_10_gml_42_1": {
@@ -38809,13 +38809,13 @@ false,
 },
 "obj_npc_sign_slash_Other_10_gml_162_0": {
 "en": [
-"* I'm the original    <span class=\"Y\">Starwalker</span> ",
+"* I'm the original    <span class=\"Y\">Starwalker</span>",
 false,
 28,
 28
 ],
 "ja": [
-"＊ 私こそが　オリジナルの\n　 　　　　　　<span class=\"Y\">スターウォーカー</span>だ。 ",
+"＊ 私こそが　オリジナルの\n　 　　　　　　<span class=\"Y\">スターウォーカー</span>だ。",
 false,
 46,
 46
@@ -39025,13 +39025,13 @@ false,
 "obj_overworldc": {
 "obj_overworldc_slash_Draw_0_gml_36_0": {
 "en": [
-"HP  ",
+"HP",
 false,
 28,
 28
 ],
 "ja": [
-"HP  ",
+"HP",
 false,
 28,
 28
@@ -39039,13 +39039,13 @@ false,
 },
 "obj_overworldc_slash_Draw_0_gml_37_0": {
 "en": [
-"LV  ",
+"LV",
 false,
 28,
 28
 ],
 "ja": [
-"LV  ",
+"LV",
 false,
 28,
 28
@@ -39053,13 +39053,13 @@ false,
 },
 "obj_overworldc_slash_Draw_0_gml_39_0": {
 "en": [
-"$   ",
+"$",
 false,
 28,
 28
 ],
 "ja": [
-"$   ",
+"$",
 false,
 28,
 28
@@ -39165,13 +39165,13 @@ false,
 },
 "obj_overworldc_slash_Draw_0_gml_67_0": {
 "en": [
-"LV  ",
+"LV",
 false,
 28,
 28
 ],
 "ja": [
-"LV  ",
+"LV",
 false,
 28,
 28
@@ -39179,13 +39179,13 @@ false,
 },
 "obj_overworldc_slash_Draw_0_gml_68_0": {
 "en": [
-"HP  <span class=\"param\">~1</span> / ",
+"HP  <span class=\"param\">~1</span> /",
 false,
 28,
 28
 ],
 "ja": [
-"HP  <span class=\"param\">~1</span> / ",
+"HP  <span class=\"param\">~1</span> /",
 false,
 28,
 28
@@ -39305,13 +39305,13 @@ false,
 },
 "obj_overworldc_slash_Draw_0_gml_80_0": {
 "en": [
-"WEAPON: ",
+"WEAPON:",
 false,
 28,
 28
 ],
 "ja": [
-"WPN ",
+"WPN",
 false,
 28,
 28
@@ -39319,13 +39319,13 @@ false,
 },
 "obj_overworldc_slash_Draw_0_gml_81_0": {
 "en": [
-"ARMOR: ",
+"ARMOR:",
 false,
 28,
 28
 ],
 "ja": [
-"AMR ",
+"AMR",
 false,
 28,
 28
@@ -39333,13 +39333,13 @@ false,
 },
 "obj_overworldc_slash_Draw_0_gml_82_0": {
 "en": [
-"MONEY: ",
+"MONEY:",
 false,
 28,
 28
 ],
 "ja": [
-"MONEY ",
+"MONEY",
 false,
 28,
 28
@@ -39361,13 +39361,13 @@ false,
 },
 "obj_overworldc_slash_Draw_0_gml_91_0": {
 "en": [
-"EXP: ",
+"EXP:",
 false,
 28,
 28
 ],
 "ja": [
-"EXP ",
+"EXP",
 false,
 28,
 28
@@ -39375,13 +39375,13 @@ false,
 },
 "obj_overworldc_slash_Draw_0_gml_112_0": {
 "en": [
-"NEXT: ",
+"NEXT:",
 false,
 28,
 28
 ],
 "ja": [
-"NEXT ",
+"NEXT",
 false,
 28,
 28
@@ -39389,7 +39389,7 @@ false,
 },
 "obj_overworldc_slash_Step_0_gml_32_0": {
 "en": [
-"* You bid a quiet farewell to the ",
+"* You bid a quiet farewell to the",
 false,
 28,
 28
@@ -39431,7 +39431,7 @@ false,
 },
 "obj_overworldc_slash_Step_0_gml_36_0": {
 "en": [
-"* You abandoned the ",
+"* You abandoned the",
 false,
 28,
 28
@@ -45753,7 +45753,7 @@ false,
 28
 ],
 "ja": [
-"＊ でも　でかい　つばさ\n　 ばかりつくって　ほんたいが\n　 かんせいしなかった！ ",
+"＊ でも　でかい　つばさ\n　 ばかりつくって　ほんたいが\n　 かんせいしなかった！",
 false,
 64,
 64
@@ -47237,7 +47237,7 @@ false,
 64
 ],
 "ja": [
-"＊ たー　\n＊ たー　\n＊ くー　な！　",
+"＊ たー　\n＊ たー　\n＊ くー　な！",
 false,
 64,
 64
@@ -48541,13 +48541,13 @@ false,
 },
 "obj_rurus_checker_event_slash_Step_0_gml_148_0": {
 "en": [
-"* But its CROWN looks different!  ",
+"* But its CROWN looks different!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ …でも　冠が　さっきと\n　 違ってる！  ",
+"＊ …でも　冠が　さっきと\n　 違ってる！",
 false,
 46,
 46
@@ -48597,13 +48597,13 @@ false,
 },
 "obj_rurus_checker_event_slash_Step_0_gml_182_0": {
 "en": [
-"* It looks like it's in pain!!  ",
+"* It looks like it's in pain!!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ 見て！　苦しそうに\n　 してるよ！！  ",
+"＊ 見て！　苦しそうに\n　 してるよ！！",
 false,
 46,
 46
@@ -49161,13 +49161,13 @@ false,
 },
 "obj_savemenu_slash_Draw_0_gml_29_0": {
 "en": [
-"LV ",
+"LV",
 false,
 28,
 28
 ],
 "ja": [
-"LV ",
+"LV",
 false,
 28,
 28
@@ -49175,13 +49175,13 @@ false,
 },
 "obj_savemenu_slash_Draw_0_gml_33_0": {
 "en": [
-"LV ",
+"LV",
 false,
 28,
 28
 ],
 "ja": [
-"LV ",
+"LV",
 false,
 28,
 28
@@ -49689,7 +49689,7 @@ false,
 28
 ],
 "ja": [
-"＊ はぁー　まったく\n　 こいつは　とんだ\n　 あきれポンチだな！　",
+"＊ はぁー　まったく\n　 こいつは　とんだ\n　 あきれポンチだな！",
 false,
 64,
 64
@@ -56845,13 +56845,13 @@ false,
 },
 "obj_thrashafter_event_slash_Step_0_gml_144_0": {
 "en": [
-"* Lancer joined the party!      ",
+"* Lancer joined the party!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ Lancer joined the party!      ",
+"＊ Lancer joined the party!",
 false,
 28,
 28
@@ -58079,13 +58079,13 @@ false,
 },
 "obj_thrashafter_follow_slash_Step_0_gml_817_0": {
 "en": [
-"* Candy joined the party!      ",
+"* Candy joined the party!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ キャンディが　仲間になった！      ",
+"＊ キャンディが　仲間になった！",
 false,
 28,
 28
@@ -58837,13 +58837,13 @@ false,
 },
 "obj_thrashcontroller_slash_Step_0_gml_264_0": {
 "en": [
-"HEAD: ",
+"HEAD:",
 false,
 28,
 28
 ],
 "ja": [
-"HEAD: ",
+"HEAD:",
 false,
 28,
 28
@@ -58851,13 +58851,13 @@ false,
 },
 "obj_thrashcontroller_slash_Step_0_gml_265_0": {
 "en": [
-"BODY: ",
+"BODY:",
 false,
 28,
 28
 ],
 "ja": [
-"BODY: ",
+"BODY:",
 false,
 28,
 28
@@ -58865,13 +58865,13 @@ false,
 },
 "obj_thrashcontroller_slash_Step_0_gml_266_0": {
 "en": [
-"SHOE: ",
+"SHOE:",
 false,
 28,
 28
 ],
 "ja": [
-"SHOE: ",
+"SHOE:",
 false,
 28,
 28
@@ -59513,13 +59513,13 @@ false,
 "obj_throwralsei": {
 "obj_throwralsei_slash_Step_0_gml_26_0": {
 "en": [
-"* Press ",
+"* Press",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -60009,13 +60009,13 @@ false,
 },
 "obj_tutorialbattleevent_slash_Step_0_gml_90_0": {
 "en": [
-"* Press ",
+"* Press",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -61209,13 +61209,13 @@ false,
 },
 "scr_ascii_input_names_slash_scr_ascii_input_names_gml_74_0": {
 "en": [
-"Numpad ",
+"Numpad",
 false,
 28,
 28
 ],
 "ja": [
-"テンキー ",
+"テンキー",
 false,
 28,
 28
@@ -61561,13 +61561,13 @@ false,
 "scr_asgface": {
 "scr_asgface_slash_scr_asgface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -63879,13 +63879,13 @@ false,
 "scr_kingface": {
 "scr_kingface_slash_scr_kingface_gml_3_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -63893,13 +63893,13 @@ false,
 },
 "scr_kingface_slash_scr_kingface_gml_7_0": {
 "en": [
-"  1  ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1  ",
+"  1",
 false,
 28,
 28
@@ -63909,13 +63909,13 @@ false,
 "scr_lanface": {
 "scr_lanface_slash_scr_lanface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -66595,13 +66595,13 @@ false,
 "scr_noeface": {
 "scr_noeface_slash_scr_noeface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -66655,13 +66655,13 @@ false,
 "scr_ralface": {
 "scr_ralface_slash_scr_ralface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -66925,13 +66925,13 @@ false,
 "scr_rudface": {
 "scr_rudface_slash_scr_rudface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -66941,13 +66941,13 @@ false,
 "scr_rurusface": {
 "scr_rurusface_slash_scr_rurusface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -67857,13 +67857,13 @@ false,
 "scr_susface": {
 "scr_susface_slash_scr_susface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -68071,13 +68071,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_43_0": {
 "en": [
-"* I'll ask if you're sure!\n \nNot yet     Yes. Ask. ",
+"* I'll ask if you're sure!\n \nNot yet     Yes. Ask.",
 false,
 64,
 64
 ],
 "ja": [
-"＊ どうする？　きいてみる？\n \n   まって        きいてみて ",
+"＊ どうする？　きいてみる？\n \n   まって        きいてみて",
 false,
 64,
 64
@@ -68127,13 +68127,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_61_0": {
 "en": [
-"* Do you wanna be partners?\nNot yet     Yes ",
+"* Do you wanna be partners?\nNot yet     Yes",
 false,
 46,
 46
 ],
 "ja": [
-"＊ わたしたちの　グループに\n　 はいりたい？\n   まって        うん ",
+"＊ わたしたちの　グループに\n　 はいりたい？\n   まって        うん",
 false,
 64,
 64
@@ -68225,13 +68225,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_82_0": {
 "en": [
-"* How's that sound?\n \nGood        Bad ",
+"* How's that sound?\n \nGood        Bad",
 false,
 64,
 64
 ],
 "ja": [
-"＊ いいな？\n \n   はい          いやです ",
+"＊ いいな？\n \n   はい          いやです",
 false,
 64,
 64
@@ -69107,13 +69107,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_262_0": {
 "en": [
-"* ... You can skip text by<span class=\"break\">\n  </span>pressing ",
+"* ... You can skip text by<span class=\"break\">\n  </span>pressing",
 false,
 46,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -69359,13 +69359,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_311_0": {
 "en": [
-"* Press ",
+"* Press",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -76919,13 +76919,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1631_0": {
 "en": [
-"* But make sure you don't watch<span class=\"break\">\n  </span>past the second season ",
+"* But make sure you don't watch<span class=\"break\">\n  </span>past the second season",
 false,
 46,
 28
 ],
 "ja": [
-"＊ あ　でも\n　 シーズン２より　さきは\n　 ぜったい　みないで ",
+"＊ あ　でも\n　 シーズン２より　さきは\n　 ぜったい　みないで",
 false,
 64,
 64
@@ -76933,13 +76933,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1632_0": {
 "en": [
-"* Since they just rebooted it as<span class=\"break\">\n  </span>Symptons Turbo ",
+"* Since they just rebooted it as<span class=\"break\">\n  </span>Symptons Turbo",
 false,
 46,
 28
 ],
 "ja": [
-"＊ 「シンプトンズ・ターボ」\n　 ってなまえで　リブート\n　 したんだけど ",
+"＊ 「シンプトンズ・ターボ」\n　 ってなまえで　リブート\n　 したんだけど",
 false,
 64,
 64
@@ -76947,13 +76947,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1633_0": {
 "en": [
-"* They all started driving their<span class=\"break\">\n  </span>own motor-vehicles ",
+"* They all started driving their<span class=\"break\">\n  </span>own motor-vehicles",
 false,
 46,
 28
 ],
 "ja": [
-"＊ とうじょうキャラ\n　 ぜんいんが　バイクとか\n　 クルマとか　のりまわして ",
+"＊ とうじょうキャラ\n　 ぜんいんが　バイクとか\n　 クルマとか　のりまわして",
 false,
 64,
 64
@@ -76961,13 +76961,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1634_0": {
 "en": [
-"* And fighting giant giga-demons<span class=\"break\">\n  </span>and stuff ",
+"* And fighting giant giga-demons<span class=\"break\">\n  </span>and stuff",
 false,
 46,
 28
 ],
 "ja": [
-"＊ きょだいデーモンとかと\n　 たたかう　はなしに\n　 なっちゃって ",
+"＊ きょだいデーモンとかと\n　 たたかう　はなしに\n　 なっちゃって",
 false,
 64,
 64
@@ -76975,13 +76975,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1635_0": {
 "en": [
-"* The main problem about that is<span class=\"break\">\n  </span>that it kind of ",
+"* The main problem about that is<span class=\"break\">\n  </span>that it kind of",
 false,
 46,
 28
 ],
 "ja": [
-"＊ でも　いちばん\n　 もんだいなのは ",
+"＊ でも　いちばん\n　 もんだいなのは",
 false,
 46,
 46
@@ -76989,13 +76989,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1636_0": {
 "en": [
-"* Lost the focus on family that<span class=\"break\">\n  </span>it had earlier ",
+"* Lost the focus on family that<span class=\"break\">\n  </span>it had earlier",
 false,
 46,
 28
 ],
 "ja": [
-"＊ かぞくの　きずなの\n　 テーマが　うしなわれ\n　 ちゃったこと ",
+"＊ かぞくの　きずなの\n　 テーマが　うしなわれ\n　 ちゃったこと",
 false,
 64,
 64
@@ -77003,13 +77003,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1637_0": {
 "en": [
-"* When their vehicles were shaped<span class=\"break\">\n  </span>like animals ",
+"* When their vehicles were shaped<span class=\"break\">\n  </span>like animals",
 false,
 46,
 28
 ],
 "ja": [
-"＊ かれらが　のってる\n　 クルマや　バイクは\n　 どうぶつのフォルムで ",
+"＊ かれらが　のってる\n　 クルマや　バイクは\n　 どうぶつのフォルムで",
 false,
 64,
 64
@@ -77017,13 +77017,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1638_0": {
 "en": [
-"* And they were friends with the<span class=\"break\">\n  </span>animal vehicles too ",
+"* And they were friends with the<span class=\"break\">\n  </span>animal vehicles too",
 false,
 46,
 28
 ],
 "ja": [
-"＊ みんな　そのクルマや\n　 バイクとも　おともだち\n　 だったはずなのに ",
+"＊ みんな　そのクルマや\n　 バイクとも　おともだち\n　 だったはずなのに",
 false,
 64,
 64
@@ -77031,13 +77031,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1639_0": {
 "en": [
-"* And let's not get into Symptons<span class=\"break\">\n  </span>Galaxy Force ",
+"* And let's not get into Symptons<span class=\"break\">\n  </span>Galaxy Force",
 false,
 46,
 28
 ],
 "ja": [
-"＊ でも　それをいったら\n　 「シンプトンズ・ギャラク\n　 シー・フォース」なんて ",
+"＊ でも　それをいったら\n　 「シンプトンズ・ギャラク\n　 シー・フォース」なんて",
 false,
 64,
 64
@@ -77045,13 +77045,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1640_0": {
 "en": [
-"* Where the Symptons discover<span class=\"break\">\n  </span>another Earth ",
+"* Where the Symptons discover<span class=\"break\">\n  </span>another Earth",
 false,
 46,
 28
 ],
 "ja": [
-"＊ シンプトン一家が\n　 もうひとつの　ちきゅうを\n　 はっけんするんだけど ",
+"＊ シンプトン一家が\n　 もうひとつの　ちきゅうを\n　 はっけんするんだけど",
 false,
 64,
 64
@@ -77059,13 +77059,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1641_0": {
 "en": [
-"* On the other side of the Sun ",
+"* On the other side of the Sun",
 false,
 28,
 28
 ],
 "ja": [
-"＊ そのばしょが\n　 たいようの　うらがわで ",
+"＊ そのばしょが\n　 たいようの　うらがわで",
 false,
 46,
 46
@@ -77073,13 +77073,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1642_0": {
 "en": [
-"* WOULDN'T THE GRAVITATIONAL<span class=\"break\">\n  </span>FIELD JUST ",
+"* WOULDN'T THE GRAVITATIONAL<span class=\"break\">\n  </span>FIELD JUST",
 false,
 46,
 28
 ],
 "ja": [
-"＊ でも　それだと\n　 じゅうりょくフィールドが ",
+"＊ でも　それだと\n　 じゅうりょくフィールドが",
 false,
 46,
 46
@@ -77941,7 +77941,7 @@ false,
 },
 "scr_text_slash_scr_text_gml_1857_0": {
 "en": [
-"* Interested in a Choco Diamond? ",
+"* Interested in a Choco Diamond?",
 false,
 28,
 28
@@ -79207,7 +79207,7 @@ false,
 28
 ],
 "ja": [
-"＊ ここの　ゴロつきどもに\n　 きょうみが　あんのか？\n　 じゃあ　しょうかいするぜ。　",
+"＊ ここの　ゴロつきどもに\n　 きょうみが　あんのか？\n　 じゃあ　しょうかいするぜ。",
 false,
 64,
 64
@@ -85111,13 +85111,13 @@ false,
 "scr_torface": {
 "scr_torface_slash_scr_torface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -86187,13 +86187,13 @@ false,
 "DEVICE_CONTACT": {
 "DEVICE_CONTACT_slash_Step_0_gml_6_0": {
 "en": [
-" ARE YOU\n THERE?  ",
+" ARE YOU\n THERE?",
 true,
 46,
 46
 ],
 "ja": [
-"聞コエマスカ？  ",
+"聞コエマスカ？",
 true,
 28,
 28
@@ -86201,13 +86201,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_7_0": {
 "en": [
-" ARE WE\nCONNECTED?   ",
+" ARE WE\nCONNECTED?",
 true,
 46,
 46
 ],
 "ja": [
-" ワレワレハ\n 接続サレテ\n イマスカ？   ",
+" ワレワレハ\n 接続サレテ\n イマスカ？",
 true,
 64,
 64
@@ -86229,13 +86229,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_33_0": {
 "en": [
-"EXCELLENT.  ",
+"EXCELLENT.",
 true,
 28,
 28
 ],
 "ja": [
-"   結構。  ",
+"   結構。",
 true,
 28,
 28
@@ -86243,13 +86243,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_34_0": {
 "en": [
-"  TRULY\nEXCELLENT.  ",
+"  TRULY\nEXCELLENT.",
 true,
 46,
 46
 ],
 "ja": [
-"  ジツニ\n 結構デス。  ",
+"  ジツニ\n 結構デス。",
 true,
 46,
 46
@@ -86257,13 +86257,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_35_0": {
 "en": [
-"   NOW.  ",
+"   NOW.",
 true,
 28,
 28
 ],
 "ja": [
-"   デハ。  ",
+"   デハ。",
 true,
 28,
 28
@@ -86271,13 +86271,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_36_0": {
 "en": [
-"  WE MAY\n  BEGIN.  ",
+"  WE MAY\n  BEGIN.",
 true,
 46,
 46
 ],
 "ja": [
-" 始メマショウ。  ",
+" 始メマショウ。",
 true,
 28,
 28
@@ -86285,13 +86285,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_107_0": {
 "en": [
-"FIRST.  ",
+"FIRST.",
 true,
 28,
 28
 ],
 "ja": [
-"      マズ。  ",
+"      マズ。",
 true,
 28,
 28
@@ -86299,13 +86299,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_111_0": {
 "en": [
-"YOU MUST CREATE\nA VESSEL.  ",
+"YOU MUST CREATE\nA VESSEL.",
 true,
 46,
 46
 ],
 "ja": [
-"      器ヲ\n  ツクルノデス。  ",
+"      器ヲ\n  ツクルノデス。",
 true,
 46,
 46
@@ -86355,13 +86355,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_205_0": {
 "en": [
-"THIS IS YOUR BODY.  ",
+"THIS IS YOUR BODY.",
 true,
 28,
 28
 ],
 "ja": [
-"コレガ アナタノ\n体デス。  ",
+"コレガ アナタノ\n体デス。",
 true,
 46,
 46
@@ -86383,13 +86383,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_240_0": {
 "en": [
-"   EXCELLENT.  ",
+"   EXCELLENT.",
 true,
 28,
 28
 ],
 "ja": [
-"   結構。  ",
+"   結構。",
 true,
 28,
 28
@@ -86397,13 +86397,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_241_0": {
 "en": [
-"YOU HAVE CREATED\nA WONDERFUL FORM.  ",
+"YOU HAVE CREATED\nA WONDERFUL FORM.",
 true,
 46,
 46
 ],
 "ja": [
-"スバラシイ フォルム ガ\n完成シマシタ。  ",
+"スバラシイ フォルム ガ\n完成シマシタ。",
 true,
 46,
 46
@@ -86411,13 +86411,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_242_0": {
 "en": [
-"       NOW.  ",
+"       NOW.",
 true,
 28,
 28
 ],
 "ja": [
-"       次ハ。  ",
+"       次ハ。",
 true,
 28,
 28
@@ -86425,13 +86425,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_243_0": {
 "en": [
-"LET US SHAPE ITS\nMIND AS YOUR OWN.   ",
+"LET US SHAPE ITS\nMIND AS YOUR OWN.",
 true,
 46,
 46
 ],
 "ja": [
-"器ノ 心ヲ アナタト\n同ジニ 創リマショウ。   ",
+"器ノ 心ヲ アナタト\n同ジニ 創リマショウ。",
 true,
 46,
 46
@@ -86915,13 +86915,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_664_0": {
 "en": [
-"UNDERSTOOD.  ",
+"UNDERSTOOD.",
 true,
 28,
 28
 ],
 "ja": [
-"ヨロシイ。  ",
+"ヨロシイ。",
 true,
 28,
 28
@@ -86943,13 +86943,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_729_0": {
 "en": [
-"WE CALLED IT\n\"<span class=\"param\">~1</span>.\"   ",
+"WE CALLED IT\n\"<span class=\"param\">~1</span>.\"",
 true,
 46,
 46
 ],
 "ja": [
-"ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。   ",
+"ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。",
 true,
 64,
 64
@@ -86957,13 +86957,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_730_0": {
 "en": [
-"AND WHAT ABOUT\nTHE CREATOR?  ",
+"AND WHAT ABOUT\nTHE CREATOR?",
 true,
 46,
 46
 ],
 "ja": [
-"デハ ツクリ手ノ\n名ハ？  ",
+"デハ ツクリ手ノ\n名ハ？",
 true,
 46,
 46
@@ -86971,13 +86971,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_734_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 true,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 true,
 28,
 28
@@ -86985,13 +86985,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_735_0": {
 "en": [
-"AN INTERESTING\nCOINCIDENCE.  ",
+"AN INTERESTING\nCOINCIDENCE.",
 true,
 46,
 46
 ],
 "ja": [
-"興味深イ 偶然デス。  ",
+"興味深イ 偶然デス。",
 true,
 28,
 28
@@ -86999,13 +86999,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_736_0": {
 "en": [
-"AND WHAT ABOUT\nTHE CREATOR?  ",
+"AND WHAT ABOUT\nTHE CREATOR?",
 true,
 46,
 46
 ],
 "ja": [
-"デハ ツクリ手ノ\n名ハ？  ",
+"デハ ツクリ手ノ\n名ハ？",
 true,
 46,
 46
@@ -87027,13 +87027,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_785_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 true,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 true,
 28,
 28
@@ -87041,13 +87041,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_786_0": {
 "en": [
-"EXCELLENT.  ",
+"EXCELLENT.",
 true,
 28,
 28
 ],
 "ja": [
-"結構。  ",
+"結構。",
 true,
 28,
 28
@@ -87055,13 +87055,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_787_0": {
 "en": [
-"TRULY \nEXCELLENT.  ",
+"TRULY \nEXCELLENT.",
 true,
 46,
 46
 ],
 "ja": [
-"ジツニ \n結構。  ",
+"ジツニ \n結構。",
 true,
 46,
 46
@@ -87069,13 +87069,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_790_0": {
 "en": [
-"HOW INTERESTING.  ",
+"HOW INTERESTING.",
 true,
 28,
 28
 ],
 "ja": [
-"コレハ 興味深イ。  ",
+"コレハ 興味深イ。",
 true,
 28,
 28
@@ -87083,13 +87083,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_794_0": {
 "en": [
-"YOU ARE ABOUT TO\nMEET SOMEONE   ",
+"YOU ARE ABOUT TO\nMEET SOMEONE",
 true,
 46,
 46
 ],
 "ja": [
-"アナタハ マモナク\n出会ウ…   ",
+"アナタハ マモナク\n出会ウ…",
 true,
 46,
 46
@@ -87097,13 +87097,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_795_0": {
 "en": [
-"VERY, VERY\nWONDERFUL.   ",
+"VERY, VERY\nWONDERFUL.",
 true,
 46,
 46
 ],
 "ja": [
-"ジツニ ジツニ\nステキナ 人物ニ。   ",
+"ジツニ ジツニ\nステキナ 人物ニ。",
 true,
 46,
 46
@@ -87111,13 +87111,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_800_0": {
 "en": [
-"OF COURSE\nOF COURSE.  ",
+"OF COURSE\nOF COURSE.",
 true,
 46,
 46
 ],
 "ja": [
-"ナルホド\n両者ハ 同一… ト。  ",
+"ナルホド\n両者ハ 同一… ト。",
 true,
 46,
 46
@@ -87125,13 +87125,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_801_0": {
 "en": [
-"OF COURSE THEY\nARE THE SAME.  ",
+"OF COURSE THEY\nARE THE SAME.",
 true,
 46,
 46
 ],
 "ja": [
-"サモ アリナン…。  ",
+"サモ アリナン…。",
 true,
 28,
 28
@@ -87139,13 +87139,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_816_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 true,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 true,
 28,
 28
@@ -87153,13 +87153,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_817_0": {
 "en": [
-"THANK YOU\nFOR YOUR TIME.   ",
+"THANK YOU\nFOR YOUR TIME.",
 true,
 46,
 46
 ],
 "ja": [
-"協力ニ 感謝シマス。   ",
+"協力ニ 感謝シマス。",
 true,
 28,
 28
@@ -87167,13 +87167,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_818_0": {
 "en": [
-"YOUR ANSWERS   ",
+"YOUR ANSWERS",
 true,
 28,
 28
 ],
 "ja": [
-"アナタノ 回答   ",
+"アナタノ 回答",
 true,
 28,
 28
@@ -87181,13 +87181,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_819_0": {
 "en": [
-"YOUR WONDERFUL\nCREATION ",
+"YOUR WONDERFUL\nCREATION",
 true,
 46,
 46
 ],
 "ja": [
-"アナタノ スバラシイ\n作品ハ ",
+"アナタノ スバラシイ\n作品ハ",
 true,
 46,
 46
@@ -87223,7 +87223,7 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_854_0": {
 "en": [
-"Your\n \nname\n \n is ",
+"Your\n \nname\n \n is",
 true,
 100,
 100
@@ -87237,13 +87237,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_889_0": {
 "en": [
-"Kris...! ",
+"Kris...!",
 true,
 28,
 28
 ],
 "ja": [
-"クリス…！ ",
+"クリス…！",
 false,
 28,
 28
@@ -87251,13 +87251,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_890_0": {
 "en": [
-"Wake up! ",
+"Wake up!",
 true,
 28,
 28
 ],
 "ja": [
-"起きて！ ",
+"起きて！",
 false,
 28,
 28
@@ -87265,13 +87265,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_891_0": {
 "en": [
-"KRIS...! ",
+"KRIS...!",
 true,
 28,
 28
 ],
 "ja": [
-"クリス…！ ",
+"クリス…！",
 false,
 28,
 28
@@ -87279,13 +87279,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_928_0": {
 "en": [
-" FIRST.  ",
+" FIRST.",
 true,
 28,
 28
 ],
 "ja": [
-" マズ。  ",
+" マズ。",
 false,
 28,
 28
@@ -87293,13 +87293,13 @@ false,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_930_0": {
 "en": [
-" ARE YOU\nPHOTOSENSITIVE?   ",
+" ARE YOU\nPHOTOSENSITIVE?",
 true,
 46,
 46
 ],
 "ja": [
-" アナタハ\n光過敏性発作ヲ　起コシヤスイデスカ？   ",
+" アナタハ\n光過敏性発作ヲ　起コシヤスイデスカ？",
 false,
 46,
 46
@@ -88677,7 +88677,7 @@ false,
 28
 ],
 "ja": [
-"コレガ　アナタノ　名前デス。　",
+"コレガ　アナタノ　名前デス。",
 false,
 28,
 28
@@ -98161,7 +98161,7 @@ false,
 46
 ],
 "ja": [
-"　 「てめえ」とは　なんだッ！\n　 このスイート様に向かってッ！  ",
+"　 「てめえ」とは　なんだッ！\n　 このスイート様に向かってッ！",
 false,
 46,
 46
@@ -98637,7 +98637,7 @@ false,
 46
 ],
 "ja": [
-"　 おいッ　そこの３人！　いまから\n　 おまえたちは　正義の味方だッ！！   ",
+"　 おいッ　そこの３人！　いまから\n　 おまえたちは　正義の味方だッ！！",
 false,
 46,
 46
@@ -102415,13 +102415,13 @@ false,
 },
 "obj_ch2_room_dungeon_2f_slash_Step_0_gml_39_0": {
 "en": [
-"* A bouncy little pumpkin. ",
+"* A bouncy little pumpkin.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ポヨンポヨンの\n　 おりこうさんなのだ。   ",
+"＊ ポヨンポヨンの\n　 おりこうさんなのだ。",
 false,
 46,
 46
@@ -103671,13 +103671,13 @@ false,
 },
 "obj_ch2_room_town_hospital_slash_Step_0_gml_157_0": {
 "en": [
-"* SUSIE!?!? WHY ARE YOU HERE!? ",
+"* SUSIE!?!? WHY ARE YOU HERE!?",
 false,
 28,
 28
 ],
 "ja": [
-"＊ スージィッ！？\n　 なんでここに…！ ",
+"＊ スージィッ！？\n　 なんでここに…！",
 false,
 46,
 46
@@ -104717,13 +104717,13 @@ false,
 },
 "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_248_0": {
 "en": [
-"* Psst... I'll tell you later,<span class=\"break\">\n  </span>Kris.  ",
+"* Psst... I'll tell you later,<span class=\"break\">\n  </span>Kris.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ …クリス　おまえには\n　 あとで　こっそり教えるな。 ",
+"＊ …クリス　おまえには\n　 あとで　こっそり教えるな。",
 false,
 46,
 46
@@ -107183,10 +107183,10 @@ false,
 28
 ],
 "ja": [
-"＊ &lt;!--ワケノ　ワカラナイコト\n　 シナイジャナイ;\n　 [自分の意見を言う]トカ--&gt;\n　 ",
+"＊ &lt;!--ワケノ　ワカラナイコト\n　 シナイジャナイ;\n　 [自分の意見を言う]トカ--&gt;",
 false,
-82,
-82
+64,
+64
 ]
 },
 "obj_ch2_scene13_slash_Step_0_gml_220_0": {
@@ -108559,7 +108559,7 @@ false,
 28
 ],
 "ja": [
-"＊ みんなで　オエッて\n　 なりそうになるの\n　 楽しいね！　ホッホッホッ！　",
+"＊ みんなで　オエッて\n　 なりそうになるの\n　 楽しいね！　ホッホッホッ！",
 false,
 64,
 64
@@ -109301,13 +109301,13 @@ false,
 },
 "obj_ch2_scene19b_slash_Step_0_gml_53_0": {
 "en": [
-"* ",
+"*",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -109329,13 +109329,13 @@ false,
 },
 "obj_ch2_scene19b_slash_Step_0_gml_55_0": {
 "en": [
-"* ",
+"*",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -112311,7 +112311,7 @@ false,
 28
 ],
 "ja": [
-"＊ あの…　海賊キャラか\n　 文語キャラ　どっちかに\n　 してもらえますか？　",
+"＊ あの…　海賊キャラか\n　 文語キャラ　どっちかに\n　 してもらえますか？",
 false,
 64,
 64
@@ -116441,10 +116441,10 @@ false,
 28
 ],
 "ja": [
-"＊ えっ…！　バードリーさん…\n　 ど…どうして…\n　 ",
+"＊ えっ…！　バードリーさん…\n　 ど…どうして…",
 false,
-64,
-64
+46,
+46
 ]
 },
 "obj_ch2_scene25_slash_Step_0_gml_278_0": {
@@ -116883,13 +116883,13 @@ false,
 },
 "obj_ch2_scene25_slash_Step_0_gml_539_0": {
 "en": [
-"* Yes... It was, wasn't it...?  ",
+"* Yes... It was, wasn't it...?",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ああ　そうとも…　ボクは\n　 バカなことをした！ ",
+"＊ ああ　そうとも…　ボクは\n　 バカなことをした！",
 false,
 46,
 46
@@ -118533,7 +118533,7 @@ false,
 28
 ],
 "ja": [
-"＊ クリス　スージィ…\n　 体力が回復するまで　ボクは\n　 戦闘に参加できそうにない… ",
+"＊ クリス　スージィ…\n　 体力が回復するまで　ボクは\n　 戦闘に参加できそうにない…",
 false,
 64,
 64
@@ -120601,13 +120601,13 @@ false,
 },
 "obj_ch2_scene27_slash_Step_0_gml_391_0": {
 "en": [
-"* That's Okay Berdly I Understand  ",
+"* That's Okay Berdly I Understand",
 false,
 28,
 28
 ],
 "ja": [
-"＊ &lt;!--[バードリー]:\n　 大丈夫　ワカリマス ",
+"＊ &lt;!--[バードリー]:\n　 大丈夫　ワカリマス",
 false,
 46,
 46
@@ -123333,7 +123333,7 @@ false,
 28
 ],
 "ja": [
-"＊ …ていうか　クリスは\n　 なにを　チンタラやってんの\n　 かしら。 ",
+"＊ …ていうか　クリスは\n　 なにを　チンタラやってんの\n　 かしら。",
 false,
 64,
 64
@@ -126195,16 +126195,16 @@ false,
 },
 "obj_ch2_scene9_slash_Step_0_gml_209_0": {
 "en": [
-"* Teens Are Merely Big Children  ",
+"* Teens Are Merely Big Children",
 false,
 28,
 28
 ],
 "ja": [
-"＊ &lt;!--[ティーンエイジャー]\n　 ハ　デカイ　[ガキんちょ]\n　  ",
+"＊ &lt;!--[ティーンエイジャー]\n　 ハ　デカイ　[ガキんちょ]",
 false,
-64,
-64
+46,
+46
 ]
 },
 "obj_ch2_scene9_slash_Step_0_gml_213_0": {
@@ -127381,7 +127381,7 @@ false,
 28
 ],
 "ja": [
-"＊ ただいま　よ　ﾘ\n　 [[ｽﾍﾟｼﾙ]]ｾｰﾙ　はじめま　s…　",
+"＊ ただいま　よ　ﾘ\n　 [[ｽﾍﾟｼﾙ]]ｾｰﾙ　はじめま　s…",
 false,
 46,
 46
@@ -127391,7 +127391,7 @@ false,
 "obj_ch2_sceneex2_special": {
 "obj_ch2_sceneex2_special_slash_Draw_0_gml_16_0": {
 "en": [
-"PRESS ",
+"PRESS",
 false,
 28,
 28
@@ -127405,7 +127405,7 @@ false,
 },
 "obj_ch2_sceneex2_special_slash_Draw_0_gml_23_0": {
 "en": [
-"HOLD  ",
+"HOLD",
 false,
 28,
 28
@@ -127419,7 +127419,7 @@ false,
 },
 "obj_ch2_sceneex2_special_slash_Draw_0_gml_27_0": {
 "en": [
-"RELEASE ",
+"RELEASE",
 false,
 28,
 28
@@ -130569,13 +130569,13 @@ false,
 },
 "obj_classscene_slash_Step_0_gml_303_0": {
 "en": [
-"* Do you want me to - ",
+"* Do you want me to -",
 false,
 28,
 28
 ],
 "ja": [
-"＊ Do you want me to - ",
+"＊ Do you want me to -",
 false,
 28,
 28
@@ -132981,7 +132981,7 @@ false,
 },
 "obj_clubsenemy_slash_Draw_0_gml_98_0": {
 "en": [
-"TIME: ",
+"TIME:",
 false,
 28,
 28
@@ -137373,13 +137373,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_207_0": {
 "en": [
-"Attack: ",
+"Attack:",
 true,
 28,
 28
 ],
 "ja": [
-"こうげき: ",
+"こうげき:",
 true,
 28,
 28
@@ -137387,13 +137387,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_208_0": {
 "en": [
-"Defense: ",
+"Defense:",
 true,
 28,
 28
 ],
 "ja": [
-"ぼうぎょ: ",
+"ぼうぎょ:",
 true,
 28,
 28
@@ -137401,13 +137401,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_209_0": {
 "en": [
-"Magic: ",
+"Magic:",
 true,
 28,
 28
 ],
 "ja": [
-"まりょく: ",
+"まりょく:",
 true,
 28,
 28
@@ -137415,13 +137415,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_212_0": {
 "en": [
-"Guts: ",
+"Guts:",
 true,
 28,
 28
 ],
 "ja": [
-"ガッツ: ",
+"ガッツ:",
 true,
 28,
 28
@@ -137429,13 +137429,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_214_0": {
 "en": [
-"LV1 ",
+"LV1",
 true,
 28,
 28
 ],
 "ja": [
-"LV1 ",
+"LV1",
 true,
 28,
 28
@@ -137463,7 +137463,7 @@ true,
 28
 ],
 "ja": [
-"イヌ: ",
+"イヌ:",
 true,
 28,
 28
@@ -137597,13 +137597,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_251_0": {
 "en": [
-"Rudeness ",
+"Rudeness",
 true,
 28,
 28
 ],
 "ja": [
-"バッドさ: ",
+"バッドさ:",
 true,
 28,
 28
@@ -137611,13 +137611,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_252_0": {
 "en": [
-"Crudeness ",
+"Crudeness",
 true,
 28,
 28
 ],
 "ja": [
-"ザツさ: ",
+"ザツさ:",
 true,
 28,
 28
@@ -137653,13 +137653,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_311_0": {
 "en": [
-"Purple ",
+"Purple",
 false,
 28,
 28
 ],
 "ja": [
-"ムラサキ: ",
+"ムラサキ:",
 false,
 28,
 28
@@ -137729,7 +137729,7 @@ false,
 28
 ],
 "ja": [
-"やさしさ: ",
+"やさしさ:",
 false,
 28,
 28
@@ -137743,7 +137743,7 @@ false,
 28
 ],
 "ja": [
-"イヌさ: ",
+"イヌさ:",
 false,
 28,
 28
@@ -137863,7 +137863,7 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_362_0": {
 "en": [
-"Sweetness ",
+"Sweetness",
 false,
 28,
 28
@@ -137883,7 +137883,7 @@ true,
 28
 ],
 "ja": [
-"モフさ: ",
+"モフさ:",
 true,
 28,
 28
@@ -137947,13 +137947,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_388_0": {
 "en": [
-"Coldness ",
+"Coldness",
 false,
 28,
 28
 ],
 "ja": [
-"つめたさ: ",
+"つめたさ:",
 false,
 28,
 28
@@ -137967,7 +137967,7 @@ false,
 28
 ],
 "ja": [
-"ずぶとさ: ",
+"ずぶとさ:",
 false,
 28,
 28
@@ -138045,13 +138045,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_586_0": {
 "en": [
-"Attack: ",
+"Attack:",
 false,
 28,
 28
 ],
 "ja": [
-"こうげき: ",
+"こうげき:",
 false,
 28,
 28
@@ -138059,13 +138059,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_587_0": {
 "en": [
-"Defense: ",
+"Defense:",
 false,
 28,
 28
 ],
 "ja": [
-"ぼうぎょ: ",
+"ぼうぎょ:",
 false,
 28,
 28
@@ -138073,13 +138073,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_588_0": {
 "en": [
-"Magic: ",
+"Magic:",
 false,
 28,
 28
 ],
 "ja": [
-"まりょく: ",
+"まりょく:",
 false,
 28,
 28
@@ -141887,13 +141887,13 @@ false,
 },
 "obj_event_mouse3_berdlymonologue_slash_Step_0_gml_28_0": {
 "en": [
-"* She's but a powerless doe<span class=\"break\">\n  </span>without my help... ",
+"* She's but a powerless doe<span class=\"break\">\n  </span>without my help...",
 false,
 46,
 28
 ],
 "ja": [
-"＊ あのコは　ひとりじゃ\n　 なにもできない　か弱い\n　 雌トナカイだ… ",
+"＊ あのコは　ひとりじゃ\n　 なにもできない　か弱い\n　 雌トナカイだ…",
 false,
 64,
 64
@@ -141999,13 +141999,13 @@ false,
 },
 "obj_event_mouse3_berdlymonologue_slash_Step_0_gml_36_0": {
 "en": [
-"* You may see her as the<span class=\"break\">\n  </span>simpleton girl next door. ",
+"* You may see her as the<span class=\"break\">\n  </span>simpleton girl next door.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ キミは彼女を　ただの\n　 ドンくさいコだと思ってる。 ",
+"＊ キミは彼女を　ただの\n　 ドンくさいコだと思ってる。",
 false,
 46,
 46
@@ -142027,13 +142027,13 @@ false,
 },
 "obj_event_mouse3_berdlymonologue_slash_Step_0_gml_38_0": {
 "en": [
-"* A lovestruck girl with her<span class=\"break\">\n  </span>heart on her sleeve. ",
+"* A lovestruck girl with her<span class=\"break\">\n  </span>heart on her sleeve.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ ノエルは　恋に恋する\n　 悩める乙女なのさ。 ",
+"＊ ノエルは　恋に恋する\n　 悩める乙女なのさ。",
 false,
 46,
 46
@@ -142055,13 +142055,13 @@ false,
 },
 "obj_event_mouse3_berdlymonologue_slash_Step_0_gml_40_0": {
 "en": [
-"* May be surprising to you. ",
+"* May be surprising to you.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ 名前を聞いたら\n　 キミは驚くだろう。 ",
+"＊ 名前を聞いたら\n　 キミは驚くだろう。",
 false,
 46,
 46
@@ -142069,13 +142069,13 @@ false,
 },
 "obj_event_mouse3_berdlymonologue_slash_Step_0_gml_41_0": {
 "en": [
-"* It's... Truly sad. Such love...<span class=\"break\">\n  </span>May never fruit. ",
+"* It's... Truly sad. Such love...<span class=\"break\">\n  </span>May never fruit.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ 残念ながら…　その手の恋が\n　 実る可能性は低い。 ",
+"＊ 残念ながら…　その手の恋が\n　 実る可能性は低い。",
 false,
 46,
 46
@@ -142097,13 +142097,13 @@ false,
 },
 "obj_event_mouse3_berdlymonologue_slash_Step_0_gml_43_0": {
 "en": [
-"* She's my friend. ",
+"* She's my friend.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ 友だちだからね。 ",
+"＊ 友だちだからね。",
 false,
 28,
 28
@@ -142111,13 +142111,13 @@ false,
 },
 "obj_event_mouse3_berdlymonologue_slash_Step_0_gml_44_0": {
 "en": [
-"* Also, my only worthy opponent<span class=\"break\">\n  </span>at racing games. ",
+"* Also, my only worthy opponent<span class=\"break\">\n  </span>at racing games.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ それに　レースゲームで\n　 ボクと対等に渡り合える\n　 貴重な相手だ。 ",
+"＊ それに　レースゲームで\n　 ボクと対等に渡り合える\n　 貴重な相手だ。",
 false,
 64,
 64
@@ -142865,7 +142865,7 @@ false,
 "obj_fusionmenu": {
 "obj_fusionmenu_slash_Draw_0_gml_171_0": {
 "en": [
-"Page ",
+"Page",
 false,
 28,
 28
@@ -142893,13 +142893,13 @@ false,
 },
 "obj_fusionmenu_slash_Draw_0_gml_47_0": {
 "en": [
-"CHAPTER ",
+"CHAPTER",
 false,
 28,
 28
 ],
 "ja": [
-"CHAPTER ",
+"CHAPTER",
 false,
 28,
 28
@@ -142907,13 +142907,13 @@ false,
 },
 "obj_fusionmenu_slash_Draw_0_gml_48_0": {
 "en": [
-"LV ",
+"LV",
 false,
 28,
 28
 ],
 "ja": [
-"LV ",
+"LV",
 false,
 28,
 28
@@ -143019,13 +143019,13 @@ false,
 },
 "obj_fusionmenu_slash_Draw_0_gml_84_0": {
 "en": [
-"CHAPTER ",
+"CHAPTER",
 false,
 28,
 28
 ],
 "ja": [
-"CHAPTER ",
+"CHAPTER",
 false,
 28,
 28
@@ -143159,7 +143159,7 @@ false,
 },
 "obj_fusionmenu_slash_Draw_0_gml_98_0": {
 "en": [
-"ELEMENT  ",
+"ELEMENT",
 false,
 28,
 28
@@ -143299,7 +143299,7 @@ false,
 },
 "obj_fusionmenu_slash_Draw_0_gml_161_0": {
 "en": [
-"Page ",
+"Page",
 false,
 28,
 28
@@ -145317,7 +145317,7 @@ false,
 28
 ],
 "ja": [
-"＊ i4  ",
+"＊ i4",
 true,
 28,
 28
@@ -146077,13 +146077,13 @@ false,
 },
 "obj_krisroom_slash_Step_0_gml_321_0": {
 "en": [
-"Kris...? ",
+"Kris...?",
 false,
 28,
 28
 ],
 "ja": [
-"クリス…？ ",
+"クリス…？",
 false,
 28,
 28
@@ -146091,13 +146091,13 @@ false,
 },
 "obj_krisroom_slash_Step_0_gml_322_0": {
 "en": [
-"Kris, honey...\nAre you awake...? ",
+"Kris, honey...\nAre you awake...?",
 false,
 46,
 46
 ],
 "ja": [
-"クリス…\nおきてるの…？ ",
+"クリス…\nおきてるの…？",
 false,
 46,
 46
@@ -146105,13 +146105,13 @@ false,
 },
 "obj_krisroom_slash_Step_0_gml_323_0": {
 "en": [
-"... w.... wait! ",
+"... w.... wait!",
 false,
 28,
 28
 ],
 "ja": [
-"…えっ…まって！ ",
+"…えっ…まって！",
 false,
 28,
 28
@@ -146119,13 +146119,13 @@ false,
 },
 "obj_krisroom_slash_Step_0_gml_324_0": {
 "en": [
-"Is that a... ",
+"Is that a...",
 false,
 28,
 28
 ],
 "ja": [
-"まさか… ",
+"まさか…",
 false,
 28,
 28
@@ -146133,13 +146133,13 @@ false,
 },
 "obj_krisroom_slash_Step_0_gml_325_0": {
 "en": [
-"A knife!!? ",
+"A knife!!?",
 false,
 28,
 28
 ],
 "ja": [
-"ナイフ！？ ",
+"ナイフ！？",
 false,
 28,
 28
@@ -146147,13 +146147,13 @@ false,
 },
 "obj_krisroom_slash_Step_0_gml_353_0": {
 "en": [
-"NOOOOOOOO---!!! ",
+"NOOOOOOOO---!!!",
 false,
 28,
 28
 ],
 "ja": [
-"そんな………！！！ ",
+"そんな………！！！",
 false,
 28,
 28
@@ -148261,7 +148261,7 @@ false,
 "obj_moneydisplay": {
 "obj_moneydisplay_slash_Draw_0_gml_22_0": {
 "en": [
-"HELD SPACE: ",
+"HELD SPACE:",
 false,
 28,
 28
@@ -148275,7 +148275,7 @@ false,
 },
 "obj_moneydisplay_slash_Draw_0_gml_23_0": {
 "en": [
-"STORAGE SPACE: ",
+"STORAGE SPACE:",
 false,
 28,
 28
@@ -150429,13 +150429,13 @@ false,
 "obj_npc_dumpster": {
 "obj_npc_dumpster_slash_Step_0_gml_40_0": {
 "en": [
-"* You found the <span class=\"G\">[Moss]</span>! ",
+"* You found the <span class=\"G\">[Moss]</span>!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ <span class=\"G\">[コケ]</span>を見つけた！ ",
+"＊ <span class=\"G\">[コケ]</span>を見つけた！",
 false,
 28,
 28
@@ -150619,7 +150619,7 @@ false,
 46
 ],
 "ja": [
-"＊ …なぁあんつってぇええ！\n＊ わるいけど　ボク　100てん\n　 とりたいからぁ～！　",
+"＊ …なぁあんつってぇええ！\n＊ わるいけど　ボク　100てん\n　 とりたいからぁ～！",
 false,
 64,
 64
@@ -151907,7 +151907,7 @@ false,
 28
 ],
 "ja": [
-"＊ &lt;!--ゲーム機 ≠\n　 自動販売機--&gt; ",
+"＊ &lt;!--ゲーム機 ≠\n　 自動販売機--&gt;",
 false,
 46,
 46
@@ -154859,7 +154859,7 @@ false,
 28
 ],
 "ja": [
-"＊ おい　あっちにいるのって\n　 ポインじゃねー！？ ",
+"＊ おい　あっちにいるのって\n　 ポインじゃねー！？",
 false,
 46,
 46
@@ -155933,13 +155933,13 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_191_0": {
 "en": [
-"* It was just NICER seeing LESS<span class=\"break\">\n  </span>of you! ",
+"* It was just NICER seeing LESS<span class=\"break\">\n  </span>of you!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ 前は　おまえの顔が\n　 ほぼ隠れてて　よかったよ！  ",
+"＊ 前は　おまえの顔が\n　 ほぼ隠れてて　よかったよ！",
 false,
 46,
 46
@@ -156087,13 +156087,13 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_216_0": {
 "en": [
-"* Let Kris do what they want,<span class=\"break\">\n  </span>Susie! ",
+"* Let Kris do what they want,<span class=\"break\">\n  </span>Susie!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ スージィ　クリスの\n　 好きに　させてあげようよ！  ",
+"＊ スージィ　クリスの\n　 好きに　させてあげようよ！",
 false,
 46,
 46
@@ -156129,13 +156129,13 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_222_0": {
 "en": [
-"* Susie wants to practice hugging<span class=\"break\">\n  </span>too?   ",
+"* Susie wants to practice hugging<span class=\"break\">\n  </span>too?",
 false,
 46,
 28
 ],
 "ja": [
-"＊ スージィも\n　 ハグの練習したいの？  ",
+"＊ スージィも\n　 ハグの練習したいの？",
 false,
 46,
 46
@@ -158131,13 +158131,13 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_698_0": {
 "en": [
-"* Anyway, Susie sucks, Kris,<span class=\"break\">\n  </span>haha. ",
+"* Anyway, Susie sucks, Kris,<span class=\"break\">\n  </span>haha.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ よーするに　スージィは\n　 サイテーだってことだな！\n　 ハハハ！ ",
+"＊ よーするに　スージィは\n　 サイテーだってことだな！\n　 ハハハ！",
 false,
 64,
 64
@@ -158187,7 +158187,7 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_710_0": {
 "en": [
-"* HOOH!!\n* You're lucky, Kris!! ",
+"* HOOH!!\n* You're lucky, Kris!!",
 false,
 46,
 46
@@ -159649,7 +159649,7 @@ false,
 28
 ],
 "ja": [
-"＊ ドアまで作っちゃう\n　 なんて！　なかなか\n　 やるな　ピーチボーイ！ ",
+"＊ ドアまで作っちゃう\n　 なんて！　なかなか\n　 やるな　ピーチボーイ！",
 false,
 64,
 64
@@ -164787,7 +164787,7 @@ false,
 28
 ],
 "ja": [
-"＊ Today's lesson is...\n＊ <span class=\"R\">Get out of my way when I'm<span class=\"break\">\n</span>building a ladder!</span> ",
+"＊ Today's lesson is...\n＊ <span class=\"R\">Get out of my way when I'm<span class=\"break\">\n</span>building a ladder!</span>",
 true,
 64,
 46
@@ -165331,13 +165331,13 @@ false,
 },
 "obj_npc_sign_slash_Other_10_gml_17_0": {
 "en": [
-"MidMid ",
+"MidMid",
 false,
 28,
 28
 ],
 "ja": [
-"MidMid ",
+"MidMid",
 false,
 28,
 28
@@ -165387,13 +165387,13 @@ false,
 },
 "obj_npc_sign_slash_Other_10_gml_22_0": {
 "en": [
-"* ENEMY - AT 1 DF 1\n* Susceptible to Brainshock.       ",
+"* ENEMY - AT 1 DF 1\n* Susceptible to Brainshock.",
 false,
 46,
 46
 ],
 "ja": [
-"＊ ENEMY - AT 1 DF 1\n＊ Susceptible to Brainshock.       ",
+"＊ ENEMY - AT 1 DF 1\n＊ Susceptible to Brainshock.",
 false,
 46,
 46
@@ -165813,7 +165813,7 @@ false,
 28
 ],
 "ja": [
-"＊ わあ…！　このお人形に\n　 お洋服作ってあげていい？ ",
+"＊ わあ…！　このお人形に\n　 お洋服作ってあげていい？",
 false,
 46,
 46
@@ -166247,7 +166247,7 @@ false,
 28
 ],
 "ja": [
-"＊ ランサーが…　弱っちまう。 ",
+"＊ ランサーが…　弱っちまう。",
 false,
 28,
 28
@@ -168431,10 +168431,10 @@ false,
 28
 ],
 "ja": [
-"＊ &lt;!--[ピーチボーイ]ハ　\n　 オ友ダチト　遊ンデキナサイ\n　 ",
+"＊ &lt;!--[ピーチボーイ]ハ　\n　 オ友ダチト　遊ンデキナサイ",
 false,
-64,
-64
+46,
+46
 ]
 },
 "obj_npc_sign_slash_Other_10_gml_926_0": {
@@ -168691,13 +168691,13 @@ false,
 },
 "obj_npc_sign_slash_Other_10_gml_1114_0": {
 "en": [
-"* Nah, more like they're F-  ",
+"* Nah, more like they're F-",
 false,
 28,
 28
 ],
 "ja": [
-"＊ クリス。オレの言うとおりに\n　 タイプしろ。F…　 ",
+"＊ クリス。オレの言うとおりに\n　 タイプしろ。F…",
 false,
 46,
 46
@@ -168719,13 +168719,13 @@ false,
 },
 "obj_npc_sign_slash_Other_10_gml_1119_0": {
 "en": [
-"* G-O-O-D-L-U-C-K-K-R-I-S!  ",
+"* G-O-O-D-L-U-C-K-K-R-I-S!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ G O O D L U C K！ ",
+"＊ G O O D L U C K！",
 false,
 28,
 28
@@ -168901,13 +168901,13 @@ false,
 },
 "obj_npc_sign_slash_Other_10_gml_1160_0": {
 "en": [
-"* ... wait, you checked?  ",
+"* ... wait, you checked?",
 false,
 28,
 28
 ],
 "ja": [
-"＊ …って　おまえ\n　 やってみたのかよ？ ",
+"＊ …って　おまえ\n　 やってみたのかよ？",
 false,
 46,
 46
@@ -170663,7 +170663,7 @@ false,
 },
 "obj_pipis_enemy_slash_Step_0_gml_97_0": {
 "en": [
-"<span class=\"param\">~1</span> liked this!  ",
+"<span class=\"param\">~1</span> liked this!",
 false,
 28,
 28
@@ -170677,13 +170677,13 @@ false,
 },
 "obj_pipis_enemy_slash_Step_0_gml_100_0": {
 "en": [
-"PIPIS - ''The Original'' An<span class=\"break\">\n</span>invasive species of freshwater<span class=\"break\">\n</span>clam.  ",
+"PIPIS - ''The Original'' An<span class=\"break\">\n</span>invasive species of freshwater<span class=\"break\">\n</span>clam.",
 false,
 64,
 28
 ],
 "ja": [
-"ピピス - 「The Original」。\n淡水に棲む　侵襲性の二枚貝。 ",
+"ピピス - 「The Original」。\n淡水に棲む　侵襲性の二枚貝。",
 false,
 46,
 46
@@ -172843,13 +172843,13 @@ false,
 },
 "obj_queen_enemy_slash_Step_0_gml_768_0": {
 "en": [
-"* Wow Spoken Like A Real Trucie ",
+"* Wow Spoken Like A Real Trucie",
 false,
 28,
 28
 ],
 "ja": [
-"＊ &lt;!--[停戦メイト]ラシイ\n　 ステキナ　言葉ネ--&gt; ",
+"＊ &lt;!--[停戦メイト]ラシイ\n　 ステキナ　言葉ネ--&gt;",
 false,
 46,
 46
@@ -177499,7 +177499,7 @@ false,
 28
 ],
 "ja": [
-"＊ でも　でかい　つばさ\n　 ばかりつくって　ほんたいが\n　 かんせいしなかった！ ",
+"＊ でも　でかい　つばさ\n　 ばかりつくって　ほんたいが\n　 かんせいしなかった！",
 false,
 64,
 64
@@ -179739,7 +179739,7 @@ false,
 64
 ],
 "ja": [
-"＊ たー　\n＊ たー　\n＊ くー　な！　",
+"＊ たー　\n＊ たー　\n＊ くー　な！",
 false,
 64,
 64
@@ -184049,13 +184049,13 @@ false,
 },
 "obj_room_dw_city_postbaseball_slash_Step_0_gml_105_0": {
 "en": [
-"* Well, see ya later.  ",
+"* Well, see ya later.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ うし。じゃーな。 ",
+"＊ うし。じゃーな。",
 false,
 28,
 28
@@ -194769,7 +194769,7 @@ false,
 },
 "obj_spamton_enemy_slash_Step_0_gml_127_0": {
 "en": [
-"* Great ENEMY! SUSCRIBE NOW! ",
+"* Great ENEMY! SUSCRIBE NOW!",
 false,
 28,
 28
@@ -197347,13 +197347,13 @@ false,
 },
 "obj_spamton_neo_enemy_slash_Step_0_gml_581_0": {
 "en": [
-"* RECOVERED HP with pipis! ",
+"* RECOVERED HP with pipis!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ピピスで　HPを回復！ ",
+"＊ ピピスで　HPを回復！",
 false,
 28,
 28
@@ -200007,7 +200007,7 @@ false,
 28
 ],
 "ja": [
-"＊ 百獣の王は　オレだ！！ ",
+"＊ 百獣の王は　オレだ！！",
 false,
 28,
 28
@@ -200077,7 +200077,7 @@ false,
 28
 ],
 "ja": [
-"＊ よしよし　ネコちゃん…\n　 こわくないですよ… ",
+"＊ よしよし　ネコちゃん…\n　 こわくないですよ…",
 false,
 46,
 46
@@ -201543,7 +201543,7 @@ false,
 28
 ],
 "ja": [
-"＊ Lancer joined the party!      ",
+"＊ Lancer joined the party!",
 true,
 28,
 28
@@ -203879,13 +203879,13 @@ true,
 "scr_anyface": {
 "scr_anyface_slash_scr_anyface_gml_23_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -203893,13 +203893,13 @@ false,
 },
 "scr_anyface_slash_scr_anyface_gml_24_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -203907,13 +203907,13 @@ false,
 },
 "scr_anyface_slash_scr_anyface_gml_27_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -203921,13 +203921,13 @@ false,
 },
 "scr_anyface_slash_scr_anyface_gml_28_0_b": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -203935,13 +203935,13 @@ false,
 },
 "scr_anyface_slash_scr_anyface_gml_28_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -203949,13 +203949,13 @@ false,
 },
 "scr_anyface_slash_scr_anyface_gml_29_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -203963,13 +203963,13 @@ false,
 },
 "scr_anyface_slash_scr_anyface_gml_30_0": {
 "en": [
-"  1   ",
+"  1",
 false,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 false,
 28,
 28
@@ -206095,14 +206095,14 @@ false,
 },
 "scr_ascii_input_names_slash_scr_ascii_input_names_gml_74_0": {
 "en": [
-"Numpad ",
+"Numpad",
 true,
 28,
 28
 ],
 "ja": [
 "テンキー",
-false,
+true,
 28,
 28
 ]
@@ -206265,13 +206265,13 @@ true,
 "scr_asgface": {
 "scr_asgface_slash_scr_asgface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -206827,7 +206827,7 @@ false,
 },
 "scr_encountersetup_slash_scr_encountersetup_gml_620_0": {
 "en": [
-"* Maice blocked the way! ",
+"* Maice blocked the way!",
 false,
 28,
 28
@@ -206917,7 +206917,7 @@ false,
 28
 ],
 "ja": [
-"＊ クイーンに　行く手を　ふさがれた！ ",
+"＊ クイーンに　行く手を　ふさがれた！",
 false,
 28,
 28
@@ -207009,7 +207009,7 @@ false,
 },
 "scr_encountersetup_slash_scr_encountersetup_gml_817_0": {
 "en": [
-"* Maus blocked the way! ",
+"* Maus blocked the way!",
 false,
 28,
 28
@@ -207239,7 +207239,7 @@ false,
 28
 ],
 "ja": [
-"＊ バードリーに　行く手を　ふさがれた！ ",
+"＊ バードリーに　行く手を　ふさがれた！",
 false,
 28,
 28
@@ -210729,7 +210729,7 @@ false,
 28
 ],
 "ja": [
-"…ただの水だよ！　からかわれてる！？　",
+"…ただの水だよ！　からかわれてる！？",
 false,
 28,
 28
@@ -212169,13 +212169,13 @@ false,
 "scr_kingface": {
 "scr_kingface_slash_scr_kingface_gml_3_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -212183,13 +212183,13 @@ true,
 },
 "scr_kingface_slash_scr_kingface_gml_7_0": {
 "en": [
-"  1  ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1  ",
+"  1",
 true,
 28,
 28
@@ -212199,13 +212199,13 @@ true,
 "scr_lanface": {
 "scr_lanface_slash_scr_lanface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -219101,13 +219101,13 @@ true,
 "scr_noeface": {
 "scr_noeface_slash_scr_noeface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -219175,13 +219175,13 @@ false,
 "scr_ralface": {
 "scr_ralface_slash_scr_ralface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -219235,7 +219235,7 @@ false,
 "scr_recruit_info": {
 "scr_recruit_info_slash_scr_recruit_info_gml_10_0": {
 "en": [
-"Known Quantity ",
+"Known Quantity",
 false,
 28,
 28
@@ -221157,13 +221157,13 @@ false,
 "scr_rudface": {
 "scr_rudface_slash_scr_rudface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -221173,13 +221173,13 @@ true,
 "scr_rurusface": {
 "scr_rurusface_slash_scr_rurusface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -222765,13 +222765,13 @@ false,
 "scr_susface": {
 "scr_susface_slash_scr_susface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -222993,13 +222993,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_44_0": {
 "en": [
-"* I'll ask if you're sure!\n \nNot yet     Yes. Ask. ",
+"* I'll ask if you're sure!\n \nNot yet     Yes. Ask.",
 false,
 64,
 64
 ],
 "ja": [
-"＊ どうする？　きいてみる？\n \n   まって        きいてみて ",
+"＊ どうする？　きいてみる？\n \n   まって        きいてみて",
 false,
 64,
 64
@@ -223049,13 +223049,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_62_0": {
 "en": [
-"* Do you wanna be partners?\nNot yet     Yes ",
+"* Do you wanna be partners?\nNot yet     Yes",
 false,
 46,
 46
 ],
 "ja": [
-"＊ わたしたちの　グループに\n　 はいりたい？\n   まって        うん ",
+"＊ わたしたちの　グループに\n　 はいりたい？\n   まって        うん",
 false,
 64,
 64
@@ -223147,13 +223147,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_83_0": {
 "en": [
-"* How's that sound?\n \nGood        Bad ",
+"* How's that sound?\n \nGood        Bad",
 false,
 64,
 64
 ],
 "ja": [
-"＊ いいな？\n \n   はい          いやです ",
+"＊ いいな？\n \n   はい          いやです",
 false,
 64,
 64
@@ -231813,13 +231813,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1632_0": {
 "en": [
-"* But make sure you don't watch<span class=\"break\">\n  </span>past the second season ",
+"* But make sure you don't watch<span class=\"break\">\n  </span>past the second season",
 false,
 46,
 28
 ],
 "ja": [
-"＊ あ　でも\n　 シーズン２より　さきは\n　 ぜったい　みないで ",
+"＊ あ　でも\n　 シーズン２より　さきは\n　 ぜったい　みないで",
 false,
 64,
 64
@@ -231827,13 +231827,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1633_0": {
 "en": [
-"* Since they just rebooted it as<span class=\"break\">\n  </span>Symptons Turbo ",
+"* Since they just rebooted it as<span class=\"break\">\n  </span>Symptons Turbo",
 false,
 46,
 28
 ],
 "ja": [
-"＊ 「シンプトンズ・ターボ」\n　 ってなまえで　リブート\n　 したんだけど ",
+"＊ 「シンプトンズ・ターボ」\n　 ってなまえで　リブート\n　 したんだけど",
 false,
 64,
 64
@@ -231841,13 +231841,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1634_0": {
 "en": [
-"* They all started driving their<span class=\"break\">\n  </span>own motor-vehicles ",
+"* They all started driving their<span class=\"break\">\n  </span>own motor-vehicles",
 false,
 46,
 28
 ],
 "ja": [
-"＊ とうじょうキャラ\n　 ぜんいんが　バイクとか\n　 クルマとか　のりまわして ",
+"＊ とうじょうキャラ\n　 ぜんいんが　バイクとか\n　 クルマとか　のりまわして",
 false,
 64,
 64
@@ -231855,13 +231855,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1635_0": {
 "en": [
-"* And fighting giant giga-demons<span class=\"break\">\n  </span>and stuff ",
+"* And fighting giant giga-demons<span class=\"break\">\n  </span>and stuff",
 false,
 46,
 28
 ],
 "ja": [
-"＊ きょだいデーモンとかと\n　 たたかう　はなしに\n　 なっちゃって ",
+"＊ きょだいデーモンとかと\n　 たたかう　はなしに\n　 なっちゃって",
 false,
 64,
 64
@@ -231869,13 +231869,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1636_0": {
 "en": [
-"* The main problem about that is<span class=\"break\">\n  </span>that it kind of ",
+"* The main problem about that is<span class=\"break\">\n  </span>that it kind of",
 false,
 46,
 28
 ],
 "ja": [
-"＊ でも　いちばん\n　 もんだいなのは ",
+"＊ でも　いちばん\n　 もんだいなのは",
 false,
 46,
 46
@@ -231883,13 +231883,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1637_0": {
 "en": [
-"* Lost the focus on family that<span class=\"break\">\n  </span>it had earlier ",
+"* Lost the focus on family that<span class=\"break\">\n  </span>it had earlier",
 false,
 46,
 28
 ],
 "ja": [
-"＊ かぞくの　きずなの\n　 テーマが　うしなわれ\n　 ちゃったこと ",
+"＊ かぞくの　きずなの\n　 テーマが　うしなわれ\n　 ちゃったこと",
 false,
 64,
 64
@@ -231897,13 +231897,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1638_0": {
 "en": [
-"* When their vehicles were shaped<span class=\"break\">\n  </span>like animals ",
+"* When their vehicles were shaped<span class=\"break\">\n  </span>like animals",
 false,
 46,
 28
 ],
 "ja": [
-"＊ かれらが　のってる\n　 クルマや　バイクは\n　 どうぶつのフォルムで ",
+"＊ かれらが　のってる\n　 クルマや　バイクは\n　 どうぶつのフォルムで",
 false,
 64,
 64
@@ -231911,13 +231911,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1639_0": {
 "en": [
-"* And they were friends with the<span class=\"break\">\n  </span>animal vehicles too ",
+"* And they were friends with the<span class=\"break\">\n  </span>animal vehicles too",
 false,
 46,
 28
 ],
 "ja": [
-"＊ みんな　そのクルマや\n　 バイクとも　おともだち\n　 だったはずなのに ",
+"＊ みんな　そのクルマや\n　 バイクとも　おともだち\n　 だったはずなのに",
 false,
 64,
 64
@@ -231925,13 +231925,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1640_0": {
 "en": [
-"* And let's not get into Symptons<span class=\"break\">\n  </span>Galaxy Force ",
+"* And let's not get into Symptons<span class=\"break\">\n  </span>Galaxy Force",
 false,
 46,
 28
 ],
 "ja": [
-"＊ でも　それをいったら\n　 「シンプトンズ・ギャラク\n　 シー・フォース」なんて ",
+"＊ でも　それをいったら\n　 「シンプトンズ・ギャラク\n　 シー・フォース」なんて",
 false,
 64,
 64
@@ -231939,13 +231939,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1641_0": {
 "en": [
-"* Where the Symptons discover<span class=\"break\">\n  </span>another Earth ",
+"* Where the Symptons discover<span class=\"break\">\n  </span>another Earth",
 false,
 46,
 28
 ],
 "ja": [
-"＊ シンプトン一家が\n　 もうひとつの　ちきゅうを\n　 はっけんするんだけど ",
+"＊ シンプトン一家が\n　 もうひとつの　ちきゅうを\n　 はっけんするんだけど",
 false,
 64,
 64
@@ -231953,13 +231953,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1642_0": {
 "en": [
-"* On the other side of the Sun ",
+"* On the other side of the Sun",
 false,
 28,
 28
 ],
 "ja": [
-"＊ そのばしょが\n　 たいようの　うらがわで ",
+"＊ そのばしょが\n　 たいようの　うらがわで",
 false,
 46,
 46
@@ -231967,13 +231967,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_1643_0": {
 "en": [
-"* WOULDN'T THE GRAVITATIONAL<span class=\"break\">\n  </span>FIELD JUST ",
+"* WOULDN'T THE GRAVITATIONAL<span class=\"break\">\n  </span>FIELD JUST",
 false,
 46,
 28
 ],
 "ja": [
-"＊ でも　それだと\n　 じゅうりょくフィールドが ",
+"＊ でも　それだと\n　 じゅうりょくフィールドが",
 false,
 46,
 46
@@ -232835,7 +232835,7 @@ false,
 },
 "scr_text_slash_scr_text_gml_1858_0": {
 "en": [
-"* Interested in a Choco Diamond? ",
+"* Interested in a Choco Diamond?",
 false,
 28,
 28
@@ -234101,7 +234101,7 @@ false,
 28
 ],
 "ja": [
-"＊ ここの　ゴロつきどもに\n　 きょうみが　あんのか？\n　 じゃあ　しょうかいするぜ。　",
+"＊ ここの　ゴロつきどもに\n　 きょうみが　あんのか？\n　 じゃあ　しょうかいするぜ。",
 false,
 64,
 64
@@ -243503,7 +243503,7 @@ false,
 },
 "scr_text_slash_scr_text_gml_3807_0": {
 "en": [
-"* She curses me, every day\n* Glares 'cause I'm in her way ",
+"* She curses me, every day\n* Glares 'cause I'm in her way",
 false,
 46,
 46
@@ -247975,7 +247975,7 @@ false,
 28
 ],
 "ja": [
-"＊ わざわざ食うことないぜ。\n　 クソマズいからな。 ",
+"＊ わざわざ食うことないぜ。\n　 クソマズいからな。",
 false,
 46,
 46
@@ -248003,7 +248003,7 @@ false,
 28
 ],
 "ja": [
-"＊ わざわざ食うことないぜ。\n　 クソマズいからな。 ",
+"＊ わざわざ食うことないぜ。\n　 クソマズいからな。",
 false,
 46,
 46
@@ -253869,7 +253869,7 @@ false,
 28
 ],
 "ja": [
-"＊ そ…そっか…！\n　 やる気マンマンだね！ ",
+"＊ そ…そっか…！\n　 やる気マンマンだね！",
 false,
 46,
 46
@@ -253911,7 +253911,7 @@ false,
 28
 ],
 "ja": [
-"＊ べつに\n　 なりたくないですから… ",
+"＊ べつに\n　 なりたくないですから…",
 false,
 46,
 46
@@ -257589,13 +257589,13 @@ true,
 "scr_torface": {
 "scr_torface_slash_scr_torface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -259599,13 +259599,13 @@ true,
 "DEVICE_CONTACT": {
 "DEVICE_CONTACT_slash_Step_0_gml_6_0": {
 "en": [
-" ARE YOU\n THERE?  ",
+" ARE YOU\n THERE?",
 true,
 46,
 46
 ],
 "ja": [
-"聞コエマスカ？  ",
+"聞コエマスカ？",
 true,
 28,
 28
@@ -259613,13 +259613,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_7_0": {
 "en": [
-" ARE WE\nCONNECTED?   ",
+" ARE WE\nCONNECTED?",
 true,
 46,
 46
 ],
 "ja": [
-" ワレワレハ\n 接続サレテ\n イマスカ？   ",
+" ワレワレハ\n 接続サレテ\n イマスカ？",
 true,
 64,
 64
@@ -259641,13 +259641,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_33_0": {
 "en": [
-"EXCELLENT.  ",
+"EXCELLENT.",
 true,
 28,
 28
 ],
 "ja": [
-"   結構。  ",
+"   結構。",
 true,
 28,
 28
@@ -259655,13 +259655,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_34_0": {
 "en": [
-"  TRULY\nEXCELLENT.  ",
+"  TRULY\nEXCELLENT.",
 true,
 46,
 46
 ],
 "ja": [
-"  ジツニ\n 結構デス。  ",
+"  ジツニ\n 結構デス。",
 true,
 46,
 46
@@ -259669,13 +259669,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_35_0": {
 "en": [
-"   NOW.  ",
+"   NOW.",
 true,
 28,
 28
 ],
 "ja": [
-"   デハ。  ",
+"   デハ。",
 true,
 28,
 28
@@ -259683,13 +259683,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_36_0": {
 "en": [
-"  WE MAY\n  BEGIN.  ",
+"  WE MAY\n  BEGIN.",
 true,
 46,
 46
 ],
 "ja": [
-" 始メマショウ。  ",
+" 始メマショウ。",
 true,
 28,
 28
@@ -259697,13 +259697,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_107_0": {
 "en": [
-"FIRST.  ",
+"FIRST.",
 true,
 28,
 28
 ],
 "ja": [
-"      マズ。  ",
+"      マズ。",
 true,
 28,
 28
@@ -259711,13 +259711,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_111_0": {
 "en": [
-"YOU MUST CREATE\nA VESSEL.  ",
+"YOU MUST CREATE\nA VESSEL.",
 true,
 46,
 46
 ],
 "ja": [
-"      器ヲ\n  ツクルノデス。  ",
+"      器ヲ\n  ツクルノデス。",
 true,
 46,
 46
@@ -259767,13 +259767,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_205_0": {
 "en": [
-"THIS IS YOUR BODY.  ",
+"THIS IS YOUR BODY.",
 true,
 28,
 28
 ],
 "ja": [
-"コレガ アナタノ\n体デス。  ",
+"コレガ アナタノ\n体デス。",
 true,
 46,
 46
@@ -259795,13 +259795,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_240_0": {
 "en": [
-"   EXCELLENT.  ",
+"   EXCELLENT.",
 true,
 28,
 28
 ],
 "ja": [
-"   結構。  ",
+"   結構。",
 true,
 28,
 28
@@ -259809,13 +259809,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_241_0": {
 "en": [
-"YOU HAVE CREATED\nA WONDERFUL FORM.  ",
+"YOU HAVE CREATED\nA WONDERFUL FORM.",
 true,
 46,
 46
 ],
 "ja": [
-"スバラシイ フォルム ガ\n完成シマシタ。  ",
+"スバラシイ フォルム ガ\n完成シマシタ。",
 true,
 46,
 46
@@ -259823,13 +259823,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_242_0": {
 "en": [
-"       NOW.  ",
+"       NOW.",
 true,
 28,
 28
 ],
 "ja": [
-"       次ハ。  ",
+"       次ハ。",
 true,
 28,
 28
@@ -259837,13 +259837,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_243_0": {
 "en": [
-"LET US SHAPE ITS\nMIND AS YOUR OWN.   ",
+"LET US SHAPE ITS\nMIND AS YOUR OWN.",
 true,
 46,
 46
 ],
 "ja": [
-"器ノ 心ヲ アナタト\n同ジニ 創リマショウ。   ",
+"器ノ 心ヲ アナタト\n同ジニ 創リマショウ。",
 true,
 46,
 46
@@ -260327,13 +260327,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_664_0": {
 "en": [
-"UNDERSTOOD.  ",
+"UNDERSTOOD.",
 true,
 28,
 28
 ],
 "ja": [
-"ヨロシイ。  ",
+"ヨロシイ。",
 true,
 28,
 28
@@ -260355,13 +260355,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_729_0": {
 "en": [
-"WE CALLED IT\n\"<span class=\"param\">~1</span>.\"   ",
+"WE CALLED IT\n\"<span class=\"param\">~1</span>.\"",
 true,
 46,
 46
 ],
 "ja": [
-"ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。   ",
+"ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。",
 true,
 64,
 64
@@ -260369,13 +260369,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_730_0": {
 "en": [
-"AND WHAT ABOUT\nTHE CREATOR?  ",
+"AND WHAT ABOUT\nTHE CREATOR?",
 true,
 46,
 46
 ],
 "ja": [
-"デハ ツクリ手ノ\n名ハ？  ",
+"デハ ツクリ手ノ\n名ハ？",
 true,
 46,
 46
@@ -260383,13 +260383,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_734_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 true,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 true,
 28,
 28
@@ -260397,13 +260397,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_735_0": {
 "en": [
-"AN INTERESTING\nCOINCIDENCE.  ",
+"AN INTERESTING\nCOINCIDENCE.",
 true,
 46,
 46
 ],
 "ja": [
-"興味深イ 偶然デス。  ",
+"興味深イ 偶然デス。",
 true,
 28,
 28
@@ -260411,13 +260411,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_736_0": {
 "en": [
-"AND WHAT ABOUT\nTHE CREATOR?  ",
+"AND WHAT ABOUT\nTHE CREATOR?",
 true,
 46,
 46
 ],
 "ja": [
-"デハ ツクリ手ノ\n名ハ？  ",
+"デハ ツクリ手ノ\n名ハ？",
 true,
 46,
 46
@@ -260439,13 +260439,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_785_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 true,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 true,
 28,
 28
@@ -260453,13 +260453,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_786_0": {
 "en": [
-"EXCELLENT.  ",
+"EXCELLENT.",
 true,
 28,
 28
 ],
 "ja": [
-"結構。  ",
+"結構。",
 true,
 28,
 28
@@ -260467,13 +260467,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_787_0": {
 "en": [
-"TRULY \nEXCELLENT.  ",
+"TRULY \nEXCELLENT.",
 true,
 46,
 46
 ],
 "ja": [
-"ジツニ \n結構。  ",
+"ジツニ \n結構。",
 true,
 46,
 46
@@ -260481,13 +260481,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_790_0": {
 "en": [
-"HOW INTERESTING.  ",
+"HOW INTERESTING.",
 true,
 28,
 28
 ],
 "ja": [
-"コレハ 興味深イ。  ",
+"コレハ 興味深イ。",
 true,
 28,
 28
@@ -260495,13 +260495,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_794_0": {
 "en": [
-"YOU ARE ABOUT TO\nMEET SOMEONE   ",
+"YOU ARE ABOUT TO\nMEET SOMEONE",
 true,
 46,
 46
 ],
 "ja": [
-"アナタハ マモナク\n出会ウ…   ",
+"アナタハ マモナク\n出会ウ…",
 true,
 46,
 46
@@ -260509,13 +260509,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_795_0": {
 "en": [
-"VERY, VERY\nWONDERFUL.   ",
+"VERY, VERY\nWONDERFUL.",
 true,
 46,
 46
 ],
 "ja": [
-"ジツニ ジツニ\nステキナ 人物ニ。   ",
+"ジツニ ジツニ\nステキナ 人物ニ。",
 true,
 46,
 46
@@ -260523,13 +260523,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_800_0": {
 "en": [
-"OF COURSE\nOF COURSE.  ",
+"OF COURSE\nOF COURSE.",
 true,
 46,
 46
 ],
 "ja": [
-"ナルホド\n両者ハ 同一… ト。  ",
+"ナルホド\n両者ハ 同一… ト。",
 true,
 46,
 46
@@ -260537,13 +260537,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_801_0": {
 "en": [
-"OF COURSE THEY\nARE THE SAME.  ",
+"OF COURSE THEY\nARE THE SAME.",
 true,
 46,
 46
 ],
 "ja": [
-"サモ アリナン…。  ",
+"サモ アリナン…。",
 true,
 28,
 28
@@ -260551,13 +260551,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_816_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 true,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 true,
 28,
 28
@@ -260565,13 +260565,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_817_0": {
 "en": [
-"THANK YOU\nFOR YOUR TIME.   ",
+"THANK YOU\nFOR YOUR TIME.",
 true,
 46,
 46
 ],
 "ja": [
-"協力ニ 感謝シマス。   ",
+"協力ニ 感謝シマス。",
 true,
 28,
 28
@@ -260579,13 +260579,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_818_0": {
 "en": [
-"YOUR ANSWERS   ",
+"YOUR ANSWERS",
 true,
 28,
 28
 ],
 "ja": [
-"アナタノ 回答   ",
+"アナタノ 回答",
 true,
 28,
 28
@@ -260593,13 +260593,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_819_0": {
 "en": [
-"YOUR WONDERFUL\nCREATION ",
+"YOUR WONDERFUL\nCREATION",
 true,
 46,
 46
 ],
 "ja": [
-"アナタノ スバラシイ\n作品ハ ",
+"アナタノ スバラシイ\n作品ハ",
 true,
 46,
 46
@@ -260635,7 +260635,7 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_854_0": {
 "en": [
-"Your\n \nname\n \n is ",
+"Your\n \nname\n \n is",
 true,
 100,
 100
@@ -260649,13 +260649,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_889_0": {
 "en": [
-"Kris...! ",
+"Kris...!",
 true,
 28,
 28
 ],
 "ja": [
-"クリス…！ ",
+"クリス…！",
 true,
 28,
 28
@@ -260663,13 +260663,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_890_0": {
 "en": [
-"Wake up! ",
+"Wake up!",
 true,
 28,
 28
 ],
 "ja": [
-"起きて！ ",
+"起きて！",
 true,
 28,
 28
@@ -260677,13 +260677,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_891_0": {
 "en": [
-"KRIS...! ",
+"KRIS...!",
 true,
 28,
 28
 ],
 "ja": [
-"クリス…！ ",
+"クリス…！",
 true,
 28,
 28
@@ -260691,13 +260691,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_928_0": {
 "en": [
-" FIRST.  ",
+" FIRST.",
 true,
 28,
 28
 ],
 "ja": [
-" マズ。  ",
+" マズ。",
 true,
 28,
 28
@@ -260705,13 +260705,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_930_0": {
 "en": [
-" ARE YOU\nPHOTOSENSITIVE?   ",
+" ARE YOU\nPHOTOSENSITIVE?",
 true,
 46,
 46
 ],
 "ja": [
-" アナタハ\n光過敏性発作ヲ　起コシヤスイデスカ？   ",
+" アナタハ\n光過敏性発作ヲ　起コシヤスイデスカ？",
 true,
 46,
 46
@@ -262313,7 +262313,7 @@ true,
 28
 ],
 "ja": [
-"コレガ　アナタノ　名前デス。　",
+"コレガ　アナタノ　名前デス。",
 true,
 28,
 28
@@ -266245,7 +266245,7 @@ false,
 },
 "obj_b2_moneyhole_slash_Step_0_gml_141_0": {
 "en": [
-"Sigh... Can't a guy have just one<span class=\"break\">\n</span>bonus zone to himself...? ",
+"Sigh... Can't a guy have just one<span class=\"break\">\n</span>bonus zone to himself...?",
 false,
 46,
 28
@@ -266861,7 +266861,7 @@ false,
 },
 "obj_b2bridgepuzzle1_slash_Step_0_gml_132_0": {
 "en": [
-" ? ",
+" ?",
 false,
 28,
 28
@@ -276015,13 +276015,13 @@ false,
 },
 "obj_board_event_b2swap_slash_Step_0_gml_135_0": {
 "en": [
-" ? ",
+" ?",
 false,
 28,
 28
 ],
 "ja": [
-" ? ",
+" ?",
 false,
 28,
 28
@@ -278111,7 +278111,7 @@ false,
 28
 ],
 "ja": [
-"THAT CACTUS STILL LOVES YOU. ",
+"THAT CACTUS STILL LOVES YOU.",
 false,
 28,
 28
@@ -280971,13 +280971,13 @@ true,
 },
 "obj_ch2_room_dungeon_2f_slash_Step_0_gml_39_0": {
 "en": [
-"* A bouncy little pumpkin. ",
+"* A bouncy little pumpkin.",
 true,
 28,
 28
 ],
 "ja": [
-"＊ ポヨンポヨンの\n　 おりこうさんなのだ。   ",
+"＊ ポヨンポヨンの\n　 おりこうさんなのだ。",
 true,
 46,
 46
@@ -281841,13 +281841,13 @@ true,
 },
 "obj_ch2_room_town_hospital_slash_Step_0_gml_157_0": {
 "en": [
-"* SUSIE!?!? WHY ARE YOU HERE!? ",
+"* SUSIE!?!? WHY ARE YOU HERE!?",
 true,
 28,
 28
 ],
 "ja": [
-"＊ スージィッ！？\n　 なんでここに…！ ",
+"＊ スージィッ！？\n　 なんでここに…！",
 true,
 46,
 46
@@ -283629,13 +283629,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_273_0": {
 "en": [
-"* FLORAL COWBOY BATH CURTAINS!!! ",
+"* FLORAL COWBOY BATH CURTAINS!!!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ 花柄カウボーイ\n　 シャワーカーテン！！！ ",
+"＊ 花柄カウボーイ\n　 シャワーカーテン！！！",
 false,
 46,
 46
@@ -283643,13 +283643,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_286_0": {
 "en": [
-"* A BRAND NEW FAMILY CAR!!! ",
+"* A BRAND NEW FAMILY CAR!!!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ファミリーにオススメの\n　 新車！！！ ",
+"＊ ファミリーにオススメの\n　 新車！！！",
 false,
 46,
 46
@@ -283657,13 +283657,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_303_0": {
 "en": [
-"* BIG BRO'S TALKER-BACKER!! ",
+"* BIG BRO'S TALKER-BACKER!!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ お兄ちゃんの\n　 おしゃべりマシン！！ ",
+"＊ お兄ちゃんの\n　 おしゃべりマシン！！",
 false,
 46,
 46
@@ -283671,13 +283671,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_319_0": {
 "en": [
-"* KITCHEN SINK FUR-GUARD!! ",
+"* KITCHEN SINK FUR-GUARD!!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ キッチンシンク用\n　 抜け毛ガード！！ ",
+"＊ キッチンシンク用\n　 抜け毛ガード！！",
 false,
 46,
 46
@@ -283685,13 +283685,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_331_0": {
 "en": [
-"* CHOCOLATE CHEWY ROLL-UM'S!!! ",
+"* CHOCOLATE CHEWY ROLL-UM'S!!!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ かみかみロール\n　 チョコレート！！ ",
+"＊ かみかみロール\n　 チョコレート！！",
 false,
 46,
 46
@@ -283699,13 +283699,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_343_0": {
 "en": [
-"* A GENUINE RALSEI PLUSH!! ",
+"* A GENUINE RALSEI PLUSH!!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ 純正！　ラルセイのぬいぐるみ！ ",
+"＊ 純正！　ラルセイのぬいぐるみ！",
 false,
 28,
 28
@@ -288759,13 +288759,13 @@ false,
 },
 "obj_ch3_GSC07_slash_Step_0_gml_650_0_b": {
 "en": [
-"* <span style=\"display:inline-block;height:30px;width:156px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_city_feet.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"(But don't ask why the cars don't have feet!)\" width=\"156.5\" height=\"30.5\"/></span>  ",
+"* <span style=\"display:inline-block;height:30px;width:156px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_city_feet.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"(But don't ask why the cars don't have feet!)\" width=\"156.5\" height=\"30.5\"/></span>",
 false,
 40,
 40
 ],
 "ja": [
-"＊ <span style=\"display:inline-block;height:33px;width:181px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_city_feet.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"(クルマに　足がないところは ツッコミ禁止ですよ～！)\" width=\"181.0\" height=\"33.0\"/></span>  ",
+"＊ <span style=\"display:inline-block;height:33px;width:181px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_city_feet.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"(クルマに　足がないところは ツッコミ禁止ですよ～！)\" width=\"181.0\" height=\"33.0\"/></span>",
 false,
 43,
 43
@@ -293187,7 +293187,7 @@ false,
 28
 ],
 "ja": [
-"＊ オイッ！　貴様！\n　 やめろ！！　警察だ！！　",
+"＊ オイッ！　貴様！\n　 やめろ！！　警察だ！！",
 false,
 46,
 46
@@ -294281,7 +294281,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_441_0": {
 "en": [
-"* HOW THE WHAT THE MAMA WHAT THE<span class=\"break\">\n  </span>HECK THE ",
+"* HOW THE WHAT THE MAMA WHAT THE<span class=\"break\">\n  </span>HECK THE",
 false,
 46,
 28
@@ -294295,7 +294295,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_443_0": {
 "en": [
-"MAMMA ",
+"MAMMA",
 false,
 28,
 28
@@ -294309,7 +294309,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_444_0": {
 "en": [
-"MAMA MIA ",
+"MAMA MIA",
 false,
 28,
 28
@@ -294323,7 +294323,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_445_0": {
 "en": [
-"MA ",
+"MA",
 false,
 28,
 28
@@ -294337,7 +294337,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_446_0": {
 "en": [
-"WHAT THE ",
+"WHAT THE",
 false,
 28,
 28
@@ -294351,7 +294351,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_447_0": {
 "en": [
-"WOAH ",
+"WOAH",
 false,
 28,
 28
@@ -294365,7 +294365,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_448_0": {
 "en": [
-"WOH ",
+"WOH",
 false,
 28,
 28
@@ -294379,7 +294379,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_449_0": {
 "en": [
-"HEY ",
+"HEY",
 false,
 28,
 28
@@ -294393,7 +294393,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_450_0": {
 "en": [
-"HECK ",
+"HECK",
 false,
 28,
 28
@@ -294407,7 +294407,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_451_0": {
 "en": [
-"WHAT'S ",
+"WHAT'S",
 false,
 28,
 28
@@ -294421,13 +294421,13 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_463_0": {
 "en": [
-"* MAMMA ",
+"* MAMMA",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ななな ",
+"＊ ななな",
 false,
 28,
 28
@@ -294435,7 +294435,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_481_0": {
 "en": [
-"* HOW THE WHAT THE MAMA WHAT THE<span class=\"break\">\n  </span>HECK THE ",
+"* HOW THE WHAT THE MAMA WHAT THE<span class=\"break\">\n  </span>HECK THE",
 false,
 46,
 28
@@ -294449,7 +294449,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_483_0": {
 "en": [
-"MAMMA ",
+"MAMMA",
 false,
 28,
 28
@@ -294463,7 +294463,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_484_0": {
 "en": [
-"MAMA MIA ",
+"MAMA MIA",
 false,
 28,
 28
@@ -294477,7 +294477,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_485_0": {
 "en": [
-"MA ",
+"MA",
 false,
 28,
 28
@@ -294491,7 +294491,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_486_0": {
 "en": [
-"WHAT THE ",
+"WHAT THE",
 false,
 28,
 28
@@ -294505,7 +294505,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_487_0": {
 "en": [
-"WOAH ",
+"WOAH",
 false,
 28,
 28
@@ -294519,7 +294519,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_488_0": {
 "en": [
-"WOH ",
+"WOH",
 false,
 28,
 28
@@ -294533,7 +294533,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_489_0": {
 "en": [
-"HEY ",
+"HEY",
 false,
 28,
 28
@@ -294547,7 +294547,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_490_0": {
 "en": [
-"HECK ",
+"HECK",
 false,
 28,
 28
@@ -294561,7 +294561,7 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_491_0": {
 "en": [
-"WHAT'S ",
+"WHAT'S",
 false,
 28,
 28
@@ -294575,13 +294575,13 @@ false,
 },
 "obj_ch3_closet_slash_Step_0_gml_515_0": {
 "en": [
-"* MAMMA ",
+"* MAMMA",
 false,
 28,
 28
 ],
 "ja": [
-"＊ なな…ななな ",
+"＊ なな…ななな",
 false,
 28,
 28
@@ -297893,13 +297893,13 @@ true,
 },
 "obj_classscene_slash_Step_0_gml_303_0": {
 "en": [
-"* Do you want me to - ",
+"* Do you want me to -",
 true,
 28,
 28
 ],
 "ja": [
-"＊ Do you want me to - ",
+"＊ Do you want me to -",
 true,
 28,
 28
@@ -300305,7 +300305,7 @@ true,
 },
 "obj_clubsenemy_slash_Draw_0_gml_98_0": {
 "en": [
-"TIME: ",
+"TIME:",
 true,
 28,
 28
@@ -302709,13 +302709,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_207_0": {
 "en": [
-"Attack: ",
+"Attack:",
 true,
 28,
 28
 ],
 "ja": [
-"こうげき: ",
+"こうげき:",
 true,
 28,
 28
@@ -302723,13 +302723,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_208_0": {
 "en": [
-"Defense: ",
+"Defense:",
 true,
 28,
 28
 ],
 "ja": [
-"ぼうぎょ: ",
+"ぼうぎょ:",
 true,
 28,
 28
@@ -302737,13 +302737,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_209_0": {
 "en": [
-"Magic: ",
+"Magic:",
 true,
 28,
 28
 ],
 "ja": [
-"まりょく: ",
+"まりょく:",
 true,
 28,
 28
@@ -302751,13 +302751,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_212_0": {
 "en": [
-"Guts: ",
+"Guts:",
 true,
 28,
 28
 ],
 "ja": [
-"ガッツ: ",
+"ガッツ:",
 true,
 28,
 28
@@ -302765,13 +302765,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_214_0": {
 "en": [
-"LV1 ",
+"LV1",
 true,
 28,
 28
 ],
 "ja": [
-"LV1 ",
+"LV1",
 true,
 28,
 28
@@ -302813,7 +302813,7 @@ true,
 28
 ],
 "ja": [
-"イヌ: ",
+"イヌ:",
 true,
 28,
 28
@@ -302933,13 +302933,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_251_0": {
 "en": [
-"Rudeness ",
+"Rudeness",
 true,
 28,
 28
 ],
 "ja": [
-"バッドさ: ",
+"バッドさ:",
 true,
 28,
 28
@@ -302975,7 +302975,7 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_536_0": {
 "en": [
-"??? ",
+"???",
 false,
 28,
 28
@@ -302995,7 +302995,7 @@ false,
 28
 ],
 "ja": [
-"むしり数: ",
+"むしり数:",
 false,
 28,
 28
@@ -303101,7 +303101,7 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_624_0": {
 "en": [
-"??? ",
+"???",
 false,
 28,
 28
@@ -303121,7 +303121,7 @@ false,
 28
 ],
 "ja": [
-"運ばれ数: ",
+"運ばれ数:",
 false,
 28,
 28
@@ -303135,7 +303135,7 @@ true,
 28
 ],
 "ja": [
-"モフさ: ",
+"モフさ:",
 true,
 28,
 28
@@ -303199,7 +303199,7 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_388_0": {
 "en": [
-"Coldness ",
+"Coldness",
 true,
 28,
 28
@@ -303297,13 +303297,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_586_0": {
 "en": [
-"Attack: ",
+"Attack:",
 true,
 28,
 28
 ],
 "ja": [
-"こうげき: ",
+"こうげき:",
 true,
 28,
 28
@@ -303311,13 +303311,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_587_0": {
 "en": [
-"Defense: ",
+"Defense:",
 true,
 28,
 28
 ],
 "ja": [
-"ぼうぎょ: ",
+"ぼうぎょ:",
 true,
 28,
 28
@@ -303325,13 +303325,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_588_0": {
 "en": [
-"Magic: ",
+"Magic:",
 true,
 28,
 28
 ],
 "ja": [
-"まりょく: ",
+"まりょく:",
 true,
 28,
 28
@@ -303471,7 +303471,7 @@ false,
 28
 ],
 "ja": [
-"ザツさ: ",
+"ザツさ:",
 true,
 28,
 28
@@ -312553,7 +312553,7 @@ true,
 "obj_fusionmenu": {
 "obj_fusionmenu_slash_Draw_0_gml_171_0": {
 "en": [
-"Page ",
+"Page",
 true,
 28,
 28
@@ -312581,13 +312581,13 @@ true,
 },
 "obj_fusionmenu_slash_Draw_0_gml_47_0": {
 "en": [
-"CHAPTER ",
+"CHAPTER",
 true,
 28,
 28
 ],
 "ja": [
-"CHAPTER ",
+"CHAPTER",
 true,
 28,
 28
@@ -312595,13 +312595,13 @@ true,
 },
 "obj_fusionmenu_slash_Draw_0_gml_48_0": {
 "en": [
-"LV ",
+"LV",
 true,
 28,
 28
 ],
 "ja": [
-"LV ",
+"LV",
 true,
 28,
 28
@@ -312707,13 +312707,13 @@ true,
 },
 "obj_fusionmenu_slash_Draw_0_gml_84_0": {
 "en": [
-"CHAPTER ",
+"CHAPTER",
 true,
 28,
 28
 ],
 "ja": [
-"CHAPTER ",
+"CHAPTER",
 true,
 28,
 28
@@ -312847,7 +312847,7 @@ true,
 },
 "obj_fusionmenu_slash_Draw_0_gml_98_0": {
 "en": [
-"ELEMENT  ",
+"ELEMENT",
 true,
 28,
 28
@@ -312987,7 +312987,7 @@ true,
 },
 "obj_fusionmenu_slash_Draw_0_gml_161_0": {
 "en": [
-"Page ",
+"Page",
 true,
 28,
 28
@@ -315455,7 +315455,7 @@ true,
 28
 ],
 "ja": [
-"＊ i4  ",
+"＊ i4",
 true,
 28,
 28
@@ -315939,7 +315939,7 @@ false,
 28
 ],
 "ja": [
-"オレも もう\n言うことはねぇ ",
+"オレも もう\n言うことはねぇ",
 false,
 46,
 46
@@ -316733,13 +316733,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_321_0": {
 "en": [
-"Kris...? ",
+"Kris...?",
 true,
 28,
 28
 ],
 "ja": [
-"クリス…？ ",
+"クリス…？",
 true,
 28,
 28
@@ -316747,13 +316747,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_322_0": {
 "en": [
-"Kris, honey...\nAre you awake...? ",
+"Kris, honey...\nAre you awake...?",
 true,
 46,
 46
 ],
 "ja": [
-"クリス…\nおきてるの…？ ",
+"クリス…\nおきてるの…？",
 true,
 46,
 46
@@ -316761,13 +316761,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_323_0": {
 "en": [
-"... w.... wait! ",
+"... w.... wait!",
 true,
 28,
 28
 ],
 "ja": [
-"…えっ…まって！ ",
+"…えっ…まって！",
 true,
 28,
 28
@@ -316775,13 +316775,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_324_0": {
 "en": [
-"Is that a... ",
+"Is that a...",
 true,
 28,
 28
 ],
 "ja": [
-"まさか… ",
+"まさか…",
 true,
 28,
 28
@@ -316789,13 +316789,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_325_0": {
 "en": [
-"A knife!!? ",
+"A knife!!?",
 true,
 28,
 28
 ],
 "ja": [
-"ナイフ！？ ",
+"ナイフ！？",
 true,
 28,
 28
@@ -316803,13 +316803,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_353_0": {
 "en": [
-"NOOOOOOOO---!!! ",
+"NOOOOOOOO---!!!",
 true,
 28,
 28
 ],
 "ja": [
-"そんな………！！！ ",
+"そんな………！！！",
 true,
 28,
 28
@@ -317887,7 +317887,7 @@ false,
 "obj_moneydisplay": {
 "obj_moneydisplay_slash_Draw_0_gml_22_0": {
 "en": [
-"HELD SPACE: ",
+"HELD SPACE:",
 true,
 28,
 28
@@ -317901,7 +317901,7 @@ true,
 },
 "obj_moneydisplay_slash_Draw_0_gml_23_0": {
 "en": [
-"STORAGE SPACE: ",
+"STORAGE SPACE:",
 true,
 28,
 28
@@ -319333,7 +319333,7 @@ true,
 46
 ],
 "ja": [
-"＊ …なぁあんつってぇええ！\n＊ わるいけど　ボク　100てん\n　 とりたいからぁ～！　",
+"＊ …なぁあんつってぇええ！\n＊ わるいけど　ボク　100てん\n　 とりたいからぁ～！",
 true,
 64,
 64
@@ -325543,13 +325543,13 @@ true,
 },
 "obj_npc_room_slash_Other_10_gml_698_0": {
 "en": [
-"* Anyway, Susie sucks, Kris,<span class=\"break\">\n  </span>haha. ",
+"* Anyway, Susie sucks, Kris,<span class=\"break\">\n  </span>haha.",
 true,
 46,
 28
 ],
 "ja": [
-"＊ よーするに　スージィは\n　 サイテーだってことだな！\n　 ハハハ！ ",
+"＊ よーするに　スージィは\n　 サイテーだってことだな！\n　 ハハハ！",
 true,
 64,
 64
@@ -325599,7 +325599,7 @@ true,
 },
 "obj_npc_room_slash_Other_10_gml_710_0": {
 "en": [
-"* HOOH!!\n* You're lucky, Kris!! ",
+"* HOOH!!\n* You're lucky, Kris!!",
 true,
 46,
 46
@@ -330197,7 +330197,7 @@ false,
 28
 ],
 "ja": [
-"＊ この　ろう屋には　<span class=\"Y\">腹がたつ</span> ",
+"＊ この　ろう屋には　<span class=\"Y\">腹がたつ</span>",
 false,
 28,
 28
@@ -330659,10 +330659,10 @@ false,
 28
 ],
 "ja": [
-"＊ 「ゲームがストライキしとるなら\n　 自分らも働かんでええやん」て \n　 みんな　どっか行ってもうたわ。\n　 ",
+"＊ 「ゲームがストライキしとるなら\n　 自分らも働かんでええやん」て \n　 みんな　どっか行ってもうたわ。",
 false,
-82,
-82
+64,
+64
 ]
 },
 "obj_npc_room_slash_Other_10_gml_2131_0": {
@@ -331415,7 +331415,7 @@ true,
 28
 ],
 "ja": [
-"＊ Today's lesson is...\n＊ <span class=\"R\">Get out of my way when I'm<span class=\"break\">\n</span>building a ladder!</span> ",
+"＊ Today's lesson is...\n＊ <span class=\"R\">Get out of my way when I'm<span class=\"break\">\n</span>building a ladder!</span>",
 true,
 64,
 46
@@ -332099,13 +332099,13 @@ true,
 },
 "obj_npc_sign_slash_Other_10_gml_30_0": {
 "en": [
-"* Defeating you is so <span style=\"display:inline-block;height:18px;width:18px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_free.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"Free!\" width=\"18.5\" height=\"14.0\"/></span>        ",
+"* Defeating you is so <span style=\"display:inline-block;height:18px;width:18px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_free.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"Free!\" width=\"18.5\" height=\"14.0\"/></span>",
 false,
 28,
 28
 ],
 "ja": [
-"＊ Defeating you is so <span style=\"display:inline-block;height:18px;width:18px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_free.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"Free!\" width=\"18.5\" height=\"14.0\"/></span>        ",
+"＊ Defeating you is so <span style=\"display:inline-block;height:18px;width:18px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_free.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"Free!\" width=\"18.5\" height=\"14.0\"/></span>",
 false,
 28,
 28
@@ -332113,13 +332113,13 @@ false,
 },
 "obj_npc_sign_slash_Other_10_gml_31_0": {
 "en": [
-"* Show me your <span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_resumes.gif\" loading=\"lazy\" style=\"position:relative;top:11.5px;left:31.0px\" alt=\"Résumés\" width=\"62.0\" height=\"13.5\"/></span>        ! ",
+"* Show me your <span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_resumes.gif\" loading=\"lazy\" style=\"position:relative;top:11.5px;left:31.0px\" alt=\"Résumés\" width=\"62.0\" height=\"13.5\"/></span>        !",
 false,
 28,
 28
 ],
 "ja": [
-"＊ Show me your <span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_resumes.gif\" loading=\"lazy\" style=\"position:relative;top:11.5px;left:31.0px\" alt=\"Résumés\" width=\"62.0\" height=\"13.5\"/></span>        ! ",
+"＊ Show me your <span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_resumes.gif\" loading=\"lazy\" style=\"position:relative;top:11.5px;left:31.0px\" alt=\"Résumés\" width=\"62.0\" height=\"13.5\"/></span>        !",
 false,
 28,
 28
@@ -332511,7 +332511,7 @@ true,
 28
 ],
 "ja": [
-"＊ わあ…！　このお人形に\n　 お洋服作ってあげていい？ ",
+"＊ わあ…！　このお人形に\n　 お洋服作ってあげていい？",
 true,
 46,
 46
@@ -333099,10 +333099,10 @@ true,
 28
 ],
 "ja": [
-"＊ &lt;!--[ピーチボーイ]ハ　\n　 オ友ダチト　遊ンデキナサイ\n　 ",
+"＊ &lt;!--[ピーチボーイ]ハ　\n　 オ友ダチト　遊ンデキナサイ",
 true,
-64,
-64
+46,
+46
 ]
 },
 "obj_npc_sign_slash_Other_10_gml_926_0": {
@@ -340453,7 +340453,7 @@ true,
 28
 ],
 "ja": [
-"＊ でも　でかい　つばさ\n　 ばかりつくって　ほんたいが\n　 かんせいしなかった！ ",
+"＊ でも　でかい　つばさ\n　 ばかりつくって　ほんたいが\n　 かんせいしなかった！",
 true,
 64,
 64
@@ -342693,7 +342693,7 @@ true,
 64
 ],
 "ja": [
-"＊ たー　\n＊ たー　\n＊ くー　な！　",
+"＊ たー　\n＊ たー　\n＊ くー　な！",
 true,
 64,
 64
@@ -347411,7 +347411,7 @@ false,
 },
 "obj_ribbick_enemy_slash_Step_0_gml_183_0": {
 "en": [
-"* Rabbick is now nice and clean. ",
+"* Rabbick is now nice and clean.",
 false,
 28,
 28
@@ -352793,7 +352793,7 @@ false,
 28
 ],
 "ja": [
-"＊ 白状します…\n　 ここ最近　ワタシは…\n　 ずっと　孤独で… ",
+"＊ 白状します…\n　 ここ最近　ワタシは…\n　 ずっと　孤独で…",
 false,
 64,
 64
@@ -365885,10 +365885,10 @@ false,
 28
 ],
 "ja": [
-"＊ ボスの気配がします…\n　 しっかり回復して！\n　 ",
+"＊ ボスの気配がします…\n　 しっかり回復して！",
 false,
-64,
-64
+46,
+46
 ]
 },
 "obj_susiezilla_gamecontroller_slash_Step_0_gml_339_0": {
@@ -369107,10 +369107,10 @@ false,
 28
 ],
 "ja": [
-"＊ テレビの前の　お友だちー！？\n　 スマイル　スマイル\n　 スクリイィィームッ！！\n　 ",
+"＊ テレビの前の　お友だちー！？\n　 スマイル　スマイル\n　 スクリイィィームッ！！",
 false,
-82,
-82
+64,
+64
 ]
 },
 "obj_tenna_enemy_slash_Step_0_gml_231_0": {
@@ -369387,10 +369387,10 @@ false,
 28
 ],
 "ja": [
-"＊ テナ - [[ﾆｭｰｽ]]の[[ｲﾏ]]に\n　 [[タヒ]]んだ[[悲劇のビﾂﾞネスマｿ]]\n　 ",
+"＊ テナ - [[ﾆｭｰｽ]]の[[ｲﾏ]]に\n　 [[タヒ]]んだ[[悲劇のビﾂﾞネスマｿ]]",
 false,
-64,
-64
+46,
+46
 ]
 },
 "obj_tenna_enemy_slash_Step_0_gml_450_0": {
@@ -369979,10 +369979,10 @@ false,
 28
 ],
 "ja": [
-"＊ 最高の「結果」を　出すコツは\n　 ノーダメージで　すばやく\n　 TPた～っぷり　ためて　勝つこと！\n　 ",
+"＊ 最高の「結果」を　出すコツは\n　 ノーダメージで　すばやく\n　 TPた～っぷり　ためて　勝つこと！",
 false,
-82,
-82
+64,
+64
 ]
 },
 "obj_tennabattleconvo_controller_slash_Step_0_gml_95_0": {
@@ -370991,7 +370991,7 @@ true,
 28
 ],
 "ja": [
-"＊ Lancer joined the party!      ",
+"＊ Lancer joined the party!",
 true,
 28,
 28
@@ -372829,13 +372829,13 @@ true,
 "scr_anyface": {
 "scr_anyface_slash_scr_anyface_gml_23_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -372843,13 +372843,13 @@ true,
 },
 "scr_anyface_slash_scr_anyface_gml_24_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -372857,13 +372857,13 @@ true,
 },
 "scr_anyface_slash_scr_anyface_gml_27_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -372871,13 +372871,13 @@ true,
 },
 "scr_anyface_slash_scr_anyface_gml_28_0_b": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -372885,13 +372885,13 @@ true,
 },
 "scr_anyface_slash_scr_anyface_gml_28_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -372899,13 +372899,13 @@ true,
 },
 "scr_anyface_slash_scr_anyface_gml_29_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -372913,13 +372913,13 @@ true,
 },
 "scr_anyface_slash_scr_anyface_gml_30_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -375759,7 +375759,7 @@ true,
 },
 "scr_ascii_input_names_slash_scr_ascii_input_names_gml_74_0": {
 "en": [
-"Numpad ",
+"Numpad",
 true,
 28,
 28
@@ -375929,13 +375929,13 @@ true,
 "scr_asgface": {
 "scr_asgface_slash_scr_asgface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -382361,7 +382361,7 @@ false,
 28
 ],
 "ja": [
-"…ただの水だよ！　からかわれてる！？　",
+"…ただの水だよ！　からかわれてる！？",
 true,
 28,
 28
@@ -383465,13 +383465,13 @@ false,
 "scr_kingface": {
 "scr_kingface_slash_scr_kingface_gml_3_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -383479,13 +383479,13 @@ true,
 },
 "scr_kingface_slash_scr_kingface_gml_7_0": {
 "en": [
-"  1  ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1  ",
+"  1",
 true,
 28,
 28
@@ -383495,13 +383495,13 @@ true,
 "scr_lanface": {
 "scr_lanface_slash_scr_lanface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -391951,13 +391951,13 @@ false,
 "scr_noeface": {
 "scr_noeface_slash_scr_noeface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -392001,10 +392001,10 @@ false,
 28
 ],
 "ja": [
-"＊ おまえ 「ブラッド・\n　 クラッシャー２」見ても\n　 泣かない自信　あるか？\n　 ",
+"＊ おまえ 「ブラッド・\n　 クラッシャー２」見ても\n　 泣かない自信　あるか？",
 false,
-82,
-82
+64,
+64
 ]
 },
 "scr_parallel_convo_slash_scr_parallel_convo_gml_16_0": {
@@ -394787,13 +394787,13 @@ false,
 "scr_ralface": {
 "scr_ralface_slash_scr_ralface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -394847,7 +394847,7 @@ true,
 "scr_recruit_info": {
 "scr_recruit_info_slash_scr_recruit_info_gml_10_0": {
 "en": [
-"Known Quantity ",
+"Known Quantity",
 true,
 28,
 28
@@ -397935,13 +397935,13 @@ false,
 "scr_rudface": {
 "scr_rudface_slash_scr_rudface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -397951,13 +397951,13 @@ true,
 "scr_rurusface": {
 "scr_rurusface_slash_scr_rurusface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -399785,13 +399785,13 @@ true,
 "scr_susface": {
 "scr_susface_slash_scr_susface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -400295,13 +400295,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_44_0": {
 "en": [
-"* I'll ask if you're sure!\n \nNot yet     Yes. Ask. ",
+"* I'll ask if you're sure!\n \nNot yet     Yes. Ask.",
 true,
 64,
 64
 ],
 "ja": [
-"＊ どうする？　きいてみる？\n \n   まって        きいてみて ",
+"＊ どうする？　きいてみる？\n \n   まって        きいてみて",
 true,
 64,
 64
@@ -400351,13 +400351,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_62_0": {
 "en": [
-"* Do you wanna be partners?\nNot yet     Yes ",
+"* Do you wanna be partners?\nNot yet     Yes",
 true,
 46,
 46
 ],
 "ja": [
-"＊ わたしたちの　グループに\n　 はいりたい？\n   まって        うん ",
+"＊ わたしたちの　グループに\n　 はいりたい？\n   まって        うん",
 true,
 64,
 64
@@ -400449,13 +400449,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_83_0": {
 "en": [
-"* How's that sound?\n \nGood        Bad ",
+"* How's that sound?\n \nGood        Bad",
 true,
 64,
 64
 ],
 "ja": [
-"＊ いいな？\n \n   はい          いやです ",
+"＊ いいな？\n \n   はい          いやです",
 true,
 64,
 64
@@ -409115,13 +409115,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1632_0": {
 "en": [
-"* But make sure you don't watch<span class=\"break\">\n  </span>past the second season ",
+"* But make sure you don't watch<span class=\"break\">\n  </span>past the second season",
 true,
 46,
 28
 ],
 "ja": [
-"＊ あ　でも\n　 シーズン２より　さきは\n　 ぜったい　みないで ",
+"＊ あ　でも\n　 シーズン２より　さきは\n　 ぜったい　みないで",
 true,
 64,
 64
@@ -409129,13 +409129,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1633_0": {
 "en": [
-"* Since they just rebooted it as<span class=\"break\">\n  </span>Symptons Turbo ",
+"* Since they just rebooted it as<span class=\"break\">\n  </span>Symptons Turbo",
 true,
 46,
 28
 ],
 "ja": [
-"＊ 「シンプトンズ・ターボ」\n　 ってなまえで　リブート\n　 したんだけど ",
+"＊ 「シンプトンズ・ターボ」\n　 ってなまえで　リブート\n　 したんだけど",
 true,
 64,
 64
@@ -409143,13 +409143,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1634_0": {
 "en": [
-"* They all started driving their<span class=\"break\">\n  </span>own motor-vehicles ",
+"* They all started driving their<span class=\"break\">\n  </span>own motor-vehicles",
 true,
 46,
 28
 ],
 "ja": [
-"＊ とうじょうキャラ\n　 ぜんいんが　バイクとか\n　 クルマとか　のりまわして ",
+"＊ とうじょうキャラ\n　 ぜんいんが　バイクとか\n　 クルマとか　のりまわして",
 true,
 64,
 64
@@ -409157,13 +409157,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1635_0": {
 "en": [
-"* And fighting giant giga-demons<span class=\"break\">\n  </span>and stuff ",
+"* And fighting giant giga-demons<span class=\"break\">\n  </span>and stuff",
 true,
 46,
 28
 ],
 "ja": [
-"＊ きょだいデーモンとかと\n　 たたかう　はなしに\n　 なっちゃって ",
+"＊ きょだいデーモンとかと\n　 たたかう　はなしに\n　 なっちゃって",
 true,
 64,
 64
@@ -409171,13 +409171,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1636_0": {
 "en": [
-"* The main problem about that is<span class=\"break\">\n  </span>that it kind of ",
+"* The main problem about that is<span class=\"break\">\n  </span>that it kind of",
 true,
 46,
 28
 ],
 "ja": [
-"＊ でも　いちばん\n　 もんだいなのは ",
+"＊ でも　いちばん\n　 もんだいなのは",
 true,
 46,
 46
@@ -409185,13 +409185,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1637_0": {
 "en": [
-"* Lost the focus on family that<span class=\"break\">\n  </span>it had earlier ",
+"* Lost the focus on family that<span class=\"break\">\n  </span>it had earlier",
 true,
 46,
 28
 ],
 "ja": [
-"＊ かぞくの　きずなの\n　 テーマが　うしなわれ\n　 ちゃったこと ",
+"＊ かぞくの　きずなの\n　 テーマが　うしなわれ\n　 ちゃったこと",
 true,
 64,
 64
@@ -409199,13 +409199,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1638_0": {
 "en": [
-"* When their vehicles were shaped<span class=\"break\">\n  </span>like animals ",
+"* When their vehicles were shaped<span class=\"break\">\n  </span>like animals",
 true,
 46,
 28
 ],
 "ja": [
-"＊ かれらが　のってる\n　 クルマや　バイクは\n　 どうぶつのフォルムで ",
+"＊ かれらが　のってる\n　 クルマや　バイクは\n　 どうぶつのフォルムで",
 true,
 64,
 64
@@ -409213,13 +409213,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1639_0": {
 "en": [
-"* And they were friends with the<span class=\"break\">\n  </span>animal vehicles too ",
+"* And they were friends with the<span class=\"break\">\n  </span>animal vehicles too",
 true,
 46,
 28
 ],
 "ja": [
-"＊ みんな　そのクルマや\n　 バイクとも　おともだち\n　 だったはずなのに ",
+"＊ みんな　そのクルマや\n　 バイクとも　おともだち\n　 だったはずなのに",
 true,
 64,
 64
@@ -409227,13 +409227,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1640_0": {
 "en": [
-"* And let's not get into Symptons<span class=\"break\">\n  </span>Galaxy Force ",
+"* And let's not get into Symptons<span class=\"break\">\n  </span>Galaxy Force",
 true,
 46,
 28
 ],
 "ja": [
-"＊ でも　それをいったら\n　 「シンプトンズ・ギャラク\n　 シー・フォース」なんて ",
+"＊ でも　それをいったら\n　 「シンプトンズ・ギャラク\n　 シー・フォース」なんて",
 true,
 64,
 64
@@ -409241,13 +409241,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1641_0": {
 "en": [
-"* Where the Symptons discover<span class=\"break\">\n  </span>another Earth ",
+"* Where the Symptons discover<span class=\"break\">\n  </span>another Earth",
 true,
 46,
 28
 ],
 "ja": [
-"＊ シンプトン一家が\n　 もうひとつの　ちきゅうを\n　 はっけんするんだけど ",
+"＊ シンプトン一家が\n　 もうひとつの　ちきゅうを\n　 はっけんするんだけど",
 true,
 64,
 64
@@ -409255,13 +409255,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1642_0": {
 "en": [
-"* On the other side of the Sun ",
+"* On the other side of the Sun",
 true,
 28,
 28
 ],
 "ja": [
-"＊ そのばしょが\n　 たいようの　うらがわで ",
+"＊ そのばしょが\n　 たいようの　うらがわで",
 true,
 46,
 46
@@ -409269,13 +409269,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1643_0": {
 "en": [
-"* WOULDN'T THE GRAVITATIONAL<span class=\"break\">\n  </span>FIELD JUST ",
+"* WOULDN'T THE GRAVITATIONAL<span class=\"break\">\n  </span>FIELD JUST",
 true,
 46,
 28
 ],
 "ja": [
-"＊ でも　それだと\n　 じゅうりょくフィールドが ",
+"＊ でも　それだと\n　 じゅうりょくフィールドが",
 true,
 46,
 46
@@ -410137,7 +410137,7 @@ true,
 },
 "scr_text_slash_scr_text_gml_1858_0": {
 "en": [
-"* Interested in a Choco Diamond? ",
+"* Interested in a Choco Diamond?",
 true,
 28,
 28
@@ -411403,7 +411403,7 @@ true,
 28
 ],
 "ja": [
-"＊ ここの　ゴロつきどもに\n　 きょうみが　あんのか？\n　 じゃあ　しょうかいするぜ。　",
+"＊ ここの　ゴロつきどもに\n　 きょうみが　あんのか？\n　 じゃあ　しょうかいするぜ。",
 true,
 64,
 64
@@ -420805,7 +420805,7 @@ true,
 },
 "scr_text_slash_scr_text_gml_3807_0": {
 "en": [
-"* She curses me, every day\n* Glares 'cause I'm in her way ",
+"* She curses me, every day\n* Glares 'cause I'm in her way",
 true,
 46,
 46
@@ -425277,7 +425277,7 @@ true,
 28
 ],
 "ja": [
-"＊ わざわざ食うことないぜ。\n　 クソマズいからな。 ",
+"＊ わざわざ食うことないぜ。\n　 クソマズいからな。",
 true,
 46,
 46
@@ -425305,7 +425305,7 @@ true,
 28
 ],
 "ja": [
-"＊ わざわざ食うことないぜ。\n　 クソマズいからな。 ",
+"＊ わざわざ食うことないぜ。\n　 クソマズいからな。",
 true,
 46,
 46
@@ -431171,7 +431171,7 @@ true,
 28
 ],
 "ja": [
-"＊ そ…そっか…！\n　 やる気マンマンだね！ ",
+"＊ そ…そっか…！\n　 やる気マンマンだね！",
 true,
 46,
 46
@@ -431213,7 +431213,7 @@ true,
 28
 ],
 "ja": [
-"＊ べつに\n　 なりたくないですから… ",
+"＊ べつに\n　 なりたくないですから…",
 true,
 46,
 46
@@ -440561,13 +440561,13 @@ false,
 "scr_torface": {
 "scr_torface_slash_scr_torface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -442467,7 +442467,7 @@ false,
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_585_0": {
 "en": [
-"Looks like a giant caterpillar.  ",
+"Looks like a giant caterpillar.",
 false,
 28,
 28
@@ -442837,13 +442837,13 @@ true,
 "DEVICE_CONTACT": {
 "DEVICE_CONTACT_slash_Step_0_gml_6_0": {
 "en": [
-" ARE YOU\n THERE?  ",
+" ARE YOU\n THERE?",
 true,
 46,
 46
 ],
 "ja": [
-"聞コエマスカ？  ",
+"聞コエマスカ？",
 true,
 28,
 28
@@ -442851,13 +442851,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_7_0": {
 "en": [
-" ARE WE\nCONNECTED?   ",
+" ARE WE\nCONNECTED?",
 true,
 46,
 46
 ],
 "ja": [
-" ワレワレハ\n 接続サレテ\n イマスカ？   ",
+" ワレワレハ\n 接続サレテ\n イマスカ？",
 true,
 64,
 64
@@ -442879,13 +442879,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_33_0": {
 "en": [
-"EXCELLENT.  ",
+"EXCELLENT.",
 true,
 28,
 28
 ],
 "ja": [
-"   結構。  ",
+"   結構。",
 true,
 28,
 28
@@ -442893,13 +442893,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_34_0": {
 "en": [
-"  TRULY\nEXCELLENT.  ",
+"  TRULY\nEXCELLENT.",
 true,
 46,
 46
 ],
 "ja": [
-"  ジツニ\n 結構デス。  ",
+"  ジツニ\n 結構デス。",
 true,
 46,
 46
@@ -442907,13 +442907,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_35_0": {
 "en": [
-"   NOW.  ",
+"   NOW.",
 true,
 28,
 28
 ],
 "ja": [
-"   デハ。  ",
+"   デハ。",
 true,
 28,
 28
@@ -442921,13 +442921,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_36_0": {
 "en": [
-"  WE MAY\n  BEGIN.  ",
+"  WE MAY\n  BEGIN.",
 true,
 46,
 46
 ],
 "ja": [
-" 始メマショウ。  ",
+" 始メマショウ。",
 true,
 28,
 28
@@ -442935,13 +442935,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_107_0": {
 "en": [
-"FIRST.  ",
+"FIRST.",
 true,
 28,
 28
 ],
 "ja": [
-"      マズ。  ",
+"      マズ。",
 true,
 28,
 28
@@ -442949,13 +442949,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_111_0": {
 "en": [
-"YOU MUST CREATE\nA VESSEL.  ",
+"YOU MUST CREATE\nA VESSEL.",
 true,
 46,
 46
 ],
 "ja": [
-"      器ヲ\n  ツクルノデス。  ",
+"      器ヲ\n  ツクルノデス。",
 true,
 46,
 46
@@ -443005,13 +443005,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_205_0": {
 "en": [
-"THIS IS YOUR BODY.  ",
+"THIS IS YOUR BODY.",
 true,
 28,
 28
 ],
 "ja": [
-"コレガ アナタノ\n体デス。  ",
+"コレガ アナタノ\n体デス。",
 true,
 46,
 46
@@ -443033,13 +443033,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_240_0": {
 "en": [
-"   EXCELLENT.  ",
+"   EXCELLENT.",
 true,
 28,
 28
 ],
 "ja": [
-"   結構。  ",
+"   結構。",
 true,
 28,
 28
@@ -443047,13 +443047,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_241_0": {
 "en": [
-"YOU HAVE CREATED\nA WONDERFUL FORM.  ",
+"YOU HAVE CREATED\nA WONDERFUL FORM.",
 true,
 46,
 46
 ],
 "ja": [
-"スバラシイ フォルム ガ\n完成シマシタ。  ",
+"スバラシイ フォルム ガ\n完成シマシタ。",
 true,
 46,
 46
@@ -443061,13 +443061,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_242_0": {
 "en": [
-"       NOW.  ",
+"       NOW.",
 true,
 28,
 28
 ],
 "ja": [
-"       次ハ。  ",
+"       次ハ。",
 true,
 28,
 28
@@ -443075,13 +443075,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_243_0": {
 "en": [
-"LET US SHAPE ITS\nMIND AS YOUR OWN.   ",
+"LET US SHAPE ITS\nMIND AS YOUR OWN.",
 true,
 46,
 46
 ],
 "ja": [
-"器ノ 心ヲ アナタト\n同ジニ 創リマショウ。   ",
+"器ノ 心ヲ アナタト\n同ジニ 創リマショウ。",
 true,
 46,
 46
@@ -443565,13 +443565,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_664_0": {
 "en": [
-"UNDERSTOOD.  ",
+"UNDERSTOOD.",
 true,
 28,
 28
 ],
 "ja": [
-"ヨロシイ。  ",
+"ヨロシイ。",
 true,
 28,
 28
@@ -443593,13 +443593,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_729_0": {
 "en": [
-"WE CALLED IT\n\"<span class=\"param\">~1</span>.\"   ",
+"WE CALLED IT\n\"<span class=\"param\">~1</span>.\"",
 true,
 46,
 46
 ],
 "ja": [
-"ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。   ",
+"ワレワレガ ツケタ\nコノ器ノ 名ハ\n“<span class=\"param\">~1</span>”。",
 true,
 64,
 64
@@ -443607,13 +443607,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_730_0": {
 "en": [
-"AND WHAT ABOUT\nTHE CREATOR?  ",
+"AND WHAT ABOUT\nTHE CREATOR?",
 true,
 46,
 46
 ],
 "ja": [
-"デハ ツクリ手ノ\n名ハ？  ",
+"デハ ツクリ手ノ\n名ハ？",
 true,
 46,
 46
@@ -443621,13 +443621,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_734_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 true,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 true,
 28,
 28
@@ -443635,13 +443635,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_735_0": {
 "en": [
-"AN INTERESTING\nCOINCIDENCE.  ",
+"AN INTERESTING\nCOINCIDENCE.",
 true,
 46,
 46
 ],
 "ja": [
-"興味深イ 偶然デス。  ",
+"興味深イ 偶然デス。",
 true,
 28,
 28
@@ -443649,13 +443649,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_736_0": {
 "en": [
-"AND WHAT ABOUT\nTHE CREATOR?  ",
+"AND WHAT ABOUT\nTHE CREATOR?",
 true,
 46,
 46
 ],
 "ja": [
-"デハ ツクリ手ノ\n名ハ？  ",
+"デハ ツクリ手ノ\n名ハ？",
 true,
 46,
 46
@@ -443677,13 +443677,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_785_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 true,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 true,
 28,
 28
@@ -443691,13 +443691,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_786_0": {
 "en": [
-"EXCELLENT.  ",
+"EXCELLENT.",
 true,
 28,
 28
 ],
 "ja": [
-"結構。  ",
+"結構。",
 true,
 28,
 28
@@ -443705,13 +443705,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_787_0": {
 "en": [
-"TRULY \nEXCELLENT.  ",
+"TRULY \nEXCELLENT.",
 true,
 46,
 46
 ],
 "ja": [
-"ジツニ \n結構。  ",
+"ジツニ \n結構。",
 true,
 46,
 46
@@ -443719,13 +443719,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_790_0": {
 "en": [
-"HOW INTERESTING.  ",
+"HOW INTERESTING.",
 true,
 28,
 28
 ],
 "ja": [
-"コレハ 興味深イ。  ",
+"コレハ 興味深イ。",
 true,
 28,
 28
@@ -443733,13 +443733,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_794_0": {
 "en": [
-"YOU ARE ABOUT TO\nMEET SOMEONE   ",
+"YOU ARE ABOUT TO\nMEET SOMEONE",
 true,
 46,
 46
 ],
 "ja": [
-"アナタハ マモナク\n出会ウ…   ",
+"アナタハ マモナク\n出会ウ…",
 true,
 46,
 46
@@ -443747,13 +443747,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_795_0": {
 "en": [
-"VERY, VERY\nWONDERFUL.   ",
+"VERY, VERY\nWONDERFUL.",
 true,
 46,
 46
 ],
 "ja": [
-"ジツニ ジツニ\nステキナ 人物ニ。   ",
+"ジツニ ジツニ\nステキナ 人物ニ。",
 true,
 46,
 46
@@ -443761,13 +443761,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_800_0": {
 "en": [
-"OF COURSE\nOF COURSE.  ",
+"OF COURSE\nOF COURSE.",
 true,
 46,
 46
 ],
 "ja": [
-"ナルホド\n両者ハ 同一… ト。  ",
+"ナルホド\n両者ハ 同一… ト。",
 true,
 46,
 46
@@ -443775,13 +443775,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_801_0": {
 "en": [
-"OF COURSE THEY\nARE THE SAME.  ",
+"OF COURSE THEY\nARE THE SAME.",
 true,
 46,
 46
 ],
 "ja": [
-"サモ アリナン…。  ",
+"サモ アリナン…。",
 true,
 28,
 28
@@ -443789,13 +443789,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_816_0": {
 "en": [
-"\"<span class=\"param\">~1</span>.\"   ",
+"\"<span class=\"param\">~1</span>.\"",
 true,
 28,
 28
 ],
 "ja": [
-"“<span class=\"param\">~1</span>”。   ",
+"“<span class=\"param\">~1</span>”。",
 true,
 28,
 28
@@ -443803,13 +443803,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_817_0": {
 "en": [
-"THANK YOU\nFOR YOUR TIME.   ",
+"THANK YOU\nFOR YOUR TIME.",
 true,
 46,
 46
 ],
 "ja": [
-"協力ニ 感謝シマス。   ",
+"協力ニ 感謝シマス。",
 true,
 28,
 28
@@ -443817,13 +443817,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_818_0": {
 "en": [
-"YOUR ANSWERS   ",
+"YOUR ANSWERS",
 true,
 28,
 28
 ],
 "ja": [
-"アナタノ 回答   ",
+"アナタノ 回答",
 true,
 28,
 28
@@ -443831,13 +443831,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_819_0": {
 "en": [
-"YOUR WONDERFUL\nCREATION ",
+"YOUR WONDERFUL\nCREATION",
 true,
 46,
 46
 ],
 "ja": [
-"アナタノ スバラシイ\n作品ハ ",
+"アナタノ スバラシイ\n作品ハ",
 true,
 46,
 46
@@ -443873,7 +443873,7 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_854_0": {
 "en": [
-"Your\n \nname\n \n is ",
+"Your\n \nname\n \n is",
 true,
 100,
 100
@@ -443887,13 +443887,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_889_0": {
 "en": [
-"Kris...! ",
+"Kris...!",
 true,
 28,
 28
 ],
 "ja": [
-"クリス…！ ",
+"クリス…！",
 true,
 28,
 28
@@ -443901,13 +443901,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_890_0": {
 "en": [
-"Wake up! ",
+"Wake up!",
 true,
 28,
 28
 ],
 "ja": [
-"起きて！ ",
+"起きて！",
 true,
 28,
 28
@@ -443915,13 +443915,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_891_0": {
 "en": [
-"KRIS...! ",
+"KRIS...!",
 true,
 28,
 28
 ],
 "ja": [
-"クリス…！ ",
+"クリス…！",
 true,
 28,
 28
@@ -443929,13 +443929,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_928_0": {
 "en": [
-" FIRST.  ",
+" FIRST.",
 true,
 28,
 28
 ],
 "ja": [
-" マズ。  ",
+" マズ。",
 true,
 28,
 28
@@ -443943,13 +443943,13 @@ true,
 },
 "DEVICE_CONTACT_slash_Step_0_gml_930_0": {
 "en": [
-" ARE YOU\nPHOTOSENSITIVE?   ",
+" ARE YOU\nPHOTOSENSITIVE?",
 true,
 46,
 46
 ],
 "ja": [
-" アナタハ\n光過敏性発作ヲ　起コシヤスイデスカ？   ",
+" アナタハ\n光過敏性発作ヲ　起コシヤスイデスカ？",
 true,
 46,
 46
@@ -445313,7 +445313,7 @@ true,
 28
 ],
 "ja": [
-"コレガ　アナタノ　名前デス。　",
+"コレガ　アナタノ　名前デス。",
 true,
 28,
 28
@@ -447503,7 +447503,7 @@ false,
 },
 "obj_baseenemy_slash_Step_0_gml_112_0": {
 "en": [
-"MidMid ",
+"MidMid",
 false,
 28,
 28
@@ -447559,7 +447559,7 @@ false,
 },
 "obj_baseenemy_slash_Step_0_gml_117_0": {
 "en": [
-"* ENEMY - AT 1 DF 1\n* Susceptible to Brainshock.       ",
+"* ENEMY - AT 1 DF 1\n* Susceptible to Brainshock.",
 false,
 46,
 46
@@ -447975,7 +447975,7 @@ false,
 28
 ],
 "ja": [
-"空も　飛ベルはず　",
+"空も　飛ベルはず",
 false,
 28,
 28
@@ -449643,13 +449643,13 @@ true,
 },
 "obj_ch2_room_dungeon_2f_slash_Step_0_gml_39_0": {
 "en": [
-"* A bouncy little pumpkin. ",
+"* A bouncy little pumpkin.",
 true,
 28,
 28
 ],
 "ja": [
-"＊ ポヨンポヨンの\n　 おりこうさんなのだ。   ",
+"＊ ポヨンポヨンの\n　 おりこうさんなのだ。",
 true,
 46,
 46
@@ -450513,13 +450513,13 @@ true,
 },
 "obj_ch2_room_town_hospital_slash_Step_0_gml_157_0": {
 "en": [
-"* SUSIE!?!? WHY ARE YOU HERE!? ",
+"* SUSIE!?!? WHY ARE YOU HERE!?",
 true,
 28,
 28
 ],
 "ja": [
-"＊ スージィッ！？\n　 なんでここに…！ ",
+"＊ スージィッ！？\n　 なんでここに…！",
 true,
 46,
 46
@@ -461859,7 +461859,7 @@ false,
 },
 "obj_ch4_PDC03_catty_preach_slash_Create_0_gml_41_0": {
 "en": [
-"Like... what's it called?\nA calamity? ",
+"Like... what's it called?\nA calamity?",
 false,
 46,
 46
@@ -462141,13 +462141,13 @@ false,
 "obj_ch4_PDC03_choir_song": {
 "obj_ch4_PDC03_choir_song_slash_Alarm_5_gml_6_0": {
 "en": [
-"Heaven knows\nthe story that we've born\nfrom our hearts ",
+"Heaven knows\nthe story that we've born\nfrom our hearts",
 false,
 64,
 64
 ],
 "ja": [
-"われら　こころより\nうまれし ",
+"われら　こころより\nうまれし",
 false,
 46,
 46
@@ -462155,13 +462155,13 @@ false,
 },
 "obj_ch4_PDC03_choir_song_slash_Alarm_5_gml_7_0": {
 "en": [
-"Of the shadows cutting deep\nand the heroes that save us ",
+"Of the shadows cutting deep\nand the heroes that save us",
 false,
 46,
 46
 ],
 "ja": [
-"やみと　ゆうしゃの\nものがたり ",
+"やみと　ゆうしゃの\nものがたり",
 false,
 46,
 46
@@ -462169,13 +462169,13 @@ false,
 },
 "obj_ch4_PDC03_choir_song_slash_Alarm_5_gml_8_0": {
 "en": [
-"Heaven knows\nThe beauty of the soul\nand we weep ",
+"Heaven knows\nThe beauty of the soul\nand we weep",
 false,
 64,
 64
 ],
 "ja": [
-"たましい　\nそは　げに　うつくしい ",
+"たましい　\nそは　げに　うつくしい",
 false,
 46,
 46
@@ -462183,13 +462183,13 @@ false,
 },
 "obj_ch4_PDC03_choir_song_slash_Alarm_5_gml_9_0": {
 "en": [
-"To the majesty and\npray we not forget\nthe tale of DELTARUNE  ",
+"To the majesty and\npray we not forget\nthe tale of DELTARUNE",
 false,
 64,
 64
 ],
 "ja": [
-"わすれること　なきように\nThe tale of DELTARUNE  ",
+"わすれること　なきように\nThe tale of DELTARUNE",
 false,
 46,
 46
@@ -463931,10 +463931,10 @@ false,
 28
 ],
 "ja": [
-"＊ “あのけん”？　なんのこと\n　 だろう…　いってくれないと\n　 わからないなあ。\n　 ",
+"＊ “あのけん”？　なんのこと\n　 だろう…　いってくれないと\n　 わからないなあ。",
 false,
-82,
-82
+64,
+64
 ]
 },
 "obj_ch4_PDC03A_rudy_toriel_slash_Step_0_gml_68_0": {
@@ -468459,7 +468459,7 @@ false,
 },
 "obj_ch4_PDC06B_slash_Step_0_gml_486_0": {
 "en": [
-"* Let's go, Kris. ",
+"* Let's go, Kris.",
 false,
 28,
 28
@@ -469103,10 +469103,10 @@ false,
 28
 ],
 "ja": [
-"＊ がははは！　なんだこれ！\n　 ",
+"＊ がははは！　なんだこれ！",
 false,
-46,
-46
+28,
+28
 ]
 },
 "obj_ch4_PDC09A_slash_Step_0_gml_73_0": {
@@ -469843,13 +469843,13 @@ false,
 },
 "obj_ch4_PDC10A_slash_Step_0_gml_70_0": {
 "en": [
-"* (You began to read the numbers<span class=\"break\">\n  </span>in the pass code...  1  2  2 ",
+"* (You began to read the numbers<span class=\"break\">\n  </span>in the pass code...  1  2  2",
 false,
 46,
 28
 ],
 "ja": [
-"＊ (あんごうらしき　すうじを\n　 よんだ。\n　 １…２…２ ",
+"＊ (あんごうらしき　すうじを\n　 よんだ。\n　 １…２…２",
 false,
 64,
 64
@@ -476519,13 +476519,13 @@ true,
 },
 "obj_classscene_slash_Step_0_gml_303_0": {
 "en": [
-"* Do you want me to - ",
+"* Do you want me to -",
 true,
 28,
 28
 ],
 "ja": [
-"＊ Do you want me to - ",
+"＊ Do you want me to -",
 true,
 28,
 28
@@ -478963,7 +478963,7 @@ true,
 },
 "obj_clubsenemy_slash_Draw_0_gml_98_0": {
 "en": [
-"TIME: ",
+"TIME:",
 true,
 28,
 28
@@ -481579,13 +481579,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_207_0": {
 "en": [
-"Attack: ",
+"Attack:",
 true,
 28,
 28
 ],
 "ja": [
-"こうげき: ",
+"こうげき:",
 true,
 28,
 28
@@ -481593,13 +481593,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_208_0": {
 "en": [
-"Defense: ",
+"Defense:",
 true,
 28,
 28
 ],
 "ja": [
-"ぼうぎょ: ",
+"ぼうぎょ:",
 true,
 28,
 28
@@ -481607,13 +481607,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_209_0": {
 "en": [
-"Magic: ",
+"Magic:",
 true,
 28,
 28
 ],
 "ja": [
-"まりょく: ",
+"まりょく:",
 true,
 28,
 28
@@ -481621,13 +481621,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_212_0": {
 "en": [
-"Guts: ",
+"Guts:",
 true,
 28,
 28
 ],
 "ja": [
-"ガッツ: ",
+"ガッツ:",
 true,
 28,
 28
@@ -481635,13 +481635,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_214_0": {
 "en": [
-"LV1 ",
+"LV1",
 true,
 28,
 28
 ],
 "ja": [
-"LV1 ",
+"LV1",
 true,
 28,
 28
@@ -481669,7 +481669,7 @@ true,
 28
 ],
 "ja": [
-"イヌ: ",
+"イヌ:",
 true,
 28,
 28
@@ -481683,7 +481683,7 @@ false,
 28
 ],
 "ja": [
-"FELLED: ",
+"FELLED:",
 false,
 28,
 28
@@ -481697,7 +481697,7 @@ false,
 28
 ],
 "ja": [
-"PURE: ",
+"PURE:",
 false,
 28,
 28
@@ -481747,13 +481747,13 @@ false,
 },
 "obj_darkcontroller_slash_Draw_0_gml_251_0": {
 "en": [
-"Rudeness ",
+"Rudeness",
 true,
 28,
 28
 ],
 "ja": [
-"バッドさ: ",
+"バッドさ:",
 true,
 28,
 28
@@ -481795,7 +481795,7 @@ false,
 28
 ],
 "ja": [
-"回復: ",
+"回復:",
 false,
 28,
 28
@@ -481865,7 +481865,7 @@ true,
 28
 ],
 "ja": [
-"モフさ: ",
+"モフさ:",
 true,
 28,
 28
@@ -481929,7 +481929,7 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_388_0": {
 "en": [
-"Coldness ",
+"Coldness",
 true,
 28,
 28
@@ -482027,13 +482027,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_586_0": {
 "en": [
-"Attack: ",
+"Attack:",
 true,
 28,
 28
 ],
 "ja": [
-"こうげき: ",
+"こうげき:",
 true,
 28,
 28
@@ -482041,13 +482041,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_587_0": {
 "en": [
-"Defense: ",
+"Defense:",
 true,
 28,
 28
 ],
 "ja": [
-"ぼうぎょ: ",
+"ぼうぎょ:",
 true,
 28,
 28
@@ -482055,13 +482055,13 @@ true,
 },
 "obj_darkcontroller_slash_Draw_0_gml_588_0": {
 "en": [
-"Magic: ",
+"Magic:",
 true,
 28,
 28
 ],
 "ja": [
-"まりょく: ",
+"まりょく:",
 true,
 28,
 28
@@ -482215,7 +482215,7 @@ true,
 28
 ],
 "ja": [
-"ザツさ: ",
+"ザツさ:",
 true,
 28,
 28
@@ -482663,7 +482663,7 @@ false,
 28
 ],
 "ja": [
-"Healing ",
+"Healing",
 false,
 28,
 28
@@ -495301,10 +495301,10 @@ false,
 28
 ],
 "ja": [
-"＊ じゃあ　ニワカは\n　 スージィだけってこと？\n　 ",
+"＊ じゃあ　ニワカは\n　 スージィだけってこと？",
 false,
-64,
-64
+46,
+46
 ]
 },
 "obj_dw_church_pianopiece_right_slash_Step_0_gml_395_0": {
@@ -496059,13 +496059,13 @@ false,
 },
 "obj_dw_church_ripplepuzzle_postgers_slash_Step_0_gml_98_0": {
 "en": [
-"* (You hug the wall...) ",
+"* (You hug the wall...)",
 false,
 28,
 28
 ],
 "ja": [
-"＊ (カベを　ハグした…) ",
+"＊ (カベを　ハグした…)",
 false,
 28,
 28
@@ -499395,13 +499395,13 @@ false,
 },
 "obj_dw_churchb_bookshelf_slash_Step_0_gml_90_0": {
 "en": [
-"where ",
+"where",
 false,
 28,
 28
 ],
 "ja": [
-"は　",
+"は",
 false,
 28,
 28
@@ -499409,13 +499409,13 @@ false,
 },
 "obj_dw_churchb_bookshelf_slash_Step_0_gml_91_0": {
 "en": [
-"the ",
+"the",
 false,
 28,
 28
 ],
 "ja": [
-"子ども　",
+"子ども",
 false,
 28,
 28
@@ -499423,13 +499423,13 @@ false,
 },
 "obj_dw_churchb_bookshelf_slash_Step_0_gml_92_0": {
 "en": [
-"tail. ",
+"tail.",
 false,
 28,
 28
 ],
 "ja": [
-"を　",
+"を",
 false,
 28,
 28
@@ -499437,13 +499437,13 @@ false,
 },
 "obj_dw_churchb_bookshelf_slash_Step_0_gml_93_0": {
 "en": [
-"pointed ",
+"pointed",
 false,
 28,
 28
 ],
 "ja": [
-"森林　",
+"森林",
 false,
 28,
 28
@@ -499451,13 +499451,13 @@ false,
 },
 "obj_dw_churchb_bookshelf_slash_Step_0_gml_94_0": {
 "en": [
-"the ",
+"the",
 false,
 28,
 28
 ],
 "ja": [
-"しっぽ　",
+"しっぽ",
 false,
 28,
 28
@@ -499465,13 +499465,13 @@ false,
 },
 "obj_dw_churchb_bookshelf_slash_Step_0_gml_95_0": {
 "en": [
-"children ",
+"children",
 false,
 28,
 28
 ],
 "ja": [
-"の　",
+"の",
 false,
 28,
 28
@@ -499479,13 +499479,13 @@ false,
 },
 "obj_dw_churchb_bookshelf_slash_Step_0_gml_96_0": {
 "en": [
-"would ",
+"would",
 false,
 28,
 28
 ],
 "ja": [
-"の　",
+"の",
 false,
 28,
 28
@@ -499499,7 +499499,7 @@ false,
 28
 ],
 "ja": [
-"場所　",
+"場所",
 false,
 28,
 28
@@ -499507,13 +499507,13 @@ false,
 },
 "obj_dw_churchb_bookshelf_slash_Step_0_gml_98_0": {
 "en": [
-"the ",
+"the",
 false,
 28,
 28
 ],
 "ja": [
-"たどった。　",
+"たどった。",
 false,
 28,
 28
@@ -499521,13 +499521,13 @@ false,
 },
 "obj_dw_churchb_bookshelf_slash_Step_0_gml_99_0": {
 "en": [
-"Lost ",
+"Lost",
 false,
 28,
 28
 ],
 "ja": [
-"迷子　",
+"迷子",
 false,
 28,
 28
@@ -499535,13 +499535,13 @@ false,
 },
 "obj_dw_churchb_bookshelf_slash_Step_0_gml_100_0": {
 "en": [
-"forest ",
+"forest",
 false,
 28,
 28
 ],
 "ja": [
-"とがった　",
+"とがった",
 false,
 28,
 28
@@ -499549,13 +499549,13 @@ false,
 },
 "obj_dw_churchb_bookshelf_slash_Step_0_gml_101_0": {
 "en": [
-"followed ",
+"followed",
 false,
 28,
 28
 ],
 "ja": [
-"で　",
+"で",
 false,
 28,
 28
@@ -499569,7 +499569,7 @@ false,
 28
 ],
 "ja": [
-"育つ　",
+"育つ",
 false,
 28,
 28
@@ -509099,7 +509099,7 @@ true,
 "obj_fusionmenu": {
 "obj_fusionmenu_slash_Draw_0_gml_171_0": {
 "en": [
-"Page ",
+"Page",
 true,
 28,
 28
@@ -509127,13 +509127,13 @@ true,
 },
 "obj_fusionmenu_slash_Draw_0_gml_47_0": {
 "en": [
-"CHAPTER ",
+"CHAPTER",
 true,
 28,
 28
 ],
 "ja": [
-"CHAPTER ",
+"CHAPTER",
 true,
 28,
 28
@@ -509141,13 +509141,13 @@ true,
 },
 "obj_fusionmenu_slash_Draw_0_gml_48_0": {
 "en": [
-"LV ",
+"LV",
 true,
 28,
 28
 ],
 "ja": [
-"LV ",
+"LV",
 true,
 28,
 28
@@ -509253,13 +509253,13 @@ true,
 },
 "obj_fusionmenu_slash_Draw_0_gml_84_0": {
 "en": [
-"CHAPTER ",
+"CHAPTER",
 true,
 28,
 28
 ],
 "ja": [
-"CHAPTER ",
+"CHAPTER",
 true,
 28,
 28
@@ -509393,7 +509393,7 @@ true,
 },
 "obj_fusionmenu_slash_Draw_0_gml_98_0": {
 "en": [
-"ELEMENT  ",
+"ELEMENT",
 true,
 28,
 28
@@ -509533,7 +509533,7 @@ true,
 },
 "obj_fusionmenu_slash_Draw_0_gml_161_0": {
 "en": [
-"Page ",
+"Page",
 true,
 28,
 28
@@ -511071,13 +511071,13 @@ false,
 "obj_gold_cat_slash_Collision_obj_blue_cat": {
 "obj_gold_cat_slash_Collision_obj_blue_cat_gml_18_0": {
 "en": [
-"LEVEL ",
+"LEVEL",
 false,
 28,
 28
 ],
 "ja": [
-"LEVEL ",
+"LEVEL",
 false,
 28,
 28
@@ -511543,37 +511543,37 @@ false,
 28
 ],
 "ja": [
-"アリが10！　　　アリが10！　　　アリが10！<span class=\"break\">\n</span>　　",
+"アリが10！　　　アリが10！　　　アリが10！",
 false,
-46,
+28,
 28
 ]
 },
 "obj_halo_enemy_slash_Step_0_gml_7_0": {
 "en": [
-"Halo, are you listening?            ",
+"Halo, are you listening?",
 false,
 28,
 28
 ],
 "ja": [
-"アリ？聞こえてる？　　　アリ？聞こえてる？　<span class=\"break\">\n</span>　",
+"アリ？聞こえてる？　　　アリ？聞こえてる？",
 false,
-46,
+28,
 28
 ]
 },
 "obj_halo_enemy_slash_Step_0_gml_8_0": {
 "en": [
-"You oppose the revolution?          ",
+"You oppose the revolution?",
 false,
 28,
 28
 ],
 "ja": [
-"本日　カイテン　　　　　本日　カイテン　　　<span class=\"break\">\n</span>　",
+"本日　カイテン　　　　　本日　カイテン",
 false,
-46,
+28,
 28
 ]
 },
@@ -511585,9 +511585,9 @@ false,
 28
 ],
 "ja": [
-"目を開けて　　　目を開けて　　　目を開けて　<span class=\"break\">\n</span>　",
+"目を開けて　　　目を開けて　　　目を開けて",
 false,
-46,
+28,
 28
 ]
 },
@@ -511599,7 +511599,7 @@ false,
 28
 ],
 "ja": [
-"センカイ　言ってみて？　センカイ<span class=\"break\">\n</span>言ってみて？　",
+"センカイ　言ってみて？　センカイ<span class=\"break\">\n</span>言ってみて？",
 false,
 46,
 28
@@ -518555,7 +518555,7 @@ true,
 28
 ],
 "ja": [
-"＊ i4  ",
+"＊ i4",
 true,
 28,
 28
@@ -519695,13 +519695,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_321_0": {
 "en": [
-"Kris...? ",
+"Kris...?",
 true,
 28,
 28
 ],
 "ja": [
-"クリス…？ ",
+"クリス…？",
 true,
 28,
 28
@@ -519709,13 +519709,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_322_0": {
 "en": [
-"Kris, honey...\nAre you awake...? ",
+"Kris, honey...\nAre you awake...?",
 true,
 46,
 46
 ],
 "ja": [
-"クリス…\nおきてるの…？ ",
+"クリス…\nおきてるの…？",
 true,
 46,
 46
@@ -519723,13 +519723,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_323_0": {
 "en": [
-"... w.... wait! ",
+"... w.... wait!",
 true,
 28,
 28
 ],
 "ja": [
-"…えっ…まって！ ",
+"…えっ…まって！",
 true,
 28,
 28
@@ -519737,13 +519737,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_324_0": {
 "en": [
-"Is that a... ",
+"Is that a...",
 true,
 28,
 28
 ],
 "ja": [
-"まさか… ",
+"まさか…",
 true,
 28,
 28
@@ -519751,13 +519751,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_325_0": {
 "en": [
-"A knife!!? ",
+"A knife!!?",
 true,
 28,
 28
 ],
 "ja": [
-"ナイフ！？ ",
+"ナイフ！？",
 true,
 28,
 28
@@ -519765,13 +519765,13 @@ true,
 },
 "obj_krisroom_slash_Step_0_gml_353_0": {
 "en": [
-"NOOOOOOOO---!!! ",
+"NOOOOOOOO---!!!",
 true,
 28,
 28
 ],
 "ja": [
-"そんな………！！！ ",
+"そんな………！！！",
 true,
 28,
 28
@@ -521327,13 +521327,13 @@ false,
 },
 "obj_micmenu_slash_Draw_0_gml_53_0": {
 "en": [
-"* Current Microphone:  ",
+"* Current Microphone:",
 false,
 28,
 28
 ],
 "ja": [
-"＊ 現在のマイク：  ",
+"＊ 現在のマイク：",
 false,
 28,
 28
@@ -522983,13 +522983,13 @@ false,
 "obj_mike_controller": {
 "obj_mike_controller_slash_Draw_0_gml_73_0": {
 "en": [
-"SCORE: ",
+"SCORE:",
 false,
 28,
 28
 ],
 "ja": [
-"SCORE: ",
+"SCORE:",
 false,
 28,
 28
@@ -522997,13 +522997,13 @@ false,
 },
 "obj_mike_controller_slash_Draw_0_gml_75_0_b": {
 "en": [
-"HISCORE: ",
+"HISCORE:",
 false,
 28,
 28
 ],
 "ja": [
-"HISCORE: ",
+"HISCORE:",
 false,
 28,
 28
@@ -523011,13 +523011,13 @@ false,
 },
 "obj_mike_controller_slash_Draw_0_gml_79_0": {
 "en": [
-"CATS: ",
+"CATS:",
 false,
 28,
 28
 ],
 "ja": [
-"CATS: ",
+"CATS:",
 false,
 28,
 28
@@ -523053,13 +523053,13 @@ false,
 },
 "obj_mike_controller_slash_Draw_0_gml_135_0": {
 "en": [
-"COMBO: ",
+"COMBO:",
 false,
 28,
 28
 ],
 "ja": [
-"COMBO: ",
+"COMBO:",
 false,
 28,
 28
@@ -523101,7 +523101,7 @@ false,
 28
 ],
 "ja": [
-"CATS: ",
+"CATS:",
 false,
 28,
 28
@@ -523167,13 +523167,13 @@ false,
 },
 "obj_mike_minigame_controller_slash_Draw_0_gml_54_0": {
 "en": [
-"MUSIC: ",
+"MUSIC:",
 false,
 28,
 28
 ],
 "ja": [
-"MUSIC: ",
+"MUSIC:",
 false,
 28,
 28
@@ -523209,13 +523209,13 @@ false,
 },
 "obj_mike_minigame_controller_slash_Draw_0_gml_109_0": {
 "en": [
-"INVERT VOL: ",
+"INVERT VOL:",
 false,
 28,
 28
 ],
 "ja": [
-"VOL反転： ",
+"VOL反転：",
 false,
 28,
 28
@@ -524047,7 +524047,7 @@ false,
 "obj_moneydisplay": {
 "obj_moneydisplay_slash_Draw_0_gml_22_0": {
 "en": [
-"HELD SPACE: ",
+"HELD SPACE:",
 true,
 28,
 28
@@ -524061,7 +524061,7 @@ true,
 },
 "obj_moneydisplay_slash_Draw_0_gml_23_0": {
 "en": [
-"STORAGE SPACE: ",
+"STORAGE SPACE:",
 true,
 28,
 28
@@ -526931,7 +526931,7 @@ true,
 46
 ],
 "ja": [
-"＊ …なぁあんつってぇええ！\n＊ わるいけど　ボク　100てん\n　 とりたいからぁ～！　",
+"＊ …なぁあんつってぇええ！\n＊ わるいけど　ボク　100てん\n　 とりたいからぁ～！",
 true,
 64,
 64
@@ -531803,10 +531803,10 @@ false,
 28
 ],
 "ja": [
-"＊ うちの店は　セールスメールも　\n　 背の低いヘンな男も　出しません！\n　 ",
+"＊ うちの店は　セールスメールも　\n　 背の低いヘンな男も　出しません！",
 false,
-64,
-64
+46,
+46
 ]
 },
 "obj_npc_room_slash_Other_10_gml_204_0": {
@@ -534471,13 +534471,13 @@ true,
 },
 "obj_npc_room_slash_Other_10_gml_698_0": {
 "en": [
-"* Anyway, Susie sucks, Kris,<span class=\"break\">\n  </span>haha. ",
+"* Anyway, Susie sucks, Kris,<span class=\"break\">\n  </span>haha.",
 true,
 46,
 28
 ],
 "ja": [
-"＊ よーするに　スージィは\n　 サイテーだってことだな！\n　 ハハハ！ ",
+"＊ よーするに　スージィは\n　 サイテーだってことだな！\n　 ハハハ！",
 true,
 64,
 64
@@ -534527,7 +534527,7 @@ true,
 },
 "obj_npc_room_slash_Other_10_gml_710_0": {
 "en": [
-"* HOOH!!\n* You're lucky, Kris!! ",
+"* HOOH!!\n* You're lucky, Kris!!",
 true,
 46,
 46
@@ -540319,7 +540319,7 @@ true,
 28
 ],
 "ja": [
-"＊ わあ…！　このお人形に\n　 お洋服作ってあげていい？ ",
+"＊ わあ…！　このお人形に\n　 お洋服作ってあげていい？",
 true,
 46,
 46
@@ -540907,10 +540907,10 @@ true,
 28
 ],
 "ja": [
-"＊ &lt;!--[ピーチボーイ]ハ　\n　 オ友ダチト　遊ンデキナサイ\n　 ",
+"＊ &lt;!--[ピーチボーイ]ハ　\n　 オ友ダチト　遊ンデキナサイ",
 true,
-64,
-64
+46,
+46
 ]
 },
 "obj_npc_sign_slash_Other_10_gml_926_0": {
@@ -551663,7 +551663,7 @@ true,
 64
 ],
 "ja": [
-"＊ たー　\n＊ たー　\n＊ くー　な！　",
+"＊ たー　\n＊ たー　\n＊ くー　な！",
 true,
 64,
 64
@@ -556423,10 +556423,10 @@ false,
 28
 ],
 "ja": [
-"＊ &lt;!--超高速[32kbps]デ\n　 アナタノ　耳ニ　オ届ケ--&gt;\n　 ",
+"＊ &lt;!--超高速[32kbps]デ\n　 アナタノ　耳ニ　オ届ケ--&gt;",
 false,
-64,
-64
+46,
+46
 ]
 },
 "obj_readable_room1_slash_Other_10_gml_4189_0": {
@@ -557207,10 +557207,10 @@ false,
 28
 ],
 "ja": [
-"＊ (…スージィが　ヤバめの\n　 コメントをする　きがする)\n　 ",
+"＊ (…スージィが　ヤバめの\n　 コメントをする　きがする)",
 false,
-64,
-64
+46,
+46
 ]
 },
 "obj_readable_room1_slash_Other_10_gml_4488_0": {
@@ -558859,7 +558859,7 @@ false,
 28
 ],
 "ja": [
-"＊ でも　でかい　つばさ\n　 ばかりつくって　ほんたいが\n　 かんせいしなかった！ ",
+"＊ でも　でかい　つばさ\n　 ばかりつくって　ほんたいが\n　 かんせいしなかった！",
 true,
 64,
 64
@@ -559783,7 +559783,7 @@ true,
 },
 "obj_ribbick_enemy_slash_Step_0_gml_183_0": {
 "en": [
-"* Rabbick is now nice and clean. ",
+"* Rabbick is now nice and clean.",
 true,
 28,
 28
@@ -561039,13 +561039,13 @@ false,
 "obj_room_castle_queen": {
 "obj_room_castle_queen_slash_Create_0_gml_21_1": {
 "en": [
-"* ",
+"*",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -561067,13 +561067,13 @@ false,
 },
 "obj_room_castle_queen_slash_Create_0_gml_23_1": {
 "en": [
-"* ",
+"*",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -561095,13 +561095,13 @@ false,
 },
 "obj_room_castle_queen_slash_Create_0_gml_25_1": {
 "en": [
-"* ",
+"*",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -571573,7 +571573,7 @@ false,
 },
 "obj_sound_of_justice_enemy_slash_Step_0_gml_128_0": {
 "en": [
-"I...\nI'm telling you... ",
+"I...\nI'm telling you...",
 false,
 46,
 46
@@ -571699,7 +571699,7 @@ false,
 },
 "obj_sound_of_justice_enemy_slash_Step_0_gml_170_0": {
 "en": [
-"It's me, Susie!\nI'm your... ",
+"It's me, Susie!\nI'm your...",
 false,
 46,
 46
@@ -572503,13 +572503,13 @@ false,
 },
 "obj_takingtoolong_slash_Draw_0_gml_25_0": {
 "en": [
-"YOUR ",
+"YOUR",
 false,
 28,
 28
 ],
 "ja": [
-"YOUR ",
+"YOUR",
 false,
 28,
 28
@@ -574031,7 +574031,7 @@ true,
 28
 ],
 "ja": [
-"＊ Lancer joined the party!      ",
+"＊ Lancer joined the party!",
 true,
 28,
 28
@@ -574995,7 +574995,7 @@ false,
 },
 "obj_titan_enemy_slash_Other_10_gml_16_0": {
 "en": [
-"* The darkness gives a long gaze,<span class=\"break\">\n  </span>which slithered like a snake. ",
+"* The darkness gives a long gaze,<span class=\"break\">\n  </span>which slithered like a snake.",
 false,
 46,
 28
@@ -577309,13 +577309,13 @@ true,
 "scr_anyface": {
 "scr_anyface_slash_scr_anyface_gml_23_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -577323,13 +577323,13 @@ true,
 },
 "scr_anyface_slash_scr_anyface_gml_24_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -577337,13 +577337,13 @@ true,
 },
 "scr_anyface_slash_scr_anyface_gml_27_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -577351,13 +577351,13 @@ true,
 },
 "scr_anyface_slash_scr_anyface_gml_28_0_b": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -577365,13 +577365,13 @@ true,
 },
 "scr_anyface_slash_scr_anyface_gml_28_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -577379,13 +577379,13 @@ true,
 },
 "scr_anyface_slash_scr_anyface_gml_29_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -577399,7 +577399,7 @@ false,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -580617,7 +580617,7 @@ true,
 },
 "scr_ascii_input_names_slash_scr_ascii_input_names_gml_74_0": {
 "en": [
-"Numpad ",
+"Numpad",
 true,
 28,
 28
@@ -580787,13 +580787,13 @@ true,
 "scr_asgface": {
 "scr_asgface_slash_scr_asgface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -587497,7 +587497,7 @@ true,
 28
 ],
 "ja": [
-"…ただの水だよ！　からかわれてる！？　",
+"…ただの水だよ！　からかわれてる！？",
 true,
 28,
 28
@@ -588659,13 +588659,13 @@ false,
 "scr_kingface": {
 "scr_kingface_slash_scr_kingface_gml_3_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -588673,13 +588673,13 @@ true,
 },
 "scr_kingface_slash_scr_kingface_gml_7_0": {
 "en": [
-"  1  ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1  ",
+"  1",
 true,
 28,
 28
@@ -588689,13 +588689,13 @@ true,
 "scr_lanface": {
 "scr_lanface_slash_scr_lanface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -598461,13 +598461,13 @@ true,
 "scr_noeface": {
 "scr_noeface_slash_scr_noeface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -599267,13 +599267,13 @@ true,
 "scr_ralface": {
 "scr_ralface_slash_scr_ralface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -599327,7 +599327,7 @@ true,
 "scr_recruit_info": {
 "scr_recruit_info_slash_scr_recruit_info_gml_10_0": {
 "en": [
-"Known Quantity ",
+"Known Quantity",
 true,
 28,
 28
@@ -603395,13 +603395,13 @@ true,
 "scr_rudface": {
 "scr_rudface_slash_scr_rudface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -603411,13 +603411,13 @@ true,
 "scr_rurusface": {
 "scr_rurusface_slash_scr_rurusface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -605467,13 +605467,13 @@ true,
 "scr_susface": {
 "scr_susface_slash_scr_susface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -605695,13 +605695,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_44_0": {
 "en": [
-"* I'll ask if you're sure!\n \nNot yet     Yes. Ask. ",
+"* I'll ask if you're sure!\n \nNot yet     Yes. Ask.",
 true,
 64,
 64
 ],
 "ja": [
-"＊ どうする？　きいてみる？\n \n   まって        きいてみて ",
+"＊ どうする？　きいてみる？\n \n   まって        きいてみて",
 true,
 64,
 64
@@ -605751,13 +605751,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_62_0": {
 "en": [
-"* Do you wanna be partners?\nNot yet     Yes ",
+"* Do you wanna be partners?\nNot yet     Yes",
 true,
 46,
 46
 ],
 "ja": [
-"＊ わたしたちの　グループに\n　 はいりたい？\n   まって        うん ",
+"＊ わたしたちの　グループに\n　 はいりたい？\n   まって        うん",
 true,
 64,
 64
@@ -605849,13 +605849,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_83_0": {
 "en": [
-"* How's that sound?\n \nGood        Bad ",
+"* How's that sound?\n \nGood        Bad",
 true,
 64,
 64
 ],
 "ja": [
-"＊ いいな？\n \n   はい          いやです ",
+"＊ いいな？\n \n   はい          いやです",
 true,
 64,
 64
@@ -614515,13 +614515,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1632_0": {
 "en": [
-"* But make sure you don't watch<span class=\"break\">\n  </span>past the second season ",
+"* But make sure you don't watch<span class=\"break\">\n  </span>past the second season",
 true,
 46,
 28
 ],
 "ja": [
-"＊ あ　でも\n　 シーズン２より　さきは\n　 ぜったい　みないで ",
+"＊ あ　でも\n　 シーズン２より　さきは\n　 ぜったい　みないで",
 true,
 64,
 64
@@ -614529,13 +614529,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1633_0": {
 "en": [
-"* Since they just rebooted it as<span class=\"break\">\n  </span>Symptons Turbo ",
+"* Since they just rebooted it as<span class=\"break\">\n  </span>Symptons Turbo",
 true,
 46,
 28
 ],
 "ja": [
-"＊ 「シンプトンズ・ターボ」\n　 ってなまえで　リブート\n　 したんだけど ",
+"＊ 「シンプトンズ・ターボ」\n　 ってなまえで　リブート\n　 したんだけど",
 true,
 64,
 64
@@ -614543,13 +614543,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1634_0": {
 "en": [
-"* They all started driving their<span class=\"break\">\n  </span>own motor-vehicles ",
+"* They all started driving their<span class=\"break\">\n  </span>own motor-vehicles",
 true,
 46,
 28
 ],
 "ja": [
-"＊ とうじょうキャラ\n　 ぜんいんが　バイクとか\n　 クルマとか　のりまわして ",
+"＊ とうじょうキャラ\n　 ぜんいんが　バイクとか\n　 クルマとか　のりまわして",
 true,
 64,
 64
@@ -614557,13 +614557,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1635_0": {
 "en": [
-"* And fighting giant giga-demons<span class=\"break\">\n  </span>and stuff ",
+"* And fighting giant giga-demons<span class=\"break\">\n  </span>and stuff",
 true,
 46,
 28
 ],
 "ja": [
-"＊ きょだいデーモンとかと\n　 たたかう　はなしに\n　 なっちゃって ",
+"＊ きょだいデーモンとかと\n　 たたかう　はなしに\n　 なっちゃって",
 true,
 64,
 64
@@ -614571,13 +614571,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1636_0": {
 "en": [
-"* The main problem about that is<span class=\"break\">\n  </span>that it kind of ",
+"* The main problem about that is<span class=\"break\">\n  </span>that it kind of",
 true,
 46,
 28
 ],
 "ja": [
-"＊ でも　いちばん\n　 もんだいなのは ",
+"＊ でも　いちばん\n　 もんだいなのは",
 true,
 46,
 46
@@ -614585,13 +614585,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1637_0": {
 "en": [
-"* Lost the focus on family that<span class=\"break\">\n  </span>it had earlier ",
+"* Lost the focus on family that<span class=\"break\">\n  </span>it had earlier",
 true,
 46,
 28
 ],
 "ja": [
-"＊ かぞくの　きずなの\n　 テーマが　うしなわれ\n　 ちゃったこと ",
+"＊ かぞくの　きずなの\n　 テーマが　うしなわれ\n　 ちゃったこと",
 true,
 64,
 64
@@ -614599,13 +614599,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1638_0": {
 "en": [
-"* When their vehicles were shaped<span class=\"break\">\n  </span>like animals ",
+"* When their vehicles were shaped<span class=\"break\">\n  </span>like animals",
 true,
 46,
 28
 ],
 "ja": [
-"＊ かれらが　のってる\n　 クルマや　バイクは\n　 どうぶつのフォルムで ",
+"＊ かれらが　のってる\n　 クルマや　バイクは\n　 どうぶつのフォルムで",
 true,
 64,
 64
@@ -614613,13 +614613,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1639_0": {
 "en": [
-"* And they were friends with the<span class=\"break\">\n  </span>animal vehicles too ",
+"* And they were friends with the<span class=\"break\">\n  </span>animal vehicles too",
 true,
 46,
 28
 ],
 "ja": [
-"＊ みんな　そのクルマや\n　 バイクとも　おともだち\n　 だったはずなのに ",
+"＊ みんな　そのクルマや\n　 バイクとも　おともだち\n　 だったはずなのに",
 true,
 64,
 64
@@ -614627,13 +614627,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1640_0": {
 "en": [
-"* And let's not get into Symptons<span class=\"break\">\n  </span>Galaxy Force ",
+"* And let's not get into Symptons<span class=\"break\">\n  </span>Galaxy Force",
 true,
 46,
 28
 ],
 "ja": [
-"＊ でも　それをいったら\n　 「シンプトンズ・ギャラク\n　 シー・フォース」なんて ",
+"＊ でも　それをいったら\n　 「シンプトンズ・ギャラク\n　 シー・フォース」なんて",
 true,
 64,
 64
@@ -614641,13 +614641,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1641_0": {
 "en": [
-"* Where the Symptons discover<span class=\"break\">\n  </span>another Earth ",
+"* Where the Symptons discover<span class=\"break\">\n  </span>another Earth",
 true,
 46,
 28
 ],
 "ja": [
-"＊ シンプトン一家が\n　 もうひとつの　ちきゅうを\n　 はっけんするんだけど ",
+"＊ シンプトン一家が\n　 もうひとつの　ちきゅうを\n　 はっけんするんだけど",
 true,
 64,
 64
@@ -614655,13 +614655,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1642_0": {
 "en": [
-"* On the other side of the Sun ",
+"* On the other side of the Sun",
 true,
 28,
 28
 ],
 "ja": [
-"＊ そのばしょが\n　 たいようの　うらがわで ",
+"＊ そのばしょが\n　 たいようの　うらがわで",
 true,
 46,
 46
@@ -614669,13 +614669,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_1643_0": {
 "en": [
-"* WOULDN'T THE GRAVITATIONAL<span class=\"break\">\n  </span>FIELD JUST ",
+"* WOULDN'T THE GRAVITATIONAL<span class=\"break\">\n  </span>FIELD JUST",
 true,
 46,
 28
 ],
 "ja": [
-"＊ でも　それだと\n　 じゅうりょくフィールドが ",
+"＊ でも　それだと\n　 じゅうりょくフィールドが",
 true,
 46,
 46
@@ -615537,7 +615537,7 @@ true,
 },
 "scr_text_slash_scr_text_gml_1858_0": {
 "en": [
-"* Interested in a Choco Diamond? ",
+"* Interested in a Choco Diamond?",
 true,
 28,
 28
@@ -616803,7 +616803,7 @@ true,
 28
 ],
 "ja": [
-"＊ ここの　ゴロつきどもに\n　 きょうみが　あんのか？\n　 じゃあ　しょうかいするぜ。　",
+"＊ ここの　ゴロつきどもに\n　 きょうみが　あんのか？\n　 じゃあ　しょうかいするぜ。",
 true,
 64,
 64
@@ -626205,7 +626205,7 @@ true,
 },
 "scr_text_slash_scr_text_gml_3807_0": {
 "en": [
-"* She curses me, every day\n* Glares 'cause I'm in her way ",
+"* She curses me, every day\n* Glares 'cause I'm in her way",
 true,
 46,
 46
@@ -630719,7 +630719,7 @@ true,
 28
 ],
 "ja": [
-"＊ わざわざ食うことないぜ。\n　 クソマズいからな。 ",
+"＊ わざわざ食うことないぜ。\n　 クソマズいからな。",
 true,
 46,
 46
@@ -630747,7 +630747,7 @@ true,
 28
 ],
 "ja": [
-"＊ わざわざ食うことないぜ。\n　 クソマズいからな。 ",
+"＊ わざわざ食うことないぜ。\n　 クソマズいからな。",
 true,
 46,
 46
@@ -636571,7 +636571,7 @@ true,
 28
 ],
 "ja": [
-"＊ そ…そっか…！\n　 やる気マンマンだね！ ",
+"＊ そ…そっか…！\n　 やる気マンマンだね！",
 true,
 46,
 46
@@ -636613,7 +636613,7 @@ true,
 28
 ],
 "ja": [
-"＊ べつに\n　 なりたくないですから… ",
+"＊ べつに\n　 なりたくないですから…",
 true,
 46,
 46
@@ -640597,7 +640597,7 @@ false,
 },
 "scr_text_slash_scr_text_gml_8228_0": {
 "en": [
-"\nIt was\na joke ",
+"\nIt was\na joke",
 false,
 64,
 64
@@ -643719,13 +643719,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_9292_0": {
 "en": [
-"* ",
+"*",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ",
+"＊",
 false,
 28,
 28
@@ -650595,13 +650595,13 @@ true,
 "scr_torface": {
 "scr_torface_slash_scr_torface_gml_1_0": {
 "en": [
-"  1   ",
+"  1",
 true,
 28,
 28
 ],
 "ja": [
-"  1   ",
+"  1",
 true,
 28,
 28
@@ -652501,7 +652501,7 @@ true,
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_585_0": {
 "en": [
-"Looks like a giant caterpillar.  ",
+"Looks like a giant caterpillar.",
 true,
 28,
 28

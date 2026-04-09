@@ -58,27 +58,27 @@ DEVICE_CONTACT
 CONTACT
 
  ARE YOU
- THERE?  
+ THERE?
 
  ARE WE
-CONNECTED?   
+CONNECTED?
 
 ...
 
-EXCELLENT.  
+EXCELLENT.
 
   TRULY
-EXCELLENT.  
+EXCELLENT.
 
-   NOW.  
+   NOW.
 
   WE MAY
-  BEGIN.  
+  BEGIN.
 
-FIRST.  
+FIRST.
 
 YOU MUST CREATE
-A VESSEL.  
+A VESSEL.
 
 SELECT THE HEAD
 THAT YOU PREFER.
@@ -89,19 +89,19 @@ THAT YOU PREFER.
 SELECT THE LEGS
 THAT YOU PREFER.
 
-THIS IS YOUR BODY.  
+THIS IS YOUR BODY.
 
 DO YOU ACCEPT IT?
 
-   EXCELLENT.  
+   EXCELLENT.
 
 YOU HAVE CREATED
-A WONDERFUL FORM.  
+A WONDERFUL FORM.
 
-       NOW.  
+       NOW.
 
 LET US SHAPE ITS
-MIND AS YOUR OWN.   
+MIND AS YOUR OWN.
 
 WHAT IS ITS
 FAVORITE FOOD?
@@ -174,56 +174,56 @@ YES
 
 NO
 
-UNDERSTOOD.  
+UNDERSTOOD.
 
 NAME YOUR VESSEL.
 
 WE CALLED IT
-"~1."   
+"~1."
 
 AND WHAT ABOUT
-THE CREATOR?  
+THE CREATOR?
 
-"~1."   
+"~1."
 
 AN INTERESTING
-COINCIDENCE.  
+COINCIDENCE.
 
 AND WHAT ABOUT
-THE CREATOR?  
+THE CREATOR?
 
 YOUR OWN NAME.
 
-"~1."   
+"~1."
 
-EXCELLENT.  
+EXCELLENT.
 
 TRULY 
-EXCELLENT.  
+EXCELLENT.
 
-HOW INTERESTING.  
+HOW INTERESTING.
 
 YOU ARE ABOUT TO
-MEET SOMEONE   
+MEET SOMEONE
 
 VERY, VERY
-WONDERFUL.   
+WONDERFUL.
 
 OF COURSE
-OF COURSE.  
+OF COURSE.
 
 OF COURSE THEY
-ARE THE SAME.  
+ARE THE SAME.
 
-"~1."   
+"~1."
 
 THANK YOU
-FOR YOUR TIME.   
+FOR YOUR TIME.
 
-YOUR ANSWERS   
+YOUR ANSWERS
 
 YOUR WONDERFUL
-CREATION 
+CREATION
 
   Will now be
   discarded.
@@ -236,18 +236,18 @@ Your
  
 name
  
- is 
+ is
 
-Kris...! 
+Kris...!
 
-Wake up! 
+Wake up!
 
-KRIS...! 
+KRIS...!
 
- FIRST.  
+ FIRST.
 
  ARE YOU
-PHOTOSENSITIVE?   
+PHOTOSENSITIVE?
 
 GASTER
 
@@ -597,7 +597,7 @@ up...
 * BLOXER - AT 9 DF 2
 * Loves: Training. Hates: Body being the wrong shape
 
-* Press 
+* Press
 
  to choose:
    1 HEAD,  2 BODY,  3 LEGS.
@@ -704,7 +704,7 @@ obj_carcutscene
 * But I wonder...
 * After the excitement of university...
 
-* Will he still enjoy coming home to this little town...?  
+* Will he still enjoy coming home to this little town...?
 
 
 =====================
@@ -735,7 +735,7 @@ Friendly Fun Gang.
 * Hohoho...
 * Well STEP on my BOOTS.
 
-* If it isn't the 
+* If it isn't the
 
 * You boys or girls had better turn back while you can.
 
@@ -967,7 +967,7 @@ Checkers
 
 Throw
 
-* Press 
+* Press
 
  to determine the ANGLE!
 
@@ -1065,7 +1065,7 @@ obj_classscene
 
 * Ummm, there might be a box in the supply closet...
 
-* Do you want me to - 
+* Do you want me to -
 
 * G-good idea, Noelle!
 * Susie, s-since you came in last...
@@ -1896,7 +1896,7 @@ both of you...
 obj_darkcontroller
 ==================
 
-D$ 
+D$
 
 CONFIG
 
@@ -1954,15 +1954,15 @@ Reset to default
 
 Finish
 
-Attack: 
+Attack:
 
-Defense: 
+Defense:
 
-Magic: 
+Magic:
 
-Guts: 
+Guts:
 
-LV1 
+LV1
 
 ???
 
@@ -1982,9 +1982,9 @@ LV1 Bed Inspector
 Inspects all beds
 inexplicably.
 
-Rudeness 
+Rudeness
 
-Crudeness 
+Crudeness
 
 LV1 Mean Girl
 Won't do anything
@@ -2018,11 +2018,11 @@ Fluffiness
 
 (Nothing)
 
-Attack: 
+Attack:
 
-Defense: 
+Defense:
 
-Magic: 
+Magic:
 
  (
 
@@ -2378,7 +2378,7 @@ obj_dummyenemy
 * Good job, Kris!
 * By the way, you'll do more damage...
 
-* Pressing 
+* Pressing
 
  when the cursor enters the box on the left!
 
@@ -2428,7 +2428,7 @@ obj_dummyenemy
 * I forgot to mention!
 * When you're ATTACKing...
 
-* Press 
+* Press
 
  again when the cursor goes in the box!
 
@@ -2436,16 +2436,16 @@ obj_dummyenemy
 * You'll get it!
 * Try again!
 
-* Press 
+* Press
 
  when the white rectangle's in the blue box!
 
-* Ummm... you can press 
+* Ummm... you can press
 
  a lot, if it helps!
 
 * Kris...
-* Please try to press 
+* Please try to press
 
 .
 
@@ -2961,11 +2961,11 @@ obj_getsusieevent
 * Yahoo! Susie's back on the team!
 * Cue the fanfare!
 
-* Susie joined the party!      
+* Susie joined the party!
 
 * ...
 
-* Susie follows at a distance such that no one can tell she's associated!                     
+* Susie follows at a distance such that no one can tell she's associated!
 
 * (Oh, Kris! I just realized Susie missed the tutorial!)
 
@@ -2986,7 +2986,7 @@ obj_glowtilepuzz
 
 * Kris, um, you didn't forget, did you...?
 
-* That you can run by holding 
+* That you can run by holding
 
 ?
 
@@ -3006,7 +3006,7 @@ obj_glowtilepuzz
 
 * WHY is Kris the leader of the party again?
 
-* Susie! K-Kris is doing their best to use 
+* Susie! K-Kris is doing their best to use
 
  to RUN!
 
@@ -3246,7 +3246,7 @@ i1
 
 * i4
 
-* i5  
+* i5
 
 * i6.
 
@@ -5671,7 +5671,7 @@ obj_npc_room_animated
 * ("Even in a rush, you need to take care of yourself.")
 
 * (You got the Wrist Protector.)
-* (Hold 
+* (Hold
 
  to skip text.)
 
@@ -5886,7 +5886,7 @@ obj_npc_room
 * I'm building a ladder here.
 
 * Today's lesson is...
-* Get out of my way when I'm building a ladder! 
+* Get out of my way when I'm building a ladder!
 
 * Do you need an interactive tutorial on leaving me alone?
 
@@ -6104,7 +6104,7 @@ obj_npc_room
 
 * These birds are Pissing me off...
 
-* I'm the original   Starwalker 
+* I'm the original   Starwalker
 
 * S-somehow, Prince Lancer's made REAL friends with a Lightner...
 
@@ -6632,7 +6632,7 @@ obj_npc_room
 
 * Then, Undyne came out, smiling, cracked her knuckles, and totally wiped us at handball...
 
-* Anyway, Susie sucks, Kris, haha. 
+* Anyway, Susie sucks, Kris, haha.
 
 * Yo, Kris, you look kind of annoyed.
 * Everything OK?
@@ -6643,7 +6643,7 @@ obj_npc_room
 * You look even more annoyed...
 
 * HOOH!!
-* You're lucky, Kris!! 
+* You're lucky, Kris!!
 
 * You got to miss class with Alphys! It's not fair! Ha ha ha!
 
@@ -6727,7 +6727,7 @@ a purple
 
 * (These types of trees DON'T contain an item that can heal you.)
 
-* (Whatever you do, DON'T check the tree and use 
+* (Whatever you do, DON'T check the tree and use
 
  to open your menu!)
 
@@ -6778,7 +6778,7 @@ $100 - Stop making tutorials.
 
 * This jail is Pissing me off...
 
-* I'm the original    Starwalker 
+* I'm the original    Starwalker
 
 * (It's a throne.)
 * (It seems to have been damaged in a struggle...)
@@ -6827,11 +6827,11 @@ obj_npc_toriel
 obj_overworldc
 ==============
 
-HP  
+HP
 
-LV  
+LV
 
-$   
+$
 
 ITEM
 
@@ -6847,9 +6847,9 @@ DROP
 
 "~1"
 
-LV  
+LV
 
-HP  ~1 / 
+HP  ~1 /
 
 AT  ~1 (
 
@@ -6867,25 +6867,25 @@ Lucky Pencil
 
 Bandage
 
-WEAPON: 
+WEAPON:
 
-ARMOR: 
+ARMOR:
 
-MONEY: 
+MONEY:
 
 ???
 
-EXP: 
+EXP:
 
-NEXT: 
+NEXT:
 
-* You bid a quiet farewell to the 
+* You bid a quiet farewell to the
 
 * You put the ~1 on the ground and gave it a little pat.
 
 * You threw the ~1 on the ground like the piece of trash it is.
 
-* You abandoned the 
+* You abandoned the
 
 * The ~1 was thrown away.
 
@@ -8430,7 +8430,7 @@ Enough, Worms...!
 * Huh...!?
 * It's the enemy from earlier...!
 
-* But its CROWN looks different!  
+* But its CROWN looks different!
 
 * Yes! With my Control Crowne...
 
@@ -8438,7 +8438,7 @@ Enough, Worms...!
 
 * Oh no!!!
 
-* It looks like it's in pain!!  
+* It looks like it's in pain!!
 
 * Yes... The control crown is painful...
 
@@ -8536,9 +8536,9 @@ Kris
 
 Kris
 
-LV 
+LV
 
-LV 
+LV
 
 Save
 
@@ -9882,7 +9882,7 @@ The Friendly Fun Gang
 * Ahahah!!!
 * Lancer joins the team!!!
 
-* Lancer joined the party!      
+* Lancer joined the party!
 
 * No.
 
@@ -10065,7 +10065,7 @@ obj_thrashafter_follow
 * Hoho!!!
 * Candy joins the team!!
 
-* Candy joined the party!      
+* Candy joined the party!
 
 * ALRIGHT ALREADY!!!
 
@@ -10209,11 +10209,11 @@ NO
 
 (SELECT)
 
-HEAD: 
+HEAD:
 
-BODY: 
+BODY:
 
-SHOE: 
+SHOE:
 
 
 =====================
@@ -10319,7 +10319,7 @@ obj_thrashmaker_event
 obj_throwralsei
 ===============
 
-* Press 
+* Press
 
  to determine the POWER!
 
@@ -10413,7 +10413,7 @@ obj_tutorialbattleevent
 * Here!
 * I wrote a Manual for you and Susie!
 
-* Press 
+* Press
 
  to open the menu and use it in your ITEMS.
 
@@ -10614,7 +10614,7 @@ Numpad -
 
 Numpad .
 
-Numpad 
+Numpad
 
 F1
 
@@ -10669,7 +10669,7 @@ Alt
 scr_asgface
 ===========
 
-  1   
+  1
 
 
 =============
@@ -11102,16 +11102,16 @@ ShadowCrystal
 scr_kingface
 ============
 
-  1   
+  1
 
-  1  
+  1
 
 
 ===========
 scr_lanface
 ===========
 
-  1   
+  1
 
 
 =============
@@ -11541,7 +11541,7 @@ everyone
 scr_noeface
 ===========
 
-  1   
+  1
 
 
 =============
@@ -11559,7 +11559,7 @@ Not Sans's Number
 scr_ralface
 ===========
 
-  1   
+  1
 
 
 ============
@@ -11607,14 +11607,14 @@ Card Castle - ???
 scr_rudface
 ===========
 
-  1   
+  1
 
 
 =============
 scr_rurusface
 =============
 
-  1   
+  1
 
 
 =============
@@ -11776,7 +11776,7 @@ scr_spelltext
 scr_susface
 ===========
 
-  1   
+  1
 
 
 ============
@@ -11823,7 +11823,7 @@ No
 
 * I'll ask if you're sure!
  
-Not yet     Yes. Ask. 
+Not yet     Yes. Ask.
 
 * OK, I'll ask!
 
@@ -11833,7 +11833,7 @@ Not yet     Yes. Ask.
 * Yeah, I'm sure there's someone else you can ask!
 
 * Do you wanna be partners?
-Not yet     Yes 
+Not yet     Yes
 
 * OK, I'll ask!
 
@@ -11854,7 +11854,7 @@ Not yet     Yes
 
 * How's that sound?
  
-Good        Bad 
+Good        Bad
 
 
 Yes
@@ -12006,7 +12006,7 @@ Really!?
 
 * Umm, Kris, did you know...
 
-* ... You can skip text by pressing 
+* ... You can skip text by pressing
 
 ?
 
@@ -12049,7 +12049,7 @@ Don't
 * Here!
 * I made a Manual for you and Susie!
 
-* Press 
+* Press
 
  to open the menu and use it in your ITEMS.
 
@@ -13321,29 +13321,29 @@ Nothing
 
 * It's the funniest, most quotable show ever...!
 
-* But make sure you don't watch past the second season 
+* But make sure you don't watch past the second season
 
-* Since they just rebooted it as Symptons Turbo 
+* Since they just rebooted it as Symptons Turbo
 
-* They all started driving their own motor-vehicles 
+* They all started driving their own motor-vehicles
 
-* And fighting giant giga-demons and stuff 
+* And fighting giant giga-demons and stuff
 
-* The main problem about that is that it kind of 
+* The main problem about that is that it kind of
 
-* Lost the focus on family that it had earlier 
+* Lost the focus on family that it had earlier
 
-* When their vehicles were shaped like animals 
+* When their vehicles were shaped like animals
 
-* And they were friends with the animal vehicles too 
+* And they were friends with the animal vehicles too
 
-* And let's not get into Symptons Galaxy Force 
+* And let's not get into Symptons Galaxy Force
 
-* Where the Symptons discover another Earth 
+* Where the Symptons discover another Earth
 
-* On the other side of the Sun 
+* On the other side of the Sun
 
-* WOULDN'T THE GRAVITATIONAL FIELD JUST 
+* WOULDN'T THE GRAVITATIONAL FIELD JUST
 
 * ... Huh?
 
@@ -13485,7 +13485,7 @@ Buy
  
 Do not
 
-* Interested in a Choco Diamond? 
+* Interested in a Choco Diamond?
 
 * All proceeds go to Rudinn Relief Funds, I guess.
 * It's only $40!
@@ -14631,7 +14631,7 @@ No
 scr_torface
 ===========
 
-  1   
+  1
 
 
 ==============
@@ -17145,7 +17145,7 @@ TALKING TO YOU!
 
 * My son... is...
 
-* A bouncy little pumpkin. 
+* A bouncy little pumpkin.
 
 
 =======================
@@ -17348,7 +17348,7 @@ Hell if I know???
 
 * S-SUSIE!?
 
-* SUSIE!?!? WHY ARE YOU HERE!? 
+* SUSIE!?!? WHY ARE YOU HERE!?
 
 * Sorry guys, this game's only one-player!
 
@@ -17523,7 +17523,7 @@ obj_ch2_scene_sideb_noelleroom
 
 HEY!
 
-* Psst... I'll tell you later, Kris.  
+* Psst... I'll tell you later, Kris.
 
 * (Oh well, as long as Susie's happy... right?)
 
@@ -18225,11 +18225,11 @@ obj_ch2_scene19b
 
 * Well, hahah - ah, you see -
 
-* 
+*
 
 * First, you
 
-* 
+*
 
 * You align the shadows... with the lines on the floor.
 
@@ -19359,7 +19359,7 @@ obj_ch2_scene25
 * Your arm is...
 * That was stupid...!
 
-* Yes... It was, wasn't it...?  
+* Yes... It was, wasn't it...?
 
 IT'S NOT PRAISE!!
 
@@ -19911,7 +19911,7 @@ obj_ch2_scene27
 
 I Thought About It While Charging My Battery
 
-* That's Okay Berdly I Understand  
+* That's Okay Berdly I Understand
 
 * You Cannot Calculate Other People's Feelings
 
@@ -20762,7 +20762,7 @@ obj_ch2_scene9
 
 And Adults Are Even Bigger Children
 
-* Teens Are Merely Big Children  
+* Teens Are Merely Big Children
 
 * ... doesn't that make you a child too then?
 
@@ -20960,11 +20960,11 @@ obj_ch2_sceneex2
 obj_ch2_sceneex2_special
 ========================
 
-PRESS 
+PRESS
 
-HOLD  
+HOLD
 
-RELEASE 
+RELEASE
 
 ~1
 
@@ -21218,7 +21218,7 @@ obj_classscene
 
 * Ummm, there might be a box in the supply closet...
 
-* Do you want me to - 
+* Do you want me to -
 
 * G-good idea, Noelle!
 * Susie, s-since you came in last...
@@ -21414,7 +21414,7 @@ Crime
 
 (Tired)
 
-TIME: 
+TIME:
 
 Nice mouth
 
@@ -22111,7 +22111,7 @@ abilities.
 LV~1 Leader
 Commands.
 
-Purple 
+Purple
 
 Yes
 
@@ -22151,7 +22151,7 @@ LV~1 Blank Prince
 Doesn't even
 have a photo.
 
-Sweetness 
+Sweetness
 
 LV1 Snowcaster
 Might be able to
@@ -22168,7 +22168,7 @@ LV~1 Moss Neutral
 Neither chaotic nor
 lawful to moss.
 
-Coldness 
+Coldness
 
 Boldness
 
@@ -22182,11 +22182,11 @@ Boldness
 
 ---------
 
-Attack: 
+Attack:
 
-Defense: 
+Defense:
 
-Magic: 
+Magic:
 
 (No ability.)
 
@@ -22431,7 +22431,7 @@ WHY THAT!?
 
 * If only I was there to do it for her.
 
-* She's but a powerless doe without my help... 
+* She's but a powerless doe without my help...
 
 * Though being alone might be better than being with you!
 
@@ -22447,23 +22447,23 @@ WHY THAT!?
 
 * Which, I have NEVER needed by the way!
 
-* You may see her as the simpleton girl next door. 
+* You may see her as the simpleton girl next door.
 
 * But the reality. Is that she is.
 
-* A lovestruck girl with her heart on her sleeve. 
+* A lovestruck girl with her heart on her sleeve.
 
 * And... Kris... The target of her affection...
 
-* May be surprising to you. 
+* May be surprising to you.
 
-* It's... Truly sad. Such love... May never fruit. 
+* It's... Truly sad. Such love... May never fruit.
 
 * But still, I have to support her, Kris.
 
-* She's my friend. 
+* She's my friend.
 
-* Also, my only worthy opponent at racing games. 
+* Also, my only worthy opponent at racing games.
 
 * (Is that really what you're gonna end it on!?)
 
@@ -22611,13 +22611,13 @@ obj_frozennpc
 obj_fusionmenu
 ==============
 
-Page 
+Page
 
 Recruits
 
-CHAPTER 
+CHAPTER
 
-LV 
+LV
 
 More Info
 
@@ -22635,7 +22635,7 @@ Quit
 
 PROGRESS
 
-CHAPTER 
+CHAPTER
 
 LIKE
 
@@ -22655,7 +22655,7 @@ ATTACK
 
 DEFENSE
 
-ELEMENT  
+ELEMENT
 
 Place
 
@@ -22675,7 +22675,7 @@ HELD
 
 RESERVE
 
-Page 
+Page
 
 Left / Right: 
 Change Pages.
@@ -23158,18 +23158,18 @@ The Beginning
 
 THE DARK
 
-Kris...? 
+Kris...?
 
 Kris, honey...
-Are you awake...? 
+Are you awake...?
 
-... w.... wait! 
+... w.... wait!
 
-Is that a... 
+Is that a...
 
-A knife!!? 
+A knife!!?
 
-NOOOOOOOO---!!! 
+NOOOOOOOO---!!!
 
 * Kris, did you eat all of the pie!?
 
@@ -23445,9 +23445,9 @@ obj_mazecheese
 obj_moneydisplay
 ================
 
-HELD SPACE: 
+HELD SPACE:
 
-STORAGE SPACE: 
+STORAGE SPACE:
 
 
 ====================
@@ -23801,7 +23801,7 @@ obj_npc_dojo
 obj_npc_dumpster
 ================
 
-* You found the [Moss]! 
+* You found the [Moss]!
 
 * Your title was upgraded to [Moss Finder].~1
 
@@ -24617,7 +24617,7 @@ Hi Susie!!
 
 * You... you think I look cuter now?
 
-* It was just NICER seeing LESS of you! 
+* It was just NICER seeing LESS of you!
 
 You're making me blush!
 
@@ -24639,13 +24639,13 @@ You're making me blush!
 
 * ... so the hell were you hugging that Ralsei Statue?
 
-* Let Kris do what they want, Susie! 
+* Let Kris do what they want, Susie!
 
 Also, it's not a statue?
 
 * The hell you even have a Ralsei statue anyway?
 
-* Susie wants to practice hugging too?   
+* Susie wants to practice hugging too?
 
 KRIS HURRY UP ALREADY!
 
@@ -24960,7 +24960,7 @@ KRIS HURRY UP ALREADY!
 
 * Then, Undyne came out, smiling, cracked her knuckles, and totally wiped us at handball...
 
-* Anyway, Susie sucks, Kris, haha. 
+* Anyway, Susie sucks, Kris, haha.
 
 * Yo, Kris, you look kind of annoyed.
 * Everything OK?
@@ -24971,7 +24971,7 @@ KRIS HURRY UP ALREADY!
 * You look even more annoyed...
 
 * HOOH!!
-* You're lucky, Kris!! 
+* You're lucky, Kris!!
 
 * You got to miss class with Alphys! It's not fair! Ha ha ha!
 
@@ -25951,7 +25951,7 @@ BottomLeft
 
 RightTop
 
-MidMid 
+MidMid
 
 Right BottomMid
 
@@ -25960,7 +25960,7 @@ rightmid BottomMid
 leftmid BottomMid
 
 * ENEMY - AT 1 DF 1
-* Susceptible to Brainshock.       
+* Susceptible to Brainshock.
 
 * (It's ~1 flower, protected in a container...)
 
@@ -26432,11 +26432,11 @@ Peachboy! Peachboy!
 
 * Oh, Kris! It's a spelling challenge... isn't that N-I-C-E?
 
-* Nah, more like they're F-  
+* Nah, more like they're F-
 
 U-N!
 
-* G-O-O-D-L-U-C-K-K-R-I-S!  
+* G-O-O-D-L-U-C-K-K-R-I-S!
 
 Goo Duckris?
 
@@ -26462,7 +26462,7 @@ Goo Duckris?
 
 * Oh.
 
-* ... wait, you checked?  
+* ... wait, you checked?
 
 Umm, Kris, do your best!
 
@@ -26705,9 +26705,9 @@ obj_pipis_enemy
 
 * Pipis
 
-~1 liked this!  
+~1 liked this!
 
-PIPIS - ''The Original'' An invasive species of freshwater clam.  
+PIPIS - ''The Original'' An invasive species of freshwater clam.
 
 * Nothing happened!
 
@@ -27057,7 +27057,7 @@ And Stuff
 
 (Why did they make it so emotional?)
 
-* Wow Spoken Like A Real Trucie 
+* Wow Spoken Like A Real Trucie
 
 * You made a memorable and charming toast to Queen!
 
@@ -28583,7 +28583,7 @@ obj_room_dw_city_postbaseball
 
 * Huh.
 
-* Well, see ya later.  
+* Well, see ya later.
 
 (W-wait, what did I volunteer for?)
 
@@ -29981,7 +29981,7 @@ HELP
   There's NOTHING WRONG.
   THERE'S NOTHING WRONG.
 
-* Great ENEMY! SUSCRIBE NOW! 
+* Great ENEMY! SUSCRIBE NOW!
 
 * Spamton mutters "1997."
 
@@ -30606,7 +30606,7 @@ JUST ME?
 
  Liked this!
 
-* RECOVERED HP with pipis! 
+* RECOVERED HP with pipis!
 
 * You tried to snap a wire... but it failed!
 
@@ -31604,19 +31604,19 @@ scr_84_load_ini
 scr_anyface
 ===========
 
-  1   
+  1
 
-  1   
+  1
 
-  1   
+  1
 
-  1   
+  1
 
-  1   
+  1
 
-  1   
+  1
 
-  1   
+  1
 
 
 =============
@@ -31968,7 +31968,7 @@ scr_encountersetup
 
 * Werewires swung in!
 
-* Maice blocked the way! 
+* Maice blocked the way!
 
 * Virovirokun floated in!
 
@@ -31994,7 +31994,7 @@ scr_encountersetup
 
 * Werewerewire strongly blocks the way!
 
-* Maus blocked the way! 
+* Maus blocked the way!
 
 * H-huh!? What's going on!?
 
@@ -33754,7 +33754,7 @@ Not yet fully recruited
 scr_recruit_info
 ================
 
-Known Quantity 
+Known Quantity
 
 It is known.
 
@@ -34214,7 +34214,7 @@ No
 
 * I'll ask if you're sure!
  
-Not yet     Yes. Ask. 
+Not yet     Yes. Ask.
 
 * OK, I'll ask!
 
@@ -34224,7 +34224,7 @@ Not yet     Yes. Ask.
 * Yeah, I'm sure there's someone else you can ask!
 
 * Do you wanna be partners?
-Not yet     Yes 
+Not yet     Yes
 
 * OK, I'll ask!
 
@@ -34245,7 +34245,7 @@ Not yet     Yes
 
 * How's that sound?
  
-Good        Bad 
+Good        Bad
 
 
 Yes
@@ -35709,29 +35709,29 @@ Nothing
 
 * It's the funniest, most quotable show ever...!
 
-* But make sure you don't watch past the second season 
+* But make sure you don't watch past the second season
 
-* Since they just rebooted it as Symptons Turbo 
+* Since they just rebooted it as Symptons Turbo
 
-* They all started driving their own motor-vehicles 
+* They all started driving their own motor-vehicles
 
-* And fighting giant giga-demons and stuff 
+* And fighting giant giga-demons and stuff
 
-* The main problem about that is that it kind of 
+* The main problem about that is that it kind of
 
-* Lost the focus on family that it had earlier 
+* Lost the focus on family that it had earlier
 
-* When their vehicles were shaped like animals 
+* When their vehicles were shaped like animals
 
-* And they were friends with the animal vehicles too 
+* And they were friends with the animal vehicles too
 
-* And let's not get into Symptons Galaxy Force 
+* And let's not get into Symptons Galaxy Force
 
-* Where the Symptons discover another Earth 
+* Where the Symptons discover another Earth
 
-* On the other side of the Sun 
+* On the other side of the Sun
 
-* WOULDN'T THE GRAVITATIONAL FIELD JUST 
+* WOULDN'T THE GRAVITATIONAL FIELD JUST
 
 * ... Huh?
 
@@ -35873,7 +35873,7 @@ Buy
  
 Do not
 
-* Interested in a Choco Diamond? 
+* Interested in a Choco Diamond?
 
 * All proceeds go to Rudinn Relief Funds, I guess.
 * It's only $40!
@@ -37553,7 +37553,7 @@ Don't talk more
 * "Catti's the best! Catti's the best!
 
 * She curses me, every day
-* Glares 'cause I'm in her way 
+* Glares 'cause I'm in her way
 
 * Catti's the best sister ever!!"
 
@@ -40782,7 +40782,7 @@ I... I'm covered in ill-gotten gains!
 
 He told me digital currency was SECURE!!!
 
-Sigh... Can't a guy have just one bonus zone to himself...? 
+Sigh... Can't a guy have just one bonus zone to himself...?
 
 Good idea, Kris. That bonus wasn't ours.
 
@@ -40907,7 +40907,7 @@ Look over there!
 
 Huh?
 
- ? 
+ ?
 
 Let's go, easy puzzle.
 
@@ -42601,7 +42601,7 @@ Look over there!
 
 Huh?
 
- ? 
+ ?
 
 Alright, this puzzle should be easy.
 
@@ -43448,17 +43448,17 @@ obj_ch3_GSA01G
 
 * And you'll all win some TV-Tastic [PRIZES]!!!
 
-* FLORAL COWBOY BATH CURTAINS!!! 
+* FLORAL COWBOY BATH CURTAINS!!!
 
-* A BRAND NEW FAMILY CAR!!! 
+* A BRAND NEW FAMILY CAR!!!
 
-* BIG BRO'S TALKER-BACKER!! 
+* BIG BRO'S TALKER-BACKER!!
 
-* KITCHEN SINK FUR-GUARD!! 
+* KITCHEN SINK FUR-GUARD!!
 
-* CHOCOLATE CHEWY ROLL-UM'S!!! 
+* CHOCOLATE CHEWY ROLL-UM'S!!!
 
-* A GENUINE RALSEI PLUSH!! 
+* A GENUINE RALSEI PLUSH!!
 
 * Hey I didn't agree to
 
@@ -44129,7 +44129,7 @@ obj_ch3_GSC07
 
 * Today's board will take place in beautiful TV CITY...
 
-* [(But don't ask why the cars don't have feet!)]  
+* [(But don't ask why the cars don't have feet!)]
 
 * Collect two Q's from each corner of the CITY, and...
 
@@ -45123,49 +45123,49 @@ obj_ch3_closet
 
 * WHAT THE...!?
 
-* HOW THE WHAT THE MAMA WHAT THE HECK THE 
+* HOW THE WHAT THE MAMA WHAT THE HECK THE
 
-MAMMA 
+MAMMA
 
-MAMA MIA 
+MAMA MIA
 
-MA 
+MA
 
-WHAT THE 
+WHAT THE
 
-WOAH 
+WOAH
 
-WOH 
+WOH
 
-HEY 
+HEY
 
-HECK 
+HECK
 
-WHAT'S 
+WHAT'S
 
-* MAMMA 
+* MAMMA
 
-* HOW THE WHAT THE MAMA WHAT THE HECK THE 
+* HOW THE WHAT THE MAMA WHAT THE HECK THE
 
-MAMMA 
+MAMMA
 
-MAMA MIA 
+MAMA MIA
 
-MA 
+MA
 
-WHAT THE 
+WHAT THE
 
-WOAH 
+WOAH
 
-WOH 
+WOH
 
-HEY 
+HEY
 
-HECK 
+HECK
 
-WHAT'S 
+WHAT'S
 
-* MAMMA 
+* MAMMA
 
 * What the HECK is THAT THING!?
 
@@ -45468,7 +45468,7 @@ LV3 Dark Actor
 Participates in
 occult ACTs.
 
-??? 
+???
 
 Plucked
 
@@ -45491,7 +45491,7 @@ LV3 Dark Prince
 Dark-World being.
 Has friends.
 
-??? 
+???
 
 Carried
 
@@ -47522,9 +47522,9 @@ SOMEONE ELSE IS USING THESE.
 obj_npc_sign
 ============
 
-* Defeating you is so [Free!]        
+* Defeating you is so [Free!]
 
-* Show me your [Résumés]        ! 
+* Show me your [Résumés]        !
 
 * The console is still on.
 
@@ -48252,7 +48252,7 @@ sequel to frogs.
 
 * Rabbick emits a musty groan.
 
-* Rabbick is now nice and clean. 
+* Rabbick is now nice and clean.
 
 * Rabbick is starting to look wispy.
 
@@ -54053,7 +54053,7 @@ FlexScarf
 A scarf that is warm and fuzzy, but with
 a metal core that lets it keep its shape.
 
-Looks like a giant caterpillar.  
+Looks like a giant caterpillar.
 
 So pliable, like me!
 
@@ -54259,7 +54259,7 @@ BottomLeft
 
 RightTop
 
-MidMid 
+MidMid
 
 Right BottomMid
 
@@ -54268,7 +54268,7 @@ rightmid BottomMid
 leftmid BottomMid
 
 * ENEMY - AT 1 DF 1
-* Susceptible to Brainshock.       
+* Susceptible to Brainshock.
 
 * You warned the enemy.
 * It guarded from Susie's attack.
@@ -56240,7 +56240,7 @@ Maybe bad things happen
 in the story too.
 
 Like... what's it called?
-A calamity? 
+A calamity?
 
 But, like, it's like,
 all cool because, like...
@@ -56298,18 +56298,18 @@ obj_ch4_PDC03_choir_song
 
 Heaven knows
 the story that we've born
-from our hearts 
+from our hearts
 
 Of the shadows cutting deep
-and the heroes that save us 
+and the heroes that save us
 
 Heaven knows
 The beauty of the soul
-and we weep 
+and we weep
 
 To the majesty and
 pray we not forget
-the tale of DELTARUNE  
+the tale of DELTARUNE
 
 
 =============
@@ -57252,7 +57252,7 @@ obj_ch4_PDC06B
 
 * Th... thanks, Susie!
 
-* Let's go, Kris. 
+* Let's go, Kris.
 
 
 =============
@@ -57479,7 +57479,7 @@ obj_ch4_PDC10A
 
 * (You leaned down to look inside the guitar.)
 
-* (You began to read the numbers in the pass code...  1  2  2 
+* (You began to read the numbers in the pass code...  1  2  2
 
 
 ==============
@@ -59869,7 +59869,7 @@ Kris?
 
 Kris?
 
-* (You hug the wall...) 
+* (You hug the wall...)
 
 * (Too solid.)
 
@@ -60448,29 +60448,29 @@ No
 
 * It looked like glass.
 
-where 
+where
 
-the 
+the
 
-tail. 
+tail.
 
-pointed 
+pointed
 
-the 
+the
 
-children 
+children
 
-would 
+would
 
 grow,
 
-the 
+the
 
-Lost 
+Lost
 
-forest 
+forest
 
-followed 
+followed
 
 * I heard something in between. Something in between.
 
@@ -62020,7 +62020,7 @@ STORAGE!
 obj_gold_cat/Collision_obj_blue_cat
 ===================================
 
-LEVEL 
+LEVEL
 
 
 ==============
@@ -62114,9 +62114,9 @@ obj_halo_enemy
 
 Halo, goodeye!        Halo, goodeye!
 
-Halo, are you listening?            
+Halo, are you listening?
 
-You oppose the revolution?          
+You oppose the revolution?
 
 Open your eyes        Open your eyes
 
@@ -63675,7 +63675,7 @@ Mouse Right-Click [Not Recommended]
 
 ~1 [Also Not Recommended]
 
-* Current Microphone:  
+* Current Microphone:
 
 Volume
 
@@ -64044,17 +64044,17 @@ Wait, timeout, timeout!!!
 obj_mike_controller
 ===================
 
-SCORE: 
+SCORE:
 
-HISCORE: 
+HISCORE:
 
-CATS: 
+CATS:
 
 I was born.
 
 FUEL
 
-COMBO: 
+COMBO:
 
 TIME'S UP!
 
@@ -64073,13 +64073,13 @@ DANGER! RISING PLUEY LEVELS!
 
 * NEW HISCORE! *
 
-MUSIC: 
+MUSIC:
 
 ON
 
 OFF
 
-INVERT VOL: 
+INVERT VOL:
 
 ON
 
@@ -66775,15 +66775,15 @@ Good idea
 obj_room_castle_queen
 =====================
 
-* 
+*
 
 * Kris Susie How Do You Like My New:
 
-* 
+*
 
 * Room
 
-* 
+*
 
 * Do You Want A Sip
 
@@ -67640,7 +67640,7 @@ I wrote your letter
 for you, don't you...
 
 I...
-I'm telling you... 
+I'm telling you...
 
 Kris... why... 
 Why doesn't he
@@ -67668,7 +67668,7 @@ Trying to teach
 me something, are you?
 
 It's me, Susie!
-I'm your... 
+I'm your...
 
 I'm your friend,
 right!?
@@ -67775,7 +67775,7 @@ LONG
 
 YOUR
 
-YOUR 
+YOUR
 
  TOO
 
@@ -67989,7 +67989,7 @@ Get dunked on!!!
 * The ground shudders.
 * A swarm is coming.
 
-* The darkness gives a long gaze, which slithered like a snake. 
+* The darkness gives a long gaze, which slithered like a snake.
 
 * For a moment, 
 * You felt your heart being gripped.
@@ -69577,7 +69577,7 @@ Me
 
 
 It was
-a joke 
+a joke
 
 Because it
 wasn't
@@ -70117,7 +70117,7 @@ very fast
 
 * Look, we GET IT. You still hate us in real life. We'll leave.
 
-* 
+*
 
 * Leave?
 

@@ -95,7 +95,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 )
                 or "`#" in text
             )
-            and not out.getvalue().endswith(" ")
+            and not out.getvalue().endswith((" ", "\u3000"))
         ):
             *head, tail = out.getvalue().rsplit("\n", 1)
             if "\u3000" in tail:
@@ -402,8 +402,8 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
         and r"\C" not in text
     ):
         rendered = re.sub(r"\n {0,2}([^*])", "\n  \\1", rendered)
-    rendered = rendered.rstrip("\n")
-    return rendered
+    rendered = rendered.rstrip("\n \u3000")
+    return rendered or " "
 
 
 RE_STRETCH = re.compile(r"(\[[^\]]*\])")
