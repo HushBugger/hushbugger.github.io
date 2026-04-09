@@ -67,6 +67,10 @@
                 --pixel-blend-mode: multiply;
             }
 
+            body.msedge {
+                --pixel-blend-mode: normal;
+            }
+
             div.intro {
                 background: var(--foreground-color);
                 color: var(--background-color);
@@ -435,6 +439,13 @@
                 loadConfigFromURL();
                 render();
             });
+
+            if (
+                navigator.userAgent.includes(" Edg/") &&
+                navigator.userAgent.includes("Windows NT")
+            ) {
+                document.body.classList.add("msedge");
+            }
         </script>
         <div id="textboxes">
             <pre class="loading">    Loading...</pre>
