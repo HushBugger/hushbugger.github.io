@@ -20,6 +20,11 @@
                 src: url("../../style/8bitoperator-UTM.woff") format("woff");
             }
 
+            @font-face {
+                font-family: "JF Dot Shinonome 14 Regular";
+                src: url("../../style/JF-Dot-Shinonome-14-Regular.woff") format("woff");
+            }
+
             body {
                 --background-color: black;
                 --foreground-color: white;
@@ -58,7 +63,8 @@
                  * Force it to ensure accurate contain-intrinsic-height. */
                 font-size: 16px;
                 /* In-game line height (16px + 2px) */
-                line-height: 1.125em;
+                line-height: 18px;
+                mix-blend-mode: var(--pixel-blend-mode);
             }
 
             body.light {
@@ -202,7 +208,11 @@
             h1,
             h2 {
                 font-family: "8bitoperator Undertale Mono", Monospace;
-                mix-blend-mode: var(--pixel-blend-mode);
+            }
+
+            div.textbox.ja {
+                font-size: 14px;
+                font-family: "JF Dot Shinonome 14 Regular", sans-serif;
             }
 
             /* red */

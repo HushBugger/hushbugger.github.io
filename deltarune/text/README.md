@@ -10,7 +10,13 @@ This is the source code for the Deltarune Text Dump.
 
 Issues and pull requests are welcome!
 
-### Licenses
+### Additional sources
+
+`8bitoperator-UTM.woff` is a version of 8bitoperator JVE that I modified in FontForge.
+
+`JF-Dot-Shinonome-14-Regular.woff` was downloaded from http://jikasei.me/font/jf-dotfont/ (`JF-Dot-Shinonome14.ttf`) and converted to WOFF with FontForge.
+
+I took inspiration and information from the [compendium](https://inactivesnail.neocities.org/utdr-dialogue) and the [text project](https://afewbitsandpieces.tumblr.com/post/726407420343205888/deltarune-text-project-update-3).
 
 SVG icons from:
 - https://commons.wikimedia.org/wiki/File:Bootstrap_link-45deg.svg
@@ -18,7 +24,7 @@ SVG icons from:
 - https://commons.wikimedia.org/wiki/File:Bootstrap_clipboard-check.svg
 
 <details>
-<summary>License</summary>
+<summary>Bootstrap license</summary>
 
 Copyright © (c) 2019-2023 The Bootstrap authors
 
