@@ -1,0 +1,768 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Deltarune text dump</title>
+        <link
+            rel="shortcut icon"
+            type="image/png"
+            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACB
+            VGfHAAAAD1BMVEUAAADAgiYAAACFSh3AgibGPmPhAAAAAnRSTlMAAHaTzTgAAACXSURB
+            VCiRhZHLDYRADEN9oISt4I0rQBQAGfdf0x6AhVntxzc/OXGkSH/1yKBNDwZtqhH4E5gv
+            27CK5Eg5OUAfQXN2kJr3pUnRZpwcLUt6S+Yl/axt5aTcb3f4rPoKSH6c/g90gAIwwKIJ
+            ICQEYNUEOLhIAatU4JTLKbC0z+B9+Srp3mPpFbkCUk6f81l58we5eSnJ4H/pCVYTQjf3
+            DYm9AAAAAElFTkSuQmCC"
+        />
+        <style>
+            @font-face {
+                font-family: "8bitoperator Undertale Mono";
+                src: url("../../style/8bitoperator-UTM.woff") format("woff");
+            }
+
+            @font-face {
+                font-family: "JF Dot Shinonome 14 Regular";
+                src: url("../../style/JF-Dot-Shinonome-14-Regular.woff") format("woff");
+            }
+
+            body {
+                --background-color: black;
+                --foreground-color: white;
+                /*
+                 * Some systems use subpixel antialiasing, a pretty cool technique for smoothening
+                 * the edges of glyphs.
+                 * Unfortunately our crisp straight-angle pixelated font is discolored by this.
+                 * I see this happen on my monitor and also in screenshots online.
+                 *
+                 * There's no portable directive for disabling it, but there are various
+                 * circumstances in which the browser doesn't apply it. One of those is if a
+                 * mix-blend-mode is active. (This is the option I hate the least.)
+                 *
+                 * You can check the spec for details, but a blend mode of "difference" preserves
+                 * the color for a black background, while "multiply" preserves the color for a
+                 * white background.
+                 *
+                 * We don't apply this to the Japanese text as that uses a system font.
+                 *
+                 * Tested on GNOME Xorg (Debian Bookworm) using Gecko & Blink & WebkitGTK.
+                 * Tested on Windows 11 using Gecko & Blink. (Poorly configured ClearType blurs in Blink.)
+                 * Apparently modern macOS never uses subpixel antialiasing.
+                 */
+                --pixel-blend-mode: difference;
+
+                background: black;
+                color: white;
+                background: var(--background-color);
+                color: var(--foreground-color);
+                font-family: sans-serif;
+                margin: 0px;
+            }
+
+            #textboxes {
+                /* Already the default for most browsers.
+                 * Force it to ensure accurate contain-intrinsic-height. */
+                font-size: 16px;
+                /* In-game line height (16px + 2px) */
+                line-height: 18px;
+                mix-blend-mode: var(--pixel-blend-mode);
+            }
+
+            body.light {
+                --background-color: white;
+                --foreground-color: #2c1708;
+                --pixel-blend-mode: multiply;
+            }
+
+            body.msedge {
+                --pixel-blend-mode: normal;
+            }
+
+            div.intro {
+                background: var(--foreground-color);
+                color: var(--background-color);
+                padding: 0.4em;
+            }
+
+            body.light div.intro a {
+                color: var(--background-color);
+            }
+
+            div.controls {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            h1,
+            h2 {
+                font-size: 2em;
+                line-height: 1em;
+                font-weight: normal;
+                /* text-shadow: 1px 1px 0px #03037d; */
+                padding-left: 20px;
+                margin-top: 24px;
+                margin-bottom: 12px;
+                overflow-wrap: anywhere;
+            }
+
+            h1 a,
+            h2 a {
+                /* color: #ccc; */
+                color: var(--foreground-color);
+                text-decoration: none;
+            }
+
+            span.breakable {
+                word-break: break-all;
+            }
+
+            section {
+                content-visibility: auto;
+                contain-intrinsic-height: auto var(--narrow-height);
+            }
+
+            span.break {
+                white-space: pre-wrap;
+                text-wrap: nowrap;
+            }
+
+            @media (min-width: 800px) {
+                section {
+                    contain-intrinsic-height: auto var(--wide-height);
+                }
+
+                span.break {
+                    white-space: normal;
+                }
+            }
+
+            div.textbox {
+                white-space: pre-wrap;
+                padding-top: 5px;
+                padding-bottom: 5px;
+
+                padding-left: 40px;
+                position: relative;
+
+                text-wrap: nowrap;
+            }
+
+            a.linkbar {
+                width: 20px;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 20px;
+                background-color: var(--background-color);
+                filter: invert(1);
+                -webkit-mask-position: 0 5px;
+                mask-position: 0 5px;
+                -webkit-mask-image: url("hyperlink.svg");
+                mask-image: url("hyperlink.svg");
+                -webkit-mask-repeat: no-repeat;
+                mask-repeat: no-repeat;
+            }
+
+            a.linkbar.copied {
+                -webkit-mask-image: url("clipboard.svg");
+                mask-image: url("clipboard.svg");
+                background-color: #0b0;
+                filter: none;
+            }
+
+            a.sourcebar {
+                width: 20px;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: var(--background-color);
+                filter: invert(1);
+                -webkit-mask-position: 0 5px;
+                mask-position: 0 5px;
+                -webkit-mask-image: url("sourcefile.svg");
+                mask-image: url("sourcefile.svg");
+                -webkit-mask-repeat: no-repeat;
+                mask-repeat: no-repeat;
+            }
+
+            @media (max-width: 539px) {
+                a.linkbar {
+                    left: 0;
+                }
+
+                a.sourcebar {
+                    left: unset;
+                    right: 0;
+                }
+
+                div.textbox {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+            }
+
+            div.textbox.en,
+            pre.loading,
+            div.textbox.untranslated,
+            h1,
+            h2 {
+                font-family: "8bitoperator Undertale Mono", Monospace;
+            }
+
+            div.textbox.ja {
+                font-size: 14px;
+                font-family: "JF Dot Shinonome 14 Regular", sans-serif;
+            }
+
+            /* red */
+            span.R {
+                color: #f00;
+            }
+
+            /* blue */
+            span.B {
+                color: #00f;
+            }
+
+            /* yellow */
+            span.Y {
+                color: #ff0;
+            }
+
+            /* green */
+            span.G {
+                color: #0f0;
+            }
+
+            /* ignored: W=white, X=black */
+
+            /* unused: P=purple(#f0f), M=maroon(?) */
+
+            /* orange */
+            span.O {
+                color: #ffa040;
+            }
+
+            /* "pass to the other side" */
+            span.A {
+                color: #00aeff;
+            }
+
+            /* Susie (S-action) */
+            span.S {
+                color: #ff80ff;
+            }
+
+            /* Ralsei (R-action) */
+            span.V {
+                color: #80ff80;
+            }
+
+            /* Ice key */
+            span.I {
+                color: #81c0ff;
+            }
+
+            body.light span.Y,
+            body.light span.G,
+            body.light span.A,
+            body.light span.V,
+            body.light span.S,
+            body.light span.I {
+                -webkit-text-stroke: 2px var(--foreground-color);
+                paint-order: stroke fill;
+            }
+
+            span.picture,
+            span.param,
+            div.untranslated {
+                background: var(--foreground-color);
+                color: var(--background-color);
+            }
+
+            p {
+                margin-top: 0.5em;
+                margin-bottom: 0.5em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="intro">
+            <div class="controls">
+                <select id="language" name="language">
+                    <option value="en">English</option>
+                    <option value="ja">Japanese</option>
+                    <option value="both">Both</option>
+                </select>
+                <select id="chapter" name="chapter">
+                    <option value="all">All chapters</option>
+                    <option value="1">Chapter 1</option>
+                    <option value="2">Chapter 2</option>
+                    <option value="3">Chapter 3</option>
+                    <option value="4">Chapter 4</option>
+                </select>
+                <button type="button" id="keyboard-guide-toggle">Hotkeys</button>
+                <button>
+                    <img
+                        id="light-mode-toggle"
+                        src="spr_introimage1_0.png"
+                        alt="Toggle light mode"
+                        title="Toggle light mode"
+                        width="80"
+                        height="44"
+                    />
+                </button>
+            </div>
+            <ul id="keyboard-guide" style="display: none">
+                <li><strong>l</strong>(ight): Toggle light mode.</li>
+                <li>
+                    <strong>q</strong>(uote): Copy selected messages to clipboard
+                    markdown/Discord-style ("&gt; " before each line, "*" escaped to "\*").
+                </li>
+                <li>
+                    <strong>&gt;</strong>: Copy messages to clipboard email-style ("&gt; " before
+                    each line).
+                </li>
+                <li><strong>k</strong>(ey): Copy translation key to clipboard.</li>
+            </ul>
+            <p>
+                <a href="DELTARUNE.txt" target="_blank">Plain text</a> (<a
+                    href="DELTARUNE_ja.txt"
+                    target="_blank"
+                    >JA</a
+                >)
+                <strong>·</strong>
+                <a href="https://forms.gle/cmXFH7HoadC9oMX36" target="_blank">Feedback</a>
+                <strong>·</strong>
+                <a
+                    href="https://github.com/HushBugger/hushbugger.github.io/tree/master/deltarune/text"
+                    target="_blank"
+                >
+                    Github
+                </a>
+                <strong>·</strong>
+                <a href="https://deltarune.wiki/w/Deltarune_Wiki:Resources" target="_blank">
+                    Other resources
+                </a>
+            </p>
+            <p>For search, press Ctrl+F or ⌘+F or ⋮ → "Find in page"</p>
+        </div>
+        <script>
+            // @ts-check
+            "use strict";
+
+            /** @type {HTMLDivElement} */
+            // @ts-ignore
+            const keyboardGuideToggle = document.getElementById("keyboard-guide-toggle");
+            keyboardGuideToggle.addEventListener("click", function () {
+                const guide = document.getElementById("keyboard-guide");
+                if (guide) {
+                    if (guide.style.display === "none") {
+                        guide.style.display = "";
+                    } else {
+                        guide.style.display = "none";
+                    }
+                }
+            });
+
+            /** @type {HTMLImageElement} */
+            // @ts-ignore
+            const lightModeToggle = document.getElementById("light-mode-toggle");
+
+            function toggleLightMode() {
+                if (document.body.classList.toggle("light")) {
+                    lightModeToggle.src = "spr_introimage1_1.png";
+                    localStorage.setItem("deltaruneLightMode", "true");
+                } else {
+                    lightModeToggle.src = "spr_introimage1_0.png";
+                    localStorage.removeItem("deltaruneLightMode");
+                }
+            }
+
+            if (lightModeToggle.parentElement) {
+                lightModeToggle.parentElement.addEventListener("click", toggleLightMode);
+            }
+
+            if (localStorage.getItem("deltaruneLightMode")) {
+                document.body.classList.add("light");
+                lightModeToggle.src = "spr_introimage1_1.png";
+            }
+
+            const selects = /** @type {const} */ ([
+                { id: "chapter", key: "chap", default_: "all" },
+                { id: "language", key: "lang", default_: "en" },
+            ]);
+
+            /** @type {{chap: 'all' | '1' | '2' | '3' | '4', lang: 'en' | 'ja' | 'both'}} */
+            // @ts-ignore
+            const config = {};
+
+            for (const select of selects) {
+                const elem = /** @type {HTMLSelectElement} */ (document.getElementById(select.id));
+
+                elem.addEventListener("change", function (event) {
+                    const value = elem.selectedOptions[0].value;
+                    const newURL = new URL(String(window.location));
+                    if (value === select.default_) {
+                        newURL.searchParams.delete(select.key);
+                    } else {
+                        newURL.searchParams.set(select.key, value);
+                    }
+                    newURL.searchParams.sort();
+                    window.history.pushState({}, "", newURL);
+                    // @ts-ignore
+                    config[select.key] = value;
+                    render();
+                });
+            }
+
+            function loadConfigFromURL() {
+                const params = new URL(String(window.location)).searchParams;
+                for (const select of selects) {
+                    const value = params.get(select.key) || select.default_;
+                    // @ts-ignore
+                    config[select.key] = value;
+
+                    for (const option of /** @type {HTMLSelectElement} */ (
+                        document.getElementById(select.id)
+                    ).options) {
+                        if (option.value === value) {
+                            option.selected = true;
+                        }
+                    }
+                }
+            }
+
+            if (window.location.hash === "#ja") {
+                // Backward compat
+                const newURL = new URL(String(window.location));
+                newURL.searchParams.set("lang", "ja");
+                newURL.hash = "";
+                window.history.pushState({}, "", newURL);
+            }
+
+            loadConfigFromURL();
+
+            addEventListener("popstate", function () {
+                loadConfigFromURL();
+                render();
+            });
+
+            if (
+                navigator.userAgent.includes(" Edg/") &&
+                navigator.userAgent.includes("Windows NT")
+            ) {
+                document.body.classList.add("msedge");
+            }
+        </script>
+        <div id="textboxes">
+            <pre class="loading">    Loading...</pre>
+        </div>
+        <noscript>
+            <p>This page requires JavaScript. Sorry :(</p>
+            <p>Maybe try the <a href="DELTARUNE.txt">plain text</a> dump?</p>
+        </noscript>
+        <script src="rendered.json.js"></script>
+        <script src="sourcemap.json.js"></script>
+        <script>
+            // @ts-check
+            "use strict";
+
+            /**
+             * @type {Record<string,Record<string,Record<string,
+             * {en:[string|null,boolean,number,number],
+             * ja:[string|null,boolean,number,number]}>>>|undefined}
+             */
+            // @ts-ignore
+            const text = rendered;
+
+            /** @type {Record<string, Record<string, string>>} */
+            // @ts-ignore
+            const sources = sourcemap;
+
+            /** @type {HTMLDivElement} */
+            // @ts-ignore
+            const textboxes = document.getElementById("textboxes");
+
+            /** @type {string|null} */
+            let curRendered = null;
+
+            render();
+
+            function render() {
+                if (!text) return;
+
+                const thisRender = `${config.chap}:${config.lang}`;
+                if (thisRender === curRendered) {
+                    return;
+                }
+
+                let newHTML = "";
+                let sectionHTML = "";
+                let numMessage = 0;
+                let narrowHeight = 0;
+                let wideHeight = 0;
+
+                function finishSection() {
+                    if (sectionHTML) {
+                        newHTML +=
+                            '<section style="--num-message:' +
+                            numMessage +
+                            ";--narrow-height:" +
+                            narrowHeight +
+                            "px;--wide-height:" +
+                            wideHeight +
+                            'px">' +
+                            sectionHTML +
+                            "</section>";
+                    }
+                    sectionHTML = "";
+                    numMessage = 0;
+                    narrowHeight = 0;
+                    wideHeight = 0;
+                }
+
+                for (const chapterNo of [1, 2, 3, 4]) {
+                    if (config.chap !== String(chapterNo) && config.chap !== "all") {
+                        continue;
+                    }
+                    newHTML += mkTitle("h1", `${chapterNo}`, `Chapter ${chapterNo}`);
+
+                    const chapter = text[chapterNo];
+                    for (const groupName of Object.keys(chapter)) {
+                        const group = chapter[groupName];
+
+                        /** @type {string|null} */
+                        let title = mkTitle(
+                            "h2",
+                            `${chapterNo}_${groupName}`,
+                            groupName.replace(/_slash_/g, "/"),
+                            "groupName"
+                        );
+
+                        for (const msgId of Object.keys(group)) {
+                            for (const lang of /** @type {const} */ (["en", "ja"])) {
+                                const [text, dup, nh, wh] = group[msgId][lang];
+                                if (config.lang !== "both" && (config.lang !== lang || !text)) {
+                                    continue;
+                                }
+                                if (dup && config.chap === "all") {
+                                    continue;
+                                }
+                                if (
+                                    config.lang === "both" &&
+                                    config.chap === "all" &&
+                                    !text &&
+                                    group[msgId][lang === "ja" ? "en" : "ja"][1]
+                                ) {
+                                    continue;
+                                }
+                                if (title) {
+                                    finishSection();
+                                    newHTML += title;
+                                    title = null;
+                                }
+                                const box = buildBox(lang, `${lang}:${chapterNo}:${msgId}`, text);
+                                sectionHTML += box;
+                                narrowHeight += nh;
+                                wideHeight += wh;
+                                numMessage += 1;
+                            }
+                        }
+                    }
+                }
+
+                finishSection();
+                textboxes.innerHTML = newHTML;
+                curRendered = thisRender;
+            }
+
+            /**
+             * @param {string} elem
+             * @param {string} id
+             * @param {string} text
+             * @param {string|null} className
+             */
+            function mkTitle(elem, id, text, className = null) {
+                let html = "<" + elem + ' id="' + id + '"';
+                if (className) {
+                    html += ' class="' + className + '"';
+                }
+                html += '><a href="#' + id + '">';
+                html += text.replace(/_/g, '<span class="breakable">_</span>');
+                html += "</a></" + elem + ">";
+                return html;
+            }
+
+            /**
+             * @param {string} lang
+             * @param {string} id
+             * @param {string | null} text
+             */
+            function buildBox(lang, id, text) {
+                let html = '<div id="' + id + '" class="textbox ' + lang;
+                if (text === null) {
+                    html += " untranslated";
+                }
+                html += '"';
+                if (lang === "ja") {
+                    html += ' lang="ja"';
+                }
+                html += ">";
+                if (text === null) {
+                    if (lang === "en") {
+                        text = "(No English translation.)";
+                    } else {
+                        text = "(No Japanese translation.)";
+                    }
+                }
+                html += text;
+                html += "</div>";
+                return html;
+            }
+
+            addEventListener("keydown", function (event) {
+                if (event.altKey || event.ctrlKey || event.metaKey) {
+                    return;
+                }
+
+                if (event.key === "l") {
+                    toggleLightMode();
+                }
+
+                if (event.key === "q" || event.key === ">") {
+                    const sel = window.getSelection();
+                    if (!sel) {
+                        return;
+                    }
+                    let start = getBox(sel.anchorNode);
+                    let end = getBox(sel.focusNode);
+                    if (!start || !end) {
+                        sel.empty();
+                        return;
+                    }
+                    if (sel.direction === "backward") {
+                        [start, end] = [end, start];
+                    }
+                    sel.setBaseAndExtent(start, 0, end, end.childNodes.length);
+                    let text = sel.toString().trim();
+                    // CRLF -> LF, for Windows.
+                    text = text.replace(/\r/g, "");
+                    // Remove spurious blank lines.
+                    // (Rarely there are actual significant blank lines.
+                    // We remove those too unfortunately.)
+                    text = text.replace(/^\s*\n/gm, "");
+                    if (event.key === "q") {
+                        // Escape markdown syntax.
+                        text = text.replace(/\*/g, "\\*");
+                    }
+                    // Add quotation.
+                    text = text.replace(/^/gm, "> ");
+                    navigator.clipboard.writeText(text + "\n");
+                }
+
+                if (event.key === "k") {
+                    const sel = window.getSelection();
+                    if (!sel) {
+                        return;
+                    }
+                    const box = getBox(sel.anchorNode);
+                    if (box) {
+                        navigator.clipboard.writeText(box.id.split(":")[2]);
+                        sel.empty();
+                    }
+                }
+            });
+
+            /** @param {Node|null|undefined} elem */
+            function getBox(elem) {
+                if (elem instanceof HTMLElement && elem.classList.contains("textbox")) {
+                    return elem;
+                }
+                if (elem && elem.parentElement) {
+                    return elem.parentElement.closest(".textbox");
+                }
+            }
+
+            /** @type {null|Element} */
+            let activeBox = null;
+
+            const linkBar = document.createElement("a");
+            linkBar.classList.add("linkbar");
+            linkBar.title = "Copy link";
+            linkBar.addEventListener("click", function (e) {
+                if (e.ctrlKey || e.altKey || e.shiftKey || e.metaKey) {
+                    return;
+                }
+                if (!navigator.clipboard) {
+                    return;
+                }
+                navigator.clipboard.writeText(linkBar.href).then(function () {
+                    linkBar.classList.add("copied");
+                });
+                window.history.pushState({}, "", linkBar.href);
+                e.preventDefault();
+            });
+
+            const sourceBar = document.createElement("a");
+            sourceBar.classList.add("sourcebar");
+            sourceBar.target = "_blank";
+            sourceBar.title = "Source code";
+
+            textboxes.addEventListener("mouseover", function (event) {
+                if (!(event.target instanceof Element)) {
+                    return;
+                }
+                const textbox = event.target.closest(".textbox");
+                if (activeBox === textbox) {
+                    return;
+                }
+                if (!textbox) {
+                    activeBox = null;
+                    linkBar.remove();
+                    sourceBar.remove();
+                    return;
+                }
+                activeBox = textbox;
+
+                linkBar.href = `#${textbox.id}`;
+                linkBar.classList.remove("copied");
+                textbox.appendChild(linkBar);
+
+                const [lang, chapterNo, msgId] = activeBox.id.split(":");
+                const sourceLocation = sources[chapterNo][msgId];
+                if (!sourceLocation) {
+                    sourceBar.remove();
+                } else {
+                    sourceBar.href = `https://code.deltarune.wiki/ch${chapterNo}/${sourceLocation}`;
+                    textbox.appendChild(sourceBar);
+                }
+            });
+
+            // For debugging.
+
+            function revealAll() {
+                for (const section of document.getElementsByTagName("section")) {
+                    section.style.contentVisibility = "visible";
+                }
+            }
+
+            function badHeights() {
+                revealAll();
+                return [...document.getElementsByTagName("section")].filter(function (section) {
+                    const calc = getComputedStyle(section).containIntrinsicHeight.match(/[0-9]+/);
+                    return calc !== null && +calc[0] !== section.offsetHeight;
+                });
+            }
+
+            function badWidths() {
+                revealAll();
+                return [...document.querySelectorAll(".textbox")].filter(function (x) {
+                    return x.scrollWidth > document.body.offsetWidth;
+                });
+            }
+        </script>
+    </body>
+</html>
