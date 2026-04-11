@@ -373,6 +373,13 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 out.write(text[i + 1] if text[i + 1] != "&" else "&amp;")
                 linelen += 1
                 i += 1
+            case "~" if msgid in [
+                "obj_watercooler_enemy_slash_Step_0_gml_266_0",
+                "obj_watercooler_enemy_slash_Step_0_gml_272_0",
+            ]:
+                # "* You asked the watercooler, ~1water~2 they doing later."
+                out.write('"')
+                i += 1
             case "~" if i + 1 < len(text) and text[i + 1].isdigit():
                 # Some tildes are just part of the message.
                 # I think whether they're meaningful depends on the script that's called?

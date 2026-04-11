@@ -372107,7 +372107,7 @@ false,
 },
 "obj_watercooler_enemy_slash_Step_0_gml_266_0": {
 "en": [
-"* You asked the watercooler,<span class=\"break\">\n  </span><span class=\"param\">~1</span>water<span class=\"param\">~2</span> they doing later.",
+"* You asked the watercooler,<span class=\"break\">\n  </span>\"water\" they doing later.",
 false,
 46,
 28
@@ -372149,13 +372149,13 @@ false,
 },
 "obj_watercooler_enemy_slash_Step_0_gml_272_0": {
 "en": [
-"* You asked the<span class=\"break\">\n  </span>moonwarmer,<span class=\"param\">~1</span>hotter<span class=\"param\">~2</span>they doing<span class=\"break\">\n  </span>later...?",
+"* You asked the<span class=\"break\">\n  </span>moonwarmer,\"hotter\"they doing<span class=\"break\">\n  </span>later...?",
 false,
 64,
 28
 ],
 "ja": [
-"＊ You asked the<span class=\"break\">\n</span>moonwarmer,<span class=\"param\">~1</span>hotter<span class=\"param\">~2</span>they doing<span class=\"break\">\n</span>later...?",
+"＊ You asked the<span class=\"break\">\n</span>moonwarmer,\"hotter\"they doing<span class=\"break\">\n</span>later...?",
 false,
 64,
 28
@@ -576829,7 +576829,7 @@ false,
 28
 ],
 "ja": [
-"＊ You asked the<span class=\"break\">\n</span>moonwarmer,<span class=\"param\">~1</span>hotter<span class=\"param\">~2</span>they doing<span class=\"break\">\n</span>later...?",
+"＊ You asked the<span class=\"break\">\n</span>moonwarmer,\"hotter\"they doing<span class=\"break\">\n</span>later...?",
 true,
 64,
 28
