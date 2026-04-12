@@ -285049,10 +285049,10 @@ false,
 },
 "obj_ch3_GSA04_slash_Step_0_gml_374_0": {
 "en": [
-"* Here are the instructions for<span class=\"break\">\n  </span>the <span style=\"display:inline-block;height:18px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>.",
+"* Here are the instructions for<span class=\"break\">\n  </span>the <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>.",
 false,
-46,
-28
+57,
+39
 ],
 "ja": [
 "＊ それでは　本日の<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>の\n　 ルールを説明します。",
@@ -285557,10 +285557,10 @@ false,
 },
 "obj_ch3_GSA06_slash_Step_0_gml_359_0": {
 "en": [
-"* Great!! And no!! And now, a\n  <span style=\"display:inline-block;height:18px;width:68px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_word.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"WORD\" width=\"68.0\" height=\"25.5\"/></span> from our sponsors!!",
+"* Great!! And no!! And now, a\n  <span style=\"display:inline-block;height:25px;width:68px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_word.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"WORD\" width=\"68.0\" height=\"25.5\"/></span> from our sponsors!!",
 false,
-46,
-46
+53,
+53
 ],
 "ja": [
 "＊ ダメ！　CMのあとは　第２ラウンド！\n　 この番組は　<span style=\"display:inline-block;height:18px;width:116px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_word.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"ご覧のスポンサー\" width=\"116.0\" height=\"19.0\"/></span>の\n　 提供で　お送りしています！！",
@@ -313871,10 +313871,10 @@ false,
 },
 "obj_gameover_band_slash_Step_0_gml_125_0": {
 "en": [
-"* Well, what are you doing!? Go<span class=\"break\">\n  </span>and <span style=\"display:inline-block;height:18px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!",
+"* Well, what are you doing!? Go<span class=\"break\">\n  </span>and <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!",
 false,
-46,
-28
+57,
+39
 ],
 "ja": [
 "＊ はいッ！　スタンバイしてッ！\n　 レッツ　<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>　アゲインッ！",
@@ -313997,10 +313997,10 @@ false,
 },
 "obj_gameover_band_slash_Step_0_gml_209_0": {
 "en": [
-"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:18px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
+"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
 false,
-46,
-46
+57,
+57
 ],
 "ja": [
 "＊ よ～し　もういっかい！\n　 レッツ　<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>　アゲインッ！",
@@ -314295,10 +314295,10 @@ false,
 },
 "obj_gameover_chef_slash_Step_0_gml_84_0": {
 "en": [
-"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:18px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
+"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
 false,
-46,
-46
+57,
+57
 ],
 "ja": [
 "＊ もう１回　いってみよう！\n　 アンコール<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>\n　 スタァートッ！！",
@@ -314449,10 +314449,10 @@ false,
 },
 "obj_gameover_chef_slash_Step_0_gml_168_0": {
 "en": [
-"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:18px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
+"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
 false,
-46,
-46
+57,
+57
 ],
 "ja": [
 "＊ もう１回　いってみよう！\n　 アンコール<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>\n　 スタァートッ！！",
@@ -510389,16 +510389,16 @@ true,
 },
 "obj_gameover_band_slash_Step_0_gml_125_0": {
 "en": [
-"* Well, what are you doing!? Go<span class=\"break\">\n  </span>and <span style=\"display:inline-block;height:18px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!",
+"* Well, what are you doing!? Go<span class=\"break\">\n  </span>and <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!",
 true,
-46,
-28
+57,
+39
 ],
 "ja": [
-"＊ はいッ！　スタンバイしてッ！\n　 レッツ　<span style=\"display:inline-block;height:18px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>　アゲインッ！",
+"＊ はいッ！　スタンバイしてッ！\n　 レッツ　<span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>　アゲインッ！",
 false,
-46,
-46
+57,
+57
 ]
 },
 "obj_gameover_band_slash_Step_0_gml_158_0": {
@@ -510515,16 +510515,16 @@ true,
 },
 "obj_gameover_band_slash_Step_0_gml_209_0": {
 "en": [
-"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:18px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
+"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
 true,
-46,
-46
+57,
+57
 ],
 "ja": [
-"＊ よ～し　もういっかい！\n　 レッツ　<span style=\"display:inline-block;height:18px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>　アゲインッ！",
+"＊ よ～し　もういっかい！\n　 レッツ　<span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>　アゲインッ！",
 false,
-46,
-46
+57,
+57
 ]
 }
 },
