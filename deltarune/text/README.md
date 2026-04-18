@@ -18,10 +18,7 @@ Issues and pull requests are welcome!
 
 I took inspiration and information from the [compendium](https://inactivesnail.neocities.org/utdr-dialogue) and the [text project](https://afewbitsandpieces.tumblr.com/post/726407420343205888/deltarune-text-project-update-3).
 
-SVG icons from:
-- https://commons.wikimedia.org/wiki/File:Bootstrap_link-45deg.svg
-- https://commons.wikimedia.org/wiki/File:Bootstrap_file-earmark-code.svg
-- https://commons.wikimedia.org/wiki/File:Bootstrap_clipboard-check.svg
+SVG icons from https://commons.wikimedia.org/wiki/Category:Bootstrap_Icons.
 
 <details>
 <summary>Bootstrap license</summary>
