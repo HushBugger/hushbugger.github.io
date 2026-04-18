@@ -48,6 +48,7 @@
                  * Tested on Windows 11 using Gecko & Blink. (Poorly configured ClearType blurs in Blink.)
                  * Apparently modern macOS never uses subpixel antialiasing.
                  */
+                /* TODO: with position:fixed this flickers on Chromium. url(#crispify) workaround? */
                 --pixel-blend-mode: difference;
 
                 background: black;
@@ -56,15 +57,12 @@
                 color: var(--foreground-color);
                 font-family: sans-serif;
                 margin: 0px;
-            }
 
-            #textboxes {
                 /* Already the default for most browsers.
-                 * Force it to ensure accurate contain-intrinsic-height. */
+                 * Force it to ensure correct heights. */
                 font-size: 16px;
                 /* In-game line height (16px + 2px) */
                 line-height: 18px;
-                mix-blend-mode: var(--pixel-blend-mode);
             }
 
             body.light {
@@ -77,20 +75,143 @@
                 --pixel-blend-mode: normal;
             }
 
-            div.intro {
+            #intro {
                 background: var(--foreground-color);
                 color: var(--background-color);
                 padding: 0.4em;
+                padding-top: 96px;
             }
 
-            body.light div.intro a {
+            body.light #intro a {
                 color: var(--background-color);
             }
 
-            div.controls {
+            #textboxes,
+            #searchresults {
+                mix-blend-mode: var(--pixel-blend-mode);
+            }
+
+            #controls {
+                position: fixed;
+                z-index: 1;
+                top: 8px;
+                left: 8px;
+                width: calc(100% - 16px);
                 display: flex;
+                flex-direction: column;
+            }
+
+            #controls .row {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                height: 36px;
                 flex-wrap: wrap;
-                gap: 8px;
+                z-index: 2;
+            }
+
+            #controls search.row {
+                height: 44px;
+            }
+
+            input {
+                height: 100%;
+                width: 100px;
+                flex-grow: 1;
+                z-index: 3;
+            }
+
+            select {
+                height: 100%;
+                flex-grow: 1;
+            }
+
+            button {
+                height: 100%;
+                width: 44px;
+            }
+
+            #light-mode-toggle {
+                width: 66px;
+                height: 36px;
+                background-image: url("spr_introimage1_0.png");
+                background-size: cover;
+                border-width: 0px;
+                border-radius: 3px;
+            }
+
+            body.light #light-mode-toggle {
+                background-image: url("spr_introimage1_1.png");
+            }
+
+            #searchresults {
+                position: absolute;
+                left: 0;
+                top: calc(100%);
+                flex: 1;
+                min-height: 0;
+                overflow-y: auto;
+                overflow-x: clip;
+                background-color: inherit;
+                width: 100%;
+                max-height: calc(100vh - 96px);
+                /* Copies are monochrome. */
+                background-color: #333;
+                color: var(--foreground-color);
+            }
+
+            body.light #searchresults {
+                background-color: #ddd;
+            }
+
+            .hideresults #searchresults,
+            .hidesearch #controls search.row,
+            body.hidesearch #searchresults {
+                display: none;
+            }
+
+            #search-show {
+                display: none;
+            }
+
+            .hidesearch #search-hide {
+                display: none;
+            }
+
+            .hidesearch #search-show {
+                display: revert;
+            }
+
+            #search-counter {
+                font-size: 12px;
+                background-color: white;
+                color: black;
+                height: calc(100% - 2px);
+                padding-left: 6px;
+                padding-right: 6px;
+                border-radius: 1px;
+                border: #999 solid 1px;
+                display: flex;
+                align-items: center;
+            }
+
+            #search-counter:empty {
+                display: none;
+            }
+
+            #searchresults section {
+                height: var(--narrow-height);
+            }
+
+            #searchresults .textbox {
+                cursor: pointer;
+            }
+
+            #searchresults .textbox:hover {
+                border-top: 2px solid #00aeff;
+                border-bottom: 2px solid #00aeff;
+                padding-top: 3px;
+                padding-bottom: 3px;
             }
 
             h1,
@@ -116,28 +237,76 @@
                 word-break: break-all;
             }
 
-            section {
-                content-visibility: auto;
-                contain-intrinsic-height: auto var(--narrow-height);
+            #textboxes section {
+                height: var(--narrow-height);
             }
 
-            @media (min-width: 800px) {
-                section {
-                    contain-intrinsic-height: auto var(--wide-height);
+            @media (min-width: 840px) {
+                #controls {
+                    left: calc(100% - 448px);
+                    width: 440px;
                 }
 
-                span.break {
+                .hideresults #searchresults {
+                    display: revert;
+                }
+            }
+
+            @media (min-width: 1240px) {
+                #textboxes section {
+                    height: var(--wide-height);
+                }
+
+                #textboxes span.break {
                     white-space: normal;
+                }
+
+                #controls {
+                    left: 800px;
+                    width: calc(100% - 808px);
+                }
+            }
+
+            @media (min-width: 1600px) {
+                #searchresults section {
+                    height: var(--wide-height);
+                }
+
+                #searchresults span.break {
+                    white-space: normal;
+                }
+
+                #controls {
+                    max-width: 800px;
                 }
             }
 
             div.textbox {
                 white-space: pre;
-                padding-top: 5px;
-                padding-bottom: 5px;
-
+                padding: 5px;
                 padding-left: 40px;
                 position: relative;
+            }
+
+            .jumped {
+                animation-duration: 1s;
+                animation-name: brief-highlight;
+            }
+
+            @keyframes brief-highlight {
+                from {
+                    background-color: #333;
+                }
+            }
+
+            body.light .jumped {
+                animation-name: bright-highlight;
+            }
+
+            @keyframes bright-highlight {
+                from {
+                    background-color: #ddd;
+                }
             }
 
             a.linkbar {
@@ -278,48 +447,67 @@
                 margin-top: 0.5em;
                 margin-bottom: 0.5em;
             }
+
+            ::highlight(search-highlight),
+            body:not(.hidesearch) *::highlight(text-highlight) {
+                background-color: yellow;
+                color: black;
+            }
+
+            .focused::highlight(search-highlight),
+            body:not(.hidesearch) .jumped::highlight(text-highlight),
+            .focused *::highlight(search-highlight),
+            body:not(.hidesearch) .jumped *::highlight(text-highlight) {
+                background-color: orange;
+            }
         </style>
     </head>
 
     <body>
-        <div class="intro">
-            <div class="controls">
-                <select id="language" name="language">
+        <div id="controls">
+            <div class="row">
+                <select id="language" name="language" aria-label="Language">
                     <option value="en">English</option>
                     <option value="ja">Japanese</option>
                     <option value="both">Both</option>
                 </select>
-                <select id="chapter" name="chapter">
+                <select id="chapter" name="chapter" aria-label="Chapter">
                     <option value="all">All chapters</option>
                     <option value="1">Chapter 1</option>
                     <option value="2">Chapter 2</option>
                     <option value="3">Chapter 3</option>
                     <option value="4">Chapter 4</option>
                 </select>
-                <button type="button" id="keyboard-guide-toggle">Hotkeys</button>
-                <button>
-                    <img
-                        id="light-mode-toggle"
-                        src="spr_introimage1_0.png"
-                        alt="Toggle light mode"
-                        title="Toggle light mode"
-                        width="80"
-                        height="44"
-                    />
+                <button
+                    id="light-mode-toggle"
+                    title="Toggle light mode"
+                    aria-label="Toggle light mode"
+                />
+                <button id="search-hide" title="Hide search" aria-label="Hide search">
+                    <img src="x.svg" width="20" height="20" />
+                </button>
+                <button id="search-show" title="Show search" aria-label="Show search">
+                    <img src="search.svg" width="20" height="20" />
                 </button>
             </div>
-            <ul id="keyboard-guide" style="display: none">
-                <li><strong>l</strong>(ight): Toggle light mode.</li>
-                <li>
-                    <strong>q</strong>(uote): Copy selected messages to clipboard
-                    markdown/Discord-style ("&gt; " before each line, "*" escaped to "\*").
-                </li>
-                <li>
-                    <strong>&gt;</strong>: Copy messages to clipboard email-style ("&gt; " before
-                    each line).
-                </li>
-                <li><strong>k</strong>(ey): Copy translation key to clipboard.</li>
-            </ul>
+            <search class="row">
+                <input type="search" id="searchbar" placeholder="Search..." />
+                <div id="search-counter"></div>
+                <button
+                    id="search-prev"
+                    title="Previous match"
+                    aria-label="Previous match"
+                    disabled
+                >
+                    <img src="chevron-up.svg" width="20" height="20" />
+                </button>
+                <button id="search-next" title="Next match" aria-label="Next match" disabled>
+                    <img src="chevron-down.svg" width="20" height="20" />
+                </button>
+            </search>
+            <div id="searchresults"></div>
+        </div>
+        <div id="intro">
             <p>
                 <a href="DELTARUNE.txt" target="_blank">Plain text</a> (<a
                     href="DELTARUNE_ja.txt"
@@ -340,47 +528,83 @@
                     Other resources
                 </a>
             </p>
-            <p>For search, press Ctrl+F or ⌘+F or ⋮ → "Find in page"</p>
         </div>
         <script>
             // @ts-check
             "use strict";
 
-            /** @type {HTMLDivElement} */
-            // @ts-ignore
-            const keyboardGuideToggle = document.getElementById("keyboard-guide-toggle");
-            keyboardGuideToggle.addEventListener("click", function () {
-                const guide = document.getElementById("keyboard-guide");
-                if (guide) {
-                    if (guide.style.display === "none") {
-                        guide.style.display = "";
-                    } else {
-                        guide.style.display = "none";
-                    }
+            /**
+             * @typedef {{
+             *      chap: "all" | "1" | "2" | "3" | "4";
+             *      lang: "en" | "ja" | "both";
+             *  }} Config
+             *
+             * @typedef {[string | null, boolean, number, number]} Message
+             * @typedef {{ en: Message; ja: Message; }} MessagePair
+             * @typedef {Record<string, MessagePair>} RenderedSection
+             * @typedef {Record<string, RenderedSection>} RenderedChapter
+             * @typedef {Record<string, RenderedChapter>} Rendered
+             * @typedef {{
+             *      query: string;
+             *      config: Config;
+             *      generation: number;
+             *  }} SearchQuery
+             * @typedef {[number, number]} Span
+             * @typedef {[string, string, string]} Path
+             * @typedef {{
+             *      path: Path;
+             *      lang: 'en' | 'ja';
+             *      spans: Span[];
+             *  }} Result
+             * @typedef {{
+             *      generation: number;
+             *      results: Result[];
+             *  }} ResultList
+             */
+
+            const controls = /** @type {HTMLDivElement} */ (document.getElementById("controls"));
+            const lightModeToggle = /** @type {HTMLButtonElement} */ (
+                document.getElementById("light-mode-toggle")
+            );
+            const searchBar = /** @type {HTMLInputElement} */ (
+                document.getElementById("searchbar")
+            );
+            const searchResultsDiv = /** @type {HTMLDivElement} */ (
+                document.getElementById("searchresults")
+            );
+            const searchHide = /** @type {HTMLButtonElement} */ (
+                document.getElementById("search-hide")
+            );
+            const searchShow = /** @type {HTMLButtonElement} */ (
+                document.getElementById("search-show")
+            );
+            const searchPrev = /** @type {HTMLButtonElement} */ (
+                document.getElementById("search-prev")
+            );
+            const searchNext = /** @type {HTMLButtonElement} */ (
+                document.getElementById("search-next")
+            );
+            const searchCounter = /** @type {HTMLDivElement} */ (
+                document.getElementById("search-counter")
+            );
+
+            lightModeToggle.addEventListener("click", function () {
+                if (document.body.classList.toggle("light")) {
+                    localStorage.setItem("deltaruneLightMode", "true");
+                } else {
+                    localStorage.removeItem("deltaruneLightMode");
                 }
             });
 
-            /** @type {HTMLImageElement} */
-            // @ts-ignore
-            const lightModeToggle = document.getElementById("light-mode-toggle");
-
-            function toggleLightMode() {
-                if (document.body.classList.toggle("light")) {
-                    lightModeToggle.src = "spr_introimage1_1.png";
-                    localStorage.setItem("deltaruneLightMode", "true");
-                } else {
-                    lightModeToggle.src = "spr_introimage1_0.png";
-                    localStorage.removeItem("deltaruneLightMode");
-                }
-            }
-
-            if (lightModeToggle.parentElement) {
-                lightModeToggle.parentElement.addEventListener("click", toggleLightMode);
-            }
-
             if (localStorage.getItem("deltaruneLightMode")) {
                 document.body.classList.add("light");
-                lightModeToggle.src = "spr_introimage1_1.png";
+            }
+
+            if (sessionStorage.getItem("dr-search-hidden")) {
+                document.body.classList.add("hideresults");
+                if (sessionStorage.getItem("dr-search-hidden") === "2") {
+                    document.body.classList.add("hidesearch");
+                }
             }
 
             const selects = /** @type {const} */ ([
@@ -388,7 +612,7 @@
                 { id: "language", key: "lang", default_: "en" },
             ]);
 
-            /** @type {{chap: 'all' | '1' | '2' | '3' | '4', lang: 'en' | 'ja' | 'both'}} */
+            /** @type {Config} */
             // @ts-ignore
             const config = {};
 
@@ -408,13 +632,18 @@
                     // @ts-ignore
                     config[select.key] = value;
                     render();
+                    processSearchInput();
                 });
             }
 
             function loadConfigFromURL() {
                 const params = new URL(String(window.location)).searchParams;
+                let didChange = false;
                 for (const select of selects) {
                     const value = params.get(select.key) || select.default_;
+                    if (config[select.key] !== value) {
+                        didChange = true;
+                    }
                     // @ts-ignore
                     config[select.key] = value;
 
@@ -426,6 +655,7 @@
                         }
                     }
                 }
+                return didChange;
             }
 
             if (window.location.hash === "#ja") {
@@ -439,8 +669,11 @@
             loadConfigFromURL();
 
             addEventListener("popstate", function () {
-                loadConfigFromURL();
+                const didChange = loadConfigFromURL();
                 render();
+                if (didChange) {
+                    processSearchInput();
+                }
             });
 
             if (
@@ -449,6 +682,8 @@
             ) {
                 document.body.classList.add("msedge");
             }
+
+            const searchWorker = new Worker("search-worker.js");
         </script>
         <div id="textboxes">
             <pre class="loading">    Loading...</pre>
@@ -463,11 +698,7 @@
             // @ts-check
             "use strict";
 
-            /**
-             * @type {Record<string,Record<string,Record<string,
-             * {en:[string|null,boolean,number,number],
-             * ja:[string|null,boolean,number,number]}>>>|undefined}
-             */
+            /** @type {Rendered} */
             // @ts-ignore
             const text = rendered;
 
@@ -475,67 +706,56 @@
             // @ts-ignore
             const sources = sourcemap;
 
-            /** @type {HTMLDivElement} */
-            // @ts-ignore
-            const textboxes = document.getElementById("textboxes");
+            const textboxes = /** @type {HTMLDivElement} */ (document.getElementById("textboxes"));
+
+            /** @type {HTMLElement | null} */
+            let focusedResult = null;
 
             /** @type {string|null} */
             let curRendered = null;
 
-            render();
+            /** @type {null|HTMLDivElement} */
+            let activeBox = null;
+
+            let searchGeneration = 0;
+
+            /** @type {Result[] | null} */
+            let searchResults = null;
+
+            /** @type {Map<string, Result[]>} */
+            const searchResultsByGroup = new Map();
 
             function render() {
-                if (!text) return;
-
                 const thisRender = `${config.chap}:${config.lang}`;
                 if (thisRender === curRendered) {
                     return;
                 }
 
-                let newHTML = "";
-                let sectionHTML = "";
-                let numMessage = 0;
-                let narrowHeight = 0;
-                let wideHeight = 0;
+                const [_hashLang, hashChap, hashMsgid] = window.location.hash.split(":");
 
-                function finishSection() {
-                    if (sectionHTML) {
-                        newHTML +=
-                            '<section style="--num-message:' +
-                            numMessage +
-                            ";--narrow-height:" +
-                            narrowHeight +
-                            "px;--wide-height:" +
-                            wideHeight +
-                            'px">' +
-                            sectionHTML +
-                            "</section>";
-                    }
-                    sectionHTML = "";
-                    numMessage = 0;
-                    narrowHeight = 0;
-                    wideHeight = 0;
-                }
+                activeTextSections.clear();
+                textObserver.disconnect();
+                applyTextHighlights();
+                textboxes.innerHTML = "";
 
-                for (const chapterNo of [1, 2, 3, 4]) {
+                for (const chapterNo of ["1", "2", "3", "4"]) {
                     if (config.chap !== String(chapterNo) && config.chap !== "all") {
                         continue;
                     }
-                    newHTML += mkTitle("h1", `${chapterNo}`, `Chapter ${chapterNo}`);
+                    textboxes.appendChild(mkTitle("h1", `${chapterNo}`, `Chapter ${chapterNo}`));
 
                     const chapter = text[chapterNo];
                     for (const groupName of Object.keys(chapter)) {
                         const group = chapter[groupName];
+                        let preload = false;
 
-                        /** @type {string|null} */
-                        let title = mkTitle(
-                            "h2",
-                            `${chapterNo}_${groupName}`,
-                            groupName.replace(/_slash_/g, "/"),
-                            "groupName"
-                        );
+                        let narrowHeight = 0;
+                        let wideHeight = 0;
 
                         for (const msgId of Object.keys(group)) {
+                            if (chapterNo === hashChap && msgId === hashMsgid) {
+                                preload = true;
+                            }
                             for (const lang of /** @type {const} */ (["en", "ja"])) {
                                 const [text, dup, nh, wh] = group[msgId][lang];
                                 if (config.lang !== "both" && (config.lang !== lang || !text)) {
@@ -552,25 +772,157 @@
                                 ) {
                                     continue;
                                 }
-                                if (title) {
-                                    finishSection();
-                                    newHTML += title;
-                                    title = null;
-                                }
-                                const box = buildBox(lang, `${lang}:${chapterNo}:${msgId}`, text);
-                                sectionHTML += box;
                                 narrowHeight += nh;
                                 wideHeight += wh;
-                                numMessage += 1;
                             }
+                        }
+
+                        if (narrowHeight) {
+                            textboxes.appendChild(
+                                mkTitle(
+                                    "h2",
+                                    `${chapterNo}_${groupName}`,
+                                    groupName.replace(/_slash_/g, "/"),
+                                    "groupName"
+                                )
+                            );
+                            const section = document.createElement("section");
+                            section.id = `section:${chapterNo}:${groupName}`;
+                            section.style.setProperty("--narrow-height", `${narrowHeight}px`);
+                            section.style.setProperty("--wide-height", `${wideHeight}px`);
+                            section.dataset.groupName = groupName;
+                            section.dataset.chapter = chapterNo;
+                            textboxes.appendChild(section);
+                            if (preload) {
+                                fillTextSection(section);
+                            } else {
+                                textObserver.observe(section);
+                            }
+                            narrowHeight = 0;
+                            wideHeight = 0;
                         }
                     }
                 }
 
-                finishSection();
-                textboxes.innerHTML = newHTML;
                 curRendered = thisRender;
             }
+
+            /** @type {Map<HTMLElement, Range[]>} */
+            const activeTextSections = new Map();
+
+            /** @type {Map<HTMLElement, Range[]>} */
+            const activeSearchSections = new Map();
+
+            const textObserver = new IntersectionObserver(function (entries) {
+                for (const entry of entries) {
+                    if (!(entry.target instanceof HTMLElement)) {
+                        continue;
+                    }
+                    if (entry.isIntersecting && !entry.target.hasChildNodes()) {
+                        fillTextSection(entry.target);
+                    } else if (!entry.isIntersecting && entry.target.hasChildNodes()) {
+                        entry.target.innerHTML = "";
+                        activeTextSections.delete(entry.target);
+                    }
+                }
+            });
+
+            /** @param {HTMLElement} section */
+            function fillTextSection(section) {
+                if (
+                    section.hasChildNodes() ||
+                    !section.dataset.groupName ||
+                    !section.dataset.chapter
+                ) {
+                    return;
+                }
+
+                let newHTML = "";
+                const group = text[section.dataset.chapter][section.dataset.groupName];
+                for (const msgId of Object.keys(group)) {
+                    for (const lang of /** @type {const} */ (["en", "ja"])) {
+                        const [text, dup, nh, wh] = group[msgId][lang];
+                        // TODO: DRY
+                        if (config.lang !== "both" && (config.lang !== lang || !text)) {
+                            continue;
+                        }
+                        if (dup && config.chap === "all") {
+                            continue;
+                        }
+                        if (
+                            config.lang === "both" &&
+                            config.chap === "all" &&
+                            !text &&
+                            group[msgId][lang === "ja" ? "en" : "ja"][1]
+                        ) {
+                            continue;
+                        }
+                        const box = buildBox(
+                            lang,
+                            `id="${lang}:${section.dataset.chapter}:${msgId}"`,
+                            text
+                        );
+                        newHTML += box;
+                    }
+                }
+                section.innerHTML = newHTML;
+                buildRangesForText(section);
+                applyTextHighlights();
+            }
+
+            /** @param {HTMLElement} section */
+            function buildRangesForText(section) {
+                if (
+                    !section.hasChildNodes() ||
+                    !section.dataset.groupName ||
+                    !section.dataset.chapter
+                ) {
+                    return;
+                }
+                const key = section.dataset.chapter + ":" + section.dataset.groupName;
+                /** @type {Range[]} */
+                const ranges = [];
+                activeTextSections.set(section, ranges);
+
+                const results = searchResultsByGroup.get(key);
+                if (!results) {
+                    return;
+                }
+                for (const result of results) {
+                    const node = document.getElementById(
+                        result.lang + ":" + result.path[0] + ":" + result.path[2]
+                    );
+                    if (!node) {
+                        continue;
+                    }
+                    for (const span of result.spans) {
+                        const range = getRange(node, ...span);
+                        if (range) {
+                            ranges.push(range);
+                        }
+                    }
+                }
+            }
+
+            function refreshTextHighlights() {
+                for (const section of document.querySelectorAll("#textboxes section")) {
+                    if (section instanceof HTMLElement) {
+                        buildRangesForText(section);
+                    }
+                }
+                applyTextHighlights();
+            }
+
+            function applyTextHighlights() {
+                CSS.highlights.set(
+                    "text-highlight",
+                    new Highlight(...[...activeTextSections.values()].flat())
+                );
+            }
+
+            const underscore = document.createElement("span");
+            underscore.innerText = "_";
+            underscore.classList.add("breakable");
 
             /**
              * @param {string} elem
@@ -579,23 +931,36 @@
              * @param {string|null} className
              */
             function mkTitle(elem, id, text, className = null) {
-                let html = "<" + elem + ' id="' + id + '"';
+                const title = document.createElement(elem);
+                title.id = id;
                 if (className) {
-                    html += ' class="' + className + '"';
+                    title.classList.add(className);
                 }
-                html += '><a href="#' + id + '">';
-                html += text.replace(/_/g, '<span class="breakable">_</span>');
-                html += "</a></" + elem + ">";
-                return html;
+                const link = document.createElement("a");
+                link.href = "#" + id;
+                let first = true;
+                for (const piece of text.split("_")) {
+                    if (!first) {
+                        link.appendChild(underscore.cloneNode(true));
+                    }
+                    first = false;
+                    link.appendChild(new Text(piece));
+                }
+                title.appendChild(link);
+                return title;
             }
 
             /**
              * @param {string} lang
-             * @param {string} id
+             * @param {string | null} attrs
              * @param {string | null} text
              */
-            function buildBox(lang, id, text) {
-                let html = '<div id="' + id + '" class="textbox ' + lang;
+            function buildBox(lang, attrs, text) {
+                let html = "<div";
+                if (attrs) {
+                    html += " " + attrs;
+                }
+                html += ' class="textbox ' + lang;
                 if (text === null) {
                     html += " untranslated";
                 }
@@ -616,59 +981,6 @@
                 return html;
             }
 
-            addEventListener("keydown", function (event) {
-                if (event.altKey || event.ctrlKey || event.metaKey) {
-                    return;
-                }
-
-                if (event.key === "l") {
-                    toggleLightMode();
-                }
-
-                if (event.key === "q" || event.key === ">") {
-                    const sel = window.getSelection();
-                    if (!sel) {
-                        return;
-                    }
-                    let start = getBox(sel.anchorNode);
-                    let end = getBox(sel.focusNode);
-                    if (!start || !end) {
-                        sel.empty();
-                        return;
-                    }
-                    if (sel.direction === "backward") {
-                        [start, end] = [end, start];
-                    }
-                    sel.setBaseAndExtent(start, 0, end, end.childNodes.length);
-                    let text = sel.toString().trim();
-                    // CRLF -> LF, for Windows.
-                    text = text.replace(/\r/g, "");
-                    // Remove spurious blank lines.
-                    // (Rarely there are actual significant blank lines.
-                    // We remove those too unfortunately.)
-                    text = text.replace(/^\s*\n/gm, "");
-                    if (event.key === "q") {
-                        // Escape markdown syntax.
-                        text = text.replace(/\*/g, "\\*");
-                    }
-                    // Add quotation.
-                    text = text.replace(/^/gm, "> ");
-                    navigator.clipboard.writeText(text + "\n");
-                }
-
-                if (event.key === "k") {
-                    const sel = window.getSelection();
-                    if (!sel) {
-                        return;
-                    }
-                    const box = getBox(sel.anchorNode);
-                    if (box) {
-                        navigator.clipboard.writeText(box.id.split(":")[2]);
-                        sel.empty();
-                    }
-                }
-            });
-
             /** @param {Node|null|undefined} elem */
             function getBox(elem) {
                 if (elem instanceof HTMLElement && elem.classList.contains("textbox")) {
@@ -678,9 +990,6 @@
                     return elem.parentElement.closest(".textbox");
                 }
             }
-
-            /** @type {null|Element} */
-            let activeBox = null;
 
             const linkBar = document.createElement("a");
             linkBar.classList.add("linkbar");
@@ -704,7 +1013,7 @@
             sourceBar.target = "_blank";
             sourceBar.title = "Source code";
 
-            textboxes.addEventListener("mouseover", function (event) {
+            document.addEventListener("mouseover", function (event) {
                 if (!(event.target instanceof Element)) {
                     return;
                 }
@@ -712,19 +1021,23 @@
                 if (activeBox === textbox) {
                     return;
                 }
-                if (!textbox) {
+                if (!textbox || !(textbox instanceof HTMLDivElement)) {
                     activeBox = null;
                     linkBar.remove();
                     sourceBar.remove();
                     return;
                 }
                 activeBox = textbox;
+                const id = textbox.id || textbox.dataset.id;
+                if (!id) {
+                    return;
+                }
 
-                linkBar.href = `#${textbox.id}`;
+                linkBar.href = `#${id}`;
                 linkBar.classList.remove("copied");
                 textbox.appendChild(linkBar);
 
-                const [lang, chapterNo, msgId] = activeBox.id.split(":");
+                const [lang, chapterNo, msgId] = id.split(":");
                 const sourceLocation = sources[chapterNo][msgId];
                 if (!sourceLocation) {
                     sourceBar.remove();
@@ -734,19 +1047,463 @@
                 }
             });
 
+            function processSearchInput() {
+                sessionStorage.setItem("dr-search-query", searchBar.value);
+                if (!searchBar.value) {
+                    searchResultsDiv.innerHTML = "";
+                    searchResults = null;
+                    searchCounter.innerText = "";
+                    searchResultsByGroup.clear();
+                    activeSearchSections.clear();
+                    activeTextSections.clear();
+                    CSS.highlights.clear();
+                    searchPrev.disabled = true;
+                    searchNext.disabled = true;
+                    searchGeneration++;
+                    return;
+                }
+                /** @type {SearchQuery} */
+                const query = {
+                    config: config,
+                    query: searchBar.value,
+                    generation: ++searchGeneration,
+                };
+                searchWorker.postMessage(query);
+            }
+            searchBar.addEventListener("input", processSearchInput);
+            if (!searchBar.value) {
+                searchBar.value = sessionStorage.getItem("dr-search-query") || "";
+            }
+            processSearchInput();
+            /** @param {MessageEvent<ResultList>} event */
+            searchWorker.onmessage = function (event) {
+                if (event.data.generation < searchGeneration) {
+                    return;
+                }
+                searchResults = event.data.results;
+                renderSearchResults();
+                renderSearchCounter();
+            };
+
+            function renderSearchCounter() {
+                if (!searchResults) {
+                    searchCounter.innerText = "";
+                } else if (
+                    !focusedResult ||
+                    !focusedResult.parentElement ||
+                    !focusedResult.parentElement.parentElement
+                ) {
+                    searchCounter.innerText = `${searchResults.length} results`;
+                } else {
+                    const idx =
+                        [...focusedResult.parentElement.childNodes].indexOf(focusedResult) +
+                        CHUNK_SIZE *
+                            [...focusedResult.parentElement.parentElement.childNodes].indexOf(
+                                focusedResult.parentElement
+                            );
+                    searchCounter.innerText = `${idx + 1}/${searchResults.length} results`;
+                }
+            }
+
+            const CHUNK_SIZE = 100;
+
+            function renderSearchResults() {
+                searchResultsByGroup.clear();
+                activeSearchSections.clear();
+                searchObserver.disconnect();
+                searchResultsDiv.innerHTML = "";
+                let pendingFocusedResult = sessionStorage.getItem("dr-search-focus");
+                focusSearchResult(null);
+                if (!searchResults || !searchResults.length) {
+                    searchPrev.disabled = true;
+                    searchNext.disabled = true;
+                    refreshTextHighlights();
+                    return;
+                }
+                searchPrev.disabled = false;
+                searchNext.disabled = false;
+
+                for (let pos = 0; pos < searchResults.length; pos += CHUNK_SIZE) {
+                    const chunk = searchResults.slice(pos, pos + CHUNK_SIZE);
+                    let narrowHeight = 0;
+                    let wideHeight = 0;
+                    /** @type {string | null} */
+                    let preloadFocusId = null;
+                    for (const result of chunk) {
+                        const [chap, group, msgid] = result.path;
+                        const [_text, _dup, nh, wh] = text[chap][group][msgid][result.lang];
+                        narrowHeight += nh;
+                        wideHeight += wh;
+
+                        let groupResults = searchResultsByGroup.get(chap + ":" + group);
+                        if (!groupResults) {
+                            searchResultsByGroup.set(chap + ":" + group, [result]);
+                        } else {
+                            groupResults.push(result);
+                        }
+
+                        if (pendingFocusedResult && !preloadFocusId) {
+                            const id = result.lang + ":" + chap + ":" + msgid;
+                            if (pendingFocusedResult === id) {
+                                preloadFocusId = id;
+                                pendingFocusedResult = null;
+                            }
+                        }
+                    }
+                    const section = document.createElement("section");
+                    section.style.setProperty("--narrow-height", `${narrowHeight}px`);
+                    section.style.setProperty("--wide-height", `${wideHeight}px`);
+                    section.dataset.index = String(pos / CHUNK_SIZE);
+                    searchResultsDiv.appendChild(section);
+                    if (pos == 0) {
+                        // Avoid observer flicker for cheap common case
+                        fillSearchSection(section);
+                    } else {
+                        searchObserver.observe(section);
+                    }
+                    if (preloadFocusId) {
+                        fillSearchSection(section);
+                        const box = [...section.children].find(function (box) {
+                            return box instanceof HTMLElement && box.dataset.id === preloadFocusId;
+                        });
+                        if (box instanceof HTMLElement) {
+                            focusSearchResult(box, false);
+                            box.scrollIntoView({
+                                behavior: "instant",
+                                block: "center",
+                            });
+                        }
+                    }
+                }
+                refreshTextHighlights();
+            }
+
+            const searchObserver = new IntersectionObserver(
+                function (entries) {
+                    for (const entry of entries) {
+                        if (!(entry.target instanceof HTMLElement)) {
+                            continue;
+                        }
+                        if (entry.isIntersecting && !entry.target.hasChildNodes()) {
+                            fillSearchSection(entry.target);
+                        } else if (
+                            !entry.isIntersecting &&
+                            entry.target.hasChildNodes() &&
+                            !(focusedResult && focusedResult.parentElement === entry.target)
+                        ) {
+                            entry.target.innerHTML = "";
+                            activeSearchSections.delete(entry.target);
+                        }
+                    }
+                },
+                { root: searchResultsDiv }
+            );
+
+            /** @param {HTMLElement} section */
+            function fillSearchSection(section) {
+                if (section.hasChildNodes() || !section.dataset.index || !searchResults) {
+                    return;
+                }
+                const results = searchResults.slice(
+                    +section.dataset.index * CHUNK_SIZE,
+                    (+section.dataset.index + 1) * CHUNK_SIZE
+                );
+
+                let newHTML = "";
+                for (const result of results) {
+                    const [chap, group, msgid] = result.path;
+                    newHTML += buildBox(
+                        result.lang,
+                        `data-id="${result.lang}:${chap}:${msgid}"` +
+                            ` data-group="${chap}:${group}"`,
+                        text[chap][group][msgid][result.lang][0]
+                    );
+                }
+                section.innerHTML = newHTML;
+                const ranges = [];
+                for (let i = 0; i < section.childNodes.length; i++) {
+                    for (const span of results[i].spans) {
+                        const node = section.childNodes[i];
+                        const range = getRange(node, ...span);
+                        if (range) {
+                            ranges.push(range);
+                        }
+                    }
+                }
+                activeSearchSections.set(section, ranges);
+                CSS.highlights.set(
+                    "search-highlight",
+                    new Highlight(...[...activeSearchSections.values()].flat())
+                );
+            }
+
+            /**
+             * @param {ChildNode} elem
+             * @param {number} start
+             * @param {number} end
+             * @returns {Range | null}
+             */
+            function getRange(elem, start, end) {
+                const range = new Range();
+                try {
+                    /** @type {ChildNode[]} */
+                    const stack = [elem];
+                    let pos = 0;
+                    let foundStart = false;
+                    while (stack.length) {
+                        const cur = stack[stack.length - 1];
+                        if (cur instanceof Text) {
+                            if (!foundStart && pos + cur.textContent.length >= start) {
+                                range.setStart(cur, start - pos);
+                                foundStart = true;
+                            }
+                            if (foundStart && pos + cur.textContent.length >= end) {
+                                range.setEnd(cur, end - pos);
+                                return range;
+                            }
+                            pos += cur.textContent.length;
+                        } else if (cur instanceof HTMLImageElement) {
+                            if (!foundStart && pos + cur.alt.length >= start) {
+                                range.setStart(cur, 0);
+                                foundStart = true;
+                            }
+                            if (foundStart && pos + cur.alt.length >= end) {
+                                range.setEnd(cur, 0);
+                                return range;
+                            }
+                            pos += cur.alt.length;
+                        }
+
+                        if (cur.firstChild) {
+                            stack.push(cur.firstChild);
+                        } else {
+                            while (stack.length && !stack[stack.length - 1].nextSibling) {
+                                stack.pop();
+                            }
+                            if (stack.length <= 1) {
+                                return null;
+                            }
+                            const sib = stack[stack.length - 1].nextSibling;
+                            if (!sib) {
+                                return null;
+                            }
+                            stack[stack.length - 1] = sib;
+                        }
+                    }
+                } catch (error) {
+                    console.error(error);
+                }
+                return null;
+            }
+
+            searchResultsDiv.addEventListener("click", function (event) {
+                if (!(event.target instanceof Element) || event.target.closest("a")) {
+                    return;
+                }
+                const textbox = event.target.closest(".textbox");
+                if (textbox instanceof HTMLElement) {
+                    focusSearchResult(textbox);
+                    setSearchHidden(true);
+                }
+            });
+
+            /** @param {HTMLElement | null} textbox */
+            function focusSearchResult(textbox, scroll = true) {
+                focusedResult = textbox;
+                if (!textbox || !textbox.dataset.id || !textbox.dataset.group) {
+                    sessionStorage.removeItem("dr-search-focus");
+                    return;
+                }
+                sessionStorage.setItem("dr-search-focus", textbox.dataset.id);
+                for (const elem of document.getElementsByClassName("focused")) {
+                    elem.classList.remove("focused");
+                }
+                textbox.classList.add("focused");
+                const section = document.getElementById("section:" + textbox.dataset.group);
+                if (section instanceof HTMLElement) {
+                    fillTextSection(section);
+                }
+                const target = document.getElementById(textbox.dataset.id);
+                if (!target) {
+                    return;
+                }
+                for (const oldTarget of document.getElementsByClassName("jumped")) {
+                    oldTarget.classList.remove("jumped");
+                    if (oldTarget === target) {
+                        target.offsetHeight; // trigger reflow to restart animation
+                    }
+                }
+                target.classList.add("jumped");
+                if (scroll) {
+                    target.scrollIntoView({
+                        behavior: "instant",
+                        block: "center",
+                    });
+                }
+                const newURL = new URL(String(window.location));
+                newURL.hash = "#" + target.id;
+                window.history.replaceState({}, "", newURL);
+                renderSearchCounter();
+            }
+
+            /**
+             * @param {boolean} reverse
+             * @return {HTMLElement | null}
+             */
+            function findAdjacentResult(reverse) {
+                if (!focusedResult) {
+                    return null;
+                }
+                const sibling = reverse ? focusedResult.previousSibling : focusedResult.nextSibling;
+                if (sibling instanceof HTMLElement) {
+                    return sibling;
+                }
+                if (!focusedResult.parentElement) {
+                    return null;
+                }
+                const sibSect = reverse
+                    ? focusedResult.parentElement.previousSibling
+                    : focusedResult.parentElement.nextSibling;
+                if (!(sibSect instanceof HTMLElement)) {
+                    return null;
+                }
+                fillSearchSection(sibSect);
+                const child = reverse ? sibSect.lastChild : sibSect.firstChild;
+                if (!(child instanceof HTMLElement)) {
+                    return null;
+                }
+                return child;
+            }
+
+            /**
+             * @param {boolean} reverse
+             * @return {HTMLElement | null}
+             */
+            function findInitialResult(reverse) {
+                const section = reverse ? searchResultsDiv.lastChild : searchResultsDiv.firstChild;
+                if (!(section instanceof HTMLElement)) {
+                    return null;
+                }
+                fillSearchSection(section);
+                const result = reverse ? section.lastChild : section.firstChild;
+                if (!(result instanceof HTMLElement)) {
+                    return null;
+                }
+                return result;
+            }
+
+            /** @param {boolean} reverse */
+            function findNext(reverse) {
+                if (!searchResults || !searchResults.length) {
+                    return;
+                }
+
+                focusSearchResult(findAdjacentResult(reverse) || findInitialResult(reverse));
+                if (!focusedResult) {
+                    return;
+                }
+
+                focusedResult.scrollIntoView({
+                    behavior: "instant",
+                    block: "center",
+                });
+                setSearchHidden(true);
+            }
+
+            searchBar.addEventListener("keydown", function (event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    findNext(event.shiftKey);
+                }
+            });
+
+            document.addEventListener("keydown", function (event) {
+                const control = event.ctrlKey || event.metaKey;
+                if (!control && event.key === "Escape") {
+                    // In Firefox Ctrl+Esc toggles highlight
+                    // In Chromium it ends the search and selects the current match
+                    event.preventDefault();
+                    searchBar.blur();
+                    setSearchHidden("very");
+                } else if (!event.altKey && control && event.code === "KeyG") {
+                    event.preventDefault();
+                    searchBar.focus();
+                    searchBar.select();
+                    findNext(event.shiftKey);
+                } else if (!event.altKey && !event.shiftKey && control && event.code === "KeyF") {
+                    event.preventDefault();
+                    setSearchHidden(false);
+                    const selection = window.getSelection();
+                    if (selection && selection.toString()) {
+                        searchBar.value = selection.toString();
+                        processSearchInput();
+                    }
+                    searchBar.focus();
+                    searchBar.select();
+                }
+            });
+
+            searchPrev.addEventListener("click", function () {
+                findNext(true);
+            });
+            searchNext.addEventListener("click", function () {
+                findNext(false);
+            });
+
+            searchBar.addEventListener("focus", function () {
+                setSearchHidden(false);
+            });
+            searchBar.addEventListener("click", function () {
+                setSearchHidden(false);
+            });
+            searchCounter.addEventListener("click", function () {
+                setSearchHidden(false);
+            });
+
+            searchHide.addEventListener("click", function () {
+                setSearchHidden("very");
+            });
+            searchShow.addEventListener("click", function () {
+                setSearchHidden(false);
+            });
+
+            textboxes.addEventListener("click", function () {
+                setSearchHidden(true);
+            });
+
+            /** @param {boolean | 'very'} value */
+            function setSearchHidden(value) {
+                if (value === "very") {
+                    // https://www.pixiv.net/en/artworks/57651690#3
+                    document.body.classList.add("hideresults", "hidesearch");
+                    sessionStorage.setItem("dr-search-hidden", "2");
+                } else if (value) {
+                    document.body.classList.add("hideresults");
+                    // don't need to remove hidesearch, if it's active we can
+                    // only get here by clicking #textboxes
+                    sessionStorage.setItem("dr-search-hidden", "1");
+                } else {
+                    document.body.classList.remove("hideresults", "hidesearch");
+                    sessionStorage.removeItem("dr-search-hidden");
+                }
+            }
+
+            render();
+
             // For debugging.
 
             function revealAll() {
-                for (const section of document.getElementsByTagName("section")) {
-                    section.style.contentVisibility = "visible";
+                for (const section of document.querySelectorAll("#textboxes section")) {
+                    if (section instanceof HTMLElement) {
+                        fillTextSection(section);
+                    }
                 }
             }
 
             function badHeights() {
                 revealAll();
                 return [...document.getElementsByTagName("section")].filter(function (section) {
-                    const calc = getComputedStyle(section).containIntrinsicHeight.match(/[0-9]+/);
-                    return calc !== null && +calc[0] !== section.offsetHeight;
+                    return section.scrollHeight !== section.offsetHeight;
                 });
             }
 
