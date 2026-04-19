@@ -1505,7 +1505,10 @@
             function badHeights() {
                 revealAll();
                 return [...document.getElementsByTagName("section")].filter(function (section) {
-                    return section.scrollHeight !== section.offsetHeight;
+                    section.style.height = "auto";
+                    const contentHeight = section.offsetHeight;
+                    section.style.removeProperty("height");
+                    return contentHeight !== section.offsetHeight;
                 });
             }
 
