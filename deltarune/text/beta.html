@@ -448,16 +448,18 @@
                 margin-bottom: 0.5em;
             }
 
-            ::highlight(search-highlight),
-            body:not(.hidesearch) *::highlight(text-highlight) {
+            /* If these selectors aren't specific enough they become a CPU bottleneck */
+
+            #searchresults section *::highlight(search-highlight),
+            body:not(.hidesearch) #textboxes section *::highlight(text-highlight) {
                 background-color: yellow;
                 color: black;
             }
 
-            .focused::highlight(search-highlight),
-            body:not(.hidesearch) .jumped::highlight(text-highlight),
-            .focused *::highlight(search-highlight),
-            body:not(.hidesearch) .jumped *::highlight(text-highlight) {
+            #searchresults section .focused::highlight(search-highlight),
+            body:not(.hidesearch) #textboxes section .jumped::highlight(text-highlight),
+            #searchresults section .focused *::highlight(search-highlight),
+            body:not(.hidesearch) #textboxes section .jumped *::highlight(text-highlight) {
                 background-color: orange;
             }
         </style>
