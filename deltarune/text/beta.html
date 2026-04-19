@@ -1459,7 +1459,11 @@
                 setSearchHidden(false);
             });
             searchCounter.addEventListener("click", function () {
-                setSearchHidden(false);
+                if (document.body.classList.contains("hideresults")) {
+                    setSearchHidden(false);
+                } else {
+                    setSearchHidden(true);
+                }
             });
 
             searchHide.addEventListener("click", function () {
