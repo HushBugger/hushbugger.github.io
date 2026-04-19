@@ -223,7 +223,17 @@
                 padding-left: 20px;
                 margin-top: 24px;
                 margin-bottom: 12px;
-                overflow-wrap: anywhere;
+            }
+
+            h2 {
+                content-visibility: auto;
+                height: var(--narrow-height);
+                overflow: hidden;
+                contain: strict;
+            }
+
+            h2 span.break {
+                white-space: pre;
             }
 
             h1 a,
@@ -231,10 +241,6 @@
                 /* color: #ccc; */
                 color: var(--foreground-color);
                 text-decoration: none;
-            }
-
-            span.breakable {
-                word-break: break-all;
             }
 
             #textboxes section {
@@ -259,6 +265,14 @@
 
                 #textboxes span.break {
                     white-space: normal;
+                }
+
+                h2 {
+                    height: var(--wide-height);
+                }
+
+                h2 span.break {
+                    display: none;
                 }
 
                 #controls {
@@ -830,23 +844,25 @@
                 activeTextSections.clear();
                 textObserver.disconnect();
                 applyTextHighlights();
-                textboxes.innerHTML = "";
+
+                let newHTML = "";
+                /** @type {string | null} */
+                let preload = null;
 
                 for (const chapterNo of /** @type {const} */ (["1", "2", "3", "4"])) {
                     if (config.chap !== String(chapterNo) && config.chap !== "all") {
                         continue;
                     }
-                    textboxes.appendChild(mkTitle("h1", `${chapterNo}`, `Chapter ${chapterNo}`));
+                    newHTML += mkTitle("h1", `${chapterNo}`, `Chapter ${chapterNo}`);
 
                     const chapter = index.groups[chapterNo];
                     for (const groupName of Object.keys(chapter)) {
                         const group = chapter[groupName];
-                        let preload = false;
 
                         if (hashChap === chapterNo && hashMsgid) {
                             for (let msgIdx = group[0]; msgIdx < group[0] + group[1]; msgIdx++) {
                                 if (msgidFor(msgIdx) === hashMsgid) {
-                                    preload = true;
+                                    preload = `section:${chapterNo}:${groupName}`;
                                 }
                             }
                         }
@@ -865,26 +881,28 @@
                             ];
 
                         if (narrowHeight) {
-                            textboxes.appendChild(
-                                mkTitle(
-                                    "h2",
-                                    `${chapterNo}_${groupName}`,
-                                    groupName.replace(/_slash_/g, "/"),
-                                    "groupName"
-                                )
+                            newHTML += mkTitle(
+                                "h2",
+                                `${chapterNo}_${groupName}`,
+                                groupName.replace(/_slash_/g, "/"),
+                                "groupName"
                             );
-                            const section = document.createElement("section");
-                            section.id = `section:${chapterNo}:${groupName}`;
-                            section.style.setProperty("--narrow-height", `${narrowHeight}px`);
-                            section.style.setProperty("--wide-height", `${wideHeight}px`);
-                            section.dataset.groupName = groupName;
-                            section.dataset.chapter = chapterNo;
-                            textboxes.appendChild(section);
-                            if (preload) {
-                                fillTextSection(section);
-                            } else {
-                                textObserver.observe(section);
-                            }
+                            newHTML += `<section id="section:${chapterNo}:${groupName}"`;
+                            newHTML +=
+                                ` style="--narrow-height:${narrowHeight}px;` +
+                                `--wide-height:${wideHeight}px"`;
+                            newHTML += ` data-group-name="${groupName}"`;
+                            newHTML += ` data-chapter="${chapterNo}"></section>`;
+                        }
+                    }
+                }
+                textboxes.innerHTML = newHTML;
+                for (const child of textboxes.childNodes) {
+                    if (child instanceof HTMLElement && child.localName === "section") {
+                        if (preload && preload === child.id) {
+                            fillTextSection(child);
+                        } else {
+                            textObserver.observe(child);
                         }
                     }
                 }
@@ -1010,35 +1028,49 @@
                 );
             }
 
-            const underscore = document.createElement("span");
-            underscore.innerText = "_";
-            underscore.classList.add("breakable");
-
             /**
              * @param {string} elem
              * @param {string} id
              * @param {string} text
              * @param {string|null} className
+             * @return {string}
              */
             function mkTitle(elem, id, text, className = null) {
-                // TODO: optimize
-                const title = document.createElement(elem);
-                title.id = id;
-                if (className) {
-                    title.classList.add(className);
-                }
-                const link = document.createElement("a");
-                link.href = "#" + id;
                 let first = true;
+                let npos = 0;
+                let nh = 32;
+                let wpos = 0;
+                let wh = 32;
+                let name = "";
                 for (const piece of text.split("_")) {
                     if (!first) {
-                        link.appendChild(underscore.cloneNode(true));
+                        name += "_";
+                        npos += 1;
+                        wpos += 1;
                     }
                     first = false;
-                    link.appendChild(new Text(piece));
+                    if (piece.length + wpos > 40) {
+                        name += "<br/>";
+                        npos = wpos = 0;
+                        nh += 32;
+                        wh += 32;
+                    } else if (piece.length + npos > 20) {
+                        name += '<span class="break">\n</span>';
+                        npos = 0;
+                        nh += 32;
+                    }
+                    name += piece;
+                    npos += piece.length;
+                    wpos += piece.length;
                 }
-                title.appendChild(link);
-                return title;
+                let html = `<${elem} id="${id}"`;
+                if (className) {
+                    html += ` class="${className}"`;
+                }
+                html += ` style="--narrow-height:${nh}px;--wide-height:${wh}px"`;
+                html += `><a href="#${id}">${name}</a></${elem}>`;
+
+                return html;
             }
 
             /**
