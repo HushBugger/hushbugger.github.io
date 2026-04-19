@@ -96,6 +96,12 @@ function doSearch(query) {
             rawPattern += "\\" + char;
         } else if (char === " ") {
             rawPattern += "[ \n\u3000]+";
+        } else if ("!！".includes(char)) {
+            rawPattern += "[!！]";
+        } else if ("?？".includes(char)) {
+            rawPattern += "[?？]";
+        } else if ("*＊".includes(char)) {
+            rawPattern += "[*＊]";
         } else {
             rawPattern += char;
         }
