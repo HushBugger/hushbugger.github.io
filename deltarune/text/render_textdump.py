@@ -4,11 +4,14 @@
 import html
 import io
 import json
+import math
 import os
 import re
 import sys
 import typing
 import xml.etree.ElementTree
+
+from dataclasses import dataclass, field
 
 from render_data import ALT_TEXTS, FUNNYTEXT_DIMS
 
@@ -620,6 +623,175 @@ with open("rendered.json.js", "w", encoding="utf-8") as f:
     f.write("var rendered = JSON.parse('")
     f.write(as_json.replace("\\", "\\\\").replace("'", "\\'"))
     f.write("');")
+
+
+def dumpbin():
+    @dataclass
+    class StringBuf:
+        cache: dict[str, tuple[int, int]] = field(default_factory=dict)
+        buf: io.StringIO = field(default_factory=io.StringIO)
+
+        def put(self, text: str | None) -> tuple[int, int]:
+            if not text:
+                return (0, 0)
+            if text not in self.cache:
+                # We could be more aggressive by also searching for superstrings.
+                # But that takes very long and only saves 30KB in total.
+                self.cache[text] = (self.buf.tell(), len(text))
+                self.buf.write(text)
+            return self.cache[text]
+
+        def get(self) -> str:
+            value = self.buf.getvalue()
+            # Ensure that UTF-16 offsets (JS) match UTF-32 offsets (Python)
+            assert max(map(ord, value)) <= 65535
+            return value
+
+        def check(self, w1, w2):
+            m1 = 0
+            m2 = 0
+            for n1, n2 in self.cache.values():
+                m1 = max(n1, m1)
+                m2 = max(n2, m2)
+            assert math.ceil(math.log(m1, 128)) == w1
+            assert math.ceil(math.log(m2, 128)) == w2
+
+    @dataclass
+    class MsgMeta:
+        msgid: tuple[int, int]
+        en: tuple[int, int]
+        ja: tuple[int, int]
+        source: tuple[int, int]
+        dup: int
+        nh_en: int
+        wh_en: int
+        nh_ja: int
+        wh_ja: int
+
+    class SectionIndex(typing.TypedDict):
+        meta: dict[typing.Literal["msgid", "en", "ja", "count"], int]
+        groups: dict[str, dict[str, list[int]]]
+
+    groups: dict[str, dict[str, list[int]]] = {}
+    msgs: list[MsgMeta] = []
+    msgidbuf = StringBuf()
+    enbuf = StringBuf()
+    jabuf = StringBuf()
+    sourcebuf = StringBuf()
+
+    def hidxfor(lang: typing.Literal["en", "ja", "both"], all: bool, wide: bool) -> int:
+        return wide + 2 * all + 4 * ["en", "ja", "both"].index(lang)
+
+    with open("sourcemap.json", encoding="utf8") as f:
+        sourcemap: dict[str, dict[str, str]] = json.load(f)
+
+    midx = 0
+    for chap in rendered:
+        groups[chap] = {}
+        for group in rendered[chap]:
+            startmidx = midx
+            heights = [0] * 12
+            for msgid in rendered[chap][group]:
+                msg = rendered[chap][group][msgid]
+                msgs.append(
+                    MsgMeta(
+                        msgidbuf.put(msgid),
+                        enbuf.put(msg["en"][0]),
+                        jabuf.put(msg["ja"][0]),
+                        sourcebuf.put(sourcemap[chap].get(msgid)),
+                        msg["en"][1] + 2 * msg["ja"][1],
+                        msg["en"][2],
+                        msg["en"][3],
+                        msg["ja"][2],
+                        msg["ja"][3],
+                    )
+                )
+                for thislang in "en", "ja":
+                    text, dup, nh, wh = msg[thislang]
+                    if text:
+                        heights[hidxfor(thislang, False, True)] += wh
+                        heights[hidxfor(thislang, False, False)] += nh
+                        heights[hidxfor("both", False, True)] += wh
+                        heights[hidxfor("both", False, False)] += nh
+                        if not dup:
+                            heights[hidxfor(thislang, True, True)] += wh
+                            heights[hidxfor(thislang, True, False)] += nh
+                            heights[hidxfor("both", True, True)] += wh
+                            heights[hidxfor("both", True, False)] += nh
+                midx += 1
+            groups[chap][group] = [startmidx, len(rendered[chap][group]), *heights]
+
+    binout = io.BytesIO()
+
+    def writenum(num: int, width: int):
+        chars = []
+        while num:
+            chars.append(num % 128)
+            num //= 128
+        assert len(chars) <= width
+        for _ in range(width - len(chars)):
+            chars.append(0)
+        binout.write(bytes(chars))
+
+    for msginfo in msgs:
+        writenum(msginfo.msgid[0], 3)
+        writenum(msginfo.msgid[1], 1)
+        writenum(msginfo.en[0], 3)
+        writenum(msginfo.en[1], 2)
+        writenum(msginfo.ja[0], 3)
+        writenum(msginfo.ja[1], 2)
+        writenum(msginfo.source[0], 3)
+        writenum(msginfo.source[1], 1)
+        writenum(msginfo.dup, 1)
+        writenum(msginfo.nh_en, 2)
+        writenum(msginfo.wh_en, 2)
+        writenum(msginfo.nh_ja, 2)
+        writenum(msginfo.wh_ja, 2)
+
+    msgidbuf.check(3, 1)
+    enbuf.check(3, 2)
+    jabuf.check(3, 2)
+    sourcebuf.check(3, 1)
+
+    bindata = binout.getvalue()
+    msgiddata = msgidbuf.get()
+    endata = enbuf.get()
+    jadata = jabuf.get()
+
+    assert bindata.isascii()
+    assert msgiddata.isascii()
+
+    idx: SectionIndex = {
+        "meta": {
+            "msgid": len(bindata),
+            "en": len(bindata) + len(msgiddata),
+            "ja": len(bindata) + len(msgiddata) + len(endata),
+            "count": midx,
+        },
+        "groups": groups,
+    }
+
+    with open("groups.json.js", "w", encoding="utf8") as f:
+        as_json = json.dumps(
+            idx, indent=None, ensure_ascii=False, separators=(",", ":")
+        )
+        assert as_json.isascii()
+        f.write("var groupIndex = JSON.parse('")
+        f.write(as_json.replace("\\", "\\\\").replace("'", "\\'"))
+        f.write("');")
+
+    # TODO: split en and ja?
+    with open("rendered.bin", "wb") as f:
+        f.write(bindata)
+        f.write(msgiddata.encode("utf8"))
+        f.write(endata.encode("utf8"))
+        f.write(jadata.encode("utf8"))
+
+    with open("sourcemap.bin", "wb") as f:
+        f.write(sourcebuf.get().encode("utf8"))
+
+
+dumpbin()
 
 
 def plainify_html(text: str) -> str:

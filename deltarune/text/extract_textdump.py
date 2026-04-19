@@ -150,7 +150,7 @@ class TextImg(typing.NamedTuple):
 
 CHAPTERS = [1, 2, 3, 4]
 text = {n: {} for n in CHAPTERS}
-sourcemap = {n: {} for n in CHAPTERS}
+sourcemap: dict[int, dict[str, str]] = {n: {} for n in CHAPTERS}
 images: dict[int, dict[str, dict[int, tuple[TextImg, TextImg]]]] = {
     n: {} for n in CHAPTERS
 }

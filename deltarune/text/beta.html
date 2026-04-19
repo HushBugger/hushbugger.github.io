@@ -366,7 +366,6 @@
 
             div.textbox.en,
             pre.loading,
-            div.textbox.untranslated,
             h1,
             h2 {
                 font-family: "8bitoperator Undertale Mono", Monospace;
@@ -437,8 +436,7 @@
             }
 
             span.picture,
-            span.param,
-            div.untranslated {
+            span.param {
                 background: var(--foreground-color);
                 color: var(--background-color);
             }
@@ -541,18 +539,18 @@
              *      lang: "en" | "ja" | "both";
              *  }} Config
              *
-             * @typedef {[string | null, boolean, number, number]} Message
-             * @typedef {{ en: Message; ja: Message; }} MessagePair
-             * @typedef {Record<string, MessagePair>} RenderedSection
-             * @typedef {Record<string, RenderedSection>} RenderedChapter
-             * @typedef {Record<string, RenderedChapter>} Rendered
+             * @typedef {{
+             *      meta: {"msgid": number, "en": number, "ja": number, "count": number};
+             *      groups: Record<"1"|"2"|"3"|"4", Record<string, number[]>>;
+             *  }} GroupIndex
+             *
              * @typedef {{
              *      query: string;
              *      config: Config;
              *      generation: number;
              *  }} SearchQuery
              * @typedef {[number, number]} Span
-             * @typedef {[string, string, string]} Path
+             * @typedef {[string, string, number]} Path
              * @typedef {{
              *      path: Path;
              *      lang: 'en' | 'ja';
@@ -694,19 +692,113 @@
             <p>This page requires JavaScript. Sorry :(</p>
             <p>Maybe try the <a href="DELTARUNE.txt">plain text</a> dump?</p>
         </noscript>
-        <script src="rendered.json.js"></script>
-        <script src="sourcemap.json.js"></script>
+        <script src="groups.json.js"></script>
         <script>
             // @ts-check
             "use strict";
 
-            /** @type {Rendered} */
-            // @ts-ignore
-            const text = rendered;
+            const rawText = (function () {
+                // Synchronous XHR is deprecated but never ever getting removed.
+                // It's the only way to pull in flat text data during page load
+                // without parsing overhead.
+                // An async fetch would break anchor links.
+                const req = new XMLHttpRequest();
+                req.open("GET", "rendered.bin", false);
+                req.send();
+                return req.responseText;
+            })();
 
-            /** @type {Record<string, Record<string, string>>} */
             // @ts-ignore
-            const sources = sourcemap;
+            const index = /** @type {GroupIndex} */ (groupIndex);
+
+            const MSG_SIZE = 27;
+
+            let curMsgOffset = 0;
+
+            /**
+             * @param {1|2|3} width
+             * @return {(idx: number) => number}
+             */
+            function mkExtractor(width) {
+                const offset = curMsgOffset;
+                curMsgOffset += width;
+                if (width === 1) {
+                    return function (idx) {
+                        return rawText.charCodeAt(idx * MSG_SIZE + offset);
+                    };
+                } else if (width === 2) {
+                    return function (idx) {
+                        return (
+                            rawText.charCodeAt(idx * MSG_SIZE + offset) +
+                            rawText.charCodeAt(idx * MSG_SIZE + offset + 1) * 128
+                        );
+                    };
+                } else {
+                    return function (idx) {
+                        return (
+                            rawText.charCodeAt(idx * MSG_SIZE + offset) +
+                            rawText.charCodeAt(idx * MSG_SIZE + offset + 1) * 128 +
+                            rawText.charCodeAt(idx * MSG_SIZE + offset + 2) * 16384
+                        );
+                    };
+                }
+            }
+
+            const msgidOffFor = mkExtractor(3);
+            const msgidLenFor = mkExtractor(1);
+            const enOffFor = mkExtractor(3);
+            const enLenFor = mkExtractor(2);
+            const jaOffFor = mkExtractor(3);
+            const jaLenFor = mkExtractor(2);
+            const sourceOffFor = mkExtractor(3);
+            const sourceLenFor = mkExtractor(1);
+            const dupFor = mkExtractor(1);
+            const nhenFor = mkExtractor(2);
+            const whenFor = mkExtractor(2);
+            const nhjaFor = mkExtractor(2);
+            const whjaFor = mkExtractor(2);
+
+            /** @param {number} idx */
+            function msgidFor(idx) {
+                const off = index.meta.msgid + msgidOffFor(idx);
+                return rawText.slice(off, off + msgidLenFor(idx));
+            }
+
+            /** @param {number} idx */
+            function enFor(idx) {
+                const off = index.meta.en + enOffFor(idx);
+                return rawText.slice(off, off + enLenFor(idx));
+            }
+
+            /** @param {number} idx */
+            function jaFor(idx) {
+                const off = index.meta.ja + jaOffFor(idx);
+                return rawText.slice(off, off + jaLenFor(idx));
+            }
+
+            /** @type {string | null} */
+            let rawSourceMap = null;
+
+            fetch("sourcemap.bin")
+                .then(function (response) {
+                    return response.text();
+                })
+                .then(function (text) {
+                    rawSourceMap = text;
+                });
+
+            /** @param {number} idx */
+            function sourceFor(idx) {
+                if (!rawSourceMap) {
+                    return "";
+                }
+                const off = sourceOffFor(idx);
+                return rawSourceMap.slice(off, off + sourceLenFor(idx));
+            }
+        </script>
+        <script>
+            // @ts-check
+            "use strict";
 
             const textboxes = /** @type {HTMLDivElement} */ (document.getElementById("textboxes"));
 
@@ -740,44 +832,37 @@
                 applyTextHighlights();
                 textboxes.innerHTML = "";
 
-                for (const chapterNo of ["1", "2", "3", "4"]) {
+                for (const chapterNo of /** @type {const} */ (["1", "2", "3", "4"])) {
                     if (config.chap !== String(chapterNo) && config.chap !== "all") {
                         continue;
                     }
                     textboxes.appendChild(mkTitle("h1", `${chapterNo}`, `Chapter ${chapterNo}`));
 
-                    const chapter = text[chapterNo];
+                    const chapter = index.groups[chapterNo];
                     for (const groupName of Object.keys(chapter)) {
                         const group = chapter[groupName];
                         let preload = false;
 
-                        let narrowHeight = 0;
-                        let wideHeight = 0;
-
-                        for (const msgId of Object.keys(group)) {
-                            if (chapterNo === hashChap && msgId === hashMsgid) {
-                                preload = true;
-                            }
-                            for (const lang of /** @type {const} */ (["en", "ja"])) {
-                                const [text, dup, nh, wh] = group[msgId][lang];
-                                if (config.lang !== "both" && (config.lang !== lang || !text)) {
-                                    continue;
+                        if (hashChap === chapterNo && hashMsgid) {
+                            for (let msgIdx = group[0]; msgIdx < group[0] + group[1]; msgIdx++) {
+                                if (msgidFor(msgIdx) === hashMsgid) {
+                                    preload = true;
                                 }
-                                if (dup && config.chap === "all") {
-                                    continue;
-                                }
-                                if (
-                                    config.lang === "both" &&
-                                    config.chap === "all" &&
-                                    !text &&
-                                    group[msgId][lang === "ja" ? "en" : "ja"][1]
-                                ) {
-                                    continue;
-                                }
-                                narrowHeight += nh;
-                                wideHeight += wh;
                             }
                         }
+
+                        const narrowHeight =
+                            group[
+                                2 +
+                                    2 * +(config.chap === "all") +
+                                    4 * ["en", "ja", "both"].indexOf(config.lang)
+                            ];
+                        const wideHeight =
+                            group[
+                                3 +
+                                    2 * +(config.chap === "all") +
+                                    4 * ["en", "ja", "both"].indexOf(config.lang)
+                            ];
 
                         if (narrowHeight) {
                             textboxes.appendChild(
@@ -800,8 +885,6 @@
                             } else {
                                 textObserver.observe(section);
                             }
-                            narrowHeight = 0;
-                            wideHeight = 0;
                         }
                     }
                 }
@@ -840,31 +923,36 @@
                 }
 
                 let newHTML = "";
-                const group = text[section.dataset.chapter][section.dataset.groupName];
-                for (const msgId of Object.keys(group)) {
-                    for (const lang of /** @type {const} */ (["en", "ja"])) {
-                        const [text, dup, nh, wh] = group[msgId][lang];
-                        // TODO: DRY
-                        if (config.lang !== "both" && (config.lang !== lang || !text)) {
-                            continue;
+                const group =
+                    index.groups[/** @type {'1'|'2'|'3'|'4'} */ (section.dataset.chapter)][
+                        section.dataset.groupName
+                    ];
+                for (let msgIdx = group[0]; msgIdx < group[0] + group[1]; msgIdx++) {
+                    if (config.lang !== "ja") {
+                        const text = enFor(msgIdx);
+                        const dup = dupFor(msgIdx) & 1;
+                        if (text && !(dup && config.chap === "all")) {
+                            const box = buildBox(
+                                "en",
+                                `id="en:${section.dataset.chapter}:${msgidFor(msgIdx)}"`,
+                                text,
+                                msgIdx
+                            );
+                            newHTML += box;
                         }
-                        if (dup && config.chap === "all") {
-                            continue;
+                    }
+                    if (config.lang !== "en") {
+                        const text = jaFor(msgIdx);
+                        const dup = dupFor(msgIdx) & 2;
+                        if (text && !(dup && config.chap === "all")) {
+                            const box = buildBox(
+                                "ja",
+                                `id="ja:${section.dataset.chapter}:${msgidFor(msgIdx)}"`,
+                                text,
+                                msgIdx
+                            );
+                            newHTML += box;
                         }
-                        if (
-                            config.lang === "both" &&
-                            config.chap === "all" &&
-                            !text &&
-                            group[msgId][lang === "ja" ? "en" : "ja"][1]
-                        ) {
-                            continue;
-                        }
-                        const box = buildBox(
-                            lang,
-                            `id="${lang}:${section.dataset.chapter}:${msgId}"`,
-                            text
-                        );
-                        newHTML += box;
                     }
                 }
                 section.innerHTML = newHTML;
@@ -892,7 +980,7 @@
                 }
                 for (const result of results) {
                     const node = document.getElementById(
-                        result.lang + ":" + result.path[0] + ":" + result.path[2]
+                        result.lang + ":" + result.path[0] + ":" + msgidFor(result.path[2])
                     );
                     if (!node) {
                         continue;
@@ -933,6 +1021,7 @@
              * @param {string|null} className
              */
             function mkTitle(elem, id, text, className = null) {
+                // TODO: optimize
                 const title = document.createElement(elem);
                 title.id = id;
                 if (className) {
@@ -955,29 +1044,21 @@
             /**
              * @param {string} lang
              * @param {string | null} attrs
-             * @param {string | null} text
+             * @param {string} text
+             * @param {number} idx
              */
-            function buildBox(lang, attrs, text) {
+            function buildBox(lang, attrs, text, idx) {
                 let html = "<div";
                 if (attrs) {
                     html += " " + attrs;
                 }
                 html += ' class="textbox ' + lang;
-                if (text === null) {
-                    html += " untranslated";
-                }
                 html += '"';
                 if (lang === "ja") {
                     html += ' lang="ja"';
                 }
+                html += ` data-idx="${idx}"`;
                 html += ">";
-                if (text === null) {
-                    if (lang === "en") {
-                        text = "(No English translation.)";
-                    } else {
-                        text = "(No Japanese translation.)";
-                    }
-                }
                 html += text;
                 html += "</div>";
                 return html;
@@ -1039,8 +1120,10 @@
                 linkBar.classList.remove("copied");
                 textbox.appendChild(linkBar);
 
-                const [lang, chapterNo, msgId] = id.split(":");
-                const sourceLocation = sources[chapterNo][msgId];
+                const [lang, chapterNo] = id.split(":");
+                const idx = +(/** @type {string} */ (textbox.dataset.idx));
+                // TODO: placeholder if still fetching?
+                const sourceLocation = sourceFor(idx);
                 if (!sourceLocation) {
                     sourceBar.remove();
                 } else {
@@ -1050,6 +1133,12 @@
             });
 
             function processSearchInput() {
+                if (searchGeneration === 0) {
+                    if (!searchBar.value) {
+                        return;
+                    }
+                    searchWorker.postMessage(rawText);
+                }
                 sessionStorage.setItem("dr-search-query", searchBar.value);
                 if (!searchBar.value) {
                     searchResultsDiv.innerHTML = "";
@@ -1132,10 +1221,10 @@
                     /** @type {string | null} */
                     let preloadFocusId = null;
                     for (const result of chunk) {
-                        const [chap, group, msgid] = result.path;
-                        const [_text, _dup, nh, wh] = text[chap][group][msgid][result.lang];
-                        narrowHeight += nh;
-                        wideHeight += wh;
+                        const [chap, group, msgIdx] = result.path;
+                        const text = result.lang === "en" ? enFor(msgIdx) : jaFor(msgIdx);
+                        narrowHeight += result.lang === "en" ? nhenFor(msgIdx) : nhjaFor(msgIdx);
+                        wideHeight += result.lang === "en" ? whenFor(msgIdx) : whjaFor(msgIdx);
 
                         let groupResults = searchResultsByGroup.get(chap + ":" + group);
                         if (!groupResults) {
@@ -1145,7 +1234,7 @@
                         }
 
                         if (pendingFocusedResult && !preloadFocusId) {
-                            const id = result.lang + ":" + chap + ":" + msgid;
+                            const id = result.lang + ":" + chap + ":" + msgidFor(msgIdx);
                             if (pendingFocusedResult === id) {
                                 preloadFocusId = id;
                                 pendingFocusedResult = null;
@@ -1213,12 +1302,13 @@
 
                 let newHTML = "";
                 for (const result of results) {
-                    const [chap, group, msgid] = result.path;
+                    const [chap, group, msgIdx] = result.path;
                     newHTML += buildBox(
                         result.lang,
-                        `data-id="${result.lang}:${chap}:${msgid}"` +
+                        `data-id="${result.lang}:${chap}:${msgidFor(msgIdx)}"` +
                             ` data-group="${chap}:${group}"`,
-                        text[chap][group][msgid][result.lang][0]
+                        result.lang === "en" ? enFor(msgIdx) : jaFor(msgIdx),
+                        msgIdx
                     );
                 }
                 section.innerHTML = newHTML;
