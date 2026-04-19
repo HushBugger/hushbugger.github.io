@@ -721,44 +721,58 @@ def dumpbin():
                 midx += 1
             groups[chap][group] = [startmidx, len(rendered[chap][group]), *heights]
 
-    binout = io.BytesIO()
+    headerbuf = io.StringIO()
 
     def writenum(num: int, width: int):
-        chars = []
-        while num:
-            chars.append(num % 128)
-            num //= 128
-        assert len(chars) <= width
-        for _ in range(width - len(chars)):
-            chars.append(0)
-        binout.write(bytes(chars))
+        # Encode offsets as 7-bit digits (i.e. ASCII), little-endian.
+        # Heights and lengths are instead encoded as UTF-8. They're
+        # usually but not always <128 so this is a nice variable-width
+        # encoding scheme.
+        # Here's the neatest part: the JS decoder doesn't need to know
+        # about this. Decoding a single ASCII value or a single code
+        # unit from a UTF-16 JS string is identical.
+        # This trick only makes sense because:
+        # - It's rare for these values to be >=128 (UTF-8 is actually pretty
+        #   inefficient for multi-byte codepoints)
+        # - These values are never >=0xD800 (surrogate codepoints that can't be
+        #   encoded as UTF-8, and codepoints outside the BMP that take multiple
+        #   UTF-16 code units)
+        # - The data is transmitted as UTF-8 but decoded from a UTF-16 string
+        #   for convoluted browser reasons
+        if width == 1:
+            assert num < 0xD800
+            headerbuf.write(chr(num))
+        else:
+            for _ in range(width):
+                headerbuf.write(chr(num % 128))
+                num //= 128
+            assert not num
 
     for msginfo in msgs:
         writenum(msginfo.msgid[0], 3)
         writenum(msginfo.msgid[1], 1)
         writenum(msginfo.en[0], 3)
-        writenum(msginfo.en[1], 2)
+        writenum(msginfo.en[1], 1)
         writenum(msginfo.ja[0], 3)
-        writenum(msginfo.ja[1], 2)
+        writenum(msginfo.ja[1], 1)
         writenum(msginfo.source[0], 3)
         writenum(msginfo.source[1], 1)
         writenum(msginfo.dup, 1)
-        writenum(msginfo.nh_en, 2)
-        writenum(msginfo.wh_en, 2)
-        writenum(msginfo.nh_ja, 2)
-        writenum(msginfo.wh_ja, 2)
+        writenum(msginfo.nh_en, 1)
+        writenum(msginfo.wh_en, 1)
+        writenum(msginfo.nh_ja, 1)
+        writenum(msginfo.wh_ja, 1)
 
     msgidbuf.check(3, 1)
     enbuf.check(3, 2)
     jabuf.check(3, 2)
     sourcebuf.check(3, 1)
 
-    bindata = binout.getvalue()
+    bindata = headerbuf.getvalue()
     msgiddata = msgidbuf.get()
     endata = enbuf.get()
     jadata = jabuf.get()
 
-    assert bindata.isascii()
     assert msgiddata.isascii()
 
     idx: SectionIndex = {
@@ -781,14 +795,14 @@ def dumpbin():
         f.write("');")
 
     # TODO: split en and ja?
-    with open("rendered.bin", "wb") as f:
+    with open("rendered.bin", "w", encoding="utf8") as f:
         f.write(bindata)
-        f.write(msgiddata.encode("utf8"))
-        f.write(endata.encode("utf8"))
-        f.write(jadata.encode("utf8"))
+        f.write(msgiddata)
+        f.write(endata)
+        f.write(jadata)
 
-    with open("sourcemap.bin", "wb") as f:
-        f.write(sourcebuf.get().encode("utf8"))
+    with open("sourcemap.bin", "w", encoding="utf8") as f:
+        f.write(sourcebuf.get())
 
 
 dumpbin()

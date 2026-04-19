@@ -725,7 +725,7 @@
             // @ts-ignore
             const index = /** @type {GroupIndex} */ (groupIndex);
 
-            const MSG_SIZE = 27;
+            const MSG_SIZE = 21;
 
             let curMsgOffset = 0;
 
@@ -761,16 +761,16 @@
             const msgidOffFor = mkExtractor(3);
             const msgidLenFor = mkExtractor(1);
             const enOffFor = mkExtractor(3);
-            const enLenFor = mkExtractor(2);
+            const enLenFor = mkExtractor(1);
             const jaOffFor = mkExtractor(3);
-            const jaLenFor = mkExtractor(2);
+            const jaLenFor = mkExtractor(1);
             const sourceOffFor = mkExtractor(3);
             const sourceLenFor = mkExtractor(1);
             const dupFor = mkExtractor(1);
-            const nhenFor = mkExtractor(2);
-            const whenFor = mkExtractor(2);
-            const nhjaFor = mkExtractor(2);
-            const whjaFor = mkExtractor(2);
+            const nhenFor = mkExtractor(1);
+            const whenFor = mkExtractor(1);
+            const nhjaFor = mkExtractor(1);
+            const whjaFor = mkExtractor(1);
 
             /** @param {number} idx */
             function msgidFor(idx) {
