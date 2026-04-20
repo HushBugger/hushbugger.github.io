@@ -178,18 +178,6 @@
                 display: none;
             }
 
-            #search-show {
-                display: none;
-            }
-
-            .hidesearch #search-hide {
-                display: none;
-            }
-
-            .hidesearch #search-show {
-                display: revert;
-            }
-
             #search-counter {
                 font-size: 12px;
                 background-color: white;
@@ -510,10 +498,7 @@
                     title="Toggle light mode"
                     aria-label="Toggle light mode"
                 />
-                <button id="search-hide" title="Hide search" aria-label="Hide search">
-                    <img src="x.svg" width="20" height="20" />
-                </button>
-                <button id="search-show" title="Show search" aria-label="Show search">
+                <button id="search-toggle" title="Toggle search" aria-label="Toggle search">
                     <img src="search.svg" width="20" height="20" />
                 </button>
             </div>
@@ -599,11 +584,8 @@
             const searchResultsDiv = /** @type {HTMLDivElement} */ (
                 document.getElementById("searchresults")
             );
-            const searchHide = /** @type {HTMLButtonElement} */ (
-                document.getElementById("search-hide")
-            );
-            const searchShow = /** @type {HTMLButtonElement} */ (
-                document.getElementById("search-show")
+            const searchToggle = /** @type {HTMLButtonElement} */ (
+                document.getElementById("search-toggle")
             );
             const searchPrev = /** @type {HTMLButtonElement} */ (
                 document.getElementById("search-prev")
@@ -1602,11 +1584,12 @@
                 }
             });
 
-            searchHide.addEventListener("click", function () {
-                setSearchHidden("very");
-            });
-            searchShow.addEventListener("click", function () {
-                setSearchHidden(false);
+            searchToggle.addEventListener("click", function () {
+                if (document.body.classList.contains("hidesearch")) {
+                    setSearchHidden(false);
+                } else {
+                    setSearchHidden("very");
+                }
             });
 
             textboxes.addEventListener("click", function () {
