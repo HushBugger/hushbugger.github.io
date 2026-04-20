@@ -725,6 +725,7 @@
                 // without parsing overhead.
                 // An async fetch would break anchor links.
                 const req = new XMLHttpRequest();
+                req.overrideMimeType("text/plain; charset=UTF-8");
                 req.open("GET", "rendered.bin", false);
                 req.send();
                 return req.responseText;
