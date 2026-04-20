@@ -69,6 +69,10 @@
                 scroll-padding-top: 92px;
             }
 
+            html:has(body.hidesearch) {
+                scroll-padding-top: 48px;
+            }
+
             body.light {
                 --background-color: white;
                 --foreground-color: #2c1708;
@@ -261,7 +265,8 @@
                     display: revert;
                 }
 
-                html {
+                html,
+                html:has(body.hidesearch) {
                     scroll-padding-top: initial;
                 }
             }
