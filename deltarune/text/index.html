@@ -42,8 +42,6 @@
                  * the color for a black background, while "multiply" preserves the color for a
                  * white background.
                  *
-                 * We don't apply this to the Japanese text as that uses a system font.
-                 *
                  * Tested on GNOME Xorg (Debian Bookworm) using Gecko & Blink & WebkitGTK.
                  * Tested on Windows 11 using Gecko & Blink. (Poorly configured ClearType blurs in Blink.)
                  * Apparently modern macOS never uses subpixel antialiasing.
@@ -286,7 +284,7 @@
             <div class="controls">
                 <select id="language" name="language">
                     <option value="en">English</option>
-                    <option value="ja">Japanese</option>
+                    <option value="ja">Japanese (日本語)</option>
                     <option value="both">Both</option>
                 </select>
                 <select id="chapter" name="chapter">
@@ -324,7 +322,7 @@
                 <a href="DELTARUNE.txt" target="_blank">Plain text</a> (<a
                     href="DELTARUNE_ja.txt"
                     target="_blank"
-                    >JA</a
+                    >日本語</a
                 >)
                 <strong>·</strong>
                 <a href="https://forms.gle/cmXFH7HoadC9oMX36" target="_blank">Feedback</a>
