@@ -222,6 +222,11 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                             # Clipping into the next line of the same message is OK.
                             realheight = dims.height // 2
                             BONUS_HEIGHTS[lang, msgid] = realheight - 18
+                        alt = ALT_TEXTS[file].replace("\n", " ")
+                        # Various issues that would mess up search ranges
+                        assert alt == alt.strip()
+                        assert ">" not in alt
+                        assert not re.search(r"\s\s", alt)
                         # I tried shaking CSS. But it wasn't random and looked bad at
                         # half size and was annoying. Not worth the page bloat.
                         out.write(
@@ -231,7 +236,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                             f'<img src="{path}" loading="lazy"'
                             f' style="position:relative;top:{y / 2}px;'
                             f'left:{x / 2}px"'
-                            f' alt="{ALT_TEXTS[file].replace("\n", " ")}"'
+                            f' alt="{alt}"'
                             f' width="{dims.width / 2}" height="{dims.height / 2}"/>'
                             "</span>"
                         )

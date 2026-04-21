@@ -559,7 +559,13 @@
              *  }} GroupIndex
              *
              * @typedef {{
-             *      query: string;
+             *      type: 'init';
+             *      rawText: string;
+             *      index: GroupIndex;
+             *  }} SearchInit
+             * @typedef {{
+             *      type: 'query';
+             *      query: RegExp;
              *      config: Config;
              *      generation: number;
              *  }} SearchQuery
@@ -694,7 +700,8 @@
                 document.body.classList.add("msedge");
             }
 
-            const searchWorker = new Worker("search-worker.js");
+            /** @type {null | Worker} */
+            let searchWorker = null;
         </script>
         <div id="textboxes">
             <pre class="loading">    Loading...</pre>
@@ -1163,11 +1170,27 @@
             });
 
             function processSearchInput() {
-                if (searchGeneration === 0) {
-                    if (!searchBar.value) {
-                        return;
-                    }
-                    searchWorker.postMessage(rawText);
+                if (searchGeneration === 0 && !searchBar.value) {
+                    return;
+                }
+                if (!searchWorker) {
+                    searchWorker = new Worker("search-worker.js");
+                    /** @type {SearchInit} */
+                    const init = {
+                        type: "init",
+                        rawText: rawText,
+                        index: index,
+                    };
+                    searchWorker.postMessage(init);
+                    /** @param {MessageEvent<ResultList>} event */
+                    searchWorker.onmessage = function (event) {
+                        if (event.data.generation < searchGeneration) {
+                            return;
+                        }
+                        searchResults = event.data.results;
+                        renderSearchResults();
+                        renderSearchCounter();
+                    };
                 }
                 sessionStorage.setItem("dr-search-query", searchBar.value);
                 if (!searchBar.value) {
@@ -1185,8 +1208,9 @@
                 }
                 /** @type {SearchQuery} */
                 const query = {
+                    type: "query",
                     config: config,
-                    query: searchBar.value,
+                    query: compileQuery(searchBar.value),
                     generation: ++searchGeneration,
                 };
                 searchWorker.postMessage(query);
@@ -1196,15 +1220,29 @@
                 searchBar.value = sessionStorage.getItem("dr-search-query") || "";
             }
             processSearchInput();
-            /** @param {MessageEvent<ResultList>} event */
-            searchWorker.onmessage = function (event) {
-                if (event.data.generation < searchGeneration) {
-                    return;
+
+            /** @param {string} query */
+            function compileQuery(query) {
+                let rawPattern = "";
+                for (const char of query) {
+                    // RegExp.escape() is too modern.
+                    // AFAICT this is good enough for our purposes.
+                    if (".*+?^${}()|[]\\".includes(char)) {
+                        rawPattern += "\\" + char;
+                    } else if (char === "！") {
+                        rawPattern += "!";
+                    } else if (char === "？") {
+                        rawPattern += "?";
+                    } else if (char === "＊") {
+                        rawPattern += "*";
+                    } else if (/\s/.test(char)) {
+                        rawPattern += " ";
+                    } else {
+                        rawPattern += char;
+                    }
                 }
-                searchResults = event.data.results;
-                renderSearchResults();
-                renderSearchCounter();
-            };
+                return new RegExp(rawPattern, "ig");
+            }
 
             function renderSearchCounter() {
                 if (!searchResults) {
@@ -1375,15 +1413,36 @@
                     while (stack.length) {
                         const cur = stack[stack.length - 1];
                         if (cur instanceof Text) {
-                            if (!foundStart && pos + cur.textContent.length >= start) {
-                                range.setStart(cur, start - pos);
-                                foundStart = true;
+                            let isWhitespace = false;
+                            let elemPos = 0;
+                            for (const piece of cur.textContent.split(/(\s+)/)) {
+                                let realWidth, posWidth;
+                                if (isWhitespace) {
+                                    realWidth = piece.length;
+                                    posWidth = 1;
+                                } else {
+                                    realWidth = posWidth = piece.length;
+                                }
+                                if (!foundStart && pos + posWidth >= start) {
+                                    if (isWhitespace) {
+                                        range.setStart(cur, elemPos + realWidth);
+                                    } else {
+                                        range.setStart(cur, start - pos + elemPos);
+                                    }
+                                    foundStart = true;
+                                }
+                                if (foundStart && pos + posWidth >= end) {
+                                    if (isWhitespace) {
+                                        range.setEnd(cur, elemPos + realWidth);
+                                    } else {
+                                        range.setEnd(cur, end - pos + elemPos);
+                                    }
+                                    return range;
+                                }
+                                isWhitespace = !isWhitespace;
+                                pos += posWidth;
+                                elemPos += realWidth;
                             }
-                            if (foundStart && pos + cur.textContent.length >= end) {
-                                range.setEnd(cur, end - pos);
-                                return range;
-                            }
-                            pos += cur.textContent.length;
                         } else if (cur instanceof HTMLImageElement) {
                             if (!foundStart && pos + cur.alt.length >= start) {
                                 range.setStart(cur, 0);

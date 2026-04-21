@@ -12,7 +12,13 @@
  *  }} GroupIndex
  *
  * @typedef {{
- *      query: string;
+ *      type: 'init';
+ *      rawText: string;
+ *      index: GroupIndex;
+ *  }} SearchInit
+ * @typedef {{
+ *      type: 'query';
+ *      query: RegExp;
  *      config: Config;
  *      generation: number;
  *  }} SearchQuery
@@ -29,10 +35,11 @@
  *  }} ResultList
  */
 
-let rawText = "";
+/** @type {string} */
+let rawText;
 
-// @ts-ignore
-let index = /** @type {GroupIndex} */ (null);
+/** @type {GroupIndex} */
+let index;
 
 const MSG_SIZE = 21;
 
@@ -102,17 +109,14 @@ function jaFor(idx) {
 /** @type {string[]} */
 const munged = [];
 
-/** @param {string} text */
-function init(text) {
+/** @param {SearchInit} data */
+function init(data) {
     if (rawText || munged.length) {
         throw new Error("double init");
     }
 
-    rawText = text;
-
-    importScripts("groups.json.js");
-    // @ts-ignore
-    index = /** @type {GroupIndex} */ (groupIndex);
+    rawText = data.rawText;
+    index = data.index;
 
     /**
      * @param {string} text
@@ -126,7 +130,11 @@ function init(text) {
             .replace(/<[^>]*>/g, "")
             .replace(/&gt;/g, ">")
             .replace(/&lt;/g, "<")
-            .replace(/&amp;/g, "&");
+            .replace(/&amp;/g, "&")
+            .replace(/！/g, "!")
+            .replace(/？/g, "?")
+            .replace(/＊/g, "*")
+            .replace(/\s+/g, " ");
     }
 
     for (let msgIdx = 0; msgIdx < index.meta.count; msgIdx++) {
@@ -145,10 +153,10 @@ let currentGen = 0;
 /** @type {null | (() => void)} */
 let pending = null;
 
-/** @param {MessageEvent<SearchQuery | string>} event */
+/** @param {MessageEvent<SearchQuery | SearchInit>} event */
 onmessage = function (event) {
     const data = event.data;
-    if (typeof data === "string") {
+    if (data.type === "init") {
         init(data);
         return;
     }
@@ -180,26 +188,6 @@ function doSearch(query) {
         results: [],
     };
 
-    let rawPattern = "";
-    for (const char of query.query) {
-        // RegExp.escape() is too modern.
-        // AFAICT this is good enough for our purposes.
-        if (".*+?^${}()|[]\\".includes(char)) {
-            rawPattern += "\\" + char;
-        } else if (char === " ") {
-            rawPattern += "[ \n\u3000]+";
-        } else if ("!！".includes(char)) {
-            rawPattern += "[!！]";
-        } else if ("?？".includes(char)) {
-            rawPattern += "[?？]";
-        } else if ("*＊".includes(char)) {
-            rawPattern += "[*＊]";
-        } else {
-            rawPattern += char;
-        }
-    }
-    const pattern = new RegExp(rawPattern, "ig");
-
     for (const chap of /** @type {const} */ (["1", "2", "3", "4"])) {
         if (query.config.chap !== "all" && query.config.chap !== chap) {
             continue;
@@ -214,7 +202,7 @@ function doSearch(query) {
                 ) {
                     /** @type {Span[]} */
                     const spans = [];
-                    for (const match of munged[msgIdx * 2].matchAll(pattern)) {
+                    for (const match of munged[msgIdx * 2].matchAll(query.query)) {
                         spans.push([match.index, match.index + match[0].length]);
                     }
                     if (spans.length) {
@@ -232,7 +220,7 @@ function doSearch(query) {
                 ) {
                     /** @type {Span[]} */
                     const spans = [];
-                    for (const match of munged[msgIdx * 2 + 1].matchAll(pattern)) {
+                    for (const match of munged[msgIdx * 2 + 1].matchAll(query.query)) {
                         spans.push([match.index, match.index + match[0].length]);
                     }
                     if (spans.length) {
