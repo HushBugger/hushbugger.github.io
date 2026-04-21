@@ -14,15 +14,18 @@
             ICQEYNUEOLhIAatU4JTLKbC0z+B9+Srp3mPpFbkCUk6f81l58we5eSnJ4H/pCVYTQjf3
             DYm9AAAAAElFTkSuQmCC"
         />
+        <link rel="preload" as="script" href="groups.json.js" />
+        <link rel="preload" as="font" href="/style/8bitoperator-UTM.woff" crossorigin="anonymous" />
+        <link rel="prefetch" href="search-worker.js" />
         <style>
             @font-face {
                 font-family: "8bitoperator Undertale Mono";
-                src: url("../../style/8bitoperator-UTM.woff") format("woff");
+                src: url("/style/8bitoperator-UTM.woff") format("woff");
             }
 
             @font-face {
                 font-family: "JF Dot Shinonome 14 Regular";
-                src: url("../../style/JF-Dot-Shinonome-14-Regular.woff") format("woff");
+                src: url("/style/JF-Dot-Shinonome-14-Regular.woff") format("woff");
             }
 
             body {
@@ -710,22 +713,29 @@
             <p>This page requires JavaScript. Sorry :(</p>
             <p>Maybe try the <a href="DELTARUNE.txt">plain text</a> dump?</p>
         </noscript>
-        <script src="groups.json.js"></script>
         <script>
-            // @ts-check
             "use strict";
 
             const rawText = (function () {
                 // Synchronous XHR is deprecated but never ever getting removed.
                 // It's the only way to pull in flat text data during page load
-                // without parsing overhead.
-                // An async fetch would break anchor links.
+                // without parsing overhead. An async fetch breaks anchor links.
+                //
+                // Preloading synchronous XHR is not allowed. So we should do:
+                // - at most one synchronous XHR request
+                // - before loading any other blocking resources
+                // The placement above groups.json.js is important.
                 const req = new XMLHttpRequest();
                 req.overrideMimeType("text/plain; charset=UTF-8");
                 req.open("GET", "rendered.bin", false);
                 req.send();
                 return req.responseText;
             })();
+        </script>
+        <script src="groups.json.js"></script>
+        <script>
+            // @ts-check
+            "use strict";
 
             // @ts-ignore
             const index = /** @type {GroupIndex} */ (groupIndex);
