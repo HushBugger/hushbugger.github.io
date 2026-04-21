@@ -117,34 +117,57 @@ function init(data) {
 
     rawText = data.rawText;
     index = data.index;
+    munged.length = index.meta.count * 2;
+
+    if (pending) {
+        pending();
+        pending = null;
+    }
+}
+
+/** @param {'en' | 'ja'} lang */
+function preprocess(lang) {
+    const offset = lang === "en" ? 0 : 1;
+    if (munged[offset] !== undefined) {
+        return;
+    }
+
+    const replacements = new Map([
+        ["！", "!"],
+        ["？", "?"],
+        ["＊", "*"],
+        ["。", "."],
+        ["～", "~"],
+        ["：", ":"],
+        ["（", "("],
+        ["）", ")"],
+        ["&gt;", ">"],
+        ["&lt;", "<"],
+        ["&amp;", "&"],
+    ]);
 
     /**
      * @param {string} text
      * @return {string}
      */
     function munge(text) {
-        return text
-            .replace(/<[^>]*(?:alt="([^>"]*)")[^>]*>/g, function (_match, p1) {
-                return p1 || "";
-            })
-            .replace(/<[^>]*>/g, "")
-            .replace(/&gt;/g, ">")
-            .replace(/&lt;/g, "<")
-            .replace(/&amp;/g, "&")
-            .replace(/！/g, "!")
-            .replace(/？/g, "?")
-            .replace(/＊/g, "*")
-            .replace(/\s+/g, " ");
+        return text.replace(
+            /<[^>]*>|[ \n\u3000]{2,}|[\n\u3000]|&gt;|&lt;|&amp;|[！？＊。～：（）]/g,
+            function (match) {
+                if (match[0] === "<") {
+                    const altIdx = match.indexOf('alt="');
+                    if (altIdx !== -1) {
+                        return match.slice(altIdx + 5).split('"')[0];
+                    }
+                    return "";
+                }
+                return replacements.get(match) || " ";
+            }
+        );
     }
 
     for (let msgIdx = 0; msgIdx < index.meta.count; msgIdx++) {
-        munged.push(munge(enFor(msgIdx)));
-        munged.push(munge(jaFor(msgIdx)));
-    }
-
-    if (pending) {
-        pending();
-        pending = null;
+        munged[msgIdx * 2 + offset] = munge(offset ? jaFor(msgIdx) : enFor(msgIdx));
     }
 }
 
@@ -180,6 +203,13 @@ onmessage = function (event) {
 function doSearch(query) {
     if (query.generation < currentGen) {
         return;
+    }
+
+    if (query.config.lang !== "ja") {
+        preprocess("en");
+    }
+    if (query.config.lang !== "en") {
+        preprocess("ja");
     }
 
     /** @type {ResultList} */

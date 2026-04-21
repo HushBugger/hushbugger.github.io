@@ -227,6 +227,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                         assert alt == alt.strip()
                         assert ">" not in alt
                         assert not re.search(r"\s\s", alt)
+                        assert '"' not in alt
                         # I tried shaking CSS. But it wasn't random and looked bad at
                         # half size and was annoying. Not worth the page bloat.
                         out.write(

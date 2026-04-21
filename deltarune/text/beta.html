@@ -1234,21 +1234,28 @@
             /** @param {string} query */
             function compileQuery(query) {
                 let rawPattern = "";
+
+                const replacements = new Map([
+                    ["！", "!"],
+                    ["？", "?"],
+                    ["＊", "*"],
+                    ["。", "\\."],
+                    ["～", "~"],
+                    ["：", ":"],
+                    ["（", "("],
+                    ["）", ")"],
+                    // Mapping "…" to "..." gives offset headaches
+                ]);
+
                 for (const char of query) {
                     // RegExp.escape() is too modern.
                     // AFAICT this is good enough for our purposes.
                     if (".*+?^${}()|[]\\".includes(char)) {
                         rawPattern += "\\" + char;
-                    } else if (char === "！") {
-                        rawPattern += "!";
-                    } else if (char === "？") {
-                        rawPattern += "?";
-                    } else if (char === "＊") {
-                        rawPattern += "*";
                     } else if (/\s/.test(char)) {
                         rawPattern += " ";
                     } else {
-                        rawPattern += char;
+                        rawPattern += replacements.get(char) || char;
                     }
                 }
                 return new RegExp(rawPattern, "ig");
