@@ -1658,6 +1658,18 @@
                     }
                     searchBar.focus();
                     searchBar.select();
+                } else if (
+                    !control &&
+                    !event.altKey &&
+                    event.key === "/" &&
+                    !(event.target instanceof HTMLInputElement) &&
+                    !(event.target instanceof HTMLSelectElement)
+                ) {
+                    // Shortcut in Firefox, not in Chromium
+                    event.preventDefault();
+                    setSearchHidden(false);
+                    searchBar.focus();
+                    searchBar.select();
                 }
             });
 
