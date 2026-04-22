@@ -1623,6 +1623,9 @@
             }
 
             searchBar.addEventListener("keydown", function (event) {
+                if (event.isComposing || event.defaultPrevented) {
+                    return;
+                }
                 if (event.key === "Enter") {
                     event.preventDefault();
                     findNext(event.shiftKey);
@@ -1630,6 +1633,9 @@
             });
 
             document.addEventListener("keydown", function (event) {
+                if (event.isComposing || event.defaultPrevented) {
+                    return;
+                }
                 const control = event.ctrlKey || event.metaKey;
                 if (!control && event.key === "Escape") {
                     // In Firefox Ctrl+Esc toggles highlight
@@ -1637,12 +1643,12 @@
                     event.preventDefault();
                     searchBar.blur();
                     setSearchHidden("very");
-                } else if (!event.altKey && control && event.code === "KeyG") {
+                } else if (!event.altKey && control && (event.key === "g" || event.key === "G")) {
                     event.preventDefault();
                     searchBar.focus();
                     searchBar.select();
                     findNext(event.shiftKey);
-                } else if (!event.altKey && !event.shiftKey && control && event.code === "KeyF") {
+                } else if (!event.altKey && control && event.key === "f") {
                     event.preventDefault();
                     setSearchHidden(false);
                     const selection = window.getSelection();
