@@ -727,9 +727,7 @@ def dumpbin():
                 midx += 1
             groups[chap][group] = [startmidx, len(rendered[chap][group]), *heights]
 
-    headerbuf = io.StringIO()
-
-    def writenum(num: int, width: int):
+    def writenum(dst: io.TextIOBase, num: int, width: int):
         # Encode offsets as 7-bit digits (i.e. ASCII), little-endian.
         # Heights and lengths are instead encoded as UTF-8. They're
         # usually but not always <128 so this is a nice variable-width
@@ -747,34 +745,37 @@ def dumpbin():
         #   for convoluted browser reasons
         if width == 1:
             assert num < 0xD800
-            headerbuf.write(chr(num))
+            dst.write(chr(num))
         else:
             for _ in range(width):
-                headerbuf.write(chr(num % 128))
+                dst.write(chr(num % 128))
                 num //= 128
             assert not num
 
+    hmsgbuf = io.StringIO()
+    hsrcbuf = io.StringIO()
+
     for msginfo in msgs:
-        writenum(msginfo.msgid[0], 3)
-        writenum(msginfo.msgid[1], 1)
-        writenum(msginfo.en[0], 3)
-        writenum(msginfo.en[1], 1)
-        writenum(msginfo.ja[0], 3)
-        writenum(msginfo.ja[1], 1)
-        writenum(msginfo.source[0], 3)
-        writenum(msginfo.source[1], 1)
-        writenum(msginfo.dup, 1)
-        writenum(msginfo.nh_en, 1)
-        writenum(msginfo.wh_en, 1)
-        writenum(msginfo.nh_ja, 1)
-        writenum(msginfo.wh_ja, 1)
+        writenum(hmsgbuf, msginfo.msgid[0], 3)
+        writenum(hmsgbuf, msginfo.msgid[1], 1)
+        writenum(hmsgbuf, msginfo.en[0], 3)
+        writenum(hmsgbuf, msginfo.en[1], 1)
+        writenum(hmsgbuf, msginfo.ja[0], 3)
+        writenum(hmsgbuf, msginfo.ja[1], 1)
+        writenum(hmsgbuf, msginfo.dup, 1)
+        writenum(hmsgbuf, msginfo.nh_en, 1)
+        writenum(hmsgbuf, msginfo.wh_en, 1)
+        writenum(hmsgbuf, msginfo.nh_ja, 1)
+        writenum(hmsgbuf, msginfo.wh_ja, 1)
+        writenum(hsrcbuf, msginfo.source[0], 3)
+        writenum(hsrcbuf, msginfo.source[1], 1)
 
     msgidbuf.check(3, 1)
     enbuf.check(3, 2)
     jabuf.check(3, 2)
     sourcebuf.check(3, 1)
 
-    bindata = headerbuf.getvalue()
+    bindata = hmsgbuf.getvalue()
     msgiddata = msgidbuf.get()
     endata = enbuf.get()
     jadata = jabuf.get()
@@ -800,7 +801,12 @@ def dumpbin():
         f.write(as_json.replace("\\", "\\\\").replace("'", "\\'"))
         f.write("');")
 
-    # TODO: split en and ja?
+    # As of writing, metadata and English text and Japanese text are
+    # each ~500KB after gzip compression.
+    # We could save bandwidth by splitting these into separate
+    # files and fetching selectively. But this would convolute the
+    # code and might degrade the experience a little.
+
     with open("rendered.bin", "w", encoding="utf8") as f:
         f.write(bindata)
         f.write(msgiddata)
@@ -808,6 +814,7 @@ def dumpbin():
         f.write(jadata)
 
     with open("sourcemap.bin", "w", encoding="utf8") as f:
+        f.write(hsrcbuf.getvalue())
         f.write(sourcebuf.get())
 
 

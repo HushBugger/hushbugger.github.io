@@ -41,7 +41,7 @@ let rawText;
 /** @type {GroupIndex} */
 let index;
 
-const MSG_SIZE = 21;
+const MSG_SIZE = 17;
 
 let curMsgOffset = 0;
 
@@ -80,8 +80,6 @@ const enOffFor = mkExtractor(3);
 const enLenFor = mkExtractor(1);
 const jaOffFor = mkExtractor(3);
 const jaLenFor = mkExtractor(1);
-const sourceOffFor = mkExtractor(3);
-const sourceLenFor = mkExtractor(1);
 const dupFor = mkExtractor(1);
 const nhenFor = mkExtractor(1);
 const whenFor = mkExtractor(1);
