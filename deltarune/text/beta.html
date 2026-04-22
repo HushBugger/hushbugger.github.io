@@ -466,15 +466,19 @@
 
             #searchresults section *::highlight(search-highlight),
             body:not(.hidesearch) #textboxes section *::highlight(text-highlight) {
-                background-color: yellow;
+                background-color: var(--highlight-color, yellow);
                 color: black;
             }
 
-            #searchresults section .focused::highlight(search-highlight),
-            body:not(.hidesearch) #textboxes section .jumped::highlight(text-highlight),
-            #searchresults section .focused *::highlight(search-highlight),
-            body:not(.hidesearch) #textboxes section .jumped *::highlight(text-highlight) {
-                background-color: orange;
+            .jumped, .focused {
+                --highlight-color: orange;
+            }
+
+            body:not(.hidesearch) img.highlit {
+                filter: drop-shadow(1.5px 1.5px var(--highlight-color, yellow))
+                    drop-shadow(1.5px -1.5px var(--highlight-color, yellow))
+                    drop-shadow(-1.5px 1.5px var(--highlight-color, yellow))
+                    drop-shadow(-1.5px -1.5px var(--highlight-color, yellow));
             }
         </style>
     </head>
@@ -1031,6 +1035,9 @@
             }
 
             function refreshTextHighlights() {
+                for (const img of document.querySelectorAll("#textboxes img.highlit")) {
+                    img.classList.remove("highlit");
+                }
                 for (const section of document.querySelectorAll("#textboxes section")) {
                     if (section instanceof HTMLElement) {
                         buildRangesForText(section);
@@ -1214,6 +1221,9 @@
                     activeSearchSections.clear();
                     activeTextSections.clear();
                     CSS.highlights.clear();
+                    for (const img of document.querySelectorAll("img.highlit")) {
+                        img.classList.remove("highlit");
+                    }
                     searchPrev.disabled = true;
                     searchNext.disabled = true;
                     searchGeneration++;
@@ -1464,6 +1474,7 @@
                                 elemPos += realWidth;
                             }
                         } else if (cur instanceof HTMLImageElement) {
+                            cur.classList.add("highlit");
                             if (!foundStart && pos + cur.alt.length >= start) {
                                 range.setStart(cur, 0);
                                 foundStart = true;
