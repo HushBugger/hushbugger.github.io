@@ -1480,10 +1480,12 @@
                                 elemPos += realWidth;
                             }
                         } else if (cur instanceof HTMLImageElement) {
-                            cur.classList.add("highlit");
                             if (!foundStart && pos + cur.alt.length >= start) {
                                 range.setStart(cur, 0);
                                 foundStart = true;
+                            }
+                            if (pos + cur.alt.length > start) {
+                                cur.classList.add("highlit");
                             }
                             if (foundStart && pos + cur.alt.length >= end) {
                                 range.setEnd(cur, 0);
