@@ -49,8 +49,7 @@
                  * Tested on Windows 11 using Gecko & Blink. (Poorly configured ClearType blurs in Blink.)
                  * Apparently modern macOS never uses subpixel antialiasing.
                  */
-                /* TODO: with position:fixed this flickers on Chromium. url(#crispify) workaround? */
-                --pixel-blend-mode: difference;
+                mix-blend-mode: difference;
 
                 background: black;
                 color: white;
@@ -77,11 +76,11 @@
             body.light {
                 --background-color: white;
                 --foreground-color: #2c1708;
-                --pixel-blend-mode: multiply;
+                mix-blend-mode: multiply;
             }
 
             body.msedge {
-                --pixel-blend-mode: normal;
+                mix-blend-mode: initial;
             }
 
             #logo {
@@ -102,11 +101,6 @@
 
             body.light #intro a {
                 color: var(--background-color);
-            }
-
-            #textboxes,
-            #searchresults {
-                mix-blend-mode: var(--pixel-blend-mode);
             }
 
             #controls {
