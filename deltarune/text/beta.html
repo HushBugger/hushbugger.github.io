@@ -84,11 +84,20 @@
                 --pixel-blend-mode: normal;
             }
 
+            #logo {
+                padding: 10px;
+                padding-bottom: 11px;
+                display: block;
+            }
+
+            body.light #logo {
+                filter: grayscale(1) invert(1);
+            }
+
             #intro {
                 background: var(--foreground-color);
                 color: var(--background-color);
                 padding: 0.4em;
-                padding-top: 96px;
             }
 
             body.light #intro a {
@@ -470,7 +479,8 @@
                 color: black;
             }
 
-            .jumped, .focused {
+            .jumped,
+            .focused {
                 --highlight-color: orange;
             }
 
@@ -484,6 +494,7 @@
     </head>
 
     <body>
+        <img id="logo" src="logo.svg" width="280" height="76" alt="deltarune text dump" />
         <div id="controls">
             <div class="row">
                 <select id="language" name="language" aria-label="Language">

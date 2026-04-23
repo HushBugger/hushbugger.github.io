@@ -16,7 +16,11 @@ Issues and pull requests are welcome!
 
 `JF-Dot-Shinonome-14-Regular.woff` was downloaded from http://jikasei.me/font/jf-dotfont/ (`JF-Dot-Shinonome14.ttf`) and converted to WOFF with FontForge.
 
+Logo based on the vectorization at https://commons.wikimedia.org/wiki/File:Deltarune_vector_logo.svg.
+
 I took inspiration and information from the [compendium](https://inactivesnail.neocities.org/utdr-dialogue) and the [text project](https://afewbitsandpieces.tumblr.com/post/726407420343205888/deltarune-text-project-update-3).
+
+Game data extracted using [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool).
 
 SVG icons from https://commons.wikimedia.org/wiki/Category:Bootstrap_Icons.
 
