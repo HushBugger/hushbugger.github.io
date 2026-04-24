@@ -46825,7 +46825,7 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_1221_0": {
 "en": [
-"* You have one month.\n  \n         - C",
+"* You have one month.\n \n           - C",
 false,
 64,
 64
@@ -68071,7 +68071,7 @@ false,
 },
 "scr_text_slash_scr_text_gml_43_0": {
 "en": [
-"* I'll ask if you're sure!\n \nNot yet     Yes. Ask.",
+"* I'll ask if you're sure!\n \n  Not yet     Yes. Ask.",
 false,
 64,
 64
@@ -68127,7 +68127,7 @@ false,
 },
 "scr_text_slash_scr_text_gml_61_0": {
 "en": [
-"* Do you wanna be partners?\nNot yet     Yes",
+"* Do you wanna be partners?\n  Not yet     Yes",
 false,
 46,
 46
@@ -68225,7 +68225,7 @@ false,
 },
 "scr_text_slash_scr_text_gml_82_0": {
 "en": [
-"* How's that sound?\n \nGood        Bad",
+"* How's that sound?\n \n  Good        Bad",
 false,
 64,
 64
@@ -179117,7 +179117,7 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_1046_0": {
 "en": [
-"* You have one month.\n  \n         - C",
+"* You have one month.\n \n           - C",
 false,
 64,
 64
@@ -188101,7 +188101,7 @@ false,
 },
 "obj_shop_ch2_spamton_slash_Draw_0_gml_274_0": {
 "en": [
-"* HEY EVERY       !\n* IT'S ME, SPAMTON G.\n  \nSPAMTON!",
+"* HEY EVERY       !\n* IT'S ME, SPAMTON G.\n \n  SPAMTON!",
 false,
 82,
 82
@@ -222993,7 +222993,7 @@ false,
 },
 "scr_text_slash_scr_text_gml_44_0": {
 "en": [
-"* I'll ask if you're sure!\n \nNot yet     Yes. Ask.",
+"* I'll ask if you're sure!\n \n  Not yet     Yes. Ask.",
 false,
 64,
 64
@@ -223049,7 +223049,7 @@ false,
 },
 "scr_text_slash_scr_text_gml_62_0": {
 "en": [
-"* Do you wanna be partners?\nNot yet     Yes",
+"* Do you wanna be partners?\n  Not yet     Yes",
 false,
 46,
 46
@@ -223147,7 +223147,7 @@ false,
 },
 "scr_text_slash_scr_text_gml_83_0": {
 "en": [
-"* How's that sound?\n \nGood        Bad",
+"* How's that sound?\n \n  Good        Bad",
 false,
 64,
 64
@@ -295465,7 +295465,7 @@ false,
 },
 "obj_ch3_gachaunknown_slash_Step_0_gml_85_0": {
 "en": [
-"* You couldn't find\n  \nyour hand.",
+"* You couldn't find\n\n  your hand.",
 false,
 64,
 64
@@ -342071,7 +342071,7 @@ true,
 },
 "obj_readable_room1_slash_Other_10_gml_1046_0": {
 "en": [
-"* You have one month.\n  \n         - C",
+"* You have one month.\n \n           - C",
 true,
 64,
 64
@@ -400295,7 +400295,7 @@ true,
 },
 "scr_text_slash_scr_text_gml_44_0": {
 "en": [
-"* I'll ask if you're sure!\n \nNot yet     Yes. Ask.",
+"* I'll ask if you're sure!\n \n  Not yet     Yes. Ask.",
 true,
 64,
 64
@@ -400351,7 +400351,7 @@ true,
 },
 "scr_text_slash_scr_text_gml_62_0": {
 "en": [
-"* Do you wanna be partners?\nNot yet     Yes",
+"* Do you wanna be partners?\n  Not yet     Yes",
 true,
 46,
 46
@@ -400449,7 +400449,7 @@ true,
 },
 "scr_text_slash_scr_text_gml_83_0": {
 "en": [
-"* How's that sound?\n \nGood        Bad",
+"* How's that sound?\n \n  Good        Bad",
 true,
 64,
 64
@@ -550579,7 +550579,7 @@ true,
 },
 "obj_readable_room1_slash_Other_10_gml_1046_0": {
 "en": [
-"* You have one month.\n  \n         - C",
+"* You have one month.\n \n           - C",
 true,
 64,
 64
@@ -605695,7 +605695,7 @@ true,
 },
 "scr_text_slash_scr_text_gml_44_0": {
 "en": [
-"* I'll ask if you're sure!\n \nNot yet     Yes. Ask.",
+"* I'll ask if you're sure!\n \n  Not yet     Yes. Ask.",
 true,
 64,
 64
@@ -605751,7 +605751,7 @@ true,
 },
 "scr_text_slash_scr_text_gml_62_0": {
 "en": [
-"* Do you wanna be partners?\nNot yet     Yes",
+"* Do you wanna be partners?\n  Not yet     Yes",
 true,
 46,
 46
@@ -605849,7 +605849,7 @@ true,
 },
 "scr_text_slash_scr_text_gml_83_0": {
 "en": [
-"* How's that sound?\n \nGood        Bad",
+"* How's that sound?\n \n  Good        Bad",
 true,
 64,
 64

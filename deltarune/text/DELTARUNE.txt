@@ -8110,8 +8110,8 @@ obj_readable_room1
 * Start selling them.
 
 * You have one month.
-  
-         - C
+ 
+           - C
 
 * (It's an air mattress.)
 * (It's certainly not king-sized...)
@@ -11823,7 +11823,7 @@ No
 
 * I'll ask if you're sure!
  
-Not yet     Yes. Ask.
+  Not yet     Yes. Ask.
 
 * OK, I'll ask!
 
@@ -11833,7 +11833,7 @@ Not yet     Yes. Ask.
 * Yeah, I'm sure there's someone else you can ask!
 
 * Do you wanna be partners?
-Not yet     Yes
+  Not yet     Yes
 
 * OK, I'll ask!
 
@@ -11854,7 +11854,7 @@ Not yet     Yes
 
 * How's that sound?
  
-Good        Bad
+  Good        Bad
 
 
 Yes
@@ -27901,8 +27901,8 @@ obj_readable_room1
 * Start selling them.
 
 * You have one month.
-  
-         - C
+ 
+           - C
 
 * (It's an air mattress.)
 * (It's certainly not king-sized...)
@@ -29239,8 +29239,8 @@ BSHOT BOWTIE
 
 * HEY EVERY       !
 * IT'S ME, SPAMTON G.
-  
-SPAMTON!
+ 
+  SPAMTON!
 
 BUY
 
@@ -34214,7 +34214,7 @@ No
 
 * I'll ask if you're sure!
  
-Not yet     Yes. Ask.
+  Not yet     Yes. Ask.
 
 * OK, I'll ask!
 
@@ -34224,7 +34224,7 @@ Not yet     Yes. Ask.
 * Yeah, I'm sure there's someone else you can ask!
 
 * Do you wanna be partners?
-Not yet     Yes
+  Not yet     Yes
 
 * OK, I'll ask!
 
@@ -34245,7 +34245,7 @@ Not yet     Yes
 
 * How's that sound?
  
-Good        Bad
+  Good        Bad
 
 
 Yes
@@ -45312,8 +45312,8 @@ obj_ch3_gachaunknown
 * And you couldn't find it anymore.
 
 * You couldn't find
-  
-your hand.
+
+  your hand.
 
 
 =========================

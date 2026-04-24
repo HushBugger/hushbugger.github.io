@@ -413,13 +413,16 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
     if color != "W":
         out.write("</span>")
     rendered = out.getvalue()
-    if (
-        lang == "en"
-        and rendered.startswith("* ")
-        and "\n" in rendered
-        and r"\C" not in text
-    ):
-        rendered = re.sub(r"\n {0,2}([^*])", "\n  \\1", rendered)
+
+    # Often the game auto-reindents after a line break. Not always.
+    if lang == "en" and rendered.startswith("* ") and "\n" in rendered:
+        rendered = re.sub(r"\n {0,2}( *[^*\n ])", "\n  \\1", rendered)
+    if msgid in [
+        "obj_readable_room1_slash_Other_10_gml_1046_0",
+        "obj_readable_room1_slash_Other_10_gml_1221_0",
+    ]:
+        rendered = rendered.replace("- C", "  - C")
+
     rendered = rendered.rstrip("\n \u3000")
     return rendered or " "
 
