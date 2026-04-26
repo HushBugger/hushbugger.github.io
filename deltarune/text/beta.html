@@ -1034,7 +1034,7 @@
                     chunk * CHUNK_SIZE + CHUNK_SIZE,
                     function (idx, kind, chap) {
                         const msgid = msgidFor(idx);
-                        if (kind == 4) {
+                        if (kind === 4) {
                             const id = msgid ? `${chap}_${msgid}` : chap;
                             newHTML += `<h1 id="${id}" data-idx="${idx}"><a href="#${id}">${enFor(idx)}</a></h1>`;
                         }
@@ -1357,7 +1357,7 @@
                     section.style.setProperty("--wide-height", `${wideHeight}px`);
                     section.dataset.index = String(pos / CHUNK_SIZE);
                     searchResultsDiv.appendChild(section);
-                    if (pos == 0) {
+                    if (pos === 0) {
                         // Avoid observer flicker for cheap common case
                         fillSearchSection(section);
                     } else {
