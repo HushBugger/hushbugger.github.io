@@ -10665,13 +10665,6 @@ Control
 Alt
 
 
-===========
-scr_asgface
-===========
-
-  1
-
-
 =============
 scr_asterskip
 =============
@@ -11098,22 +11091,6 @@ You have collected 1.
 ShadowCrystal
 
 
-============
-scr_kingface
-============
-
-  1
-
-  1
-
-
-===========
-scr_lanface
-===========
-
-  1
-
-
 =============
 scr_litemdesc
 =============
@@ -11537,13 +11514,6 @@ Heals
 everyone
 
 
-===========
-scr_noeface
-===========
-
-  1
-
-
 =============
 scr_phonename
 =============
@@ -11553,13 +11523,6 @@ Call Home
 Sans's Number
 
 Not Sans's Number
-
-
-===========
-scr_ralface
-===========
-
-  1
 
 
 ============
@@ -11601,20 +11564,6 @@ Card Castle - 5F
 Card Castle - Throne
 
 Card Castle - ???
-
-
-===========
-scr_rudface
-===========
-
-  1
-
-
-=============
-scr_rurusface
-=============
-
-  1
 
 
 =============
@@ -11770,13 +11719,6 @@ scr_spelltext
 * ~1 used the FAV SANDWICH!
 
 * ~1 used the ROULXS ROUX!
-
-
-===========
-scr_susface
-===========
-
-  1
 
 
 ============
@@ -14625,13 +14567,6 @@ No
 * (You received an Egg.)
 
 * (Then he needn't be here.)
-
-
-===========
-scr_torface
-===========
-
-  1
 
 
 ==============
@@ -31598,25 +31533,6 @@ scr_84_load_ini
 ===============
 
 [EMPTY]
-
-
-===========
-scr_anyface
-===========
-
-  1
-
-  1
-
-  1
-
-  1
-
-  1
-
-  1
-
-  1
 
 
 =============

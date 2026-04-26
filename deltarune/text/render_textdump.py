@@ -276,6 +276,9 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                         print(ch)
                         print(text)
                         sys.exit(1)
+                if text[i + 2] == "~":
+                    # e.g. "\F~1". 
+                    i += 1
                 i += 2
             case "/" if msgid == "obj_dw_churchb_rotatingtower_slash_Create_0_gml_90_0":
                 # Postfixed with "j" ("/%j"). Probably a typo.

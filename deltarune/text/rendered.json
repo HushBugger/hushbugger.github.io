@@ -61558,22 +61558,6 @@ false,
 ]
 }
 },
-"scr_asgface": {
-"scr_asgface_slash_scr_asgface_gml_1_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-}
-},
 "scr_asterskip": {
 "scr_asterskip_slash_scr_asterskip_gml_4_0": {
 "en": [
@@ -63870,52 +63854,6 @@ false,
 ],
 "ja": [
 "シャドウジェム",
-false,
-28,
-28
-]
-}
-},
-"scr_kingface": {
-"scr_kingface_slash_scr_kingface_gml_3_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-},
-"scr_kingface_slash_scr_kingface_gml_7_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-}
-},
-"scr_lanface": {
-"scr_lanface_slash_scr_lanface_gml_1_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
 false,
 28,
 28
@@ -66592,22 +66530,6 @@ false,
 ]
 }
 },
-"scr_noeface": {
-"scr_noeface_slash_scr_noeface_gml_1_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-}
-},
 "scr_phonename": {
 "scr_phonename_slash_scr_phonename_gml_17_0": {
 "en": [
@@ -66646,22 +66568,6 @@ false,
 ],
 "ja": [
 "サンズじゃない",
-false,
-28,
-28
-]
-}
-},
-"scr_ralface": {
-"scr_ralface_slash_scr_ralface_gml_1_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
 false,
 28,
 28
@@ -66916,38 +66822,6 @@ false,
 ],
 "ja": [
 "カルタス城 - ？？？",
-false,
-28,
-28
-]
-}
-},
-"scr_rudface": {
-"scr_rudface_slash_scr_rudface_gml_1_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-}
-},
-"scr_rurusface": {
-"scr_rurusface_slash_scr_rurusface_gml_1_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
 false,
 28,
 28
@@ -67851,22 +67725,6 @@ false,
 false,
 46,
 46
-]
-}
-},
-"scr_susface": {
-"scr_susface_slash_scr_susface_gml_1_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
 ]
 }
 },
@@ -85105,22 +84963,6 @@ false,
 false,
 46,
 46
-]
-}
-},
-"scr_torface": {
-"scr_torface_slash_scr_torface_gml_1_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
 ]
 }
 },
@@ -203876,106 +203718,6 @@ true,
 ]
 }
 },
-"scr_anyface": {
-"scr_anyface_slash_scr_anyface_gml_23_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_24_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_27_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_28_0_b": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_28_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_29_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_30_0": {
-"en": [
-"  1",
-false,
-28,
-28
-],
-"ja": [
-"  1",
-false,
-28,
-28
-]
-}
-},
 "scr_armorinfo": {
 "scr_armorinfo_slash_scr_armorinfo_gml_8_0": {
 "en": [
@@ -206256,22 +205998,6 @@ true,
 ],
 "ja": [
 "Alt",
-true,
-28,
-28
-]
-}
-},
-"scr_asgface": {
-"scr_asgface_slash_scr_asgface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
 true,
 28,
 28
@@ -212161,52 +211887,6 @@ false,
 "ja": [
 "とあるネコの力で　闇の要素が浄化されている",
 false,
-28,
-28
-]
-}
-},
-"scr_kingface": {
-"scr_kingface_slash_scr_kingface_gml_3_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_kingface_slash_scr_kingface_gml_7_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
-"scr_lanface": {
-"scr_lanface_slash_scr_lanface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
 28,
 28
 ]
@@ -219098,22 +218778,6 @@ true,
 ]
 }
 },
-"scr_noeface": {
-"scr_noeface_slash_scr_noeface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
 "scr_phonename": {
 "scr_phonename_slash_scr_phonename_gml_17_0": {
 "en": [
@@ -219167,22 +218831,6 @@ false,
 "ja": [
 "サンズじゃない",
 false,
-28,
-28
-]
-}
-},
-"scr_ralface": {
-"scr_ralface_slash_scr_ralface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
 28,
 28
 ]
@@ -221154,38 +220802,6 @@ false,
 ]
 }
 },
-"scr_rudface": {
-"scr_rudface_slash_scr_rudface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
-"scr_rurusface": {
-"scr_rurusface_slash_scr_rurusface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
 "scr_shopmenu": {
 "scr_shopmenu_slash_scr_shopmenu_gml_158_0": {
 "en": [
@@ -222759,22 +222375,6 @@ false,
 false,
 46,
 46
-]
-}
-},
-"scr_susface": {
-"scr_susface_slash_scr_susface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
 ]
 }
 },
@@ -257583,22 +257183,6 @@ false,
 true,
 64,
 64
-]
-}
-},
-"scr_torface": {
-"scr_torface_slash_scr_torface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
 ]
 }
 },
@@ -372826,106 +372410,6 @@ true,
 ]
 }
 },
-"scr_anyface": {
-"scr_anyface_slash_scr_anyface_gml_23_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_24_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_27_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_28_0_b": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_28_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_29_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_30_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
 "scr_armorinfo": {
 "scr_armorinfo_slash_scr_armorinfo_gml_8_0": {
 "en": [
@@ -375920,22 +375404,6 @@ true,
 ],
 "ja": [
 "Alt",
-true,
-28,
-28
-]
-}
-},
-"scr_asgface": {
-"scr_asgface_slash_scr_asgface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
 true,
 28,
 28
@@ -383457,52 +382925,6 @@ false,
 "ja": [
 "ランサーのコントローラー。土まみれ。",
 false,
-28,
-28
-]
-}
-},
-"scr_kingface": {
-"scr_kingface_slash_scr_kingface_gml_3_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_kingface_slash_scr_kingface_gml_7_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
-"scr_lanface": {
-"scr_lanface_slash_scr_lanface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
 28,
 28
 ]
@@ -391948,22 +391370,6 @@ false,
 ]
 }
 },
-"scr_noeface": {
-"scr_noeface_slash_scr_noeface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
 "scr_parallel_convo": {
 "scr_parallel_convo_slash_scr_parallel_convo_gml_13_0": {
 "en": [
@@ -394779,22 +394185,6 @@ false,
 "ja": [
 "No, select two.",
 false,
-28,
-28
-]
-}
-},
-"scr_ralface": {
-"scr_ralface_slash_scr_ralface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
 28,
 28
 ]
@@ -397932,38 +397322,6 @@ false,
 ]
 }
 },
-"scr_rudface": {
-"scr_rudface_slash_scr_rudface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
-"scr_rurusface": {
-"scr_rurusface_slash_scr_rurusface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
 "scr_shop_vending": {
 "scr_shop_vending_slash_scr_shop_vending_gml_43_0": {
 "en": [
@@ -399779,22 +399137,6 @@ false,
 true,
 46,
 46
-]
-}
-},
-"scr_susface": {
-"scr_susface_slash_scr_susface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
 ]
 }
 },
@@ -440555,22 +439897,6 @@ false,
 false,
 64,
 64
-]
-}
-},
-"scr_torface": {
-"scr_torface_slash_scr_torface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
 ]
 }
 },
@@ -577306,106 +576632,6 @@ true,
 ]
 }
 },
-"scr_anyface": {
-"scr_anyface_slash_scr_anyface_gml_23_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_24_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_27_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_28_0_b": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_28_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_29_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_anyface_slash_scr_anyface_gml_30_0": {
-"en": [
-null,
-false,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
 "scr_armorinfo": {
 "scr_armorinfo_slash_scr_armorinfo_gml_8_0": {
 "en": [
@@ -580778,22 +580004,6 @@ true,
 ],
 "ja": [
 "Alt",
-true,
-28,
-28
-]
-}
-},
-"scr_asgface": {
-"scr_asgface_slash_scr_asgface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
 true,
 28,
 28
@@ -588653,52 +587863,6 @@ false,
 false,
 46,
 46
-]
-}
-},
-"scr_kingface": {
-"scr_kingface_slash_scr_kingface_gml_3_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-},
-"scr_kingface_slash_scr_kingface_gml_7_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
-"scr_lanface": {
-"scr_lanface_slash_scr_lanface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
 ]
 }
 },
@@ -598458,22 +597622,6 @@ true,
 ]
 }
 },
-"scr_noeface": {
-"scr_noeface_slash_scr_noeface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
 "scr_phonename": {
 "scr_phonename_slash_scr_phonename_gml_17_0": {
 "en": [
@@ -599258,22 +598406,6 @@ true,
 ],
 "ja": [
 "No, select two.",
-true,
-28,
-28
-]
-}
-},
-"scr_ralface": {
-"scr_ralface_slash_scr_ralface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
 true,
 28,
 28
@@ -603392,38 +602524,6 @@ true,
 ]
 }
 },
-"scr_rudface": {
-"scr_rudface_slash_scr_rudface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
-"scr_rurusface": {
-"scr_rurusface_slash_scr_rurusface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
-]
-}
-},
 "scr_shop_vending": {
 "scr_shop_vending_slash_scr_shop_vending_gml_43_0_b": {
 "en": [
@@ -605461,22 +604561,6 @@ true,
 true,
 46,
 46
-]
-}
-},
-"scr_susface": {
-"scr_susface_slash_scr_susface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
 ]
 }
 },
@@ -650589,22 +649673,6 @@ true,
 true,
 64,
 64
-]
-}
-},
-"scr_torface": {
-"scr_torface_slash_scr_torface_gml_1_0": {
-"en": [
-"  1",
-true,
-28,
-28
-],
-"ja": [
-"  1",
-true,
-28,
-28
 ]
 }
 },
