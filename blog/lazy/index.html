@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="../favicon.png" />
+        <title>Pixel-perfect lazy layout</title>
+        <meta
+            name="description"
+            content="content-visibility fixes load times but breaks other things. I fix it, then fix it better."
+        />
+        <style>
+            blockquote {
+                border-left: 2px #999 solid;
+                padding-left: 1em;
+                color: #444;
+            }
+
+            pre {
+                margin-left: 40px;
+                text-wrap: wrap;
+            }
+
+            p,
+            img,
+            li {
+                margin-top: 1em;
+                margin-bottom: 1em;
+            }
+
+            img {
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
+
+            @media (-webkit-device-pixel-ratio >= 2) {
+                .crisp {
+                    image-rendering: crisp-edges;
+                }
+            }
+
+            .transparent {
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Pixel-perfect lazy layout</h1>
+        <a href="../">&larr;</a> <em>2026-04-26</em>
+        <p>
+            I maintain a <a href="https://hushbugger.github.io/deltarune/text/">web page</a> with
+            over a megabyte of text. (Specifically, most of the in-game text of the video game
+            <em>Deltarune</em>.) It's important that all the text is on one page: the usual mode of
+            interaction is to press Ctrl+F for page search, look up some phrase you remembered, then
+            either look up something else or scroll down and relive the good memories.
+        </p>
+        <img
+            class="crisp"
+            src="example.png"
+            width="470"
+            height="57"
+            alt="Game text in a pixel font with occasional colors."
+        />
+        <p>
+            Unfortunately browsers find it difficult to have that much text on one page. On my own
+            machines it's just kind of slow, but my users have horror stories of the page taking
+            half a minute to load, or crashing, or even rebooting their whole system.
+        </p>
+        <p>
+            The page isn't doing anything crazy. It's 30,000 messages (each an individually linkable
+            <code>&lt;div&gt;</code>) laid out flat with headers and some light styling. But this is
+            apparently too heavy and I need headroom to get more elaborate later.
+        </p>
+        <p>
+            Chromium's profiler with CPU throttling set to "Low-tier mobile" says loading the page
+            takes 14 seconds, and that 6 of those 14 seconds are spent on "Layout". So let's start
+            there.
+        </p>
+        <img
+            src="before.png"
+            width="712"
+            height="335"
+            alt="A screenshot of the profiler. Layout is three times bigger than any of the other tasks."
+        />
+        <p>
+            Each element has a certain amount of text broken into lines depending on the screen
+            width. The text and the styles decides the size of the element, which affects its own
+            position on the page and that of all the elements after it.
+        </p>
+        <img
+            class="crisp"
+            src="layout.png"
+            width="349"
+            height="93"
+            alt="The same text as before but wrapped with a dev tools layout overlay."
+        />
+        <p>
+            This has to be calculated upfront to make scrolling work: if the user clicks the
+            scrollbar and drags it halfway down the page, what exactly should come into view?
+        </p>
+        <p>This needs to be less expensive.</p>
+
+        <h2>Step 1: Just add some CSS</h2>
+        <p>
+            Applying
+            <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/content-visibility"
+                ><code>content-visibility: auto</code></a
+            >
+            to an HTML element stops it from rendering while it's off-screen. Elements that are out
+            of sight have a size of zero, or of whatever you set with
+            <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-size"
+                ><code>contain-intrinsic-size</code></a
+            >. Only when they come into view does the browser do all the hard work.
+        </p>
+        <p>
+            Applying this to the whole page doesn't do anything because the page is always in view.
+            Applying it to individual messages still means that the browser has to track 30,000 of
+            them. A good middle ground is to group the messages into <code>&lt;section&gt;</code>s,
+            one below each heading. When a <code>&lt;section&gt;</code> comes into view the browser
+            calculates the true size of all its <code>&lt;div&gt;</code> children (the messages).
+        </p>
+        <p>
+            If the true size is different from the <code>contain-intrinsic-size</code> then the page
+            height changes as you scroll, which can look weird, especially if you're dragging the
+            scrollbar. To mitigate that the true height is estimated based on the number of hard
+            line breaks:
+        </p>
+        <pre><code>const numLines = (msg || "").split(/\n|&lt;\/div&gt;&lt;div/).length;
+sectionHeight += 10 + 18 * numLines;
+
+[...]
+
+newHTML += '&lt;section style="contain-intrinsic-height:auto ' +
+    sectionHeight +
+    'px"&gt;' +
+    sectionHTML +
+    "&lt;/section&gt;";</code></pre>
+        <p>
+            On wide screens this is accurate. On narrow screens line wrapping makes the true height
+            bigger than the estimate. Compare:
+        </p>
+        <img
+            class="crisp"
+            src="wide.png"
+            width="590"
+            height="85"
+            alt="Three lines without line breaks."
+        />
+        <img
+            class="crisp"
+            src="narrow.png"
+            width="372"
+            height="139"
+            alt="The same three lines wrapped to fit."
+        />
+        <p>These lines are estimated as 28 pixels tall but wrap to become 46 pixels tall.</p>
+        <p>
+            But this only gives weirdness if you scroll gradually down the page. And page search
+            still works. The browser can find text of unrendered elements. So, is it worth it?
+        </p>
+        <p>
+            Layout went down from 6 seconds to just 280 milliseconds, and the other rendering tasks
+            shrank as well. The total page load time is down from 14 seconds to 5 seconds.
+        </p>
+        <img
+            src="after.png"
+            width="712"
+            height="335"
+            alt='Another profiler screenshot. "Layout" is small. "Evaluate script" and "Parse HTML" are the new bottlenecks.'
+        />
+        <p>
+            This is such a big improvement that it'd be criminal not to ship it. People on phones
+            suffer the most from the inaccurate heights (because of narrow screens) but benefit the
+            most from the improved load time (because of underpowered hardware).
+        </p>
+        <p>So I shipped it.</p>
+
+        <h2>Step 2: Somehow, page search broke</h2>
+        <p>
+            I tested this change on desktop Firefox, desktop Chromium, and mobile Firefox. After
+            release I discovered that it breaks on mobile Chromium.
+        </p>
+        <p>
+            A page search in those other browsers instantly snaps to the result. In mobile Chromium
+            it whizzes down the page with an animation. On the way it triggers visibility for all
+            the sections that it passes, which increases the page height, so it undershoots and puts
+            you at the wrong part of the page.
+        </p>
+        <img
+            class="transparent"
+            src="scrolling.svg"
+            width="280"
+            height="440"
+            alt="A diagram of the above. The sections grow and now the target location hits a different section."
+        />
+        <p>
+            Page search is a dealbreaker. To keep using <code>content-visibility</code> the height
+            estimates have to be perfectly accurate.
+        </p>
+        <p>
+            They can't be perfectly accurate as long as they depend on the exact screen width. So
+            let's add hard line breaks to wrap all messages at a really narrow width no matter what:
+        </p>
+        <img
+            class="crisp"
+            src="hardwrapped.png"
+            width="590"
+            height="175"
+            alt="The three lines from before, wrapped even more, even though there's room."
+        />
+        <p>
+            Setting <code>text-wrap: nowrap</code> then makes the estimates perfectly accurate.
+            Everything works again.
+        </p>
+        <p>
+            Forcing a text wrap is sad but not completely unreasonable since the game also wraps the
+            messages at about that width. (Sometimes narrower, sometimes wider.)
+        </p>
+
+        <h2>Step 3: Don't always wrap</h2>
+        <p>
+            The browser wraps exactly as much as needed. The new code always wraps pessimistically.
+            A compromise is to only wrap on narrow screens. Above 800 pixels the line wraps are
+            turned back into regular spaces and the estimates are adjusted to match.
+        </p>
+        <ol>
+            <li>
+                Instead of breaking lines with <code>'\n&nbsp;&nbsp;'</code>, insert
+                <code>'&lt;span class="break"&gt;\n&nbsp;&nbsp;&lt;/span&gt;'</code>.
+            </li>
+            <li>
+                <p>On wide screens, render these <code>&lt;span&gt;</code>s as a single space:</p>
+                <pre><code>@media (min-width: 800px) {
+    span.break {
+        white-space: normal;
+        text-wrap: nowrap;
+    }
+}</code></pre>
+            </li>
+            <li>
+                <p>Estimate two heights instead of one and store them as CSS variables:</p>
+                <pre><code>&lt;section style="--narrow-height:27346px;--wide-height:18454px;"&gt;</code></pre>
+            </li>
+            <li>
+                <p>Apply them conditionally:</p>
+                <pre><code>section {
+    content-visibility: auto;
+    contain-intrinsic-height: auto var(--narrow-height);
+}
+
+@media (min-width: 800px) {
+    section {
+        contain-intrinsic-height: auto var(--wide-height);
+    }
+}</code></pre>
+            </li>
+        </ol>
+        <p>
+            Now we get to eat our cake and have it too. The text looks good on both narrow and wide
+            screens, scrolling works fine, and the 3&times; speedup is preserved.
+        </p>
+        <p>
+            The code is fast because it knows more than the browser. It calculates heights and wraps
+            lines so the browser doesn't have to.
+        </p>
+
+        <h2>Postscript: Getting even lazier?</h2>
+        <p>
+            The page still generates lots of HTML, and the browser has to spend CPU time to parse it
+            and RAM to store it. It could be still more efficient by not generating the HTML at all
+            until it comes into view. But that would break page search.
+        </p>
+        <p>
+            Also, though searching on mobile Chromium now moves you to the right spot, it still
+            loads all the sections it scrolls past. Some users report that the page loads fine but
+            crashes when they try to search.
+        </p>
+        <p>
+            Even worse, Chromium's page search doesn't cross <code>&lt;span&gt;</code>s. Searching
+            for single words works but looking up phrases fails if those phrases happen to contain
+            line breaks or colored text.
+        </p>
+        <p>
+            All of this can be solved by building a custom search interface to replace the browser
+            search. But that's another post.
+        </p>
+    </body>
+</html>
