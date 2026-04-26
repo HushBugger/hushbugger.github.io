@@ -634,6 +634,34 @@ with open("rendered.json.js", "w", encoding="utf-8") as f:
     f.write("');")
 
 
+def wraptitle(text: str) -> tuple[str, int, int]:
+    first = True
+    npos = 0
+    nh = 56
+    wpos = 0
+    wh = 56
+    out: list[str] = []
+    for piece in text.split("_"):
+        if not first:
+            out.append("_")
+            npos += 1
+            wpos += 1
+        first = False
+        if len(piece) + wpos > 40:
+            out.append("\n")
+            npos = wpos = 0
+            nh += 32
+            wh += 32
+        elif len(piece) + npos > 20:
+            out.append('<span class="break">\n</span>')
+            npos = 0
+            nh += 32
+        out.append(piece)
+        npos += len(piece)
+        wpos += len(piece)
+    return "".join(out), nh, wh
+
+
 def dumpbin():
     @dataclass
     class StringBuf:
@@ -662,73 +690,71 @@ def dumpbin():
             for n1, n2 in self.cache.values():
                 m1 = max(n1, m1)
                 m2 = max(n2, m2)
-            assert math.ceil(math.log(m1, 128)) == w1
-            assert math.ceil(math.log(m2, 128)) == w2
+            # Could do something fancy to determine whether UTF-8 is actually
+            # more efficient than base-128...
+            if w1 != 1:
+                assert math.ceil(math.log(m1, 128)) == w1
+            if w2 != 1:
+                assert math.ceil(math.log(m2, 128)) == w2
 
     @dataclass
     class MsgMeta:
-        msgid: tuple[int, int]
-        en: tuple[int, int]
-        ja: tuple[int, int]
-        source: tuple[int, int]
-        dup: int
-        nh_en: int
-        wh_en: int
-        nh_ja: int
-        wh_ja: int
+        msgid: tuple[int, int] = (0, 0)
+        en: tuple[int, int] = (0, 0)
+        ja: tuple[int, int] = (0, 0)
+        source: tuple[int, int] = (0, 0)
+        dup: int = 0
+        nh_en: int = 0
+        wh_en: int = 0
+        nh_ja: int = 0
+        wh_ja: int = 0
 
-    class SectionIndex(typing.TypedDict):
-        meta: dict[typing.Literal["msgid", "en", "ja", "count"], int]
-        groups: dict[str, dict[str, list[int]]]
-
-    groups: dict[str, dict[str, list[int]]] = {}
+    chapstarts: list[int] = []
     msgs: list[MsgMeta] = []
     msgidbuf = StringBuf()
     enbuf = StringBuf()
     jabuf = StringBuf()
     sourcebuf = StringBuf()
 
-    def hidxfor(lang: typing.Literal["en", "ja", "both"], all: bool, wide: bool) -> int:
-        return wide + 2 * all + 4 * ["en", "ja", "both"].index(lang)
-
     with open("sourcemap.json", encoding="utf8") as f:
         sourcemap: dict[str, dict[str, str]] = json.load(f)
 
-    midx = 0
     for chap in rendered:
-        groups[chap] = {}
+        chapstarts.append(len(msgs))
+        msgs.append(
+            MsgMeta(
+                dup=4,
+                en=enbuf.put(f"Chapter {chap}"),
+                nh_en=56,
+                wh_en=56,
+            )
+        )
         for group in rendered[chap]:
-            startmidx = midx
-            heights = [0] * 12
+            title = wraptitle(group)
+            msgs.append(
+                MsgMeta(
+                    msgid=msgidbuf.put(group),
+                    dup=4,
+                    en=enbuf.put(title[0]),
+                    nh_en=title[1],
+                    wh_en=title[2],
+                )
+            )
             for msgid in rendered[chap][group]:
                 msg = rendered[chap][group][msgid]
                 msgs.append(
                     MsgMeta(
-                        msgidbuf.put(msgid),
-                        enbuf.put(msg["en"][0]),
-                        jabuf.put(msg["ja"][0]),
-                        sourcebuf.put(sourcemap[chap].get(msgid)),
-                        msg["en"][1] + 2 * msg["ja"][1],
-                        msg["en"][2],
-                        msg["en"][3],
-                        msg["ja"][2],
-                        msg["ja"][3],
+                        msgid=msgidbuf.put(msgid),
+                        en=enbuf.put(msg["en"][0]),
+                        ja=jabuf.put(msg["ja"][0]),
+                        source=sourcebuf.put(sourcemap[chap].get(msgid)),
+                        dup=msg["en"][1] + 2 * msg["ja"][1],
+                        nh_en=msg["en"][2],
+                        wh_en=msg["en"][3],
+                        nh_ja=msg["ja"][2],
+                        wh_ja=msg["ja"][3],
                     )
                 )
-                for thislang in "en", "ja":
-                    text, dup, nh, wh = msg[thislang]
-                    if text:
-                        heights[hidxfor(thislang, False, True)] += wh
-                        heights[hidxfor(thislang, False, False)] += nh
-                        heights[hidxfor("both", False, True)] += wh
-                        heights[hidxfor("both", False, False)] += nh
-                        if not dup:
-                            heights[hidxfor(thislang, True, True)] += wh
-                            heights[hidxfor(thislang, True, False)] += nh
-                            heights[hidxfor("both", True, True)] += wh
-                            heights[hidxfor("both", True, False)] += nh
-                midx += 1
-            groups[chap][group] = [startmidx, len(rendered[chap][group]), *heights]
 
     def writenum(dst: io.TextIOBase, num: int, width: int):
         # Encode offsets as 7-bit digits (i.e. ASCII), little-endian.
@@ -774,8 +800,8 @@ def dumpbin():
         writenum(hsrcbuf, msginfo.source[1], 1)
 
     msgidbuf.check(3, 1)
-    enbuf.check(3, 2)
-    jabuf.check(3, 2)
+    enbuf.check(3, 1)
+    jabuf.check(3, 1)
     sourcebuf.check(3, 1)
 
     bindata = hmsgbuf.getvalue()
@@ -785,24 +811,19 @@ def dumpbin():
 
     assert msgiddata.isascii()
 
-    idx: SectionIndex = {
-        "meta": {
-            "msgid": len(bindata),
-            "en": len(bindata) + len(msgiddata),
-            "ja": len(bindata) + len(msgiddata) + len(endata),
-            "count": midx,
+    meta = {
+        "count": len(msgs),
+        "ranges": {
+            "all": [0, len(msgs)],
+            "1": [0, chapstarts[1]],
+            "2": [chapstarts[1], chapstarts[2]],
+            "3": [chapstarts[2], chapstarts[3]],
+            "4": [chapstarts[3], len(msgs)],
         },
-        "groups": groups,
+        "msgidOff": len(bindata),
+        "enOff": len(bindata) + len(msgiddata),
+        "jaOff": len(bindata) + len(msgiddata) + len(endata),
     }
-
-    with open("groups.json.js", "w", encoding="utf8") as f:
-        as_json = json.dumps(
-            idx, indent=None, ensure_ascii=False, separators=(",", ":")
-        )
-        assert as_json.isascii()
-        f.write("var groupIndex = JSON.parse('")
-        f.write(as_json.replace("\\", "\\\\").replace("'", "\\'"))
-        f.write("');")
 
     # As of writing, metadata and English text and Japanese text are
     # each ~500KB after gzip compression.
@@ -815,6 +836,8 @@ def dumpbin():
         f.write(msgiddata)
         f.write(endata)
         f.write(jadata)
+        f.write("\0")
+        json.dump(meta, f, indent=None, ensure_ascii=False, separators=(",", ":"))
 
     with open("sourcemap.bin", "w", encoding="utf8") as f:
         f.write(hsrcbuf.getvalue())

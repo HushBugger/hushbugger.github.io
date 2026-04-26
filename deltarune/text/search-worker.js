@@ -12,9 +12,16 @@
  *  }} GroupIndex
  *
  * @typedef {{
+ *      count: number;
+ *      ranges: Record<Config['chap'], [number, number]>;
+ *      msgidOff: number;
+ *      enOff: number;
+ *      jaOff: number;
+ *  }} Meta
+ *
+ * @typedef {{
  *      type: 'init';
  *      rawText: string;
- *      index: GroupIndex;
  *  }} SearchInit
  * @typedef {{
  *      type: 'query';
@@ -23,9 +30,9 @@
  *      generation: number;
  *  }} SearchQuery
  * @typedef {[number, number]} Span
- * @typedef {[string, string, number]} Path
  * @typedef {{
- *      path: Path;
+ *      chap: '1'|'2'|'3'|'4';
+ *      idx: number;
  *      lang: 'en' | 'ja';
  *      spans: Span[];
  *  }} Result
@@ -38,8 +45,8 @@
 /** @type {string} */
 let rawText;
 
-/** @type {GroupIndex} */
-let index;
+/** @type {Meta} */
+let meta;
 
 const MSG_SIZE = 17;
 
@@ -56,19 +63,12 @@ function mkExtractor(width) {
         return function (idx) {
             return rawText.charCodeAt(idx * MSG_SIZE + offset);
         };
-    } else if (width === 2) {
-        return function (idx) {
-            return (
-                rawText.charCodeAt(idx * MSG_SIZE + offset) +
-                rawText.charCodeAt(idx * MSG_SIZE + offset + 1) * 128
-            );
-        };
     } else {
         return function (idx) {
             return (
                 rawText.charCodeAt(idx * MSG_SIZE + offset) +
                 rawText.charCodeAt(idx * MSG_SIZE + offset + 1) * 128 +
-                rawText.charCodeAt(idx * MSG_SIZE + offset + 2) * 16384
+                rawText.charCodeAt(idx * MSG_SIZE + offset + 2) * 128 * 128
             );
         };
     }
@@ -88,20 +88,87 @@ const whjaFor = mkExtractor(1);
 
 /** @param {number} idx */
 function msgidFor(idx) {
-    const off = index.meta.msgid + msgidOffFor(idx);
+    const off = meta.msgidOff + msgidOffFor(idx);
     return rawText.slice(off, off + msgidLenFor(idx));
 }
 
 /** @param {number} idx */
 function enFor(idx) {
-    const off = index.meta.en + enOffFor(idx);
+    const off = meta.enOff + enOffFor(idx);
     return rawText.slice(off, off + enLenFor(idx));
 }
 
 /** @param {number} idx */
 function jaFor(idx) {
-    const off = index.meta.ja + jaOffFor(idx);
+    const off = meta.jaOff + jaOffFor(idx);
     return rawText.slice(off, off + jaLenFor(idx));
+}
+
+/**
+ * @param {Config} config
+ * @param {number} start
+ * @param {number} end
+ * @param {(idx: number, kind: 1|2|3|4, chap: '1'|'2'|'3'|'4') => void} callback
+ */
+function iterText(config, start, end, callback) {
+    start = Math.max(start, meta.ranges[config.chap][0]);
+    const chapEnd = meta.ranges[config.chap][1];
+    end = Math.min(end, chapEnd);
+
+    /** @type {number | null} */
+    let pendingHeader = null;
+    /** @type {'1'|'2'|'3'|'4'} */
+    let chap = "1";
+    for (
+        let idx = start;
+        // Nasty case: if a header is at the end of the range we have to keep looking
+        // to decide whether to render it
+        idx < end || (pendingHeader !== null && end < chapEnd);
+        idx++
+    ) {
+        if (chap === "1" && idx >= meta.ranges[1][1]) {
+            chap = "2";
+        }
+        if (chap === "2" && idx >= meta.ranges[2][1]) {
+            chap = "3";
+        }
+        if (chap === "3" && idx >= meta.ranges[3][1]) {
+            chap = "4";
+        }
+        const dup = dupFor(idx);
+        if (dup & 4) {
+            if (idx >= end) {
+                return;
+            }
+            if (!msgidFor(idx)) {
+                // chapter header
+                callback(idx, 4, chap);
+                pendingHeader = null;
+            } else {
+                // section header, only output if section has children
+                pendingHeader = idx;
+            }
+            continue;
+        }
+
+        let kind = 0;
+        if (config.lang !== "ja" && !(dup & 1 && config.chap === "all") && enLenFor(idx)) {
+            kind |= 1;
+        }
+        if (config.lang !== "en" && !(dup & 2 && config.chap === "all") && jaLenFor(idx)) {
+            kind |= 2;
+        }
+        if (kind) {
+            if (pendingHeader !== null) {
+                callback(pendingHeader, 4, chap);
+                pendingHeader = null;
+            }
+            if (idx >= end) {
+                return;
+            }
+            callback(idx, /** @type {1|2|3} */ (kind), chap);
+        }
+    }
 }
 
 /** @type {string[]} */
@@ -114,8 +181,7 @@ function init(data) {
     }
 
     rawText = data.rawText;
-    index = data.index;
-    munged.length = index.meta.count * 2;
+    meta = JSON.parse(rawText.slice(rawText.lastIndexOf("\0") + 1));
 
     if (pending) {
         pending();
@@ -123,12 +189,15 @@ function init(data) {
     }
 }
 
+let preprocessed = { en: false, ja: false };
+
 /** @param {'en' | 'ja'} lang */
 function preprocess(lang) {
     const offset = lang === "en" ? 0 : 1;
-    if (munged[offset] !== undefined) {
+    if (preprocessed[lang]) {
         return;
     }
+    preprocessed[lang] = true;
 
     const replacements = new Map([
         ["！", "!"],
@@ -164,7 +233,10 @@ function preprocess(lang) {
         );
     }
 
-    for (let msgIdx = 0; msgIdx < index.meta.count; msgIdx++) {
+    for (let msgIdx = 0; msgIdx < meta.count; msgIdx++) {
+        if (offset === 1 && !preprocessed.en && dupFor(msgIdx) & 4) {
+            munged[msgIdx * 2] = munge(enFor(msgIdx));
+        }
         munged[msgIdx * 2 + offset] = munge(offset ? jaFor(msgIdx) : enFor(msgIdx));
     }
 }
@@ -216,52 +288,38 @@ function doSearch(query) {
         results: [],
     };
 
-    for (const chap of /** @type {const} */ (["1", "2", "3", "4"])) {
-        if (query.config.chap !== "all" && query.config.chap !== chap) {
-            continue;
-        }
-        for (const groupName of Object.keys(index.groups[chap])) {
-            const group = index.groups[chap][groupName];
-            for (let msgIdx = group[0]; msgIdx < group[0] + group[1]; msgIdx++) {
-                if (
-                    query.config.lang !== "ja" &&
-                    munged[msgIdx * 2] &&
-                    !(dupFor(msgIdx) & 1 && query.config.chap === "all")
-                ) {
-                    /** @type {Span[]} */
-                    const spans = [];
-                    for (const match of munged[msgIdx * 2].matchAll(query.query)) {
-                        spans.push([match.index, match.index + match[0].length]);
-                    }
-                    if (spans.length) {
-                        results.results.push({
-                            path: [chap, groupName, msgIdx],
-                            lang: "en",
-                            spans: spans,
-                        });
-                    }
-                }
-                if (
-                    query.config.lang !== "en" &&
-                    munged[msgIdx * 2 + 1] &&
-                    !(dupFor(msgIdx) & 2 && query.config.chap === "all")
-                ) {
-                    /** @type {Span[]} */
-                    const spans = [];
-                    for (const match of munged[msgIdx * 2 + 1].matchAll(query.query)) {
-                        spans.push([match.index, match.index + match[0].length]);
-                    }
-                    if (spans.length) {
-                        results.results.push({
-                            path: [chap, groupName, msgIdx],
-                            lang: "ja",
-                            spans: spans,
-                        });
-                    }
-                }
+    iterText(query.config, ...meta.ranges[query.config.chap], function (idx, kind, chap) {
+        if (kind === 4 || kind & 1) {
+            /** @type {Span[]} */
+            const spans = [];
+            for (const match of munged[idx * 2].matchAll(query.query)) {
+                spans.push([match.index, match.index + match[0].length]);
+            }
+            if (spans.length) {
+                results.results.push({
+                    chap: chap,
+                    idx: idx,
+                    lang: "en",
+                    spans: spans,
+                });
             }
         }
-    }
+        if (kind & 2) {
+            /** @type {Span[]} */
+            const spans = [];
+            for (const match of munged[idx * 2 + 1].matchAll(query.query)) {
+                spans.push([match.index, match.index + match[0].length]);
+            }
+            if (spans.length) {
+                results.results.push({
+                    chap: chap,
+                    idx: idx,
+                    lang: "ja",
+                    spans: spans,
+                });
+            }
+        }
+    });
 
     setTimeout(function () {
         if (query.generation < currentGen) {

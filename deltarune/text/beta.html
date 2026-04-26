@@ -14,7 +14,6 @@
             ICQEYNUEOLhIAatU4JTLKbC0z+B9+Srp3mPpFbkCUk6f81l58we5eSnJ4H/pCVYTQjf3
             DYm9AAAAAElFTkSuQmCC"
         />
-        <link rel="preload" as="script" href="groups.json.js" />
         <link rel="preload" as="font" href="/style/8bitoperator-UTM.woff" crossorigin="anonymous" />
         <link rel="prefetch" href="search-worker.js" />
         <style>
@@ -203,42 +202,39 @@
                 height: var(--narrow-height);
             }
 
-            #searchresults .textbox {
+            #searchresults .result {
                 cursor: pointer;
             }
 
-            #searchresults .textbox:hover {
+            #searchresults .result:hover {
                 border-top: 2px solid #00aeff;
                 border-bottom: 2px solid #00aeff;
                 padding-top: 3px;
                 padding-bottom: 3px;
             }
 
-            h1,
-            h2 {
+            #searchresults h1.result:hover {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            h1 {
                 font-size: 2em;
                 line-height: 1em;
                 font-weight: normal;
-                /* text-shadow: 1px 1px 0px #03037d; */
+                text-shadow: 1px 1px 0px #03037d;
                 padding-left: 20px;
-                margin-top: 24px;
-                margin-bottom: 12px;
-            }
-
-            h2 {
-                content-visibility: auto;
-                height: var(--narrow-height);
-                overflow: hidden;
-                contain: strict;
-            }
-
-            h2 span.break {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                margin: 0px;
                 white-space: pre;
             }
 
-            h1 a,
-            h2 a {
-                /* color: #ccc; */
+            body.light h1 {
+                text-shadow: -1px -1px 0px #fcfcdc;
+            }
+
+            h1 a {
                 color: var(--foreground-color);
                 text-decoration: none;
             }
@@ -272,11 +268,7 @@
                     white-space: normal;
                 }
 
-                h2 {
-                    height: var(--wide-height);
-                }
-
-                h2 span.break {
+                h1 span.break {
                     display: none;
                 }
 
@@ -385,8 +377,7 @@
 
             div.textbox.en,
             pre.loading,
-            h1,
-            h2 {
+            h1 {
                 font-family: "8bitoperator Undertale Mono", Monospace;
             }
 
@@ -567,14 +558,16 @@
              *  }} Config
              *
              * @typedef {{
-             *      meta: {"msgid": number, "en": number, "ja": number, "count": number};
-             *      groups: Record<"1"|"2"|"3"|"4", Record<string, number[]>>;
-             *  }} GroupIndex
+             *      count: number;
+             *      ranges: Record<Config['chap'], [number, number]>;
+             *      msgidOff: number;
+             *      enOff: number;
+             *      jaOff: number;
+             *  }} Meta
              *
              * @typedef {{
              *      type: 'init';
              *      rawText: string;
-             *      index: GroupIndex;
              *  }} SearchInit
              * @typedef {{
              *      type: 'query';
@@ -585,7 +578,8 @@
              * @typedef {[number, number]} Span
              * @typedef {[string, string, number]} Path
              * @typedef {{
-             *      path: Path;
+             *      chap: '1'|'2'|'3'|'4';
+             *      idx: number;
              *      lang: 'en' | 'ja';
              *      spans: Span[];
              *  }} Result
@@ -729,33 +723,29 @@
             const rawText = (function () {
                 // Synchronous XHR is deprecated but never ever getting removed.
                 // It's the only way to pull in flat text data during page load
-                // without parsing overhead. An async fetch breaks anchor links.
+                // without parsing overhead. An async fetch breaks anchor links
+                // and getting things to feel exactly as native including on
+                // reload is too subtle to emulate.
                 //
                 // Preloading synchronous XHR is not allowed. So we should do:
                 // - at most one synchronous XHR request
                 // - before loading any other blocking resources
-                // The placement above groups.json.js is important.
                 const req = new XMLHttpRequest();
                 req.overrideMimeType("text/plain; charset=UTF-8");
                 req.open("GET", "rendered.bin", false);
                 req.send();
                 return req.responseText;
             })();
-        </script>
-        <script src="groups.json.js"></script>
-        <script>
-            // @ts-check
-            "use strict";
 
-            // @ts-ignore
-            const index = /** @type {GroupIndex} */ (groupIndex);
+            /** @type {Meta} */
+            const meta = JSON.parse(rawText.slice(rawText.lastIndexOf("\0") + 1));
 
             const MSG_SIZE = 17;
 
             let curMsgOffset = 0;
 
             /**
-             * @param {1|2|3} width
+             * @param {1|3} width
              * @return {(idx: number) => number}
              */
             function mkExtractor(width) {
@@ -765,19 +755,12 @@
                     return function (idx) {
                         return rawText.charCodeAt(idx * MSG_SIZE + offset);
                     };
-                } else if (width === 2) {
-                    return function (idx) {
-                        return (
-                            rawText.charCodeAt(idx * MSG_SIZE + offset) +
-                            rawText.charCodeAt(idx * MSG_SIZE + offset + 1) * 128
-                        );
-                    };
                 } else {
                     return function (idx) {
                         return (
                             rawText.charCodeAt(idx * MSG_SIZE + offset) +
                             rawText.charCodeAt(idx * MSG_SIZE + offset + 1) * 128 +
-                            rawText.charCodeAt(idx * MSG_SIZE + offset + 2) * 16384
+                            rawText.charCodeAt(idx * MSG_SIZE + offset + 2) * 128 * 128
                         );
                     };
                 }
@@ -797,19 +780,19 @@
 
             /** @param {number} idx */
             function msgidFor(idx) {
-                const off = index.meta.msgid + msgidOffFor(idx);
+                const off = meta.msgidOff + msgidOffFor(idx);
                 return rawText.slice(off, off + msgidLenFor(idx));
             }
 
             /** @param {number} idx */
             function enFor(idx) {
-                const off = index.meta.en + enOffFor(idx);
+                const off = meta.enOff + enOffFor(idx);
                 return rawText.slice(off, off + enLenFor(idx));
             }
 
             /** @param {number} idx */
             function jaFor(idx) {
-                const off = index.meta.ja + jaOffFor(idx);
+                const off = meta.jaOff + jaOffFor(idx);
                 return rawText.slice(off, off + jaLenFor(idx));
             }
 
@@ -830,12 +813,87 @@
                     return "";
                 }
                 const off =
-                    4 * index.meta.count +
+                    4 * meta.count +
                     rawSourceMap.charCodeAt(idx * 4) +
                     rawSourceMap.charCodeAt(idx * 4 + 1) * 128 +
                     rawSourceMap.charCodeAt(idx * 4 + 2) * 16384;
                 const len = rawSourceMap.charCodeAt(idx * 4 + 3);
                 return rawSourceMap.slice(off, off + len);
+            }
+
+            /**
+             * @param {Config} config
+             * @param {number} start
+             * @param {number} end
+             * @param {(idx: number, kind: 1|2|3|4, chap: '1'|'2'|'3'|'4') => void} callback
+             */
+            function iterText(config, start, end, callback) {
+                start = Math.max(start, meta.ranges[config.chap][0]);
+                const chapEnd = meta.ranges[config.chap][1];
+                end = Math.min(end, chapEnd);
+
+                /** @type {number | null} */
+                let pendingHeader = null;
+                /** @type {'1'|'2'|'3'|'4'} */
+                let chap = "1";
+                for (
+                    let idx = start;
+                    // Nasty case: if a header is at the end of the range we have to keep looking
+                    // to decide whether to render it
+                    idx < end || (pendingHeader !== null && end < chapEnd);
+                    idx++
+                ) {
+                    if (chap === "1" && idx >= meta.ranges[1][1]) {
+                        chap = "2";
+                    }
+                    if (chap === "2" && idx >= meta.ranges[2][1]) {
+                        chap = "3";
+                    }
+                    if (chap === "3" && idx >= meta.ranges[3][1]) {
+                        chap = "4";
+                    }
+                    const dup = dupFor(idx);
+                    if (dup & 4) {
+                        if (idx >= end) {
+                            return;
+                        }
+                        if (!msgidFor(idx)) {
+                            // chapter header
+                            callback(idx, 4, chap);
+                            pendingHeader = null;
+                        } else {
+                            // section header, only output if section has children
+                            pendingHeader = idx;
+                        }
+                        continue;
+                    }
+
+                    let kind = 0;
+                    if (
+                        config.lang !== "ja" &&
+                        !(dup & 1 && config.chap === "all") &&
+                        enLenFor(idx)
+                    ) {
+                        kind |= 1;
+                    }
+                    if (
+                        config.lang !== "en" &&
+                        !(dup & 2 && config.chap === "all") &&
+                        jaLenFor(idx)
+                    ) {
+                        kind |= 2;
+                    }
+                    if (kind) {
+                        if (pendingHeader !== null) {
+                            callback(pendingHeader, 4, chap);
+                            pendingHeader = null;
+                        }
+                        if (idx >= end) {
+                            return;
+                        }
+                        callback(idx, /** @type {1|2|3} */ (kind), chap);
+                    }
+                }
             }
         </script>
         <script>
@@ -858,8 +916,8 @@
             /** @type {Result[] | null} */
             let searchResults = null;
 
-            /** @type {Map<string, Result[]>} */
-            const searchResultsByGroup = new Map();
+            /** @type {Map<number, Result[]>} */
+            const searchResultsByChunk = new Map();
 
             function render() {
                 const thisRender = `${config.chap}:${config.lang}`;
@@ -867,7 +925,18 @@
                     return;
                 }
 
-                const [_hashLang, hashChap, hashMsgid] = window.location.hash.split(":");
+                /** @type {string | null | undefined} */
+                let hashChap = null;
+                /** @type {string | null | undefined} */
+                let hashMsgid = null;
+                if (window.location.hash.length > 1) {
+                    const hash = window.location.hash.slice(1);
+                    if (hash.includes(":")) {
+                        [, hashChap, hashMsgid] = hash.split(":");
+                    } else {
+                        [hashChap, hashMsgid] = hash.split("_");
+                    }
+                }
 
                 activeTextSections.clear();
                 textObserver.disconnect();
@@ -877,53 +946,46 @@
                 /** @type {string | null} */
                 let preload = null;
 
-                for (const chapterNo of /** @type {const} */ (["1", "2", "3", "4"])) {
-                    if (config.chap !== String(chapterNo) && config.chap !== "all") {
-                        continue;
+                /** @type {number | null} */
+                let curChunk = null;
+                let narrowHeight = 0;
+                let wideHeight = 0;
+
+                iterText(config, ...meta.ranges[config.chap], function (idx, kind, chap) {
+                    const thisChunk = (idx / CHUNK_SIZE) | 0;
+                    if (curChunk === null) {
+                        curChunk = thisChunk;
                     }
-                    newHTML += mkTitle("h1", `${chapterNo}`, `Chapter ${chapterNo}`);
-
-                    const chapter = index.groups[chapterNo];
-                    for (const groupName of Object.keys(chapter)) {
-                        const group = chapter[groupName];
-
-                        if (hashChap === chapterNo && hashMsgid) {
-                            for (let msgIdx = group[0]; msgIdx < group[0] + group[1]; msgIdx++) {
-                                if (msgidFor(msgIdx) === hashMsgid) {
-                                    preload = `section:${chapterNo}:${groupName}`;
-                                }
-                            }
-                        }
-
-                        const narrowHeight =
-                            group[
-                                2 +
-                                    2 * +(config.chap === "all") +
-                                    4 * ["en", "ja", "both"].indexOf(config.lang)
-                            ];
-                        const wideHeight =
-                            group[
-                                3 +
-                                    2 * +(config.chap === "all") +
-                                    4 * ["en", "ja", "both"].indexOf(config.lang)
-                            ];
-
+                    if (thisChunk !== curChunk) {
                         if (narrowHeight) {
-                            newHTML += mkTitle(
-                                "h2",
-                                `${chapterNo}_${groupName}`,
-                                groupName.replace(/_slash_/g, "/"),
-                                "groupName"
-                            );
-                            newHTML += `<section id="section:${chapterNo}:${groupName}"`;
-                            newHTML +=
-                                ` style="--narrow-height:${narrowHeight}px;` +
-                                `--wide-height:${wideHeight}px"`;
-                            newHTML += ` data-group-name="${groupName}"`;
-                            newHTML += ` data-chapter="${chapterNo}"></section>`;
+                            newHTML += `<section id="chunk-${curChunk}"`;
+                            newHTML += ` style="--narrow-height:${narrowHeight}px;`;
+                            newHTML += `--wide-height:${wideHeight}px"></section>`;
+                        }
+                        curChunk = thisChunk;
+                        narrowHeight = wideHeight = 0;
+                    }
+                    if (kind == 4 || kind & 1) {
+                        narrowHeight += nhenFor(idx);
+                        wideHeight += whenFor(idx);
+                    }
+                    if (kind & 2) {
+                        narrowHeight += nhjaFor(idx);
+                        wideHeight += whjaFor(idx);
+                    }
+                    if (hashChap === chap) {
+                        const msgid = msgidFor(idx);
+                        if (!msgid || hashMsgid === msgid) {
+                            preload = `chunk-${curChunk}`;
                         }
                     }
+                });
+                if (narrowHeight) {
+                    newHTML += `<section id="chunk-${curChunk}"`;
+                    newHTML += ` style="--narrow-height:${narrowHeight}px;`;
+                    newHTML += `--wide-height:${wideHeight}px"></section>`;
                 }
+
                 textboxes.innerHTML = newHTML;
                 for (const child of textboxes.childNodes) {
                     if (child instanceof HTMLElement && child.localName === "section") {
@@ -960,47 +1022,38 @@
 
             /** @param {HTMLElement} section */
             function fillTextSection(section) {
-                if (
-                    section.hasChildNodes() ||
-                    !section.dataset.groupName ||
-                    !section.dataset.chapter
-                ) {
+                if (section.hasChildNodes()) {
                     return;
                 }
+                const chunk = +section.id.slice(6);
 
                 let newHTML = "";
-                const group =
-                    index.groups[/** @type {'1'|'2'|'3'|'4'} */ (section.dataset.chapter)][
-                        section.dataset.groupName
-                    ];
-                for (let msgIdx = group[0]; msgIdx < group[0] + group[1]; msgIdx++) {
-                    if (config.lang !== "ja") {
-                        const text = enFor(msgIdx);
-                        const dup = dupFor(msgIdx) & 1;
-                        if (text && !(dup && config.chap === "all")) {
-                            const box = buildBox(
+                iterText(
+                    config,
+                    chunk * CHUNK_SIZE,
+                    chunk * CHUNK_SIZE + CHUNK_SIZE,
+                    function (idx, kind, chap) {
+                        const msgid = msgidFor(idx);
+                        if (kind == 4) {
+                            const id = msgid ? `${chap}_${msgid}` : chap;
+                            newHTML += `<h1 id="${id}" data-idx="${idx}"><a href="#${id}">${enFor(idx)}</a></h1>`;
+                        }
+                        if (kind & 1) {
+                            newHTML += buildBox(
                                 "en",
-                                `id="en:${section.dataset.chapter}:${msgidFor(msgIdx)}"`,
-                                text,
-                                msgIdx
+                                `id="en:${chap}:${msgid}" data-idx="${idx}"`,
+                                enFor(idx)
                             );
-                            newHTML += box;
                         }
-                    }
-                    if (config.lang !== "en") {
-                        const text = jaFor(msgIdx);
-                        const dup = dupFor(msgIdx) & 2;
-                        if (text && !(dup && config.chap === "all")) {
-                            const box = buildBox(
+                        if (kind & 2) {
+                            newHTML += buildBox(
                                 "ja",
-                                `id="ja:${section.dataset.chapter}:${msgidFor(msgIdx)}"`,
-                                text,
-                                msgIdx
+                                `id="ja:${chap}:${msgid}" data-idx="${idx}"`,
+                                jaFor(idx)
                             );
-                            newHTML += box;
                         }
                     }
-                }
+                );
                 section.innerHTML = newHTML;
                 buildRangesForText(section);
                 applyTextHighlights();
@@ -1008,26 +1061,30 @@
 
             /** @param {HTMLElement} section */
             function buildRangesForText(section) {
-                if (
-                    !section.hasChildNodes() ||
-                    !section.dataset.groupName ||
-                    !section.dataset.chapter
-                ) {
+                if (!section.hasChildNodes()) {
                     return;
                 }
-                const key = section.dataset.chapter + ":" + section.dataset.groupName;
+                const chunk = +section.id.slice(6);
                 /** @type {Range[]} */
                 const ranges = [];
                 activeTextSections.set(section, ranges);
 
-                const results = searchResultsByGroup.get(key);
+                const results = searchResultsByChunk.get(chunk);
                 if (!results) {
                     return;
                 }
                 for (const result of results) {
-                    const node = document.getElementById(
-                        result.lang + ":" + result.path[0] + ":" + msgidFor(result.path[2])
-                    );
+                    const msgid = msgidFor(result.idx);
+                    const dup = dupFor(result.idx);
+                    let id;
+                    if (!msgid) {
+                        id = result.chap;
+                    } else if (dup & 4) {
+                        id = result.chap + "_" + msgid;
+                    } else {
+                        id = `${result.lang}:${result.chap}:${msgidFor(+result.idx)}`;
+                    }
+                    const node = document.getElementById(id);
                     if (!node) {
                         continue;
                     }
@@ -1060,67 +1117,19 @@
             }
 
             /**
-             * @param {string} elem
-             * @param {string} id
-             * @param {string} text
-             * @param {string|null} className
-             * @return {string}
-             */
-            function mkTitle(elem, id, text, className = null) {
-                let first = true;
-                let npos = 0;
-                let nh = 32;
-                let wpos = 0;
-                let wh = 32;
-                let name = "";
-                for (const piece of text.split("_")) {
-                    if (!first) {
-                        name += "_";
-                        npos += 1;
-                        wpos += 1;
-                    }
-                    first = false;
-                    if (piece.length + wpos > 40) {
-                        name += "<br/>";
-                        npos = wpos = 0;
-                        nh += 32;
-                        wh += 32;
-                    } else if (piece.length + npos > 20) {
-                        name += '<span class="break">\n</span>';
-                        npos = 0;
-                        nh += 32;
-                    }
-                    name += piece;
-                    npos += piece.length;
-                    wpos += piece.length;
-                }
-                let html = `<${elem} id="${id}"`;
-                if (className) {
-                    html += ` class="${className}"`;
-                }
-                html += ` style="--narrow-height:${nh}px;--wide-height:${wh}px"`;
-                html += `><a href="#${id}">${name}</a></${elem}>`;
-
-                return html;
-            }
-
-            /**
              * @param {string} lang
              * @param {string | null} attrs
              * @param {string} text
-             * @param {number} idx
              */
-            function buildBox(lang, attrs, text, idx) {
+            function buildBox(lang, attrs, text, classes = "textbox") {
                 let html = "<div";
                 if (attrs) {
                     html += " " + attrs;
                 }
-                html += ' class="textbox ' + lang;
-                html += '"';
+                html += ` class="${classes} ${lang}"`;
                 if (lang === "ja") {
                     html += ' lang="ja"';
                 }
-                html += ` data-idx="${idx}"`;
                 html += ">";
                 html += text;
                 html += "</div>";
@@ -1205,7 +1214,6 @@
                     const init = {
                         type: "init",
                         rawText: rawText,
-                        index: index,
                     };
                     searchWorker.postMessage(init);
                     /** @param {MessageEvent<ResultList>} event */
@@ -1223,7 +1231,7 @@
                     searchResultsDiv.innerHTML = "";
                     searchResults = null;
                     searchCounter.innerText = "";
-                    searchResultsByGroup.clear();
+                    searchResultsByChunk.clear();
                     activeSearchSections.clear();
                     activeTextSections.clear();
                     CSS.highlights.clear();
@@ -1303,7 +1311,7 @@
             const CHUNK_SIZE = 100;
 
             function renderSearchResults() {
-                searchResultsByGroup.clear();
+                searchResultsByChunk.clear();
                 activeSearchSections.clear();
                 searchObserver.disconnect();
                 searchResultsDiv.innerHTML = "";
@@ -1322,25 +1330,24 @@
                     const chunk = searchResults.slice(pos, pos + CHUNK_SIZE);
                     let narrowHeight = 0;
                     let wideHeight = 0;
-                    /** @type {string | null} */
-                    let preloadFocusId = null;
+                    /** @type {Result | null} */
+                    let preloadFocus = null;
                     for (const result of chunk) {
-                        const [chap, group, msgIdx] = result.path;
-                        const text = result.lang === "en" ? enFor(msgIdx) : jaFor(msgIdx);
+                        const msgIdx = result.idx;
                         narrowHeight += result.lang === "en" ? nhenFor(msgIdx) : nhjaFor(msgIdx);
                         wideHeight += result.lang === "en" ? whenFor(msgIdx) : whjaFor(msgIdx);
 
-                        let groupResults = searchResultsByGroup.get(chap + ":" + group);
+                        const textChunkIdx = (msgIdx / CHUNK_SIZE) | 0;
+                        let groupResults = searchResultsByChunk.get(textChunkIdx);
                         if (!groupResults) {
-                            searchResultsByGroup.set(chap + ":" + group, [result]);
+                            searchResultsByChunk.set(textChunkIdx, [result]);
                         } else {
                             groupResults.push(result);
                         }
 
-                        if (pendingFocusedResult && !preloadFocusId) {
-                            const id = result.lang + ":" + chap + ":" + msgidFor(msgIdx);
-                            if (pendingFocusedResult === id) {
-                                preloadFocusId = id;
+                        if (pendingFocusedResult && !preloadFocus) {
+                            if (pendingFocusedResult === result.lang + ":" + msgIdx) {
+                                preloadFocus = result;
                                 pendingFocusedResult = null;
                             }
                         }
@@ -1356,10 +1363,15 @@
                     } else {
                         searchObserver.observe(section);
                     }
-                    if (preloadFocusId) {
+                    if (preloadFocus) {
                         fillSearchSection(section);
                         const box = [...section.children].find(function (box) {
-                            return box instanceof HTMLElement && box.dataset.id === preloadFocusId;
+                            return (
+                                box instanceof HTMLElement &&
+                                box.dataset.searchIdx &&
+                                searchResults &&
+                                searchResults[+box.dataset.searchIdx] === preloadFocus
+                            );
                         });
                         if (box instanceof HTMLElement) {
                             focusSearchResult(box, false);
@@ -1399,26 +1411,31 @@
                 if (section.hasChildNodes() || !section.dataset.index || !searchResults) {
                     return;
                 }
-                const results = searchResults.slice(
-                    +section.dataset.index * CHUNK_SIZE,
-                    (+section.dataset.index + 1) * CHUNK_SIZE
+
+                const startIdx = +section.dataset.index * CHUNK_SIZE;
+                const endIdx = Math.min(
+                    (+section.dataset.index + 1) * CHUNK_SIZE,
+                    searchResults.length
                 );
 
                 let newHTML = "";
-                for (const result of results) {
-                    const [chap, group, msgIdx] = result.path;
+                for (let i = startIdx; i < endIdx; i++) {
+                    const result = searchResults[i];
+                    if (dupFor(result.idx) & 4) {
+                        newHTML += `<h1 data-search-idx="${i}" class="result">${enFor(result.idx)}</h1>`;
+                        continue;
+                    }
                     newHTML += buildBox(
                         result.lang,
-                        `data-id="${result.lang}:${chap}:${msgidFor(msgIdx)}"` +
-                            ` data-group="${chap}:${group}"`,
-                        result.lang === "en" ? enFor(msgIdx) : jaFor(msgIdx),
-                        msgIdx
+                        `data-search-idx="${i}"`,
+                        result.lang === "en" ? enFor(result.idx) : jaFor(result.idx),
+                        "textbox result"
                     );
                 }
                 section.innerHTML = newHTML;
                 const ranges = [];
                 for (let i = 0; i < section.childNodes.length; i++) {
-                    for (const span of results[i].spans) {
+                    for (const span of searchResults[startIdx + i].spans) {
                         const node = section.childNodes[i];
                         const range = getRange(node, ...span);
                         if (range) {
@@ -1520,30 +1537,43 @@
                 if (!(event.target instanceof Element) || event.target.closest("a")) {
                     return;
                 }
-                const textbox = event.target.closest(".textbox");
+                const textbox = event.target.closest(".result");
                 if (textbox instanceof HTMLElement) {
                     focusSearchResult(textbox);
                     setSearchHidden(true);
                 }
             });
 
-            /** @param {HTMLElement | null} textbox */
-            function focusSearchResult(textbox, scroll = true) {
-                focusedResult = textbox;
-                if (!textbox || !textbox.dataset.id || !textbox.dataset.group) {
+            /** @param {Result} result */
+            function idForResult(result) {
+                const msgid = msgidFor(result.idx);
+                if (!msgid) {
+                    return result.chap;
+                } else if (dupFor(result.idx) & 4) {
+                    return result.chap + "_" + msgid;
+                } else {
+                    return `${result.lang}:${result.chap}:${msgidFor(result.idx)}`;
+                }
+            }
+
+            /** @param {HTMLElement | null} resultBox */
+            function focusSearchResult(resultBox, scroll = true) {
+                focusedResult = resultBox;
+                if (!resultBox || !resultBox.dataset.searchIdx || !searchResults) {
                     sessionStorage.removeItem("dr-search-focus");
                     return;
                 }
-                sessionStorage.setItem("dr-search-focus", textbox.dataset.id);
+                const result = searchResults[+resultBox.dataset.searchIdx];
+                sessionStorage.setItem("dr-search-focus", result.lang + ":" + result.idx);
                 for (const elem of document.getElementsByClassName("focused")) {
                     elem.classList.remove("focused");
                 }
-                textbox.classList.add("focused");
-                const section = document.getElementById("section:" + textbox.dataset.group);
+                resultBox.classList.add("focused");
+                const section = document.getElementById("chunk-" + ((+result.idx / 100) | 0));
                 if (section instanceof HTMLElement) {
                     fillTextSection(section);
                 }
-                const target = document.getElementById(textbox.dataset.id);
+                const target = document.getElementById(idForResult(result));
                 if (!target) {
                     return;
                 }
@@ -1747,8 +1777,10 @@
                 revealAll();
                 return [...document.getElementsByTagName("section")].filter(function (section) {
                     section.style.height = "auto";
+                    section.style.contentVisibility = "initial";
                     const contentHeight = section.offsetHeight;
                     section.style.removeProperty("height");
+                    section.style.removeProperty("contentVisibility");
                     return contentHeight !== section.offsetHeight;
                 });
             }
