@@ -101,7 +101,7 @@
         </p>
         <p>This needs to be less expensive.</p>
 
-        <h2>Step 1: Just add some CSS</h2>
+        <h2 id="1">Step 1: Just add some CSS</h2>
         <p>
             Applying
             <a
@@ -178,7 +178,7 @@ newHTML += '&lt;section style="contain-intrinsic-height:auto ' +
         </p>
         <p>So I shipped it.</p>
 
-        <h2>Step 2: Somehow, page search broke</h2>
+        <h2 id="2">Step 2: Somehow, page search broke</h2>
         <p>
             I tested this change on desktop Firefox, desktop Chromium, and mobile Firefox. After
             release I discovered that it breaks on mobile Chromium.
@@ -220,7 +220,7 @@ newHTML += '&lt;section style="contain-intrinsic-height:auto ' +
             messages at about that width. (Sometimes narrower, sometimes wider.)
         </p>
 
-        <h2>Step 3: Don't always wrap</h2>
+        <h2 id="3">Step 3: Don't always wrap</h2>
         <p>
             The browser wraps exactly as much as needed. The new code always wraps pessimistically.
             A compromise is to only wrap on narrow screens. Above 800 pixels the line wraps are
@@ -267,7 +267,7 @@ newHTML += '&lt;section style="contain-intrinsic-height:auto ' +
             lines so the browser doesn't have to.
         </p>
 
-        <h2>Postscript: Getting even lazier?</h2>
+        <h2 id="ps">Postscript: Getting even lazier?</h2>
         <p>
             The page still generates lots of HTML, and the browser has to spend CPU time to parse it
             and RAM to store it. It could be still more efficient by not generating the HTML at all

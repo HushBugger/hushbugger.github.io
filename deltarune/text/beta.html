@@ -198,8 +198,13 @@
                 display: none;
             }
 
-            #searchresults section {
-                height: var(--narrow-height);
+            section {
+                --height-var: --narrow-height;
+                --empty-height: var(--narrow-height);
+            }
+
+            section:empty {
+                height: calc(var(--empty-height) * 1px);
             }
 
             #searchresults .result {
@@ -239,10 +244,6 @@
                 text-decoration: none;
             }
 
-            #textboxes section {
-                height: var(--narrow-height);
-            }
-
             @media (min-width: 840px) {
                 #controls {
                     left: calc(100% - 448px);
@@ -261,7 +262,8 @@
 
             @media (min-width: 1240px) {
                 #textboxes section {
-                    height: var(--wide-height);
+                    --height-var: --wide-height;
+                    --empty-height: var(--wide-height);
                 }
 
                 #textboxes span.break {
@@ -281,7 +283,8 @@
 
             @media (min-width: 1600px) {
                 #searchresults section {
-                    height: var(--wide-height);
+                    --height-var: --wide-height;
+                    --empty-height: var(--wide-height);
                 }
 
                 #searchresults span.break {
@@ -961,8 +964,8 @@
                     if (thisChunk !== curChunk) {
                         if (narrowHeight) {
                             newHTML += `<section id="chunk-${curChunk}"`;
-                            newHTML += ` style="--narrow-height:${narrowHeight}px;`;
-                            newHTML += `--wide-height:${wideHeight}px"></section>`;
+                            newHTML += ` style="--narrow-height:${narrowHeight};`;
+                            newHTML += `--wide-height:${wideHeight}"></section>`;
                         }
                         curChunk = thisChunk;
                         narrowHeight = wideHeight = 0;
@@ -984,8 +987,8 @@
                 });
                 if (narrowHeight) {
                     newHTML += `<section id="chunk-${curChunk}"`;
-                    newHTML += ` style="--narrow-height:${narrowHeight}px;`;
-                    newHTML += `--wide-height:${wideHeight}px"></section>`;
+                    newHTML += ` style="--narrow-height:${narrowHeight};`;
+                    newHTML += `--wide-height:${wideHeight}"></section>`;
                 }
 
                 textboxes.innerHTML = newHTML;
@@ -1016,11 +1019,66 @@
                     if (entry.isIntersecting && !entry.target.hasChildNodes()) {
                         fillTextSection(entry.target);
                     } else if (!entry.isIntersecting && entry.target.hasChildNodes()) {
+                        fixHeight(entry.boundingClientRect, entry.target);
                         entry.target.innerHTML = "";
                         activeTextSections.delete(entry.target);
                     }
                 }
             });
+
+            /**
+             * Estimated section heights should be accurate. But what if they're not?
+             *
+             * 1. We could force the estimated height. Then there will be gaps or
+             *    overlap between sections.
+             *
+             * 2. We can use the natural height while filled and the estimate when not.
+             *    This can cause bad flickering resize loops.
+             *
+             * 3. (this solution:) If the heights are inaccurate, adjust the estimate.
+             *    This can cause strange jumps but no resize loops.
+             *
+             * Some subtleties:
+             *
+             * - The estimate is adjusted when the section goes out of view because
+             *   that's when it becomes relevant again.
+             *
+             * - Narrow and wide views have separate estimates so we adjust the one
+             *   that's active.
+             *
+             * - Unlike with solution 1, scrolling gets weird for incorrect estimates.
+             *   This can even break page search but we have our own search that should
+             *   be OK since it doesn't do smooth scrolling. See
+             *   https://hushbugger.github.io/blog/lazy/#2
+             *   For some reason even small errors (<2px) cause strange scroll bar
+             *   dragging behavior on Chromium (desktop Linux).
+             *
+             * @param {DOMRectReadOnly} rect
+             * @param {HTMLElement} elem
+             */
+            function fixHeight(rect, elem) {
+                const style = getComputedStyle(elem);
+                const computedHeight = +style.getPropertyValue("--empty-height");
+                const realHeight = rect.height;
+
+                if (computedHeight !== realHeight) {
+                    // This doesn't always indicate a problem, small offsets are common
+                    // on certain fractional zoom levels in Chromium.
+                    // (They're still worth adjusting, it reduces scroll drift.)
+                    // But this might be a bug and I want to know about it during local
+                    // development.
+                    if (window.location.hostname === "localhost") {
+                        console.error(
+                            `Computed height ${computedHeight} should be ${realHeight}`,
+                            elem
+                        );
+                    }
+                    elem.style.setProperty(
+                        style.getPropertyValue("--height-var"),
+                        String(realHeight)
+                    );
+                }
+            }
 
             /** @param {HTMLElement} section */
             function fillTextSection(section) {
@@ -1355,8 +1413,8 @@
                         }
                     }
                     const section = document.createElement("section");
-                    section.style.setProperty("--narrow-height", `${narrowHeight}px`);
-                    section.style.setProperty("--wide-height", `${wideHeight}px`);
+                    section.style.setProperty("--narrow-height", String(narrowHeight));
+                    section.style.setProperty("--wide-height", String(wideHeight));
                     section.dataset.index = String(pos / CHUNK_SIZE);
                     searchResultsDiv.appendChild(section);
                     if (pos === 0) {
@@ -1400,6 +1458,7 @@
                             entry.target.hasChildNodes() &&
                             !(focusedResult && focusedResult.parentElement === entry.target)
                         ) {
+                            fixHeight(entry.boundingClientRect, entry.target);
                             entry.target.innerHTML = "";
                             activeSearchSections.delete(entry.target);
                         }
@@ -1775,17 +1834,18 @@
                         fillTextSection(section);
                     }
                 }
+                for (const section of document.querySelectorAll("#searchresults section")) {
+                    if (section instanceof HTMLElement) {
+                        fillSearchSection(section);
+                    }
+                }
             }
 
             function badHeights() {
                 revealAll();
                 return [...document.getElementsByTagName("section")].filter(function (section) {
-                    section.style.height = "auto";
-                    section.style.contentVisibility = "initial";
-                    const contentHeight = section.offsetHeight;
-                    section.style.removeProperty("height");
-                    section.style.removeProperty("contentVisibility");
-                    return contentHeight !== section.offsetHeight;
+                    const calc = +getComputedStyle(section).getPropertyValue("--empty-height");
+                    return section.offsetHeight !== calc;
                 });
             }
 
