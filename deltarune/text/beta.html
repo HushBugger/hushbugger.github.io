@@ -300,7 +300,6 @@
             div.textbox {
                 white-space: pre;
                 padding: 5px;
-                position: relative;
             }
 
             #textboxes h1,
@@ -334,20 +333,27 @@
                 }
             }
 
-            a.linkbar {
+            .textbox.hovered {
+                position: relative;
+            }
+
+            .hoverbutton {
                 width: 20px;
                 height: 100%;
                 position: absolute;
                 top: 0;
-                left: 20px;
                 background-color: var(--background-color);
                 filter: invert(1);
                 -webkit-mask-position: 0 5px;
                 mask-position: 0 5px;
-                -webkit-mask-image: url("hyperlink.svg");
-                mask-image: url("hyperlink.svg");
                 -webkit-mask-repeat: no-repeat;
                 mask-repeat: no-repeat;
+            }
+
+            a.linkbar {
+                left: 20px;
+                -webkit-mask-image: url("hyperlink.svg");
+                mask-image: url("hyperlink.svg");
             }
 
             a.linkbar.copied {
@@ -358,19 +364,9 @@
             }
 
             a.sourcebar {
-                width: 20px;
-                height: 100%;
-                position: absolute;
-                top: 0;
-                left: 0;
-                background-color: var(--background-color);
-                filter: invert(1);
-                -webkit-mask-position: 0 5px;
-                mask-position: 0 5px;
+                left: 0px;
                 -webkit-mask-image: url("sourcefile.svg");
                 mask-image: url("sourcefile.svg");
-                -webkit-mask-repeat: no-repeat;
-                mask-repeat: no-repeat;
             }
 
             @media (max-width: 539px) {
@@ -1225,7 +1221,7 @@
             }
 
             const linkBar = document.createElement("a");
-            linkBar.classList.add("linkbar");
+            linkBar.classList.add("linkbar", "hoverbutton");
             linkBar.title = "Copy link";
             linkBar.addEventListener("click", function (e) {
                 if (e.ctrlKey || e.altKey || e.shiftKey || e.metaKey) {
@@ -1242,7 +1238,7 @@
             });
 
             const sourceBar = document.createElement("a");
-            sourceBar.classList.add("sourcebar");
+            sourceBar.classList.add("sourcebar", "hoverbutton");
             sourceBar.target = "_blank";
             sourceBar.title = "Source code";
 
@@ -1253,6 +1249,9 @@
                 const textbox = event.target.closest(".textbox");
                 if (activeBox === textbox) {
                     return;
+                }
+                if (activeBox) {
+                    activeBox.classList.remove("hovered");
                 }
                 if (!textbox || !(textbox instanceof HTMLDivElement)) {
                     activeBox = null;
@@ -1269,6 +1268,7 @@
                 linkBar.href = `#${id}`;
                 linkBar.classList.remove("copied");
                 textbox.appendChild(linkBar);
+                textbox.classList.add("hovered");
 
                 const [lang, chapterNo] = id.split(":");
                 const idx = +(/** @type {string} */ (textbox.dataset.idx));
