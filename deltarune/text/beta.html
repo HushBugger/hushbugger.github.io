@@ -228,7 +228,6 @@
                 line-height: 1em;
                 font-weight: normal;
                 text-shadow: 1px 1px 0px #03037d;
-                padding-left: 20px;
                 padding-top: 12px;
                 padding-bottom: 12px;
                 margin: 0px;
@@ -300,8 +299,17 @@
             div.textbox {
                 white-space: pre;
                 padding: 5px;
-                padding-left: 40px;
                 position: relative;
+            }
+
+            #textboxes h1,
+            #searchresults h1,
+            #searchresults div {
+                padding-left: 20px;
+            }
+
+            #textboxes div.textbox {
+                padding-left: 40px;
             }
 
             .jumped {
@@ -374,7 +382,7 @@
                     right: 0;
                 }
 
-                div.textbox {
+                #textboxes div.textbox {
                     padding-left: 20px;
                     padding-right: 20px;
                 }
