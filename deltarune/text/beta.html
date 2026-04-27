@@ -706,6 +706,15 @@
 
             loadConfigFromURL();
 
+            if (config.lang !== "en") {
+                const link = document.createElement("link");
+                link.rel = "preload";
+                link.as = "font";
+                link.crossOrigin = "anonymous";
+                link.href = "/style/JF-Dot-Shinonome-14-Regular.woff";
+                document.head.appendChild(link);
+            }
+
             addEventListener("popstate", function () {
                 const didChange = loadConfigFromURL();
                 render();
