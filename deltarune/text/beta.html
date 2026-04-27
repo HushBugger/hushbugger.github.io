@@ -1569,7 +1569,9 @@
                     elem.classList.remove("focused");
                 }
                 resultBox.classList.add("focused");
-                const section = document.getElementById("chunk-" + ((+result.idx / 100) | 0));
+                const section = document.getElementById(
+                    "chunk-" + ((+result.idx / CHUNK_SIZE) | 0)
+                );
                 if (section instanceof HTMLElement) {
                     fillTextSection(section);
                 }
