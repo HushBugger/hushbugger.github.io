@@ -28,25 +28,6 @@
             body {
                 --background-color: black;
                 --foreground-color: white;
-                /*
-                 * Some systems use subpixel antialiasing, a pretty cool technique for smoothening
-                 * the edges of glyphs.
-                 * Unfortunately our crisp straight-angle pixelated font is discolored by this.
-                 * I see this happen on my monitor and also in screenshots online.
-                 *
-                 * There's no portable directive for disabling it, but there are various
-                 * circumstances in which the browser doesn't apply it. One of those is if a
-                 * mix-blend-mode is active. (This is the option I hate the least.)
-                 *
-                 * You can check the spec for details, but a blend mode of "difference" preserves
-                 * the color for a black background, while "multiply" preserves the color for a
-                 * white background.
-                 *
-                 * Tested on GNOME Xorg (Debian Bookworm) using Gecko & Blink & WebkitGTK.
-                 * Tested on Windows 11 using Gecko & Blink. (Poorly configured ClearType blurs in Blink.)
-                 * Apparently modern macOS never uses subpixel antialiasing.
-                 */
-                --pixel-blend-mode: difference;
 
                 background: black;
                 color: white;
@@ -56,23 +37,26 @@
                 margin: 0px;
             }
 
+            body.light {
+                --background-color: white;
+                --foreground-color: #2c1708;
+            }
+
+            /* Subpixel antialiasing looks bad with our font. mix-blend-mode prevents it.
+             * On some browsers this causes blurry text so enable it selectively. */
+            body.crisptext {
+                mix-blend-mode: difference;
+            }
+            body.crisptext.light {
+                mix-blend-mode: multiply;
+            }
+
             #textboxes {
                 /* Already the default for most browsers.
                  * Force it to ensure accurate contain-intrinsic-height. */
                 font-size: 16px;
                 /* In-game line height (16px + 2px) */
                 line-height: 18px;
-                mix-blend-mode: var(--pixel-blend-mode);
-            }
-
-            body.light {
-                --background-color: white;
-                --foreground-color: #2c1708;
-                --pixel-blend-mode: multiply;
-            }
-
-            body.msedge {
-                --pixel-blend-mode: normal;
             }
 
             div.intro {
@@ -442,11 +426,30 @@
                 render();
             });
 
+            // We want to prevent subpixel antialiasing, see the `body.crisptext` rules.
+            //
+            // With a mix-blend-mode:
+            // - Blink on Windows 11 gives blurry text.
+            // - Firefox on Windows 11 doesn't blur.
+            // - Blink and Firefox on Linux don't blur.
+            //
+            // I'm having trouble enabling subpixel AA on Linux.
+            // I tested it in the past, presumably it still works.
+            //
+            // In Firefox on Windows 11 this successfully prevents subpixel AA.
+            //
+            // macOS supposedly doesn't do subpixel AA at all any more. And I don't
+            // think mobile systems do it.
+            //
+            // So enable our workaround on:
             if (
-                navigator.userAgent.includes(" Edg/") &&
-                navigator.userAgent.includes("Windows NT")
+                // Firefox on Windows
+                (navigator.userAgent.includes("Gecko/20100101") &&
+                    navigator.userAgent.includes("Windows NT")) ||
+                // Any browser on Linux (not including Android)
+                navigator.userAgent.includes("Linux")
             ) {
-                document.body.classList.add("msedge");
+                document.body.classList.add("crisptext");
             }
         </script>
         <div id="textboxes">
