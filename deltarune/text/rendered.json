@@ -374079,9 +374079,9 @@ false,
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_539_0": {
 "en": [
-"Shadows slip off like water.\nGreatly protects against Dark and Star attacks.",
+"Shadows slip off like water.\nGreatly protects against<span class=\"break\">\n</span>Dark and Star attacks.",
 false,
-46,
+64,
 46
 ],
 "ja": [
@@ -374163,9 +374163,9 @@ false,
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_565_0": {
 "en": [
-"A lodestone token shaped like a snail's shell.\nEnemy bullets give a bit more TP.",
+"A lodestone token shaped<span class=\"break\">\n</span>like a snail's shell.\nEnemy bullets give a bit<span class=\"break\">\n</span>more TP.",
 false,
-46,
+82,
 46
 ],
 "ja": [
@@ -374177,9 +374177,9 @@ false,
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_568_0": {
 "en": [
-"A lodestone token inscribed with the record of\na legend athlete. Enemy bullets give a bit\nmore TP.",
+"A lodestone token inscribed<span class=\"break\">\n</span>with the record of\na legend athlete. Enemy<span class=\"break\">\n</span>bullets give a bit\nmore TP.",
 false,
-64,
+100,
 64
 ],
 "ja": [
@@ -439103,9 +439103,9 @@ false,
 },
 "scr_text_slash_scr_text_gml_10537_0": {
 "en": [
-"A tea that has deteriorated after a short while\ndue to its poor craftsmanship. +10HP",
+"A tea that has deteriorated<span class=\"break\">\n</span>after a short while\ndue to its poor<span class=\"break\">\n</span>craftsmanship. +10HP",
 false,
-46,
+82,
 46
 ],
 "ja": [
@@ -441849,9 +441849,9 @@ false,
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_607_0": {
 "en": [
-"A dagger-like shard of the Black Knife.\nStrikes the weakness of dark-element enemies.",
+"A dagger-like shard of the<span class=\"break\">\n</span>Black Knife.\nStrikes the weakness of<span class=\"break\">\n</span>dark-element enemies.",
 false,
-46,
+82,
 46
 ],
 "ja": [
@@ -578301,9 +578301,9 @@ true,
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_539_0": {
 "en": [
-"Shadows slip off like water.\nGreatly protects against Dark and Star attacks.",
+"Shadows slip off like water.\nGreatly protects against<span class=\"break\">\n</span>Dark and Star attacks.",
 true,
-46,
+64,
 46
 ],
 "ja": [
@@ -578385,9 +578385,9 @@ true,
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_565_0": {
 "en": [
-"A lodestone token shaped like a snail's shell.\nEnemy bullets give a bit more TP.",
+"A lodestone token shaped<span class=\"break\">\n</span>like a snail's shell.\nEnemy bullets give a bit<span class=\"break\">\n</span>more TP.",
 true,
-46,
+82,
 46
 ],
 "ja": [
@@ -578399,9 +578399,9 @@ true,
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_568_0": {
 "en": [
-"A lodestone token inscribed with the record of\na legend athlete. Enemy bullets give a bit\nmore TP.",
+"A lodestone token inscribed<span class=\"break\">\n</span>with the record of\na legend athlete. Enemy<span class=\"break\">\n</span>bullets give a bit\nmore TP.",
 true,
-64,
+100,
 64
 ],
 "ja": [
@@ -579015,9 +579015,9 @@ false,
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_705_0": {
 "en": [
-"Although it looks brittle, it contains a magical\nenergy that blunts damage on impact. +4DF",
+"Although it looks brittle,<span class=\"break\">\n</span>it contains a magical\nenergy that blunts damage on<span class=\"break\">\n</span>impact. +4DF",
 false,
-46,
+82,
 46
 ],
 "ja": [
@@ -579225,9 +579225,9 @@ false,
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_768_0": {
 "en": [
-"Elegant lace ribbon with gloves,\ndelicate enough to see through. +4 DEF +2 ATK",
+"Elegant lace ribbon with<span class=\"break\">\n</span>gloves,\ndelicate enough to see<span class=\"break\">\n</span>through. +4 DEF +2 ATK",
 false,
-46,
+82,
 46
 ],
 "ja": [
@@ -582143,9 +582143,9 @@ true,
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_9_0": {
 "en": [
-"A candy that has grown sweeter with time.\nSaid to taste like toasted marshmallow. +120HP",
+"A candy that has grown<span class=\"break\">\n</span>sweeter with time.\nSaid to taste like toasted<span class=\"break\">\n</span>marshmallow. +120HP",
 false,
-46,
+82,
 46
 ],
 "ja": [
@@ -582717,9 +582717,9 @@ false,
 },
 "scr_itemdesc_single_slash_scr_itemdesc_single_gml_151_0": {
 "en": [
-"Bitter water that fell in droplets from the sky.\nRecovers all HP.",
+"Bitter water that fell in<span class=\"break\">\n</span>droplets from the sky.\nRecovers all HP.",
 false,
-46,
+64,
 46
 ],
 "ja": [
@@ -649145,9 +649145,9 @@ false,
 },
 "scr_text_slash_scr_text_gml_11457_0": {
 "en": [
-"A tea that has deteriorated after a short while\ndue to its poor craftsmanship. +10HP",
+"A tea that has deteriorated<span class=\"break\">\n</span>after a short while\ndue to its poor<span class=\"break\">\n</span>craftsmanship. +10HP",
 false,
-46,
+82,
 46
 ],
 "ja": [
@@ -651625,9 +651625,9 @@ true,
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_607_0": {
 "en": [
-"A dagger-like shard of the Black Knife.\nStrikes the weakness of dark-element enemies.",
+"A dagger-like shard of the<span class=\"break\">\n</span>Black Knife.\nStrikes the weakness of<span class=\"break\">\n</span>dark-element enemies.",
 true,
-46,
+82,
 46
 ],
 "ja": [
@@ -651695,9 +651695,9 @@ false,
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_630_0": {
 "en": [
-"A lance-like sword with red-and-white stripes.\nPerfect for jousting.",
+"A lance-like sword with<span class=\"break\">\n</span>red-and-white stripes.\nPerfect for jousting.",
 false,
-46,
+64,
 46
 ],
 "ja": [
@@ -651779,9 +651779,9 @@ false,
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_653_0": {
 "en": [
-"A thin scarf with a deep sheen. Holy writing has\nbeen pressed into it, imbuing it with magic.",
+"A thin scarf with a deep<span class=\"break\">\n</span>sheen. Holy writing has\nbeen pressed into it,<span class=\"break\">\n</span>imbuing it with magic.",
 false,
-46,
+82,
 46
 ],
 "ja": [
@@ -651849,9 +651849,9 @@ false,
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_676_0": {
 "en": [
-"It has no special powers. However, in order to\nattain this item, you became much stronger!",
+"It has no special powers.<span class=\"break\">\n</span>However, in order to\nattain this item, you became<span class=\"break\">\n</span>much stronger!",
 false,
-46,
+82,
 46
 ],
 "ja": [
@@ -651919,9 +651919,9 @@ false,
 },
 "scr_weaponinfo_slash_scr_weaponinfo_gml_699_0": {
 "en": [
-"A majestic sword with a white feathered hilt.\nSlightly increases money won.",
+"A majestic sword with a<span class=\"break\">\n</span>white feathered hilt.\nSlightly increases money<span class=\"break\">\n</span>won.",
 false,
-46,
+82,
 46
 ],
 "ja": [

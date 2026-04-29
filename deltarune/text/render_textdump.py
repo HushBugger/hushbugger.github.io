@@ -13,10 +13,7 @@ import xml.etree.ElementTree
 
 from dataclasses import dataclass, field
 
-from render_data import ALT_TEXTS, FUNNYTEXT_DIMS
-
-
-MAX_LINE_LEN = 33
+from render_data import ALT_TEXTS, FUNNYTEXT_DIMS, FORCE_WRAP
 
 BONUS_HEIGHTS: dict[tuple[str, str], int] = {}
 
@@ -80,23 +77,18 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
     i = 0
     linelen = 0
 
+    # 33 is where faceless dialogue boxes wrap.
+    MAX_LINE_LEN = 33 if not (lang == "en" and msgid in FORCE_WRAP) else 28
+
     def wrapline():
         nonlocal out, linelen
         if "rhythmgame" in msgid:
             return
         if (
             linelen > MAX_LINE_LEN
-            and "\n" not in text
+            and ("\n" not in text or msgid in FORCE_WRAP)
             and (
-                "#" not in text
-                or msgid.startswith(
-                    (
-                        "obj_readable_room1",
-                        "obj_npc_room_animated_slash_Other_10_gml_41_0",
-                        "obj_npc_room_animated_slash_Other_10_gml_57_0",
-                    )
-                )
-                or "`#" in text
+                "#" not in text or '"#1"' in text or msgid in FORCE_WRAP or "`#" in text
             )
             and not out.getvalue().endswith((" ", "\u3000"))
         ):
@@ -277,7 +269,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                         print(text)
                         sys.exit(1)
                 if text[i + 2] == "~":
-                    # e.g. "\F~1". 
+                    # e.g. "\F~1".
                     i += 1
                 i += 2
             case "/" if msgid == "obj_dw_churchb_rotatingtower_slash_Create_0_gml_90_0":

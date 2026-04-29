@@ -1,6 +1,43 @@
 from dataclasses import dataclass
 
 
+# These messages are so wide that they bring the maximum textbox width past 400px.
+# But they already have their own hard wraps, so the autosoftwrapping doesn't
+# kick in.
+# We force the matter, transforming e.g.
+#
+#   A lodestone token inscribed with the record of
+#   a legend athlete. Enemy bullets give a bit
+#   more TP.
+#
+#   A lodestone token inscribed
+#   with the record of
+#   a legend athlete. Enemy
+#   bullets give a bit
+#   more TP.
+#
+# We actually wrap these messages more narrowly than normal because that makes
+# them less jagged.
+FORCE_WRAP = {
+    "scr_armorinfo_slash_scr_armorinfo_gml_539_0",
+    "scr_armorinfo_slash_scr_armorinfo_gml_565_0",
+    "scr_armorinfo_slash_scr_armorinfo_gml_568_0",
+    "scr_text_slash_scr_text_gml_10537_0",
+    "scr_weaponinfo_slash_scr_weaponinfo_gml_607_0",
+    "scr_armorinfo_slash_scr_armorinfo_gml_705_0",
+    "scr_armorinfo_slash_scr_armorinfo_gml_768_0",
+    "scr_itemdesc_single_slash_scr_itemdesc_single_gml_9_0",
+    "scr_itemdesc_single_slash_scr_itemdesc_single_gml_151_0",
+    "scr_text_slash_scr_text_gml_11457_0",
+    "scr_weaponinfo_slash_scr_weaponinfo_gml_630_0",
+    "scr_weaponinfo_slash_scr_weaponinfo_gml_653_0",
+    "scr_weaponinfo_slash_scr_weaponinfo_gml_676_0",
+    "scr_weaponinfo_slash_scr_weaponinfo_gml_699_0",
+    # This one is funnier not to wrap
+    # "scr_keyiteminfo_slash_scr_keyiteminfo_gml_52_0",
+}
+
+
 @dataclass
 class Dim:
     width: int
