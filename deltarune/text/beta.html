@@ -957,7 +957,8 @@
                     if (hash.includes(":")) {
                         [, hashChap, hashMsgid] = hash.split(":");
                     } else {
-                        [hashChap, hashMsgid] = hash.split("_");
+                        hashChap = hash[0];
+                        hashMsgid = hash.slice(2);
                     }
                 }
 
