@@ -1713,9 +1713,6 @@
                         block: "center",
                     });
                 }
-                const newURL = new URL(String(window.location));
-                newURL.hash = "#" + target.id;
-                window.history.replaceState({}, "", newURL);
                 renderSearchCounter();
             }
 
