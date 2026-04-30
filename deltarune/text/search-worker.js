@@ -1,15 +1,12 @@
 "use strict";
 
 /**
- * @typedef {{
- *      chap: "all" | "1" | "2" | "3" | "4";
- *      lang: "en" | "ja" | "both";
- *  }} Config
+ * @typedef {'1' | '2' | '3' | '4'} Chapter
  *
  * @typedef {{
- *      meta: {"msgid": number, "en": number, "ja": number, "count": number};
- *      groups: Record<"1"|"2"|"3"|"4", Record<string, number[]>>;
- *  }} GroupIndex
+ *      chap: "all" | Chapter;
+ *      lang: "en" | "ja" | "both";
+ *  }} Config
  *
  * @typedef {{
  *      count: number;
@@ -31,7 +28,7 @@
  *  }} SearchQuery
  * @typedef {[number, number]} Span
  * @typedef {{
- *      chap: '1'|'2'|'3'|'4';
+ *      chap: Chapter;
  *      idx: number;
  *      lang: 'en' | 'ja';
  *      spans: Span[];
@@ -108,7 +105,7 @@ function jaFor(idx) {
  * @param {Config} config
  * @param {number} start
  * @param {number} end
- * @param {(idx: number, kind: 1|2|3|4, chap: '1'|'2'|'3'|'4') => void} callback
+ * @param {(idx: number, kind: 1|2|3|4, chap: Chapter) => void | true} callback
  */
 function iterText(config, start, end, callback) {
     start = Math.max(start, meta.ranges[config.chap][0]);
@@ -117,7 +114,7 @@ function iterText(config, start, end, callback) {
 
     /** @type {number | null} */
     let pendingHeader = null;
-    /** @type {'1'|'2'|'3'|'4'} */
+    /** @type {Chapter} */
     let chap = "1";
     for (
         let idx = start;
@@ -142,7 +139,9 @@ function iterText(config, start, end, callback) {
             }
             if (!msgidFor(idx)) {
                 // chapter header
-                callback(idx, 4, chap);
+                if (callback(idx, 4, chap)) {
+                    return;
+                }
                 pendingHeader = null;
             } else {
                 // section header, only output if section has children
@@ -173,13 +172,17 @@ function iterText(config, start, end, callback) {
 
         if (kind) {
             if (pendingHeader !== null) {
-                callback(pendingHeader, 4, chap);
+                if (callback(pendingHeader, 4, chap)) {
+                    return;
+                }
                 pendingHeader = null;
             }
             if (idx >= end) {
                 return;
             }
-            callback(idx, /** @type {1|2|3} */ (kind), chap);
+            if (callback(idx, /** @type {1|2|3} */ (kind), chap)) {
+                return;
+            }
         }
     }
 }

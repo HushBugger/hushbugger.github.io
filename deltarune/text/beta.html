@@ -569,8 +569,10 @@
             "use strict";
 
             /**
+             * @typedef {'1' | '2' | '3' | '4'} Chapter
+             *
              * @typedef {{
-             *      chap: "all" | "1" | "2" | "3" | "4";
+             *      chap: "all" | Chapter;
              *      lang: "en" | "ja" | "both";
              *  }} Config
              *
@@ -593,9 +595,8 @@
              *      generation: number;
              *  }} SearchQuery
              * @typedef {[number, number]} Span
-             * @typedef {[string, string, number]} Path
              * @typedef {{
-             *      chap: '1'|'2'|'3'|'4';
+             *      chap: Chapter;
              *      idx: number;
              *      lang: 'en' | 'ja';
              *      spans: Span[];
@@ -870,7 +871,7 @@
              * @param {Config} config
              * @param {number} start
              * @param {number} end
-             * @param {(idx: number, kind: 1|2|3|4, chap: '1'|'2'|'3'|'4') => void} callback
+             * @param {(idx: number, kind: 1|2|3|4, chap: Chapter) => void | true} callback
              */
             function iterText(config, start, end, callback) {
                 start = Math.max(start, meta.ranges[config.chap][0]);
@@ -879,7 +880,7 @@
 
                 /** @type {number | null} */
                 let pendingHeader = null;
-                /** @type {'1'|'2'|'3'|'4'} */
+                /** @type {Chapter} */
                 let chap = "1";
                 for (
                     let idx = start;
@@ -904,7 +905,9 @@
                         }
                         if (!msgidFor(idx)) {
                             // chapter header
-                            callback(idx, 4, chap);
+                            if (callback(idx, 4, chap)) {
+                                return;
+                            }
                             pendingHeader = null;
                         } else {
                             // section header, only output if section has children
@@ -935,15 +938,44 @@
 
                     if (kind) {
                         if (pendingHeader !== null) {
-                            callback(pendingHeader, 4, chap);
+                            if (callback(pendingHeader, 4, chap)) {
+                                return;
+                            }
                             pendingHeader = null;
                         }
                         if (idx >= end) {
                             return;
                         }
-                        callback(idx, /** @type {1|2|3} */ (kind), chap);
+                        if (callback(idx, /** @type {1|2|3} */ (kind), chap)) {
+                            return;
+                        }
                     }
                 }
+            }
+
+            /**
+             * @param {string} id
+             * @return {[Exclude<Config['chap'], 'all'>, string] | [null, null]}
+             */
+            function id2meta(id) {
+                /** @type {string | undefined} */
+                let hashChap;
+                /** @type {string | undefined} */
+                let hashMsgid;
+                if (id.includes(":")) {
+                    [, hashChap, hashMsgid] = id.split(":");
+                } else {
+                    hashChap = id[0];
+                    hashMsgid = id.slice(2);
+                }
+                if (
+                    !hashChap ||
+                    hashMsgid == null ||
+                    !meta.ranges[/** @type {Chapter} */ (hashChap)]
+                ) {
+                    return [null, null];
+                }
+                return [/** @type {Chapter} */ (hashChap), hashMsgid];
             }
         </script>
         <script>
@@ -975,19 +1007,7 @@
                     return;
                 }
 
-                /** @type {string | null | undefined} */
-                let hashChap = null;
-                /** @type {string | null | undefined} */
-                let hashMsgid = null;
-                if (window.location.hash.length > 1) {
-                    const hash = window.location.hash.slice(1);
-                    if (hash.includes(":")) {
-                        [, hashChap, hashMsgid] = hash.split(":");
-                    } else {
-                        hashChap = hash[0];
-                        hashMsgid = hash.slice(2);
-                    }
-                }
+                const [hashChap, hashMsgid] = id2meta(window.location.hash.slice(1));
 
                 activeTextSections.clear();
                 textObserver.disconnect();
@@ -1880,6 +1900,36 @@
                     sessionStorage.removeItem("dr-search-hidden");
                 }
             }
+
+            /** @param {NavigateEvent} event */
+            function handleNavigate(event) {
+                if (event.destination.url.split("#")[0] !== window.location.href.split("#")[0]) {
+                    return;
+                }
+                const id = new URL(event.destination.url).hash.slice(1);
+                if (!id || document.getElementById(id)) {
+                    return;
+                }
+
+                const [hashChap, hashMsgid] = id2meta(id);
+                if (!hashChap) {
+                    return;
+                }
+
+                iterText(config, ...meta.ranges[hashChap], function (idx) {
+                    if (msgidFor(idx) === hashMsgid) {
+                        const chunkNo = (idx / CHUNK_SIZE) | 0;
+                        const chunk = document.getElementById(`chunk-${chunkNo}`);
+                        if (chunk) {
+                            fillTextSection(chunk);
+                        }
+                        return true;
+                    }
+                });
+            }
+            try {
+                navigation.addEventListener("navigate", handleNavigate);
+            } catch (error) {}
 
             render();
 
