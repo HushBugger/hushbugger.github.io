@@ -152,12 +152,25 @@ function iterText(config, start, end, callback) {
         }
 
         let kind = 0;
-        if (config.lang !== "ja" && !(dup & 1 && config.chap === "all") && enLenFor(idx)) {
-            kind |= 1;
+        if (config.lang === "en") {
+            if (!(dup & 1 && config.chap === "all") && enLenFor(idx)) {
+                kind |= 1;
+            }
+        } else if (config.lang === "ja") {
+            if (!(dup & 2 && config.chap === "all") && jaLenFor(idx)) {
+                kind |= 2;
+            }
+        } else if (config.lang === "both") {
+            if (!((dup & 3) === 3 && config.chap === "all")) {
+                if (enLenFor(idx)) {
+                    kind |= 1;
+                }
+                if (jaLenFor(idx)) {
+                    kind |= 2;
+                }
+            }
         }
-        if (config.lang !== "en" && !(dup & 2 && config.chap === "all") && jaLenFor(idx)) {
-            kind |= 2;
-        }
+
         if (kind) {
             if (pendingHeader !== null) {
                 callback(pendingHeader, 4, chap);
