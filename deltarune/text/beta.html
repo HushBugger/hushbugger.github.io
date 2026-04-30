@@ -1012,6 +1012,8 @@
                 activeTextSections.clear();
                 textObserver.disconnect();
                 applyTextHighlights();
+                deferredUnloadedText.clear();
+                document.removeEventListener("selectionchange", tryUnloadDeferred);
 
                 let newHTML = "";
                 /** @type {string | null} */
@@ -1093,20 +1095,47 @@
             /** @type {Map<HTMLElement, Range[]>} */
             const activeSearchSections = new Map();
 
+            /** @type {Set<HTMLElement>} */
+            const deferredUnloadedText = new Set();
+
             const textObserver = new IntersectionObserver(function (entries) {
                 for (const entry of entries) {
                     if (!(entry.target instanceof HTMLElement)) {
                         continue;
                     }
+                    if (entry.isIntersecting) {
+                        deferredUnloadedText.delete(entry.target);
+                    }
                     if (entry.isIntersecting && !entry.target.hasChildNodes()) {
                         fillTextSection(entry.target);
                     } else if (!entry.isIntersecting && entry.target.hasChildNodes()) {
                         fixHeight(entry.boundingClientRect, entry.target);
-                        entry.target.innerHTML = "";
-                        activeTextSections.delete(entry.target);
+                        unloadTextSection(entry.target);
                     }
                 }
             });
+
+            /** @param {HTMLElement} section */
+            function unloadTextSection(section) {
+                const selection = getSelection();
+                if (selection && !selection.isCollapsed && selection.containsNode(section, true)) {
+                    deferredUnloadedText.add(section);
+                    document.addEventListener("selectionchange", tryUnloadDeferred);
+                    return;
+                }
+                section.innerHTML = "";
+                activeTextSections.delete(section);
+                deferredUnloadedText.delete(section);
+            }
+
+            function tryUnloadDeferred() {
+                for (const section of deferredUnloadedText) {
+                    unloadTextSection(section);
+                }
+                if (!deferredUnloadedText.size) {
+                    document.removeEventListener("selectionchange", tryUnloadDeferred);
+                }
+            }
 
             /**
              * Estimated section heights should be accurate. But what if they're not?
