@@ -1289,10 +1289,12 @@
             }
 
             function applyTextHighlights() {
-                CSS.highlights.set(
-                    "text-highlight",
-                    new Highlight(...[...activeTextSections.values()].flat())
-                );
+                if (CSS.highlights) {
+                    CSS.highlights.set(
+                        "text-highlight",
+                        new Highlight(...[...activeTextSections.values()].flat())
+                    );
+                }
             }
 
             /** @param {Node|null|undefined} elem */
@@ -1399,7 +1401,9 @@
                     searchResultsByChunk.clear();
                     activeSearchSections.clear();
                     activeTextSections.clear();
-                    CSS.highlights.clear();
+                    if (CSS.highlights) {
+                        CSS.highlights.clear();
+                    }
                     for (const img of document.querySelectorAll("img.highlit")) {
                         img.classList.remove("highlit");
                     }
@@ -1611,10 +1615,12 @@
                     }
                 }
                 activeSearchSections.set(section, ranges);
-                CSS.highlights.set(
-                    "search-highlight",
-                    new Highlight(...[...activeSearchSections.values()].flat())
-                );
+                if (CSS.highlights) {
+                    CSS.highlights.set(
+                        "search-highlight",
+                        new Highlight(...[...activeSearchSections.values()].flat())
+                    );
+                }
             }
 
             /**
