@@ -1442,7 +1442,8 @@
                     // Mapping "…" to "..." gives offset headaches
                 ]);
 
-                for (const char of query) {
+                for (let char of query) {
+                    char = replacements.get(char) || char;
                     // RegExp.escape() is too modern.
                     // AFAICT this is good enough for our purposes.
                     if (".*+?^${}()|[]\\".includes(char)) {
@@ -1450,7 +1451,7 @@
                     } else if (/\s/.test(char)) {
                         rawPattern += " ";
                     } else {
-                        rawPattern += replacements.get(char) || char;
+                        rawPattern += char;
                     }
                 }
                 return new RegExp(rawPattern, "ig");
