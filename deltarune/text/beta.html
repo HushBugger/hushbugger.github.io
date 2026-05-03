@@ -204,11 +204,6 @@
                 background-color: #bbb;
             }
 
-            #searchresults h1.result:hover {
-                padding-top: 10px;
-                padding-bottom: 10px;
-            }
-
             h1 {
                 font-size: 2em;
                 line-height: 1em;
@@ -280,7 +275,7 @@
                     white-space: pre;
                 }
 
-                h1 span.break {
+                #textboxes h1 span.break {
                     display: none;
                 }
 
@@ -299,6 +294,10 @@
                 #searchresults span.break {
                     white-space: normal;
                     text-wrap: nowrap;
+                }
+
+                #searchresults h1 span.break {
+                    display: none;
                 }
 
                 #controls {
@@ -1333,7 +1332,7 @@
                 if (!(event.target instanceof Element)) {
                     return;
                 }
-                const textbox = event.target.closest(".textbox");
+                const textbox = event.target.closest("#textboxes .textbox");
                 if (activeBox === textbox) {
                     return;
                 }
