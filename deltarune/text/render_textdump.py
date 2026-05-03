@@ -642,13 +642,14 @@ def wraptitle(text: str) -> tuple[str, int, int]:
             npos += 1
             wpos += 1
         first = False
+        # Like <span class="break"> but fully ignored by search
         if len(piece) + wpos > 40:
-            out.append("\n")
+            out.append("<br/>")
             npos = wpos = 0
             nh += 32
             wh += 32
         elif len(piece) + npos > 20:
-            out.append('<span class="break">\n</span>')
+            out.append('<br class="soft"/>')
             npos = 0
             nh += 32
         out.append(piece)
