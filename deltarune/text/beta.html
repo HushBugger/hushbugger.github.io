@@ -147,6 +147,7 @@
                 flex: 1;
                 min-height: 0;
                 overflow-y: auto;
+                overflow-x: hidden;
                 overflow-x: clip;
                 background-color: inherit;
                 width: 100%;
@@ -242,7 +243,7 @@
                 }
 
                 .hideresults #searchresults {
-                    display: revert;
+                    display: block;
                 }
 
                 html,
@@ -258,8 +259,7 @@
                 }
 
                 #textboxes span.break {
-                    white-space: normal;
-                    text-wrap: nowrap;
+                    white-space: nowrap;
                 }
 
                 #textboxes div.dual {
@@ -292,8 +292,7 @@
                 }
 
                 #searchresults span.break {
-                    white-space: normal;
-                    text-wrap: nowrap;
+                    white-space: nowrap;
                 }
 
                 #searchresults h1 br.soft {
@@ -662,7 +661,9 @@
                     } else {
                         newURL.searchParams.set(select.key, value);
                     }
-                    newURL.searchParams.sort();
+                    if (newURL.searchParams.sort) {
+                        newURL.searchParams.sort();
+                    }
                     window.history.pushState({}, "", newURL);
                     // @ts-ignore
                     config[select.key] = value;
