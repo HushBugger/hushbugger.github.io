@@ -554,7 +554,7 @@ sourcemap: dict[str, dict[str, str]] = json.load(
     open("sourcemap.json", encoding="utf-8")
 )
 images: dict[
-    int,
+    str,
     dict[str, dict[str, tuple[tuple[str, int, int], tuple[str, int, int]]]],
 ] = json.load(open("images.json", encoding="utf-8"))
 
