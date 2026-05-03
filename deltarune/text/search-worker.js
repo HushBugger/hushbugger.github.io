@@ -26,13 +26,7 @@
  *      config: Config;
  *      generation: number;
  *  }} SearchQuery
- * @typedef {[number, number]} Span
- * @typedef {{
- *      chap: Chapter;
- *      idx: number;
- *      lang: 'en' | 'ja';
- *      spans: Span[];
- *  }} Result
+ * @typedef {number} Result
  * @typedef {{
  *      generation: number;
  *      results: Result[];
@@ -215,7 +209,7 @@ function preprocess(lang) {
     }
     preprocessed[lang] = true;
 
-    const replacements = new Map([
+    const normalizeMap = new Map([
         ["！", "!"],
         ["？", "?"],
         ["＊", "*"],
@@ -244,7 +238,7 @@ function preprocess(lang) {
                     }
                     return "";
                 }
-                return replacements.get(match) || " ";
+                return normalizeMap.get(match) || " ";
             }
         );
     }
@@ -304,36 +298,12 @@ function doSearch(query) {
         results: [],
     };
 
-    iterText(query.config, ...meta.ranges[query.config.chap], function (idx, kind, chap) {
-        if (kind === 4 || kind & 1) {
-            /** @type {Span[]} */
-            const spans = [];
-            for (const match of munged[idx * 2].matchAll(query.query)) {
-                spans.push([match.index, match.index + match[0].length]);
-            }
-            if (spans.length) {
-                results.results.push({
-                    chap: chap,
-                    idx: idx,
-                    lang: "en",
-                    spans: spans,
-                });
-            }
+    iterText(query.config, ...meta.ranges[query.config.chap], function (idx, kind) {
+        if ((kind === 4 || kind & 1) && munged[idx * 2].search(query.query) !== -1) {
+            results.results.push(idx * 2);
         }
-        if (kind & 2) {
-            /** @type {Span[]} */
-            const spans = [];
-            for (const match of munged[idx * 2 + 1].matchAll(query.query)) {
-                spans.push([match.index, match.index + match[0].length]);
-            }
-            if (spans.length) {
-                results.results.push({
-                    chap: chap,
-                    idx: idx,
-                    lang: "ja",
-                    spans: spans,
-                });
-            }
+        if (kind & 2 && munged[idx * 2 + 1].search(query.query) !== -1) {
+            results.results.push(idx * 2 + 1);
         }
     });
 

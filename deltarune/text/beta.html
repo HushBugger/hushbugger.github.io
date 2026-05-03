@@ -593,13 +593,7 @@
              *      config: Config;
              *      generation: number;
              *  }} SearchQuery
-             * @typedef {[number, number]} Span
-             * @typedef {{
-             *      chap: Chapter;
-             *      idx: number;
-             *      lang: 'en' | 'ja';
-             *      spans: Span[];
-             *  }} Result
+             * @typedef {number} Result
              * @typedef {{
              *      generation: number;
              *      results: Result[];
@@ -994,6 +988,9 @@
 
             let searchGeneration = 0;
 
+            /** @type {RegExp | null} */
+            let searchQuery = null;
+
             /** @type {Result[] | null} */
             let searchResults = null;
 
@@ -1252,26 +1249,11 @@
                     return;
                 }
                 for (const result of results) {
-                    const msgid = msgidFor(result.idx);
-                    const dup = dupFor(result.idx);
-                    let id;
-                    if (!msgid) {
-                        id = result.chap;
-                    } else if (dup & 4) {
-                        id = result.chap + "_" + msgid;
-                    } else {
-                        id = `${result.lang}:${result.chap}:${msgidFor(+result.idx)}`;
-                    }
-                    const node = document.getElementById(id);
+                    const node = document.getElementById(idForResult(result));
                     if (!node) {
                         continue;
                     }
-                    for (const span of result.spans) {
-                        const range = getRange(node, ...span);
-                        if (range) {
-                            ranges.push(range);
-                        }
-                    }
+                    ranges.push(...highlightElem(node, result >> 1));
                 }
             }
 
@@ -1409,13 +1391,15 @@
                     searchPrev.disabled = true;
                     searchNext.disabled = true;
                     searchGeneration++;
+                    searchQuery = null;
                     return;
                 }
+                searchQuery = compileQuery(searchBar.value);
                 /** @type {SearchQuery} */
                 const query = {
                     type: "query",
                     config: config,
-                    query: compileQuery(searchBar.value),
+                    query: searchQuery,
                     generation: ++searchGeneration,
                 };
                 searchWorker.postMessage(query);
@@ -1424,26 +1408,27 @@
             if (!searchBar.value) {
                 searchBar.value = sessionStorage.getItem("dr-search-query") || "";
             }
-            processSearchInput();
+
+            const normalizeMap = new Map([
+                ["！", "!"],
+                ["？", "?"],
+                ["＊", "*"],
+                ["。", "."],
+                ["～", "~"],
+                ["：", ":"],
+                ["（", "("],
+                ["）", ")"],
+                ["&gt;", ">"],
+                ["&lt;", "<"],
+                ["&amp;", "&"],
+            ]);
 
             /** @param {string} query */
             function compileQuery(query) {
                 let rawPattern = "";
 
-                const replacements = new Map([
-                    ["！", "!"],
-                    ["？", "?"],
-                    ["＊", "*"],
-                    ["。", "\\."],
-                    ["～", "~"],
-                    ["：", ":"],
-                    ["（", "("],
-                    ["）", ")"],
-                    // Mapping "…" to "..." gives offset headaches
-                ]);
-
                 for (let char of query) {
-                    char = replacements.get(char) || char;
+                    char = normalizeMap.get(char) || char;
                     // RegExp.escape() is too modern.
                     // AFAICT this is good enough for our purposes.
                     if (".*+?^${}()|[]\\".includes(char)) {
@@ -1456,6 +1441,8 @@
                 }
                 return new RegExp(rawPattern, "ig");
             }
+
+            processSearchInput();
 
             function renderSearchCounter() {
                 if (!searchResults) {
@@ -1500,9 +1487,10 @@
                     /** @type {Result | null} */
                     let preloadFocus = null;
                     for (const result of chunk) {
-                        const msgIdx = result.idx;
-                        narrowHeight += result.lang === "en" ? nhenFor(msgIdx) : nhjaFor(msgIdx);
-                        wideHeight += result.lang === "en" ? whenFor(msgIdx) : whjaFor(msgIdx);
+                        const msgIdx = result >> 1;
+                        const lang = result & 1 ? "ja" : "en";
+                        narrowHeight += lang === "en" ? nhenFor(msgIdx) : nhjaFor(msgIdx);
+                        wideHeight += lang === "en" ? whenFor(msgIdx) : whjaFor(msgIdx);
 
                         const textChunkIdx = (msgIdx / CHUNK_SIZE) | 0;
                         let groupResults = searchResultsByChunk.get(textChunkIdx);
@@ -1513,7 +1501,7 @@
                         }
 
                         if (pendingFocusedResult && !preloadFocus) {
-                            if (pendingFocusedResult === result.lang + ":" + msgIdx) {
+                            if (pendingFocusedResult === lang + ":" + msgIdx) {
                                 preloadFocus = result;
                                 pendingFocusedResult = null;
                             }
@@ -1589,29 +1577,25 @@
                 let newHTML = "";
                 for (let i = startIdx; i < endIdx; i++) {
                     const result = searchResults[i];
-                    if (dupFor(result.idx) & 4) {
-                        newHTML += `<h1 data-search-idx="${i}" class="result">${enFor(result.idx)}</h1>`;
-                        continue;
-                    }
-                    if (result.lang === "ja") {
+                    const msgIdx = result >> 1;
+                    if (dupFor(msgIdx) & 4) {
+                        newHTML += `<h1 data-search-idx="${i}" class="result">${enFor(msgIdx)}</h1>`;
+                    } else if (result & 1) {
                         newHTML +=
                             `<div data-search-idx="${i}" class="textbox result ja" lang="ja">` +
-                            `${jaFor(result.idx)}</div>`;
+                            `${jaFor(msgIdx)}</div>`;
                     } else {
                         newHTML +=
                             `<div data-search-idx="${i}" class="textbox result">` +
-                            `${enFor(result.idx)}</div>`;
+                            `${enFor(msgIdx)}</div>`;
                     }
                 }
                 section.innerHTML = newHTML;
                 const ranges = [];
                 for (let i = 0; i < section.childNodes.length; i++) {
-                    for (const span of searchResults[startIdx + i].spans) {
-                        const node = section.childNodes[i];
-                        const range = getRange(node, ...span);
-                        if (range) {
-                            ranges.push(range);
-                        }
+                    const node = section.childNodes[i];
+                    if (node instanceof HTMLElement) {
+                        ranges.push(...highlightElem(node, searchResults[startIdx + i] >> 1));
                     }
                 }
                 activeSearchSections.set(section, ranges);
@@ -1624,23 +1608,67 @@
             }
 
             /**
-             * @param {ChildNode} elem
-             * @param {number} start
-             * @param {number} end
-             * @returns {Range | null}
+             * @param {string} text
+             * @return {string}
              */
-            function getRange(elem, start, end) {
-                const range = new Range();
+            function munge(text) {
+                return text.replace(
+                    /<[^>]*>|[ \n\u3000]{2,}|[\n\u3000]|&gt;|&lt;|&amp;|[！？＊。～：（）]/g,
+                    function (match) {
+                        if (match[0] === "<") {
+                            const altIdx = match.indexOf('alt="');
+                            if (altIdx !== -1) {
+                                return match.slice(altIdx + 5).split('"')[0];
+                            }
+                            return "";
+                        }
+                        return normalizeMap.get(match) || " ";
+                    }
+                );
+            }
+
+            /**
+             * @param {HTMLElement} elem
+             * @param {number} msgIdx
+             * @returns {Range[]}
+             */
+            function highlightElem(elem, msgIdx) {
+                if (!searchQuery) {
+                    return [];
+                }
+                const text = munge(elem.lang === "ja" ? jaFor(msgIdx) : enFor(msgIdx));
+                /** @type {[number, number][]} */
+                const matches = [];
+                for (const match of text.matchAll(searchQuery)) {
+                    if (
+                        matches[matches.length - 1] &&
+                        matches[matches.length - 1][1] === match.index
+                    ) {
+                        matches[matches.length - 1][1] += match[0].length;
+                    } else {
+                        matches.push([match.index, match.index + match[0].length]);
+                    }
+                }
+                if (!matches.length) {
+                    return [];
+                }
+                /** @type {Range[]} */
+                const ranges = [];
                 try {
                     /** @type {ChildNode[]} */
                     const stack = [elem];
+                    let range = new Range();
+                    let matchIdx = 0;
                     let pos = 0;
                     let foundStart = false;
-                    while (stack.length) {
+                    while (stack.length && matchIdx < matches.length) {
+                        const [start, end] = matches[matchIdx];
                         const cur = stack[stack.length - 1];
                         if (cur instanceof Text) {
                             let isWhitespace = false;
                             let elemPos = 0;
+                            let gotoNextMatch = false;
+                            const oldPos = pos;
                             for (const piece of cur.textContent.split(/(\s+)/)) {
                                 let realWidth, posWidth;
                                 if (isWhitespace) {
@@ -1663,11 +1691,20 @@
                                     } else {
                                         range.setEnd(cur, end - pos + elemPos);
                                     }
-                                    return range;
+                                    ranges.push(range);
+                                    range = new Range();
+                                    matchIdx++;
+                                    foundStart = false;
+                                    gotoNextMatch = true;
+                                    break;
                                 }
                                 isWhitespace = !isWhitespace;
                                 pos += posWidth;
                                 elemPos += realWidth;
+                            }
+                            if (gotoNextMatch) {
+                                pos = oldPos;
+                                continue;
                             }
                         } else if (cur instanceof HTMLImageElement) {
                             if (!foundStart && pos + cur.alt.length >= start) {
@@ -1679,7 +1716,11 @@
                             }
                             if (foundStart && pos + cur.alt.length >= end) {
                                 range.setEnd(cur, 0);
-                                return range;
+                                ranges.push(range);
+                                range = new Range();
+                                matchIdx++;
+                                foundStart = false;
+                                continue;
                             }
                             pos += cur.alt.length;
                         }
@@ -1691,11 +1732,11 @@
                                 stack.pop();
                             }
                             if (stack.length <= 1) {
-                                return null;
+                                break;
                             }
                             const sib = stack[stack.length - 1].nextSibling;
                             if (!sib) {
-                                return null;
+                                break;
                             }
                             stack[stack.length - 1] = sib;
                         }
@@ -1703,7 +1744,7 @@
                 } catch (error) {
                     console.error(error);
                 }
-                return null;
+                return ranges;
             }
 
             searchResultsDiv.addEventListener("click", function (event) {
@@ -1717,15 +1758,31 @@
                 }
             });
 
+            /**
+             * @param {number} idx
+             * @return {Chapter}
+             */
+            function chapForIdx(idx) {
+                for (const chap of /** @type {const} */ (["1", "2", "3"])) {
+                    if (idx < meta.ranges[chap][1]) {
+                        return chap;
+                    }
+                }
+                return "4";
+            }
+
             /** @param {Result} result */
             function idForResult(result) {
-                const msgid = msgidFor(result.idx);
+                const idx = result >> 1;
+                const chap = chapForIdx(idx);
+                const msgid = msgidFor(idx);
                 if (!msgid) {
-                    return result.chap;
-                } else if (dupFor(result.idx) & 4) {
-                    return result.chap + "_" + msgid;
+                    return chap;
+                } else if (dupFor(idx) & 4) {
+                    return chap + "_" + msgid;
                 } else {
-                    return `${result.lang}:${result.chap}:${msgidFor(result.idx)}`;
+                    const lang = result & 1 ? "ja" : "en";
+                    return `${lang}:${chap}:${msgidFor(idx)}`;
                 }
             }
 
@@ -1737,14 +1794,14 @@
                     return;
                 }
                 const result = searchResults[+resultBox.dataset.searchIdx];
-                sessionStorage.setItem("dr-search-focus", result.lang + ":" + result.idx);
+                const msgIdx = result >> 1;
+                const lang = result & 1 ? "ja" : "en";
+                sessionStorage.setItem("dr-search-focus", lang + ":" + msgIdx);
                 for (const elem of document.getElementsByClassName("focused")) {
                     elem.classList.remove("focused");
                 }
                 resultBox.classList.add("focused");
-                const section = document.getElementById(
-                    "chunk-" + ((+result.idx / CHUNK_SIZE) | 0)
-                );
+                const section = document.getElementById("chunk-" + ((+msgIdx / CHUNK_SIZE) | 0));
                 if (section instanceof HTMLElement) {
                     fillTextSection(section);
                 }
