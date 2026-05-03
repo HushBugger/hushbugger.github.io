@@ -1001,6 +1001,8 @@
             /** @type {Map<number, Result[]>} */
             const searchResultsByChunk = new Map();
 
+            const CHUNK_SIZE = 100;
+
             function render() {
                 const thisRender = `${config.chap}:${config.lang}`;
                 if (thisRender === curRendered) {
@@ -1470,8 +1472,6 @@
                     searchCounter.innerText = `${idx + 1}/${searchResults.length} results`;
                 }
             }
-
-            const CHUNK_SIZE = 100;
 
             function renderSearchResults() {
                 searchResultsByChunk.clear();
