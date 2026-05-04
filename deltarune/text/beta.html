@@ -1642,8 +1642,13 @@
                 const text = munge(elem.lang === "ja" ? jaFor(msgIdx) : enFor(msgIdx));
                 /** @type {[number, number][]} */
                 const matches = [];
-                for (const match of text.matchAll(searchQuery)) {
-                    if (
+                searchQuery.lastIndex = 0;
+                /** @type {RegExpExecArray|null} */
+                let match;
+                while ((match = searchQuery.exec(text))) {
+                    if (!match[0].length) {
+                        searchQuery.lastIndex++;
+                    } else if (
                         matches[matches.length - 1] &&
                         matches[matches.length - 1][1] === match.index
                     ) {
