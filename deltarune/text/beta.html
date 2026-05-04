@@ -27,7 +27,7 @@
                 src: url("/style/JF-Dot-Shinonome-14-Regular.woff") format("woff");
             }
 
-            body {
+            html {
                 --background-color: black;
                 --foreground-color: white;
 
@@ -36,35 +36,36 @@
                 background: var(--background-color);
                 color: var(--foreground-color);
                 font-family: sans-serif;
-                margin: 0px;
 
                 /* Already the default for most browsers.
                  * Force it to ensure correct heights. */
                 font-size: 16px;
                 /* In-game line height (16px + 2px) */
                 line-height: 18px;
-            }
 
-            html {
                 scroll-padding-top: 92px;
             }
 
-            html:has(body.hidesearch) {
+            html.hidesearch {
                 scroll-padding-top: 48px;
             }
 
-            body.light {
+            html.light {
                 --background-color: white;
                 --foreground-color: #2c1708;
             }
 
             /* Subpixel antialiasing looks bad with our font. mix-blend-mode prevents it.
              * On some browsers this causes blurry text so enable it selectively. */
-            body.crisptext {
+            html.crisptext body {
                 mix-blend-mode: difference;
             }
-            body.crisptext.light {
+            html.crisptext.light body {
                 mix-blend-mode: multiply;
+            }
+
+            body {
+                margin: 0px;
             }
 
             #logo {
@@ -73,7 +74,7 @@
                 display: block;
             }
 
-            body.light #logo {
+            html.light #logo {
                 filter: grayscale(1) invert(1);
             }
 
@@ -83,7 +84,7 @@
                 padding: 0.4em;
             }
 
-            body.light #intro a {
+            html.light #intro a {
                 color: var(--background-color);
             }
 
@@ -136,7 +137,7 @@
                 border-radius: 3px;
             }
 
-            body.light #light-mode-toggle {
+            html.light #light-mode-toggle {
                 background-image: url("spr_introimage1_1.png");
             }
 
@@ -159,13 +160,13 @@
                 color: var(--foreground-color);
             }
 
-            body.light #searchresults {
+            html.light #searchresults {
                 background-color: #ddd;
             }
 
             .hideresults #searchresults,
             .hidesearch #controls search.row,
-            body.hidesearch #searchresults {
+            html.hidesearch #searchresults {
                 display: none;
             }
 
@@ -203,7 +204,7 @@
                 background-color: #555;
             }
 
-            body.light #searchresults .result:hover {
+            html.light #searchresults .result:hover {
                 background-color: #bbb;
             }
 
@@ -218,7 +219,7 @@
                 white-space: pre;
             }
 
-            body.light h1 {
+            html.light h1 {
                 text-shadow: -1px -1px 0px #fcfcdc;
             }
 
@@ -249,7 +250,7 @@
                 }
 
                 html,
-                html:has(body.hidesearch) {
+                html.hidesearch {
                     scroll-padding-top: initial;
                 }
             }
@@ -330,7 +331,7 @@
                 }
             }
 
-            body.light .jumped {
+            html.light .jumped {
                 animation-name: bright-highlight;
             }
 
@@ -452,12 +453,12 @@
                 color: #81c0ff;
             }
 
-            body.light span.Y,
-            body.light span.G,
-            body.light span.A,
-            body.light span.V,
-            body.light span.S,
-            body.light span.I {
+            html.light span.Y,
+            html.light span.G,
+            html.light span.A,
+            html.light span.V,
+            html.light span.S,
+            html.light span.I {
                 -webkit-text-stroke: 2px var(--foreground-color);
                 paint-order: stroke fill;
             }
@@ -476,7 +477,7 @@
             /* If these selectors aren't specific enough they become a CPU bottleneck */
 
             #searchresults section *::highlight(search-highlight),
-            body:not(.hidesearch) #textboxes section *::highlight(text-highlight) {
+            html:not(.hidesearch) #textboxes section *::highlight(text-highlight) {
                 background-color: var(--highlight-color, yellow);
                 color: black;
             }
@@ -486,15 +487,15 @@
                 --highlight-color: orange;
             }
 
-            body:not(.hidesearch) img.highlit {
+            html:not(.hidesearch) img.highlit {
                 filter: drop-shadow(1.5px 1.5px var(--highlight-color, yellow))
                     drop-shadow(1.5px -1.5px var(--highlight-color, yellow))
                     drop-shadow(-1.5px 1.5px var(--highlight-color, yellow))
                     drop-shadow(-1.5px -1.5px var(--highlight-color, yellow));
             }
 
-            body:not(.hidesearch) div.highlit,
-            body:not(.hidesearch) h1.highlit {
+            html:not(.hidesearch) div.highlit,
+            html:not(.hidesearch) h1.highlit {
                 background-color: var(--highlight-color, yellow);
                 color: black;
                 animation-name: none;
@@ -632,7 +633,7 @@
             );
 
             lightModeToggle.addEventListener("click", function () {
-                if (document.body.classList.toggle("light")) {
+                if (document.documentElement.classList.toggle("light")) {
                     localStorage.setItem("deltaruneLightMode", "true");
                 } else {
                     localStorage.removeItem("deltaruneLightMode");
@@ -640,13 +641,13 @@
             });
 
             if (localStorage.getItem("deltaruneLightMode")) {
-                document.body.classList.add("light");
+                document.documentElement.classList.add("light");
             }
 
             if (sessionStorage.getItem("dr-search-hidden")) {
-                document.body.classList.add("hideresults");
+                document.documentElement.classList.add("hideresults");
                 if (sessionStorage.getItem("dr-search-hidden") === "2") {
-                    document.body.classList.add("hidesearch");
+                    document.documentElement.classList.add("hidesearch");
                 }
             }
 
@@ -730,7 +731,7 @@
                 }
             });
 
-            // We want to prevent subpixel antialiasing, see the `body.crisptext` rules.
+            // We want to prevent subpixel antialiasing, see the `html.crisptext` rules.
             //
             // With a mix-blend-mode:
             // - Blink on Windows 11 gives blurry text.
@@ -753,7 +754,7 @@
                 // Any browser on Linux (not including Android)
                 navigator.userAgent.includes("Linux")
             ) {
-                document.body.classList.add("crisptext");
+                document.documentElement.classList.add("crisptext");
             }
 
             /** @type {null | Worker} */
@@ -1978,7 +1979,7 @@
                 setSearchHidden(false);
             });
             searchCounter.addEventListener("click", function () {
-                if (document.body.classList.contains("hideresults")) {
+                if (document.documentElement.classList.contains("hideresults")) {
                     setSearchHidden(false);
                 } else {
                     setSearchHidden(true);
@@ -1986,7 +1987,7 @@
             });
 
             searchToggle.addEventListener("click", function () {
-                if (document.body.classList.contains("hidesearch")) {
+                if (document.documentElement.classList.contains("hidesearch")) {
                     setSearchHidden(false);
                 } else {
                     setSearchHidden("very");
@@ -2001,15 +2002,15 @@
             function setSearchHidden(value) {
                 if (value === "very") {
                     // https://www.pixiv.net/en/artworks/57651690#3
-                    document.body.classList.add("hideresults", "hidesearch");
+                    document.documentElement.classList.add("hideresults", "hidesearch");
                     sessionStorage.setItem("dr-search-hidden", "2");
                 } else if (value) {
-                    document.body.classList.add("hideresults");
+                    document.documentElement.classList.add("hideresults");
                     // don't need to remove hidesearch, if it's active we can
                     // only get here by clicking #textboxes
                     sessionStorage.setItem("dr-search-hidden", "1");
                 } else {
-                    document.body.classList.remove("hideresults", "hidesearch");
+                    document.documentElement.classList.remove("hideresults", "hidesearch");
                     sessionStorage.removeItem("dr-search-hidden");
                 }
             }
