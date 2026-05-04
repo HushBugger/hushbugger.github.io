@@ -492,6 +492,13 @@
                     drop-shadow(-1.5px 1.5px var(--highlight-color, yellow))
                     drop-shadow(-1.5px -1.5px var(--highlight-color, yellow));
             }
+
+            body:not(.hidesearch) div.highlit,
+            body:not(.hidesearch) h1.highlit {
+                background-color: var(--highlight-color, yellow);
+                color: black;
+                animation-name: none;
+            }
         </style>
     </head>
 
@@ -1256,13 +1263,17 @@
                     if (!node) {
                         continue;
                     }
-                    ranges.push(...highlightElem(node, result >> 1));
+                    if (CSS.highlights) {
+                        ranges.push(...highlightElem(node, result >> 1));
+                    } else {
+                        node.classList.add("highlit");
+                    }
                 }
             }
 
             function refreshTextHighlights() {
-                for (const img of document.querySelectorAll("#textboxes img.highlit")) {
-                    img.classList.remove("highlit");
+                for (const elem of document.querySelectorAll("#textboxes .highlit")) {
+                    elem.classList.remove("highlit");
                 }
                 for (const section of document.querySelectorAll("#textboxes section")) {
                     if (section instanceof HTMLElement) {
@@ -1388,8 +1399,8 @@
                     if (CSS.highlights) {
                         CSS.highlights.clear();
                     }
-                    for (const img of document.querySelectorAll("img.highlit")) {
-                        img.classList.remove("highlit");
+                    for (const elem of [...document.getElementsByClassName("highlit")]) {
+                        elem.classList.remove("highlit");
                     }
                     searchPrev.disabled = true;
                     searchNext.disabled = true;
@@ -1598,7 +1609,9 @@
                 for (let i = 0; i < section.childNodes.length; i++) {
                     const node = section.childNodes[i];
                     if (node instanceof HTMLElement) {
-                        ranges.push(...highlightElem(node, searchResults[startIdx + i] >> 1));
+                        if (CSS.highlights) {
+                            ranges.push(...highlightElem(node, searchResults[startIdx + i] >> 1));
+                        }
                     }
                 }
                 activeSearchSections.set(section, ranges);
