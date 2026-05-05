@@ -394,9 +394,13 @@
             }
 
             div.textbox,
-            pre.loading,
+            pre#loading,
             h1 {
                 font-family: "8bitoperator Undertale Mono", Monospace;
+            }
+
+            #loading {
+                padding-left: 32px;
             }
 
             div.ja {
@@ -761,7 +765,7 @@
             let searchWorker = null;
         </script>
         <div id="textboxes">
-            <pre class="loading">    Loading...</pre>
+            <pre id="loading">Loading...</pre>
         </div>
         <noscript>
             <p>This page requires JavaScript. Sorry :(</p>
@@ -769,6 +773,14 @@
         </noscript>
         <script>
             "use strict";
+
+            if (!window.IntersectionObserver) {
+                /** @type {HTMLPreElement} */ (document.getElementById("loading")).innerHTML =
+                    "<p>Your browser is too old. Sorry :(</p>\n" +
+                    '<p>Maybe try the <a href="DELTARUNE.txt">plain text</a> dump?</p>\n' +
+                    '<p>(Or in Japanese: <a href="DELTARUNE_ja.txt" lang="ja">日本語</a>)</p>';
+                window.stop();
+            }
 
             const rawText = (function () {
                 // Synchronous XHR is deprecated but never ever getting removed.
