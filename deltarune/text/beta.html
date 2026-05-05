@@ -648,13 +648,6 @@
                 document.documentElement.classList.add("light");
             }
 
-            if (sessionStorage.getItem("dr-search-hidden")) {
-                document.documentElement.classList.add("hideresults");
-                if (sessionStorage.getItem("dr-search-hidden") === "2") {
-                    document.documentElement.classList.add("hidesearch");
-                }
-            }
-
             const selects = /** @type {const} */ ([
                 { id: "chapter", key: "chap", default_: "all" },
                 { id: "language", key: "lang", default_: "en" },
@@ -1019,6 +1012,9 @@
 
             /** @type {Map<number, Result[]>} */
             const searchResultsByChunk = new Map();
+
+            /** @type {{destroy: () => void, onclose: () => void} | null} */
+            let closeWatcher = null;
 
             const CHUNK_SIZE = 100;
 
@@ -1399,6 +1395,7 @@
                         searchResults = event.data.results;
                         renderSearchResults();
                         renderSearchCounter();
+                        setupCloseWatcher();
                     };
                 }
                 sessionStorage.setItem("dr-search-query", searchBar.value);
@@ -1415,6 +1412,7 @@
                     for (const elem of [...document.getElementsByClassName("highlit")]) {
                         elem.classList.remove("highlit");
                     }
+                    setupCloseWatcher();
                     searchPrev.disabled = true;
                     searchNext.disabled = true;
                     searchGeneration++;
@@ -2010,6 +2008,32 @@
                 setSearchHidden(true);
             });
 
+            function setupCloseWatcher() {
+                // @ts-expect-error
+                if (!window.CloseWatcher) {
+                    return;
+                }
+                if (
+                    !document.documentElement.classList.contains("hideresults") &&
+                    searchResults &&
+                    searchResults.length
+                ) {
+                    if (!closeWatcher) {
+                        // @ts-expect-error
+                        closeWatcher = new CloseWatcher();
+                        // @ts-expect-error
+                        closeWatcher.onclose = function () {
+                            setSearchHidden(true);
+                        };
+                    }
+                } else {
+                    if (closeWatcher) {
+                        closeWatcher.destroy();
+                        closeWatcher = null;
+                    }
+                }
+            }
+
             /** @param {boolean | 'very'} value */
             function setSearchHidden(value) {
                 if (value === "very") {
@@ -2025,6 +2049,15 @@
                     document.documentElement.classList.remove("hideresults", "hidesearch");
                     sessionStorage.removeItem("dr-search-hidden");
                 }
+                setupCloseWatcher();
+            }
+
+            if (sessionStorage.getItem("dr-search-hidden") === "2") {
+                setSearchHidden("very");
+            } else if (sessionStorage.getItem("dr-search-hidden")) {
+                setSearchHidden(true);
+            } else {
+                setSearchHidden(false);
             }
 
             /** @param {NavigateEvent} event */
