@@ -43,7 +43,7 @@
                 /* In-game line height (16px + 2px) */
                 line-height: 18px;
 
-                scroll-padding-top: 92px;
+                scroll-padding-top: 112px;
             }
 
             html.hidesearch {
@@ -107,17 +107,6 @@
                 z-index: 2;
             }
 
-            #controls search.row {
-                height: 44px;
-            }
-
-            input {
-                height: 100%;
-                width: 100px;
-                flex-grow: 1;
-                z-index: 3;
-            }
-
             select {
                 height: 100%;
                 flex-grow: 1;
@@ -141,6 +130,57 @@
                 background-image: url("spr_introimage1_1.png");
             }
 
+            #controls #search1 {
+                height: 44px;
+            }
+
+            input[type="search"] {
+                height: 100%;
+                width: 100px;
+                flex-grow: 1;
+                z-index: 3;
+            }
+
+            input.error {
+                outline: 2px solid red;
+            }
+
+            #controls #search2 {
+                background-color: white;
+                color: black;
+                margin-top: -1px;
+                font-size: 14px;
+                height: 19px;
+                display: flex;
+                flex-direction: row;
+                border: 1px solid black;
+                border-radius: 2px;
+            }
+
+            #controls #search2 div {
+                flex-basis: 0;
+                flex-grow: 1;
+                display: flex;
+                border-left: 1px solid black;
+                text-wrap: nowrap;
+                overflow: hidden;
+            }
+
+            #controls #search2 div:first-child {
+                border-left: 0;
+            }
+
+            input[type="checkbox"] {
+                height: 13px;
+                width: 13px;
+                margin: 3px;
+            }
+
+            #controls #search2 label {
+                flex-grow: 1;
+                user-select: none;
+            }
+
             #searchresults {
                 position: absolute;
                 left: 0;
@@ -152,9 +192,9 @@
                 overflow-x: clip;
                 background-color: inherit;
                 width: 100%;
-                max-height: calc(100vh - 96px);
-                max-height: calc(100svh - 96px);
-                max-height: calc(100dvh - 96px);
+                max-height: calc(100vh - 116px);
+                max-height: calc(100svh - 116px);
+                max-height: calc(100dvh - 116px);
                 /* Copies are monochrome. */
                 background-color: #333;
                 color: var(--foreground-color);
@@ -165,7 +205,7 @@
             }
 
             .hideresults #searchresults,
-            .hidesearch #controls search.row,
+            .hidesearch #controls search,
             html.hidesearch #searchresults {
                 display: none;
             }
@@ -508,7 +548,7 @@
     </head>
 
     <body>
-        <img id="logo" src="logo.svg" width="280" height="76" alt="deltarune text dump" />
+        <img id="logo" src="logo.svg" width="350" height="95" alt="deltarune text dump" />
         <div id="controls">
             <div class="row">
                 <select id="language" name="language" aria-label="Language">
@@ -532,20 +572,36 @@
                     <img src="search.svg" width="20" height="20" alt="" />
                 </button>
             </div>
-            <search class="row">
-                <input type="search" id="searchbar" placeholder="Search..." />
-                <div id="search-counter"></div>
-                <button
-                    id="search-prev"
-                    title="Previous match"
-                    aria-label="Previous match"
-                    disabled
-                >
-                    <img src="chevron-up.svg" width="20" height="20" alt="" />
-                </button>
-                <button id="search-next" title="Next match" aria-label="Next match" disabled>
-                    <img src="chevron-down.svg" width="20" height="20" alt="" />
-                </button>
+            <search id="search">
+                <div id="search1" class="row">
+                    <input type="search" id="searchbar" placeholder="Search..." />
+                    <div id="search-counter"></div>
+                    <button
+                        id="search-prev"
+                        title="Previous match"
+                        aria-label="Previous match"
+                        disabled
+                    >
+                        <img src="chevron-up.svg" width="20" height="20" alt="" />
+                    </button>
+                    <button id="search-next" title="Next match" aria-label="Next match" disabled>
+                        <img src="chevron-down.svg" width="20" height="20" alt="" />
+                    </button>
+                </div>
+                <div id="search2" class="row">
+                    <div>
+                        <input type="checkbox" id="matchcase" />
+                        <label for="matchcase">Match case</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="wholeword" />
+                        <label for="wholeword">Whole words</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="regex" />
+                        <label for="regex">Regex</label>
+                    </div>
+                </div>
             </search>
             <div id="searchresults"></div>
         </div>
@@ -635,6 +691,13 @@
             const searchCounter = /** @type {HTMLDivElement} */ (
                 document.getElementById("search-counter")
             );
+            const inputMatchCase = /** @type {HTMLInputElement} */ (
+                document.getElementById("matchcase")
+            );
+            const inputWholeWord = /** @type {HTMLInputElement} */ (
+                document.getElementById("wholeword")
+            );
+            const inputRegex = /** @type {HTMLInputElement} */ (document.getElementById("regex"));
 
             lightModeToggle.addEventListener("click", function () {
                 if (document.documentElement.classList.toggle("light")) {
@@ -1376,6 +1439,11 @@
             });
 
             function processSearchInput() {
+                sessionStorage.setItem("dr-search-query", searchBar.value);
+                sessionStorage.setItem(
+                    "dr-search-flags",
+                    `${+inputMatchCase.checked}${+inputWholeWord.checked}${+inputRegex.checked}`
+                );
                 if (searchGeneration === 0 && !searchBar.value) {
                     return;
                 }
@@ -1398,8 +1466,8 @@
                         setupCloseWatcher();
                     };
                 }
-                sessionStorage.setItem("dr-search-query", searchBar.value);
-                if (!searchBar.value) {
+                searchQuery = compileQuery();
+                if (!searchQuery) {
                     searchResultsDiv.innerHTML = "";
                     searchResults = null;
                     searchCounter.innerText = "";
@@ -1419,7 +1487,6 @@
                     searchQuery = null;
                     return;
                 }
-                searchQuery = compileQuery(searchBar.value);
                 /** @type {SearchQuery} */
                 const query = {
                     type: "query",
@@ -1432,6 +1499,15 @@
             searchBar.addEventListener("input", processSearchInput);
             if (!searchBar.value) {
                 searchBar.value = sessionStorage.getItem("dr-search-query") || "";
+            }
+            inputMatchCase.addEventListener("input", processSearchInput);
+            inputWholeWord.addEventListener("input", processSearchInput);
+            inputRegex.addEventListener("input", processSearchInput);
+            {
+                const sessionFlags = sessionStorage.getItem("dr-search-flags") || "";
+                inputMatchCase.checked = sessionFlags[0] === "1";
+                inputWholeWord.checked = sessionFlags[1] === "1";
+                inputRegex.checked = sessionFlags[2] === "1";
             }
 
             const normalizeMap = new Map([
@@ -1448,23 +1524,70 @@
                 ["&amp;", "&"],
             ]);
 
-            /** @param {string} query */
-            function compileQuery(query) {
-                let rawPattern = "";
+            function compileQuery() {
+                searchBar.classList.remove("error");
+                if (!searchBar.value) {
+                    return null;
+                }
 
-                for (let char of query) {
-                    char = normalizeMap.get(char) || char;
-                    // RegExp.escape() is too modern.
-                    // AFAICT this is good enough for our purposes.
-                    if (".*+?^${}()|[]\\".includes(char)) {
-                        rawPattern += "\\" + char;
-                    } else if (/\s/.test(char)) {
-                        rawPattern += " ";
+                let rawPattern = "";
+                let flags = "g";
+                if (!inputMatchCase.checked) {
+                    flags += "i";
+                }
+
+                if (inputRegex.checked) {
+                    // @ts-expect-error
+                    if (/dummy/.unicodeSets !== undefined) {
+                        flags += "v";
                     } else {
-                        rawPattern += char;
+                        flags += "u";
+                    }
+                    for (const char of searchBar.value) {
+                        const replacement = normalizeMap.get(char);
+                        if (replacement) {
+                            if (".*+?^${}()|[]\\".includes(replacement)) {
+                                rawPattern += "\\" + replacement;
+                            } else {
+                                rawPattern += replacement;
+                            }
+                        } else {
+                            rawPattern += char;
+                        }
+                    }
+                } else {
+                    for (let char of searchBar.value) {
+                        char = normalizeMap.get(char) || char;
+                        // RegExp.escape() is too modern.
+                        // AFAICT this is good enough for our purposes.
+                        if (".*+?^${}()|[]\\".includes(char)) {
+                            rawPattern += "\\" + char;
+                        } else if (/\s/.test(char)) {
+                            rawPattern += " ";
+                        } else {
+                            rawPattern += char;
+                        }
                     }
                 }
-                return new RegExp(rawPattern, "ig");
+                if (inputWholeWord.checked) {
+                    // Trick borrowed from VS Code:
+                    // https://github.com/microsoft/vscode/blob/24ab8bac79/src/vs/base/common/strings.ts#L209
+                    const prefix = !/\B/.test(rawPattern[0]);
+                    const postfix = !/\B/.test(rawPattern[rawPattern.length - 1]);
+                    rawPattern = `(?:${rawPattern})`;
+                    if (prefix) {
+                        rawPattern = "\\b" + rawPattern;
+                    }
+                    if (postfix) {
+                        rawPattern += "\\b";
+                    }
+                }
+                try {
+                    return new RegExp(rawPattern, flags);
+                } catch (error) {
+                    searchBar.classList.add("error");
+                    return null;
+                }
             }
 
             processSearchInput();
@@ -1931,6 +2054,15 @@
                 if (event.key === "Enter") {
                     event.preventDefault();
                     findNext(event.shiftKey);
+                } else if (event.altKey && event.key === "c") {
+                    event.preventDefault();
+                    inputMatchCase.click();
+                } else if (event.altKey && event.key === "w") {
+                    event.preventDefault();
+                    inputWholeWord.click();
+                } else if (event.altKey && event.key === "r") {
+                    event.preventDefault();
+                    inputRegex.click();
                 }
             });
 
