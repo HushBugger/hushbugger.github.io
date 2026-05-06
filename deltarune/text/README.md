@@ -10,17 +10,17 @@ This is the source code for the Deltarune Text Dump.
 
 Issues and pull requests are welcome!
 
-### Additional sources
-
-`8bitoperator-UTM.woff` is a version of 8bitoperator JVE that I modified in FontForge.
-
-`JF-Dot-Shinonome-14-Regular.woff` was downloaded from http://jikasei.me/font/jf-dotfont/ (`JF-Dot-Shinonome14.ttf`) and converted to WOFF with FontForge.
-
-Logo based on the vectorization at https://commons.wikimedia.org/wiki/File:Deltarune_vector_logo.svg.
+### Credits
 
 I took inspiration and information from the [compendium](https://inactivesnail.neocities.org/utdr-dialogue) and the [text project](https://afewbitsandpieces.tumblr.com/post/726407420343205888/deltarune-text-project-update-3).
 
 Game data extracted using [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool).
+
+Logo based on the vectorization at https://commons.wikimedia.org/wiki/File:Deltarune_vector_logo.svg.
+
+`JF-Dot-Shinonome-14-Regular.woff` was downloaded from http://jikasei.me/font/jf-dotfont/ (`JF-Dot-Shinonome14.ttf`) and converted to WOFF with FontForge.
+
+`8bitoperator-UTM.woff` is a version of 8bitoperator JVE that I modified in FontForge.
 
 SVG icons from https://commons.wikimedia.org/wiki/Category:Bootstrap_Icons.
 
