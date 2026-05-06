@@ -425,8 +425,23 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
 RE_STRETCH = re.compile(r"(\[[^\]]*\])")
 
 
-def your_____long(text: str, id: str) -> str:
-    text = text.replace("-", "")
+def your_____long(text: str, id: str, lang: typing.Literal["en", "ja"]) -> str | None:
+    if lang == "en":
+        text = text.replace("-", "")
+    else:
+        if text.isascii():
+            # The untranslated lines are unused in JP.
+            # I thought maybe the Japanese version had English interspersed.
+            # But no, it combines multiple English strings into one Japanese string,
+            # probably because it can fit more on the screen.
+            return None
+        text = (
+            text.replace("+", "")
+            .replace("&lt;", "")
+            .replace("&gt;", "")
+            .replace(" ", "\u3000")
+        )
+
     pieces = []
     for piece in RE_STRETCH.split(text):
         if not piece.startswith("["):
@@ -604,7 +619,9 @@ for n in lang:
             if k.startswith("scr_rhythmgame_notechart_"):
                 # TODO: stretch Japanese text (different syntax, can't assume font width...)
                 assert ren
-                ren = your_____long(ren, k)
+                assert rja
+                ren = your_____long(ren, k, "en")
+                rja = your_____long(rja, k, "ja")
             if (ren and ren.strip()) or (rja and rja.strip()):
                 rendered[n].setdefault(group, {})
                 rendered[n][group][k] = {

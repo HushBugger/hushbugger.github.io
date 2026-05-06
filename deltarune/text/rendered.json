@@ -396557,7 +396557,7 @@ false,
 28
 ],
 "ja": [
-"鮮血 流れる",
+"<span style=\"display: inline-block;\">鮮血　流れる</span>",
 false,
 28,
 28
@@ -396571,7 +396571,7 @@ false,
 28
 ],
 "ja": [
-"&lt;先月+&gt;　[3:出会った]",
+"<span class=\"B\"><span style=\"display: inline-block;\">先月　</span><span style=\"transform: scaleX(calc(3/4)); width: 24px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">出会った</span><span style=\"display: inline-block;\"></span></span>",
 false,
 28,
 28
@@ -396585,7 +396585,7 @@ false,
 28
 ],
 "ja": [
-"悪魔の心",
+"<span style=\"display: inline-block;\">悪魔の心</span>",
 false,
 28,
 28
@@ -396599,7 +396599,7 @@ false,
 28
 ],
 "ja": [
-"[2:あのコ]と今日も",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(2/3)); width: 16px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">あのコ</span><span style=\"display: inline-block;\">と今日も</span></span>",
 false,
 28,
 28
@@ -396613,7 +396613,7 @@ false,
 28
 ],
 "ja": [
-"バットを振りかざせ",
+"<span style=\"display: inline-block;\">バットを振りかざせ</span>",
 false,
 28,
 28
@@ -396627,7 +396627,7 @@ false,
 28
 ],
 "ja": [
-"[3:チャット]をするからね",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(3/4)); width: 24px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">チャット</span><span style=\"display: inline-block;\">をするからね</span></span>",
 false,
 28,
 28
@@ -396641,7 +396641,7 @@ false,
 28
 ],
 "ja": [
-"希望は　ついえた",
+"<span style=\"display: inline-block;\">希望は　ついえた</span>",
 false,
 28,
 28
@@ -396655,7 +396655,7 @@ false,
 28
 ],
 "ja": [
-"&lt;昨日+&gt;は　ついつい",
+"<span class=\"B\"><span style=\"display: inline-block;\">昨日は　ついつい</span></span>",
 false,
 28,
 28
@@ -396669,7 +396669,7 @@ false,
 28
 ],
 "ja": [
-"明日は見えない",
+"<span style=\"display: inline-block;\">明日は見えない</span>",
 false,
 28,
 28
@@ -396683,7 +396683,7 @@ false,
 28
 ],
 "ja": [
-"[2:朝+]まで[3:&lt;電話+&gt;]",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(2/1)); width: 16px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">朝</span><span style=\"display: inline-block;\">まで</span><span style=\"transform: scaleX(calc(3/2)); width: 24px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">電話</span><span style=\"display: inline-block;\"></span></span>",
 false,
 28,
 28
@@ -396697,7 +396697,7 @@ false,
 28
 ],
 "ja": [
-"バットを振りかざせ",
+"<span style=\"display: inline-block;\">バットを振りかざせ</span>",
 false,
 28,
 28
@@ -396711,7 +396711,7 @@ false,
 28
 ],
 "ja": [
-"やっぱり[5:楽しいね]",
+"<span class=\"B\"><span style=\"display: inline-block;\">やっぱり</span><span style=\"transform: scaleX(calc(5/4)); width: 40px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">楽しいね</span><span style=\"display: inline-block;\"></span></span>",
 false,
 28,
 28
@@ -396725,7 +396725,7 @@ false,
 28
 ],
 "ja": [
-"夜をブチのめせ",
+"<span style=\"display: inline-block;\">夜をブチのめせ</span>",
 false,
 28,
 28
@@ -396739,7 +396739,7 @@ false,
 28
 ],
 "ja": [
-"[2:今日も]ウキウキね",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(2/3)); width: 16px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">今日も</span><span style=\"display: inline-block;\">ウキウキね</span></span>",
 false,
 28,
 28
@@ -396753,7 +396753,7 @@ false,
 28
 ],
 "ja": [
-"闇+の中+へ こぎ出そう",
+"<span style=\"display: inline-block;\">闇の中へ　こぎ出そう</span>",
 false,
 28,
 28
@@ -396767,7 +396767,7 @@ false,
 28
 ],
 "ja": [
-"心++の箱+船+で",
+"<span style=\"display: inline-block;\">心の箱船で</span>",
 false,
 28,
 28
@@ -396781,7 +396781,7 @@ false,
 28
 ],
 "ja": [
-"Which shall shine you the way",
+null,
 false,
 28,
 28
@@ -396795,7 +396795,7 @@ false,
 28
 ],
 "ja": [
-"闇+の中+でも　そばにいる",
+"<span style=\"display: inline-block;\">闇の中でも　そばにいる</span>",
 false,
 28,
 28
@@ -396809,7 +396809,7 @@ false,
 28
 ],
 "ja": [
-"その心++に導++かれ",
+"<span style=\"display: inline-block;\">その心に導かれ</span>",
 false,
 28,
 28
@@ -396823,7 +396823,7 @@ false,
 28
 ],
 "ja": [
-"Which shall guide you the way,",
+null,
 false,
 28,
 28
@@ -396837,7 +396837,7 @@ false,
 28
 ],
 "ja": [
-"through the waves",
+null,
 false,
 28,
 28
@@ -396851,7 +396851,7 @@ false,
 28
 ],
 "ja": [
-"闇+の中+へ こぎ出そう",
+"<span style=\"display: inline-block;\">闇の中へ　こぎ出そう</span>",
 false,
 28,
 28
@@ -396865,7 +396865,7 @@ false,
 28
 ],
 "ja": [
-"心++の箱+船+で",
+"<span style=\"display: inline-block;\">心の箱船で</span>",
 false,
 28,
 28
@@ -396879,7 +396879,7 @@ false,
 28
 ],
 "ja": [
-"Which shall shine you the way",
+null,
 false,
 28,
 28
@@ -396893,7 +396893,7 @@ false,
 28
 ],
 "ja": [
-"闇+の中+でも　そばにいる",
+"<span style=\"display: inline-block;\">闇の中でも　そばにいる</span>",
 false,
 28,
 28
@@ -396907,7 +396907,7 @@ false,
 28
 ],
 "ja": [
-"その心++に導++かれ",
+"<span style=\"display: inline-block;\">その心に導かれ</span>",
 false,
 28,
 28
@@ -396921,7 +396921,7 @@ false,
 28
 ],
 "ja": [
-"Which shall guide you the way,",
+null,
 false,
 28,
 28
@@ -396935,7 +396935,7 @@ false,
 28
 ],
 "ja": [
-"through the waves",
+null,
 false,
 28,
 28
@@ -396949,7 +396949,7 @@ false,
 28
 ],
 "ja": [
-"鮮血 流れる",
+"<span style=\"display: inline-block;\">鮮血　流れる</span>",
 false,
 28,
 28
@@ -396963,7 +396963,7 @@ false,
 28
 ],
 "ja": [
-"先+月+ [3:なかよく]",
+"<span class=\"B\"><span style=\"display: inline-block;\">先月　</span><span style=\"transform: scaleX(calc(3/4)); width: 24px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">なかよく</span><span style=\"display: inline-block;\"></span></span>",
 false,
 28,
 28
@@ -396977,7 +396977,7 @@ false,
 28
 ],
 "ja": [
-"悪魔の心",
+"<span style=\"display: inline-block;\">悪魔の心</span>",
 false,
 28,
 28
@@ -396991,7 +396991,7 @@ false,
 28
 ],
 "ja": [
-"[2:&lt;なった&gt;]友+だち",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(2/3)); width: 16px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">なった</span><span style=\"display: inline-block;\">友だち</span></span>",
 false,
 28,
 28
@@ -397005,7 +397005,7 @@ false,
 28
 ],
 "ja": [
-"バットを振りかざせ",
+"<span style=\"display: inline-block;\">バットを振りかざせ</span>",
 false,
 28,
 28
@@ -397019,7 +397019,7 @@ false,
 28
 ],
 "ja": [
-"パットと　ブリトニー",
+"<span class=\"B\"><span style=\"display: inline-block;\">パットと　ブリトニー</span></span>",
 false,
 28,
 28
@@ -397033,7 +397033,7 @@ false,
 28
 ],
 "ja": [
-"希望は　ついえた",
+"<span style=\"display: inline-block;\">希望は　ついえた</span>",
 false,
 28,
 28
@@ -397047,7 +397047,7 @@ false,
 28
 ],
 "ja": [
-"[3:気取った]　ポーズで",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(3/4)); width: 24px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">気取った</span><span style=\"display: inline-block;\">　ポーズで</span></span>",
 false,
 28,
 28
@@ -397061,7 +397061,7 @@ false,
 28
 ],
 "ja": [
-"明日は見えない",
+"<span style=\"display: inline-block;\">明日は見えない</span>",
 false,
 28,
 28
@@ -397075,7 +397075,7 @@ false,
 28
 ],
 "ja": [
-"ダンスがしたい",
+"<span class=\"B\"><span style=\"display: inline-block;\">ダンスがしたい</span></span>",
 false,
 28,
 28
@@ -397089,7 +397089,7 @@ false,
 28
 ],
 "ja": [
-"バットを振りかざせ",
+"<span style=\"display: inline-block;\">バットを振りかざせ</span>",
 false,
 28,
 28
@@ -397103,7 +397103,7 @@ false,
 28
 ],
 "ja": [
-"ハットをか&lt;ぶっ&gt;てね",
+"<span class=\"B\"><span style=\"display: inline-block;\">ハットをかぶってね</span></span>",
 false,
 28,
 28
@@ -397117,7 +397117,7 @@ false,
 28
 ],
 "ja": [
-"夜をブチのめせ",
+"<span style=\"display: inline-block;\">夜をブチのめせ</span>",
 false,
 28,
 28
@@ -397131,7 +397131,7 @@ false,
 28
 ],
 "ja": [
-"[2:&lt;スー&gt;ツ]を着こなして",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(2/3)); width: 16px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">スーツ</span><span style=\"display: inline-block;\">を着こなして</span></span>",
 false,
 28,
 28
@@ -601591,7 +601591,7 @@ true,
 28
 ],
 "ja": [
-"鮮血 流れる",
+"<span style=\"display: inline-block;\">鮮血　流れる</span>",
 true,
 28,
 28
@@ -601605,7 +601605,7 @@ true,
 28
 ],
 "ja": [
-"&lt;先月+&gt;　[3:出会った]",
+"<span class=\"B\"><span style=\"display: inline-block;\">先月　</span><span style=\"transform: scaleX(calc(3/4)); width: 24px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">出会った</span><span style=\"display: inline-block;\"></span></span>",
 true,
 28,
 28
@@ -601619,7 +601619,7 @@ true,
 28
 ],
 "ja": [
-"悪魔の心",
+"<span style=\"display: inline-block;\">悪魔の心</span>",
 true,
 28,
 28
@@ -601633,7 +601633,7 @@ true,
 28
 ],
 "ja": [
-"[2:あのコ]と今日も",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(2/3)); width: 16px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">あのコ</span><span style=\"display: inline-block;\">と今日も</span></span>",
 true,
 28,
 28
@@ -601647,7 +601647,7 @@ true,
 28
 ],
 "ja": [
-"バットを振りかざせ",
+"<span style=\"display: inline-block;\">バットを振りかざせ</span>",
 true,
 28,
 28
@@ -601661,7 +601661,7 @@ true,
 28
 ],
 "ja": [
-"[3:チャット]をするからね",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(3/4)); width: 24px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">チャット</span><span style=\"display: inline-block;\">をするからね</span></span>",
 true,
 28,
 28
@@ -601675,7 +601675,7 @@ true,
 28
 ],
 "ja": [
-"希望は　ついえた",
+"<span style=\"display: inline-block;\">希望は　ついえた</span>",
 true,
 28,
 28
@@ -601689,7 +601689,7 @@ true,
 28
 ],
 "ja": [
-"&lt;昨日+&gt;は　ついつい",
+"<span class=\"B\"><span style=\"display: inline-block;\">昨日は　ついつい</span></span>",
 true,
 28,
 28
@@ -601703,7 +601703,7 @@ true,
 28
 ],
 "ja": [
-"明日は見えない",
+"<span style=\"display: inline-block;\">明日は見えない</span>",
 true,
 28,
 28
@@ -601717,7 +601717,7 @@ true,
 28
 ],
 "ja": [
-"[2:朝+]まで[3:&lt;電話+&gt;]",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(2/1)); width: 16px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">朝</span><span style=\"display: inline-block;\">まで</span><span style=\"transform: scaleX(calc(3/2)); width: 24px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">電話</span><span style=\"display: inline-block;\"></span></span>",
 true,
 28,
 28
@@ -601731,7 +601731,7 @@ true,
 28
 ],
 "ja": [
-"バットを振りかざせ",
+"<span style=\"display: inline-block;\">バットを振りかざせ</span>",
 true,
 28,
 28
@@ -601745,7 +601745,7 @@ true,
 28
 ],
 "ja": [
-"やっぱり[5:楽しいね]",
+"<span class=\"B\"><span style=\"display: inline-block;\">やっぱり</span><span style=\"transform: scaleX(calc(5/4)); width: 40px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">楽しいね</span><span style=\"display: inline-block;\"></span></span>",
 true,
 28,
 28
@@ -601759,7 +601759,7 @@ true,
 28
 ],
 "ja": [
-"夜をブチのめせ",
+"<span style=\"display: inline-block;\">夜をブチのめせ</span>",
 true,
 28,
 28
@@ -601773,7 +601773,7 @@ true,
 28
 ],
 "ja": [
-"[2:今日も]ウキウキね",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(2/3)); width: 16px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">今日も</span><span style=\"display: inline-block;\">ウキウキね</span></span>",
 true,
 28,
 28
@@ -601787,7 +601787,7 @@ true,
 28
 ],
 "ja": [
-"闇+の中+へ こぎ出そう",
+"<span style=\"display: inline-block;\">闇の中へ　こぎ出そう</span>",
 true,
 28,
 28
@@ -601801,7 +601801,7 @@ true,
 28
 ],
 "ja": [
-"心++の箱+船+で",
+"<span style=\"display: inline-block;\">心の箱船で</span>",
 true,
 28,
 28
@@ -601815,7 +601815,7 @@ true,
 28
 ],
 "ja": [
-"Which shall shine you the way",
+null,
 true,
 28,
 28
@@ -601829,7 +601829,7 @@ true,
 28
 ],
 "ja": [
-"闇+の中+でも　そばにいる",
+"<span style=\"display: inline-block;\">闇の中でも　そばにいる</span>",
 true,
 28,
 28
@@ -601843,7 +601843,7 @@ true,
 28
 ],
 "ja": [
-"その心++に導++かれ",
+"<span style=\"display: inline-block;\">その心に導かれ</span>",
 true,
 28,
 28
@@ -601857,7 +601857,7 @@ true,
 28
 ],
 "ja": [
-"Which shall guide you the way,",
+null,
 true,
 28,
 28
@@ -601871,7 +601871,7 @@ true,
 28
 ],
 "ja": [
-"through the waves",
+null,
 true,
 28,
 28
@@ -601885,7 +601885,7 @@ true,
 28
 ],
 "ja": [
-"闇+の中+へ こぎ出そう",
+"<span style=\"display: inline-block;\">闇の中へ　こぎ出そう</span>",
 true,
 28,
 28
@@ -601899,7 +601899,7 @@ true,
 28
 ],
 "ja": [
-"心++の箱+船+で",
+"<span style=\"display: inline-block;\">心の箱船で</span>",
 true,
 28,
 28
@@ -601913,7 +601913,7 @@ true,
 28
 ],
 "ja": [
-"Which shall shine you the way",
+null,
 true,
 28,
 28
@@ -601927,7 +601927,7 @@ true,
 28
 ],
 "ja": [
-"闇+の中+でも　そばにいる",
+"<span style=\"display: inline-block;\">闇の中でも　そばにいる</span>",
 true,
 28,
 28
@@ -601941,7 +601941,7 @@ true,
 28
 ],
 "ja": [
-"その心++に導++かれ",
+"<span style=\"display: inline-block;\">その心に導かれ</span>",
 true,
 28,
 28
@@ -601955,7 +601955,7 @@ true,
 28
 ],
 "ja": [
-"Which shall guide you the way,",
+null,
 true,
 28,
 28
@@ -601969,7 +601969,7 @@ true,
 28
 ],
 "ja": [
-"through the waves",
+null,
 true,
 28,
 28
@@ -601983,7 +601983,7 @@ true,
 28
 ],
 "ja": [
-"鮮血 流れる",
+"<span style=\"display: inline-block;\">鮮血　流れる</span>",
 true,
 28,
 28
@@ -601997,7 +601997,7 @@ true,
 28
 ],
 "ja": [
-"先+月+ [3:なかよく]",
+"<span class=\"B\"><span style=\"display: inline-block;\">先月　</span><span style=\"transform: scaleX(calc(3/4)); width: 24px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">なかよく</span><span style=\"display: inline-block;\"></span></span>",
 true,
 28,
 28
@@ -602011,7 +602011,7 @@ true,
 28
 ],
 "ja": [
-"悪魔の心",
+"<span style=\"display: inline-block;\">悪魔の心</span>",
 true,
 28,
 28
@@ -602025,7 +602025,7 @@ true,
 28
 ],
 "ja": [
-"[2:&lt;なった&gt;]友+だち",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(2/3)); width: 16px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">なった</span><span style=\"display: inline-block;\">友だち</span></span>",
 true,
 28,
 28
@@ -602039,7 +602039,7 @@ true,
 28
 ],
 "ja": [
-"バットを振りかざせ",
+"<span style=\"display: inline-block;\">バットを振りかざせ</span>",
 true,
 28,
 28
@@ -602053,7 +602053,7 @@ true,
 28
 ],
 "ja": [
-"パットと　ブリトニー",
+"<span class=\"B\"><span style=\"display: inline-block;\">パットと　ブリトニー</span></span>",
 true,
 28,
 28
@@ -602067,7 +602067,7 @@ true,
 28
 ],
 "ja": [
-"希望は　ついえた",
+"<span style=\"display: inline-block;\">希望は　ついえた</span>",
 true,
 28,
 28
@@ -602081,7 +602081,7 @@ true,
 28
 ],
 "ja": [
-"[3:気取った]　ポーズで",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(3/4)); width: 24px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">気取った</span><span style=\"display: inline-block;\">　ポーズで</span></span>",
 true,
 28,
 28
@@ -602095,7 +602095,7 @@ true,
 28
 ],
 "ja": [
-"明日は見えない",
+"<span style=\"display: inline-block;\">明日は見えない</span>",
 true,
 28,
 28
@@ -602109,7 +602109,7 @@ true,
 28
 ],
 "ja": [
-"ダンスがしたい",
+"<span class=\"B\"><span style=\"display: inline-block;\">ダンスがしたい</span></span>",
 true,
 28,
 28
@@ -602123,7 +602123,7 @@ true,
 28
 ],
 "ja": [
-"バットを振りかざせ",
+"<span style=\"display: inline-block;\">バットを振りかざせ</span>",
 true,
 28,
 28
@@ -602137,7 +602137,7 @@ true,
 28
 ],
 "ja": [
-"ハットをか&lt;ぶっ&gt;てね",
+"<span class=\"B\"><span style=\"display: inline-block;\">ハットをかぶってね</span></span>",
 true,
 28,
 28
@@ -602151,7 +602151,7 @@ true,
 28
 ],
 "ja": [
-"夜をブチのめせ",
+"<span style=\"display: inline-block;\">夜をブチのめせ</span>",
 true,
 28,
 28
@@ -602165,7 +602165,7 @@ true,
 28
 ],
 "ja": [
-"[2:&lt;スー&gt;ツ]を着こなして",
+"<span class=\"B\"><span style=\"display: inline-block;\"></span><span style=\"transform: scaleX(calc(2/3)); width: 16px; overflow-wrap: normal; transform-origin: top left; display: inline-block;\">スーツ</span><span style=\"display: inline-block;\">を着こなして</span></span>",
 true,
 28,
 28
