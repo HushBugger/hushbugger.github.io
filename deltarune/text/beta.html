@@ -523,6 +523,19 @@
                 margin-bottom: 0.5em;
             }
 
+            .sr-only {
+                /* https://tailwindcss.com/docs/display#screen-reader-only */
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip-path: inset(50%);
+                white-space: nowrap;
+                border-width: 0;
+            }
+
             /* If these selectors aren't specific enough they become a CPU bottleneck */
 
             #searchresults section *::highlight(search-highlight),
@@ -579,7 +592,12 @@
             </div>
             <search id="search">
                 <div id="search1" class="row">
-                    <input type="search" id="searchbar" placeholder="Search..." />
+                    <input
+                        type="search"
+                        id="searchbar"
+                        aria-label="Find text"
+                        placeholder="Search..."
+                    />
                     <div id="search-counter"></div>
                     <button
                         id="search-prev"
@@ -593,6 +611,12 @@
                         <img src="chevron-down.svg" width="20" height="20" alt="" />
                     </button>
                 </div>
+                <div
+                    id="search-announce"
+                    aria-live="polite"
+                    aria-atomic="true"
+                    class="sr-only"
+                ></div>
                 <div id="search2" class="row">
                     <div>
                         <input type="checkbox" id="matchcase" />
@@ -608,7 +632,7 @@
                     </div>
                 </div>
             </search>
-            <div id="searchresults"></div>
+            <div id="searchresults" role="listbox" tabindex="0" aria-label="Search results"></div>
         </div>
         <div id="intro">
             <p>
@@ -695,6 +719,9 @@
             );
             const searchCounter = /** @type {HTMLDivElement} */ (
                 document.getElementById("search-counter")
+            );
+            const searchAnnounce = /** @type {HTMLDivElement} */ (
+                document.getElementById("search-announce")
             );
             const inputMatchCase = /** @type {HTMLInputElement} */ (
                 document.getElementById("matchcase")
@@ -1084,6 +1111,8 @@
             /** @type {{destroy: () => void, onclose: () => void} | null} */
             let closeWatcher = null;
 
+            let announceResultText = false;
+
             const CHUNK_SIZE = 100;
 
             function render() {
@@ -1465,8 +1494,10 @@
                 searchQuery = compileQuery();
                 if (!searchQuery) {
                     searchResultsDiv.innerHTML = "";
+                    searchResultsDiv.removeAttribute("aria-activedescendant");
                     searchResults = null;
                     searchCounter.innerText = "";
+                    searchAnnounce.innerText = "";
                     searchResultsByChunk.clear();
                     activeSearchSections.clear();
                     activeTextSections.clear();
@@ -1610,12 +1641,14 @@
             function renderSearchCounter() {
                 if (!searchResults) {
                     searchCounter.innerText = "";
+                    searchAnnounce.innerText = "";
                 } else if (
                     !focusedResult ||
                     !focusedResult.parentElement ||
                     !focusedResult.parentElement.parentElement
                 ) {
                     searchCounter.innerText = `${searchResults.length} results`;
+                    searchAnnounce.innerText = `${searchResults.length} results`;
                 } else {
                     const idx =
                         [...focusedResult.parentElement.childNodes].indexOf(focusedResult) +
@@ -1624,6 +1657,13 @@
                                 focusedResult.parentElement
                             );
                     searchCounter.innerText = `${idx + 1}/${searchResults.length} results`;
+                    if (announceResultText) {
+                        searchAnnounce.innerText =
+                            `${idx + 1} of ${searchResults.length}: ` +
+                            munge(focusedResult.innerHTML);
+                    } else {
+                        searchAnnounce.innerText = `${idx + 1} of ${searchResults.length}`;
+                    }
                 }
             }
 
@@ -1632,6 +1672,7 @@
                 activeSearchSections.clear();
                 searchObserver.disconnect();
                 searchResultsDiv.innerHTML = "";
+                searchResultsDiv.removeAttribute("aria-activedescendant");
                 let pendingFocusedResult = sessionStorage.getItem("dr-search-focus");
                 focusSearchResult(null);
                 if (!searchResults || !searchResults.length) {
@@ -1686,9 +1727,9 @@
                         const box = [...section.children].find(function (box) {
                             return (
                                 box instanceof HTMLElement &&
-                                box.dataset.searchIdx &&
+                                box.id &&
                                 searchResults &&
-                                searchResults[+box.dataset.searchIdx] === preloadFocus
+                                searchResults[+box.id.slice(7)] === preloadFocus
                             );
                         });
                         if (box instanceof HTMLElement) {
@@ -1742,15 +1783,17 @@
                     const result = searchResults[i];
                     const msgIdx = result >> 1;
                     if (dupFor(msgIdx) & 4) {
-                        newHTML += `<h1 data-search-idx="${i}" class="result">${enFor(msgIdx)}</h1>`;
+                        newHTML +=
+                            `<h1 id="search-${i}" role="option"` +
+                            ` class="result">${enFor(msgIdx)}</h1>`;
                     } else if (result & 1) {
                         newHTML +=
-                            `<div data-search-idx="${i}" class="textbox result ja" lang="ja">` +
-                            `${jaFor(msgIdx)}</div>`;
+                            `<div id="search-${i}" role="option"` +
+                            ` class="textbox result ja" lang="ja">${jaFor(msgIdx)}</div>`;
                     } else {
                         newHTML +=
-                            `<div data-search-idx="${i}" class="textbox result">` +
-                            `${enFor(msgIdx)}</div>`;
+                            `<div id="search-${i}" role="option"` +
+                            ` class="textbox result">${enFor(msgIdx)}</div>`;
                     }
                 }
                 section.innerHTML = newHTML;
@@ -1959,22 +2002,26 @@
             /** @param {HTMLElement | null} resultBox */
             function focusSearchResult(resultBox, scroll = true) {
                 focusedResult = resultBox;
-                if (!resultBox || !resultBox.dataset.searchIdx || !searchResults) {
+                if (!resultBox || !resultBox.id || !searchResults) {
                     sessionStorage.removeItem("dr-search-focus");
                     return;
                 }
-                const result = searchResults[+resultBox.dataset.searchIdx];
+                const result = searchResults[+resultBox.id.slice(7)];
                 const msgIdx = result >> 1;
                 const lang = result & 1 ? "ja" : "en";
                 sessionStorage.setItem("dr-search-focus", lang + ":" + msgIdx);
                 for (const elem of document.getElementsByClassName("focused")) {
                     elem.classList.remove("focused");
+                    elem.removeAttribute("aria-selected");
                 }
+                searchResultsDiv.setAttribute("aria-activedescendant", resultBox.id);
                 resultBox.classList.add("focused");
+                resultBox.setAttribute("aria-selected", "true");
                 const section = document.getElementById("chunk-" + ((+msgIdx / CHUNK_SIZE) | 0));
                 if (section instanceof HTMLElement) {
                     fillTextSection(section);
                 }
+                renderSearchCounter();
                 const target = document.getElementById(idForResult(result));
                 if (!target) {
                     return;
@@ -1995,7 +2042,7 @@
                         block: "center",
                     });
                 }
-                renderSearchCounter();
+                return target;
             }
 
             /**
@@ -2045,7 +2092,7 @@
             }
 
             /** @param {boolean} reverse */
-            function findNext(reverse) {
+            function findNext(reverse, collapse = true) {
                 if (!searchResults || !searchResults.length) {
                     return;
                 }
@@ -2059,7 +2106,9 @@
                     behavior: "instant",
                     block: "center",
                 });
-                setSearchHidden(true);
+                if (collapse) {
+                    setSearchHidden(true);
+                }
             }
 
             searchBar.addEventListener("keydown", function (event) {
@@ -2068,7 +2117,12 @@
                 }
                 if (event.key === "Enter") {
                     event.preventDefault();
-                    findNext(event.shiftKey);
+                    announceResultText = true;
+                    try {
+                        findNext(event.shiftKey);
+                    } finally {
+                        announceResultText = false;
+                    }
                 } else if (event.altKey && event.key === "c") {
                     event.preventDefault();
                     inputMatchCase.click();
@@ -2096,7 +2150,12 @@
                     event.preventDefault();
                     searchBar.focus();
                     searchBar.select();
-                    findNext(event.shiftKey);
+                    announceResultText = true;
+                    try {
+                        findNext(event.shiftKey);
+                    } finally {
+                        announceResultText = false;
+                    }
                 } else if (!event.altKey && control && event.key === "f") {
                     event.preventDefault();
                     setSearchHidden(false);
@@ -2119,6 +2178,40 @@
                     setSearchHidden(false);
                     searchBar.focus();
                     searchBar.select();
+                }
+            });
+
+            searchResultsDiv.addEventListener("keydown", function (event) {
+                if (event.isComposing || event.defaultPrevented) {
+                    return;
+                }
+                if (
+                    event.ctrlKey ||
+                    event.metaKey ||
+                    event.altKey ||
+                    event.shiftKey ||
+                    !(event.target instanceof HTMLElement)
+                ) {
+                    return;
+                }
+                if (event.key === "Enter") {
+                    const focusedResult = document.querySelector(".focused");
+                    if (!(focusedResult instanceof HTMLElement)) {
+                        return;
+                    }
+                    event.preventDefault();
+                    const textbox = focusSearchResult(focusedResult);
+                    if (textbox) {
+                        textbox.tabIndex = -1;
+                        textbox.focus({ preventScroll: true });
+                        setSearchHidden(true);
+                    }
+                } else if (event.key === "ArrowDown" || event.key === "ArrowRight") {
+                    event.preventDefault();
+                    findNext(false, false);
+                } else if (event.key === "ArrowUp" || event.key === "ArrowLeft") {
+                    event.preventDefault();
+                    findNext(true, false);
                 }
             });
 
