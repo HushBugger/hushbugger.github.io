@@ -513,6 +513,11 @@
                 color: var(--background-color);
             }
 
+            video {
+                display: block;
+                width: 100%;
+            }
+
             p {
                 margin-top: 0.5em;
                 margin-bottom: 0.5em;
@@ -1438,6 +1443,8 @@
                 }
             });
 
+            const nope = ["1 2 3 blueaddison cyber cafe sex", "hey i'm tha sicko"];
+
             function processSearchInput() {
                 sessionStorage.setItem("dr-search-query", searchBar.value);
                 sessionStorage.setItem(
@@ -1447,24 +1454,13 @@
                 if (searchGeneration === 0 && !searchBar.value) {
                     return;
                 }
-                if (!searchWorker) {
-                    searchWorker = new Worker("search-worker.js");
-                    /** @type {SearchInit} */
-                    const init = {
-                        type: "init",
-                        rawText: rawText,
-                    };
-                    searchWorker.postMessage(init);
-                    /** @param {MessageEvent<ResultList>} event */
-                    searchWorker.onmessage = function (event) {
-                        if (event.data.generation < searchGeneration) {
-                            return;
-                        }
-                        searchResults = event.data.results;
-                        renderSearchResults();
-                        renderSearchCounter();
-                        setupCloseWatcher();
-                    };
+                if (nope.find((text) => searchBar.value.toLowerCase().startsWith(text))) {
+                    // https://www.youtube.com/watch?v=GM-e46xdcUo
+                    searchResultsDiv.innerHTML =
+                        '<video autoplay><source src="frakes.mp4" type="video/mp4"/>' +
+                        '<track default kind="captions" src="frakes.vtt"/></video>';
+                    searchGeneration++;
+                    return;
                 }
                 searchQuery = compileQuery();
                 if (!searchQuery) {
@@ -1486,6 +1482,25 @@
                     searchGeneration++;
                     searchQuery = null;
                     return;
+                }
+                if (!searchWorker) {
+                    searchWorker = new Worker("search-worker.js");
+                    /** @type {SearchInit} */
+                    const init = {
+                        type: "init",
+                        rawText: rawText,
+                    };
+                    searchWorker.postMessage(init);
+                    /** @param {MessageEvent<ResultList>} event */
+                    searchWorker.onmessage = function (event) {
+                        if (event.data.generation < searchGeneration) {
+                            return;
+                        }
+                        searchResults = event.data.results;
+                        renderSearchResults();
+                        renderSearchCounter();
+                        setupCloseWatcher();
+                    };
                 }
                 /** @type {SearchQuery} */
                 const query = {
