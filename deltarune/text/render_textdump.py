@@ -442,6 +442,8 @@ def your_____long(text: str, id: str, lang: typing.Literal["en", "ja"]) -> str |
             .replace(" ", "\u3000")
         )
 
+    CHAR_WIDTH = 8 if lang == "en" else 14
+
     pieces = []
     for piece in RE_STRETCH.split(text):
         if not piece.startswith("["):
@@ -453,7 +455,7 @@ def your_____long(text: str, id: str, lang: typing.Literal["en", "ja"]) -> str |
         text = piece[3:-1].replace(" ", "\N{NO-BREAK SPACE}")
         pieces.append(
             f'<span style="transform: scaleX(calc({width}/{len(text)})); '
-            + f"width: {width * 8}px; "
+            + f"width: {width * CHAR_WIDTH}px; "
             + "overflow-wrap: normal; "
             + 'transform-origin: top left; display: inline-block;">'
             + text
