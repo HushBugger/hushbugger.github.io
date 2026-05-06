@@ -2032,10 +2032,7 @@
                         target.offsetHeight; // trigger reflow to restart animation
                     }
                 }
-                (target.parentElement instanceof HTMLDivElement
-                    ? target.parentElement
-                    : target
-                ).classList.add("jumped");
+                target.classList.add("jumped");
                 if (scroll) {
                     target.scrollIntoView({
                         behavior: "instant",
