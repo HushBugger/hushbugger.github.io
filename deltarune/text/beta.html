@@ -173,14 +173,12 @@
             #controls #search2 div {
                 flex-basis: 0;
                 flex-grow: 1;
+                max-width: 120px;
                 display: flex;
                 border-left: 1px solid black;
+                margin-left: -1px;
                 text-wrap: nowrap;
                 overflow: hidden;
-            }
-
-            #controls #search2 div:first-child {
-                border-left: 0;
             }
 
             input[type="checkbox"] {
@@ -527,6 +525,10 @@
                 margin-bottom: 0.5em;
             }
 
+            span.underline {
+                text-decoration: underline;
+            }
+
             .sr-only {
                 /* https://tailwindcss.com/docs/display#screen-reader-only */
                 position: absolute;
@@ -631,15 +633,15 @@
                 <div id="search2" class="row">
                     <div>
                         <input type="checkbox" id="matchcase" />
-                        <label for="matchcase">Match case</label>
+                        <label for="matchcase">Match <span class="underline">c</span>ase</label>
                     </div>
                     <div>
                         <input type="checkbox" id="wholeword" />
-                        <label for="wholeword">Whole words</label>
+                        <label for="wholeword"><span class="underline">W</span>hole words</label>
                     </div>
                     <div>
                         <input type="checkbox" id="regex" />
-                        <label for="regex">Regex</label>
+                        <label for="regex"><span class="underline">R</span>egex</label>
                     </div>
                 </div>
             </search>
