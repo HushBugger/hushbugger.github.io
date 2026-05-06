@@ -2161,7 +2161,18 @@
                     setSearchHidden(false);
                     const selection = window.getSelection();
                     if (selection && selection.toString()) {
-                        searchBar.value = selection.toString();
+                        if (inputRegex.checked) {
+                            let query = "";
+                            for (const char of selection.toString()) {
+                                if (".*+?^${}()|[]\\".includes(char)) {
+                                    query += "\\";
+                                }
+                                query += char;
+                            }
+                            searchBar.value = query;
+                        } else {
+                            searchBar.value = selection.toString();
+                        }
                         processSearchInput();
                     }
                     searchBar.focus();
