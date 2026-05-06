@@ -78,6 +78,11 @@
                 filter: grayscale(1) invert(1);
             }
 
+            html.expert #logo {
+                width: 350px;
+                height: 95px;
+            }
+
             #intro {
                 background: var(--foreground-color);
                 color: var(--background-color);
@@ -94,6 +99,9 @@
                 top: 8px;
                 left: 8px;
                 width: calc(100% - 16px);
+                max-height: calc(100vh - 16px);
+                max-height: calc(100svh - 16px);
+                max-height: calc(100dvh - 16px);
                 display: flex;
                 flex-direction: column;
             }
@@ -151,10 +159,14 @@
                 margin-top: -1px;
                 font-size: 14px;
                 height: 19px;
-                display: flex;
+                display: none;
                 flex-direction: row;
                 border: 1px solid black;
                 border-radius: 2px;
+            }
+
+            html.expert #controls #search2 {
+                display: flex;
             }
 
             #controls #search2 div {
@@ -182,19 +194,10 @@
             }
 
             #searchresults {
-                position: absolute;
-                left: 0;
-                top: calc(100%);
-                flex: 1;
-                min-height: 0;
+                flex-grow: 1;
                 overflow-y: auto;
                 overflow-x: hidden;
                 overflow-x: clip;
-                background-color: inherit;
-                width: 100%;
-                max-height: calc(100vh - 116px);
-                max-height: calc(100svh - 116px);
-                max-height: calc(100dvh - 116px);
                 /* Copies are monochrome. */
                 background-color: #333;
                 color: var(--foreground-color);
@@ -566,7 +569,7 @@
     </head>
 
     <body>
-        <img id="logo" src="logo.svg" width="350" height="95" alt="deltarune text dump" />
+        <img id="logo" src="logo.svg" width="280" height="76" alt="deltarune text dump" />
         <div id="controls">
             <div class="row">
                 <select id="language" name="language" aria-label="Language">
@@ -586,6 +589,13 @@
                     title="Toggle light mode"
                     aria-label="Toggle light mode"
                 ></button>
+                <button
+                    id="expert-toggle"
+                    title="Toggle advanced settings"
+                    aria-label="Toggle advanced settings"
+                >
+                    <img src="gear.svg" width="20" height="20" alt="" />
+                </button>
                 <button id="search-toggle" title="Toggle search" aria-label="Toggle search">
                     <img src="search.svg" width="20" height="20" alt="" />
                 </button>
@@ -708,6 +718,9 @@
             const searchResultsDiv = /** @type {HTMLDivElement} */ (
                 document.getElementById("searchresults")
             );
+            const expertToggle = /** @type {HTMLButtonElement} */ (
+                document.getElementById("expert-toggle")
+            );
             const searchToggle = /** @type {HTMLButtonElement} */ (
                 document.getElementById("search-toggle")
             );
@@ -741,6 +754,18 @@
 
             if (localStorage.getItem("deltaruneLightMode")) {
                 document.documentElement.classList.add("light");
+            }
+
+            if (localStorage.getItem("dr-expert")) {
+                document.documentElement.classList.add("expert");
+                loadSearchFlags();
+            }
+
+            function loadSearchFlags() {
+                const sessionFlags = sessionStorage.getItem("dr-search-flags") || "";
+                inputMatchCase.checked = sessionFlags[0] === "1";
+                inputWholeWord.checked = sessionFlags[1] === "1";
+                inputRegex.checked = sessionFlags[2] === "1";
             }
 
             const selects = /** @type {const} */ ([
@@ -1515,10 +1540,12 @@
 
             function processSearchInput() {
                 sessionStorage.setItem("dr-search-query", searchBar.value);
-                sessionStorage.setItem(
-                    "dr-search-flags",
-                    `${+inputMatchCase.checked}${+inputWholeWord.checked}${+inputRegex.checked}`
-                );
+                if (document.documentElement.classList.contains("expert")) {
+                    sessionStorage.setItem(
+                        "dr-search-flags",
+                        `${+inputMatchCase.checked}${+inputWholeWord.checked}${+inputRegex.checked}`
+                    );
+                }
                 if (searchGeneration === 0 && !searchBar.value) {
                     return;
                 }
@@ -1588,12 +1615,6 @@
             inputMatchCase.addEventListener("input", processSearchInput);
             inputWholeWord.addEventListener("input", processSearchInput);
             inputRegex.addEventListener("input", processSearchInput);
-            {
-                const sessionFlags = sessionStorage.getItem("dr-search-flags") || "";
-                inputMatchCase.checked = sessionFlags[0] === "1";
-                inputWholeWord.checked = sessionFlags[1] === "1";
-                inputRegex.checked = sessionFlags[2] === "1";
-            }
 
             const normalizeMap = new Map([
                 ["！", "!"],
@@ -2161,12 +2182,21 @@
                     }
                 } else if (event.altKey && event.key === "c") {
                     event.preventDefault();
+                    if (!document.documentElement.classList.contains("expert")) {
+                        toggleExpert();
+                    }
                     inputMatchCase.click();
                 } else if (event.altKey && event.key === "w") {
                     event.preventDefault();
+                    if (!document.documentElement.classList.contains("expert")) {
+                        toggleExpert();
+                    }
                     inputWholeWord.click();
                 } else if (event.altKey && event.key === "r") {
                     event.preventDefault();
+                    if (!document.documentElement.classList.contains("expert")) {
+                        toggleExpert();
+                    }
                     inputRegex.click();
                 }
             });
@@ -2283,6 +2313,8 @@
                 }
             });
 
+            expertToggle.addEventListener("click", toggleExpert);
+
             searchToggle.addEventListener("click", function () {
                 if (document.documentElement.classList.contains("hidesearch")) {
                     setSearchHidden(false);
@@ -2294,6 +2326,25 @@
             textboxes.addEventListener("click", function () {
                 setSearchHidden(true);
             });
+
+            function toggleExpert() {
+                const expert = document.documentElement.classList.toggle("expert");
+                if (!expert) {
+                    if (inputMatchCase.checked || inputWholeWord.checked || inputRegex.checked) {
+                        inputMatchCase.checked = false;
+                        inputWholeWord.checked = false;
+                        inputRegex.checked = false;
+                        processSearchInput();
+                    }
+                    localStorage.removeItem("dr-expert");
+                } else {
+                    localStorage.setItem("dr-expert", "1");
+                    loadSearchFlags();
+                    if (inputMatchCase.checked || inputWholeWord.checked || inputRegex.checked) {
+                        processSearchInput();
+                    }
+                }
+            }
 
             function setupCloseWatcher() {
                 // @ts-expect-error
