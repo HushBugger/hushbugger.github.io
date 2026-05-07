@@ -1563,6 +1563,11 @@
                     searchResultsDiv.innerHTML =
                         '<video autoplay><source src="frakes.mp4" type="video/mp4"/>' +
                         '<track default kind="captions" src="frakes.vtt"/></video>';
+                    if (searchResultsDiv.firstChild instanceof HTMLVideoElement) {
+                        searchResultsDiv.firstChild.addEventListener("ended", function () {
+                            searchResultsDiv.innerHTML = "";
+                        });
+                    }
                     searchGeneration++;
                     return;
                 }
