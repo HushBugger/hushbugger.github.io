@@ -100491,13 +100491,13 @@ false,
 },
 "obj_ch2_room_castle_2f_slash_Step_0_gml_54_0": {
 "en": [
-"* Hey, lemme look at my freaking<span class=\"break\">\n  </span>room a sec!<span class=\"param\">~1</span>",
+"* Hey, lemme look at my freaking<span class=\"break\">\n  </span>room a sec!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ うおい！　オレの部屋も\n　 のぞかせろよ！<span class=\"param\">~1</span>",
+"＊ うおい！　オレの部屋も\n　 のぞかせろよ！",
 false,
 46,
 46
@@ -150285,13 +150285,13 @@ false,
 },
 "obj_npc_dumpster_slash_Step_0_gml_63_0": {
 "en": [
-"* Your title was upgraded to<span class=\"break\">\n  </span>[Moss Finder].<span class=\"param\">~1</span>",
+"* Your title was upgraded to<span class=\"break\">\n  </span>[Moss Finder].",
 false,
 46,
 28
 ],
 "ja": [
-"＊ [コケゲッター]の称号を獲得した。<span class=\"param\">~1</span>",
+"＊ [コケゲッター]の称号を獲得した。",
 false,
 28,
 28
@@ -154681,13 +154681,13 @@ false,
 },
 "obj_npc_room_animated_slash_Other_10_gml_501_0": {
 "en": [
-"* Oh... Oh, that's okay...<span class=\"param\">~1</span>",
+"* Oh... Oh, that's okay...",
 false,
 28,
 28
 ],
 "ja": [
-"＊ あ…　うん　べつに　いいズー…<span class=\"param\">~1</span>",
+"＊ あ…　うん　べつに　いいズー…",
 false,
 28,
 28
@@ -159779,13 +159779,13 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_1236_0": {
 "en": [
-"* You think it would torch the<span class=\"break\">\n  </span>other side?<span class=\"param\">~1</span>",
+"* You think it would torch the<span class=\"break\">\n  </span>other side?",
 false,
 46,
 28
 ],
 "ja": [
-"＊ 反対側を\n　 火の海に　できんじゃね？<span class=\"param\">~1</span>",
+"＊ 反対側を\n　 火の海に　できんじゃね？",
 false,
 46,
 46
@@ -165045,13 +165045,13 @@ true,
 "obj_npc_rudy": {
 "obj_npc_rudy_slash_Step_0_gml_29_0": {
 "en": [
-"* 'Sides, your dad ain't much<span class=\"break\">\n  </span>without his main man!<span class=\"param\">~1</span>",
+"* 'Sides, your dad ain't much<span class=\"break\">\n  </span>without his main man!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ それに　クリスのパパも\n　 あいかたが　いなきゃ\n　 こまるだろう！<span class=\"param\">~1</span>",
+"＊ それに　クリスのパパも\n　 あいかたが　いなきゃ\n　 こまるだろう！",
 false,
 64,
 64
@@ -180989,13 +180989,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_1921_0_b": {
 "en": [
-"* It's some decorative moss.<span class=\"break\">\n  </span>Looks delicious.<span class=\"param\">~1</span>",
+"* It's some decorative moss.<span class=\"break\">\n  </span>Looks delicious.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ 装飾用のコケ。おいしそうだ。<span class=\"param\">~1</span>",
+"＊ 装飾用のコケ。おいしそうだ。",
 false,
 28,
 28
@@ -181675,13 +181675,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_2101_0": {
 "en": [
-"* (The door is locked.)<span class=\"param\">~1</span>",
+"* (The door is locked.)",
 false,
 28,
 28
 ],
 "ja": [
-"＊ (カギが　かかっている)<span class=\"param\">~1</span>",
+"＊ (カギが　かかっている)",
 false,
 28,
 28
@@ -192805,13 +192805,13 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_638_0": {
 "en": [
-"* Then perhaps, even now, that<span class=\"break\">\n  </span>Crystal might turn up somewhere<span class=\"break\">\n  </span>close... Perhaps!<span class=\"param\">~1</span>",
+"* Then perhaps, even now, that<span class=\"break\">\n  </span>Crystal might turn up somewhere<span class=\"break\">\n  </span>close... Perhaps!",
 false,
 64,
 28
 ],
 "ja": [
-"＊ ひょっとしたら　この近くのどこかに…\n　 シャドウジェムが現れる…\n　 かもしれないねえ？<span class=\"param\">~1</span>",
+"＊ ひょっとしたら　この近くのどこかに…\n　 シャドウジェムが現れる…\n　 かもしれないねえ？",
 false,
 64,
 64
@@ -198859,13 +198859,13 @@ false,
 },
 "obj_swatchling_enemy_slash_Step_0_gml_444_0": {
 "en": [
-"* Susie mentions explosions.<span class=\"param\">~1</span>",
+"* Susie mentions explosions.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ スージィは　爆発について話した。<span class=\"param\">~1</span>",
+"＊ スージィは　爆発について話した。",
 false,
 28,
 28
@@ -198873,13 +198873,13 @@ false,
 },
 "obj_swatchling_enemy_slash_Step_0_gml_432_0": {
 "en": [
-"* Susie mentions lava.<span class=\"param\">~1</span>",
+"* Susie mentions lava.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ スージィは　溶岩の話をした。<span class=\"param\">~1</span>",
+"＊ スージィは　溶岩の話をした。",
 false,
 28,
 28
@@ -198887,13 +198887,13 @@ false,
 },
 "obj_swatchling_enemy_slash_Step_0_gml_436_0": {
 "en": [
-"* Susie mentions hot peppers.<span class=\"param\">~1</span>",
+"* Susie mentions hot peppers.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ スージィは　トウガラシの話をした。<span class=\"param\">~1</span>",
+"＊ スージィは　トウガラシの話をした。",
 false,
 28,
 28
@@ -198915,13 +198915,13 @@ false,
 },
 "obj_swatchling_enemy_slash_Step_0_gml_456_0": {
 "en": [
-"* Ralsei mentions mint tea.<span class=\"param\">~1</span>",
+"* Ralsei mentions mint tea.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ラルセイは\n　 ミントティーについて話した。<span class=\"param\">~1</span>",
+"＊ ラルセイは\n　 ミントティーについて話した。",
 false,
 46,
 46
@@ -198929,13 +198929,13 @@ false,
 },
 "obj_swatchling_enemy_slash_Step_0_gml_465_0": {
 "en": [
-"* Ralsei mentions icy scarves.<span class=\"param\">~1</span>",
+"* Ralsei mentions icy scarves.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ラルセイは\n　 霜のついたマフラーの話をした。<span class=\"param\">~1</span>",
+"＊ ラルセイは\n　 霜のついたマフラーの話をした。",
 false,
 46,
 46
@@ -198943,13 +198943,13 @@ false,
 },
 "obj_swatchling_enemy_slash_Step_0_gml_469_0": {
 "en": [
-"* Ralsei mentions ice cream.<span class=\"param\">~1</span>",
+"* Ralsei mentions ice cream.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ ラルセイは　アイスクリームの話をした。<span class=\"param\">~1</span>",
+"＊ ラルセイは　アイスクリームの話をした。",
 false,
 28,
 28
@@ -199829,13 +199829,13 @@ false,
 },
 "obj_tasque_enemy_slash_Step_0_gml_155_0": {
 "en": [
-"* Susie roared!! The enemies<span class=\"break\">\n  </span>became TIRED.<span class=\"param\">~1</span>",
+"* Susie roared!! The enemies<span class=\"break\">\n  </span>became TIRED.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ スージィは　ほえた！\n　 敵は　くたびれた。<span class=\"param\">~1</span>",
+"＊ スージィは　ほえた！\n　 敵は　くたびれた。",
 false,
 46,
 46
@@ -199857,13 +199857,13 @@ false,
 },
 "obj_tasque_enemy_slash_Step_0_gml_177_0": {
 "en": [
-"* You and Noelle pet the<span class=\"break\">\n  </span>enemies!<span class=\"param\">~1</span>",
+"* You and Noelle pet the enemies!",
 false,
-46,
+28,
 28
 ],
 "ja": [
-"＊ ノエルと　いっしょに\n　 敵を　ナデナデした！<span class=\"param\">~1</span>",
+"＊ ノエルと　いっしょに\n　 敵を　ナデナデした！",
 false,
 46,
 46
@@ -199899,13 +199899,13 @@ false,
 },
 "obj_tasque_enemy_slash_Step_0_gml_207_0": {
 "en": [
-"* Ralsei talked in a soft voice<span class=\"break\">\n  </span>to the enemies!<span class=\"param\">~1</span>",
+"* Ralsei talked in a soft voice<span class=\"break\">\n  </span>to the enemies!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ ラルセイは　やさしい声で\n　 敵に語りかけた！<span class=\"param\">~1</span>",
+"＊ ラルセイは　やさしい声で\n　 敵に語りかけた！",
 false,
 46,
 46
@@ -200363,13 +200363,13 @@ false,
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": {
 "en": [
-"* Play dead!? I'll teach YOU to<span class=\"break\">\n  </span>play dead!!<span class=\"param\">~1</span>",
+"* Play dead!? I'll teach YOU to<span class=\"break\">\n  </span>play dead!!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ Play dead!? I'll teach YOU to<span class=\"break\">\n</span>play dead!!<span class=\"param\">~1</span>",
+"＊ Play dead!? I'll teach YOU to<span class=\"break\">\n</span>play dead!!",
 false,
 46,
 28
@@ -200433,13 +200433,13 @@ false,
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_311_0": {
 "en": [
-"* Due to good behavior, he<span class=\"break\">\n  </span>received an obedience badge.<span class=\"param\">~1</span>",
+"* Due to good behavior, he<span class=\"break\">\n  </span>received an obedience badge.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ Due to good behavior, he<span class=\"break\">\n</span>received an obedience badge.<span class=\"param\">~1</span>",
+"＊ Due to good behavior, he<span class=\"break\">\n</span>received an obedience badge.",
 false,
 46,
 28
@@ -246477,13 +246477,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_4437_0": {
 "en": [
-"* (You got a small shoe with a<span class=\"break\">\n  </span>toothpick through it...)<span class=\"param\">~1</span>",
+"* (You got a small shoe with a<span class=\"break\">\n  </span>toothpick through it...)",
 false,
 46,
 28
 ],
 "ja": [
-"＊ (つまようじが刺さった\n　 小さなクツを受け取った…)<span class=\"param\">~1</span>",
+"＊ (つまようじが刺さった\n　 小さなクツを受け取った…)",
 false,
 46,
 46
@@ -246519,13 +246519,13 @@ false,
 },
 "scr_text_slash_scr_text_gml_4464_0": {
 "en": [
-"* You'll never get stronger<span class=\"break\">\n  </span>without a daily dose of<span class=\"break\">\n  </span>shoes!!<span class=\"param\">~1</span>",
+"* You'll never get stronger<span class=\"break\">\n  </span>without a daily dose of shoes!!",
 false,
-64,
+46,
 28
 ],
 "ja": [
-"＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！<span class=\"param\">~1</span>",
+"＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！",
 false,
 46,
 46
@@ -279611,13 +279611,13 @@ true,
 },
 "obj_ch2_room_castle_2f_slash_Step_0_gml_54_0": {
 "en": [
-"* Hey, lemme look at my freaking<span class=\"break\">\n  </span>room a sec!<span class=\"param\">~1</span>",
+"* Hey, lemme look at my freaking<span class=\"break\">\n  </span>room a sec!",
 true,
 46,
 28
 ],
 "ja": [
-"＊ うおい！　オレの部屋も\n　 のぞかせろよ！<span class=\"param\">~1</span>",
+"＊ うおい！　オレの部屋も\n　 のぞかせろよ！",
 true,
 46,
 46
@@ -321231,13 +321231,13 @@ false,
 },
 "obj_npc_ramb_slash_Other_10_gml_78_0": {
 "en": [
-"* Kris! Bang-up job getting<span class=\"break\">\n  </span><span class=\"param\">~1</span>-rank, luv! For that, a<span class=\"break\">\n  </span>little prize...<span class=\"param\">~2</span>",
+"* Kris! Bang-up job getting<span class=\"break\">\n  </span><span class=\"param\">~1</span>-rank, luv! For that, a<span class=\"break\">\n  </span>little prize...",
 false,
 64,
 28
 ],
 "ja": [
-"＊ クリス！　<span class=\"param\">~1</span>ランク取ったってなぁ！\n　 てぇしたもんだぁ。\n　 ほれ　ええもんやるでぇ…<span class=\"param\">~2</span>",
+"＊ クリス！　<span class=\"param\">~1</span>ランク取ったってなぁ！\n　 てぇしたもんだぁ。\n　 ほれ　ええもんやるでぇ…",
 false,
 64,
 64
@@ -321511,13 +321511,13 @@ false,
 },
 "obj_npc_ramb_slash_Other_10_gml_202_0": {
 "en": [
-"* Blast it. Maybe you missed<span class=\"break\">\n  </span>something from the first<span class=\"break\">\n  </span>stage...?<span class=\"param\">~1</span>",
+"* Blast it. Maybe you missed<span class=\"break\">\n  </span>something from the first<span class=\"break\">\n  </span>stage...?",
 false,
 64,
 28
 ],
 "ja": [
-"＊ そりゃあ残念だぁ。\n　 最初のステージで\n　 何か取り忘れたんでねぇか…？<span class=\"param\">~1</span>",
+"＊ そりゃあ残念だぁ。\n　 最初のステージで\n　 何か取り忘れたんでねぇか…？",
 false,
 64,
 64
@@ -328893,13 +328893,13 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_1761_0": {
 "en": [
-"* You'll know quickly if I become<span class=\"break\">\n  </span>flaky and stale.<span class=\"param\">~1</span>",
+"* You'll know quickly if I become<span class=\"break\">\n  </span>flaky and stale.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ パサパサボソボソになったら\n　 すぐに　わかるぞ。<span class=\"param\">~1</span>",
+"＊ パサパサボソボソになったら\n　 すぐに　わかるぞ。",
 false,
 46,
 46
@@ -331583,13 +331583,13 @@ false,
 "obj_npc_rudy": {
 "obj_npc_rudy_slash_Step_0_gml_29_0": {
 "en": [
-"* 'Sides, your dad ain't much<span class=\"break\">\n  </span>without his main man!<span class=\"param\">~1</span>",
+"* 'Sides, your dad ain't much<span class=\"break\">\n  </span>without his main man!",
 true,
 46,
 28
 ],
 "ja": [
-"＊ それに　クリスのパパも\n　 あいかたが　いなきゃ\n　 こまるだろう！<span class=\"param\">~1</span>",
+"＊ それに　クリスのパパも\n　 あいかたが　いなきゃ\n　 こまるだろう！",
 true,
 64,
 64
@@ -332761,13 +332761,13 @@ false,
 },
 "obj_npc_sign_slash_Other_10_gml_396_0": {
 "en": [
-"* Ooh, looks yummy! W-wait, what<span class=\"break\">\n  </span>am I saying...?<span class=\"param\">~1</span>",
+"* Ooh, looks yummy! W-wait, what<span class=\"break\">\n  </span>am I saying...?",
 false,
 46,
 28
 ],
 "ja": [
-"＊ わぁ　おいしそう！\n　 …って　あれ？　ボクいま\n　 なんで　そんなことを…？<span class=\"param\">~1</span>",
+"＊ わぁ　おいしそう！\n　 …って　あれ？　ボクいま\n　 なんで　そんなことを…？",
 false,
 64,
 64
@@ -343685,13 +343685,13 @@ true,
 },
 "obj_readable_room1_slash_Other_10_gml_1921_0_b": {
 "en": [
-"* It's some decorative moss.<span class=\"break\">\n  </span>Looks delicious.<span class=\"param\">~1</span>",
+"* It's some decorative moss.<span class=\"break\">\n  </span>Looks delicious.",
 true,
 46,
 28
 ],
 "ja": [
-"＊ 装飾用のコケ。おいしそうだ。<span class=\"param\">~1</span>",
+"＊ 装飾用のコケ。おいしそうだ。",
 true,
 28,
 28
@@ -344581,13 +344581,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_2190_0_b": {
 "en": [
-"* (SHADOW CRYSTAL was added to<span class=\"break\">\n  </span>your Key Items.)<span class=\"param\">~1</span>",
+"* (SHADOW CRYSTAL was added to<span class=\"break\">\n  </span>your Key Items.)",
 false,
 46,
 28
 ],
 "ja": [
-"＊ (シャドウジェムが\n　 「だいじなもの」に加わった)<span class=\"param\">~1</span>",
+"＊ (シャドウジェムが\n　 「だいじなもの」に加わった)",
 false,
 46,
 46
@@ -344679,13 +344679,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_2231_0_b": {
 "en": [
-"* (...? You felt something spiny<span class=\"break\">\n  </span>stuck in your hand.)<span class=\"param\">~1</span>",
+"* (...? You felt something spiny<span class=\"break\">\n  </span>stuck in your hand.)",
 false,
 46,
 28
 ],
 "ja": [
-"＊ (…？　なにか　トゲトゲしたものが\n　 手に　ささっている)<span class=\"param\">~1</span>",
+"＊ (…？　なにか　トゲトゲしたものが\n　 手に　ささっている)",
 false,
 46,
 46
@@ -363771,13 +363771,13 @@ false,
 },
 "obj_shutta_enemy_slash_Step_0_gml_121_0": {
 "en": [
-"How are we\nLOOKING today?<span class=\"param\">~1</span>",
+"How are we\nLOOKING today?",
 false,
 46,
 46
 ],
 "ja": [
-"みんな　今日も\nきれいよ～<span class=\"param\">~1</span>",
+"みんな　今日も\nきれいよ～",
 false,
 46,
 46
@@ -363785,13 +363785,13 @@ false,
 },
 "obj_shutta_enemy_slash_Step_0_gml_122_0": {
 "en": [
-"POSE and... HOLD!\nCan we get a little smolder?<span class=\"param\">~1</span>",
+"POSE and... HOLD!\nCan we get a little smolder?",
 false,
 46,
 46
 ],
 "ja": [
-"はいそこで…ポーズ！\nもっと色っぽく～！<span class=\"param\">~1</span>",
+"はいそこで…ポーズ！\nもっと色っぽく～！",
 false,
 46,
 46
@@ -363799,13 +363799,13 @@ false,
 },
 "obj_shutta_enemy_slash_Step_0_gml_123_0": {
 "en": [
-"The energy, baby,\nEYE am LOVING it!<span class=\"param\">~1</span>",
+"The energy, baby,\nEYE am LOVING it!",
 false,
 46,
 46
 ],
 "ja": [
-"目ヂカラよ！\n視線でコロシて！<span class=\"param\">~1</span>",
+"目ヂカラよ！\n視線でコロシて！",
 false,
 46,
 46
@@ -363813,13 +363813,13 @@ false,
 },
 "obj_shutta_enemy_slash_Step_0_gml_124_0": {
 "en": [
-"Work it baby,\nWORK it!<span class=\"param\">~1</span>",
+"Work it baby,\nWORK it!",
 false,
 46,
 46
 ],
 "ja": [
-"そう！いいわ～！\n目線ちょうだい！<span class=\"param\">~1</span>",
+"そう！いいわ～！\n目線ちょうだい！",
 false,
 46,
 46
@@ -363827,13 +363827,13 @@ false,
 },
 "obj_shutta_enemy_slash_Step_0_gml_125_0": {
 "en": [
-"How's my ATTACK ALBUM?\nI'll let you in it too!<span class=\"param\">~1</span>",
+"How's my ATTACK ALBUM?\nI'll let you in it too!",
 false,
 46,
 46
 ],
 "ja": [
-"アタシの\nこうげきアルバム\nどうかしら？\nあなたの１枚も\n入れたげる！<span class=\"param\">~1</span>",
+"アタシの\nこうげきアルバム\nどうかしら？\nあなたの１枚も\n入れたげる！",
 false,
 100,
 100
@@ -363841,13 +363841,13 @@ false,
 },
 "obj_shutta_enemy_slash_Step_0_gml_126_0": {
 "en": [
-"My memory is\nphotographic,\nphoto-TASTIC!\nWanna see?<span class=\"param\">~1</span>",
+"My memory is\nphotographic,\nphoto-TASTIC!\nWanna see?",
 false,
 82,
 82
 ],
 "ja": [
-"アタシの記憶は\n写真みたいに\nシャシーンと鮮明よ！\n見せたげる！<span class=\"param\">~1</span>",
+"アタシの記憶は\n写真みたいに\nシャシーンと鮮明よ！\n見せたげる！",
 false,
 82,
 82
@@ -366477,13 +366477,13 @@ true,
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": {
 "en": [
-"* Play dead!? I'll teach YOU to<span class=\"break\">\n  </span>play dead!!<span class=\"param\">~1</span>",
+"* Play dead!? I'll teach YOU to<span class=\"break\">\n  </span>play dead!!",
 true,
 46,
 28
 ],
 "ja": [
-"＊ Play dead!? I'll teach YOU to<span class=\"break\">\n</span>play dead!!<span class=\"param\">~1</span>",
+"＊ Play dead!? I'll teach YOU to<span class=\"break\">\n</span>play dead!!",
 true,
 46,
 28
@@ -366547,13 +366547,13 @@ true,
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_311_0": {
 "en": [
-"* Due to good behavior, he<span class=\"break\">\n  </span>received an obedience badge.<span class=\"param\">~1</span>",
+"* Due to good behavior, he<span class=\"break\">\n  </span>received an obedience badge.",
 true,
 46,
 28
 ],
 "ja": [
-"＊ Due to good behavior, he<span class=\"break\">\n</span>received an obedience badge.<span class=\"param\">~1</span>",
+"＊ Due to good behavior, he<span class=\"break\">\n</span>received an obedience badge.",
 true,
 46,
 28
@@ -423521,13 +423521,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_4437_0": {
 "en": [
-"* (You got a small shoe with a<span class=\"break\">\n  </span>toothpick through it...)<span class=\"param\">~1</span>",
+"* (You got a small shoe with a<span class=\"break\">\n  </span>toothpick through it...)",
 true,
 46,
 28
 ],
 "ja": [
-"＊ (つまようじが刺さった\n　 小さなクツを受け取った…)<span class=\"param\">~1</span>",
+"＊ (つまようじが刺さった\n　 小さなクツを受け取った…)",
 true,
 46,
 46
@@ -423563,13 +423563,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_4464_0": {
 "en": [
-"* You'll never get stronger<span class=\"break\">\n  </span>without a daily dose of<span class=\"break\">\n  </span>shoes!!<span class=\"param\">~1</span>",
+"* You'll never get stronger<span class=\"break\">\n  </span>without a daily dose of shoes!!",
 true,
-64,
+46,
 28
 ],
 "ja": [
-"＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！<span class=\"param\">~1</span>",
+"＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！",
 true,
 46,
 46
@@ -447463,13 +447463,13 @@ false,
 },
 "obj_bell_enemy_slash_Step_0_gml_172_0": {
 "en": [
-"* Perfectly in tune!<span class=\"param\">~1</span>",
+"* Perfectly in tune!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ チューニングは　バッチリだ！<span class=\"param\">~1</span>",
+"＊ チューニングは　バッチリだ！",
 false,
 28,
 28
@@ -447477,13 +447477,13 @@ false,
 },
 "obj_bell_enemy_slash_Step_0_gml_199_0": {
 "en": [
-"* Somewhat in tune!<span class=\"param\">~1</span>",
+"* Somewhat in tune!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ チューニングは　だいたい合った！<span class=\"param\">~1</span>",
+"＊ チューニングは　だいたい合った！",
 false,
 28,
 28
@@ -447491,13 +447491,13 @@ false,
 },
 "obj_bell_enemy_slash_Step_0_gml_173_0": {
 "en": [
-"* A bit off-tune!<span class=\"param\">~1</span>",
+"* A bit off-tune!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ チューニングが　少しずれた！<span class=\"param\">~1</span>",
+"＊ チューニングが　少しずれた！",
 false,
 28,
 28
@@ -462379,13 +462379,13 @@ false,
 },
 "obj_ch4_PDC03_slash_Step_0_gml_835_0": {
 "en": [
-"* Hey, c'mon! Don't act like you<span class=\"break\">\n  </span>weren't laughing, too!<span class=\"param\">~1</span>",
+"* Hey, c'mon! Don't act like you<span class=\"break\">\n  </span>weren't laughing, too!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ んだよ！　おまえも\n　 わらってただろ！<span class=\"param\">~1</span>",
+"＊ んだよ！　おまえも\n　 わらってただろ！",
 false,
 46,
 46
@@ -462449,13 +462449,13 @@ false,
 },
 "obj_ch4_PDC03_slash_Step_0_gml_881_0": {
 "en": [
-"* Hell yeah, this'll keep us<span class=\"break\">\n  </span>alive for days!<span class=\"param\">~1</span>",
+"* Hell yeah, this'll keep us<span class=\"break\">\n  </span>alive for days!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ っしゃー！\n　 こんだけありゃ　とうぶん\n　 たのしめるぜ！<span class=\"param\">~1</span>",
+"＊ っしゃー！\n　 こんだけありゃ　とうぶん\n　 たのしめるぜ！",
 false,
 64,
 64
@@ -462463,13 +462463,13 @@ false,
 },
 "obj_ch4_PDC03_slash_Step_0_gml_884_0": {
 "en": [
-"* Nice, that should be enough.<span class=\"param\">~1</span>",
+"* Nice, that should be enough.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ っしゃ　こんだけありゃ\n　 じゅうぶんだな。<span class=\"param\">~1</span>",
+"＊ っしゃ　こんだけありゃ\n　 じゅうぶんだな。",
 false,
 46,
 46
@@ -463909,13 +463909,13 @@ false,
 },
 "obj_ch4_PDC03A_rudy_toriel_slash_Step_0_gml_625_0": {
 "en": [
-"* (Clues acquired.)\n* (Now you can report the hint to<span class=\"break\">\n  </span>Susie.)<span class=\"param\">~1</span>",
+"* (Clues acquired.)\n* (Now you can report the hint to<span class=\"break\">\n  </span>Susie.)",
 false,
 64,
 46
 ],
 "ja": [
-"＊ (てがかりは　てにはいった)\n＊ (スージィに　ほうこくしよう)<span class=\"param\">~1</span>",
+"＊ (てがかりは　てにはいった)\n＊ (スージィに　ほうこくしよう)",
 false,
 46,
 46
@@ -518525,13 +518525,13 @@ false,
 },
 "obj_jackenstein_enemy_slash_Step_0_gml_316_0": {
 "en": [
-"* Too dark to see near the walls.\n* There's something fluffy in<span class=\"break\">\n  </span>here!<span class=\"param\">~1</span>",
+"* Too dark to see near the walls.\n* There's something fluffy in<span class=\"break\">\n  </span>here!",
 false,
 64,
 46
 ],
 "ja": [
-"＊ 暗くて　よく見えない。\n＊ なにか　モフモフしたものがある！<span class=\"param\">~1</span>",
+"＊ 暗くて　よく見えない。\n＊ なにか　モフモフしたものがある！",
 false,
 46,
 46
@@ -518553,13 +518553,13 @@ false,
 },
 "obj_jackenstein_enemy_slash_Step_0_gml_323_0": {
 "en": [
-"* Too dark to see near the walls.\n* There's something very<span class=\"break\">\n  </span>Susie-like in here!<span class=\"param\">~1</span>",
+"* Too dark to see near the walls.\n* There's something very<span class=\"break\">\n  </span>Susie-like in here!",
 false,
 64,
 46
 ],
 "ja": [
-"＊ 暗くて　よく見えない。\n＊ なにか　すごくスージィっぽいものが\n　 ある！<span class=\"param\">~1</span>",
+"＊ 暗くて　よく見えない。\n＊ なにか　すごくスージィっぽいものが\n　 ある！",
 false,
 64,
 64
@@ -537353,13 +537353,13 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_2146_0": {
 "en": [
-"* ... juice.<span class=\"param\">~1</span>",
+"* ... juice.",
 false,
 28,
 28
 ],
 "ja": [
-"＊ …ジュース。<span class=\"param\">~1</span>",
+"＊ …ジュース。",
 false,
 28,
 28
@@ -546013,13 +546013,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_530_0_b": {
 "en": [
-"* (It's a TV. Its antenna was<span class=\"break\">\n  </span>broken, but it's been taped<span class=\"break\">\n  </span>up.)<span class=\"param\">~1</span>",
+"* (It's a TV. Its antenna was<span class=\"break\">\n  </span>broken, but it's been taped<span class=\"break\">\n  </span>up.)",
 false,
 64,
 28
 ],
 "ja": [
-"＊ (テレビだ。\n　 アンテナが　こわれているが\n　 テープで　とめてある)<span class=\"param\">~1</span>",
+"＊ (テレビだ。\n　 アンテナが　こわれているが\n　 テープで　とめてある)",
 false,
 64,
 64
@@ -550493,13 +550493,13 @@ true,
 },
 "obj_readable_room1_slash_Other_10_gml_2154_0": {
 "en": [
-"* (Looks like the diner is<span class=\"break\">\n  </span>full.)<span class=\"param\">~1</span>",
+"* (Looks like the diner is full.)",
 false,
-46,
+28,
 28
 ],
 "ja": [
-"＊ (ダイナーは　まんせきのようだ)<span class=\"param\">~1</span>",
+"＊ (ダイナーは　まんせきのようだ)",
 false,
 28,
 28
@@ -552859,13 +552859,13 @@ true,
 },
 "obj_readable_room1_slash_Other_10_gml_1921_0_b": {
 "en": [
-"* It's some decorative moss.<span class=\"break\">\n  </span>Looks delicious.<span class=\"param\">~1</span>",
+"* It's some decorative moss.<span class=\"break\">\n  </span>Looks delicious.",
 true,
 46,
 28
 ],
 "ja": [
-"＊ 装飾用のコケ。おいしそうだ。<span class=\"param\">~1</span>",
+"＊ 装飾用のコケ。おいしそうだ。",
 true,
 28,
 28
@@ -554959,13 +554959,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_3836_0": {
 "en": [
-"* (It's a state of the art<span class=\"break\">\n  </span>high-definition TV with old<span class=\"break\">\n  </span>game consoles under it.)<span class=\"param\">~1</span>",
+"* (It's a state of the art<span class=\"break\">\n  </span>high-definition TV with old<span class=\"break\">\n  </span>game consoles under it.)",
 false,
 64,
 28
 ],
 "ja": [
-"＊ (さいしんしきの　HDテレビだ。\n　 したの　たなには　きゅうしきの\n　 ゲームきが　おいてある)<span class=\"param\">~1</span>",
+"＊ (さいしんしきの　HDテレビだ。\n　 したの　たなには　きゅうしきの\n　 ゲームきが　おいてある)",
 false,
 64,
 64
@@ -555001,13 +555001,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_3855_0": {
 "en": [
-"* (It's a Christmas cactus.)\n* (You remember it's named<span class=\"break\">\n  </span>'Krismas.')<span class=\"param\">~1</span>",
+"* (It's a Christmas cactus.)\n* (You remember it's named<span class=\"break\">\n  </span>'Krismas.')",
 false,
 64,
 46
 ],
 "ja": [
-"＊ (「クリスマスカクタス」という\n　 サボテンだ。なまえは「“クリス”\n　 マス」だったはず)<span class=\"param\">~1</span>",
+"＊ (「クリスマスカクタス」という\n　 サボテンだ。なまえは「“クリス”\n　 マス」だったはず)",
 false,
 64,
 64
@@ -555071,13 +555071,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_3901_0": {
 "en": [
-"* (A great hiding place, although<span class=\"break\">\n  </span>it smells like detergent and<span class=\"break\">\n  </span>deer.)<span class=\"param\">~1</span>",
+"* (A great hiding place, although<span class=\"break\">\n  </span>it smells like detergent and<span class=\"break\">\n  </span>deer.)",
 false,
 64,
 28
 ],
 "ja": [
-"＊ (ぜっこうの　かくればしょ。\n　 ただし　せんたくせんざいと\n　 トナカイのニオイがする)<span class=\"param\">~1</span>",
+"＊ (ぜっこうの　かくればしょ。\n　 ただし　せんたくせんざいと\n　 トナカイのニオイがする)",
 false,
 64,
 64
@@ -555589,13 +555589,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_4120_0": {
 "en": [
-"* (It's an empty gift box.)<span class=\"param\">~1</span>",
+"* (It's an empty gift box.)",
 false,
 28,
 28
 ],
 "ja": [
-"＊ (プレゼントのはこ…\n　 なかは　からっぽだ)<span class=\"param\">~1</span>",
+"＊ (プレゼントのはこ…\n　 なかは　からっぽだ)",
 false,
 46,
 46
@@ -556261,13 +556261,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_4384_0": {
 "en": [
-"* (You hear various people<span class=\"break\">\n  </span>rehearsing inside.)<span class=\"param\">~1</span>",
+"* (You hear various people<span class=\"break\">\n  </span>rehearsing inside.)",
 false,
 46,
 28
 ],
 "ja": [
-"＊ (リハーサルちゅうの　こえが\n　 なかから　きこえてくる)<span class=\"param\">~1</span>",
+"＊ (リハーサルちゅうの　こえが\n　 なかから　きこえてくる)",
 false,
 46,
 46
@@ -556345,13 +556345,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_4403_0": {
 "en": [
-"* (It's the door to some sort of<span class=\"break\">\n  </span>office.)<span class=\"param\">~1</span>",
+"* (It's the door to some sort of<span class=\"break\">\n  </span>office.)",
 false,
 46,
 28
 ],
 "ja": [
-"＊ (じむしょの　ような　へやの\n　 とびらだ)<span class=\"param\">~1</span>",
+"＊ (じむしょの　ような　へやの\n　 とびらだ)",
 false,
 46,
 46
@@ -556429,13 +556429,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_4454_0": {
 "en": [
-"* (It's an altar full of hope<span class=\"break\">\n  </span>candles. Each one has a<span class=\"break\">\n  </span>person's name on it.)<span class=\"param\">~1</span>",
+"* (It's an altar full of hope<span class=\"break\">\n  </span>candles. Each one has a<span class=\"break\">\n  </span>person's name on it.)",
 false,
 64,
 28
 ],
 "ja": [
-"＊ (さいだん　いっぱいに\n　 きぼうのロウソクが　ならべてある。\n　 それぞれに　なまえが　かいてある)<span class=\"param\">~1</span>",
+"＊ (さいだん　いっぱいに\n　 きぼうのロウソクが　ならべてある。\n　 それぞれに　なまえが　かいてある)",
 false,
 64,
 64
@@ -556765,13 +556765,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_4548_0": {
 "en": [
-"* (Documents...)<span class=\"param\">~1</span>",
+"* (Documents...)",
 false,
 28,
 28
 ],
 "ja": [
-"＊ (しょるいだ…)<span class=\"param\">~1</span>",
+"＊ (しょるいだ…)",
 false,
 28,
 28
@@ -556821,13 +556821,13 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_4564_0": {
 "en": [
-"* (Books. Many copies of Lord of<span class=\"break\">\n  </span>the Hammer... and some<span class=\"break\">\n  </span>unlabeled notebooks.)<span class=\"param\">~1</span>",
+"* (Books. Many copies of Lord of<span class=\"break\">\n  </span>the Hammer... and some<span class=\"break\">\n  </span>unlabeled notebooks.)",
 false,
 64,
 28
 ],
 "ja": [
-"＊ (「ロード・オブ・ザ・ハンマー」が\n　 なんさつかと　ひょうしに　なにも\n　 かいていないノートも　すうさつ)<span class=\"param\">~1</span>",
+"＊ (「ロード・オブ・ザ・ハンマー」が\n　 なんさつかと　ひょうしに　なにも\n　 かいていないノートも　すうさつ)",
 false,
 64,
 64
@@ -572335,13 +572335,13 @@ true,
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": {
 "en": [
-"* Play dead!? I'll teach YOU to<span class=\"break\">\n  </span>play dead!!<span class=\"param\">~1</span>",
+"* Play dead!? I'll teach YOU to<span class=\"break\">\n  </span>play dead!!",
 true,
 46,
 28
 ],
 "ja": [
-"＊ Play dead!? I'll teach YOU to<span class=\"break\">\n</span>play dead!!<span class=\"param\">~1</span>",
+"＊ Play dead!? I'll teach YOU to<span class=\"break\">\n</span>play dead!!",
 true,
 46,
 28
@@ -572405,13 +572405,13 @@ true,
 },
 "obj_tasque_manager_enemy_slash_Step_0_gml_311_0": {
 "en": [
-"* Due to good behavior, he<span class=\"break\">\n  </span>received an obedience badge.<span class=\"param\">~1</span>",
+"* Due to good behavior, he<span class=\"break\">\n  </span>received an obedience badge.",
 true,
 46,
 28
 ],
 "ja": [
-"＊ Due to good behavior, he<span class=\"break\">\n</span>received an obedience badge.<span class=\"param\">~1</span>",
+"＊ Due to good behavior, he<span class=\"break\">\n</span>received an obedience badge.",
 true,
 46,
 28
@@ -628705,13 +628705,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_4437_0": {
 "en": [
-"* (You got a small shoe with a<span class=\"break\">\n  </span>toothpick through it...)<span class=\"param\">~1</span>",
+"* (You got a small shoe with a<span class=\"break\">\n  </span>toothpick through it...)",
 true,
 46,
 28
 ],
 "ja": [
-"＊ (つまようじが刺さった\n　 小さなクツを受け取った…)<span class=\"param\">~1</span>",
+"＊ (つまようじが刺さった\n　 小さなクツを受け取った…)",
 true,
 46,
 46
@@ -628747,13 +628747,13 @@ true,
 },
 "scr_text_slash_scr_text_gml_4464_0": {
 "en": [
-"* You'll never get stronger<span class=\"break\">\n  </span>without a daily dose of<span class=\"break\">\n  </span>shoes!!<span class=\"param\">~1</span>",
+"* You'll never get stronger<span class=\"break\">\n  </span>without a daily dose of shoes!!",
 true,
-64,
+46,
 28
 ],
 "ja": [
-"＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！<span class=\"param\">~1</span>",
+"＊ クツは毎日摂取しないと\n　 強いコに　なれませんよ！！",
 true,
 46,
 46

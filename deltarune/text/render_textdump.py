@@ -10,10 +10,9 @@ import re
 import sys
 import typing
 import xml.etree.ElementTree
-
 from dataclasses import dataclass, field
 
-from render_data import ALT_TEXTS, FUNNYTEXT_DIMS, FORCE_WRAP
+from render_data import ALT_TEXTS, FORCE_WRAP, FUNNYTEXT_DIMS
 
 BONUS_HEIGHTS: dict[tuple[str, str], int] = {}
 
@@ -387,6 +386,22 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 out.write('"')
                 i += 1
             case "~" if i + 1 < len(text) and text[i + 1].isdigit():
+                if (
+                    i == len(text) - 2
+                    and (names := var_names[n].get(msgid))
+                    and set(names)
+                    & {
+                        "sentenceEnd",
+                        "sentence_end",
+                        "ender",
+                        "endSentence",
+                        "_ext",
+                        "_str1",
+                        "_str2",
+                        "txt",
+                    }
+                ):
+                    break
                 # Some tildes are just part of the message.
                 # I think whether they're meaningful depends on the script that's called?
                 # This heuristic is good enough.
@@ -567,13 +582,15 @@ def ishtmlsafe(text: str) -> bool:
 lang: dict[str, dict[typing.Literal["en", "ja"], dict[str, str]]] = json.load(
     open("lang.json", encoding="utf-8")
 )
+lang_meta: typing.Any = json.load(open("lang_meta.json", encoding="utf-8"))
 sourcemap: dict[str, dict[str, str]] = json.load(
     open("sourcemap.json", encoding="utf-8")
 )
 images: dict[
     str,
     dict[str, dict[str, tuple[tuple[str, int, int], tuple[str, int, int]]]],
-] = json.load(open("images.json", encoding="utf-8"))
+] = lang_meta["images"]
+var_names: dict[str, dict[str, list[str]]] = lang_meta["var_names"]
 
 
 class Message(typing.NamedTuple):

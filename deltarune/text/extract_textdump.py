@@ -8,6 +8,7 @@ import re
 import subprocess
 import sys
 import typing
+from dataclasses import dataclass
 
 # Expected directory structure:
 # ├── ch1
@@ -29,12 +30,17 @@ except IndexError:
     sys.exit(1)
 
 
-type FunArgs = list[str | None]
+@dataclass(frozen=True)
+class Var:
+    name: str
+
+
+type FunArgs = list[str | Var | None]
 type FunCall = tuple[str, FunArgs]
 
 
 def parse_args(text: str) -> FunArgs:
-    args = []
+    args: FunArgs = []
     i = 0
     while i < len(text):
         if text[i] in (",", " "):
@@ -68,8 +74,8 @@ def parse_args(text: str) -> FunArgs:
         elif text[i] == ")":
             break
         else:
-            args.append(None)
             depth = 0
+            idx_start = i
             while i < len(text):
                 if text[i] == "(":
                     depth += 1
@@ -80,6 +86,11 @@ def parse_args(text: str) -> FunArgs:
                 elif text[i] == "," and depth == 0:
                     break
                 i += 1
+            arg = text[idx_start:i]
+            if arg.isidentifier():
+                args.append(Var(arg))
+            else:
+                args.append(None)
     return args
 
 
@@ -154,6 +165,7 @@ sourcemap: dict[int, dict[str, str]] = {n: {} for n in CHAPTERS}
 images: dict[int, dict[str, dict[int, tuple[TextImg, TextImg]]]] = {
     n: {} for n in CHAPTERS
 }
+var_names: dict[int, dict[str, list[str]]] = {n: {} for n in CHAPTERS}
 
 for n in CHAPTERS:
     path = source / f"ch{n}"
@@ -187,22 +199,22 @@ for n in CHAPTERS:
 
         for func, args in parse_line(line):
             match func, args:
-                case "scr_84_get_lang_string", [None]:
+                case "scr_84_get_lang_string", [Var(_)]:
                     pass
                 case "scr_84_get_lang_string", [str(arg)]:
                     en[arg] = text[1]["en"][arg]
                     sourcemap[n].setdefault(arg, location)
-                case "msgsetloc", [None, r"\C2"]:
+                case "msgsetloc", [Var(_) | None, str(r"\C2")]:
                     pass
-                case "msgsetsubloc", [None, r"\TX \F0 \E~1 \Fb \T0 %", None]:
+                case "msgsetsubloc", [Var(_), str(r"\TX \F0 \E~1 \Fb \T0 %"), None]:
                     pass
                 case (
-                    ("stringsetloc", [str(trans), str(key)])
-                    | ("msgsetsubloc", [_, str(trans), *_, str(key)])
-                    | ("msgnextsubloc", [str(trans), *_, str(key)])
-                    | ("stringsetsubloc", [str(trans), *_, str(key)])
-                    | ("msgsetloc", [_, str(trans), str(key)])
-                    | ("msgnextloc", [str(trans), str(key)])
+                    ("stringsetloc", [str(trans), *args, str(key)])
+                    | ("msgsetsubloc", [_, str(trans), *args, str(key)])
+                    | ("msgnextsubloc", [str(trans), *args, str(key)])
+                    | ("stringsetsubloc", [str(trans), *args, str(key)])
+                    | ("msgsetloc", [_, str(trans), *args, str(key)])
+                    | ("msgnextloc", [str(trans), *args, str(key)])
                 ):
                     assert " " not in key, repr(key)
                     # Sometimes the same key has multiple English versions.
@@ -224,6 +236,10 @@ for n in CHAPTERS:
                                 TextImg("spr_ja_funnytext_gentle", 0, 0),
                             )
                         images[n].setdefault(key, thisimg)
+
+                    variables = [arg.name for arg in args if isinstance(arg, Var)]
+                    if variables:
+                        var_names[n].setdefault(key, variables)
                 case ("scr_funnytext_init", *_):
                     if args := re.match(
                         r"^\s*scr_funnytext_init\((.*), (.*), "
@@ -303,8 +319,8 @@ for n in CHAPTERS:
                     )
 
                 case _:
-                    print(func, args, line, file=sys.stderr)
-                    sys.exit(1)
+                    print(func, args, repr(line), file=sys.stderr)
+                    sys.exit(2)
 
 # Scrambled fragments. Only the Japanese translation uses a translation key.
 # The Japanese translation actually has one fragment more, that's probably
@@ -328,8 +344,14 @@ with open("lang.json", "w", encoding="utf-8") as f:
     json.dump(text, f, indent=0, ensure_ascii=False, sort_keys=True)
 with open("sourcemap.json", "w", encoding="utf-8") as f:
     json.dump(sourcemap, f, indent=0, ensure_ascii=False, sort_keys=True)
-with open("images.json", "w", encoding="utf-8") as f:
-    json.dump(images, f, indent=0, ensure_ascii=False, sort_keys=True)
+with open("lang_meta.json", "w", encoding="utf-8") as f:
+    json.dump(
+        dict(images=images, var_names=var_names),
+        f,
+        indent=0,
+        ensure_ascii=False,
+        sort_keys=True,
+    )
 
 with open("sourcemap.json.js", "w", encoding="utf-8") as f:
     as_json = json.dumps(

@@ -16789,7 +16789,7 @@ obj_ch2_room_castle_2f
 
 * Heh, well, we'll take a look.
 
-* Hey, lemme look at my freaking room a sec!~1
+* Hey, lemme look at my freaking room a sec!
 
 * Damn, all you wanna do is run off and steal cake.
 
@@ -23738,7 +23738,7 @@ obj_npc_dumpster
 
 * You found the [Moss]!
 
-* Your title was upgraded to [Moss Finder].~1
+* Your title was upgraded to [Moss Finder].
 
 * (Why do they look so pleased?)
 
@@ -24385,7 +24385,7 @@ Really, where!?
 
 * It was sort of an emotional moment...
 
-* Oh... Oh, that's okay...~1
+* Oh... Oh, that's okay...
 
 * Oh hell, is that Nubert over there!?
 
@@ -25161,7 +25161,7 @@ KRIS HURRY UP ALREADY!
 
 (Why are you using that face now?)
 
-* You think it would torch the other side?~1
+* You think it would torch the other side?
 
 * Hey Kris, if you blasted flames down this horn thing...
 
@@ -25862,7 +25862,7 @@ Advertisements now only $9.99!
 obj_npc_rudy
 ============
 
-* 'Sides, your dad ain't much without his main man!~1
+* 'Sides, your dad ain't much without his main man!
 
 * Yeah he... had to ask the store guy for free pickles.
 
@@ -28137,7 +28137,7 @@ obj_readable_room1
 
 * It feels incredibly soft. Like sleeping on a dream...
 
-* It's some decorative moss. Looks delicious.~1
+* It's some decorative moss. Looks delicious.
 
 * Why the hell does YOUR room get moss!?
 
@@ -28235,7 +28235,7 @@ obj_readable_room1
 
 * ...
 
-* (The door is locked.)~1
+* (The door is locked.)
 
 * Kris...? Wh-why did you bring me here...?
 
@@ -29783,7 +29783,7 @@ $~1 ?
 
 * That's right, as long as you ever defeated that enemy in the past...
 
-* Then perhaps, even now, that Crystal might turn up somewhere close... Perhaps!~1
+* Then perhaps, even now, that Crystal might turn up somewhere close... Perhaps!
 
 * Aha! Another Shadow Crystal! You found it...
 
@@ -30811,19 +30811,19 @@ a lot
 
 * Swatchling's color turned ~1 colder...! It's now ~2!
 
-* Susie mentions explosions.~1
+* Susie mentions explosions.
 
-* Susie mentions lava.~1
+* Susie mentions lava.
 
-* Susie mentions hot peppers.~1
+* Susie mentions hot peppers.
 
 * But nothing happened!
 
-* Ralsei mentions mint tea.~1
+* Ralsei mentions mint tea.
 
-* Ralsei mentions icy scarves.~1
+* Ralsei mentions icy scarves.
 
-* Ralsei mentions ice cream.~1
+* Ralsei mentions ice cream.
 
 * But nothing happened!
 
@@ -30970,17 +30970,17 @@ maximized
 
 It's just a cat...
 
-* Susie roared!! The enemies became TIRED.~1
+* Susie roared!! The enemies became TIRED.
 
 * Who's king of the jungle now!?
 
-* You and Noelle pet the enemies!~1
+* You and Noelle pet the enemies!
 
 * Th-there, there... (It's not too different from Catti...)
 
 Isn't that just how he normally talks?
 
-* Ralsei talked in a soft voice to the enemies!~1
+* Ralsei talked in a soft voice to the enemies!
 
 * There, there, it's okay, little kitty...
 
@@ -31067,7 +31067,7 @@ puppy you are!
 
 A treat!! Somebody give her a treat!!
 
-* Play dead!? I'll teach YOU to play dead!!~1
+* Play dead!? I'll teach YOU to play dead!!
 
 * Susie got managed!
 
@@ -31079,7 +31079,7 @@ obedience medal!
 
 Why the hell do YOU get one of those!!
 
-* Due to good behavior, he received an obedience badge.~1
+* Due to good behavior, he received an obedience badge.
 
 * Ralsei got managed!
 
@@ -38002,13 +38002,13 @@ Don't
 
 * Free samples!! Would you like one!?
 
-* (You got a small shoe with a toothpick through it...)~1
+* (You got a small shoe with a toothpick through it...)
 
 * (Chomp.)
 
 * Eh, it's okay. Let's pass.
 
-* You'll never get stronger without a daily dose of shoes!!~1
+* You'll never get stronger without a daily dose of shoes!!
 
 * Umm, I don't really do... shoes.
 
@@ -46895,7 +46895,7 @@ obj_npc_ramb
 
 * (Just wait... I'll show you something electrifying, I will...)
 
-* Kris! Bang-up job getting ~1-rank, luv! For that, a little prize...~2
+* Kris! Bang-up job getting ~1-rank, luv! For that, a little prize...
 
 ARMORs
 
@@ -46935,7 +46935,7 @@ ITEMs
 
 * ... what? You couldn't finish it?
 
-* Blast it. Maybe you missed something from the first stage...?~1
+* Blast it. Maybe you missed something from the first stage...?
 
 * If only you'd gotten S-Rank earlier...
 
@@ -47145,7 +47145,7 @@ SOMEONE ELSE IS USING THESE.
 
 * No worries, Susie! Feel! I'm still warm and fluffy.
 
-* You'll know quickly if I become flaky and stale.~1
+* You'll know quickly if I become flaky and stale.
 
 * Plus, I had a delicious pasta meal last time I became stone.
 
@@ -47446,7 +47446,7 @@ obj_npc_sign
 
 * (A pile of hay.)
 
-* Ooh, looks yummy! W-wait, what am I saying...?~1
+* Ooh, looks yummy! W-wait, what am I saying...?
 
 * Heh, eating HAY? That costume got you weird, Ralsei.
 
@@ -47838,7 +47838,7 @@ obj_readable_room1
 
 * ... guess he could do our book reports...
 
-* (SHADOW CRYSTAL was added to your Key Items.)~1
+* (SHADOW CRYSTAL was added to your Key Items.)
 
 * (BLACK SHARD was added to your Weapons.)
 
@@ -47852,7 +47852,7 @@ obj_readable_room1
 
 * (Someone from behind the curtain pushed you away...)
 
-* (...? You felt something spiny stuck in your hand.)~1
+* (...? You felt something spiny stuck in your hand.)
 
 * (You got the Saber10.)
 
@@ -50145,24 +50145,24 @@ Ohhh, the picture.
 I save the picture!
 
 How are we
-LOOKING today?~1
+LOOKING today?
 
 POSE and... HOLD!
-Can we get a little smolder?~1
+Can we get a little smolder?
 
 The energy, baby,
-EYE am LOVING it!~1
+EYE am LOVING it!
 
 Work it baby,
-WORK it!~1
+WORK it!
 
 How's my ATTACK ALBUM?
-I'll let you in it too!~1
+I'll let you in it too!
 
 My memory is
 photographic,
 photo-TASTIC!
-Wanna see?~1
+Wanna see?
 
 My handlashes
 are so curled!
@@ -54277,11 +54277,11 @@ I am humbelled.
 
 * All musical ACTs became stronger!
 
-* Perfectly in tune!~1
+* Perfectly in tune!
 
-* Somewhat in tune!~1
+* Somewhat in tune!
 
-* A bit off-tune!~1
+* A bit off-tune!
 
 * Susie hammers a bell!
 
@@ -56354,7 +56354,7 @@ dirty toothbrush
 
 * HAHAHAHAH!!! HAHAHAHA!!!
 
-* Hey, c'mon! Don't act like you weren't laughing, too!~1
+* Hey, c'mon! Don't act like you weren't laughing, too!
 
 * Look... uh, here. This was in here, too. Peace offering.
 
@@ -56366,9 +56366,9 @@ dirty toothbrush
 * (...)
 * (You nodded.)
 
-* Hell yeah, this'll keep us alive for days!~1
+* Hell yeah, this'll keep us alive for days!
 
-* Nice, that should be enough.~1
+* Nice, that should be enough.
 
 * All right, let's mess with the stickers first.
 
@@ -56586,7 +56586,7 @@ T... Toriel!
 * Fahaha, can you blame me for being distracted?
 
 * (Clues acquired.)
-* (Now you can report the hint to Susie.)~1
+* (Now you can report the hint to Susie.)
 
 * ... hello? Earth to Kris? Personal space?
 
@@ -63451,12 +63451,12 @@ GO TO [DARK]!!!
 K... Kris?
 
 * Too dark to see near the walls.
-* There's something fluffy in here!~1
+* There's something fluffy in here!
 
 That's ME, dumbass!
 
 * Too dark to see near the walls.
-* There's something very Susie-like in here!~1
+* There's something very Susie-like in here!
 
 * Too dark to see near the walls.
 * There's a texture of a dog playing maracas in here!
@@ -65045,7 +65045,7 @@ TO DO WITH THIS!!!
 
 * And yeah, the juice. My boyfriend loves the juice.
 
-* ... juice.~1
+* ... juice.
 
 * ... your teacher looks thirsty.
 
@@ -65559,7 +65559,7 @@ going to clean that up?
 
 * (... not like this.)
 
-* (It's a TV. Its antenna was broken, but it's been taped up.)~1
+* (It's a TV. Its antenna was broken, but it's been taped up.)
 
 * (Right... before you sealed the Fountain...)
 
@@ -65791,7 +65791,7 @@ going to clean that up?
 
 * (It's closed.)
 
-* (Looks like the diner is full.)~1
+* (Looks like the diner is full.)
 
 * (... a customer in the back notices you.)
 
@@ -66094,14 +66094,14 @@ some green dog puppet thing.
 
 * (It's a couch, for watching the TV.)
 
-* (It's a state of the art high-definition TV with old game consoles under it.)~1
+* (It's a state of the art high-definition TV with old game consoles under it.)
 
 * Why do you... have a flatscreen in here?
 
 * Oh! Umm, yeah, Berdly keeps saying I should get a CRT. Faha!
 
 * (It's a Christmas cactus.)
-* (You remember it's named 'Krismas.')~1
+* (You remember it's named 'Krismas.')
 
 * (It's a cactus that apparently got poorly renamed at some point.)
 
@@ -66111,7 +66111,7 @@ some green dog puppet thing.
 
 * (It's Noelle's homework desk. You took a pencil out of habit.)
 
-* (A great hiding place, although it smells like detergent and deer.)~1
+* (A great hiding place, although it smells like detergent and deer.)
 
 * ... what are these little, uh, wings in here?
 
@@ -66186,7 +66186,7 @@ some green dog puppet thing.
 
 * (Flowers in a trashcan. Nothing unusual.)
 
-* (It's an empty gift box.)~1
+* (It's an empty gift box.)
 
 Huh? ... reference?
 
@@ -66282,7 +66282,7 @@ Your Free
 
 * ... huh. Guess I'll trust you on that one.
 
-* (You hear various people rehearsing inside.)~1
+* (You hear various people rehearsing inside.)
 
 * Damn, we don't have to sing too, do we?
 
@@ -66294,7 +66294,7 @@ Your Free
 
 * Or where the song starts. Or ends. Or whatever.
 
-* (It's the door to some sort of office.)~1
+* (It's the door to some sort of office.)
 
 * ... hmm... seems like a decent place for clues.
 
@@ -66306,7 +66306,7 @@ Your Free
 
 * (It seems the way is blocked.)
 
-* (It's an altar full of hope candles. Each one has a person's name on it.)~1
+* (It's an altar full of hope candles. Each one has a person's name on it.)
 
 * ("Asriel"... "Asgore"... "Kris"... your mother must have lit those ones.)
 
@@ -66358,7 +66358,7 @@ that shoots whip cream
 
 * (Juice, and wafer-like crackers.)
 
-* (Documents...)~1
+* (Documents...)
 
 * ... guess the lock number could be in here...
 
@@ -66366,7 +66366,7 @@ that shoots whip cream
 
 * ... let's look somewhere else.
 
-* (Books. Many copies of Lord of the Hammer... and some unlabeled notebooks.)~1
+* (Books. Many copies of Lord of the Hammer... and some unlabeled notebooks.)
 
 * It'd... take a while to search through all this.
 
