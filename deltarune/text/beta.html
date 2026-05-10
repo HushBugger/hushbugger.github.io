@@ -854,6 +854,11 @@
                  * @param {K} key
                  */
                 function get(key) {
+                    if (state.hideSearch >= 2) {
+                        if (key === "highlight") {
+                            return false;
+                        }
+                    }
                     if (!state.expert) {
                         if (key === "matchCase" || key === "wholeWord" || key === "regex") {
                             return false;
