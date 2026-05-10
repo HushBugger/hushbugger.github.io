@@ -1490,9 +1490,13 @@
              * @param {HTMLElement} elem
              */
             function fixHeight(rect, elem) {
+                const realHeight = rect.height;
+                if (!realHeight) {
+                    // Probably search being hidden
+                    return;
+                }
                 const style = getComputedStyle(elem);
                 const computedHeight = +style.getPropertyValue("--empty-height");
-                const realHeight = rect.height;
 
                 if (computedHeight !== realHeight) {
                     // This doesn't always indicate a problem, small offsets are common
