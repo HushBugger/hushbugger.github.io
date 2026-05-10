@@ -1734,6 +1734,7 @@
                 ["：", ":"],
                 ["（", "("],
                 ["）", ")"],
+                ["…", "..."],
                 ["&gt;", ">"],
                 ["&lt;", "<"],
                 ["&amp;", "&"],
@@ -1785,7 +1786,9 @@
                     for (const char of searchBar.value) {
                         const replacement = normalizeMap.get(char);
                         if (replacement) {
-                            if (".*+?^${}()|[]\\".includes(replacement)) {
+                            if (replacement === "...") {
+                                rawPattern += "\\.\\.\\.";
+                            } else if (".*+?^${}()|[]\\".includes(replacement)) {
                                 rawPattern += "\\" + replacement;
                             } else {
                                 rawPattern += replacement;
@@ -1799,7 +1802,9 @@
                         char = normalizeMap.get(char) || char;
                         // RegExp.escape() is too modern.
                         // AFAICT this is good enough for our purposes.
-                        if (".*+?^${}()|[]\\".includes(char)) {
+                        if (char === "...") {
+                            rawPattern += "\\.\\.\\.";
+                        } else if (".*+?^${}()|[]\\".includes(char)) {
                             rawPattern += "\\" + char;
                         } else if (/\s/.test(char)) {
                             rawPattern += " ";
@@ -2014,7 +2019,7 @@
              */
             function munge(text) {
                 return text.replace(
-                    /<[^>]*>|[ \n\u3000]{2,}|[\n\u3000]|&gt;|&lt;|&amp;|[！？＊。～：（）“”’]/g,
+                    /<[^>]*>|[ \n\u3000]{2,}|[\n\u3000]|&gt;|&lt;|&amp;|[！？＊。～：（）“”’…]/g,
                     function (match) {
                         if (match[0] === "<") {
                             const altIdx = match.indexOf('alt="');
@@ -2071,20 +2076,22 @@
                         const [start, end] = matches[matchIdx];
                         const cur = stack[stack.length - 1];
                         if (cur instanceof Text) {
-                            let isWhitespace = false;
+                            let isSpecial = false;
                             let elemPos = 0;
                             let gotoNextMatch = false;
                             const oldPos = pos;
-                            for (const piece of cur.textContent.split(/(\s+)/)) {
+                            for (const piece of cur.textContent.split(/(\s+|…)/)) {
                                 let realWidth, posWidth;
-                                if (isWhitespace) {
+                                if (isSpecial) {
                                     realWidth = piece.length;
-                                    posWidth = 1;
+                                    posWidth = piece === "…" ? 3 : 1;
                                 } else {
                                     realWidth = posWidth = piece.length;
                                 }
                                 if (!foundStart && pos + posWidth >= start) {
-                                    if (isWhitespace) {
+                                    if (piece === "…" && pos + posWidth > start) {
+                                        range.setStart(cur, elemPos);
+                                    } else if (isSpecial) {
                                         range.setStart(cur, elemPos + realWidth);
                                     } else {
                                         range.setStart(cur, start - pos + elemPos);
@@ -2092,7 +2099,7 @@
                                     foundStart = true;
                                 }
                                 if (foundStart && pos + posWidth >= end) {
-                                    if (isWhitespace) {
+                                    if (isSpecial) {
                                         range.setEnd(cur, elemPos + realWidth);
                                     } else {
                                         range.setEnd(cur, end - pos + elemPos);
@@ -2104,7 +2111,7 @@
                                     gotoNextMatch = true;
                                     break;
                                 }
-                                isWhitespace = !isWhitespace;
+                                isSpecial = !isSpecial;
                                 pos += posWidth;
                                 elemPos += realWidth;
                             }
