@@ -1248,6 +1248,20 @@
 
                 const [hashChap, hashMsgid] = id2meta(window.location.hash.slice(1));
 
+                let curAtTop = document.elementFromPoint(
+                    0,
+                    parseInt(getComputedStyle(document.documentElement).scrollPaddingTop) || 0
+                );
+                while (curAtTop instanceof HTMLElement && !curAtTop.dataset.idx) {
+                    curAtTop = curAtTop.parentElement;
+                }
+                const scrollToIdx =
+                    curAtTop instanceof HTMLElement && curAtTop.dataset.idx
+                        ? +curAtTop.dataset.idx
+                        : null;
+                const scrollToOffset =
+                    curAtTop instanceof HTMLElement ? curAtTop.getBoundingClientRect().top : 0;
+
                 activeTextSections.clear();
                 textObserver.disconnect();
                 applyTextHighlights();
@@ -1315,12 +1329,42 @@
                 }
 
                 textboxes.innerHTML = newHTML;
+                /** @type {HTMLElement | null} */
+                let prescrollSection = null;
                 for (const child of textboxes.childNodes) {
                     if (child instanceof HTMLElement && child.localName === "section") {
                         if (preload && preload === child.id) {
                             fillTextSection(child);
                         }
+                        if (
+                            scrollToIdx !== null &&
+                            +child.id.slice(6) <= scrollToIdx / CHUNK_SIZE
+                        ) {
+                            prescrollSection = child;
+                        }
                         textObserver.observe(child);
+                    }
+                }
+                if (prescrollSection && scrollToIdx !== null) {
+                    fillTextSection(prescrollSection);
+                    let prescrollMessage = prescrollSection.firstElementChild;
+                    for (const child of prescrollSection.childNodes) {
+                        if (
+                            child instanceof HTMLElement &&
+                            child.dataset.idx &&
+                            +child.dataset.idx <= scrollToIdx
+                        ) {
+                            prescrollMessage = child;
+                        }
+                    }
+                    if (prescrollMessage) {
+                        scrollTo({
+                            behavior: "instant",
+                            top:
+                                prescrollMessage.getBoundingClientRect().top +
+                                scrollY -
+                                scrollToOffset,
+                        });
                     }
                 }
 
