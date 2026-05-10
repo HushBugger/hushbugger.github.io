@@ -518,6 +518,10 @@
                 color: var(--background-color);
             }
 
+            html.light img.white {
+                filter: invert(1);
+            }
+
             video {
                 display: block;
                 width: 100%;
@@ -560,6 +564,13 @@
 
             html.highlight img.highlit {
                 filter: drop-shadow(1.5px 1.5px var(--highlight-color, yellow))
+                    drop-shadow(1.5px -1.5px var(--highlight-color, yellow))
+                    drop-shadow(-1.5px 1.5px var(--highlight-color, yellow))
+                    drop-shadow(-1.5px -1.5px var(--highlight-color, yellow));
+            }
+
+            html.highlight img.highlit.white {
+                filter: invert(1) drop-shadow(1.5px 1.5px var(--highlight-color, yellow))
                     drop-shadow(1.5px -1.5px var(--highlight-color, yellow))
                     drop-shadow(-1.5px 1.5px var(--highlight-color, yellow))
                     drop-shadow(-1.5px -1.5px var(--highlight-color, yellow));

@@ -12,7 +12,7 @@ import typing
 import xml.etree.ElementTree
 from dataclasses import dataclass, field
 
-from render_data import ALT_TEXTS, FORCE_WRAP, FUNNYTEXT_DIMS
+from render_data import ALT_TEXTS, FORCE_WRAP, FUNNYTEXT_DIMS, FUNNYTEXT_WHITE
 
 BONUS_HEIGHTS: dict[tuple[str, str], int] = {}
 
@@ -228,7 +228,8 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                             f'<img src="{path}" loading="lazy"'
                             f' style="position:relative;top:{y / 2}px;'
                             f'left:{x / 2}px"'
-                            f' alt="{alt}"'
+                            + (' class="white"' if file in FUNNYTEXT_WHITE else "")
+                            + f' alt="{alt}"'
                             f' width="{dims.width / 2}" height="{dims.height / 2}"/>'
                             "</span>"
                         )

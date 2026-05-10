@@ -135,6 +135,25 @@ FUNNYTEXT_DIMS = {
     "spr_ja_funnytext_word": Dim(232, 38, 116, 19),
 }
 
+FUNNYTEXT_WHITE = {
+    "spr_funnytext_alligator",
+    "spr_funnytext_brother",
+    "spr_funnytext_city_feet",
+    "spr_funnytext_coffee",
+    "spr_funnytext_gentle",
+    "spr_funnytext_know_tv",
+    "spr_funnytext_relax",
+    "spr_funnytext_tan",
+    "spr_ja_funnytext_alligator",
+    "spr_ja_funnytext_brother",
+    "spr_ja_funnytext_city_feet",
+    "spr_ja_funnytext_coffee",
+    "spr_ja_funnytext_gentle",
+    "spr_ja_funnytext_know_tv",
+    "spr_ja_funnytext_relax",
+    "spr_ja_funnytext_tan",
+}
+
 ALT_TEXTS = {
     "spr_dw_tv_time_funnytext": "IT'S!! TV!! TiME!!!",
     "spr_funnytext_alligator": "(Guess your mother's never been\na fan of alligators in bikinis.)",
@@ -169,7 +188,7 @@ ALT_TEXTS = {
     "spr_funnytext_prizes": "PRIZES",
     "spr_funnytext_quizzes": "QUIZZES",
     "spr_funnytext_relax": "Relax and Enjoy...",
-    "spr_funnytext_resumes": "Résumés",  # TODO: maybe this animation needs to be flattened?
+    "spr_funnytext_resumes": "Résumés",
     "spr_funnytext_rock_concert": "ROCK CONCERT",
     "spr_funnytext_round": "ROUND",
     "spr_funnytext_round_1": "ROUND 1!",
