@@ -69,24 +69,24 @@
             }
 
             #logo {
+                position: absolute;
                 padding: 10px;
-                padding-bottom: 11px;
-                display: block;
             }
 
             html.light #logo {
                 filter: grayscale(1) invert(1);
             }
 
-            html.expert #logo {
-                width: 350px;
-                height: 95px;
+            html.hidesearch #logo {
+                width: 126px;
+                height: 34px;
             }
 
             #intro {
                 background: var(--foreground-color);
                 color: var(--background-color);
                 padding: 0.4em;
+                margin-top: 16px;
             }
 
             html.light #intro a {
@@ -94,7 +94,7 @@
             }
 
             #controls {
-                position: fixed;
+                position: sticky;
                 z-index: 1;
                 top: 8px;
                 left: 8px;
@@ -196,7 +196,13 @@
             }
 
             #searchresults {
-                flex-grow: 1;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                max-height: calc(100vh - 16px - 100%);
+                max-height: calc(100svh - 16px - 100%);
+                max-height: calc(100dvh - 16px - 100%);
                 overflow-y: auto;
                 overflow-x: hidden;
                 overflow-x: clip;
