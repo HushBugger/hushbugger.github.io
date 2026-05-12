@@ -1700,10 +1700,28 @@
                 }
             });
 
+            /** @type string[] */
+            let searchHistory = [];
+            let searchHistoryIndex = 0;
+            try {
+                const persistedHistory = sessionStorage.getItem("dr-search-history");
+                if (persistedHistory) {
+                    searchHistory = JSON.parse(persistedHistory);
+                    searchHistoryIndex = Math.max(0, searchHistory.length - 1);
+                }
+                const persistedIndex = sessionStorage.getItem("dr-search-history-index");
+                if (persistedIndex) {
+                    searchHistoryIndex = +persistedIndex;
+                }
+            } catch (error) {
+                console.error(error);
+            }
+            /** @type {number | null} */
+            let searchHistoryTimer = null;
+
             const nope = ["1 2 3 blueaddison cyber cafe sex", "hey i'm tha sicko"];
 
             function processSearchInput() {
-                sessionStorage.setItem("dr-search-query", searchBar.value);
                 if (searchGeneration === 0 && !searchBar.value) {
                     return;
                 }
@@ -1719,6 +1737,9 @@
                     }
                     searchGeneration++;
                     return;
+                }
+                if (searchHistoryTimer !== null) {
+                    clearTimeout(searchHistoryTimer);
                 }
                 searchQuery = compileQuery();
                 if (!searchQuery) {
@@ -1741,6 +1762,7 @@
                     searchNext.disabled = true;
                     searchGeneration++;
                     searchQuery = null;
+                    searchHistoryIndex = searchHistory.length;
                     return;
                 }
                 if (!searchWorker) {
@@ -1770,10 +1792,27 @@
                     generation: ++searchGeneration,
                 };
                 searchWorker.postMessage(query);
+                const rawQuery = searchBar.value;
+                searchHistoryTimer = setTimeout(function () {
+                    if (
+                        !rawQuery ||
+                        searchHistory[searchHistoryIndex] === rawQuery ||
+                        searchHistory[searchHistory.length - 1] === rawQuery
+                    ) {
+                        return;
+                    }
+                    searchHistory.push(rawQuery);
+                    if (searchHistory.length >= 200) {
+                        searchHistory = searchHistory.slice(-100);
+                    }
+                    searchHistoryIndex = searchHistory.length - 1;
+                    sessionStorage.setItem("dr-search-history", JSON.stringify(searchHistory));
+                    sessionStorage.setItem("dr-search-history-index", String(searchHistoryIndex));
+                }, 500);
             }
             searchBar.addEventListener("input", processSearchInput);
             if (!searchBar.value) {
-                searchBar.value = sessionStorage.getItem("dr-search-query") || "";
+                searchBar.value = searchHistory[searchHistoryIndex] || "";
             }
 
             inputMatchCase.addEventListener("input", function () {
@@ -2399,6 +2438,20 @@
                     event.preventDefault();
                     inputRegex.click();
                     settings.set("expert", true);
+                } else if (!event.altKey && event.key === "ArrowUp") {
+                    event.preventDefault();
+                    searchHistoryIndex = Math.max(searchHistoryIndex - 1, 0);
+                    if (searchBar.value !== searchHistory[searchHistoryIndex]) {
+                        searchBar.value = searchHistory[searchHistoryIndex] || "";
+                        processSearchInput();
+                    }
+                    sessionStorage.setItem("dr-search-history-index", String(searchHistoryIndex));
+                } else if (!event.altKey && event.key === "ArrowDown") {
+                    event.preventDefault();
+                    searchHistoryIndex = Math.min(searchHistoryIndex + 1, searchHistory.length);
+                    searchBar.value = searchHistory[searchHistoryIndex] || "";
+                    processSearchInput();
+                    sessionStorage.setItem("dr-search-history-index", String(searchHistoryIndex));
                 }
             });
 
