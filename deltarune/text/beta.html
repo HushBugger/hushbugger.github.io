@@ -1763,6 +1763,7 @@
                     searchGeneration++;
                     searchQuery = null;
                     searchHistoryIndex = searchHistory.length;
+                    sessionStorage.setItem("dr-search-history-index", String(searchHistoryIndex));
                     return;
                 }
                 if (!searchWorker) {
