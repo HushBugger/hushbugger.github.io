@@ -2376,6 +2376,9 @@
                 if (event.isComposing || event.defaultPrevented) {
                     return;
                 }
+                if (event.ctrlKey || event.metaKey) {
+                    return;
+                }
                 if (event.key === "Enter") {
                     event.preventDefault();
                     announceResultText = true;
