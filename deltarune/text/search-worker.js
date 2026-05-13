@@ -44,7 +44,7 @@ const MSG_SIZE = 17;
 let curMsgOffset = 0;
 
 /**
- * @param {1|2|3} width
+ * @param {1|3} width
  * @return {(idx: number) => number}
  */
 function mkExtractor(width) {
