@@ -1899,6 +1899,7 @@
                 if (!searchBar.value) {
                     return null;
                 }
+                const input = searchBar.value.replace(/\s+/g, " ");
 
                 let rawPattern = "";
                 let flags = "g";
@@ -1913,7 +1914,7 @@
                     } else {
                         flags += "u";
                     }
-                    for (const char of searchBar.value) {
+                    for (const char of input) {
                         const replacement = normalizeMap.get(char);
                         if (replacement) {
                             if (replacement === "...") {
@@ -1928,7 +1929,7 @@
                         }
                     }
                 } else {
-                    for (let char of searchBar.value) {
+                    for (let char of input) {
                         char = normalizeMap.get(char) || char;
                         // RegExp.escape() is too modern.
                         // AFAICT this is good enough for our purposes.
@@ -1936,8 +1937,6 @@
                             rawPattern += "\\.\\.\\.";
                         } else if (".*+?^${}()|[]\\".includes(char)) {
                             rawPattern += "\\" + char;
-                        } else if (/\s/.test(char)) {
-                            rawPattern += " ";
                         } else {
                             rawPattern += char;
                         }
