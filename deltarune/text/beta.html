@@ -283,9 +283,13 @@
             }
 
             #textboxes div.dual {
-                display: flex;
-                flex-direction: column;
+                display: grid;
+                grid-template-columns: 360px 360px;
                 gap: 10px;
+            }
+
+            #textboxes div.dual div {
+                grid-column: 1;
             }
 
             @media (min-width: 800px) {
@@ -312,11 +316,6 @@
 
                 #textboxes span.break {
                     white-space: nowrap;
-                }
-
-                #textboxes div.dual {
-                    display: grid;
-                    grid-template-columns: 360px 360px;
                 }
 
                 #textboxes div.dual div.ja {
