@@ -2350,6 +2350,12 @@
                 const section = document.getElementById("chunk-" + ((+msgIdx / CHUNK_SIZE) | 0));
                 if (section instanceof HTMLElement) {
                     fillTextSection(section);
+                    if (section.previousElementSibling instanceof HTMLElement) {
+                        fillTextSection(section.previousElementSibling);
+                    }
+                    if (section.nextElementSibling instanceof HTMLElement) {
+                        fillTextSection(section.nextElementSibling);
+                    }
                 }
                 renderSearchCounter();
                 const target = document.getElementById(idForResult(result));
