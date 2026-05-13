@@ -1270,13 +1270,35 @@
 
                 const [hashChap, hashMsgid] = id2meta(window.location.hash.slice(1));
 
-                let curAtTop = document.elementFromPoint(
-                    0,
-                    parseInt(getComputedStyle(document.documentElement).scrollPaddingTop) || 0
-                );
-                while (curAtTop instanceof HTMLElement && !curAtTop.dataset.idx) {
-                    curAtTop = curAtTop.parentElement;
+                const scrollTop =
+                    parseInt(getComputedStyle(document.documentElement).scrollPaddingTop) || 0;
+                /** @type {HTMLElement | null} */
+                let curAtTop = null;
+                for (const section of textboxes.childNodes) {
+                    if (
+                        !(section instanceof HTMLElement) ||
+                        !section.hasChildNodes() ||
+                        section.getBoundingClientRect().bottom < 0
+                    ) {
+                        continue;
+                    }
+                    let stop = false;
+                    for (const message of section.childNodes) {
+                        if (!(message instanceof HTMLElement)) {
+                            continue;
+                        }
+                        if (message.getBoundingClientRect().top <= scrollTop) {
+                            curAtTop = message;
+                        } else {
+                            stop = true;
+                            break;
+                        }
+                    }
+                    if (stop) {
+                        break;
+                    }
                 }
+
                 const scrollToIdx =
                     curAtTop instanceof HTMLElement && curAtTop.dataset.idx
                         ? +curAtTop.dataset.idx
