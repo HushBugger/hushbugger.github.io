@@ -2689,7 +2689,9 @@
             });
 
             textboxes.addEventListener("click", function () {
-                setSearchHidden(true);
+                if (!settings.get("hideSearch")) {
+                    setSearchHidden(true);
+                }
             });
 
             function setupCloseWatcher() {
