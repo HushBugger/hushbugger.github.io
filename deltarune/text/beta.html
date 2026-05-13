@@ -2047,9 +2047,8 @@
                     if (pos === 0) {
                         // Avoid observer flicker for cheap common case
                         fillSearchSection(section);
-                    } else {
-                        searchObserver.observe(section);
                     }
+                    searchObserver.observe(section);
                     if (preloadFocus) {
                         fillSearchSection(section);
                         const box = [...section.children].find(function (box) {
@@ -2074,20 +2073,44 @@
 
             const searchObserver = new IntersectionObserver(
                 function (entries) {
+                    /** @type {Set<HTMLElement>} */
+                    const recalc = new Set();
                     for (const entry of entries) {
                         if (!(entry.target instanceof HTMLElement)) {
                             continue;
                         }
-                        if (entry.isIntersecting && !entry.target.hasChildNodes()) {
-                            fillSearchSection(entry.target);
-                        } else if (
-                            !entry.isIntersecting &&
-                            entry.target.hasChildNodes() &&
-                            !(focusedResult && focusedResult.parentElement === entry.target)
-                        ) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("visible");
+                        } else {
+                            entry.target.classList.remove("visible");
+                            if (!entry.target.hasChildNodes()) {
+                                continue;
+                            }
                             fixHeight(entry.boundingClientRect, entry.target);
-                            entry.target.innerHTML = "";
-                            activeSearchSections.delete(entry.target);
+                        }
+                        recalc.add(entry.target);
+                        if (entry.target.previousElementSibling instanceof HTMLElement) {
+                            recalc.add(entry.target.previousElementSibling);
+                        }
+                        if (entry.target.nextElementSibling instanceof HTMLElement) {
+                            recalc.add(entry.target.nextElementSibling);
+                        }
+                    }
+                    for (const section of recalc) {
+                        if (section.localName !== "section") {
+                            continue;
+                        }
+                        if (
+                            section.classList.contains("visible") ||
+                            (section.previousElementSibling instanceof HTMLElement &&
+                                section.previousElementSibling.classList.contains("visible")) ||
+                            (section.nextElementSibling instanceof HTMLElement &&
+                                section.nextElementSibling.classList.contains("visible"))
+                        ) {
+                            fillSearchSection(section);
+                        } else if (!(focusedResult && focusedResult.parentElement === section)) {
+                            section.innerHTML = "";
+                            activeSearchSections.delete(section);
                         }
                     }
                 },
