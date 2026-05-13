@@ -1926,6 +1926,7 @@
                 if (settings.get("wholeWord")) {
                     // Trick borrowed from VS Code:
                     // https://github.com/microsoft/vscode/blob/24ab8bac79/src/vs/base/common/strings.ts#L209
+                    // Doesn't do much for Japanese text unfortunately.
                     const prefix = !/\B/.test(rawPattern[0]);
                     const postfix = !/\B/.test(rawPattern[rawPattern.length - 1]);
                     rawPattern = `(?:${rawPattern})`;
