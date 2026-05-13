@@ -786,28 +786,73 @@
                 document.getElementById("highlight")
             );
 
+            /**
+             * With certain browsers and configurations localStorage and sessionStorage
+             * are either null or throw a SecurityError when used.
+             *
+             * If that happens we simply ignore the problem. Some implications:
+             *
+             * - localStorage and sessionStorage should only be used through the wrapper.
+             *
+             * - getItem() should only be used during page startup.
+             *
+             * @param {'sessionStorage' | 'localStorage'} name
+             */
+            function wrapStorage(name) {
+                /** @param {string} key */
+                function getItem(key) {
+                    try {
+                        return window[name].getItem(key);
+                    } catch (error) {
+                        return null;
+                    }
+                }
+
+                /**
+                 * @param {string} key
+                 * @param {string} value
+                 */
+                function setItem(key, value) {
+                    try {
+                        window[name].setItem(key, value);
+                    } catch (error) {}
+                }
+
+                /** @param {string} key */
+                function removeItem(key) {
+                    try {
+                        window[name].removeItem(key);
+                    } catch (error) {}
+                }
+
+                return { getItem: getItem, setItem: setItem, removeItem: removeItem };
+            }
+
+            const local = wrapStorage("localStorage");
+            const session = wrapStorage("sessionStorage");
+
             lightModeToggle.addEventListener("click", function () {
                 if (document.documentElement.classList.toggle("light")) {
-                    localStorage.setItem("deltaruneLightMode", "true");
+                    local.setItem("deltaruneLightMode", "true");
                 } else {
-                    localStorage.removeItem("deltaruneLightMode");
+                    local.removeItem("deltaruneLightMode");
                 }
             });
 
-            if (localStorage.getItem("deltaruneLightMode")) {
+            if (local.getItem("deltaruneLightMode")) {
                 document.documentElement.classList.add("light");
             }
 
             const settings = (function () {
                 const state = {
-                    expert: localStorage.getItem("dr-expert") === "1",
+                    expert: local.getItem("dr-expert") === "1",
                     hideSearch: /** @type {0|1|2} */ (
-                        +(sessionStorage.getItem("dr-hideSearch") || 0) || 0
+                        +(session.getItem("dr-hideSearch") || 0) || 0
                     ),
-                    matchCase: sessionStorage.getItem("dr-matchCase") === "1",
-                    wholeWord: sessionStorage.getItem("dr-wholeWord") === "1",
-                    regex: sessionStorage.getItem("dr-regex") === "1",
-                    highlight: sessionStorage.getItem("dr-highlight") !== "0",
+                    matchCase: session.getItem("dr-matchCase") === "1",
+                    wholeWord: session.getItem("dr-wholeWord") === "1",
+                    regex: session.getItem("dr-regex") === "1",
+                    highlight: session.getItem("dr-highlight") !== "0",
                 };
 
                 apply();
@@ -849,12 +894,12 @@
                     apply();
 
                     if (key === "expert") {
-                        localStorage.setItem(`dr-expert`, String(+value));
+                        local.setItem(`dr-expert`, String(+value));
                         if (state.matchCase || state.wholeWord || state.regex) {
                             processSearchInput();
                         }
                     } else {
-                        sessionStorage.setItem(`dr-${key}`, String(+value));
+                        session.setItem(`dr-${key}`, String(+value));
                     }
 
                     if (state.expert) {
@@ -1235,6 +1280,8 @@
 
             /** @type {HTMLElement | null} */
             let focusedResult = null;
+
+            let searchFocusKey = session.getItem("dr-search-focus");
 
             /** @type {string|null} */
             let curRendered = null;
@@ -1730,12 +1777,12 @@
             let searchHistory = [];
             let searchHistoryIndex = 0;
             try {
-                const persistedHistory = sessionStorage.getItem("dr-search-history");
+                const persistedHistory = session.getItem("dr-search-history");
                 if (persistedHistory) {
                     searchHistory = JSON.parse(persistedHistory);
                     searchHistoryIndex = Math.max(0, searchHistory.length - 1);
                 }
-                const persistedIndex = sessionStorage.getItem("dr-search-history-index");
+                const persistedIndex = session.getItem("dr-search-history-index");
                 if (persistedIndex) {
                     searchHistoryIndex = +persistedIndex;
                 }
@@ -1789,7 +1836,7 @@
                     searchGeneration++;
                     searchQuery = null;
                     searchHistoryIndex = searchHistory.length;
-                    sessionStorage.setItem("dr-search-history-index", String(searchHistoryIndex));
+                    session.setItem("dr-search-history-index", String(searchHistoryIndex));
                     return;
                 }
                 if (!searchWorker) {
@@ -1833,8 +1880,8 @@
                         searchHistory = searchHistory.slice(-100);
                     }
                     searchHistoryIndex = searchHistory.length - 1;
-                    sessionStorage.setItem("dr-search-history", JSON.stringify(searchHistory));
-                    sessionStorage.setItem("dr-search-history-index", String(searchHistoryIndex));
+                    session.setItem("dr-search-history", JSON.stringify(searchHistory));
+                    session.setItem("dr-search-history-index", String(searchHistoryIndex));
                 }, 500);
             }
             searchBar.addEventListener("input", processSearchInput);
@@ -2001,7 +2048,7 @@
                 searchObserver.disconnect();
                 searchResultsDiv.innerHTML = "";
                 searchResultsDiv.removeAttribute("aria-activedescendant");
-                let pendingFocusedResult = sessionStorage.getItem("dr-search-focus");
+                let pendingFocusedResult = searchFocusKey;
                 focusSearchResult(null);
                 if (!searchResults || !searchResults.length) {
                     searchPrev.disabled = true;
@@ -2356,13 +2403,15 @@
             function focusSearchResult(resultBox, scroll = true) {
                 focusedResult = resultBox;
                 if (!resultBox || !resultBox.id || !searchResults) {
-                    sessionStorage.removeItem("dr-search-focus");
+                    searchFocusKey = null;
+                    session.removeItem("dr-search-focus");
                     return;
                 }
                 const result = searchResults[+resultBox.id.slice(7)];
                 const msgIdx = result >> 1;
                 const lang = result & 1 ? "ja" : "en";
-                sessionStorage.setItem("dr-search-focus", lang + ":" + msgIdx);
+                searchFocusKey = lang + ":" + msgIdx;
+                session.setItem("dr-search-focus", searchFocusKey);
                 for (const elem of document.getElementsByClassName("focused")) {
                     elem.classList.remove("focused");
                     elem.removeAttribute("aria-selected");
@@ -2501,13 +2550,13 @@
                         searchBar.value = searchHistory[searchHistoryIndex] || "";
                         processSearchInput();
                     }
-                    sessionStorage.setItem("dr-search-history-index", String(searchHistoryIndex));
+                    session.setItem("dr-search-history-index", String(searchHistoryIndex));
                 } else if (!event.altKey && event.key === "ArrowDown") {
                     event.preventDefault();
                     searchHistoryIndex = Math.min(searchHistoryIndex + 1, searchHistory.length);
                     searchBar.value = searchHistory[searchHistoryIndex] || "";
                     processSearchInput();
-                    sessionStorage.setItem("dr-search-history-index", String(searchHistoryIndex));
+                    session.setItem("dr-search-history-index", String(searchHistoryIndex));
                 }
             });
 
