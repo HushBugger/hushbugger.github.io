@@ -443,13 +443,22 @@
             }
 
             div.textbox,
-            pre#loading,
+            #loading,
             h1 {
                 font-family: "8bitoperator Undertale Mono", Monospace;
             }
 
             #loading {
+                padding-top: 16px;
                 padding-left: 32px;
+            }
+
+            #loading a {
+                filter: invert(1);
+            }
+
+            html.light #loading a {
+                filter: none;
             }
 
             div.ja {
@@ -1052,24 +1061,36 @@
             let searchWorker = null;
         </script>
         <div id="textboxes">
-            <pre id="loading">Loading...</pre>
+            <div id="loading">
+                <noscript>
+                    <p>This page requires JavaScript. Sorry :(</p>
+                    <p>Maybe try the <a href="DELTARUNE.txt">plain text</a> dump?</p>
+                    <p>(Or in Japanese: <a href="DELTARUNE_ja.txt" lang="ja">日本語</a>)</p>
+                </noscript>
+            </div>
         </div>
-        <noscript>
-            <p>This page requires JavaScript. Sorry :(</p>
-            <p>Maybe try the <a href="DELTARUNE.txt">plain text</a> dump?</p>
-        </noscript>
         <script>
             "use strict";
 
+            const loadingDiv = /** @type {HTMLDivElement} */ (document.getElementById("loading"));
+            loadingDiv.innerHTML = "Loading...";
+
             if (!window.IntersectionObserver) {
-                /** @type {HTMLPreElement} */ (document.getElementById("loading")).innerHTML =
+                loadingDiv.innerHTML =
                     "<p>Your browser is too old. Sorry :(</p>\n" +
                     '<p>Maybe try the <a href="DELTARUNE.txt">plain text</a> dump?</p>\n' +
                     '<p>(Or in Japanese: <a href="DELTARUNE_ja.txt" lang="ja">日本語</a>)</p>';
                 window.stop();
+                throw new Error("Browser unsupported");
             }
 
-            const rawText = (function () {
+            /** @type {string} */
+            let rawText;
+
+            /** @type {Meta} */
+            let meta;
+
+            try {
                 // Synchronous XHR is deprecated but never ever getting removed.
                 // It's the only way to pull in flat text data during page load
                 // without parsing overhead. An async fetch breaks anchor links
@@ -1083,11 +1104,26 @@
                 req.overrideMimeType("text/plain; charset=UTF-8");
                 req.open("GET", "rendered.bin", false);
                 req.send();
-                return req.responseText;
-            })();
+                if (
+                    !req.responseText ||
+                    (!(req.status >= 200 && req.status < 300) && req.status !== 0)
+                ) {
+                    throw new Error("failed request");
+                }
 
-            /** @type {Meta} */
-            const meta = JSON.parse(rawText.slice(rawText.lastIndexOf("\0") + 1));
+                rawText = req.responseText;
+
+                meta = JSON.parse(rawText.slice(rawText.lastIndexOf("\0") + 1));
+            } catch (error) {
+                loadingDiv.innerHTML =
+                    "<p>Couldn't fetch the text data. Try refreshing.</p>\n" +
+                    "<p>If this keeps happening, let me know in the " +
+                    '<a href="https://forms.gle/cmXFH7HoadC9oMX36" target="_blank" rel="noreferrer">form</a>.</p>\n' +
+                    '<p>Maybe try the <a href="DELTARUNE.txt">plain text</a> dump?</p>\n' +
+                    '<p>(Or in Japanese: <a href="DELTARUNE_ja.txt" lang="ja">日本語</a>)</p>';
+                window.stop();
+                throw error;
+            }
 
             const MSG_SIZE = 17;
 
