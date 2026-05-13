@@ -216,7 +216,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                         alt = ALT_TEXTS[file].replace("\n", " ")
                         # Various issues that would mess up search ranges
                         assert alt == alt.strip()
-                        assert ">" not in alt
+                        assert ">" not in alt and "<" not in alt and "&" not in alt
                         assert not re.search(r"\s\s", alt)
                         assert '"' not in alt
                         # I tried shaking CSS. But it wasn't random and looked bad at
@@ -628,6 +628,7 @@ for n in lang:
     ks = sorted(lang[n]["en"].keys() | lang[n]["ja"].keys(), key=smartsort)
     for k in ks:
         assert ishtmlsafe(k)
+        assert ":" not in k
         if k == "date":
             continue
         en = lang[n]["en"].get(k)
