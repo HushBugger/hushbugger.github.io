@@ -988,8 +988,8 @@
                 // Firefox on Windows
                 (navigator.userAgent.includes("Gecko/20100101") &&
                     navigator.userAgent.includes("Windows NT")) ||
-                // Any browser on Linux (not including Android)
-                navigator.userAgent.includes("Linux")
+                // Any browser on desktop Linux
+                (navigator.userAgent.includes("Linux") && !navigator.userAgent.includes("Android"))
             ) {
                 document.documentElement.classList.add("crisptext");
             }
