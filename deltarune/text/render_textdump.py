@@ -651,20 +651,9 @@ for n in lang:
                 }
 
 # Mainly for reference in the git diff.
-# Easier for other programs to ingest than the JS file below.
+# Easier for other programs to ingest than the binary file below.
 with open("rendered.json", "w", encoding="utf-8") as f:
     json.dump(rendered, f, indent=0, ensure_ascii=False)
-
-# https://v8.dev/blog/cost-of-javascript-2019#json
-# TL;DR: JSON parsed from a string literal is faster than an object literal.
-# This saves ~60ms in the node.js CLI on my laptop.
-with open("rendered.json.js", "w", encoding="utf-8") as f:
-    as_json = json.dumps(
-        rendered, indent=None, ensure_ascii=False, separators=(",", ":")
-    )
-    f.write("var rendered = JSON.parse('")
-    f.write(as_json.replace("\\", "\\\\").replace("'", "\\'"))
-    f.write("');")
 
 
 def wraptitle(text: str) -> tuple[str, int, int]:

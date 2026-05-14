@@ -352,11 +352,3 @@ with open("lang_meta.json", "w", encoding="utf-8") as f:
         ensure_ascii=False,
         sort_keys=True,
     )
-
-with open("sourcemap.json.js", "w", encoding="utf-8") as f:
-    as_json = json.dumps(
-        sourcemap, indent=None, ensure_ascii=False, separators=(",", ":")
-    )
-    f.write("var sourcemap = JSON.parse('")
-    f.write(as_json.replace("\\", "\\\\").replace("'", "\\'"))
-    f.write("');")
