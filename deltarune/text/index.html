@@ -534,6 +534,10 @@
                 filter: invert(1);
             }
 
+            img[data-sound] {
+                cursor: pointer;
+            }
+
             video {
                 display: block;
                 width: 100%;
@@ -2730,7 +2734,22 @@
                 }
             });
 
-            textboxes.addEventListener("click", function () {
+            /** @type {HTMLAudioElement | null} */
+            let curAudio = null;
+
+            textboxes.addEventListener("click", function (event) {
+                if (event.target instanceof HTMLImageElement && event.target.dataset.sound) {
+                    const snd = event.target.dataset.sound;
+                    if (curAudio) {
+                        curAudio.pause();
+                    }
+                    curAudio = new Audio();
+                    curAudio.innerHTML =
+                        `<source src="snd/${snd}.opus" type="audio/ogg; codecs=opus" />` +
+                        `<source src="snd/${snd}.mp3" type="audio/mpeg" />`;
+                    curAudio.play();
+                    return;
+                }
                 if (!settings.get("hideSearch")) {
                     setSearchHidden(true);
                 }

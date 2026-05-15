@@ -12,7 +12,15 @@ import typing
 import xml.etree.ElementTree
 from dataclasses import dataclass, field
 
-from render_data import ALT_TEXTS, FORCE_WRAP, FUNNYTEXT_DIMS, FUNNYTEXT_WHITE
+from render_data import (
+    ALT_TEXTS,
+    FORCE_WRAP,
+    FUNNYTEXT_DIMS,
+    FUNNYTEXT_WHITE,
+    FUNNYTEXT_SOUNDS,
+    FUNNYTEXT_SOUNDS_BROKEN,
+    FUNNYTEXT_SOUND_BROKEN_JA,
+)
 
 BONUS_HEIGHTS: dict[tuple[str, str], int] = {}
 
@@ -183,6 +191,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                                 out.write(f'<span class="{color}">')
                     case "O":
                         file, x_off, y_off = images[n][msgid][text[i + 2]][lang == "ja"]
+                        file_canonical = images[n][msgid][text[i + 2]][0][0]
                         path = f"img/{file}.gif"
                         assert os.path.exists(path)
                         dims = FUNNYTEXT_DIMS[file]
@@ -214,6 +223,11 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                             realheight = dims.height // 2
                             BONUS_HEIGHTS[lang, msgid] = realheight - 18
                         alt = ALT_TEXTS[file].replace("\n", " ")
+                        snd = FUNNYTEXT_SOUNDS.get(file_canonical)
+                        if file_canonical in FUNNYTEXT_SOUNDS_BROKEN:
+                            snd = None
+                        if lang == "ja" and msgid in FUNNYTEXT_SOUND_BROKEN_JA:
+                            snd = None
                         # Various issues that would mess up search ranges
                         assert alt == alt.strip()
                         assert ">" not in alt and "<" not in alt and "&" not in alt
@@ -229,6 +243,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                             f' style="position:relative;top:{y / 2}px;'
                             f'left:{x / 2}px"'
                             + (' class="white"' if file in FUNNYTEXT_WHITE else "")
+                            + (f' data-sound="{snd}"' if snd else "")
                             + f' alt="{alt}"'
                             f' width="{dims.width / 2}" height="{dims.height / 2}"/>'
                             "</span>"

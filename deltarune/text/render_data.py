@@ -241,3 +241,66 @@ ALT_TEXTS = {
     "spr_ja_funnytext_win_big": "優勝してね♥",
     "spr_ja_funnytext_word": "ご覧のスポンサー",
 }
+
+
+FUNNYTEXT_SOUNDS = {
+    "spr_funnytext_fun_loop": "snd_crowd_cheer_single",
+    "spr_funnytext_big": "snd_ftext_bounce",
+    "spr_funnytext_physical_challenge": "snd_ftext_bounce",
+    "spr_funnytext_physical_challenges": "snd_ftext_bounce",
+    "spr_funnytext_board": "snd_ftext_woodblock",
+    "spr_funnytext_challenge": "snd_ftext_woodblock",
+    "spr_funnytext_bonus_round": "snd_ftext_prize",
+    "spr_funnytext_word": "snd_ftext_prize",
+    "spr_funnytext_hall_of_fame": "snd_ftext_prize",
+    "spr_funnytext_amazing_01": "snd_ftext_prize",
+    "spr_funnytext_breaking_news": "snd_whip_crack_only",
+    "spr_funnytext_flames": "snd_badexplosion",
+    "spr_funnytext_fun_o_meter": "snd_ftext_enter",
+    "spr_funnytext_special": "snd_ftext_enter",
+    "spr_funnytext_susiezilla": "snd_ftext_susiezilla",
+    "spr_funnytext_dark_fountain": "snd_ftext_dark_fountain",
+    "spr_funnytext_brother": "snd_ftext_brother",
+    "spr_funnytext_grand_prize": "snd_ftext_gunshot",
+    "spr_funnytext_prizes": "snd_ftext_gunshot",
+    "spr_funnytext_round": "snd_ftext_gunshot",
+    "spr_funnytext_round_1": "snd_ftext_gunshot",
+    "spr_funnytext_rounds": "snd_ftext_gunshot",
+    "spr_funnytext_game_over": "snd_ftext_gunshot",
+    "spr_funnytext_game": "snd_ftext_gunshot",
+    "spr_funnytext_over": "snd_ftext_gunshot",
+    "spr_funnytext_names": "snd_ftext_names",
+    "spr_funnytext_toriel": "snd_ftext_toriel",
+    "spr_funnytext_green_room": "snd_ftext_vibraphones",
+    "spr_funnytext_quizzes": "snd_ftext_vibraphones",
+    "spr_funnytext_love": "snd_audience_aww",
+    "spr_funnytext_lovely": "snd_audience_aww",
+    "spr_funnytext_lovers": "snd_audience_aww",
+    "spr_funnytext_star": "snd_sparkle_glock",
+    "spr_funnytext_stars": "snd_sparkle_glock",
+    "spr_funnytext_stop": "snd_locker",
+    "spr_funnytext_tears": "snd_splat",
+    "spr_funnytext_win_big": "snd_carhonk",
+}
+
+
+# Missing from the localization sprite map and therefore not found
+FUNNYTEXT_SOUNDS_BROKEN = {
+    "spr_funnytext_big",
+    "spr_funnytext_round",
+    "spr_funnytext_round_1",
+    "spr_funnytext_rounds",
+    "spr_funnytext_game_over",
+    "spr_funnytext_game",
+    "spr_funnytext_over",
+    "spr_funnytext_stop",
+}
+
+
+FUNNYTEXT_SOUND_BROKEN_JA = {
+    # Broken because it hardcodes the JP sprite name(?)
+    "obj_ch3_GSA04_slash_Step_0_gml_230_0",
+    # Present in the EN localization sprite map but not the JA map
+    "obj_ch3_GSB03_slash_Step_0_gml_279_0",
+    "obj_ch3_GSC05_slash_Step_0_gml_233_0",
+}

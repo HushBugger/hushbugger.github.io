@@ -283043,13 +283043,13 @@ false,
 },
 "obj_ch3_BTB06_slash_Step_0_gml_211_0": {
 "en": [
-"* Is another\n  <span style=\"display:inline-block;height:34px;width:195px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"PHYSICAL CHALLENGE\" width=\"195.5\" height=\"34.5\"/></span>!!",
+"* Is another\n  <span style=\"display:inline-block;height:34px;width:195px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_bounce\" alt=\"PHYSICAL CHALLENGE\" width=\"195.5\" height=\"34.5\"/></span>!!",
 false,
 62,
 62
 ],
 "ja": [
-"＊ <span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"リアルチャレンジ\" width=\"152.5\" height=\"33.0\"/></span>を\n　 お見舞いしまSHOW！！！",
+"＊ <span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_ftext_bounce\" alt=\"リアルチャレンジ\" width=\"152.5\" height=\"33.0\"/></span>を\n　 お見舞いしまSHOW！！！",
 false,
 46,
 46
@@ -283059,13 +283059,13 @@ false,
 "obj_ch3_GSA01G": {
 "obj_ch3_GSA01G_slash_Step_0_gml_93_0": {
 "en": [
-"* What <span style=\"display:inline-block;height:18px;width:71px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_lovely.gif\" loading=\"lazy\" style=\"position:relative;top:-3.0px;left:0.0px\" alt=\"Lovely\" width=\"71.5\" height=\"27.5\"/></span> contestants<span class=\"break\">\n  </span>we've got TODAY, folks---!!!",
+"* What <span style=\"display:inline-block;height:18px;width:71px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_lovely.gif\" loading=\"lazy\" style=\"position:relative;top:-3.0px;left:0.0px\" data-sound=\"snd_audience_aww\" alt=\"Lovely\" width=\"71.5\" height=\"27.5\"/></span> contestants<span class=\"break\">\n  </span>we've got TODAY, folks---!!!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ 本日の <span style=\"display:inline-block;height:18px;width:87px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_lovely.gif\" loading=\"lazy\" style=\"position:relative;top:-3.0px;left:0.0px\" alt=\"ラブラブ ラブリ～\" width=\"87.0\" height=\"27.5\"/></span>な\n　 出場者の　みなさんで～す！",
+"＊ 本日の <span style=\"display:inline-block;height:18px;width:87px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_lovely.gif\" loading=\"lazy\" style=\"position:relative;top:-3.0px;left:0.0px\" data-sound=\"snd_audience_aww\" alt=\"ラブラブ ラブリ～\" width=\"87.0\" height=\"27.5\"/></span>な\n　 出場者の　みなさんで～す！",
 false,
 46,
 46
@@ -283087,13 +283087,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_98_0": {
 "en": [
-"* YES!!! You three are the\n  <span style=\"display:inline-block;height:18px;width:86px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_stars.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"STARS\" width=\"86.5\" height=\"30.0\"/></span> of today's SHOW!!!",
+"* YES!!! You three are the\n  <span style=\"display:inline-block;height:18px;width:86px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_stars.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_sparkle_glock\" alt=\"STARS\" width=\"86.5\" height=\"30.0\"/></span> of today's SHOW!!!",
 false,
 46,
 46
 ],
 "ja": [
-"＊ ヨッ！　本日の<span style=\"display:inline-block;height:18px;width:59px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_stars.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"主役\" width=\"59.5\" height=\"30.0\"/></span>！\n　 ニクいね　このこの～！！\n　 それでは　いってみましょう！",
+"＊ ヨッ！　本日の<span style=\"display:inline-block;height:18px;width:59px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_stars.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_sparkle_glock\" alt=\"主役\" width=\"59.5\" height=\"30.0\"/></span>！\n　 ニクいね　このこの～！！\n　 それでは　いってみましょう！",
 false,
 64,
 64
@@ -283185,13 +283185,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_241_0": {
 "en": [
-"* Answer CRAZY QUESTIONS!! Pass\n  <span style=\"display:inline-block;height:18px;width:195px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_physical_challenges.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"PHYSICAL CHALLENGES\" width=\"195.5\" height=\"34.5\"/></span>...",
+"* Answer CRAZY QUESTIONS!! Pass\n  <span style=\"display:inline-block;height:18px;width:195px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_physical_challenges.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_bounce\" alt=\"PHYSICAL CHALLENGES\" width=\"195.5\" height=\"34.5\"/></span>...",
 false,
 46,
 46
 ],
 "ja": [
-"＊ クイズに答えて　さらに\n　 <span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"リアルチャレンジ\" width=\"152.5\" height=\"33.0\"/></span>も\n　 クリアすれば…",
+"＊ クイズに答えて　さらに\n　 <span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_ftext_bounce\" alt=\"リアルチャレンジ\" width=\"152.5\" height=\"33.0\"/></span>も\n　 クリアすれば…",
 false,
 64,
 64
@@ -283199,13 +283199,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_252_0": {
 "en": [
-"* And you'll all win some<span class=\"break\">\n  </span>TV-Tastic <span style=\"display:inline-block;height:18px;width:84px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_prizes.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" alt=\"PRIZES\" width=\"84.0\" height=\"31.0\"/></span>!!!",
+"* And you'll all win some<span class=\"break\">\n  </span>TV-Tastic <span style=\"display:inline-block;height:18px;width:84px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_prizes.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" data-sound=\"snd_ftext_gunshot\" alt=\"PRIZES\" width=\"84.0\" height=\"31.0\"/></span>!!!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ テレビ的に最高にワンダホーな\n　 <span style=\"display:inline-block;height:18px;width:50px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_prizes.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" alt=\"賞品\" width=\"50.0\" height=\"31.0\"/></span>が　アナタのモノに！！",
+"＊ テレビ的に最高にワンダホーな\n　 <span style=\"display:inline-block;height:18px;width:50px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_prizes.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" data-sound=\"snd_ftext_gunshot\" alt=\"賞品\" width=\"50.0\" height=\"31.0\"/></span>が　アナタのモノに！！",
 false,
 46,
 46
@@ -283367,13 +283367,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_444_0": {
 "en": [
-"* Why, it looks like a<span class=\"break\">\n  </span>prescription for... ONE\n  <span style=\"display:inline-block;height:18px;width:148px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_grand_prize.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" alt=\"GRAND PRIZE\" width=\"148.0\" height=\"27.5\"/></span>!?",
+"* Why, it looks like a<span class=\"break\">\n  </span>prescription for... ONE\n  <span style=\"display:inline-block;height:18px;width:148px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_grand_prize.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" data-sound=\"snd_ftext_gunshot\" alt=\"GRAND PRIZE\" width=\"148.0\" height=\"27.5\"/></span>!?",
 false,
 64,
 46
 ],
 "ja": [
-"＊ お～っとぉ！\n　 こっれはぁ～！！！\n　 <span style=\"display:inline-block;height:18px;width:77px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_grand_prize.gif\" loading=\"lazy\" style=\"position:relative;top:-2.5px;left:0.0px\" alt=\"優勝賞品\" width=\"77.0\" height=\"27.5\"/></span>の　発表だぁ！！",
+"＊ お～っとぉ！\n　 こっれはぁ～！！！\n　 <span style=\"display:inline-block;height:18px;width:77px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_grand_prize.gif\" loading=\"lazy\" style=\"position:relative;top:-2.5px;left:0.0px\" data-sound=\"snd_ftext_gunshot\" alt=\"優勝賞品\" width=\"77.0\" height=\"27.5\"/></span>の　発表だぁ！！",
 false,
 64,
 64
@@ -283381,7 +283381,7 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_486_0": {
 "en": [
-"* That's right! Today's\n  <span style=\"display:inline-block;height:18px;width:148px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_grand_prize.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" alt=\"GRAND PRIZE\" width=\"148.0\" height=\"27.5\"/></span> is this<span class=\"break\">\n  </span>season's MOST popular item...",
+"* That's right! Today's\n  <span style=\"display:inline-block;height:18px;width:148px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_grand_prize.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" data-sound=\"snd_ftext_gunshot\" alt=\"GRAND PRIZE\" width=\"148.0\" height=\"27.5\"/></span> is this<span class=\"break\">\n  </span>season's MOST popular item...",
 false,
 64,
 46
@@ -283437,13 +283437,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_644_0": {
 "en": [
-"<span style=\"display:inline-block;height:62px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_win_big.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"*WIN!\" width=\"130.5\" height=\"62.5\"/></span>",
+"<span style=\"display:inline-block;height:62px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_win_big.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_carhonk\" alt=\"*WIN!\" width=\"130.5\" height=\"62.5\"/></span>",
 false,
 72,
 72
 ],
 "ja": [
-"<span style=\"display:inline-block;height:69px;width:218px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_win_big.gif\" loading=\"lazy\" style=\"position:relative;top:-4.5px;left:0.0px\" alt=\"優勝してね♥\" width=\"218.5\" height=\"69.5\"/></span>",
+"<span style=\"display:inline-block;height:69px;width:218px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_win_big.gif\" loading=\"lazy\" style=\"position:relative;top:-4.5px;left:0.0px\" data-sound=\"snd_carhonk\" alt=\"優勝してね♥\" width=\"218.5\" height=\"69.5\"/></span>",
 false,
 79,
 79
@@ -283451,13 +283451,13 @@ false,
 },
 "obj_ch3_GSA01G_slash_Step_0_gml_695_0": {
 "en": [
-"* WOW!!! I've never seen the<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:124px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:-5.0px\" alt=\"FUN-O-METER\" width=\"124.0\" height=\"26.0\"/></span> like THIS,<span class=\"break\">\n  </span>folks!!!",
+"* WOW!!! I've never seen the<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:124px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:-5.0px\" data-sound=\"snd_ftext_enter\" alt=\"FUN-O-METER\" width=\"124.0\" height=\"26.0\"/></span> like THIS,<span class=\"break\">\n  </span>folks!!!",
 false,
 64,
 28
 ],
 "ja": [
-"＊ …っとぉ！　ごらんくださ～い！！\n　 <span style=\"display:inline-block;height:18px;width:103px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:-5.0px\" alt=\"ハピハピメーター\" width=\"103.0\" height=\"26.0\"/></span>の上がり方が\n　 タイヘンなことに！！",
+"＊ …っとぉ！　ごらんくださ～い！！\n　 <span style=\"display:inline-block;height:18px;width:103px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:-5.0px\" data-sound=\"snd_ftext_enter\" alt=\"ハピハピメーター\" width=\"103.0\" height=\"26.0\"/></span>の上がり方が\n　 タイヘンなことに！！",
 false,
 64,
 64
@@ -283929,13 +283929,13 @@ false,
 },
 "obj_ch3_GSA02_slash_Step_0_gml_96_0": {
 "en": [
-"* To today's <span style=\"display:inline-block;height:18px;width:73px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_star.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"STAR\" width=\"73.5\" height=\"30.0\"/></span>\n  contestants!!!",
+"* To today's <span style=\"display:inline-block;height:18px;width:73px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_star.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_sparkle_glock\" alt=\"STAR\" width=\"73.5\" height=\"30.0\"/></span>\n  contestants!!!",
 false,
 46,
 46
 ],
 "ja": [
-"＊ 本日の<span style=\"display:inline-block;height:18px;width:59px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_stars.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"主役\" width=\"59.5\" height=\"30.0\"/></span>…\n　 …出場者の　みなさんですッ！！",
+"＊ 本日の<span style=\"display:inline-block;height:18px;width:59px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_stars.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_sparkle_glock\" alt=\"主役\" width=\"59.5\" height=\"30.0\"/></span>…\n　 …出場者の　みなさんですッ！！",
 false,
 46,
 46
@@ -283943,13 +283943,13 @@ false,
 },
 "obj_ch3_GSA02_slash_Step_0_gml_152_0": {
 "en": [
-"* Everyone! Please cheer their\n  <span style=\"display:inline-block;height:18px;width:86px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_names.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"NAMES\" width=\"86.0\" height=\"21.0\"/></span>!",
+"* Everyone! Please cheer their\n  <span style=\"display:inline-block;height:18px;width:86px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_names.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_names\" alt=\"NAMES\" width=\"86.0\" height=\"21.0\"/></span>!",
 false,
 46,
 46
 ],
 "ja": [
-"＊ みんな　大きな声で\n　 <span style=\"display:inline-block;height:18px;width:42px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_names.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"名前\" width=\"42.0\" height=\"21.0\"/></span>を　呼んであげてネ！！",
+"＊ みんな　大きな声で\n　 <span style=\"display:inline-block;height:18px;width:42px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_names.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_names\" alt=\"名前\" width=\"42.0\" height=\"21.0\"/></span>を　呼んであげてネ！！",
 false,
 46,
 46
@@ -283985,13 +283985,13 @@ false,
 },
 "obj_ch3_GSA02_slash_Step_0_gml_227_0": {
 "en": [
-"* Your <span style=\"display:inline-block;height:18px;width:86px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_names.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"NAMES\" width=\"86.0\" height=\"21.0\"/></span> please!!!",
+"* Your <span style=\"display:inline-block;height:18px;width:86px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_names.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_names\" alt=\"NAMES\" width=\"86.0\" height=\"21.0\"/></span> please!!!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ <span style=\"display:inline-block;height:18px;width:42px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_names.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"名前\" width=\"42.0\" height=\"21.0\"/></span>を　教えてください！！",
+"＊ <span style=\"display:inline-block;height:18px;width:42px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_names.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_names\" alt=\"名前\" width=\"42.0\" height=\"21.0\"/></span>を　教えてください！！",
 false,
 28,
 28
@@ -284279,13 +284279,13 @@ false,
 },
 "obj_ch3_GSA02_slash_Step_0_gml_675_0": {
 "en": [
-"* MIKE, the <span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-2.5px\" alt=\"BOARD\" width=\"66.5\" height=\"32.0\"/></span>,\n  please!",
+"* MIKE, the <span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-2.5px\" data-sound=\"snd_ftext_woodblock\" alt=\"BOARD\" width=\"66.5\" height=\"32.0\"/></span>,\n  please!",
 false,
 46,
 46
 ],
 "ja": [
-"＊ マイクくん！\n　 <span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"PARK\" width=\"66.5\" height=\"32.0\"/></span>を　お披露目だッ！",
+"＊ マイクくん！\n　 <span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"PARK\" width=\"66.5\" height=\"32.0\"/></span>を　お披露目だッ！",
 false,
 46,
 46
@@ -284335,13 +284335,13 @@ false,
 },
 "obj_ch3_GSA02_slash_Step_0_gml_706_0": {
 "en": [
-"* On your QUEST you will fight<span class=\"break\">\n  </span>BATTLES... quiz <span style=\"display:inline-block;height:18px;width:79px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_quizzes.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"QUIZZES\" width=\"79.5\" height=\"26.0\"/></span>...<span class=\"break\">\n  </span>gain POINTs...",
+"* On your QUEST you will fight<span class=\"break\">\n  </span>BATTLES... quiz <span style=\"display:inline-block;height:18px;width:79px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_quizzes.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_vibraphones\" alt=\"QUIZZES\" width=\"79.5\" height=\"26.0\"/></span>...<span class=\"break\">\n  </span>gain POINTs...",
 false,
 64,
 28
 ],
 "ja": [
-"＊ バトルを　バトルし…\n　 <span style=\"display:inline-block;height:18px;width:53px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_quizzes.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"クイズ\" width=\"53.5\" height=\"26.0\"/></span>を　クイズし…\n　 ポイントを　ゲットし…",
+"＊ バトルを　バトルし…\n　 <span style=\"display:inline-block;height:18px;width:53px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_quizzes.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_vibraphones\" alt=\"クイズ\" width=\"53.5\" height=\"26.0\"/></span>を　クイズし…\n　 ポイントを　ゲットし…",
 false,
 64,
 64
@@ -284349,13 +284349,13 @@ false,
 },
 "obj_ch3_GSA02_slash_Step_0_gml_707_0": {
 "en": [
-"* And maybe learn to <span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_love.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" alt=\"LOVE\" width=\"62.0\" height=\"29.0\"/></span><span class=\"break\">\n  </span>each other a little along the<span class=\"break\">\n  </span>way.",
+"* And maybe learn to <span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_love.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" data-sound=\"snd_audience_aww\" alt=\"LOVE\" width=\"62.0\" height=\"29.0\"/></span><span class=\"break\">\n  </span>each other a little along the<span class=\"break\">\n  </span>way.",
 false,
 64,
 28
 ],
 "ja": [
-"＊ ついでに　美しい\n　 <span style=\"display:inline-block;height:18px;width:27px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_love.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" alt=\"愛\" width=\"27.5\" height=\"29.0\"/></span>なんかも\n　 育んじゃったりして…？",
+"＊ ついでに　美しい\n　 <span style=\"display:inline-block;height:18px;width:27px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_love.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" data-sound=\"snd_audience_aww\" alt=\"愛\" width=\"27.5\" height=\"29.0\"/></span>なんかも\n　 育んじゃったりして…？",
 false,
 64,
 64
@@ -284479,13 +284479,13 @@ false,
 },
 "obj_ch3_GSA04_slash_Step_0_gml_148_0": {
 "en": [
-"* Today's<span class=\"break\">\n  </span><span style=\"display:inline-block;height:34px;width:195px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"PHYSICAL CHALLENGE\" width=\"195.5\" height=\"34.5\"/></span>...",
+"* Today's<span class=\"break\">\n  </span><span style=\"display:inline-block;height:34px;width:195px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_bounce\" alt=\"PHYSICAL CHALLENGE\" width=\"195.5\" height=\"34.5\"/></span>...",
 false,
 62,
 44
 ],
 "ja": [
-"＊ 本日の\n　 <span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"リアルチャレンジ\" width=\"152.5\" height=\"33.0\"/></span>は…",
+"＊ 本日の\n　 <span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_bounce\" alt=\"リアルチャレンジ\" width=\"152.5\" height=\"33.0\"/></span>は…",
 false,
 46,
 46
@@ -284521,7 +284521,7 @@ false,
 },
 "obj_ch3_GSA04_slash_Step_0_gml_230_0": {
 "en": [
-"* Kris, your mother used to<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_love.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" alt=\"LOVE\" width=\"62.0\" height=\"29.0\"/></span> cooking shows, didn't<span class=\"break\">\n  </span>she?",
+"* Kris, your mother used to<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_love.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" data-sound=\"snd_audience_aww\" alt=\"LOVE\" width=\"62.0\" height=\"29.0\"/></span> cooking shows, didn't<span class=\"break\">\n  </span>she?",
 false,
 64,
 28
@@ -284563,13 +284563,13 @@ false,
 },
 "obj_ch3_GSA04_slash_Step_0_gml_261_0": {
 "en": [
-"* As you and your <span style=\"display:inline-block;height:18px;width:91px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_brother.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" class=\"white\" alt=\"BROTHER\" width=\"91.0\" height=\"23.5\"/></span><span class=\"break\">\n  </span>pretended the chefs were<span class=\"break\">\n  </span>bungling the simplest parts!",
+"* As you and your <span style=\"display:inline-block;height:18px;width:91px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_brother.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" class=\"white\" data-sound=\"snd_ftext_brother\" alt=\"BROTHER\" width=\"91.0\" height=\"23.5\"/></span><span class=\"break\">\n  </span>pretended the chefs were<span class=\"break\">\n  </span>bungling the simplest parts!",
 false,
 64,
 28
 ],
 "ja": [
-"＊ クリスと　<span style=\"display:inline-block;height:18px;width:79px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_brother.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" class=\"white\" alt=\"お兄ちゃん\" width=\"79.5\" height=\"23.5\"/></span>は \n　 いっしょに　見ながら　シェフに\n　 でたらめのアテレコを　したでSHOW！",
+"＊ クリスと　<span style=\"display:inline-block;height:18px;width:79px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_brother.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" class=\"white\" data-sound=\"snd_ftext_brother\" alt=\"お兄ちゃん\" width=\"79.5\" height=\"23.5\"/></span>は \n　 いっしょに　見ながら　シェフに\n　 でたらめのアテレコを　したでSHOW！",
 false,
 64,
 64
@@ -284605,13 +284605,13 @@ false,
 },
 "obj_ch3_GSA04_slash_Step_0_gml_293_0": {
 "en": [
-"* AHAHAHA!! Hahaha!! That sure<span class=\"break\">\n  </span>was <span style=\"display:inline-block;height:18px;width:52px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_fun_loop.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:-5.0px\" alt=\"FUN\" width=\"52.0\" height=\"27.5\"/></span>, wasn't it?",
+"* AHAHAHA!! Hahaha!! That sure<span class=\"break\">\n  </span>was <span style=\"display:inline-block;height:18px;width:52px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_fun_loop.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:-5.0px\" data-sound=\"snd_crowd_cheer_single\" alt=\"FUN\" width=\"52.0\" height=\"27.5\"/></span>, wasn't it?",
 false,
 46,
 28
 ],
 "ja": [
-"＊ <span style=\"display:inline-block;height:18px;width:151px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_fun_loop.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:-5.0px\" alt=\"AHAHAHAHAHA!!\" width=\"151.0\" height=\"26.5\"/></span> \n　 なんて　楽しかったことでSHOW！？",
+"＊ <span style=\"display:inline-block;height:18px;width:151px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_fun_loop.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:-5.0px\" data-sound=\"snd_crowd_cheer_single\" alt=\"AHAHAHAHAHA!!\" width=\"151.0\" height=\"26.5\"/></span> \n　 なんて　楽しかったことでSHOW！？",
 false,
 46,
 46
@@ -284633,13 +284633,13 @@ false,
 },
 "obj_ch3_GSA04_slash_Step_0_gml_374_0": {
 "en": [
-"* Here are the instructions for<span class=\"break\">\n  </span>the <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>.",
+"* Here are the instructions for<span class=\"break\">\n  </span>the <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>.",
 false,
 57,
 39
 ],
 "ja": [
-"＊ それでは　本日の<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>の\n　 ルールを説明します。",
+"＊ それでは　本日の<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>の\n　 ルールを説明します。",
 false,
 46,
 46
@@ -284945,13 +284945,13 @@ false,
 },
 "obj_ch3_GSA06_slash_Step_0_gml_245_0": {
 "en": [
-"* The <span style=\"display:inline-block;height:18px;width:124px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-3.0px\" alt=\"FUN-O-METER\" width=\"124.0\" height=\"26.0\"/></span>'s still<span class=\"break\">\n  </span>only at 80%!!",
+"* The <span style=\"display:inline-block;height:18px;width:124px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-3.0px\" data-sound=\"snd_ftext_enter\" alt=\"FUN-O-METER\" width=\"124.0\" height=\"26.0\"/></span>'s still<span class=\"break\">\n  </span>only at 80%!!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ <span style=\"display:inline-block;height:18px;width:103px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-3.0px\" alt=\"ハピハピメーター\" width=\"103.0\" height=\"26.0\"/></span>は　まだ\n　 80％しか　たまってなーい！！",
+"＊ <span style=\"display:inline-block;height:18px;width:103px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-3.0px\" data-sound=\"snd_ftext_enter\" alt=\"ハピハピメーター\" width=\"103.0\" height=\"26.0\"/></span>は　まだ\n　 80％しか　たまってなーい！！",
 false,
 46,
 46
@@ -285141,13 +285141,13 @@ false,
 },
 "obj_ch3_GSA06_slash_Step_0_gml_359_0": {
 "en": [
-"* Great!! And no!! And now, a\n  <span style=\"display:inline-block;height:25px;width:68px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_word.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"WORD\" width=\"68.0\" height=\"25.5\"/></span> from our sponsors!!",
+"* Great!! And no!! And now, a\n  <span style=\"display:inline-block;height:25px;width:68px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_word.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_prize\" alt=\"WORD\" width=\"68.0\" height=\"25.5\"/></span> from our sponsors!!",
 false,
 53,
 53
 ],
 "ja": [
-"＊ ダメ！　CMのあとは　第２ラウンド！\n　 この番組は　<span style=\"display:inline-block;height:18px;width:116px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_word.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"ご覧のスポンサー\" width=\"116.0\" height=\"19.0\"/></span>の\n　 提供で　お送りしています！！",
+"＊ ダメ！　CMのあとは　第２ラウンド！\n　 この番組は　<span style=\"display:inline-block;height:18px;width:116px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_word.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_prize\" alt=\"ご覧のスポンサー\" width=\"116.0\" height=\"19.0\"/></span>の\n　 提供で　お送りしています！！",
 false,
 64,
 64
@@ -285383,13 +285383,13 @@ false,
 },
 "obj_ch3_GSB01_slash_Step_0_gml_100_0": {
 "en": [
-"* The gushing pillar of darkness<span class=\"break\">\n  </span>that gives us all form -\n  <span style=\"display:inline-block;height:18px;width:220px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_dark_fountain.gif\" loading=\"lazy\" style=\"position:relative;top:-10.0px;left:-10.0px\" alt=\"DARK FOUNTAIN\" width=\"220.0\" height=\"40.5\"/></span>!!",
+"* The gushing pillar of darkness<span class=\"break\">\n  </span>that gives us all form -\n  <span style=\"display:inline-block;height:18px;width:220px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_dark_fountain.gif\" loading=\"lazy\" style=\"position:relative;top:-10.0px;left:-10.0px\" data-sound=\"snd_ftext_dark_fountain\" alt=\"DARK FOUNTAIN\" width=\"220.0\" height=\"40.5\"/></span>!!",
 false,
 64,
 46
 ],
 "ja": [
-"＊ ワタクシたちに姿形を与えてくれる \n　 <span style=\"display:inline-block;height:18px;width:90px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_dark_fountain.gif\" loading=\"lazy\" style=\"position:relative;top:-10.0px;left:-10.0px\" alt=\"闇の泉\" width=\"90.5\" height=\"40.5\"/></span>の\n　 提供で　お送りします！！",
+"＊ ワタクシたちに姿形を与えてくれる \n　 <span style=\"display:inline-block;height:18px;width:90px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_dark_fountain.gif\" loading=\"lazy\" style=\"position:relative;top:-10.0px;left:-10.0px\" data-sound=\"snd_ftext_dark_fountain\" alt=\"闇の泉\" width=\"90.5\" height=\"40.5\"/></span>の\n　 提供で　お送りします！！",
 false,
 64,
 64
@@ -285411,13 +285411,13 @@ false,
 },
 "obj_ch3_GSB01_slash_Step_0_gml_113_0": {
 "en": [
-"* Now, MIKE, the <span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-2.5px\" alt=\"BOARD\" width=\"66.5\" height=\"32.0\"/></span>,<span class=\"break\">\n  </span>please!",
+"* Now, MIKE, the <span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-2.5px\" data-sound=\"snd_ftext_woodblock\" alt=\"BOARD\" width=\"66.5\" height=\"32.0\"/></span>,<span class=\"break\">\n  </span>please!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ それでは　さっそく…\n　 マイクく～ん \n　 <span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"PARK\" width=\"66.5\" height=\"32.0\"/></span>　持ってきて～！",
+"＊ それでは　さっそく…\n　 マイクく～ん \n　 <span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"PARK\" width=\"66.5\" height=\"32.0\"/></span>　持ってきて～！",
 false,
 64,
 64
@@ -285523,13 +285523,13 @@ false,
 },
 "obj_ch3_GSB01_slash_Step_0_gml_191_0": {
 "en": [
-"* However, the RAINBOW only<span class=\"break\">\n  </span>appears if TWO <span style=\"display:inline-block;height:18px;width:75px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_lovers.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"LOVERS\" width=\"75.5\" height=\"20.0\"/></span> meet<span class=\"break\">\n  </span>at LOVER'S CLIFF!",
+"* However, the RAINBOW only<span class=\"break\">\n  </span>appears if TWO <span style=\"display:inline-block;height:18px;width:75px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_lovers.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_audience_aww\" alt=\"LOVERS\" width=\"75.5\" height=\"20.0\"/></span> meet<span class=\"break\">\n  </span>at LOVER'S CLIFF!",
 false,
 64,
 28
 ],
 "ja": [
-"＊ …な　の　で　す　が 　ニジの橋が\n　 現れるのは　恋人岬で　２人の\n　 <span style=\"display:inline-block;height:18px;width:75px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_lovers.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"恋人たち\" width=\"75.5\" height=\"20.0\"/></span>が出会ったときだけ！",
+"＊ …な　の　で　す　が 　ニジの橋が\n　 現れるのは　恋人岬で　２人の\n　 <span style=\"display:inline-block;height:18px;width:75px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_lovers.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_audience_aww\" alt=\"恋人たち\" width=\"75.5\" height=\"20.0\"/></span>が出会ったときだけ！",
 false,
 64,
 64
@@ -286129,13 +286129,13 @@ false,
 },
 "obj_ch3_GSB03_slash_Step_0_gml_132_0": {
 "en": [
-"* Wow, folks! Looks like they've<span class=\"break\">\n  </span>reached the end of our\n  FINAL <span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-2.5px\" alt=\"BOARD\" width=\"66.5\" height=\"32.0\"/></span>!",
+"* Wow, folks! Looks like they've<span class=\"break\">\n  </span>reached the end of our\n  FINAL <span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-2.5px\" data-sound=\"snd_ftext_woodblock\" alt=\"BOARD\" width=\"66.5\" height=\"32.0\"/></span>!",
 false,
 64,
 46
 ],
 "ja": [
-"＊ なんとなんと！　とうとう\n　 最終<span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"PARK\" width=\"66.5\" height=\"32.0\"/></span>も　終わり！",
+"＊ なんとなんと！　とうとう\n　 最終<span style=\"display:inline-block;height:18px;width:66px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_board.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"PARK\" width=\"66.5\" height=\"32.0\"/></span>も　終わり！",
 false,
 46,
 46
@@ -286171,13 +286171,13 @@ false,
 },
 "obj_ch3_GSB03_slash_Step_0_gml_215_0": {
 "en": [
-"* STOP!!! <span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_breaking_news.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:-5.5px\" alt=\"BREAKING NEWS\" width=\"152.5\" height=\"35.5\"/></span>!",
+"* STOP!!! <span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_breaking_news.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:-5.5px\" data-sound=\"snd_whip_crack_only\" alt=\"BREAKING NEWS\" width=\"152.5\" height=\"35.5\"/></span>!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ …っと　お待ちください！！\n　 <span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_breaking_news.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:-5.5px\" alt=\"BREAKING NEWS\" width=\"152.5\" height=\"35.5\"/></span>ですッ！",
+"＊ …っと　お待ちください！！\n　 <span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_breaking_news.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:-5.5px\" data-sound=\"snd_whip_crack_only\" alt=\"BREAKING NEWS\" width=\"152.5\" height=\"35.5\"/></span>ですッ！",
 false,
 46,
 46
@@ -286227,13 +286227,13 @@ false,
 },
 "obj_ch3_GSB03_slash_Step_0_gml_271_0": {
 "en": [
-"* YES! The <span style=\"display:inline-block;height:18px;width:124px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-5.0px\" alt=\"FUN-O-METER\" width=\"124.0\" height=\"26.0\"/></span>\n  doesn't lie! The viewers' voices<span class=\"break\">\n  </span>are in...!",
+"* YES! The <span style=\"display:inline-block;height:18px;width:124px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-5.0px\" data-sound=\"snd_ftext_enter\" alt=\"FUN-O-METER\" width=\"124.0\" height=\"26.0\"/></span>\n  doesn't lie! The viewers' voices<span class=\"break\">\n  </span>are in...!",
 false,
 64,
 46
 ],
 "ja": [
-"＊ そう！<span style=\"display:inline-block;height:18px;width:103px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-5.0px\" alt=\"ハピハピメーター\" width=\"103.0\" height=\"26.0\"/></span>は\n　 ウソをつきません！　視聴者の\n　 リクエストに　お応えして～…",
+"＊ そう！<span style=\"display:inline-block;height:18px;width:103px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_fun_o_meter.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-5.0px\" data-sound=\"snd_ftext_enter\" alt=\"ハピハピメーター\" width=\"103.0\" height=\"26.0\"/></span>は\n　 ウソをつきません！　視聴者の\n　 リクエストに　お応えして～…",
 false,
 64,
 64
@@ -286255,7 +286255,7 @@ false,
 },
 "obj_ch3_GSB03_slash_Step_0_gml_279_0": {
 "en": [
-"* The <span style=\"display:inline-block;height:18px;width:134px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_bonus_round.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-5.0px\" alt=\"BONUS ROUND\" width=\"134.0\" height=\"34.5\"/></span>!!!",
+"* The <span style=\"display:inline-block;height:18px;width:134px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_bonus_round.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:-5.0px\" data-sound=\"snd_ftext_prize\" alt=\"BONUS ROUND\" width=\"134.0\" height=\"34.5\"/></span>!!!",
 false,
 28,
 28
@@ -286803,13 +286803,13 @@ false,
 },
 "obj_ch3_GSB05_slash_Step_0_gml_342_0": {
 "en": [
-"* Oh <span style=\"display:inline-block;height:18px;width:79px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_toriel.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"TORIEL\" width=\"79.5\" height=\"27.5\"/></span>...!",
+"* Oh <span style=\"display:inline-block;height:18px;width:79px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_toriel.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_toriel\" alt=\"TORIEL\" width=\"79.5\" height=\"27.5\"/></span>...!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ <span style=\"display:inline-block;height:18px;width:138px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_toriel.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"マイスカイ・トリエール\" width=\"138.0\" height=\"27.5\"/></span>！",
+"＊ <span style=\"display:inline-block;height:18px;width:138px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_toriel.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_toriel\" alt=\"マイスカイ・トリエール\" width=\"138.0\" height=\"27.5\"/></span>！",
 false,
 28,
 28
@@ -287807,13 +287807,13 @@ false,
 "obj_ch3_GSC05": {
 "obj_ch3_GSC05_slash_Step_0_gml_119_0": {
 "en": [
-"* Welcome to EXTRA GAME! Tonight,<span class=\"break\">\n  </span>our <span style=\"display:inline-block;height:34px;width:195px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"PHYSICAL CHALLENGE\" width=\"195.5\" height=\"34.5\"/></span><span class=\"break\">\n  </span>will be...",
+"* Welcome to EXTRA GAME! Tonight,<span class=\"break\">\n  </span>our <span style=\"display:inline-block;height:34px;width:195px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_ftext_bounce\" alt=\"PHYSICAL CHALLENGE\" width=\"195.5\" height=\"34.5\"/></span><span class=\"break\">\n  </span>will be...",
 false,
 80,
 44
 ],
 "ja": [
-"＊ さあ～始まりました　ボーナスゲーム！\n　 今夜の<span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"リアルチャレンジ\" width=\"152.5\" height=\"33.0\"/></span>は…",
+"＊ さあ～始まりました　ボーナスゲーム！\n　 今夜の<span style=\"display:inline-block;height:18px;width:152px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_physical_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_ftext_bounce\" alt=\"リアルチャレンジ\" width=\"152.5\" height=\"33.0\"/></span>は…",
 false,
 46,
 46
@@ -287849,13 +287849,13 @@ false,
 },
 "obj_ch3_GSC05_slash_Step_0_gml_163_0": {
 "en": [
-"* Multiple buildings are up in<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:85px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_flames.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"FLAMES\" width=\"85.5\" height=\"22.5\"/></span>!!!",
+"* Multiple buildings are up in<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:85px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_flames.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_badexplosion\" alt=\"FLAMES\" width=\"85.5\" height=\"22.5\"/></span>!!!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ 複数の建物が\n　 <span style=\"display:inline-block;height:18px;width:21px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_flames.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"炎\" width=\"21.0\" height=\"22.5\"/></span>に　包まれているとのことッ！！",
+"＊ 複数の建物が\n　 <span style=\"display:inline-block;height:18px;width:21px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_flames.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_badexplosion\" alt=\"炎\" width=\"21.0\" height=\"22.5\"/></span>に　包まれているとのことッ！！",
 false,
 46,
 46
@@ -287989,13 +287989,13 @@ false,
 },
 "obj_ch3_GSC05_slash_Step_0_gml_215_0": {
 "en": [
-"* RIGHT! <span style=\"display:inline-block;height:18px;width:85px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_susiezilla.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:-0.5px\" alt=\"SUSIEZILLA\" width=\"85.5\" height=\"19.0\"/></span> will be our<span class=\"break\">\n  </span>baddie smashing, hyper spinning<span class=\"break\">\n  </span>star of the day!",
+"* RIGHT! <span style=\"display:inline-block;height:18px;width:85px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_susiezilla.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:-0.5px\" data-sound=\"snd_ftext_susiezilla\" alt=\"SUSIEZILLA\" width=\"85.5\" height=\"19.0\"/></span> will be our<span class=\"break\">\n  </span>baddie smashing, hyper spinning<span class=\"break\">\n  </span>star of the day!",
 false,
 64,
 28
 ],
 "ja": [
-"＊ そう！　本日の　まぶしい主役\n　 <span style=\"display:inline-block;height:18px;width:68px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_susiezilla.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"スージラ\" width=\"68.0\" height=\"26.0\"/></span>が　暴れに暴れて\n　 悪モノを　蹴散らすぞ！",
+"＊ そう！　本日の　まぶしい主役\n　 <span style=\"display:inline-block;height:18px;width:68px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_susiezilla.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_susiezilla\" alt=\"スージラ\" width=\"68.0\" height=\"26.0\"/></span>が　暴れに暴れて\n　 悪モノを　蹴散らすぞ！",
 false,
 64,
 64
@@ -288031,7 +288031,7 @@ false,
 },
 "obj_ch3_GSC05_slash_Step_0_gml_233_0": {
 "en": [
-"* So this final event's a\n  <span style=\"display:inline-block;height:34px;width:55px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_special.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"Special\" width=\"55.0\" height=\"34.5\"/></span> SERVICE just for you!!",
+"* So this final event's a\n  <span style=\"display:inline-block;height:34px;width:55px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_special.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_enter\" alt=\"Special\" width=\"55.0\" height=\"34.5\"/></span> SERVICE just for you!!",
 false,
 62,
 62
@@ -288101,13 +288101,13 @@ false,
 },
 "obj_ch3_GSC05_slash_Step_0_gml_317_0": {
 "en": [
-"* No. Uhh, no. <span style=\"display:inline-block;height:18px;width:85px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_susiezilla.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:-0.5px\" alt=\"SUSIEZILLA\" width=\"85.5\" height=\"19.0\"/></span> had a<span class=\"break\">\n  </span>change in her TV-loving heart.",
+"* No. Uhh, no. <span style=\"display:inline-block;height:18px;width:85px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_susiezilla.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:-0.5px\" data-sound=\"snd_ftext_susiezilla\" alt=\"SUSIEZILLA\" width=\"85.5\" height=\"19.0\"/></span> had a<span class=\"break\">\n  </span>change in her TV-loving heart.",
 false,
 46,
 28
 ],
 "ja": [
-"＊ ボコらないでッ！！　…えっとですね…\n　 テレビを愛する<span style=\"display:inline-block;height:18px;width:68px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_susiezilla.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"スージラ\" width=\"68.0\" height=\"26.0\"/></span>は \n　 今日は　方針を変えたのです。",
+"＊ ボコらないでッ！！　…えっとですね…\n　 テレビを愛する<span style=\"display:inline-block;height:18px;width:68px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_susiezilla.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_susiezilla\" alt=\"スージラ\" width=\"68.0\" height=\"26.0\"/></span>は \n　 今日は　方針を変えたのです。",
 false,
 64,
 64
@@ -291333,13 +291333,13 @@ false,
 },
 "obj_ch3_PGS01F_slash_Step_0_gml_325_0": {
 "en": [
-"* Wow, what an\n  <span style=\"display:inline-block;height:18px;width:204px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_amazing_01.gif\" loading=\"lazy\" style=\"position:relative;top:-24.0px;left:4.0px\" alt=\"AMAZING\" width=\"204.5\" height=\"61.5\"/></span>\n                 performance!!!",
+"* Wow, what an\n  <span style=\"display:inline-block;height:18px;width:204px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_amazing_01.gif\" loading=\"lazy\" style=\"position:relative;top:-24.0px;left:4.0px\" data-sound=\"snd_ftext_prize\" alt=\"AMAZING\" width=\"204.5\" height=\"61.5\"/></span>\n                 performance!!!",
 false,
 64,
 64
 ],
 "ja": [
-"＊ <span style=\"display:inline-block;height:18px;width:249px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_amazing_01.gif\" loading=\"lazy\" style=\"position:relative;top:-24.0px;left:4.0px\" alt=\"アメ～イジ～ング！\" width=\"249.5\" height=\"61.5\"/></span>\n　 スバラシイ！　迫真の演技！！\n　 ワタクシ　感動いたしました！！！",
+"＊ <span style=\"display:inline-block;height:18px;width:249px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_amazing_01.gif\" loading=\"lazy\" style=\"position:relative;top:-24.0px;left:4.0px\" data-sound=\"snd_ftext_prize\" alt=\"アメ～イジ～ング！\" width=\"249.5\" height=\"61.5\"/></span>\n　 スバラシイ！　迫真の演技！！\n　 ワタクシ　感動いたしました！！！",
 false,
 64,
 64
@@ -291347,13 +291347,13 @@ false,
 },
 "obj_ch3_PGS01F_slash_Step_0_gml_326_0": {
 "en": [
-"* The audience has been brought<span class=\"break\">\n  </span>to <span style=\"display:inline-block;height:18px;width:98px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_tears.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"TEARS\" width=\"98.0\" height=\"21.0\"/></span>, folks!",
+"* The audience has been brought<span class=\"break\">\n  </span>to <span style=\"display:inline-block;height:18px;width:98px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_tears.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_splat\" alt=\"TEARS\" width=\"98.0\" height=\"21.0\"/></span>, folks!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ 客席の　みなさんも\n　 <span style=\"display:inline-block;height:18px;width:56px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_tears.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"ナミダ\" width=\"56.0\" height=\"21.0\"/></span>　<span style=\"display:inline-block;height:18px;width:56px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_tears.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"ナミダ\" width=\"56.0\" height=\"21.0\"/></span>が\n　 止まりませ～ん！",
+"＊ 客席の　みなさんも\n　 <span style=\"display:inline-block;height:18px;width:56px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_tears.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_splat\" alt=\"ナミダ\" width=\"56.0\" height=\"21.0\"/></span>　<span style=\"display:inline-block;height:18px;width:56px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_tears.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_splat\" alt=\"ナミダ\" width=\"56.0\" height=\"21.0\"/></span>が\n　 止まりませ～ん！",
 false,
 64,
 64
@@ -292357,13 +292357,13 @@ false,
 },
 "obj_ch3_PTB01_slash_Step_0_gml_497_0": {
 "en": [
-"* We're inventing a<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:119px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_hall_of_fame.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"Hall of Fame\" width=\"119.0\" height=\"26.0\"/></span> just for you!!!",
+"* We're inventing a<span class=\"break\">\n  </span><span style=\"display:inline-block;height:18px;width:119px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_hall_of_fame.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_prize\" alt=\"Hall of Fame\" width=\"119.0\" height=\"26.0\"/></span> just for you!!!",
 false,
 46,
 28
 ],
 "ja": [
-"＊ 決めました！！\n　 スージィ　アナタは\n　 <span style=\"display:inline-block;height:18px;width:131px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_hall_of_fame.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" alt=\"殿堂入り\" width=\"131.0\" height=\"32.5\"/></span>です！！",
+"＊ 決めました！！\n　 スージィ　アナタは\n　 <span style=\"display:inline-block;height:18px;width:131px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_hall_of_fame.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" data-sound=\"snd_ftext_prize\" alt=\"殿堂入り\" width=\"131.0\" height=\"32.5\"/></span>です！！",
 false,
 64,
 64
@@ -292611,13 +292611,13 @@ false,
 },
 "obj_ch3_PTB02_slash_Step_0_gml_92_0": {
 "en": [
-"* THE <span style=\"display:inline-block;height:18px;width:148px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_grand_prize.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" alt=\"GRAND PRIZE\" width=\"148.0\" height=\"27.5\"/></span> !!!",
+"* THE <span style=\"display:inline-block;height:18px;width:148px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_grand_prize.gif\" loading=\"lazy\" style=\"position:relative;top:-2.0px;left:0.0px\" data-sound=\"snd_ftext_gunshot\" alt=\"GRAND PRIZE\" width=\"148.0\" height=\"27.5\"/></span> !!!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ <span style=\"display:inline-block;height:18px;width:77px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_grand_prize.gif\" loading=\"lazy\" style=\"position:relative;top:-4.5px;left:0.0px\" alt=\"優勝賞品\" width=\"77.0\" height=\"27.5\"/></span>が　贈られます！！",
+"＊ <span style=\"display:inline-block;height:18px;width:77px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_grand_prize.gif\" loading=\"lazy\" style=\"position:relative;top:-4.5px;left:0.0px\" data-sound=\"snd_ftext_gunshot\" alt=\"優勝賞品\" width=\"77.0\" height=\"27.5\"/></span>が　贈られます！！",
 false,
 28,
 28
@@ -313455,13 +313455,13 @@ false,
 },
 "obj_gameover_band_slash_Step_0_gml_125_0": {
 "en": [
-"* Well, what are you doing!? Go<span class=\"break\">\n  </span>and <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!",
+"* Well, what are you doing!? Go<span class=\"break\">\n  </span>and <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!",
 false,
 57,
 39
 ],
 "ja": [
-"＊ はいッ！　スタンバイしてッ！\n　 レッツ　<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>　アゲインッ！",
+"＊ はいッ！　スタンバイしてッ！\n　 レッツ　<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>　アゲインッ！",
 false,
 46,
 46
@@ -313581,13 +313581,13 @@ false,
 },
 "obj_gameover_band_slash_Step_0_gml_209_0": {
 "en": [
-"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
+"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
 false,
 57,
 57
 ],
 "ja": [
-"＊ よ～し　もういっかい！\n　 レッツ　<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>　アゲインッ！",
+"＊ よ～し　もういっかい！\n　 レッツ　<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>　アゲインッ！",
 false,
 46,
 46
@@ -313879,13 +313879,13 @@ false,
 },
 "obj_gameover_chef_slash_Step_0_gml_84_0": {
 "en": [
-"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
+"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
 false,
 57,
 57
 ],
 "ja": [
-"＊ もう１回　いってみよう！\n　 アンコール<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>\n　 スタァートッ！！",
+"＊ もう１回　いってみよう！\n　 アンコール<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>\n　 スタァートッ！！",
 false,
 64,
 64
@@ -314033,13 +314033,13 @@ false,
 },
 "obj_gameover_chef_slash_Step_0_gml_168_0": {
 "en": [
-"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
+"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
 false,
 57,
 57
 ],
 "ja": [
-"＊ もう１回　いってみよう！\n　 アンコール<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>\n　 スタァートッ！！",
+"＊ もう１回　いってみよう！\n　 アンコール<span style=\"display:inline-block;height:18px;width:96px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"チャレンジ\" width=\"96.0\" height=\"29.5\"/></span>\n　 スタァートッ！！",
 false,
 64,
 64
@@ -330307,13 +330307,13 @@ false,
 },
 "obj_npc_room_slash_Other_10_gml_2151_0": {
 "en": [
-"* I will be the <span style=\"display:inline-block;height:18px;width:73px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_star.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"STAR\" width=\"73.5\" height=\"30.0\"/></span>\n                  walker...",
+"* I will be the <span style=\"display:inline-block;height:18px;width:73px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_star.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_sparkle_glock\" alt=\"STAR\" width=\"73.5\" height=\"30.0\"/></span>\n                  walker...",
 false,
 46,
 46
 ],
 "ja": [
-"＊ ワタシは <span style=\"display:inline-block;height:18px;width:74px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_star.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"スタア\" width=\"74.0\" height=\"30.0\"/></span>\n              ウォーカーになろう…",
+"＊ ワタシは <span style=\"display:inline-block;height:18px;width:74px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_star.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_sparkle_glock\" alt=\"スタア\" width=\"74.0\" height=\"30.0\"/></span>\n              ウォーカーになろう…",
 false,
 46,
 46
@@ -348361,13 +348361,13 @@ false,
 },
 "obj_room_green_room_slash_Step_0_gml_493_0": {
 "en": [
-"* How do you like my\n  <span style=\"display:inline-block;height:18px;width:155px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_green_room.gif\" loading=\"lazy\" style=\"position:relative;top:-2.5px;left:-1.5px\" alt=\"Green Room\" width=\"155.5\" height=\"33.0\"/></span>?",
+"* How do you like my\n  <span style=\"display:inline-block;height:18px;width:155px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_green_room.gif\" loading=\"lazy\" style=\"position:relative;top:-2.5px;left:-1.5px\" data-sound=\"snd_ftext_vibraphones\" alt=\"Green Room\" width=\"155.5\" height=\"33.0\"/></span>?",
 false,
 46,
 46
 ],
 "ja": [
-"＊ どう？　うちの<span style=\"display:inline-block;height:18px;width:56px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_green_room.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" alt=\"楽屋\" width=\"56.5\" height=\"33.0\"/></span>。\n　 気に入ったカナ？",
+"＊ どう？　うちの<span style=\"display:inline-block;height:18px;width:56px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_ja_funnytext_green_room.gif\" loading=\"lazy\" style=\"position:relative;top:-5.0px;left:0.0px\" data-sound=\"snd_ftext_vibraphones\" alt=\"楽屋\" width=\"56.5\" height=\"33.0\"/></span>。\n　 気に入ったカナ？",
 false,
 46,
 46
@@ -509715,13 +509715,13 @@ true,
 },
 "obj_gameover_band_slash_Step_0_gml_125_0": {
 "en": [
-"* Well, what are you doing!? Go<span class=\"break\">\n  </span>and <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!",
+"* Well, what are you doing!? Go<span class=\"break\">\n  </span>and <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!",
 true,
 57,
 39
 ],
 "ja": [
-"＊ はいッ！　スタンバイしてッ！\n　 レッツ　<span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>　アゲインッ！",
+"＊ はいッ！　スタンバイしてッ！\n　 レッツ　<span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>　アゲインッ！",
 false,
 57,
 57
@@ -509841,13 +509841,13 @@ true,
 },
 "obj_gameover_band_slash_Step_0_gml_209_0": {
 "en": [
-"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
+"* Alright, one more try! Let's\n  <span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span> again!!",
 true,
 57,
 57
 ],
 "ja": [
-"＊ よ～し　もういっかい！\n　 レッツ　<span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>　アゲインッ！",
+"＊ よ～し　もういっかい！\n　 レッツ　<span style=\"display:inline-block;height:29px;width:130px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_challenge.gif\" loading=\"lazy\" style=\"position:relative;top:0.0px;left:0.0px\" data-sound=\"snd_ftext_woodblock\" alt=\"CHALLENGE\" width=\"130.5\" height=\"29.5\"/></span>　アゲインッ！",
 false,
 57,
 57
