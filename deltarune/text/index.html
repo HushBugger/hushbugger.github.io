@@ -368,27 +368,6 @@
                 padding-left: 40px;
             }
 
-            .jumped {
-                animation-duration: 1s;
-                animation-name: brief-highlight;
-            }
-
-            @keyframes brief-highlight {
-                from {
-                    background-color: #333;
-                }
-            }
-
-            html.light .jumped {
-                animation-name: bright-highlight;
-            }
-
-            @keyframes bright-highlight {
-                from {
-                    background-color: #ddd;
-                }
-            }
-
             .textbox.hovered {
                 position: relative;
             }
@@ -596,7 +575,6 @@
             html.highlight h1.highlit {
                 background-color: var(--highlight-color, yellow);
                 color: black;
-                animation-name: none;
             }
         </style>
     </head>
@@ -2482,9 +2460,6 @@
                 }
                 for (const oldTarget of document.getElementsByClassName("jumped")) {
                     oldTarget.classList.remove("jumped");
-                    if (oldTarget === target) {
-                        target.offsetHeight; // trigger reflow to restart animation
-                    }
                 }
                 target.classList.add("jumped");
                 if (scroll) {
