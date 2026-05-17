@@ -910,19 +910,20 @@
                 /**
                  * @template {keyof typeof state} K
                  * @param {K} key
+                 * @return {(typeof state)[K]}
                  */
                 function get(key) {
                     if (state.hideSearch >= 2) {
                         if (key === "highlight") {
-                            return false;
+                            return /** @type {(typeof state)[K]} */ (false);
                         }
                     }
                     if (!state.expert) {
                         if (key === "matchCase" || key === "wholeWord" || key === "regex") {
-                            return false;
+                            return /** @type {(typeof state)[K]} */ (false);
                         }
                         if (key === "highlight") {
-                            return true;
+                            return /** @type {(typeof state)[K]} */ (true);
                         }
                     }
                     return state[key];
