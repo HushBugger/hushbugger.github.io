@@ -1715,12 +1715,39 @@
                 applyTextHighlights();
             }
 
+            function deferrer() {
+                /** @type {number | null} */
+                let timer = null;
+
+                function cancel() {
+                    if (timer !== null) {
+                        cancelAnimationFrame(timer);
+                        timer = null;
+                    }
+                }
+
+                /** @param {() => void} callable */
+                function schedule(callable) {
+                    cancel();
+                    timer = requestAnimationFrame(function () {
+                        timer = null;
+                        callable();
+                    });
+                }
+
+                return { schedule: schedule, cancel: cancel };
+            }
+
+            const deferTextHighlight = deferrer();
+
             function applyTextHighlights() {
                 if (CSS.highlights) {
-                    CSS.highlights.set(
-                        "text-highlight",
-                        new Highlight(...[...activeTextSections.values()].flat())
-                    );
+                    deferTextHighlight.schedule(function () {
+                        CSS.highlights.set(
+                            "text-highlight",
+                            new Highlight(...[...activeTextSections.values()].flat())
+                        );
+                    });
                 }
             }
 
@@ -1798,6 +1825,30 @@
                 }
             });
 
+            /** @param {number} delay */
+            function debouncer(delay) {
+                /** @type {number | null} */
+                let timer = null;
+
+                function cancel() {
+                    if (timer !== null) {
+                        clearTimeout(timer);
+                        timer = null;
+                    }
+                }
+
+                /** @param {() => void} callable */
+                function schedule(callable) {
+                    cancel();
+                    timer = setTimeout(function () {
+                        timer = null;
+                        callable();
+                    }, delay);
+                }
+
+                return { schedule: schedule, cancel: cancel };
+            }
+
             /** @type string[] */
             let searchHistory = [];
             let searchHistoryIndex = 0;
@@ -1814,8 +1865,7 @@
             } catch (error) {
                 console.error(error);
             }
-            /** @type {number | null} */
-            let searchHistoryTimer = null;
+            const searchHistoryTimer = debouncer(500);
 
             const nope = ["1 2 3 blueaddison cyber cafe sex", "hey i'm tha sicko"];
 
@@ -1836,9 +1886,7 @@
                     searchGeneration++;
                     return;
                 }
-                if (searchHistoryTimer !== null) {
-                    clearTimeout(searchHistoryTimer);
-                }
+                searchHistoryTimer.cancel();
                 /** @type {SearchOption[]} */
                 let options;
                 [searchQuery, options] = compileQuery();
@@ -1895,7 +1943,7 @@
                 };
                 searchWorker.postMessage(query);
                 const rawQuery = searchBar.value;
-                searchHistoryTimer = setTimeout(function () {
+                searchHistoryTimer.schedule(function () {
                     if (
                         !rawQuery ||
                         searchHistory[searchHistoryIndex] === rawQuery ||
@@ -1910,7 +1958,7 @@
                     searchHistoryIndex = searchHistory.length - 1;
                     session.setItem("dr-search-history", JSON.stringify(searchHistory));
                     session.setItem("dr-search-history-index", String(searchHistoryIndex));
-                }, 500);
+                });
             }
             searchBar.addEventListener("input", processSearchInput);
             if (!searchBar.value) {
@@ -2225,6 +2273,8 @@
                 { root: searchResultsDiv }
             );
 
+            const deferSearchHighlight = deferrer();
+
             /** @param {HTMLElement} section */
             function fillSearchSection(section) {
                 if (section.hasChildNodes() || !section.dataset.index || !searchResults) {
@@ -2267,10 +2317,12 @@
                 }
                 activeSearchSections.set(section, ranges);
                 if (CSS.highlights) {
-                    CSS.highlights.set(
-                        "search-highlight",
-                        new Highlight(...[...activeSearchSections.values()].flat())
-                    );
+                    deferSearchHighlight.schedule(function () {
+                        CSS.highlights.set(
+                            "search-highlight",
+                            new Highlight(...[...activeSearchSections.values()].flat())
+                        );
+                    });
                 }
             }
 
