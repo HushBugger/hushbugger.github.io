@@ -573,8 +573,7 @@
 
             html.highlight div.highlit,
             html.highlight h1.highlit {
-                background-color: var(--highlight-color, yellow);
-                color: black;
+                outline: 1px solid var(--highlight-color, yellow);
             }
         </style>
     </head>
@@ -731,10 +730,12 @@
              *      type: 'init';
              *      rawText: string;
              *  }} SearchInit
+             * @typedef {'missing:en' | 'missing:ja'} SearchOption
              * @typedef {{
              *      type: 'query';
              *      query: RegExp;
              *      config: Config;
+             *      options: SearchOption[];
              *      generation: number;
              *  }} SearchQuery
              * @typedef {number} Result
@@ -1838,7 +1839,9 @@
                 if (searchHistoryTimer !== null) {
                     clearTimeout(searchHistoryTimer);
                 }
-                searchQuery = compileQuery();
+                /** @type {SearchOption[]} */
+                let options;
+                [searchQuery, options] = compileQuery();
                 if (!searchQuery) {
                     searchResultsDiv.innerHTML = "";
                     searchResultsDiv.removeAttribute("aria-activedescendant");
@@ -1886,6 +1889,7 @@
                 const query = {
                     type: "query",
                     config: config,
+                    options: options,
                     query: searchQuery,
                     generation: ++searchGeneration,
                 };
@@ -1965,18 +1969,50 @@
                 ["\uFF1B", ";"],
             ]);
 
+            /**
+             * @return {[RegExp | null, SearchOption[]]}
+             */
             function compileQuery() {
                 searchBar.classList.remove("error");
                 if (!searchBar.value) {
-                    return null;
+                    return [null, []];
                 }
-                const input = searchBar.value.replace(/\s+/g, " ");
+                let input = searchBar.value;
 
                 let rawPattern = "";
                 let flags = "g";
                 if (!settings.get("matchCase")) {
                     flags += "i";
                 }
+
+                /** @type {SearchOption[]} */
+                const options = [];
+
+                const nonkeywords = [];
+                // Split on single spaces so that the text part of the input
+                // can still start/end with a space.
+                for (const piece of input.split(" ")) {
+                    // Only 6 messages contain "@" and none match the pattern.
+                    // So no need to support escaping it.
+                    if (!piece.match(/^@[a-z]/)) {
+                        nonkeywords.push(piece);
+                        continue;
+                    }
+                    // Secret undocumented feature. Use at own risk.
+                    if (piece === "@missing:en") {
+                        // Maybe give an error if JA is not visible?
+                        options.push("missing:en");
+                    } else if (piece === "@missing:ja") {
+                        // Likewise
+                        options.push("missing:ja");
+                    } else {
+                        searchBar.classList.add("error");
+                        return [null, []];
+                    }
+                }
+                input = nonkeywords.join(" ");
+
+                input = input.replace(/\s+/g, " ");
 
                 if (settings.get("regex")) {
                     // @ts-expect-error
@@ -2028,10 +2064,11 @@
                     }
                 }
                 try {
-                    return new RegExp(rawPattern, flags);
+                    const pattern = new RegExp(rawPattern, flags);
+                    return [pattern, options];
                 } catch (error) {
                     searchBar.classList.add("error");
-                    return null;
+                    return [null, []];
                 }
             }
 
@@ -2274,7 +2311,12 @@
                 let match;
                 while ((match = searchQuery.exec(text))) {
                     if (!match[0].length) {
-                        searchQuery.lastIndex++;
+                        if (matches.length) {
+                            break;
+                        } else if (textboxes.contains(elem)) {
+                            elem.classList.add("highlit");
+                        }
+                        return [];
                     } else if (
                         matches[matches.length - 1] &&
                         matches[matches.length - 1][1] === match.index

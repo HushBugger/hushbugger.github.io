@@ -719,7 +719,7 @@ def dumpbin():
         def get(self) -> str:
             value = self.buf.getvalue()
             # Ensure that UTF-16 offsets (JS) match UTF-32 offsets (Python)
-            # If this fails then the highlightElem() and compileQuery() need tweaking
+            # If this fails then compileQuery() needs tweaking
             assert max(map(ord, value)) <= 65535
             return value
 

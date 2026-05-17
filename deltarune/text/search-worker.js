@@ -20,10 +20,12 @@
  *      type: 'init';
  *      rawText: string;
  *  }} SearchInit
+ * @typedef {'missing:ja' | 'missing:en'} SearchOption
  * @typedef {{
  *      type: 'query';
  *      query: RegExp;
  *      config: Config;
+ *      options: SearchOption[];
  *      generation: number;
  *  }} SearchQuery
  * @typedef {number} Result
@@ -291,10 +293,13 @@ function doSearch(query) {
         return;
     }
 
-    if (query.config.lang !== "ja") {
+    const missingEn = query.options.includes("missing:en");
+    const missingJa = query.options.includes("missing:ja");
+
+    if (query.config.lang !== "ja" || missingEn) {
         preprocess("en");
     }
-    if (query.config.lang !== "en") {
+    if (query.config.lang !== "en" || missingJa) {
         preprocess("ja");
     }
 
@@ -305,6 +310,17 @@ function doSearch(query) {
     };
 
     iterText(query.config, ...meta.ranges[query.config.chap], function (idx, kind) {
+        if (missingEn || missingJa) {
+            if (kind === 4) {
+                return;
+            }
+            // Querying both @missing:en & @missing:ja is additive/OR
+            // Future keywords might work differently
+            if (!(missingEn && !munged[idx * 2]) && !(missingJa && !munged[idx * 2 + 1])) {
+                return;
+            }
+        }
+
         if ((kind === 4 || kind & 1) && munged[idx * 2].search(query.query) !== -1) {
             results.results.push(idx * 2);
         }
