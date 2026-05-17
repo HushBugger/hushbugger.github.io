@@ -905,6 +905,12 @@
                             processSearchInput();
                         }
                     }
+
+                    if (key === "hideSearch" && value === 0) {
+                        // CSS highlights in Webkit don't persist past `display: none`.
+                        // Ideally we'd react to CSS transitions too.
+                        applySearchHighlights();
+                    }
                 }
 
                 /**
@@ -2276,6 +2282,17 @@
 
             const deferSearchHighlight = deferrer();
 
+            function applySearchHighlights() {
+                if (CSS.highlights) {
+                    deferSearchHighlight.schedule(function () {
+                        CSS.highlights.set(
+                            "search-highlight",
+                            new Highlight(...[...activeSearchSections.values()].flat())
+                        );
+                    });
+                }
+            }
+
             /** @param {HTMLElement} section */
             function fillSearchSection(section) {
                 if (section.hasChildNodes() || !section.dataset.index || !searchResults) {
@@ -2317,14 +2334,7 @@
                     }
                 }
                 activeSearchSections.set(section, ranges);
-                if (CSS.highlights) {
-                    deferSearchHighlight.schedule(function () {
-                        CSS.highlights.set(
-                            "search-highlight",
-                            new Highlight(...[...activeSearchSections.values()].flat())
-                        );
-                    });
-                }
+                applySearchHighlights();
             }
 
             /**
