@@ -575,7 +575,7 @@ def smartsort(key: str):
         assert pieces.count("gml") == 1
         # (using `n` here is mildly criminal, scope-wise)
         if key in sourcemap[n]:
-            filename, lineno = sourcemap[n][key].split("#L")
+            filename, lineno = sourcemap[n][key].split("#")
             lineno = int(lineno)
         else:
             filename = "zzzzzz"
@@ -786,7 +786,11 @@ def dumpbin():
                         msgid=msgidbuf.put(msgid),
                         en=enbuf.put(msg["en"][0]),
                         ja=jabuf.put(msg["ja"][0]),
-                        source=sourcebuf.put(sourcemap[chap].get(msgid)),
+                        source=sourcebuf.put(
+                            source.lower().replace("#", "#L")
+                            if (source := sourcemap[chap].get(msgid))
+                            else None
+                        ),
                         dup=msg["en"][1] + 2 * msg["ja"][1],
                         nh_en=msg["en"][2],
                         wh_en=msg["en"][3],

@@ -145,8 +145,8 @@ def rg(pattern: str, path: pathlib.Path) -> typing.Iterable[RgResult]:
             continue
         yield RgResult(
             location=(
-                result["data"]["path"]["text"].removesuffix(".gml").lower()
-                + "#L"
+                result["data"]["path"]["text"].removesuffix(".gml")
+                + "#"
                 + str(result["data"]["line_number"])
             ),
             text=result["data"]["lines"]["text"],
