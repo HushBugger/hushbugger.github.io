@@ -215,10 +215,15 @@
                 background-color: #ddd;
             }
 
-            .hideresults #searchresults,
-            .hidesearch #controls search,
-            html.hidesearch #searchresults {
+            .hidesearch #controls search {
                 display: none;
+            }
+
+            html.hidesearch #searchresults,
+            .hideresults #searchresults {
+                /* `display: none;` makes CSS highlights not persist in Webkit.
+                 * In mobile Safari it even causes a crash for unclear reasons. */
+                height: 0;
             }
 
             #search-counter {
@@ -301,7 +306,7 @@
                 }
 
                 .hideresults #searchresults {
-                    display: block;
+                    height: auto;
                 }
 
                 html,
@@ -906,12 +911,6 @@
                         if (key === "matchCase" || key === "wholeWord" || key === "regex") {
                             processSearchInput();
                         }
-                    }
-
-                    if (key === "hideSearch" && value === 0) {
-                        // CSS highlights in Webkit don't persist past `display: none`.
-                        // Ideally we'd react to CSS transitions too.
-                        applySearchHighlights();
                     }
                 }
 
@@ -2491,6 +2490,10 @@
                 return ranges;
             }
 
+            searchResultsDiv.addEventListener("focus", function () {
+                settings.set("hideSearch", 0);
+            });
+
             searchResultsDiv.addEventListener("click", function (event) {
                 if (!(event.target instanceof Element) || event.target.closest("a")) {
                     return;
@@ -2499,6 +2502,9 @@
                 if (textbox instanceof HTMLElement) {
                     focusSearchResult(textbox);
                     setSearchHidden(true);
+                    if (searchResultsDiv.offsetHeight === 0) {
+                        searchResultsDiv.blur();
+                    }
                 }
             });
 
