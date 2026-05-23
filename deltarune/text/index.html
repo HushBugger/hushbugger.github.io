@@ -2912,7 +2912,25 @@
                 navigation.addEventListener("navigate", handleNavigate);
             } catch (error) {}
 
+            /**
+             * Missing translations used to render as placeholders.
+             * A popular tweet links to #en:3:obj_npc_ramb_slash_Step_0_gml_24_0.
+             */
+            function fixupPageHash() {
+                const elemId = window.location.hash.slice(1);
+                if (!elemId || document.getElementById(elemId)) {
+                    return;
+                }
+                const fixedId = (elemId.startsWith("en:") ? "ja:" : "en:") + elemId.slice(3);
+                if (document.getElementById(fixedId)) {
+                    const fixedUrl = new URL(window.location.href);
+                    fixedUrl.hash = fixedId;
+                    window.location.replace(fixedUrl);
+                }
+            }
+
             render();
+            fixupPageHash();
 
             // For debugging.
 
