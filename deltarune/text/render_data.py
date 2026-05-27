@@ -1,3 +1,4 @@
+from typing import Literal
 from dataclasses import dataclass
 
 
@@ -303,4 +304,64 @@ FUNNYTEXT_SOUND_BROKEN_JA = {
     # Present in the EN localization sprite map but not the JA map
     "obj_ch3_GSB03_slash_Step_0_gml_279_0",
     "obj_ch3_GSC05_slash_Step_0_gml_233_0",
+}
+
+
+type FaceKind = Literal["clover", "scc"]
+
+
+def minifacekind(msgid: str) -> FaceKind:
+    if "obj_clubsenemy" in msgid:
+        return "clover"
+
+    if (
+        "obj_ch2_cyber01" in msgid
+        or "obj_ch2_scene26" in msgid
+        or "obj_npc_room_animated_slash_Other" in msgid
+        or "obj_shop_ch2_music" in msgid
+        or "scr_text_slash_scr_text_gml" in msgid
+    ):
+        return "scc"
+
+    if msgid in {
+        "obj_npc_room_slash_Other_10_gml_1848_0",
+        "obj_npc_room_slash_Other_10_gml_1852_0",
+        "obj_npc_room_slash_Other_10_gml_1860_0",
+        "obj_npc_room_slash_Other_10_gml_1864_0",
+        "obj_npc_room_slash_Other_10_gml_1865_0",
+        "obj_npc_room_slash_Other_10_gml_1907_0",
+        "obj_npc_room_slash_Other_10_gml_1911_0",
+    }:
+        return "clover"
+
+    if msgid in {
+        "obj_npc_room_slash_Other_10_gml_2401_0",
+    }:
+        return "scc"
+
+    raise RuntimeError(f"Don't know miniface for {msgid}")
+
+
+def minifacesprite(kind: FaceKind, idx: str) -> str:
+    return {
+        "clover": {
+            "1": "spr_miniface_clover_happy",
+            "2": "spr_miniface_clover_mad",
+            "3": "spr_miniface_clover_sad",
+        },
+        "scc": {
+            "1": "spr_miniface_sweet_0",
+            "2": "spr_miniface_kk_0",
+            "3": "spr_miniface_capn_0",
+        },
+    }[kind][idx]
+
+
+MINIFACE_ALTS = {
+    "spr_miniface_clover_happy": "Happy head:",
+    "spr_miniface_clover_mad": "Mad head:",
+    "spr_miniface_clover_sad": "Sad head:",
+    "spr_miniface_sweet_0": "Sweet:",
+    "spr_miniface_kk_0": "K_K:",
+    "spr_miniface_capn_0": "Cap'n:",
 }

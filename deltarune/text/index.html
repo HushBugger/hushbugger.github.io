@@ -516,12 +516,17 @@
                 color: var(--background-color);
             }
 
-            html.light img.white {
-                filter: invert(1);
-            }
-
             img[data-sound] {
                 cursor: pointer;
+            }
+
+            img.miniface {
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                bottom: -5px;
+                left: -4px;
+                image-rendering: pixelated;
             }
 
             video {
@@ -571,16 +576,36 @@
                     drop-shadow(-1.5px -1.5px var(--highlight-color, yellow));
             }
 
-            html.highlight img.highlit.white {
+            html.highlight div.highlit,
+            html.highlight h1.highlit {
+                outline: 1px solid var(--highlight-color, yellow);
+            }
+
+            html.light img.white,
+            html.light img.miniface.scc {
+                filter: invert(1);
+            }
+
+            html.highlight img.highlit.white,
+            html.highlight img.highlit.miniface.scc {
                 filter: invert(1) drop-shadow(1.5px 1.5px var(--highlight-color, yellow))
                     drop-shadow(1.5px -1.5px var(--highlight-color, yellow))
                     drop-shadow(-1.5px 1.5px var(--highlight-color, yellow))
                     drop-shadow(-1.5px -1.5px var(--highlight-color, yellow));
             }
 
-            html.highlight div.highlit,
-            html.highlight h1.highlit {
-                outline: 1px solid var(--highlight-color, yellow);
+            html.light img.miniface.clover {
+                filter: drop-shadow(1px 1px black) drop-shadow(1px -1px black)
+                    drop-shadow(-1px 1px black) drop-shadow(-1px -1px black);
+            }
+
+            html.highlight img.highlit.miniface.clover {
+                filter: drop-shadow(1px 1px black) drop-shadow(1px -1px black)
+                    drop-shadow(-1px 1px black) drop-shadow(-1px -1px black)
+                    drop-shadow(1.5px 1.5px var(--highlight-color, yellow))
+                    drop-shadow(1.5px -1.5px var(--highlight-color, yellow))
+                    drop-shadow(-1.5px 1.5px var(--highlight-color, yellow))
+                    drop-shadow(-1.5px -1.5px var(--highlight-color, yellow));
             }
         </style>
     </head>

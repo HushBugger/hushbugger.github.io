@@ -20,6 +20,9 @@ from render_data import (
     FUNNYTEXT_SOUNDS,
     FUNNYTEXT_SOUNDS_BROKEN,
     FUNNYTEXT_SOUND_BROKEN_JA,
+    MINIFACE_ALTS,
+    minifacekind,
+    minifacesprite,
 )
 
 BONUS_HEIGHTS: dict[tuple[str, str], int] = {}
@@ -277,8 +280,27 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                         # This shows up in just one message, no clue
                         pass
                     case "m":
-                        # Sweet/Cap'n/KK faces?
-                        pass
+                        kind = minifacekind(msgid)
+                        sprite = minifacesprite(kind, text[i + 2])
+                        out.write(
+                            '<span style="position: relative; display: inline-block">'
+                            f'<img class="miniface {kind}" src="img/{sprite}.png"'
+                            f' alt="{MINIFACE_ALTS[sprite]}"/></span>'
+                        )
+                        while text[i + 3] in "\t*\u3000 ":
+                            if (
+                                text[i + 3] == "\t"
+                                and out.getvalue().count('class="miniface') > 1
+                            ):
+                                if lang == "en":
+                                    out.write("   ")
+                                else:
+                                    out.write("\u3000 ")
+                            elif text[i + 3] in "\t*":
+                                out.write(" ")
+                            else:
+                                out.write(text[i + 3])
+                            i += 1
                     case ch:
                         print(ch)
                         print(text)
@@ -352,9 +374,11 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
             case "&" | "#" | "\n":
                 out.write("\n")
                 linelen = 0
+            case "\t" if text.startswith(r"\m"):
+                out.write("   ")
+                linelen += 3
             case "\t":
-                out.write(" ")  # TODO
-                linelen += 1
+                raise RuntimeError(f"Bad tab in {msgid=} {text=}")
             case "^":
                 if text[i + 1].isdigit():
                     i += 1
@@ -443,6 +467,8 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
     # Often the game auto-reindents after a line break. Not always.
     if lang == "en" and rendered.startswith("* ") and "\n" in rendered:
         rendered = re.sub(r"\n {0,2}( *[^*\n ])", "\n  \\1", rendered)
+    elif lang == "en" and text.startswith(r"\m") and "\n" in rendered:
+        rendered = re.sub(r"\n *([^*\n <])", "\n   \\1", rendered)
     if msgid in [
         "obj_readable_room1_slash_Other_10_gml_1046_0",
         "obj_readable_room1_slash_Other_10_gml_1221_0",

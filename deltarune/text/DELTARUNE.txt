@@ -16382,7 +16382,7 @@ obj_ch2_city08
 obj_ch2_cyber01
 ===============
 
-  *D-dead end...!
+[Sweet:]   D-dead end...!
 
 Oh, like "suite?"
 
@@ -16390,75 +16390,75 @@ Oh, like... sweets?
 
 * Alright, what's the deal, twerp!
 
-  *Who's a twerp!? The name's
- Sweet!
+[Sweet:]   Who's a twerp!? The name's
+   Sweet!
 
-  *Don't tell me you haven't
- heard of the Sweet Cap'n
- Cakes?!?
+[Sweet:]   Don't tell me you haven't
+   heard of the Sweet Cap'n
+   Cakes?!?
 
 * Um, doesn't ring a bell...
 
-  *G-Guess our act's still a bit
- underground...
+[Sweet:]   G-Guess our act's still a bit
+   underground...
 
-  *Sweet Cap'n Cakes! Not only
- are we Cyber Field's BEST
- musical trio...
+[Sweet:]   Sweet Cap'n Cakes! Not only
+   are we Cyber Field's BEST
+   musical trio...
 
-  *We're also the last resistance
- against the big bad Queen and
- all her crew!
+[Sweet:]   We're also the last resistance
+   against the big bad Queen and
+   all her crew!
 
-  *And that starts with resisting
- YOU!
+[Sweet:]   And that starts with resisting
+   YOU!
 
 * What!? We're fighting Queen, too!
 
-  *Nuh-uh-uh! Cap'n saw you help
- her kidnap some girl!
+[Sweet:]   Nuh-uh-uh! Cap'n saw you help
+   her kidnap some girl!
 
-  *Hey! Hey, Cap!
+[Sweet:]   Hey! Hey, Cap!
 
-  *We won't let anyone lay a
- finger on madamoizels...
+[Cap'n:]   We won't let anyone lay a
+   finger on madamoizels...
 
-  *Except us!
- That's not the point, Cap'n!!
+[Cap'n:]   Except us!
+[Sweet:]   That's not the point, Cap'n!!
 
-  *It's like half the point. 60%?
- 55...
- We're rebels, not players!
+[Cap'n:]   It's like half the point. 60%?
+   55...
+[Sweet:]   We're rebels, not players!
 
-  *We're rebels that play.
- We don't play!! We don't
- play!!
+[Cap'n:]   We're rebels that play.
+[Sweet:]   We don't play!! We don't
+   play!!
 
-  *That's it!! K_K!!! Get over
- here!!
+[Cap'n:]   That's it!! K_K!!! Get over
+   here!!
 
-  *K_K, are we players!?
- ...
+[Cap'n:]   K_K, are we players!?
+[K_K:]   ...
 
-  *I'm a CD player.
+[K_K:]   I'm a CD player.
 
-  *Wait! They're getting away!
+[Sweet:]   Wait! They're getting away!
 
-  *Sweet, chill. There'll be
- other bad guys!
- No, this is our chance!
+[Cap'n:]   Sweet, chill. There'll be
+   other bad guys!
+[Sweet:]   No, this is our chance!
 
-  *Are you ready!? Let's fight!!
+[Sweet:]   Are you ready!? Let's fight!!
 
-  *... K_K.
- Yeah?
+[Cap'n:]   ... K_K.
+[K_K:]   Yeah?
 
-  *Play some battle music!
- OK!
+[Sweet:]   Play some battle music!
+[K_K:]   OK!
 
-  *Feel the beat!
- Watch my moves!
- Dance, dance!!
+[Sweet:]   Feel the beat!
+[Cap'n:]   Watch my moves!
+[K_K:]   Dance, dance!!
 
 * Hey, losers!! Wrap it up!! Battle's over!!
 
@@ -16466,46 +16466,46 @@ WE ARE the good side!!!
 
 Just go with it, Susie...
 
-  *Over?
- In other-type words...
- We lost!?
+[K_K:]   Over?
+[Cap'n:]   In other-type words...
+[Sweet:]   We lost!?
 
-  *...
- ...
- ...
+[Sweet:]   ...
+[Cap'n:]   ...
+[K_K:]   ...
 
-  *Does that mean we can be
- friends?
- K_K!! No!!
+[K_K:]   Does that mean we can be
+   friends?
+[Sweet:]   K_K!! No!!
 
-  *Fighting's not really my style
- anyways...
- Yeah! Because you're a coward!
+[Cap'n:]   Fighting's not really my style
+   anyways...
+[Sweet:]   Yeah! Because you're a coward!
 
-  *... I mean, it was fun
- dancing, but...
- Sweet. Don't worry.
+[Sweet:]   ... I mean, it was fun
+   dancing, but...
+[K_K:]   Sweet. Don't worry.
 
-  *I think our dancing beat them.
- Beat them...?
- Yeah, all mercy-like.
+[K_K:]   I think our dancing beat them.
+[Sweet:]   Beat them...?
+[Cap'n:]   Yeah, all mercy-like.
 
-  *See, when we danced with them,
- it convinced them we're cool.
- Now they're on our side?
+[Cap'n:]   See, when we danced with them,
+   it convinced them we're cool.
+[Sweet:]   Now they're on our side?
 
-  *Yes.
+[K_K:]   Yes.
 
-  *Hey!! You three!! Welcome to
- the good side!!
+[Sweet:]   Hey!! You three!! Welcome to
+   the good side!!
 
-  *Let's ronday-voo at our Junk
- Shop...
+[Cap'n:]   Let's ronday-voo at our Junk
+   Shop...
 
-  *We jammed the door shut, but
- we'll kick it open!
+[Sweet:]   We jammed the door shut, but
+   we'll kick it open!
 
-  *Alright everyone, let's go!
+[Cap'n:]   Alright everyone, let's go!
 
 
 ======================
@@ -19549,17 +19549,17 @@ obj_ch2_scene26
 
 I shalt also take Credite for This
 
-  *On your quest against Queen,
+[Sweet:]   On your quest against Queen,
 
-  *You've made all sorts of
- buddies, right?!
+[Cap'n:]   You've made all sorts of
+   buddies, right?!
 
-  *Using our junk-making
- skills...
+[Sweet:]   Using our junk-making
+   skills...
 
-  *We modified everyone...
+[Cap'n:]   We modified everyone...
 
-  *To work together!
+[K_K:]   To work together!
 
 * Kris!! Susie!! Behold!!
 
@@ -21419,17 +21419,17 @@ two...
 
 * Choose a topic that Clover likes!
 
-*  Time's up!
-  TOO SLOW!
-  (Sorry...)
+[Happy head:]   Time's up!
+[Mad head:]   TOO SLOW!
+[Sad head:]   (Sorry...)
 
-*  That's right!
-  Not bad!
-  (It's OK...)
+[Happy head:]   That's right!
+[Mad head:]   Not bad!
+[Sad head:]   (It's OK...)
 
-*  No thanks!
-  WRONG!
-  (Is it that bad?)
+[Happy head:]   No thanks!
+[Mad head:]   WRONG!
+[Sad head:]   (Is it that bad?)
 
 (Tired)
 
@@ -24266,40 +24266,40 @@ obj_npc_room_animated
 
 * We were told to make room for something BIG...
 
-  *Yo! How's it hangin'?
+[Sweet:]   Yo! How's it hangin'?
 
-  *We're making some extra
- money by selling in the city!
+[Sweet:]   We're making some extra
+   money by selling in the city!
 
-  *We gotta make those
- bucks somehow!! Heheh!!
+[Cap'n:]   We gotta make those
+   bucks somehow!! Heheh!!
 
-  *Gotta buy new gear!!
- Gotta get new kicks!!
- I wanna be a car.
+[Sweet:]   Gotta buy new gear!!
+[Cap'n:]   Gotta get new kicks!!
+[K_K:]   I wanna be a car.
 
-  *Good thinkin', K_K! Gotta
- have a way to get around!
- Honk! Honk!
+[Sweet:]   Good thinkin', K_K! Gotta
+   have a way to get around!
+[K_K:]   Honk! Honk!
 
-  *K_K's always got it right!
- That's why he's
- second-in-command!
+[Sweet:]   K_K's always got it right!
+[Cap'n:]   That's why he's
+   second-in-command!
 
-  *... who's first?
- Huh? I'm not the leader?
- Can I be third?
+[Sweet:]   ... who's first?
+[Cap'n:]   Huh? I'm not the leader?
+[K_K:]   Can I be third?
 
-  *Did you like the big statue?
- Building it sucked!
- Took a lot of scrap.
+[K_K:]   Did you like the big statue?
+[Cap'n:]   Building it sucked!
+[Sweet:]   Took a lot of scrap.
 
-  *The other job we did was
- way better!
- It was big.
+[Sweet:]   The other job we did was
+   way better!
+[K_K:]   It was big.
 
-  *It's gonna blow your mind!
- It was big.
+[Cap'n:]   It's gonna blow your mind!
+[K_K:]   It was big.
 
 * Young masters! Thank you for such a wide space to clean!
 
@@ -24315,17 +24315,17 @@ obj_npc_room_animated
 
 * 'ey boss! We're just reminiscing about fighting you!
 
-  *Sorry, I'm out of bagels.
- Don't you have 400!?
- I had 406.
+[K_K:]   Sorry, I'm out of bagels.
+[Cap'n:]   Don't you have 400!?
+[K_K:]   I had 406.
 
-  *Then why can't you sell
- anymore?!
+[Cap'n:]   Then why can't you sell
+   anymore?!
 
-  *What if someone asked for
- 400 bagels?
+[K_K:]   What if someone asked for
+   400 bagels?
 
-  *Sorry, I'm out of bagels.
+[K_K:]   Sorry, I'm out of bagels.
 
 * Having a wide-open space is great for us kids.
 
@@ -24444,24 +24444,24 @@ Really, where!?
 * You didn't RECRUIT me.
 * But I'll be in your TOWN...
 
-  *This town's great!
+[Sweet:]   This town's great!
 
-  *Just, wish everyone else was
- here, too...
+[Sweet:]   Just, wish everyone else was
+   here, too...
 
-  *Yo, chief. If you recruit
- enough fans for us,
+[Cap'n:]   Yo, chief. If you recruit
+   enough fans for us,
 
-  *We might be able to make our
- music shop again...
+[Cap'n:]   We might be able to make our
+   music shop again...
 
-  *Hey, we might even give you a
- discount!
+[Cap'n:]   Hey, we might even give you a
+   discount!
 
-  *Ya hear that, chief? Keep up
- the recruiting...
+[Cap'n:]   Ya hear that, chief? Keep up
+   the recruiting...
 
-  *I got to keep my box.
+[K_K:]   I got to keep my box.
 
 
 ============
@@ -25425,24 +25425,24 @@ Advertisements now only $9.99!
 
 * ... are you impressed...?
 
-*  Wow, our house is a dojo?!
-  Makes me wanna FIGHT...
-  (Can't we go to sleep?)
+[Happy head:]   Wow, our house is a dojo?!
+[Mad head:]   Makes me wanna FIGHT...
+[Sad head:]   (Can't we go to sleep?)
 
-*  It's a PARTY every day!
-  And I'M the oldest!
-  (We're the same age...)
+[Happy head:]   It's a PARTY every day!
+[Mad head:]   And I'M the oldest!
+[Sad head:]   (We're the same age...)
 
-*  Who's that tall-dark-and...
-  Kinda creepy person!?
-  You mean the... Werewire?
+[Happy head:]   Who's that tall-dark-and...
+[Mad head:]   Kinda creepy person!?
+[Sad head:]   You mean the... Werewire?
 
-*  Their neck just
-  looks so...fluffy~
-  So!? Like I care!?
+[Happy head:]   Their neck just
+   looks so...fluffy~
+[Mad head:]   So!? Like I care!?
 
-*  (She wants to rub her face
-  in it...)
+[Sad head:]   (She wants to rub her face
+   in it...)
 
 * He he he... Looks like fighting wasn't in the cards for us.
 
@@ -25687,7 +25687,7 @@ Advertisements now only $9.99!
 
 * Why is it round dough is always so overpriced?
 
-  *The hole is expensive!
+[K_K:]   The hole is expensive!
 
 * I want to go back to the city, but the way is blocked...
 
@@ -28896,26 +28896,26 @@ WEAPON
 Make sure
 to charge it
 
-  *Don't forget to
- buy something!
- If you want!
- Can I buy
- something too?
+[Cap'n:]   Don't forget to
+   buy something!
+[Sweet:]   If you want!
+[K_K:]   Can I buy
+   something too?
 
-  *Yo!
- What's up?
- Hey!
+[Sweet:]   Yo!
+[Cap'n:]   What's up?
+[K_K:]   Hey!
 
-  *Welcome to...
- The Music Room!
- We don't sell
- anything!
+[Sweet:]   Welcome to...
+[Cap'n:]   The Music Room!
+[K_K:]   We don't sell
+   anything!
 
-  *Crash!
- Bang!
- Boom!
+[Sweet:]   Crash!
+[Cap'n:]   Bang!
+[K_K:]   Boom!
 
-  *Good song.
+[K_K:]   Good song.
 
 Play Music
 
@@ -28923,33 +28923,33 @@ Lancer
 
 $~1
 
-  *Take
- your
- pick!
+[Cap'n:]   Take
+   your
+   pick!
 
-  *Thanks,
- guys!
+[Sweet:]   Thanks,
+   guys!
 
-  *I can't
- see.
+[K_K:]   I can't
+   see.
 
-  *Don't
- chicken
- out!
+[Cap'n:]   Don't
+   chicken
+   out!
 
-  *Not
- enough
- cash!
+[Cap'n:]   Not
+   enough
+   cash!
 
-  *Your
- pockets
- are
- full.
+[Cap'n:]   Your
+   pockets
+   are
+   full.
 
-  *Cool!
- It's in
- your
- STORAGE.
+[Cap'n:]   Cool!
+   It's in
+   your
+   STORAGE.
 
 $~1 ?
 
@@ -28961,181 +28961,181 @@ About Queen
 
 Junk Work
 
-  *Let's
- trade
- info!
+[Sweet:]   Let's
+   trade
+   info!
 
 Sell Pocket Items
 
 Return
 
-  *We'll
- take
- it for
- you!
+[Sweet:]   We'll
+   take
+   it for
+   you!
 
-  *That's
- all you
- had?
+[K_K:]   That's
+   all you
+   had?
 
-  *You
- got
- nothin!
+[K_K:]   You
+   got
+   nothin!
 
-  *OK,
- hit us
- with an
- ITEM!
+[Sweet:]   OK,
+   hit us
+   with an
+   ITEM!
 
-  *OK,
- show us
- your
- WEAPON!
+[Sweet:]   OK,
+   show us
+   your
+   WEAPON!
 
-  *OK,
- hit us
- with an
- ARMOR!
+[Sweet:]   OK,
+   hit us
+   with an
+   ARMOR!
 
-  *Sweet!
- This'll
- be great
- scrap!
+[Sweet:]   Sweet!
+   This'll
+   be great
+   scrap!
 
-  *OK,
- hold
- onto
- that.
+[Sweet:]   OK,
+   hold
+   onto
+   that.
 
-  *Maybe
- better
- keep
- that.
+[Sweet:]   Maybe
+   better
+   keep
+   that.
 
-  *That's
- nothin!
+[Cap'n:]   That's
+   nothin!
 
 $~1 ?
 
-  *Nice town, chief.
- I think we're gonna like it
- here!
- Cool city.
+[Cap'n:]   Nice town, chief.
+[Sweet:]   I think we're gonna like it
+   here!
+[K_K:]   Cool city.
 
-  *As thanks, you can listen to
- all sorts of songs here.
+[Sweet:]   As thanks, you can listen to
+   all sorts of songs here.
 
-  *Don't think it'll be cheap,
- though!
- It's free.
- What!?
+[Cap'n:]   Don't think it'll be cheap,
+   though!
+[K_K:]   It's free.
+[Cap'n:]   What!?
 
-  *See ya!
- Smell ya!
- Hear ya!
+[Sweet:]   See ya!
+[Cap'n:]   Smell ya!
+[K_K:]   Hear ya!
 
-  *I'm Sweet.
- The ladies call me Cap'n!
- K_K!
+[Sweet:]   I'm Sweet.
+[Cap'n:]   The ladies call me Cap'n!
+[K_K:]   K_K!
 
-  *We used to work the sound in
- this town.
- ... until Queen came around.
- (K_K is short for Cakes.)
+[Sweet:]   We used to work the sound in
+   this town.
+[Cap'n:]   ... until Queen came around.
+[K_K:]   (K_K is short for Cakes.)
 
-  *She made music against the law.
- Unless you make a song she likes.
- But the only JUNK she enjoys...
+[Sweet:]   She made music against the law.
+[K_K:]   Unless you make a song she likes.
+[Cap'n:]   But the only JUNK she enjoys...
 
-  *Are reverse diss-tracks, where
- the vocalist puts themselves
- down, and praises Queen...
- Or noise music.
+[Sweet:]   Are reverse diss-tracks, where
+   the vocalist puts themselves
+   down, and praises Queen...
+[Cap'n:]   Or noise music.
 
-  *But even if Queenie tries to put
- a limiter on us...
+[Sweet:]   But even if Queenie tries to put
+   a limiter on us...
 
-  *You can't STOP ! THE ! MUSIC!
- Hear that!? We'll just go
- underground!!
- Crash! Boom! Bang!
+[Sweet:]   You can't STOP ! THE ! MUSIC!
+[Cap'n:]   Hear that!? We'll just go
+   underground!!
+[K_K:]   Crash! Boom! Bang!
 
-  *That's why we made this junk
- shop!
- We'll fund our musical rebellion!
- Can we make noise music, too?
+[Sweet:]   That's why we made this junk
+   shop!
+[Cap'n:]   We'll fund our musical rebellion!
+[K_K:]   Can we make noise music, too?
 
-  *What, wanna see what we got!?
- Yo, yo, can you handle this!?
- Hold onto your antennas!!
+[Sweet:]   What, wanna see what we got!?
+[Cap'n:]   Yo, yo, can you handle this!?
+[K_K:]   Hold onto your antennas!!
 
-  *Queen wasn't always so... harsh.
- No, she WAS! She just got WORSE
- somehow!
+[Sweet:]   Queen wasn't always so... harsh.
+[Cap'n:]   No, she WAS! She just got WORSE
+   somehow!
 
-  *It wasn't 'til that DARK FOUNTAIN
- showed up,
- That she started going into
- overdrive.
+[Sweet:]   It wasn't 'til that DARK FOUNTAIN
+   showed up,
+[Cap'n:]   That she started going into
+   overdrive.
 
-  *"Knight" this, "Knight" that,
- "Fountain" that...
- Like, what does that Knight
- even have going for it that I
- don't!? C'mon!!
+[Sweet:]   "Knight" this, "Knight" that,
+   "Fountain" that...
+[Cap'n:]   Like, what does that Knight
+   even have going for it that I
+   don't!? C'mon!!
 
-  *But like I said. She wasn't
- ALWAYS so bad. She used to
- give me sweets. For being so
- sweet!
- H... huh!? I never got candy!!
+[Sweet:]   But like I said. She wasn't
+   ALWAYS so bad. She used to
+   give me sweets. For being so
+   sweet!
+[Cap'n:]   H... huh!? I never got candy!!
 
-  *You kept calling her a
- "hot mama," Cap.
- Yeah!? Is that wrong!? She
- looks like a mom and tends to
- overheat!!
+[Sweet:]   You kept calling her a
+   "hot mama," Cap.
+[Cap'n:]   Yeah!? Is that wrong!? She
+   looks like a mom and tends to
+   overheat!!
 
-  *K_K! Help me out here!!
- K_K! What do you think?
- Huh? Me?
+[Cap'n:]   K_K! Help me out here!!
+[Sweet:]   K_K! What do you think?
+[K_K:]   Huh? Me?
 
-  *... I like candy.
+[K_K:]   ... I like candy.
 
-  *Yeah, you're right, K_K! We gotta
- focus on what's important!
- If the band fights, we'll get
- outta tune!
- Anyone have any lemon drops?
+[Sweet:]   Yeah, you're right, K_K! We gotta
+   focus on what's important!
+[Cap'n:]   If the band fights, we'll get
+   outta tune!
+[K_K:]   Anyone have any lemon drops?
 
-  *Our main gig is making scrap
- into machines.
- Our clients are sometimes a
- bit off-key though.
- They smell off-key too!!
+[Sweet:]   Our main gig is making scrap
+   into machines.
+[Cap'n:]   Our clients are sometimes a
+   bit off-key though.
+[K_K:]   They smell off-key too!!
 
-  *Like some... little weird guy.
- He wanted us to sneak into
- Queen's mansion...
- We're just rebels, we don't
- wanna get in trouble!
+[Sweet:]   Like some... little weird guy.
+[Cap'n:]   He wanted us to sneak into
+   Queen's mansion...
+[K_K:]   We're just rebels, we don't
+   wanna get in trouble!
 
-  *But recently we got a
- real-high-class-client.
- A man of TASTE! He had a way
- with words!!
- I couldn't even understand him!
+[Sweet:]   But recently we got a
+   real-high-class-client.
+[Cap'n:]   A man of TASTE! He had a way
+   with words!!
+[K_K:]   I couldn't even understand him!
 
-  *Now, all we gotta do is follow
- the blueprints, right?
- It'll be our big time break!!
- Yeah!! Haha!! It's gonna break
- apart!! Big time!!
+[Sweet:]   Now, all we gotta do is follow
+   the blueprints, right?
+[Cap'n:]   It'll be our big time break!!
+[K_K:]   Yeah!! Haha!! It's gonna break
+   apart!! Big time!!
 
-  *Yo, how was that!?
- Did you get rocked?!
- All our songs are only 4 seconds
- long!!
+[Cap'n:]   Yo, how was that!?
+[Sweet:]   Did you get rocked?!
+[K_K:]   All our songs are only 4 seconds
+   long!!
 
 Space:~1
 
@@ -37954,43 +37954,43 @@ Talk
 
 Leave
 
-  *What'll it be, chief?
- I got CD Bagels, $80 a pop!
+[Cap'n:]   What'll it be, chief?
+   I got CD Bagels, $80 a pop!
 
-  *Good eye for music!
+[Cap'n:]   Good eye for music!
 
-  *Too much stuff, chief!
- It won't fit!
- I can't fit either.
+[Cap'n:]   Too much stuff, chief!
+   It won't fit!
+[K_K:]   I can't fit either.
 
-  *Hey, you can't
- shortchange me!
- Only me.
+[Cap'n:]   Hey, you can't
+   shortchange me!
+[K_K:]   Only me.
 
-  *And who is that, ahem,
- madimoyzel?
- Leave her alone, Cap!
+[Cap'n:]   And who is that, ahem,
+   madimoyzel?
+[Sweet:]   Leave her alone, Cap!
 
-  *Nice radio antenna you
- got there...
- Those are antlers, Cap!
+[Cap'n:]   Nice radio antenna you
+   got there...
+[Sweet:]   Those are antlers, Cap!
 
-  *H-huh!? I, uhh... hmm.
- ...
+[Cap'n:]   H-huh!? I, uhh... hmm.
+[Cap'n:]   ...
 
-  *Let's play her a song!
+[K_K:]   Let's play her a song!
 
-  *... so where's the moyzel?
- Huh!? She's kidnapped!
+[Cap'n:]   ... so where's the moyzel?
+[Sweet:]   Huh!? She's kidnapped!
 
-  *That's awful...
- That sucks...
- ...
+[Sweet:]   That's awful...
+[Cap'n:]   That sucks...
+[K_K:]   ...
 
-  *Let's cheer up!
+[K_K:]   Let's cheer up!
 
-  *This music, it's nice music.
- That's my favorite genre.
+[Cap'n:]   This music, it's nice music.
+[K_K:]   That's my favorite genre.
 
  
 Take
@@ -38732,37 +38732,37 @@ Buy
 
 Don't Buy
 
-  *Yo, (snicker), it's hard work
- being Queen's minion,
- ain't it?
+[Cap'n:]   Yo, (snicker), it's hard work
+   being Queen's minion,
+   ain't it?
 
-  *Why don't you take a break and
- grab a snack?
+[Cap'n:]   Why don't you take a break and
+   grab a snack?
 
-  *Ultra seedy CD Bagels, only
- $400 each!
+[Cap'n:]   Ultra seedy CD Bagels, only
+   $400 each!
 
-  *Wanna buy a CD bagel!? Only
- $400 each!
+[Cap'n:]   Wanna buy a CD bagel!? Only
+   $400 each!
 
-  *Pleasure doin' business with
- ya! ... (snicker)
+[Cap'n:]   Pleasure doin' business with
+   ya! ... (snicker)
 
-  *Hey, you don't have any room.
+[Cap'n:]   Hey, you don't have any room.
 
-  *What, took too many bribes?
+[Cap'n:]   What, took too many bribes?
 
-  *What!? Too expensive!?
+[Cap'n:]   What!? Too expensive!?
 
-  *Well too bad! You're not gonna
- get a better deal anywhere
- else!
+[Cap'n:]   Well too bad! You're not gonna
+   get a better deal anywhere
+   else!
 
-  *Huh? C'mon, you can't survive
- off the air she breathes!
+[Cap'n:]   Huh? C'mon, you can't survive
+   off the air she breathes!
 
-  *Believe me, I've tried!
- ... what?
+[Cap'n:]   Believe me, I've tried!
+   ... what?
 
 
 Buy 400 bagels
@@ -38772,32 +38772,32 @@ Buy 1 bagel
 
 Don't Buy
 
-  *Want to buy a bagel? Only $80.
- K_K, no! It's 400! 400!
+[K_K:]   Want to buy a bagel? Only $80.
+[Cap'n:]   K_K, no! It's 400! 400!
 
-  *Got it.
+[K_K:]   Got it.
 
-  *Want to buy 400 bagels?
- Only $80.
+[K_K:]   Want to buy 400 bagels?
+   Only $80.
 
-  *One bagel, $80. 400 bagels,
- $80.
+[K_K:]   One bagel, $80. 400 bagels,
+   $80.
 
 * (You paid $80 for a bagel.)
 
-  *Can I have one, too?
- You're selling them!
+[K_K:]   Can I have one, too?
+[Cap'n:]   You're selling them!
 
-  *You can't afford it? Don't
- worry, this one's on me!
+[K_K:]   You can't afford it? Don't
+   worry, this one's on me!
 
 * (You got a bagel.)
 
-  *No room for a bagel!
- What about the hole?
+[Cap'n:]   No room for a bagel!
+[K_K:]   What about the hole?
 
-  *That's OK. I haven't bought
- one either.
+[K_K:]   That's OK. I haven't bought
+   one either.
 
 
 Look in
@@ -64634,20 +64634,20 @@ obj_npc_room_animated
 
 * (Looks like it's studying.)
 
-  *Hey, boss. Thought the Dojo
- could use some new beats...
+[Cap'n:]   Hey, boss. Thought the Dojo
+   could use some new beats...
 
-  *Maybe something a little
- romantic-like, for the
- madamoizels?
+[Cap'n:]   Maybe something a little
+   romantic-like, for the
+   madamoizels?
 
-  *I didn't know there was a
- three-for-one babes deal in
- town, boss!
+[Cap'n:]   I didn't know there was a
+   three-for-one babes deal in
+   town, boss!
 
-  *I'm gonna give these fine
- ladies the reverse-diss of
- a lifetime...
+[Cap'n:]   I'm gonna give these fine
+   ladies the reverse-diss of
+   a lifetime...
 
 
 ============
@@ -64965,13 +64965,13 @@ TO DO WITH THIS!!!
 
 * (... with friends, I have become more well-rounded than ever before.)
 
-*  This song is so sweet, Cap'n!
-  SO sweet. You made it for US!?
-  It's awful. ... uh, nothing.
+[Happy head:]   This song is so sweet, Cap'n!
+[Mad head:]   SO sweet. You made it for US!?
+[Sad head:]   It's awful. ... uh, nothing.
 
-*  I just love boys!!!
-  Boys are great!!
-  ... uh...
+[Happy head:]   I just love boys!!!
+[Mad head:]   Boys are great!!
+[Sad head:]   ... uh...
 
 * Hey, apparently you met my friends. The other Pippinses.
 
