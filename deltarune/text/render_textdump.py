@@ -755,19 +755,26 @@ def dumpbin():
             for n1, n2 in self.cache.values():
                 m1 = max(n1, m1)
                 m2 = max(n2, m2)
+
             # Could do something fancy to determine whether UTF-8 is actually
             # more efficient than base-128...
             if w1 != 1:
                 assert math.ceil(math.log(m1, 128)) == w1
+            else:
+                assert m1 <= 65535
+
             if w2 != 1:
                 assert math.ceil(math.log(m2, 128)) == w2
+            else:
+                assert m2 <= 65535
 
     @dataclass
     class MsgMeta:
         msgid: tuple[int, int] = (0, 0)
         en: tuple[int, int] = (0, 0)
         ja: tuple[int, int] = (0, 0)
-        source: tuple[int, int] = (0, 0)
+        sourcefile: tuple[int, int] = (0, 0)
+        sourceline: int = 0
         dup: int = 0
         nh_en: int = 0
         wh_en: int = 0
@@ -807,16 +814,18 @@ def dumpbin():
             )
             for msgid in rendered[chap][group]:
                 msg = rendered[chap][group][msgid]
+                sourcefile, sourceline = (
+                    source.lower().split("#")
+                    if (source := sourcemap[chap].get(msgid))
+                    else (None, 0)
+                )
                 msgs.append(
                     MsgMeta(
                         msgid=msgidbuf.put(msgid),
                         en=enbuf.put(msg["en"][0]),
                         ja=jabuf.put(msg["ja"][0]),
-                        source=sourcebuf.put(
-                            source.lower().replace("#", "#L")
-                            if (source := sourcemap[chap].get(msgid))
-                            else None
-                        ),
+                        sourcefile=sourcebuf.put(sourcefile),
+                        sourceline=int(sourceline),
                         dup=msg["en"][1] + 2 * msg["ja"][1],
                         nh_en=msg["en"][2],
                         wh_en=msg["en"][3],
@@ -865,8 +874,9 @@ def dumpbin():
         writenum(hmsgbuf, msginfo.wh_en, 1)
         writenum(hmsgbuf, msginfo.nh_ja, 1)
         writenum(hmsgbuf, msginfo.wh_ja, 1)
-        writenum(hsrcbuf, msginfo.source[0], 3)
-        writenum(hsrcbuf, msginfo.source[1], 1)
+        writenum(hsrcbuf, msginfo.sourcefile[0], 3)
+        writenum(hsrcbuf, msginfo.sourcefile[1], 1)
+        writenum(hsrcbuf, msginfo.sourceline, 1)
 
     msgidbuf.check(3, 1)
     enbuf.check(3, 1)

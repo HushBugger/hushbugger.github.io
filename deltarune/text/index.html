@@ -1197,7 +1197,7 @@
             /** @type {string | null} */
             let rawSourceMap = null;
 
-            fetch("sourcemap.bin")
+            fetch("sourcemap.bin?v2")
                 .then(function (response) {
                     return response.text();
                 })
@@ -1211,12 +1211,16 @@
                     return "";
                 }
                 const off =
-                    4 * meta.count +
-                    rawSourceMap.charCodeAt(idx * 4) +
-                    rawSourceMap.charCodeAt(idx * 4 + 1) * 128 +
-                    rawSourceMap.charCodeAt(idx * 4 + 2) * 16384;
-                const len = rawSourceMap.charCodeAt(idx * 4 + 3);
-                return rawSourceMap.slice(off, off + len);
+                    5 * meta.count +
+                    rawSourceMap.charCodeAt(idx * 5) +
+                    rawSourceMap.charCodeAt(idx * 5 + 1) * 128 +
+                    rawSourceMap.charCodeAt(idx * 5 + 2) * 16384;
+                const len = rawSourceMap.charCodeAt(idx * 5 + 3);
+                if (!len) {
+                    return "";
+                }
+                const lineno = rawSourceMap.charCodeAt(idx * 5 + 4);
+                return rawSourceMap.slice(off, off + len) + `#L${lineno}`;
             }
 
             /**
