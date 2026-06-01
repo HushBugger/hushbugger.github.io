@@ -1197,7 +1197,7 @@
             /** @type {string | null} */
             let rawSourceMap = null;
 
-            fetch("sourcemap.bin?v2")
+            fetch("sourcemap.bin")
                 .then(function (response) {
                     return response.text();
                 })
