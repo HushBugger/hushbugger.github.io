@@ -222,7 +222,10 @@
             html.hidesearch #searchresults,
             .hideresults #searchresults {
                 /* `display: none;` makes CSS highlights not persist in Webkit.
-                 * In mobile Safari it even causes a crash for unclear reasons. */
+                 * In mobile Safari it even causes a crash for unclear reasons.
+                 * (Or maybe the crash is caused by something else and still persists?
+                 * It's a mystery. Either way, this works better.)
+                 */
                 height: 0;
             }
 
