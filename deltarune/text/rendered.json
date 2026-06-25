@@ -82005,7 +82005,7 @@ false,
 28
 ],
 "ja": [
-"＊ まって…　ひょっとして…\n　 また　わたしを\n　 からってる…？",
+"＊ まって…　ひょっとして…\n　 また　わたしを\n　 からかってる…？",
 false,
 64,
 64
@@ -135701,7 +135701,7 @@ false,
 28
 ],
 "ja": [
-"8-4 Ltd.",
+"8-4, Ltd.",
 false,
 28,
 28
@@ -300752,7 +300752,7 @@ true,
 ],
 "ja": [
 "8-4 Ltd.",
-true,
+false,
 28,
 28
 ]
@@ -375783,7 +375783,7 @@ false,
 28
 ],
 "ja": [
-"8-4 Ltd.",
+"8-4, Ltd.",
 false,
 28,
 28
@@ -479889,34 +479889,6 @@ false,
 28
 ]
 },
-"obj_credits_ch4_slash_Create_0_gml_24_0": {
-"en": [
-"in Chapter 5",
-false,
-28,
-28
-],
-"ja": [
-"in Chapter 5",
-false,
-28,
-28
-]
-},
-"obj_credits_ch4_slash_Create_0_gml_26_0": {
-"en": [
-"2026",
-false,
-28,
-28
-],
-"ja": [
-"2026",
-false,
-28,
-28
-]
-},
 "obj_credits_ch4_slash_Create_0_gml_64_0": {
 "en": [
 "   WELL DONE.",
@@ -480055,6 +480027,34 @@ false,
 false,
 64,
 64
+]
+},
+"obj_credits_ch4_slash_Create_0_gml_24_0": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"in Chapter 5",
+false,
+28,
+28
+]
+},
+"obj_credits_ch4_slash_Create_0_gml_26_0": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"2026",
+false,
+28,
+28
 ]
 },
 "obj_credits_ch4_slash_Create_0_gml_65_0": {
@@ -580271,7 +580271,7 @@ true,
 28
 ],
 "ja": [
-"8-4 Ltd.",
+"8-4, Ltd.",
 true,
 28,
 28
