@@ -15,7 +15,7 @@
             DYm9AAAAAElFTkSuQmCC"
         />
         <link rel="preload" as="font" href="/style/8bitoperator-UTM.woff" crossorigin="anonymous" />
-        <link rel="prefetch" href="search-worker.js?cachebuster" />
+        <link rel="prefetch" href="search-worker.js" />
         <style>
             @font-face {
                 font-family: "8bitoperator Undertale Mono";
@@ -1259,7 +1259,7 @@
                 // - before loading any other blocking resources
                 const req = new XMLHttpRequest();
                 req.overrideMimeType("text/plain; charset=UTF-8");
-                req.open("GET", "rendered.bin?cachebuster", false);
+                req.open("GET", "rendered.bin", false);
                 req.send();
                 if (
                     !req.responseText ||
@@ -2098,7 +2098,7 @@
                     return;
                 }
                 if (!searchWorker) {
-                    searchWorker = new Worker("search-worker.js?cachebuster");
+                    searchWorker = new Worker("search-worker.js");
                     /** @type {SearchInit} */
                     const init = {
                         type: "init",
