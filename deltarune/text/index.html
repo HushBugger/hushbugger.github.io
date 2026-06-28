@@ -15,7 +15,7 @@
             DYm9AAAAAElFTkSuQmCC"
         />
         <link rel="preload" as="font" href="/style/8bitoperator-UTM.woff" crossorigin="anonymous" />
-        <link rel="prefetch" href="search-worker.js" />
+        <link rel="prefetch" href="search-worker.js?cachebuster" />
         <style>
             @font-face {
                 font-family: "8bitoperator Undertale Mono";
@@ -2098,7 +2098,7 @@
                     return;
                 }
                 if (!searchWorker) {
-                    searchWorker = new Worker("search-worker.js");
+                    searchWorker = new Worker("search-worker.js?cachebuster");
                     /** @type {SearchInit} */
                     const init = {
                         type: "init",
