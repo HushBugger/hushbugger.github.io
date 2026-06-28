@@ -3010,7 +3010,7 @@
                     return;
                 }
 
-                if (textboxes.contains(event.target)) {
+                if (textboxes.contains(event.target) && !settings.get("hideSearch")) {
                     setSearchHidden(true);
                 }
 
