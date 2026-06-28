@@ -2899,7 +2899,7 @@
                     if (selection && selection.toString()) {
                         if (settings.get("regex")) {
                             let query = "";
-                            for (const char of selection.toString()) {
+                            for (const char of selection.toString().replace(/\n/g, " ")) {
                                 if (".*+?^${}()|[]\\".includes(char)) {
                                     query += "\\";
                                 }
@@ -2907,7 +2907,7 @@
                             }
                             searchBar.value = query;
                         } else {
-                            searchBar.value = selection.toString();
+                            searchBar.value = selection.toString().replace(/\n/g, " ");
                         }
                         processSearchInput();
                     }
