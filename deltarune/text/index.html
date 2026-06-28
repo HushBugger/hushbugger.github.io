@@ -371,7 +371,7 @@
             }
 
             #searchresults h1,
-            #searchresults div {
+            #searchresults div.result {
                 padding-left: 10px;
             }
 
@@ -508,6 +508,34 @@
                 color: #81c0ff;
             }
 
+            span.p {
+                color: rgb(255, 138, 144);
+            }
+
+            span.s {
+                color: #e2a8fc;
+            }
+
+            span.a {
+                color: #84f9ff;
+            }
+
+            span.y {
+                color: #fff8a1;
+            }
+
+            span.g {
+                color: #aeffbc;
+            }
+
+            span.o {
+                color: #ffac87;
+            }
+
+            span.b {
+                color: #86a7ff;
+            }
+
             html.light span.Y,
             html.light span.G,
             html.light span.A,
@@ -518,13 +546,112 @@
                 paint-order: stroke fill;
             }
 
+            html.light span.p {
+                color: hsl(from rgb(255, 138, 144) h s calc(l - 50));
+            }
+
+            html.light span.s {
+                color: hsl(from #e2a8fc h s calc(l - 50));
+            }
+
+            html.light span.a {
+                color: hsl(from #84f9ff h s calc(l - 50));
+            }
+
+            html.light span.y {
+                color: hsl(from #fff8a1 h s calc(l - 50));
+            }
+
+            html.light span.g {
+                color: hsl(from #aeffbc h s calc(l - 50));
+            }
+
+            html.light span.o {
+                color: hsl(from #ffac87 h s calc(l - 50));
+            }
+
+            html.light span.b {
+                color: hsl(from #86a7ff h s calc(l - 50));
+            }
+
+            .rainbow {
+                animation: rainbow 2.844444s linear infinite;
+                animation-delay: calc(var(--rainbow-idx) * -2s / 9);
+            }
+
+            @keyframes rainbow {
+                from {
+                    color: hsl(0 100% 50%);
+                }
+                10% {
+                    color: hsl(36 100% 50%);
+                }
+                20% {
+                    color: hsl(72 100% 50%);
+                }
+                30% {
+                    color: hsl(108 100% 50%);
+                }
+                40% {
+                    color: hsl(144 100% 50%);
+                }
+                50% {
+                    color: hsl(180 100% 50%);
+                }
+                60% {
+                    color: hsl(216 100% 50%);
+                }
+                70% {
+                    color: hsl(252 100% 50%);
+                }
+                80% {
+                    color: hsl(288 100% 50%);
+                }
+                90% {
+                    color: hsl(324 100% 50%);
+                }
+                100% {
+                    color: hsl(360 100% 50%);
+                }
+            }
+
             span.picture,
             span.param {
                 background: var(--foreground-color);
                 color: var(--background-color);
             }
 
-            img[data-sound] {
+            .voiced {
+                padding-left: 24px;
+                position: relative;
+            }
+
+            .voiced:before {
+                left: 0;
+                content: "";
+                position: absolute;
+                display: block;
+                background-image: url("sound.svg");
+                background-size: 18px 18px;
+                background-repeat: no-repeat;
+                width: 18px;
+                height: 18px;
+                filter: invert(0.7);
+            }
+
+            html.light .voiced:before {
+                filter: invert(0.3);
+            }
+
+            #intro .voiced:before {
+                filter: invert(0.3);
+            }
+
+            html.light #intro .voiced:before {
+                filter: invert(0.7);
+            }
+
+            [data-sound] {
                 cursor: pointer;
             }
 
@@ -628,6 +755,7 @@
                     <option value="2">Chapter 2</option>
                     <option value="3">Chapter 3</option>
                     <option value="4">Chapter 4</option>
+                    <option value="5">Chapter 5</option>
                 </select>
                 <button
                     id="light-mode-toggle"
@@ -738,14 +866,20 @@
                 <a href="/">Main page</a>
             </p>
             <p class="big">
-                Chapter 5 status: <strong><span class="R">NOT YET</span></strong>
+                Chapter 5 status: <strong><span class="G">NOW</span></strong>
+            </p>
+            <p
+                class="voiced"
+                data-sound="snd_flowery_voiceclip_sorrytokeepyouwaiting1"
+                data-sound2="snd_flowery_voiceclip_sorrytokeepyouwaiting2"
+            >
+                Sorry to keep you waiting!
             </p>
             <p>
-                The text dump will update <strong>one week</strong> after release. So
-                <strong>July 1st</strong>.
-            </p>
-            <p title="Now is the time of monsters.">
-                In the meantime, please <strong>make up some outrageous lies</strong>.
+                If anything looks <span data-sound="snd_ominous">weird</span>,
+                <a href="https://forms.gle/cmXFH7HoadC9oMX36" target="_blank" rel="noreferrer"
+                    >let me know</a
+                >.
             </p>
         </div>
         <script>
@@ -753,7 +887,7 @@
             "use strict";
 
             /**
-             * @typedef {'1' | '2' | '3' | '4'} Chapter
+             * @typedef {'1' | '2' | '3' | '4' | '5'} Chapter
              *
              * @typedef {{
              *      chap: "all" | Chapter;
@@ -772,7 +906,7 @@
              *      type: 'init';
              *      rawText: string;
              *  }} SearchInit
-             * @typedef {'missing:en' | 'missing:ja'} SearchOption
+             * @typedef {'missing:en' | 'missing:ja' | 'sound'} SearchOption
              * @typedef {{
              *      type: 'query';
              *      query: RegExp;
@@ -1125,7 +1259,7 @@
                 // - before loading any other blocking resources
                 const req = new XMLHttpRequest();
                 req.overrideMimeType("text/plain; charset=UTF-8");
-                req.open("GET", "rendered.bin", false);
+                req.open("GET", "rendered.bin?cachebuster", false);
                 req.send();
                 if (
                     !req.responseText ||
@@ -1263,6 +1397,9 @@
                     }
                     if (chap === "3" && idx >= meta.ranges[3][1]) {
                         chap = "4";
+                    }
+                    if (chap === "4" && idx >= meta.ranges[4][1]) {
+                        chap = "5";
                     }
                     const dup = dupFor(idx);
                     if (dup & 4) {
@@ -1913,13 +2050,13 @@
             }
             const searchHistoryTimer = debouncer(500);
 
-            const nope = ["1 2 3 blueaddison cyber cafe sex", "hey i'm tha sicko"];
+            const nope = ["1 2 3 blueaddison cyber cafe sex", "hey i'm tha sicko", "doing 67"];
 
             function processSearchInput() {
                 if (searchGeneration === 0 && !searchBar.value) {
                     return;
                 }
-                if (nope.find((text) => searchBar.value.toLowerCase().startsWith(text))) {
+                if (nope.find((text) => searchBar.value.toLowerCase().includes(text))) {
                     // https://www.youtube.com/watch?v=GM-e46xdcUo
                     searchResultsDiv.innerHTML =
                         '<video autoplay><source src="frakes.mp4" type="video/mp4"/>' +
@@ -2099,6 +2236,8 @@
                     } else if (piece === "@missing:ja") {
                         // Likewise
                         options.push("missing:ja");
+                    } else if (piece === "@sound") {
+                        options.push("sound");
                     } else {
                         searchBar.classList.add("error");
                         return [null, []];
@@ -2147,8 +2286,8 @@
                     // Trick borrowed from VS Code:
                     // https://github.com/microsoft/vscode/blob/24ab8bac79/src/vs/base/common/strings.ts#L209
                     // Doesn't do much for Japanese text unfortunately.
-                    const prefix = !/\B/.test(rawPattern[0]);
-                    const postfix = !/\B/.test(rawPattern[rawPattern.length - 1]);
+                    const prefix = !/\B/.test(rawPattern.charAt(0));
+                    const postfix = !/\B/.test(rawPattern.charAt(rawPattern.length - 1));
                     rawPattern = `(?:${rawPattern})`;
                     if (prefix) {
                         rawPattern = "\\b" + rawPattern;
@@ -2551,12 +2690,12 @@
              * @return {Chapter}
              */
             function chapForIdx(idx) {
-                for (const chap of /** @type {const} */ (["1", "2", "3"])) {
+                for (const chap of /** @type {const} */ (["1", "2", "3", "4"])) {
                     if (idx < meta.ranges[chap][1]) {
                         return chap;
                     }
                 }
-                return "4";
+                return "5";
             }
 
             /** @param {Result} result */
@@ -2863,22 +3002,36 @@
             /** @type {HTMLAudioElement | null} */
             let curAudio = null;
 
-            textboxes.addEventListener("click", function (event) {
-                if (event.target instanceof HTMLImageElement && event.target.dataset.sound) {
-                    const snd = event.target.dataset.sound;
-                    if (curAudio) {
-                        curAudio.pause();
-                    }
-                    curAudio = new Audio();
-                    curAudio.innerHTML =
-                        `<source src="snd/${snd}.opus" type="audio/ogg; codecs=opus" />` +
-                        `<source src="snd/${snd}.mp3" type="audio/mpeg" />`;
-                    curAudio.play();
+            document.addEventListener("click", function (event) {
+                if (!(event.target instanceof HTMLElement)) {
                     return;
                 }
-                if (!settings.get("hideSearch")) {
+                if (searchResultsDiv.contains(event.target)) {
+                    return;
+                }
+
+                if (textboxes.contains(event.target)) {
                     setSearchHidden(true);
                 }
+
+                const soundClip = event.target.closest("[data-sound]");
+                if (!(soundClip instanceof HTMLElement) || !soundClip.dataset.sound) {
+                    return;
+                }
+
+                let snd = soundClip.dataset.sound;
+                if (soundClip.dataset.sound2 && Math.random() < 0.5) {
+                    snd = soundClip.dataset.sound2;
+                }
+
+                if (curAudio) {
+                    curAudio.pause();
+                }
+                curAudio = new Audio();
+                curAudio.innerHTML =
+                    `<source src="snd/${snd}.opus" type="audio/ogg; codecs=opus" />` +
+                    `<source src="snd/${snd}.mp3" type="audio/mpeg" />`;
+                curAudio.play();
             });
 
             function setupCloseWatcher() {

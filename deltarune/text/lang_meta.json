@@ -2601,6 +2601,64 @@
 ]
 ]
 }
+},
+"5": {
+"obj_ch5_LW07_slash_Step_0_gml_1214_0": {
+"0": [
+[
+"spr_funnytext_dump_her",
+0,
+-10
+],
+[
+"spr_funnytext_dump_her_ja",
+0,
+-10
+]
+]
+},
+"obj_gameover_band_slash_Step_0_gml_125_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_funnytext_challenge",
+0,
+0
+]
+]
+},
+"obj_gameover_band_slash_Step_0_gml_209_0": {
+"0": [
+[
+"spr_funnytext_challenge",
+0,
+0
+],
+[
+"spr_funnytext_challenge",
+0,
+0
+]
+]
+},
+"obj_room_castle_tv_mike_b_slash_Step_0_gml_927_0": {
+"0": [
+[
+"spr_funnytext_ass",
+0,
+0
+],
+[
+"spr_ja_funnytext_ass",
+0,
+0
+]
+]
+}
 }
 },
 "var_names": {
@@ -3362,6 +3420,276 @@
 ],
 "scr_text_slash_scr_text_gml_8950_0": [
 "juice_text"
+]
+},
+"5": {
+"obj_aqua_enemy_slash_Step_0_gml_373_0": [
+"substring"
+],
+"obj_aqua_enemy_slash_Step_0_gml_376_0": [
+"substring"
+],
+"obj_aqua_enemy_slash_Step_0_gml_379_0": [
+"substring"
+],
+"obj_aqua_enemy_slash_Step_0_gml_383_0": [
+"substring"
+],
+"obj_aqua_enemy_slash_Step_0_gml_387_0": [
+"substring"
+],
+"obj_aqua_enemy_slash_Step_0_gml_390_0": [
+"substring"
+],
+"obj_aqua_enemy_slash_Step_0_gml_393_0": [
+"substring"
+],
+"obj_aqua_enemy_slash_Step_0_gml_396_0": [
+"substring"
+],
+"obj_aqua_enemy_slash_Step_0_gml_399_0": [
+"substring"
+],
+"obj_aqua_enemy_slash_Step_0_gml_402_0": [
+"substring"
+],
+"obj_aqua_enemy_slash_Step_0_gml_409_0": [
+"substring"
+],
+"obj_ball_enemy_slash_Step_0_gml_437_0": [
+"_txt"
+],
+"obj_ch5_DW22_slash_Step_0_gml_972_0": [
+"team_name"
+],
+"obj_checker_animtest_slash_Step_0_gml_48_0": [
+"name"
+],
+"obj_darkcontroller_slash_Draw_0_gml_47_0": [
+"moneyamt"
+],
+"obj_dw_castle_church_climb_slash_Other_15_gml_41_0": [
+"timestring"
+],
+"obj_dw_castle_church_entrance_slash_Other_15_gml_390_0": [
+"word"
+],
+"obj_dw_cliff_netskieclimb_behind_slash_Step_0_gml_34_0": [
+"itemname"
+],
+"obj_dw_fcastle_cafe_slash_Draw_0_gml_251_0": [
+"cost"
+],
+"obj_dw_fcastle_pinkshop_slash_Step_0_gml_61_0": [
+"flowercost",
+"pinkcost"
+],
+"obj_dw_fcastle_sandtrap_slash_Other_11_gml_55_0": [
+"terminator"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_25_0": [
+"itemname"
+],
+"obj_dw_garden_susiechase_slash_Step_0_gml_2246_0": [
+"bonus"
+],
+"obj_floradinn_enemy_slash_Step_0_gml_443_0": [
+"_txt"
+],
+"obj_flowery_enemy_slash_Step_0_gml_903_0": [
+"_str"
+],
+"obj_flowery_enemy_slash_Step_0_gml_913_0": [
+"_str"
+],
+"obj_kawkaw_enemy_slash_Step_0_gml_531_0": [
+"str1",
+"str2"
+],
+"obj_minigame_quit_ui_slash_Draw_0_gml_18_0": [
+"_space"
+],
+"obj_npc_hammerguy_slash_Step_0_gml_251_0": [
+"fusionResultName"
+],
+"obj_npc_room_slash_Other_10_gml_373_0_b": [
+"sentence_end"
+],
+"obj_npc_rudy_slash_Step_0_gml_29_0": [
+"sentenceEnd"
+],
+"obj_npc_sign_slash_Other_10_gml_27_0": [
+"colortxt"
+],
+"obj_nubert_enemy_slash_Step_0_gml_437_0": [
+"_txt"
+],
+"obj_overworldc_slash_Draw_0_gml_81_0": [
+"weaponname"
+],
+"obj_overworldc_slash_Draw_0_gml_82_0": [
+"armorname"
+],
+"obj_purple_enemy_slash_Step_0_gml_556_0": [
+"substring"
+],
+"obj_purple_enemy_slash_Step_0_gml_559_0": [
+"substring"
+],
+"obj_purple_enemy_slash_Step_0_gml_562_0": [
+"substring"
+],
+"obj_purple_enemy_slash_Step_0_gml_565_0": [
+"substring"
+],
+"obj_purple_enemy_slash_Step_0_gml_570_0": [
+"substring"
+],
+"obj_purple_enemy_slash_Step_0_gml_574_0": [
+"substring"
+],
+"obj_purple_enemy_slash_Step_0_gml_578_0": [
+"substring"
+],
+"obj_purple_enemy_slash_Step_0_gml_581_0": [
+"substring"
+],
+"obj_purple_enemy_slash_Step_0_gml_588_0": [
+"substring"
+],
+"obj_purple_enemy_slash_Step_0_gml_597_0": [
+"substring"
+],
+"obj_room_castle_susie_slash_Step_0_gml_14_0": [
+"sentence_end"
+],
+"obj_room_town_mid_diner_slash_Step_0_gml_97_0": [
+"sentence_end"
+],
+"obj_shop2_slash_Draw_0_gml_482_0": [
+"roomstring"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_677_0": [
+"roomstring"
+],
+"obj_shop_vending_slash_Create_0_gml_38_0": [
+"value_label"
+],
+"obj_tasque_manager_enemy_slash_Step_0_gml_269_0": [
+"sentenceEnd"
+],
+"obj_tasque_manager_enemy_slash_Step_0_gml_311_0": [
+"sentenceEnd"
+],
+"obj_tasque_manager_enemy_slash_Step_0_gml_39_0": [
+"randomText"
+],
+"obj_town_mid_conbini_slash_Step_0_gml_15_0": [
+"sentence_end"
+],
+"obj_town_mid_ferris_slash_Step_0_gml_1019_0": [
+"small_face"
+],
+"obj_town_north_asgore_slash_Step_0_gml_521_0": [
+"sentence_end"
+],
+"obj_town_north_asgore_slash_Step_0_gml_706_0": [
+"sentence_end"
+],
+"obj_town_north_catty_house_slash_Step_0_gml_251_0": [
+"voted_name"
+],
+"obj_town_north_catty_house_slash_Step_0_gml_301_0": [
+"voted_name"
+],
+"obj_treasure_room_slash_Other_10_gml_31_0_b": [
+"coinquantity"
+],
+"obj_treasure_room_slash_Other_10_gml_32_0": [
+"coinquantity"
+],
+"obj_treasure_room_slash_Other_10_gml_38_0": [
+"dollarquantity"
+],
+"obj_treasure_room_slash_Other_10_gml_39_0": [
+"dollarquantity"
+],
+"obj_treasure_room_slash_Other_10_gml_44_0": [
+"spitemname"
+],
+"obj_treasure_room_slash_Other_10_gml_65_0": [
+"itemname"
+],
+"obj_treasure_room_slash_Other_10_gml_76_0": [
+"itemname",
+"itemtypename"
+],
+"obj_treasure_room_slash_Other_10_gml_83_0": [
+"itemname",
+"itemtypename"
+],
+"obj_yellow_enemy_slash_Step_0_gml_156_0": [
+"substring"
+],
+"obj_yellow_enemy_slash_Step_0_gml_160_0": [
+"substring"
+],
+"obj_yellow_enemy_slash_Step_0_gml_164_0": [
+"substring"
+],
+"obj_yellow_enemy_slash_Step_0_gml_171_0": [
+"substring"
+],
+"obj_yellow_enemy_slash_Step_0_gml_175_0": [
+"substring"
+],
+"obj_yellow_enemy_slash_Step_0_gml_179_0": [
+"substring"
+],
+"obj_yellow_enemy_slash_Step_0_gml_183_0": [
+"substring"
+],
+"scr_get_completed_file_name_slash_scr_get_completed_file_name_gml_18_0": [
+"_file_name"
+],
+"scr_keyiteminfo_slash_scr_keyiteminfo_gml_70_0": [
+"crystal_amount"
+],
+"scr_text_slash_scr_text_gml_11127_0": [
+"song_name"
+],
+"scr_text_slash_scr_text_gml_1343_0": [
+"input_name"
+],
+"scr_text_slash_scr_text_gml_232_0": [
+"input_name"
+],
+"scr_text_slash_scr_text_gml_250_0": [
+"input_name"
+],
+"scr_text_slash_scr_text_gml_3627_0": [
+"myname"
+],
+"scr_text_slash_scr_text_gml_3672_0": [
+"onionname"
+],
+"scr_text_slash_scr_text_gml_3675_0": [
+"myname"
+],
+"scr_text_slash_scr_text_gml_4437_0": [
+"endSentence"
+],
+"scr_text_slash_scr_text_gml_4464_0": [
+"endSentence"
+],
+"scr_text_slash_scr_text_gml_5366_0": [
+"thinkingof"
+],
+"scr_text_slash_scr_text_gml_6792_0": [
+"lightner_name"
+],
+"scr_text_slash_scr_text_gml_831_0": [
+"nn"
 ]
 }
 }

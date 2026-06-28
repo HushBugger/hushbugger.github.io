@@ -7,7 +7,6 @@ import json
 import math
 import os
 import re
-import sys
 import typing
 import xml.etree.ElementTree
 from dataclasses import dataclass, field
@@ -23,12 +22,17 @@ from render_data import (
     MINIFACE_ALTS,
     minifacekind,
     minifacesprite,
+    lookup_voiceclip,
 )
+
+MAX_CHAP = 5
 
 BONUS_HEIGHTS: dict[tuple[str, str], int] = {}
 
 
-def render(text: str | None, msgid: str, lang: str) -> str | None:
+def render(
+    text: str | None, msgid: str, lang: typing.Literal["en", "ja"]
+) -> str | None:
     if not text:
         return None
     if text in ("/*", "/＊") and "shop" in msgid:
@@ -82,10 +86,21 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
         assert text == "教会にも行かずにずっと見てるテレビしか見ないテレビがすべて"
         text = "教会にも行かずにずっと見てる\nテレビしか見ないテレビがすべて"
 
+    if msgid.startswith("obj_flowery_lyrics_slash_Create_0_gml"):
+        text = text.translate({ord(c): None for c in "-+<>＜＞＋"})
+
+    if msgid == "obj_ch5_LW07_slash_Step_0_gml_1214_0" and lang == "ja":
+        # TODO: confirm this
+        assert "\\O0            おしまい！/%" in text
+        text = text.replace("\\O0            おしまい！/%", "\\O0\n\u3000 おしまい！/%")
+
     out = io.StringIO()
     color = "W"
     i = 0
     linelen = 0
+    flowindent = False
+    rainbow = False
+    voiceclip = altvoiceclip = None
 
     # 33 is where faceless dialogue boxes wrap.
     MAX_LINE_LEN = 33 if not (lang == "en" and msgid in FORCE_WRAP) else 28
@@ -164,6 +179,9 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
             if new.startswith("* "):
                 new += "  "
                 linelen = 2
+            elif flowindent:
+                new += "    "
+                linelen = 4
             else:
                 linelen = 0
             if not hardwrap:
@@ -175,28 +193,35 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
             out = io.StringIO(new)
             out.seek(0, 2)
 
+    def apply_color(new_color: str):
+        nonlocal color, rainbow
+        if new_color == "0":
+            new_color = "W"
+        assert new_color in "RBYGOASVIWZpsaygob", new_color
+        if new_color != color:
+            if rainbow:
+                rainbow = False
+            elif color != "W":
+                out.write("</span>")
+            if new_color != "W":
+                out.write(f'<span class="{new_color}">')
+        color = new_color
+
     while i < len(text):
         wrapline()
         match text[i]:
             case "\\":
                 match text[i + 1]:
+                    case "c" if text[i + 2] == "Z":
+                        rainbow = True
+                        color = "Z"
                     case "c":
-                        prev_color = color
-                        if text[i + 1] == "c":
-                            color = text[i + 2]
-                            if color == "0":
-                                color = "W"
-                            assert color in "RBYGOASVIW", color
-                        if color != prev_color:
-                            if prev_color != "W":
-                                out.write("</span>")
-                            if color != "W":
-                                out.write(f'<span class="{color}">')
+                        apply_color(text[i + 2])
                     case "O":
                         file, x_off, y_off = images[n][msgid][text[i + 2]][lang == "ja"]
                         file_canonical = images[n][msgid][text[i + 2]][0][0]
                         path = f"img/{file}.gif"
-                        assert os.path.exists(path)
+                        assert os.path.exists(path), path
                         dims = FUNNYTEXT_DIMS[file]
                         # I don't think these are always right... but they're pretty close
                         x = x_off + dims.width // 2 - dims.origin_x
@@ -220,6 +245,10 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                             "spr_funnytext_special",
                             "spr_funnytext_word",
                             "spr_funnytext_challenge",
+                            "spr_funnytext_ass",
+                            "spr_ja_funnytext_ass",
+                            "spr_funnytext_dump_her",
+                            # "spr_funnytext_dump_her_ja",
                         ]:
                             # Don't clip into the next message.
                             # Clipping into the next line of the same message is OK.
@@ -280,20 +309,33 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                         # This shows up in just one message, no clue
                         pass
                     case "m":
-                        kind = minifacekind(msgid)
+                        kind = minifacekind(msgid, chap=n)
                         sprite = minifacesprite(kind, text[i + 2])
                         out.write(
                             '<span style="position: relative; display: inline-block">'
                             f'<img class="miniface {kind}" src="img/{sprite}.png"'
                             f' alt="{MINIFACE_ALTS[sprite]}"/></span>'
                         )
+                        if kind == "flower":
+                            flowindent = True
+                            # Not strictly guaranteed but surely true in practice
+                            apply_color(
+                                {
+                                    "0": "a",
+                                    "1": "s",
+                                    "2": "o",
+                                    "3": "g",
+                                    "4": "y",
+                                    "5": "b",
+                                }[text[i + 2]]
+                            )
                         while text[i + 3] in "\t*\u3000 ":
                             if (
                                 text[i + 3] == "\t"
                                 and out.getvalue().count('class="miniface') > 1
                             ):
                                 if lang == "en":
-                                    out.write("   ")
+                                    out.write("   " if kind != "flower" else "    ")
                                 else:
                                     out.write("\u3000 ")
                             elif text[i + 3] in "\t*":
@@ -301,16 +343,27 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                             else:
                                 out.write(text[i + 3])
                             i += 1
+                    case "V":
+                        voiceclip, altvoiceclip = lookup_voiceclip(
+                            text[i + 2], msgid, lang
+                        )
+                    case "#":
+                        out.write("#")
+                        linelen += 1
                     case ch:
                         print(ch)
                         print(text)
-                        sys.exit(1)
+                        assert False
                 if text[i + 2] == "~":
                     # e.g. "\F~1".
                     i += 1
                 i += 2
             case "/" if msgid == "obj_dw_churchb_rotatingtower_slash_Create_0_gml_90_0":
                 # Postfixed with "j" ("/%j"). Probably a typo.
+                break
+            case "/" if n == "5" and msgid == "scr_text_slash_scr_text_gml_11127_0":
+                # "* \"~1\"!/&* Play it!?"
+                # The "/" wasn't there in ch4. In-game it cuts off the rest of the text.
                 break
             case "/" if not msgid.startswith(
                 (
@@ -323,6 +376,7 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                     "scr_armorinfo_slash_scr_armorinfo_gml_791_0",
                     "scr_spellinfo_slash_scr_spellinfo_gml_109_0",
                     "obj_overworldc_slash_Draw_0_gml_68_0",
+                    "obj_yellow_trial_manager_slash_Create_0_gml_15_0",
                 )
             ):
                 assert text[i + 1 :].strip("%/~1 ") == "", msgid + " " + text
@@ -371,28 +425,39 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 # Confusing. Maybe the game squeezes double spaces?
                 out.write(" ")
                 linelen += 1
+            case "&" if (
+                lang == "en"
+                and msgid == "obj_dw_garden_starwalkerdash_slash_Create_0_gml_53_0"
+            ):
+                out.write("\n  ")
+                linelen = 2
             case "&" | "#" | "\n":
                 out.write("\n")
                 linelen = 0
             case "\t" if text.startswith(r"\m"):
                 out.write("   ")
                 linelen += 3
+            case "\t" if i == len(text) - 1:
+                # "ARRRGH, enough already! This is OVER!\t"
+                assert msgid == "obj_date_controller_slash_Step_0_gml_141_0"
             case "\t":
                 raise RuntimeError(f"Bad tab in {msgid=} {text=}")
             case "^":
                 if text[i + 1].isdigit():
                     i += 1
             case "%" if (
-                msgid.startswith(
-                    (
-                        "scr_weaponinfo",
-                        "scr_armorinfo",
-                        "scr_iteminfo",
-                        "scr_itemdesc",
-                        "scr_monstersetup",
+                (
+                    msgid.startswith(
+                        (
+                            "scr_weaponinfo",
+                            "scr_armorinfo",
+                            "scr_iteminfo",
+                            "scr_itemdesc",
+                            "scr_monstersetup",
+                        )
                     )
+                    and not msgid.startswith(("scr_itemdesc_oldtype",))
                 )
-                and not msgid.startswith(("scr_itemdesc_oldtype",))
                 or msgid
                 in [
                     "scr_text_slash_scr_text_gml_8925_0",
@@ -402,11 +467,16 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                     "obj_fusionmenu_slash_Step_0_gml_144_0",
                     "obj_shop_ch2_spamton_slash_Create_0_gml_89_0",
                 ]
+                or (i != 0 and text[i - 1].isdigit() and out.getvalue()[-1].isdigit())
             ):
                 out.write("%")
                 linelen += 1
             case "%":
-                assert text[i + 1 :] in ("", "%", "%%", "/%"), msgid + " " + text
+                assert text[i + 1 :] in ("", "%", "%%", "/%") or msgid in [
+                    # Aqua is interrupted mid-scream
+                    # "AAAAAAAA%%AAAAAAA&A&A&A"
+                    "obj_purple_enemy_slash_Step_0_gml_361_0",
+                ], msgid + " " + text
                 break
             case ">":
                 out.write("&gt;")
@@ -454,7 +524,14 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
                 out.write("Ñ")
                 linelen += 1
             case char:
-                out.write(char)
+                if rainbow:
+                    # scr_asterskip inserts `||` after newlines
+                    char_idx = i + 2 * out.getvalue().count("\n")
+                    out.write(
+                        f'<span class="rainbow" style="--rainbow-idx:{char_idx}">{char}</span>'
+                    )
+                else:
+                    out.write(char)
                 linelen += 1
                 if lang == "ja" and not char.isascii():
                     linelen += 0.5
@@ -468,7 +545,10 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
     if lang == "en" and rendered.startswith("* ") and "\n" in rendered:
         rendered = re.sub(r"\n {0,2}( *[^*\n ])", "\n  \\1", rendered)
     elif lang == "en" and text.startswith(r"\m") and "\n" in rendered:
-        rendered = re.sub(r"\n *([^*\n <])", "\n   \\1", rendered)
+        if flowindent:
+            rendered = re.sub(r"\n *([^*\n <])", "\n    \\1", rendered)
+        else:
+            rendered = re.sub(r"\n *([^*\n <])", "\n   \\1", rendered)
     if msgid in [
         "obj_readable_room1_slash_Other_10_gml_1046_0",
         "obj_readable_room1_slash_Other_10_gml_1221_0",
@@ -476,6 +556,13 @@ def render(text: str | None, msgid: str, lang: str) -> str | None:
         rendered = rendered.replace("- C", "  - C")
 
     rendered = rendered.rstrip("\n \u3000")
+
+    if voiceclip is not None:
+        if altvoiceclip is not None:
+            rendered = f'<div class="voiced" data-sound="{voiceclip}" data-sound2="{altvoiceclip}">{rendered}</div>'
+        else:
+            rendered = f'<div class="voiced" data-sound="{voiceclip}">{rendered}</div>'
+
     return rendered or " "
 
 
@@ -726,11 +813,16 @@ def wraptitle(text: str) -> tuple[str, int, int]:
     return "".join(out), nh, wh
 
 
+def utf16len(text: str) -> int:
+    return len(text.encode("UTF-16LE")) // 2
+
+
 def dumpbin():
     @dataclass
     class StringBuf:
         cache: dict[str, tuple[int, int]] = field(default_factory=dict)
         buf: io.StringIO = field(default_factory=io.StringIO)
+        utf16_pos: int = 0
 
         def put(self, text: str | None) -> tuple[int, int]:
             if not text:
@@ -738,15 +830,14 @@ def dumpbin():
             if text not in self.cache:
                 # We could be more aggressive by also searching for superstrings.
                 # But that takes very long and only saves 30KB in total.
-                self.cache[text] = (self.buf.tell(), len(text))
+                utf16_len = utf16len(text)
+                self.cache[text] = (self.utf16_pos, utf16_len)
                 self.buf.write(text)
+                self.utf16_pos += utf16_len
             return self.cache[text]
 
         def get(self) -> str:
             value = self.buf.getvalue()
-            # Ensure that UTF-16 offsets (JS) match UTF-32 offsets (Python)
-            # If this fails then compileQuery() needs tweaking
-            assert max(map(ord, value)) <= 65535
             return value
 
         def check(self, w1, w2):
@@ -890,6 +981,7 @@ def dumpbin():
 
     assert msgiddata.isascii()
 
+    assert MAX_CHAP == 5
     meta = {
         "count": len(msgs),
         "ranges": {
@@ -897,11 +989,12 @@ def dumpbin():
             "1": [0, chapstarts[1]],
             "2": [chapstarts[1], chapstarts[2]],
             "3": [chapstarts[2], chapstarts[3]],
-            "4": [chapstarts[3], len(msgs)],
+            "4": [chapstarts[3], chapstarts[4]],
+            "5": [chapstarts[4], len(msgs)],
         },
-        "msgidOff": len(bindata),
-        "enOff": len(bindata) + len(msgiddata),
-        "jaOff": len(bindata) + len(msgiddata) + len(endata),
+        "msgidOff": utf16len(bindata),
+        "enOff": utf16len(bindata) + utf16len(msgiddata),
+        "jaOff": utf16len(bindata) + utf16len(msgiddata) + utf16len(endata),
     }
 
     # As of writing, metadata and English text and Japanese text are
@@ -928,6 +1021,11 @@ dumpbin()
 
 def plainify_html(text: str) -> str:
     text = re.sub(r'<span class="break">\s*</span>', " ", text)
+    text = re.sub(
+        r'<img[^>]*alt="(🔪|📖|🥊|🍳|🤠|🩰)"[^>]*></span><span class=".">\s?\s?',
+        lambda match: match[1],
+        text,
+    )
     text = re.sub(r'<img[^>]*alt="([^"]*)"[^>]*>', lambda match: f"[{match[1]}]", text)
     assert "\r" not in text
     text = text.replace('</div><div class="indented">', "\n")

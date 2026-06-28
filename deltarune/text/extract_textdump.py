@@ -10,6 +10,8 @@ import sys
 import typing
 from dataclasses import dataclass
 
+MAX_CHAP = 5
+
 # Expected directory structure:
 # ├── ch1
 # │   ├── *.gml
@@ -35,8 +37,51 @@ class Var:
     name: str
 
 
-type FunArgs = list[str | Var | None]
+@dataclass(frozen=True)
+class LangConditional:
+    """For some reason chapter 5 has hundreds of these message params:
+
+        (global.lang == "ja") ? "\\m5\t\t\t" : "\\m5\t\t"
+
+    They're used in basically all flower dialogue. Could have been baked into
+    the translations but they're not...
+    """
+
+    en: str
+    ja: str
+
+
+type FunArgs = list[str | Var | LangConditional | None]
 type FunCall = tuple[str, FunArgs]
+
+
+def parse_string(text: str, i: int) -> tuple[str, int]:
+    assert text[i] == '"', repr(text[i:])
+    i += 1
+    arg = io.StringIO()
+    while text[i] != '"':
+        if text[i] == "\\":
+            i += 1
+            if text[i] == "\\":
+                arg.write("\\")
+            elif text[i] == '"':
+                arg.write('"')
+            elif text[i] == "n":
+                arg.write("\n")
+            elif text[i] == "t":
+                arg.write("\t")
+            elif text[i] == "f":
+                # 90% sure this is just a missing backslash
+                # but let's stay faithful
+                arg.write("\f")
+            else:
+                assert False, text
+            i += 1
+        else:
+            arg.write(text[i])
+            i += 1
+    i += 1
+    return arg.getvalue(), i
 
 
 def parse_args(text: str) -> FunArgs:
@@ -46,31 +91,27 @@ def parse_args(text: str) -> FunArgs:
         if text[i] in (",", " "):
             i += 1
         elif text[i] == '"':
-            i += 1
-            arg = io.StringIO()
-            while text[i] != '"':
-                if text[i] == "\\":
-                    i += 1
-                    if text[i] == "\\":
-                        arg.write("\\")
-                    elif text[i] == '"':
-                        arg.write('"')
-                    elif text[i] == "n":
-                        arg.write("\n")
-                    elif text[i] == "t":
-                        arg.write("\t")
-                    elif text[i] == "f":
-                        # 90% sure this is just a missing backslash
-                        # but let's stay faithful
-                        arg.write("\f")
-                    else:
-                        assert False, text
-                    i += 1
-                else:
-                    arg.write(text[i])
-                    i += 1
-            i += 1
-            args.append(arg.getvalue())
+            arg, i = parse_string(text, i)
+            args.append(arg)
+        elif text[i:].startswith('(global.lang == "ja") ? '):
+            i += len('(global.lang == "ja") ? ')
+            if text[i:].startswith("stringset("):
+                i += len("stringset(")
+                ja, i = parse_string(text, i)
+                assert text[i] == ")"
+                i += 1
+            else:
+                ja, i = parse_string(text, i)
+            assert text[i:].startswith(" : ")
+            i += len(" : ")
+            if text[i:].startswith("stringset("):
+                i += len("stringset(")
+                en, i = parse_string(text, i)
+                assert text[i] == ")"
+                i += 1
+            else:
+                en, i = parse_string(text, i)
+            args.append(LangConditional(en=en, ja=ja))
         elif text[i] == ")":
             break
         else:
@@ -159,7 +200,7 @@ class TextImg(typing.NamedTuple):
     y: int
 
 
-CHAPTERS = [1, 2, 3, 4]
+CHAPTERS = list(range(1, MAX_CHAP + 1))
 text = {n: {} for n in CHAPTERS}
 sourcemap: dict[int, dict[str, str]] = {n: {} for n in CHAPTERS}
 images: dict[int, dict[str, dict[int, tuple[TextImg, TextImg]]]] = {
@@ -240,6 +281,12 @@ for n in CHAPTERS:
                     variables = [arg.name for arg in args if isinstance(arg, Var)]
                     if variables:
                         var_names[n].setdefault(key, variables)
+
+                    for i, arg in enumerate(args, 1):
+                        if isinstance(arg, LangConditional):
+                            en[key] = en[key].replace(f"~{i}", arg.en)
+                            ja[key] = ja[key].replace(f"~{i}", arg.ja)
+
                 case ("scr_funnytext_init", *_):
                     if args := re.match(
                         r"^\s*scr_funnytext_init\((.*), (.*), "
@@ -254,6 +301,8 @@ for n in CHAPTERS:
                             ja_sprite = "spr_ja_funnytext_physical_challenge"
                         if en_sprite == "spr_ja_funnytext_daisuki":
                             en_sprite = "spr_funnytext_love"
+                        if ja_sprite == "spr_ja_funnytext_dump_her":
+                            ja_sprite = "spr_funnytext_dump_her_ja"
                     elif args := re.match(
                         r"^\s*scr_funnytext_init\((.*), (.*), "
                         + r"(.*), (.*),"
@@ -318,9 +367,12 @@ for n in CHAPTERS:
                         TextImg(ja_sprite, int(args[2]), y_ja),
                     )
 
+                case ("stringsetloc", ["No trigger event set!!/%"]):
+                    pass
+
                 case _:
                     print(func, args, repr(line), file=sys.stderr)
-                    sys.exit(2)
+                    assert False
 
 # Scrambled fragments. Only the Japanese translation uses a translation key.
 # The Japanese translation actually has one fragment more, that's probably

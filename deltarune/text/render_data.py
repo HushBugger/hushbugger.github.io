@@ -1,3 +1,4 @@
+import string
 from typing import Literal
 from dataclasses import dataclass
 
@@ -36,6 +37,18 @@ FORCE_WRAP = {
     "scr_weaponinfo_slash_scr_weaponinfo_gml_699_0",
     # This one is funnier not to wrap
     # "scr_keyiteminfo_slash_scr_keyiteminfo_gml_52_0",
+    "obj_church_entrance_festival_slash_Step_0_gml_1129_0",
+    "obj_dw_garden_hopschef_slash_Step_0_gml_174_0",
+    "obj_dw_garden_mushrooms_slash_Other_10_gml_91_0",
+    "obj_dw_garden_newdash_slash_Create_0_gml_126_0",
+    "obj_dw_garden_enemyrush_slash_Step_0_gml_1746_0",
+    "scr_itemdesc_single_slash_scr_itemdesc_single_gml_172_0",
+    "scr_itemdesc_single_slash_scr_itemdesc_single_gml_178_0",
+    # Not overly wide but nicer if we space this the same as 218_0
+    "scr_keyiteminfo_slash_scr_keyiteminfo_gml_213_0",
+    "scr_keyiteminfo_slash_scr_keyiteminfo_gml_218_0",
+    "scr_keyiteminfo_slash_scr_keyiteminfo_gml_234_0",
+    "scr_text_slash_scr_text_gml_7888_0",
 }
 
 
@@ -134,6 +147,10 @@ FUNNYTEXT_DIMS = {
     "spr_ja_funnytext_win_big": Dim(437, 139, 218, 78),
     "spr_ja_funnytext_win": Dim(167, 40, 83, 14),
     "spr_ja_funnytext_word": Dim(232, 38, 116, 19),
+    "spr_funnytext_dump_her": Dim(364, 69, 182, 34),
+    "spr_funnytext_dump_her_ja": Dim(165, 69, 82, 44),
+    "spr_funnytext_ass": Dim(340, 62, 170, 31),
+    "spr_ja_funnytext_ass": Dim(364, 110, 182, 65),
 }
 
 FUNNYTEXT_WHITE = {
@@ -153,6 +170,8 @@ FUNNYTEXT_WHITE = {
     "spr_ja_funnytext_know_tv",
     "spr_ja_funnytext_relax",
     "spr_ja_funnytext_tan",
+    "spr_funnytext_ass",
+    "spr_ja_funnytext_ass",
 }
 
 ALT_TEXTS = {
@@ -241,6 +260,10 @@ ALT_TEXTS = {
     "spr_ja_funnytext_win": "CLEAR!",
     "spr_ja_funnytext_win_big": "優勝してね♥",
     "spr_ja_funnytext_word": "ご覧のスポンサー",
+    "spr_funnytext_dump_her": "DUMP HER ASS!!!",
+    "spr_funnytext_dump_her_ja": "フッて",
+    "spr_funnytext_ass": "(The size of Mike's ass,\nseems really variable lately.)",
+    "spr_ja_funnytext_ass": "(最近、マイクくんのおケツ…\nデカかったり、ちっこかったり\nしない？)",
 }
 
 
@@ -282,6 +305,7 @@ FUNNYTEXT_SOUNDS = {
     "spr_funnytext_stop": "snd_locker",
     "spr_funnytext_tears": "snd_splat",
     "spr_funnytext_win_big": "snd_carhonk",
+    "spr_funnytext_dump_her": "snd_ftext_bounce",
 }
 
 
@@ -307,10 +331,10 @@ FUNNYTEXT_SOUND_BROKEN_JA = {
 }
 
 
-type FaceKind = Literal["clover", "scc"]
+type FaceKind = Literal["clover", "scc", "flower"]
 
 
-def minifacekind(msgid: str) -> FaceKind:
+def minifacekind(msgid: str, chap: str) -> FaceKind:
     if "obj_clubsenemy" in msgid:
         return "clover"
 
@@ -320,6 +344,7 @@ def minifacekind(msgid: str) -> FaceKind:
         or "obj_npc_room_animated_slash_Other" in msgid
         or "obj_shop_ch2_music" in msgid
         or "scr_text_slash_scr_text_gml" in msgid
+        or "obj_room_castle_dojo_" in msgid
     ):
         return "scc"
 
@@ -331,6 +356,12 @@ def minifacekind(msgid: str) -> FaceKind:
         "obj_npc_room_slash_Other_10_gml_1865_0",
         "obj_npc_room_slash_Other_10_gml_1907_0",
         "obj_npc_room_slash_Other_10_gml_1911_0",
+        "obj_npc_room_slash_Other_10_gml_264_0",
+        "obj_npc_room_slash_Other_10_gml_265_0",
+        "obj_npc_room_slash_Other_10_gml_266_0",
+        "obj_npc_room_slash_Other_10_gml_270_0",
+        "obj_npc_room_slash_Other_10_gml_271_0",
+        "obj_npc_room_slash_Other_10_gml_272_0",
     }:
         return "clover"
 
@@ -338,6 +369,14 @@ def minifacekind(msgid: str) -> FaceKind:
         "obj_npc_room_slash_Other_10_gml_2401_0",
     }:
         return "scc"
+
+    if chap == "5":
+        # I happen to know that all Clover/SCC faces are covered by the above,
+        # because the flower minifaces all use a weird inline conditional, but
+        # that's not a stable assumption going forward.
+        # Pay attention to patch updates (in case Clover/SCC get new text) and
+        # don't assume that this will work in future chapters.
+        return "flower"
 
     raise RuntimeError(f"Don't know miniface for {msgid}")
 
@@ -354,6 +393,14 @@ def minifacesprite(kind: FaceKind, idx: str) -> str:
             "2": "spr_miniface_kk_0",
             "3": "spr_miniface_capn_0",
         },
+        "flower": {
+            "0": "spr_miniface_aqua_0",
+            "1": "spr_miniface_seth_0",
+            "2": "spr_miniface_orange_0",
+            "3": "spr_miniface_green_0",
+            "4": "spr_miniface_yellow_0",
+            "5": "spr_miniface_blue_0",
+        },
     }[kind][idx]
 
 
@@ -364,4 +411,277 @@ MINIFACE_ALTS = {
     "spr_miniface_sweet_0": "Sweet:",
     "spr_miniface_kk_0": "K_K:",
     "spr_miniface_capn_0": "Cap'n:",
+    "spr_miniface_aqua_0": "🔪",
+    "spr_miniface_seth_0": "📖",
+    "spr_miniface_orange_0": "🥊",
+    "spr_miniface_green_0": "🍳",
+    "spr_miniface_yellow_0": "🤠",
+    "spr_miniface_blue_0": "🩰",
 }
+
+
+FLOWERY_ID2NAME = {
+    131: "snd_flowery_voiceclip_flowery2",
+    111: "snd_flowery_voiceclip_sorrytokeepyouwaiting1",
+    106: "snd_flowery_voiceclip_heyguys",
+    110: "snd_flowery_voiceclip_hey",
+    5: "snd_flowery_voiceclip_thatsgreat",
+    244: "snd_flowery_voiceclip_wow",
+    228: "snd_flowery_voiceclip_yes",
+    187: "snd_flowery_voiceclip_nonono",
+    117: "snd_flowery_voiceclip_huh",
+    757: "snd_flowery_voiceclip_stingus",
+    226: "snd_flowery_voiceclip_sorrytokeepaladyinwaiting",
+    717: "snd_flowery_voiceclip_sorryaboutthatlittleguy",
+    633: "snd_flowery_voiceclip_thisguysyourbestfriend",
+    205: "snd_flowery_voiceclip_heytherelittleguy",
+    154: "snd_flowery_voiceclip_sorrytokeepyouladies",
+    44: "snd_flowery_voiceclip_sorryaboutthatguys",
+    72: "snd_flowery_voiceclip_itsmeflowery",
+    750: "snd_flowery_voiceclip_yourdadsmybestfriend",
+    210: "snd_flowery_voiceclip_heyguysithinkifoundaglue",
+    54: "snd_flowery_voiceclip_imsorryonceagainikeptaladyinwaiting",
+    15: "snd_flowery_voiceclip_glue",
+    250: "snd_flowery_voiceclip_hereicomesanfrandisc",
+    673: "snd_flowery_voiceclip_itsme",
+    77: "snd_flowery_voiceclip_hey_raly",
+    95: "snd_flowery_voiceclip_sorrytokeepyouwaiting2",
+    49: "snd_flowery_voiceclip_sorryabouttheguy",
+    616: "snd_flowery_voiceclip_flowers_blooms_in_your_heart",
+    183: "snd_flowery_voiceclip_no_way_its_your_children",
+    144: "snd_flowery_voiceclip_mysterious_wind",
+    197: "snd_flowery_voiceclip_my_king",
+    74: "snd_flowery_voiceclip_my_favorite_two",
+    678: "snd_flowery_voiceclip_im_falling",
+    436: "snd_flowery_voiceclip_hey_boys",
+    702: "snd_flowery_voiceclip_grown_like_a_turnip",
+    574: "snd_flowery_voiceclip_great_style",
+    53: "snd_flowery_voiceclip_your_dad",
+    89: "snd_flowery_voiceclip_the_diner",
+    204: "snd_flowery_voiceclip_the_boys",
+    216: "snd_flowery_voiceclip_calling_for_help",
+    704: "snd_flowery_voiceclip_try_my_flavor",
+    125: "snd_flowery_voiceclip_goodbye",
+    151: "snd_flowery_voiceclip_susie",
+    212: "snd_flowery_voiceclip_kris",
+    208: "snd_flowery_voiceclip_get_a_chance_1",
+    140: "snd_flowery_voiceclip_youre_a_hero",
+    627: "snd_flowery_voiceclip_forget_it",
+    3: "snd_flowery_voiceclip_my_human",
+    622: "snd_flowery_voiceclip_leaf_it_to_me",
+    741: "snd_flowery_voiceclip_say_that_again",
+    739: "snd_flowery_voiceclip_go_home",
+    147: "snd_flowery_voiceclip_smile_again",
+    142: "snd_flowery_voiceclip_thats_my_dreams",
+    79: "snd_flowery_voiceclip_dont_you_like_serving_humans",
+    743: "snd_flowery_voiceclip_im_only_trying_to_help_you",
+    14: "snd_flowery_voiceclip_all_according_to_all_according_to_plant",
+    696: "snd_flowery_voiceclip_mostlys",
+    185: "snd_flowery_voiceclip_its_so_human",
+    653: "snd_flowery_voiceclip_what_a_predictable_creature",
+    159: "snd_flowery_voiceclip_its_all_in_a_name",
+    628: "snd_flowery_voiceclip_give_to_you",
+    29: "snd_flowery_voiceclip_suckle_it_up",
+    665: "snd_flowery_voiceclip_get_a_chance_2",
+    242: "snd_flowery_voiceclip_my_king_ja_alt",
+    670: "snd_flowery_voiceclip_thats_my_dreams_ja_alt",
+    373: "snd_flowery_voiceclip_im_falling_vending_ja",
+    190: "snd_flowery_voiceclip_yoroshiku",
+    193: "snd_flowery_voiceclip_get_a_chance_1_ja",
+}
+
+FLOWERY_SOUND_TABLE = [
+    131,
+    111,
+    106,
+    110,
+    5,
+    244,
+    228,
+    187,
+    117,
+    757,
+    226,
+    717,
+    633,
+    205,
+    154,
+    44,
+    72,
+    750,
+    210,
+    54,
+    15,
+    250,
+    673,
+    77,
+    95,
+    49,
+    616,
+    183,
+    144,
+    197,
+    74,
+    678,
+    436,
+    702,
+    574,
+    53,
+    89,
+    204,
+    216,
+    704,
+    125,
+    151,
+    212,
+    208,
+    140,
+    627,
+    3,
+    622,
+    741,
+    739,
+    147,
+    142,
+    79,
+    743,
+    14,
+    696,
+    185,
+    653,
+    159,
+    628,
+    29,
+]
+
+
+def flowery_z(msgid: str, lang: Literal["en", "ja"]):
+    match lang, msgid:
+        case _, "obj_ch5_DW05_slash_Step_0_gml_807_0":
+            return "snd_flowery_voiceclip_stingus"
+        case _, "obj_ch5_DW29_slash_Step_0_gml_607_0":
+            return "snd_flowery_voiceclip_lend_me_your_power"
+        case _, "obj_dw_garden_diner_slash_Step_0_gml_355_0":
+            return "snd_flowery_voiceclip_its_all_yours"
+        case _, "obj_dw_garden_diner_slash_Step_0_gml_448_0":
+            return "snd_flowery_voiceclip_its_all_yours"
+        case _, "obj_dw_garden_enemyrush_slash_Step_0_gml_817_0":
+            return "snd_flowery_voiceclip_stingus"
+        case "ja", "obj_ch5_DW05_slash_Step_0_gml_829_0":
+            return "snd_flowery_voiceclip_chou_exciting_ja"
+        case "en", "obj_ch5_DW05_slash_Step_0_gml_829_0":
+            return "snd_flowery_voiceclip_stingus"
+        case _, "obj_dw_garden_fishingspot_slash_Step_0_gml_272_0":
+            return "snd_flowery_voiceclip_minipeppers"
+        case _, "obj_dw_garden_enemyrush_slash_Step_0_gml_1416_0":
+            return "snd_flowery_voiceclip_heh_it_s_my_jarona"
+        case _:
+            assert False, msgid
+
+
+FLOWERY_JA_MAP = {
+    # "snd_flowery_voiceclip_flowery2": "snd_flowery_voiceclip_flowery2_ja",
+    # "snd_flowery_voiceclip_sorrytokeepyouwaiting1": "snd_flowery_voiceclip_sorrytokeepyouwaiting1_ja",
+    "snd_flowery_voiceclip_heyguys": "snd_flowery_voiceclip_heyguys_ja",
+    "snd_flowery_voiceclip_hey": "snd_flowery_voiceclip_hey",
+    "snd_flowery_voiceclip_thatsgreat": "snd_flowery_voiceclip_thatsgreat_ja",
+    "snd_flowery_voiceclip_wow": "snd_flowery_voiceclip_wow_ja",
+    "snd_flowery_voiceclip_yes": "snd_flowery_voiceclip_yes_ja",
+    "snd_flowery_voiceclip_nonono": "snd_flowery_voiceclip_nonono",
+    "snd_flowery_voiceclip_huh": "snd_flowery_voiceclip_huh",
+    "snd_flowery_voiceclip_stingus": "snd_flowery_voiceclip_stingus_ja",
+    "snd_flowery_voiceclip_sorrytokeepaladyinwaiting": "snd_flowery_voiceclip_sorrytokeepaladyinwaiting_ja",
+    "snd_flowery_voiceclip_sorryaboutthatlittleguy": "snd_flowery_voiceclip_sorryaboutthatlittleguy_ja",
+    "snd_flowery_voiceclip_thisguysyourbestfriend": "snd_flowery_voiceclip_thisguysyourbestfriend_ja",
+    "snd_flowery_voiceclip_heytherelittleguy": "snd_flowery_voiceclip_heytherelittleguy_ja",
+    "snd_flowery_voiceclip_sorrytokeepyouladies": "snd_flowery_voiceclip_sorrytokeepyouladies_ja",
+    "snd_flowery_voiceclip_sorryaboutthatguys": "snd_flowery_voiceclip_sorryaboutthatguys_ja",
+    "snd_flowery_voiceclip_itsmeflowery": "snd_flowery_voiceclip_itsmeflowery_ja",
+    "snd_flowery_voiceclip_yourdadsmybestfriend": "snd_flowery_voiceclip_yourdadsmybestfriend_ja",
+    "snd_flowery_voiceclip_heyguysithinkifoundaglue": "snd_flowery_voiceclip_heyguysithinkifoundaglue_ja",
+    "snd_flowery_voiceclip_imsorryonceagainikeptaladyinwaiting": "snd_flowery_voiceclip_imsorryonceagainikeptaladyinwaiting_ja",
+    "snd_flowery_voiceclip_glue": "snd_flowery_voiceclip_glue_ja",
+    "snd_flowery_voiceclip_hereicomesanfrandisc": "snd_flowery_voiceclip_hereicomesanfrandisc_ja",
+    "snd_flowery_voiceclip_hereicomesanfrandisco_strong": "snd_flowery_voiceclip_hereicomesanfrandisco_strong_ja",
+    "snd_flowery_voiceclip_itsme": "snd_flowery_voiceclip_itsme_ja",
+    "snd_flowery_voiceclip_hey_raly": "snd_flowery_voiceclip_hey_raly_ja",
+    "snd_flowery_voiceclip_sorrytokeepyouwaiting2": "snd_flowery_voiceclip_sorrytokeepyouwaiting2_ja",
+    "snd_flowery_voiceclip_sorryabouttheguy": "snd_flowery_voiceclip_sorryabouttheguy_ja",
+    "snd_flowery_voiceclip_flowers_blooms_in_your_heart": "snd_flowery_voiceclip_flowers_blooms_in_your_heart_ja",
+    "snd_flowery_voiceclip_no_way_its_your_children": "snd_flowery_voiceclip_no_way_its_your_children_ja",
+    "snd_flowery_voiceclip_mysterious_wind": "snd_flowery_voiceclip_mysterious_wind_ja",
+    "snd_flowery_voiceclip_my_king": "snd_flowery_voiceclip_my_king_ja",
+    "snd_flowery_voiceclip_my_favorite_two": "snd_flowery_voiceclip_my_favorite_two_ja",
+    "snd_flowery_voiceclip_im_falling": "snd_flowery_voiceclip_im_falling_ja",
+    "snd_flowery_voiceclip_hey_boys": "snd_flowery_voiceclip_hey_boys_ja",
+    "snd_flowery_voiceclip_grown_like_a_turnip": "snd_flowery_voiceclip_grown_like_a_turnip_ja",
+    "snd_flowery_voiceclip_great_style": "snd_flowery_voiceclip_great_style_ja",
+    "snd_flowery_voiceclip_your_dad": "snd_flowery_voiceclip_your_dad_ja",
+    "snd_flowery_voiceclip_the_diner": "snd_flowery_voiceclip_the_diner_ja",
+    "snd_flowery_voiceclip_the_boys": "snd_flowery_voiceclip_the_boys_ja",
+    "snd_flowery_voiceclip_calling_for_help": "snd_flowery_voiceclip_calling_for_help",
+    "snd_flowery_voiceclip_try_my_flavor": "snd_flowery_voiceclip_try_my_flavor_ja",
+    "snd_flowery_voiceclip_goodbye": "snd_flowery_voiceclip_goodbye",
+    "snd_flowery_voiceclip_susie": "snd_flowery_voiceclip_susie_ja",
+    "snd_flowery_voiceclip_kris": "snd_flowery_voiceclip_kris_ja",
+    "snd_flowery_voiceclip_get_a_chance_1": "snd_flowery_voiceclip_get_a_chance_1_ja",
+    "snd_flowery_voiceclip_youre_a_hero": "snd_flowery_voiceclip_youre_a_hero_ja",
+    "snd_flowery_voiceclip_forget_it": "snd_flowery_voiceclip_forget_it_ja",
+    "snd_flowery_voiceclip_my_human": "snd_flowery_voiceclip_my_human_ja",
+    "snd_flowery_voiceclip_leaf_it_to_me": "snd_flowery_voiceclip_leaf_it_to_me_ja",
+    "snd_flowery_voiceclip_say_that_again": "snd_flowery_voiceclip_say_that_again_ja",
+    "snd_flowery_voiceclip_go_home": "snd_flowery_voiceclip_go_home_ja",
+    "snd_flowery_voiceclip_smile_again": "snd_flowery_voiceclip_smile_again_ja",
+    "snd_flowery_voiceclip_thats_my_dreams": "snd_flowery_voiceclip_thats_my_dreams_ja",
+    "snd_flowery_voiceclip_dont_you_like_serving_humans": "snd_flowery_voiceclip_dont_you_like_serving_humans_ja",
+    "snd_flowery_voiceclip_im_only_trying_to_help_you": "snd_flowery_voiceclip_im_only_trying_to_help_you_ja",
+    "snd_flowery_voiceclip_all_according_to_all_according_to_plant": "snd_flowery_voiceclip_all_according_to_all_according_to_plant_ja",
+    "snd_flowery_voiceclip_mostlys": "snd_flowery_voiceclip_mostlys_ja",
+    "snd_flowery_voiceclip_its_so_human": "snd_flowery_voiceclip_its_so_human_ja",
+    "snd_flowery_voiceclip_what_a_predictable_creature": "snd_flowery_voiceclip_what_a_predictable_creature_ja",
+    "snd_flowery_voiceclip_its_all_in_a_name": "snd_flowery_voiceclip_its_all_in_a_name_ja",
+    "snd_flowery_voiceclip_give_to_you": "snd_flowery_voiceclip_give_to_you_ja",
+    "snd_flowery_voiceclip_suckle_it_up": "snd_flowery_voiceclip_suckle_it_up_ja",
+    "snd_flowery_voiceclip_flowery2": "snd_flowery_voiceclip_flowery2_ja",
+    "snd_flowery_voiceclip_sorrytokeepyouwaiting1": "snd_flowery_voiceclip_sorrytokeepyouwaiting1_ja",
+    "snd_flowery_voiceclip_its_all_yours": "snd_flowery_voiceclip_its_all_yours_ja",
+    "snd_flowery_voiceclip_minipeppers": "snd_flowery_voiceclip_minipeppers_ja",
+    "snd_flowery_voiceclip_heh_it_s_my_jarona": "snd_flowery_voiceclip_heh_it_s_my_jarona_ja",
+    "snd_flowery_voiceclip_hoo": "snd_flowery_voiceclip_hoo",
+    "snd_flowery_voiceclip_jarona1": "snd_flowery_voiceclip_jarona1_ja",
+    "snd_flowery_voiceclip_jarona2": "snd_flowery_voiceclip_jarona2_ja",
+    "snd_flowery_voiceclip_jarona3": "snd_flowery_voiceclip_jarona3_ja",
+    "snd_flowery_voiceclip_jarona4": "snd_flowery_voiceclip_jarona4_ja",
+    "snd_flowery_voiceclip_prism_blow": "snd_flowery_voiceclip_prism_blow_ja",
+    "snd_flowery_voiceclip_take_that": "snd_flowery_voiceclip_take_that_ja",
+    "snd_flowery_voiceclip_last_jarona": "snd_flowery_voiceclip_last_jarona_ja",
+    "snd_flowery_voiceclip_lend_me_your_power": "snd_flowery_voiceclip_lend_me_your_power_ja",
+    "snd_flowery_voiceclip_omega_flowery": "snd_flowery_voiceclip_omega_flowery_ja",
+    "snd_flowery_voiceclip_with_your_powers_combined": "snd_flowery_voiceclip_with_your_powers_combined_ja",
+    "snd_flowery_voiceclip_theyre_eating_my_flesh": "snd_flowery_voiceclip_theyre_eating_my_flesh_ja",
+    "snd_forthefans": "snd_forthefans_ja",
+    "snd_jarona_orange1": "snd_jarona_orange1_ja",
+    "snd_jarona_orange2": "snd_jarona_orange1_ja",
+    "snd_ja_kidding": "snd_ja_kidding_ja",
+}
+
+
+ALPHABET = string.digits + string.ascii_uppercase + string.ascii_lowercase
+
+
+def lookup_voiceclip(
+    ident: str, msgid: str, lang: Literal["en", "ja"]
+) -> tuple[str | None, str | None]:
+    # There are also a few room-dependent lines but they appear to be unused...?
+    if ident == "z":
+        sound_name = flowery_z(msgid, lang)
+    elif ident == "h":
+        if lang == "ja":
+            return FLOWERY_ID2NAME[193], None
+        return FLOWERY_ID2NAME[208], FLOWERY_ID2NAME[665]
+    else:
+        sound_id = FLOWERY_SOUND_TABLE[ALPHABET.index(ident)]
+        sound_name = FLOWERY_ID2NAME[sound_id]
+    if lang == "ja":
+        sound_name = FLOWERY_JA_MAP.get(sound_name)
+    return sound_name, None

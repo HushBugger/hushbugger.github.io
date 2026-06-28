@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * @typedef {'1' | '2' | '3' | '4'} Chapter
+ * @typedef {'1' | '2' | '3' | '4' | '5'} Chapter
  *
  * @typedef {{
  *      chap: "all" | Chapter;
@@ -20,7 +20,7 @@
  *      type: 'init';
  *      rawText: string;
  *  }} SearchInit
- * @typedef {'missing:ja' | 'missing:en'} SearchOption
+ * @typedef {'missing:en' | 'missing:ja' | 'sound'} SearchOption
  * @typedef {{
  *      type: 'query';
  *      query: RegExp;
@@ -127,6 +127,9 @@ function iterText(config, start, end, callback) {
         }
         if (chap === "3" && idx >= meta.ranges[3][1]) {
             chap = "4";
+        }
+        if (chap === "4" && idx >= meta.ranges[4][1]) {
+            chap = "5";
         }
         const dup = dupFor(idx);
         if (dup & 4) {
@@ -295,6 +298,7 @@ function doSearch(query) {
 
     const missingEn = query.options.includes("missing:en");
     const missingJa = query.options.includes("missing:ja");
+    const sound = query.options.includes("sound");
 
     if (query.config.lang !== "ja" || missingEn) {
         preprocess("en");
@@ -317,6 +321,14 @@ function doSearch(query) {
             // Querying both @missing:en & @missing:ja is additive/OR
             // Future keywords might work differently
             if (!(missingEn && !munged[idx * 2]) && !(missingJa && !munged[idx * 2 + 1])) {
+                return;
+            }
+        }
+
+        if (sound) {
+            if ((kind & 1) && enFor(idx).includes("data-sound=")) {
+            } else if ((kind & 2) && jaFor(idx).includes("data-sound=")) {
+            } else {
                 return;
             }
         }
