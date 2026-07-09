@@ -2081,6 +2081,14 @@
                     searchGeneration++;
                     return;
                 }
+                if (searchBar.value.toLowerCase().includes("protein")) {
+                    searchResultsDiv.innerHTML =
+                        "<video autoplay controls muted>" +
+                        '<source src="cats_by_ts_eliot_author_of_the_wasteland.mp4" type="video/mp4"/>' +
+                        "</video>";
+                    searchGeneration++;
+                    return;
+                }
                 searchHistoryTimer.cancel();
                 /** @type {SearchOption[]} */
                 let options;
