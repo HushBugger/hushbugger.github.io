@@ -724563,13 +724563,13 @@ false,
 "obj_dw_fcastle_seth_encounter": {
 "obj_dw_fcastle_seth_encounter_slash_Step_0_gml_512_0": {
 "en": [
-"* Now!",
+"<span style=\"position: relative; display: inline-block\"><img class=\"miniface flower\" src=\"img/spr_miniface_seth_0.png\" alt=\"📖\"/></span><span class=\"s\">    Now!</span>",
 false,
 28,
 28
 ],
 "ja": [
-"＊ いまだ！",
+"<span style=\"position: relative; display: inline-block\"><img class=\"miniface flower\" src=\"img/spr_miniface_seth_0.png\" alt=\"📖\"/></span><span class=\"s\">   いまだ！</span>",
 false,
 28,
 28
@@ -748453,7 +748453,7 @@ false,
 },
 "obj_kawkaw_enemy_slash_Step_0_gml_162_0": {
 "en": [
-"* You put your arms into a hoop!\n* KawKaw takes it as affection!",
+"* You put your arms into a hoop!\n* Kawkaw takes it as affection!",
 false,
 46,
 46
@@ -752223,7 +752223,7 @@ false,
 },
 "obj_noellehouse_festival_slash_Step_0_gml_269_0": {
 "en": [
-"* OMG, like, talk about<span class=\"break\">\n  </span>second-paw embarassment!",
+"* OMG, like, talk about<span class=\"break\">\n  </span>second-paw embarrassment!",
 false,
 46,
 28
@@ -756407,7 +756407,7 @@ false,
 28
 ],
 "ja": [
-"＊ そちらの　緑のべいびぃ\n　 ぼぉい…　おすすめは…\n　 1000円以上の　ヘアカット。",
+"＊ そちらの　緑のべいびぃ\n　 ぼぉい…　おすすめは…\n　 5ドル以上の　ヘアカット。",
 false,
 64,
 64
@@ -795297,6 +795297,202 @@ false,
 64
 ]
 },
+"obj_shop_ch5_slash_Create_0_gml_313_0": {
+"en": [
+"* (Suddenly, the shopkeeper's<span class=\"break\">\n  </span>body took your hand, and talked<span class=\"break\">\n  </span>in a low voice only you could<span class=\"break\">\n  </span>hear...)",
+false,
+82,
+28
+],
+"ja": [
+"＊ (突然　店主の「体」が　手を握ってきた。\n　 クリスにしか聞こえない小声で\n　 話しかけてくる…)",
+false,
+64,
+64
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_314_0": {
+"en": [
+"<span class=\"p\">* Kris, is your hand okay? It<span class=\"break\">\n</span>looks like... you've got a cat<span class=\"break\">\n</span>bite, mew.</span>",
+false,
+64,
+28
+],
+"ja": [
+"<span class=\"p\">＊ クリス　手は　大丈夫？\n　 なんだか…ネコに　かまれたみたいな\n　 あとが　ついてるミュウ。</span>",
+false,
+64,
+64
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_315_0": {
+"en": [
+"<span class=\"p\">* Cats can be nasty creatures,<span class=\"break\">\n</span>can't they, mew...?</span>",
+false,
+46,
+28
+],
+"ja": [
+"<span class=\"p\">＊ ネコって　なにげに　性ワルだったり\n　 するミュウ…</span>",
+false,
+46,
+46
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_316_0": {
+"en": [
+"<span class=\"p\">* ... I once met someone who<span class=\"break\">\n</span>REALLY liked cats, mew.</span>",
+false,
+46,
+28
+],
+"ja": [
+"<span class=\"p\">＊ …前に　ネコがとっても好きなひとが\n　 いたんだミュウ。</span>",
+false,
+46,
+46
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_317_0": {
+"en": [
+"<span class=\"p\">* They liked cats so much, they<span class=\"break\">\n</span>owned a whole hunting pack of<span class=\"break\">\n</span>them, mew!</span>",
+false,
+64,
+28
+],
+"ja": [
+"<span class=\"p\">＊ そのひと　あんまりネコが好きすぎて　\n　 “猟猫”の群れを飼ってたんだミュウ！</span>",
+false,
+46,
+46
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_318_0": {
+"en": [
+"<span class=\"p\">* Of course, cats are fickle<span class=\"break\">\n</span>creatures, but they were very<span class=\"break\">\n</span>good at finding protein.</span>",
+false,
+64,
+28
+],
+"ja": [
+"<span class=\"p\">＊ ネコって気まぐれだけど　タンパク質を\n　 見つけるのが　とっても得意ミュウ。</span>",
+false,
+46,
+46
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_319_0": {
+"en": [
+"<span class=\"p\">* Kris, if you have any protein,<span class=\"break\">\n</span>you must keep it hidden, and<span class=\"break\">\n</span>never let anyone see it.</span>",
+false,
+64,
+28
+],
+"ja": [
+"<span class=\"p\">＊ クリス　もしタンパク質を持ってるなら　\n　 絶対　誰にも見られないように　隠して\n　 おかなきゃダメミュウ。</span>",
+false,
+64,
+64
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_320_0": {
+"en": [
+"<span class=\"p\">* The cats are not too smart, but<span class=\"break\">\n</span>once they find a target, they<span class=\"break\">\n</span>never stop chasing it until they<span class=\"break\">\n</span>get bored.</span>",
+false,
+82,
+28
+],
+"ja": [
+"<span class=\"p\">＊ その猟猫たちは単純だけど　一度　獲物を\n　 見つけたら　飽きるまで　ずーっと\n　 追いかけてくるミュウ。</span>",
+false,
+64,
+64
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_321_0": {
+"en": [
+"<span class=\"p\">* And when they find you, they<span class=\"break\">\n</span>bite... very, VERY, hard.</span>",
+false,
+46,
+28
+],
+"ja": [
+"<span class=\"p\">＊ 見つかっちゃったら　すごく　すごーく強く\n　 かみつかれるミュウ。</span>",
+false,
+46,
+46
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_322_0": {
+"en": [
+"<span class=\"p\">* Some people would do anything<span class=\"break\">\n</span>to get away from them, even<span class=\"break\">\n</span>change their appearance, or go<span class=\"break\">\n</span>into hiding...</span>",
+false,
+82,
+28
+],
+"ja": [
+"<span class=\"p\">＊ ネコから逃げるために　わざわざ自分の姿を\n　 変えたり　どこかに雲隠れするひとだって\n　 いるんだミュウ…</span>",
+false,
+64,
+64
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_323_0": {
+"en": [
+"<span class=\"p\">* Oh, Kris, it's terrible, mew.<span class=\"break\">\n</span>It's terrible...</span>",
+false,
+46,
+28
+],
+"ja": [
+"<span class=\"p\">＊ …ひどい話ミュウ…\n　 ホントに　ホントに　ひどいミュウ…</span>",
+false,
+46,
+46
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_324_0": {
+"en": [
+"<span class=\"p\">* Please be careful, Kris...<span class=\"break\">\n</span>promise...</span>",
+false,
+46,
+28
+],
+"ja": [
+"<span class=\"p\">＊ クリス　気をつけてミュウ…\n　 約束ミュウ…</span>",
+false,
+46,
+46
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_325_0": {
+"en": [
+"* H... huh? Wh... why am I<span class=\"break\">\n  </span>trembling? Was my body saying<span class=\"break\">\n  </span>something...?",
+false,
+64,
+28
+],
+"ja": [
+"＊ あ…あれ…？\n　 わたし　震えてる…？　どうして…？　\n　 わたしの体ちゃんが　何か言ってた…？",
+false,
+64,
+64
+]
+},
+"obj_shop_ch5_slash_Create_0_gml_326_0": {
+"en": [
+"* Hey, don't have any<span class=\"break\">\n  </span>conversations without me!!<span class=\"break\">\n  </span>Communication is key, right,<span class=\"break\">\n  </span>body! Body!?",
+false,
+82,
+28
+],
+"ja": [
+"＊ ちょっと　体ちゃん！　わたしに黙って\n　 勝手に　しゃべらないで！\n　 コミュニケーションが大事って言ったはず\n　 でしょ！？　体ちゃん？　聞いてる！？",
+false,
+82,
+82
+]
+},
 "obj_shop_ch5_slash_Draw_0_gml_94_0": {
 "en": [
 "SOLD",
@@ -805439,9 +805635,9 @@ false,
 },
 "obj_town_mid_ferris_slash_Step_0_gml_688_0": {
 "en": [
-"* Huh... I dunno if know she<span class=\"break\">\n  </span>likes it.",
+"* Huh... I dunno if she likes it.",
 false,
-46,
+28,
 28
 ],
 "ja": [
@@ -826813,13 +827009,41 @@ true,
 },
 "scr_credit_slash_scr_credit_gml_58_0": {
 "en": [
-"-Area &amp; Fashion Concept Art-",
+"-Concept Art-",
 false,
 28,
 28
 ],
 "ja": [
-"-エリア＆ファッション コンセプトアート-",
+"-コンセプトアート-",
+false,
+28,
+28
+]
+},
+"scr_credit_slash_scr_credit_gml_62_0": {
+"en": [
+"Gigi DG (Susie outfits)",
+false,
+28,
+28
+],
+"ja": [
+"Gigi DG (スージィの衣装)",
+false,
+28,
+28
+]
+},
+"scr_credit_slash_scr_credit_gml_63_0": {
+"en": [
+"Matt Cummings (Festival)",
+false,
+28,
+28
+],
+"ja": [
+"Matt Cummings (お祭り)",
 false,
 28,
 28
@@ -826848,6 +827072,20 @@ false,
 ],
 "ja": [
 "-ゲスト 弾幕プログラミング-",
+false,
+28,
+28
+]
+},
+"scr_credit_slash_scr_credit_gml_82_0": {
+"en": [
+"-Platforming VFX-",
+false,
+28,
+28
+],
+"ja": [
+"-プラットフォーミングVFX-",
 false,
 28,
 28
@@ -827506,6 +827744,20 @@ false,
 ],
 "ja": [
 "(「恋かもしれない」)",
+false,
+28,
+28
+]
+},
+"scr_credit_slash_scr_credit_gml_273_0": {
+"en": [
+"-Musical Assistance-",
+false,
+28,
+28
+],
+"ja": [
+"-音楽アシスタント-",
 false,
 28,
 28
@@ -839341,7 +839593,7 @@ false,
 },
 "scr_monstersetup_slash_scr_monstersetup_gml_1991_0_b": {
 "en": [
-"KawKaw",
+"Kawkaw",
 false,
 28,
 28
@@ -885493,14 +885745,28 @@ true,
 },
 "scr_text_slash_scr_text_gml_7511_0": {
 "en": [
-"* If you SPARE or PACIFY enough<span class=\"break\">\n  </span>enemies of the same type, they<span class=\"break\">\n  </span>will be RECRUITed.",
-true,
+"* If you SPARE enough enemies of<span class=\"break\">\n  </span>the same type, they will be<span class=\"break\">\n  </span>RECRUITed.",
+false,
 64,
 28
 ],
 "ja": [
-"＊ 同じタイプの敵を　一定数以上\n　 「にがす」か「スリープ」させると\n　 その敵が　「なかま」になります。",
-true,
+"＊ 同じタイプの敵を　一定数以上\n　 「にがす」と　その敵が\n　 「なかま」になります。",
+false,
+64,
+64
+]
+},
+"scr_text_slash_scr_text_gml_7513_0_b": {
+"en": [
+"* Ralsei's PACIFY and Susie's<span class=\"break\">\n  </span>SCYTHEMARE spell can RECRUIT<span class=\"break\">\n  </span>TIRED enemies as well.",
+false,
+64,
+28
+],
+"ja": [
+"＊ ラルセイの「スリープ」かスージィの\n　 「サイスメア」を　くたびれた敵に\n　 使っても　「なかま」にできます。",
+false,
 64,
 64
 ]

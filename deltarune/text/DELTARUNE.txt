@@ -80719,7 +80719,7 @@ if I wasn't hungry!
 obj_dw_fcastle_seth_encounter
 =============================
 
-* Now!
+📖  Now!
 
 
 ====================================
@@ -84257,7 +84257,7 @@ stupid dog!
 * KAWKAW - It thinks battle is play. Loves scarecrows.
 
 * You put your arms into a hoop!
-* KawKaw takes it as affection!
+* Kawkaw takes it as affection!
 
 * ~1 repeatedly to Call Over!
 * ~2 repeatedly to Shoo!
@@ -84616,7 +84616,7 @@ go
 You shouldn't
 go
 
-* OMG, like, talk about second-paw embarassment!
+* OMG, like, talk about second-paw embarrassment!
 
 * OMG, this is like NEVER LEAVE THE HOUSE AGAIN level pathetic!
 
@@ -89567,6 +89567,34 @@ Other people?
 
 * And Ory, I'll be making sure Asgore is watering you properly, OK!?
 
+* (Suddenly, the shopkeeper's body took your hand, and talked in a low voice only you could hear...)
+
+* Kris, is your hand okay? It looks like... you've got a cat bite, mew.
+
+* Cats can be nasty creatures, can't they, mew...?
+
+* ... I once met someone who REALLY liked cats, mew.
+
+* They liked cats so much, they owned a whole hunting pack of them, mew!
+
+* Of course, cats are fickle creatures, but they were very good at finding protein.
+
+* Kris, if you have any protein, you must keep it hidden, and never let anyone see it.
+
+* The cats are not too smart, but once they find a target, they never stop chasing it until they get bored.
+
+* And when they find you, they bite... very, VERY, hard.
+
+* Some people would do anything to get away from them, even change their appearance, or go into hiding...
+
+* Oh, Kris, it's terrible, mew. It's terrible...
+
+* Please be careful, Kris... promise...
+
+* H... huh? Wh... why am I trembling? Was my body saying something...?
+
+* Hey, don't have any conversations without me!! Communication is key, right, body! Body!?
+
 SOLD
 
 P$~1
@@ -90380,7 +90408,7 @@ gesture
 
 * ...
 
-* Huh... I dunno if know she likes it.
+* Huh... I dunno if she likes it.
 
 * So, um... did you two have fun, in the Ferris wheel?
 
@@ -93160,11 +93188,17 @@ $ -10%
 scr_credit
 ==========
 
--Area & Fashion Concept Art-
+-Concept Art-
+
+Gigi DG (Susie outfits)
+
+Matt Cummings (Festival)
 
 -Platforming System Development-
 
 -Guest Bullet Program-
+
+-Platforming VFX-
 
 -Flowery Intro Animation-
 
@@ -93257,6 +93291,8 @@ studio khara
 -Anime Cutscene SFX-
 
 (I guess I'm in love)
+
+-Musical Assistance-
 
 Shuhei Kaji [QA Project Manager]
 
@@ -93994,7 +94030,7 @@ S-Action
 
 R-Action
 
-KawKaw
+Kawkaw
 
 Check
 
@@ -95100,6 +95136,10 @@ scr_text
 * H... how should we solve it this time?
 
 * Y... yeah, you're right, Kris!
+
+* If you SPARE enough enemies of the same type, they will be RECRUITed.
+
+* Ralsei's PACIFY and Susie's SCYTHEMARE spell can RECRUIT TIRED enemies as well.
 
 * "~1"!
 
