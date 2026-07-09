@@ -3151,6 +3151,17 @@
                     return x.scrollWidth > x.clientWidth;
                 });
             }
+
+            function badWideWidths() {
+                for (const textbox of document.querySelectorAll(".textbox")) {
+                    if (textbox instanceof HTMLElement) {
+                        textbox.style.width = "fit-content";
+                    }
+                }
+                return [...document.querySelectorAll(".textbox")].filter(function (x) {
+                    return x.scrollWidth > 800;
+                });
+            }
         </script>
     </body>
 </html>

@@ -89325,7 +89325,10 @@ Snow-Flake?
 
 * Sheary dances spareably.
 
-* SHEARY - An elegant dancer with sharp legs. Part of Blue's dance troupe, which Aqua also attends.
+* SHEARY - An elegant dancer with
+  sharp legs. Part of Blue's
+  dance troupe, which Aqua also
+  attends.
 
 * Press the directions to CUT on the dotted line!
 
@@ -89431,7 +89434,10 @@ Keep it up!!
 
 * Shinobeetle flips on its back helplessly.
 
-* SHINOBEETLE - Only a ninja by Seth's command. The only thing keeping the ruse is peer pressure.
+* SHINOBEETLE - Only a ninja by
+  Seth's command. The only thing
+  keeping the ruse is peer
+  pressure.
 
 * You told Shinobeetle to come to your side!
 
@@ -89509,7 +89515,10 @@ Other people?
 
 * It was like looking at the world through a napkin.
 
-* Here, the sunset shines from the back of your eyes, like the afterglow of a light you stared at too long.
+* Here, the sunset shines from
+  the back of your eyes, like the
+  afterglow of a light you stared
+  at too long.
 
 * Hee hee...
 
@@ -89567,7 +89576,10 @@ Other people?
 
 * And Ory, I'll be making sure Asgore is watering you properly, OK!?
 
-* (Suddenly, the shopkeeper's body took your hand, and talked in a low voice only you could hear...)
+* (Suddenly, the shopkeeper's
+  body took your hand, and talked
+  in a low voice only you could
+  hear...)
 
 * Kris, is your hand okay? It looks like... you've got a cat bite, mew.
 
@@ -89581,11 +89593,17 @@ Other people?
 
 * Kris, if you have any protein, you must keep it hidden, and never let anyone see it.
 
-* The cats are not too smart, but once they find a target, they never stop chasing it until they get bored.
+* The cats are not too smart, but
+  once they find a target, they
+  never stop chasing it until
+  they get bored.
 
 * And when they find you, they bite... very, VERY, hard.
 
-* Some people would do anything to get away from them, even change their appearance, or go into hiding...
+* Some people would do anything
+  to get away from them, even
+  change their appearance, or go
+  into hiding...
 
 * Oh, Kris, it's terrible, mew. It's terrible...
 
@@ -89788,9 +89806,16 @@ obj_shop1
 
 * Though, I do find it amusing that you return here to check.
 
-* I suppose as long as you keep returning here, it's worth staying awake a little while longer...
+* I suppose as long as you keep
+  returning here, it's worth
+  staying awake a little while
+  longer...
 
-* Kris. These strange witches and fairies you have recruited are quite the showoffs with their "magic..." making a racket in the town square.
+* Kris. These strange witches and
+  fairies you have recruited are
+  quite the showoffs with their
+  "magic..." making a racket in
+  the town square.
 
 * ... of course, they've all crumpled when challenged to a little sparring match.
 
@@ -89798,21 +89823,40 @@ obj_shop1
 
 * Jackenstein... he often visits my shop to buy Dark Candies.
 
-* He seems to have a habit of placing them in his head, and handing them out to people from his mouth...
+* He seems to have a habit of
+  placing them in his head, and
+  handing them out to people from
+  his mouth...
 
-* What did he call it? Treat or Treat? Ha ha ha... next time, perhaps I should give him some candy for free.
+* What did he call it? Treat or
+  Treat? Ha ha ha... next time,
+  perhaps I should give him some
+  candy for free.
 
 * Not as if there's any point in selling it anymore...
 
-* Incredible, Kris! Once again you have procured a Shadow Crystal...! Now, give it here, give it here!
+* Incredible, Kris! Once again
+  you have procured a Shadow
+  Crystal...! Now, give it here,
+  give it here!
 
-* Perfect. We only need one more... yes, the next opponent shall be your final one. I'm sure you shall topple them easily!
+* Perfect. We only need one
+  more... yes, the next opponent
+  shall be your final one. I'm
+  sure you shall topple them
+  easily!
 
 * ...
 
-* Kris, I suppose I owe you an explanation about all this. No, you no doubt have realized yourself by now...
+* Kris, I suppose I owe you an
+  explanation about all this. No,
+  you no doubt have realized
+  yourself by now...
 
-* The Shadow Crystals are far more than mere pieces of glass. In actuality, they contain a certain power.
+* The Shadow Crystals are far
+  more than mere pieces of glass.
+  In actuality, they contain a
+  certain power.
 
 * You could call this the power of "will".
 
@@ -89821,21 +89865,34 @@ obj_shop1
 * "The power
   of lost dreams."
 
-* When a strong attachment is formed... when a dream is gripped tightly... and then broken off. These... are the shards that remain.
+* When a strong attachment is
+  formed... when a dream is
+  gripped tightly... and then
+  broken off. These... are the
+  shards that remain.
 
 * "Failed dreams"... of course, these things are useless to you, Kris.
 
-* I, however, am aware of something interesting we can do with them. Something very, very, interesting.
+* I, however, am aware of
+  something interesting we can do
+  with them. Something very,
+  very, interesting.
 
 * No doubt you will find it quite entertaining! Hahaha!!!
 
 * Kris, today you will acquire the final Shadow Crystal!
 
-* Did you ever find the Mannequin? Perhaps it may still be an effective armor for you... hee hee hee.
+* Did you ever find the
+  Mannequin? Perhaps it may still
+  be an effective armor for
+  you... hee hee hee.
 
 * ... ah. I see. You failed to receive the Shadow Crystal.
 
-* No, no, don't worry about disappointing me. It's only my own fault for putting such a burden on you...
+* No, no, don't worry about
+  disappointing me. It's only my
+  own fault for putting such a
+  burden on you...
 
 * You three have a very important adventure, don't you?
 

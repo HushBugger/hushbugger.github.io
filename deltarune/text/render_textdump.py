@@ -23,6 +23,7 @@ from render_data import (
     minifacekind,
     minifacesprite,
     lookup_voiceclip,
+    should_hardwrap,
 )
 
 MAX_CHAP = 5
@@ -151,32 +152,12 @@ def render(
                 return
             new = (head[0] + "\n" if head else "") + tail
 
-            hardwrap = msgid in [
-                # We want to unwrap messages at >=800px.
-                # These are the only ones that don't fit.
-                "scr_recruit_info_slash_scr_recruit_info_gml_434_0_b",
-                "scr_recruit_info_slash_scr_recruit_info_gml_449_0",
-                "scr_recruit_info_slash_scr_recruit_info_gml_465_0",
-                "scr_recruit_info_slash_scr_recruit_info_gml_481_0",
-                "scr_recruit_info_slash_scr_recruit_info_gml_512_0",
-                "scr_recruit_info_slash_scr_recruit_info_gml_528_0",
-                "scr_recruit_info_slash_scr_recruit_info_gml_544_0",
-                "obj_shop1_slash_Draw_0_gml_414_0",
-                "obj_shop2_slash_Draw_0_gml_372_0",
-                "obj_poppup_enemy_slash_Step_0_gml_494_0",
-                "obj_shop_ch2_spamton_slash_Draw_0_gml_719_0",
-                "obj_shop_ch2_spamton_slash_Draw_0_gml_720_0",
-                "scr_text_slash_scr_text_gml_10220_0",
-                "obj_dw_church_waterfalltearoom_slash_Step_0_gml_920_0",
-                "obj_shop1_slash_Draw_0_gml_479_0_b",
-                # This one has a 2D layout that relies on hardwrapping.
-                "obj_ch3_PGS01F_slash_Step_0_gml_325_0",
-            ]
+            hardwrap = should_hardwrap(int(n), msgid)
 
             if not hardwrap:
                 new += '<span class="break">'
             new += "\n"
-            if new.startswith("* "):
+            if new.startswith(("* ", '<span class="p">* ')):
                 new += "  "
                 linelen = 2
             elif flowindent:

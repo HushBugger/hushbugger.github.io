@@ -52,6 +52,58 @@ FORCE_WRAP = {
 }
 
 
+def should_hardwrap(chap: int, msgid: str) -> bool:
+    """We want to unwrap messages at >=800px.
+
+    But some of them still don't fit at that width.
+    """
+    if msgid in {
+        "scr_recruit_info_slash_scr_recruit_info_gml_434_0_b",
+        "scr_recruit_info_slash_scr_recruit_info_gml_449_0",
+        "scr_recruit_info_slash_scr_recruit_info_gml_465_0",
+        "scr_recruit_info_slash_scr_recruit_info_gml_481_0",
+        "scr_recruit_info_slash_scr_recruit_info_gml_512_0",
+        "scr_recruit_info_slash_scr_recruit_info_gml_528_0",
+        "scr_recruit_info_slash_scr_recruit_info_gml_544_0",
+        "obj_shop1_slash_Draw_0_gml_414_0",
+        "obj_shop2_slash_Draw_0_gml_372_0",
+        "obj_poppup_enemy_slash_Step_0_gml_494_0",
+        "obj_shop_ch2_spamton_slash_Draw_0_gml_719_0",
+        "obj_shop_ch2_spamton_slash_Draw_0_gml_720_0",
+        "scr_text_slash_scr_text_gml_10220_0",
+        "obj_dw_church_waterfalltearoom_slash_Step_0_gml_920_0",
+        "obj_shop1_slash_Draw_0_gml_479_0_b",
+        # This one has a 2D layout that relies on hardwrapping.
+        "obj_ch3_PGS01F_slash_Step_0_gml_325_0",
+        "obj_shinobeetle_enemy_slash_Step_0_gml_257_0",
+        "obj_sheary_enemy_slash_Step_0_gml_164_0",
+        "obj_shop_ch5_slash_Create_0_gml_217_0",
+        "obj_shop_ch5_slash_Create_0_gml_313_0",
+        "obj_shop_ch5_slash_Create_0_gml_320_0",
+        "obj_shop_ch5_slash_Create_0_gml_322_0",
+    }:
+        return True
+
+    # translation key collision
+    if chap >= 5 and msgid in {
+        "obj_shop1_slash_Draw_0_gml_447_0",
+        "obj_shop1_slash_Draw_0_gml_457_0",
+        "obj_shop1_slash_Draw_0_gml_467_0_b",
+        "obj_shop1_slash_Draw_0_gml_468_0_b",
+        "obj_shop1_slash_Draw_0_gml_482_0",
+        "obj_shop1_slash_Draw_0_gml_483_0",
+        "obj_shop1_slash_Draw_0_gml_485_0",
+        "obj_shop1_slash_Draw_0_gml_486_0",
+        "obj_shop1_slash_Draw_0_gml_490_0",
+        "obj_shop1_slash_Draw_0_gml_492_0",
+        "obj_shop1_slash_Draw_0_gml_498_0_b",
+        "obj_shop1_slash_Draw_0_gml_511_0_b",
+    }:
+        return True
+
+    return False
+
+
 @dataclass
 class Dim:
     width: int

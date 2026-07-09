@@ -739531,7 +739531,7 @@ false,
 },
 "obj_dw_pink_encounter_slash_Step_0_gml_1216_0": {
 "en": [
-"<span class=\"p\">* Actually, let me give you<span class=\"break\">\n</span>something else, mew...!</span>",
+"<span class=\"p\">* Actually, let me give you<span class=\"break\">\n  </span>something else, mew...!</span>",
 false,
 46,
 28
@@ -793123,10 +793123,10 @@ false,
 },
 "obj_sheary_enemy_slash_Step_0_gml_164_0": {
 "en": [
-"* SHEARY - An elegant dancer with<span class=\"break\">\n  </span>sharp legs. Part of Blue's<span class=\"break\">\n  </span>dance troupe, which Aqua also<span class=\"break\">\n  </span>attends.",
+"* SHEARY - An elegant dancer with\n  sharp legs. Part of Blue's\n  dance troupe, which Aqua also\n  attends.",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ シザリー - 鋭い脚の　エレガントな\nおどりこ。ターコといっしょに　ブルーの\nダンスグループに　入っている。",
@@ -793601,10 +793601,10 @@ false,
 },
 "obj_shinobeetle_enemy_slash_Step_0_gml_257_0": {
 "en": [
-"* SHINOBEETLE - Only a ninja by<span class=\"break\">\n  </span>Seth's command. The only thing<span class=\"break\">\n  </span>keeping the ruse is peer<span class=\"break\">\n  </span>pressure.",
+"* SHINOBEETLE - Only a ninja by\n  Seth's command. The only thing\n  keeping the ruse is peer\n  pressure.",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ シノビートル - モリスの指図に\n　 従って　ニンジャをやっているだけ。\n　 仲間からの同調圧力に弱い。",
@@ -794893,10 +794893,10 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_217_0": {
 "en": [
-"* Here, the sunset shines from<span class=\"break\">\n  </span>the back of your eyes, like the<span class=\"break\">\n  </span>afterglow of a light you stared<span class=\"break\">\n  </span>at too long.",
+"* Here, the sunset shines from\n  the back of your eyes, like the\n  afterglow of a light you stared\n  at too long.",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ だけど　ここでは　瞳の奥で夕日が光る。\n　 長く見つめすぎた光の名残みたいに。",
@@ -795299,10 +795299,10 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_313_0": {
 "en": [
-"* (Suddenly, the shopkeeper's<span class=\"break\">\n  </span>body took your hand, and talked<span class=\"break\">\n  </span>in a low voice only you could<span class=\"break\">\n  </span>hear...)",
+"* (Suddenly, the shopkeeper's\n  body took your hand, and talked\n  in a low voice only you could\n  hear...)",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ (突然　店主の「体」が　手を握ってきた。\n　 クリスにしか聞こえない小声で\n　 話しかけてくる…)",
@@ -795313,7 +795313,7 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_314_0": {
 "en": [
-"<span class=\"p\">* Kris, is your hand okay? It<span class=\"break\">\n</span>looks like... you've got a cat<span class=\"break\">\n</span>bite, mew.</span>",
+"<span class=\"p\">* Kris, is your hand okay? It<span class=\"break\">\n  </span>looks like... you've got a cat<span class=\"break\">\n  </span>bite, mew.</span>",
 false,
 64,
 28
@@ -795327,7 +795327,7 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_315_0": {
 "en": [
-"<span class=\"p\">* Cats can be nasty creatures,<span class=\"break\">\n</span>can't they, mew...?</span>",
+"<span class=\"p\">* Cats can be nasty creatures,<span class=\"break\">\n  </span>can't they, mew...?</span>",
 false,
 46,
 28
@@ -795341,7 +795341,7 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_316_0": {
 "en": [
-"<span class=\"p\">* ... I once met someone who<span class=\"break\">\n</span>REALLY liked cats, mew.</span>",
+"<span class=\"p\">* ... I once met someone who<span class=\"break\">\n  </span>REALLY liked cats, mew.</span>",
 false,
 46,
 28
@@ -795355,7 +795355,7 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_317_0": {
 "en": [
-"<span class=\"p\">* They liked cats so much, they<span class=\"break\">\n</span>owned a whole hunting pack of<span class=\"break\">\n</span>them, mew!</span>",
+"<span class=\"p\">* They liked cats so much, they<span class=\"break\">\n  </span>owned a whole hunting pack of<span class=\"break\">\n  </span>them, mew!</span>",
 false,
 64,
 28
@@ -795369,7 +795369,7 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_318_0": {
 "en": [
-"<span class=\"p\">* Of course, cats are fickle<span class=\"break\">\n</span>creatures, but they were very<span class=\"break\">\n</span>good at finding protein.</span>",
+"<span class=\"p\">* Of course, cats are fickle<span class=\"break\">\n  </span>creatures, but they were very<span class=\"break\">\n  </span>good at finding protein.</span>",
 false,
 64,
 28
@@ -795383,7 +795383,7 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_319_0": {
 "en": [
-"<span class=\"p\">* Kris, if you have any protein,<span class=\"break\">\n</span>you must keep it hidden, and<span class=\"break\">\n</span>never let anyone see it.</span>",
+"<span class=\"p\">* Kris, if you have any protein,<span class=\"break\">\n  </span>you must keep it hidden, and<span class=\"break\">\n  </span>never let anyone see it.</span>",
 false,
 64,
 28
@@ -795397,10 +795397,10 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_320_0": {
 "en": [
-"<span class=\"p\">* The cats are not too smart, but<span class=\"break\">\n</span>once they find a target, they<span class=\"break\">\n</span>never stop chasing it until they<span class=\"break\">\n</span>get bored.</span>",
+"<span class=\"p\">* The cats are not too smart, but\n  once they find a target, they\n  never stop chasing it until\n  they get bored.</span>",
 false,
 82,
-28
+82
 ],
 "ja": [
 "<span class=\"p\">＊ その猟猫たちは単純だけど　一度　獲物を\n　 見つけたら　飽きるまで　ずーっと\n　 追いかけてくるミュウ。</span>",
@@ -795411,7 +795411,7 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_321_0": {
 "en": [
-"<span class=\"p\">* And when they find you, they<span class=\"break\">\n</span>bite... very, VERY, hard.</span>",
+"<span class=\"p\">* And when they find you, they<span class=\"break\">\n  </span>bite... very, VERY, hard.</span>",
 false,
 46,
 28
@@ -795425,10 +795425,10 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_322_0": {
 "en": [
-"<span class=\"p\">* Some people would do anything<span class=\"break\">\n</span>to get away from them, even<span class=\"break\">\n</span>change their appearance, or go<span class=\"break\">\n</span>into hiding...</span>",
+"<span class=\"p\">* Some people would do anything\n  to get away from them, even\n  change their appearance, or go\n  into hiding...</span>",
 false,
 82,
-28
+82
 ],
 "ja": [
 "<span class=\"p\">＊ ネコから逃げるために　わざわざ自分の姿を\n　 変えたり　どこかに雲隠れするひとだって\n　 いるんだミュウ…</span>",
@@ -795439,7 +795439,7 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_323_0": {
 "en": [
-"<span class=\"p\">* Oh, Kris, it's terrible, mew.<span class=\"break\">\n</span>It's terrible...</span>",
+"<span class=\"p\">* Oh, Kris, it's terrible, mew.<span class=\"break\">\n  </span>It's terrible...</span>",
 false,
 46,
 28
@@ -795453,7 +795453,7 @@ false,
 },
 "obj_shop_ch5_slash_Create_0_gml_324_0": {
 "en": [
-"<span class=\"p\">* Please be careful, Kris...<span class=\"break\">\n</span>promise...</span>",
+"<span class=\"p\">* Please be careful, Kris...<span class=\"break\">\n  </span>promise...</span>",
 false,
 46,
 28
@@ -797179,10 +797179,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_447_0": {
 "en": [
-"* I suppose as long as you keep<span class=\"break\">\n  </span>returning here, it's worth<span class=\"break\">\n  </span>staying awake a little while<span class=\"break\">\n  </span>longer...",
+"* I suppose as long as you keep\n  returning here, it's worth\n  staying awake a little while\n  longer...",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ あんたたちが訪ねてくれるあいだは　\n　 眠らずに　起きていようかね…",
@@ -797193,10 +797193,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_457_0": {
 "en": [
-"* Kris. These strange witches and<span class=\"break\">\n  </span>fairies you have recruited are<span class=\"break\">\n  </span>quite the showoffs with their<span class=\"break\">\n  </span>\"magic...\" making a racket in<span class=\"break\">\n  </span>the town square.",
+"* Kris. These strange witches and\n  fairies you have recruited are\n  quite the showoffs with their\n  \"magic...\" making a racket in\n  the town square.",
 false,
 100,
-28
+100
 ],
 "ja": [
 "＊ クリス　あんたが「なかま」にした\n　 魔女だの妖精だのは　やたらと「まほう」を\n　 使いたがるねえ。この町の広場で　騒ぎを\n　 起こして…",
@@ -797249,10 +797249,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_467_0_b": {
 "en": [
-"* He seems to have a habit of<span class=\"break\">\n  </span>placing them in his head, and<span class=\"break\">\n  </span>handing them out to people from<span class=\"break\">\n  </span>his mouth...",
+"* He seems to have a habit of\n  placing them in his head, and\n  handing them out to people from\n  his mouth...",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ そいつを　自分の頭ん中に入れて\n　 口から出しちゃ　そこらじゅうに配って\n　 まわるのが趣味らしい…",
@@ -797263,10 +797263,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_468_0_b": {
 "en": [
-"* What did he call it? Treat or<span class=\"break\">\n  </span>Treat? Ha ha ha... next time,<span class=\"break\">\n  </span>perhaps I should give him some<span class=\"break\">\n  </span>candy for free.",
+"* What did he call it? Treat or\n  Treat? Ha ha ha... next time,\n  perhaps I should give him some\n  candy for free.",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ 「トリート　オア　トリート」…\n　 だったかね？　ハッハッハ…\n　 今度来たら　タダでキャンディをやろうか\n　 ねえ。",
@@ -797291,10 +797291,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_482_0": {
 "en": [
-"* Incredible, Kris! Once again<span class=\"break\">\n  </span>you have procured a Shadow<span class=\"break\">\n  </span>Crystal...! Now, give it here,<span class=\"break\">\n  </span>give it here!",
+"* Incredible, Kris! Once again\n  you have procured a Shadow\n  Crystal...! Now, give it here,\n  give it here!",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ たいしたもんだ！\n　 また　シャドウジェムを手に入れたね…！\n　 さ　あたしが　預かろう！",
@@ -797305,10 +797305,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_483_0": {
 "en": [
-"* Perfect. We only need one<span class=\"break\">\n  </span>more... yes, the next opponent<span class=\"break\">\n  </span>shall be your final one. I'm<span class=\"break\">\n  </span>sure you shall topple them<span class=\"break\">\n  </span>easily!",
+"* Perfect. We only need one\n  more... yes, the next opponent\n  shall be your final one. I'm\n  sure you shall topple them\n  easily!",
 false,
 100,
-28
+100
 ],
 "ja": [
 "＊ よしよし…\n　 残りは　あと１つ…\n　 そう　次に戦う相手が最後だ。\n　 きっと　ラクラク倒せるだろうさ！",
@@ -797333,10 +797333,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_485_0": {
 "en": [
-"* Kris, I suppose I owe you an<span class=\"break\">\n  </span>explanation about all this. No,<span class=\"break\">\n  </span>you no doubt have realized<span class=\"break\">\n  </span>yourself by now...",
+"* Kris, I suppose I owe you an\n  explanation about all this. No,\n  you no doubt have realized\n  yourself by now...",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ クリス　そろそろ　全部説明したほうが\n　 いいだろうね。あんたも　うすうす\n　 感づいては　いるだろうけども…",
@@ -797347,10 +797347,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_486_0": {
 "en": [
-"* The Shadow Crystals are far<span class=\"break\">\n  </span>more than mere pieces of glass.<span class=\"break\">\n  </span>In actuality, they contain a<span class=\"break\">\n  </span>certain power.",
+"* The Shadow Crystals are far\n  more than mere pieces of glass.\n  In actuality, they contain a\n  certain power.",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ シャドウジェムは　単なるガラスのかけら\n　 じゃない。じつは　とある力を\n　 秘めてるのさ。",
@@ -797403,10 +797403,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_490_0": {
 "en": [
-"* When a strong attachment is<span class=\"break\">\n  </span>formed... when a dream is<span class=\"break\">\n  </span>gripped tightly... and then<span class=\"break\">\n  </span>broken off. These... are the<span class=\"break\">\n  </span>shards that remain.",
+"* When a strong attachment is\n  formed... when a dream is\n  gripped tightly... and then\n  broken off. These... are the\n  shards that remain.",
 false,
 100,
-28
+100
 ],
 "ja": [
 "＊ 何かに　強くひかれて…\n　 しっかりと　つかんだ夢。\n　 それが　切り離されてゆくときに…\n　 この…ジェムが残るのさ。",
@@ -797431,10 +797431,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_492_0": {
 "en": [
-"* I, however, am aware of<span class=\"break\">\n  </span>something interesting we can do<span class=\"break\">\n  </span>with them. Something very,<span class=\"break\">\n  </span>very, interesting.",
+"* I, however, am aware of\n  something interesting we can do\n  with them. Something very,\n  very, interesting.",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ それでも…あたしには　わかってる。\n　 これで何か　じつに　じつに　\n　 興味深いことが　できるってねえ。",
@@ -797473,10 +797473,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_498_0_b": {
 "en": [
-"* Did you ever find the<span class=\"break\">\n  </span>Mannequin? Perhaps it may still<span class=\"break\">\n  </span>be an effective armor for<span class=\"break\">\n  </span>you... hee hee hee.",
+"* Did you ever find the\n  Mannequin? Perhaps it may still\n  be an effective armor for\n  you... hee hee hee.",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ マネキンは　見つけたかい？\n　 あれは　まだまだ　なかなかいい　よろいに\n　 なるだろうよ…　ヒッヒッヒ。",
@@ -797501,10 +797501,10 @@ false,
 },
 "obj_shop1_slash_Draw_0_gml_511_0_b": {
 "en": [
-"* No, no, don't worry about<span class=\"break\">\n  </span>disappointing me. It's only my<span class=\"break\">\n  </span>own fault for putting such a<span class=\"break\">\n  </span>burden on you...",
+"* No, no, don't worry about\n  disappointing me. It's only my\n  own fault for putting such a\n  burden on you...",
 false,
 82,
-28
+82
 ],
 "ja": [
 "＊ いやいや　あたしゃ　ちっとも　がっかり\n　 なんて　してないさ。あんたに　酷なことを\n　 押しつけた　あたしが悪いのさ…",
