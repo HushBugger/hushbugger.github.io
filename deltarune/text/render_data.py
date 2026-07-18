@@ -147,7 +147,13 @@ FUNNYTEXT_DIMS = {
     "spr_funnytext_prizes": Dim(168, 62, 84, 31),
     "spr_funnytext_quizzes": Dim(159, 52, 79, 26),
     "spr_funnytext_relax": Dim(259, 74, 128, 32),
-    "spr_funnytext_resumes": Dim(124, 27, 0, 0),
+    # This one's weird. The letters print and shake individually.
+    # https://youtu.be/jiov0_liDd4?t=83
+    # These are the dimensions extracted using UTMT:
+    # "spr_funnytext_resumes": Dim(124, 27, 0, 0),
+    # But centering the origin looks a lot closer to the real thing:
+    "spr_funnytext_resumes": Dim(124, 27, 62, 13),
+    # (origin_y=16 looks still closer but maybe there's a general bias.)
     "spr_funnytext_rock_concert": Dim(301, 62, 150, 31),
     "spr_funnytext_round_1": Dim(188, 69, 94, 34),
     "spr_funnytext_round": Dim(154, 69, 77, 34),

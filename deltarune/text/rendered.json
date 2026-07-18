@@ -331697,13 +331697,13 @@ false,
 },
 "obj_npc_sign_slash_Other_10_gml_31_0": {
 "en": [
-"* Show me your <span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_resumes.gif\" loading=\"lazy\" style=\"position:relative;top:11.5px;left:31.0px\" alt=\"Résumés\" width=\"62.0\" height=\"13.5\"/></span>        !",
+"* Show me your <span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_resumes.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"Résumés\" width=\"62.0\" height=\"13.5\"/></span>        !",
 false,
 28,
 28
 ],
 "ja": [
-"＊ Show me your <span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_resumes.gif\" loading=\"lazy\" style=\"position:relative;top:11.5px;left:31.0px\" alt=\"Résumés\" width=\"62.0\" height=\"13.5\"/></span>        !",
+"＊ Show me your <span style=\"display:inline-block;height:18px;width:62px;overflow:visible;vertical-align:top;\"><img src=\"img/spr_funnytext_resumes.gif\" loading=\"lazy\" style=\"position:relative;top:5.0px;left:0.0px\" alt=\"Résumés\" width=\"62.0\" height=\"13.5\"/></span>        !",
 false,
 28,
 28
