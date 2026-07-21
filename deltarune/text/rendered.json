@@ -66887,10 +66887,10 @@ false,
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_24_0": {
 "en": [
-"Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
+"Deals moderate Rude-elemental damage to\none foe. Depends on Attack &amp; Magic.",
 false,
-64,
-64
+46,
+46
 ],
 "ja": [
 "敵1体に　中程度の暴属性ダメージ\nこうげきまりょく値によってダメージ量変化",
@@ -67055,10 +67055,10 @@ false,
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_55_0": {
 "en": [
-"Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
+"Deals moderate Rude-elemental damage to\none foe. Depends on Attack &amp; Magic.",
 false,
-64,
-64
+46,
+46
 ],
 "ja": [
 "敵1体に中程度の暴属性ダメージ。\nこうげきまりょく値によりダメージ量変化。",
@@ -220921,10 +220921,10 @@ true,
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_24_0": {
 "en": [
-"Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
+"Deals moderate Rude-elemental damage to\none foe. Depends on Attack &amp; Magic.",
 true,
-64,
-64
+46,
+46
 ],
 "ja": [
 "敵1体に　中程度の暴属性ダメージ\nこうげきまりょく値によってダメージ量変化",
@@ -221089,10 +221089,10 @@ true,
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_55_0": {
 "en": [
-"Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
+"Deals moderate Rude-elemental damage to\none foe. Depends on Attack &amp; Magic.",
 true,
-64,
-64
+46,
+46
 ],
 "ja": [
 "敵1体に中程度の暴属性ダメージ。\nこうげきまりょく値によりダメージ量変化。",
@@ -397569,10 +397569,10 @@ true,
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_24_0": {
 "en": [
-"Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
+"Deals moderate Rude-elemental damage to\none foe. Depends on Attack &amp; Magic.",
 true,
-64,
-64
+46,
+46
 ],
 "ja": [
 "敵1体に　中程度の暴属性ダメージ\nこうげきまりょく値によってダメージ量変化",
@@ -397737,10 +397737,10 @@ true,
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_55_0": {
 "en": [
-"Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
+"Deals moderate Rude-elemental damage to\none foe. Depends on Attack &amp; Magic.",
 true,
-64,
-64
+46,
+46
 ],
 "ja": [
 "敵1体に中程度の暴属性ダメージ。\nこうげきまりょく値によりダメージ量変化。",
@@ -602701,10 +602701,10 @@ false,
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_24_0": {
 "en": [
-"Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
+"Deals moderate Rude-elemental damage to\none foe. Depends on Attack &amp; Magic.",
 true,
-64,
-64
+46,
+46
 ],
 "ja": [
 "敵1体に　中程度の暴属性ダメージ\nこうげきまりょく値によってダメージ量変化",
@@ -602869,10 +602869,10 @@ false,
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_55_0": {
 "en": [
-"Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
+"Deals moderate Rude-elemental damage to\none foe. Depends on Attack &amp; Magic.",
 true,
-64,
-64
+46,
+46
 ],
 "ja": [
 "敵1体に中程度の暴属性ダメージ。\nこうげきまりょく値によりダメージ量変化。",
@@ -825283,10 +825283,10 @@ false,
 },
 "scr_armorinfo_slash_scr_armorinfo_gml_740_0": {
 "en": [
-"The genuine tie worn by a forgotten TV star.\nDefends against the Puppet\nCat element.",
+"The genuine tie worn by a forgotten TV star.\nDefends against the Puppet&amp;Cat element.",
 false,
-64,
-64
+46,
+46
 ],
 "ja": [
 "忘れ去られたテレビスターがつけていた純正の\nネクタイ。ネコ・人形属性への耐性が上がる。",
@@ -849815,10 +849815,10 @@ false,
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_24_0": {
 "en": [
-"Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
+"Deals moderate Rude-elemental damage to\none foe. Depends on Attack &amp; Magic.",
 true,
-64,
-64
+46,
+46
 ],
 "ja": [
 "敵1体に　中程度の暴属性ダメージ\nこうげきまりょく値によってダメージ量変化",
@@ -849983,10 +849983,10 @@ false,
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_55_0": {
 "en": [
-"Deals moderate Rude-elemental damage to\none foe. Depends on Attack \n Magic.",
+"Deals moderate Rude-elemental damage to\none foe. Depends on Attack &amp; Magic.",
 true,
-64,
-64
+46,
+46
 ],
 "ja": [
 "敵1体に中程度の暴属性ダメージ。\nこうげきまりょく値によりダメージ量変化。",

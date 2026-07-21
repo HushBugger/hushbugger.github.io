@@ -381,6 +381,9 @@ def render(
                         "scr_quiztext",
                         "obj_b3bs_lancerget_lancer",
                         "obj_shop2_slash_Create",
+                        "scr_spellinfo_slash_scr_spellinfo_gml_24_0",
+                        "scr_spellinfo_slash_scr_spellinfo_gml_55_0",
+                        "scr_armorinfo_slash_scr_armorinfo_gml_740_0",
                     )
                 )
                 and msgid
@@ -392,6 +395,10 @@ def render(
             ):
                 out.write("&amp;")
                 linelen += 1
+            # A few false positives, but uncomment to hunt for broken ampersands:
+            # case "&" if "#" in text:
+            #     out.write("&amp;")
+            #     linelen += 1
             case "#" if msgid.startswith(
                 (
                     "obj_readable_room1",

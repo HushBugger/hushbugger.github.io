@@ -11580,8 +11580,7 @@ Rude
 Damage
 
 Deals moderate Rude-elemental damage to
-one foe. Depends on Attack 
- Magic.
+one foe. Depends on Attack & Magic.
 
 Heal Prayer
 
@@ -11610,8 +11609,7 @@ Rude
 Damage
 
 Deals moderate Rude-elemental damage to
-one foe. Depends on Attack 
- Magic.
+one foe. Depends on Attack & Magic.
 
 Red Buster
 
@@ -93134,8 +93132,7 @@ HasAntenna
 TrueTie
 
 The genuine tie worn by a forgotten TV star.
-Defends against the Puppet
-Cat element.
+Defends against the Puppet&Cat element.
 
 More hand-me-downs?
 
