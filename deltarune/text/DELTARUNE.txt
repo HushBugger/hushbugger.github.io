@@ -79572,6 +79572,24 @@ obj_dw_fcastle_flowery_gameover
 
 * Just realize. Flowers are the real heroes.
 
+Flowery
+voiceclips
+on
+
+No
+
+* (It's a couple of flowery hairclips that say VOICE.)
+
+* (Put on the FLOWERY VOICE CLIPS?)
+
+* (You reluctantly attached them to Ralsei where he can't see.)
+
+* (Flowery voiceclips are now ON...)
+
+* (You ignored them.)
+
+* (Ralsei also ignored them a lot.)
+
 
 ======================
 obj_dw_fcastle_foxhunt
@@ -88374,6 +88392,22 @@ Don't
 
 * YOU DON'T HAVE TO WORK PLUEY INTO IT!!!
 
+* What!? You won that for YOUR room!?
+
+* So... so what?! It's not like YOU'RE using it!
+
+* Yeah. We's needs it. To practice.
+
+* Exactly!! What they said!!
+
+* Why don't you show 'em how's it's done boss. Practice on it.
+
+* Uhh, ha ha... I, uh, don't think I need to, show that.
+
+* Then how's is they's supposed to be a Mike, too?
+
+* THEY'RE NOT... just get rid of that stupid thing, will ya?! 
+
 
 ===================
 obj_room_dungeon_2f
@@ -94976,7 +95010,7 @@ scr_spelltext
 
 * ~1 cast DUAL HEAL!
 
-* ~1 cast BETTERHEAL!
+* ~1 cast HEAL!
 
 * ~1 cast REVIVESONG!
 

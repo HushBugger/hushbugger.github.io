@@ -558615,34 +558615,6 @@ true,
 }
 },
 "obj_rhythmgame": {
-"obj_rhythmgame_slash_Draw_0_gml_38_0": {
-"en": [
-"POPU",
-true,
-28,
-28
-],
-"ja": [
-"POPU",
-true,
-28,
-28
-]
-},
-"obj_rhythmgame_slash_Draw_0_gml_39_0": {
-"en": [
-"LARITY",
-true,
-28,
-28
-],
-"ja": [
-"LARITY",
-true,
-28,
-28
-]
-},
 "obj_rhythmgame_slash_Draw_0_gml_227_0_b": {
 "en": [
 "SCORE",
@@ -558683,6 +558655,34 @@ true,
 true,
 208,
 208
+]
+},
+"obj_rhythmgame_slash_Draw_0_gml_38_0": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"POPU",
+true,
+28,
+28
+]
+},
+"obj_rhythmgame_slash_Draw_0_gml_39_0": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"LARITY",
+true,
+28,
+28
 ]
 }
 },
@@ -568407,10 +568407,10 @@ false,
 28
 ],
 "ja": [
-"＊ シャドウクリスタルを\n　 手に入れるのは…\n　 一筋縄じゃいかないもんさ。",
+"＊ シャドウジェムを手に入れるのは…\n　 一筋縄じゃいかないもんさ。",
 false,
-64,
-64
+46,
+46
 ]
 },
 "obj_shop1_slash_Draw_0_gml_507_0_b": {
@@ -705511,7 +705511,7 @@ false,
 28
 ],
 "ja": [
-"＊ よう！　オルガンに\n　 MOD入れてみたぜ。",
+"＊ 見てくれ！　オルガンに\n　 MOD入れてみたんだ！",
 false,
 46,
 46
@@ -705525,7 +705525,7 @@ false,
 28
 ],
 "ja": [
-"＊ 向こうのカベを　調べてみな！\n　 いろ～んなイカした音で\n　 プレイできるぜ！",
+"＊ 向こうのカベを　調べてみろ！\n　 いろいろなイカした音で\n　 プレイできるぞ！",
 false,
 64,
 64
@@ -705539,7 +705539,7 @@ false,
 28
 ],
 "ja": [
-"＊ …まあ…厳密には　ちょっと\n　 違うんだけどさ。",
+"＊ …まあ…厳密には　ちょっと\n　 違うんだが。",
 false,
 46,
 46
@@ -705553,7 +705553,7 @@ false,
 28
 ],
 "ja": [
-"＊ …じつは　そのオルガン…\n　 なんつーか…壊しちまってさ…",
+"＊ …じつは　そのオルガン…\n　 なんというか…壊してしまってな…",
 false,
 46,
 46
@@ -705567,7 +705567,7 @@ false,
 28
 ],
 "ja": [
-"＊ でも　おまえが鍵盤押したら　\n　 オレらが　その音を歌うぜ！",
+"＊ でも　おまえが鍵盤押したら　\n　 オレたちが　その音を歌うぞ！",
 false,
 46,
 46
@@ -718062,6 +718062,118 @@ false,
 ],
 "ja": [
 "＊ いいかげんに　理解して。\n　 花こそが　ホンモノのヒーローさ。",
+false,
+46,
+46
+]
+},
+"obj_dw_fcastle_flowery_gameover_slash_Step_0_gml_630_0": {
+"en": [
+"Flowery\nvoiceclips\non",
+false,
+64,
+64
+],
+"ja": [
+"\nつける",
+false,
+46,
+46
+]
+},
+"obj_dw_fcastle_flowery_gameover_slash_Step_0_gml_631_0": {
+"en": [
+"No",
+false,
+28,
+28
+],
+"ja": [
+"\nつけない",
+false,
+46,
+46
+]
+},
+"obj_dw_fcastle_flowery_gameover_slash_Step_0_gml_636_0": {
+"en": [
+"* (It's a couple of flowery<span class=\"break\">\n  </span>hairclips that say VOICE.)",
+false,
+46,
+28
+],
+"ja": [
+"＊ (フラウリィなヘアクリップが\n　 落ちている。ヘアクリップには\n　 「ボイス」と書いてある)",
+false,
+64,
+64
+]
+},
+"obj_dw_fcastle_flowery_gameover_slash_Step_0_gml_637_0": {
+"en": [
+"* (Put on the FLOWERY VOICE<span class=\"break\">\n  </span>CLIPS?)",
+false,
+46,
+28
+],
+"ja": [
+"＊ (「フラウリィ ボイスクリップ」を\n　 つける？)",
+false,
+46,
+46
+]
+},
+"obj_dw_fcastle_flowery_gameover_slash_Step_0_gml_652_0": {
+"en": [
+"* (You reluctantly attached them<span class=\"break\">\n  </span>to Ralsei where he can't see.)",
+false,
+46,
+28
+],
+"ja": [
+"＊ (しぶしぶ　ラルセイに気づかれない\n　 ように　ラルセイにクリップを\n　 つけた)",
+false,
+64,
+64
+]
+},
+"obj_dw_fcastle_flowery_gameover_slash_Step_0_gml_653_0": {
+"en": [
+"* (Flowery voiceclips are now<span class=\"break\">\n  </span>ON...)",
+false,
+46,
+28
+],
+"ja": [
+"＊ (フラウリィのボイスクリップが\n　 ONになった…)",
+false,
+46,
+46
+]
+},
+"obj_dw_fcastle_flowery_gameover_slash_Step_0_gml_659_0": {
+"en": [
+"* (You ignored them.)",
+false,
+28,
+28
+],
+"ja": [
+"＊ (クリップを無視した)",
+false,
+28,
+28
+]
+},
+"obj_dw_fcastle_flowery_gameover_slash_Step_0_gml_660_0": {
+"en": [
+"* (Ralsei also ignored them a<span class=\"break\">\n  </span>lot.)",
+false,
+46,
+28
+],
+"ja": [
+"＊ (ラルセイも　クリップを\n　 めちゃくちゃ無視した)",
 false,
 46,
 46
@@ -785892,6 +786004,118 @@ false,
 28,
 28
 ]
+},
+"obj_room_castle_tv_mike_slash_Step_0_gml_397_0": {
+"en": [
+"* What!? You won that for YOUR<span class=\"break\">\n  </span>room!?",
+false,
+46,
+28
+],
+"ja": [
+"＊ あ！？　その像は　アンタの部屋に\n　 置くつもりで　ゲットしたやって！？",
+false,
+46,
+46
+]
+},
+"obj_room_castle_tv_mike_slash_Step_0_gml_398_0": {
+"en": [
+"* So... so what?! It's not like<span class=\"break\">\n  </span>YOU'RE using it!",
+false,
+46,
+28
+],
+"ja": [
+"＊ …だっ…だからなんや！？　\n　 どうせ使いもせんくせに！",
+false,
+46,
+46
+]
+},
+"obj_room_castle_tv_mike_slash_Step_0_gml_400_0": {
+"en": [
+"* Yeah. We's needs it. To<span class=\"break\">\n  </span>practice.",
+false,
+46,
+28
+],
+"ja": [
+"＊ ああ。でもオレたちは使う。\n　 練習するのにな。",
+false,
+46,
+46
+]
+},
+"obj_room_castle_tv_mike_slash_Step_0_gml_402_0": {
+"en": [
+"* Exactly!! What they said!!",
+false,
+28,
+28
+],
+"ja": [
+"＊ せやせや！　そいつの言うとおりや！",
+false,
+28,
+28
+]
+},
+"obj_room_castle_tv_mike_slash_Step_0_gml_450_0": {
+"en": [
+"* Why don't you show 'em how's<span class=\"break\">\n  </span>it's done boss. Practice on it.",
+false,
+46,
+28
+],
+"ja": [
+"＊ ボス　コイツに見せてやろうぜ。\n　 この像使った　練習のしかたをよ。",
+false,
+46,
+46
+]
+},
+"obj_room_castle_tv_mike_slash_Step_0_gml_452_0": {
+"en": [
+"* Uhh, ha ha... I, uh, don't<span class=\"break\">\n  </span>think I need to, show that.",
+false,
+46,
+28
+],
+"ja": [
+"＊ あー…　ハ…ハ…それはー…\n　 せんでええやろ。",
+false,
+46,
+46
+]
+},
+"obj_room_castle_tv_mike_slash_Step_0_gml_454_0": {
+"en": [
+"* Then how's is they's supposed<span class=\"break\">\n  </span>to be a Mike, too?",
+false,
+46,
+28
+],
+"ja": [
+"＊ でも　コイツも練習しないと\n　 マイクになれないんじゃ…？",
+false,
+46,
+46
+]
+},
+"obj_room_castle_tv_mike_slash_Step_0_gml_456_0": {
+"en": [
+"* THEY'RE NOT... just get rid of<span class=\"break\">\n  </span>that stupid thing, will ya?! ",
+false,
+46,
+28
+],
+"ja": [
+"＊ コイツはマイクにならん…！\n　 もうええわ！　その像　どっかに\n　 捨ててき！",
+false,
+64,
+64
+]
 }
 },
 "obj_room_castle_tv": {
@@ -810569,7 +810793,7 @@ false,
 28
 ],
 "ja": [
-"＊ もういい！　ことしの\n　 ２がつは　おまえに　あいの\n　 ポエムを　おくらないぞ！",
+"＊ もういい！　２がつに\n　 なっても　おまえに　あいの\n　 ポエムを　おくらないぞ！",
 false,
 64,
 64
@@ -850303,102 +850527,32 @@ true,
 28
 ]
 },
-"scr_spellinfo_slash_scr_spellinfo_gml_152_0_b": {
+"scr_spellinfo_slash_scr_spellinfo_gml_161_0": {
 "en": [
-"OKHeal",
+"Heal",
 true,
 28,
 28
 ],
 "ja": [
-"OKヒール",
+"ヒール",
 true,
 28,
 28
 ]
 },
-"scr_spellinfo_slash_scr_spellinfo_gml_153_0_b": {
+"scr_spellinfo_slash_scr_spellinfo_gml_162_0": {
 "en": [
-"OKHeal",
+"Heal",
 true,
 28,
 28
 ],
 "ja": [
-"OKヒール",
+"ヒール",
 true,
 28,
 28
-]
-},
-"scr_spellinfo_slash_scr_spellinfo_gml_154_0": {
-"en": [
-"OK\nhealing",
-true,
-46,
-46
-],
-"ja": [
-"並みの\n回復",
-true,
-46,
-46
-]
-},
-"scr_spellinfo_slash_scr_spellinfo_gml_155_0_b": {
-"en": [
-"It's not the best healing spell, but\nit may have its uses.",
-true,
-46,
-46
-],
-"ja": [
-"カンペキな回復まほうではないものの\nなにか使い道があるかも。",
-true,
-46,
-46
-]
-},
-"scr_spellinfo_slash_scr_spellinfo_gml_169_0": {
-"en": [
-"BetterHeal",
-true,
-28,
-28
-],
-"ja": [
-"ベターヒール",
-true,
-28,
-28
-]
-},
-"scr_spellinfo_slash_scr_spellinfo_gml_170_0": {
-"en": [
-"BetterHeal",
-true,
-28,
-28
-],
-"ja": [
-"ベターヒール",
-true,
-28,
-28
-]
-},
-"scr_spellinfo_slash_scr_spellinfo_gml_171_0": {
-"en": [
-"Heal\nally",
-true,
-46,
-46
-],
-"ja": [
-"仲間を\n回復",
-true,
-46,
-46
 ]
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_172_0": {
@@ -850611,7 +850765,7 @@ true,
 46
 ]
 },
-"scr_spellinfo_slash_scr_spellinfo_gml_161_0": {
+"scr_spellinfo_slash_scr_spellinfo_gml_152_0_b": {
 "en": [
 null,
 false,
@@ -850619,13 +850773,13 @@ false,
 28
 ],
 "ja": [
-"ヒール",
+"OKヒール",
 true,
 28,
 28
 ]
 },
-"scr_spellinfo_slash_scr_spellinfo_gml_162_0": {
+"scr_spellinfo_slash_scr_spellinfo_gml_153_0_b": {
 "en": [
 null,
 false,
@@ -850633,10 +850787,38 @@ false,
 28
 ],
 "ja": [
-"ヒール",
+"OKヒール",
 true,
 28,
 28
+]
+},
+"scr_spellinfo_slash_scr_spellinfo_gml_154_0": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"並みの\n回復",
+true,
+46,
+46
+]
+},
+"scr_spellinfo_slash_scr_spellinfo_gml_155_0_b": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"カンペキな回復まほうではないものの\nなにか使い道があるかも。",
+true,
+46,
+46
 ]
 },
 "scr_spellinfo_slash_scr_spellinfo_gml_163_0": {
@@ -850662,6 +850844,48 @@ false,
 ],
 "ja": [
 "使い手は　このまほうを\n使いたくないようだ。",
+true,
+46,
+46
+]
+},
+"scr_spellinfo_slash_scr_spellinfo_gml_169_0": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"ベターヒール",
+true,
+28,
+28
+]
+},
+"scr_spellinfo_slash_scr_spellinfo_gml_170_0": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"ベターヒール",
+true,
+28,
+28
+]
+},
+"scr_spellinfo_slash_scr_spellinfo_gml_171_0": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"仲間を\n回復",
 true,
 46,
 46
@@ -850825,27 +851049,13 @@ true,
 },
 "scr_spelltext_slash_scr_spelltext_gml_76_0": {
 "en": [
-"* <span class=\"param\">~1</span> cast OKHEAL!",
-true,
-28,
-28
-],
-"ja": [
-"＊ <span class=\"param\">~1</span>は\n　 OKヒールを唱えた！",
-true,
-46,
-46
-]
-},
-"scr_spelltext_slash_scr_spelltext_gml_69_0_b": {
-"en": [
-"* <span class=\"param\">~1</span> cast BETTERHEAL!",
+"* <span class=\"param\">~1</span> cast HEAL!",
 false,
 28,
 28
 ],
 "ja": [
-"＊ <span class=\"param\">~1</span>は\n　 ベターヒールを唱えた！",
+"＊ <span class=\"param\">~1</span>は\n　 ヒールを唱えた！",
 false,
 46,
 46
@@ -851871,6 +852081,20 @@ false,
 true,
 64,
 64
+]
+},
+"scr_spelltext_slash_scr_spelltext_gml_69_0_b": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"＊ <span class=\"param\">~1</span>は\n　 ベターヒールを唱えた！",
+false,
+46,
+46
 ]
 },
 "scr_spelltext_slash_scr_spelltext_gml_78_0": {
