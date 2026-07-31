@@ -48064,10 +48064,6 @@ obj_readable_room1
 obj_rhythmgame
 ==============
 
-POPU
-
-LARITY
-
 SCORE
 
 MAX COMBO
@@ -61878,8 +61874,6 @@ obj_gerson_rudebuster
 =====================
 
 PRESS
-
-PRESS Z
 
 
 ================
@@ -80006,6 +80000,22 @@ obj_dw_fcastle_orange_puppet_introduction
 =======================
 obj_dw_fcastle_pinkroom
 =======================
+
+* (It's a pink bomb. There's a dial on the back.)
+
+* (Seems you can alter how mean the bombs are.)
+
+Nicer bombs
+
+Meaner bombs
+
+Default
+
+* (The bombs became "NICE".)
+
+* (The bombs became "MEAN"... maybe other things are mean, too.)
+
+* (The bombs were kept on the intended setting.)
 
 * Hello...? Anyone in here?
 

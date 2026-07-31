@@ -346487,34 +346487,6 @@ true,
 }
 },
 "obj_rhythmgame": {
-"obj_rhythmgame_slash_Draw_0_gml_38_0": {
-"en": [
-"POPU",
-false,
-28,
-28
-],
-"ja": [
-"POPU",
-false,
-28,
-28
-]
-},
-"obj_rhythmgame_slash_Draw_0_gml_39_0": {
-"en": [
-"LARITY",
-false,
-28,
-28
-],
-"ja": [
-"LARITY",
-false,
-28,
-28
-]
-},
 "obj_rhythmgame_slash_Draw_0_gml_220_0": {
 "en": [
 "SCORE",
@@ -346580,6 +346552,34 @@ false,
 ],
 "ja": [
 "SPEED",
+false,
+28,
+28
+]
+},
+"obj_rhythmgame_slash_Draw_0_gml_38_0": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"POPU",
+false,
+28,
+28
+]
+},
+"obj_rhythmgame_slash_Draw_0_gml_39_0": {
+"en": [
+null,
+false,
+28,
+28
+],
+"ja": [
+"LARITY",
 false,
 28,
 28
@@ -510085,7 +510085,7 @@ false,
 },
 "obj_gerson_rudebuster_slash_Draw_0_gml_60_0": {
 "en": [
-"PRESS Z",
+null,
 false,
 28,
 28
@@ -558660,7 +558660,7 @@ true,
 "obj_rhythmgame_slash_Draw_0_gml_38_0": {
 "en": [
 null,
-false,
+true,
 28,
 28
 ],
@@ -558674,7 +558674,7 @@ true,
 "obj_rhythmgame_slash_Draw_0_gml_39_0": {
 "en": [
 null,
-false,
+true,
 28,
 28
 ],
@@ -720245,6 +720245,118 @@ false,
 }
 },
 "obj_dw_fcastle_pinkroom": {
+"obj_dw_fcastle_pinkroom_slash_Create_0_gml_115_0": {
+"en": [
+"* (It's a pink bomb. There's a<span class=\"break\">\n  </span>dial on the back.)",
+false,
+46,
+28
+],
+"ja": [
+"＊ (ピンクボムだ。\n　 裏に　ダイヤルがついている)",
+false,
+46,
+46
+]
+},
+"obj_dw_fcastle_pinkroom_slash_Create_0_gml_116_0": {
+"en": [
+"* (Seems you can alter how mean<span class=\"break\">\n  </span>the bombs are.)",
+false,
+46,
+28
+],
+"ja": [
+"＊ (爆弾のエグさを　調節できるようだ)",
+false,
+28,
+28
+]
+},
+"obj_dw_fcastle_pinkroom_slash_Create_0_gml_117_0": {
+"en": [
+"Nicer bombs",
+false,
+28,
+28
+],
+"ja": [
+"やさしめボム",
+false,
+28,
+28
+]
+},
+"obj_dw_fcastle_pinkroom_slash_Create_0_gml_118_0": {
+"en": [
+"Meaner bombs",
+false,
+28,
+28
+],
+"ja": [
+"エグめボム",
+false,
+28,
+28
+]
+},
+"obj_dw_fcastle_pinkroom_slash_Create_0_gml_119_0": {
+"en": [
+"Default",
+false,
+28,
+28
+],
+"ja": [
+"デフォルト",
+false,
+28,
+28
+]
+},
+"obj_dw_fcastle_pinkroom_slash_Create_0_gml_127_0": {
+"en": [
+"* (The bombs became \"NICE\".)",
+false,
+28,
+28
+],
+"ja": [
+"＊ (爆弾は　「やさしめ」になった)",
+false,
+28,
+28
+]
+},
+"obj_dw_fcastle_pinkroom_slash_Create_0_gml_136_0": {
+"en": [
+"* (The bombs became \"MEAN\"...<span class=\"break\">\n  </span>maybe other things are mean,<span class=\"break\">\n  </span>too.)",
+false,
+64,
+28
+],
+"ja": [
+"＊ (爆弾は　「エグめ」になった…\n　 他の何かも　エグくなったかも\n　 しれない)",
+false,
+64,
+64
+]
+},
+"obj_dw_fcastle_pinkroom_slash_Create_0_gml_145_0": {
+"en": [
+"* (The bombs were kept on the<span class=\"break\">\n  </span>intended setting.)",
+false,
+46,
+28
+],
+"ja": [
+"＊ (爆弾は　意図された設定のままに\n　 なった)",
+false,
+46,
+46
+]
+},
 "obj_dw_fcastle_pinkroom_slash_Step_0_gml_85_0": {
 "en": [
 "* Hello...? Anyone in here?",
