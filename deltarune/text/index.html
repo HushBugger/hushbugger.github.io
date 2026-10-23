@@ -2527,7 +2527,7 @@
                         if (match[0] === "<") {
                             const altIdx = match.indexOf('alt="');
                             if (altIdx !== -1) {
-                                return match.slice(altIdx + 5).split('"')[0];
+                                return munge(match.slice(altIdx + 5).split('"')[0]);
                             }
                             return "";
                         }
@@ -2628,14 +2628,15 @@
                                 continue;
                             }
                         } else if (cur instanceof HTMLImageElement) {
-                            if (!foundStart && pos + cur.alt.length >= start) {
+                            const altLen = munge(cur.alt).length;
+                            if (!foundStart && pos + altLen >= start) {
                                 range.setStart(cur, 0);
                                 foundStart = true;
                             }
-                            if (pos + cur.alt.length > start) {
+                            if (pos + altLen > start) {
                                 cur.classList.add("highlit");
                             }
-                            if (foundStart && pos + cur.alt.length >= end) {
+                            if (foundStart && pos + altLen >= end) {
                                 range.setEnd(cur, 0);
                                 ranges.push(range);
                                 range = new Range();
@@ -2643,7 +2644,7 @@
                                 foundStart = false;
                                 continue;
                             }
-                            pos += cur.alt.length;
+                            pos += altLen;
                         }
 
                         if (cur.firstChild) {

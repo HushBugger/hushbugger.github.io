@@ -245,7 +245,7 @@ function preprocess(lang) {
                 if (match[0] === "<") {
                     const altIdx = match.indexOf('alt="');
                     if (altIdx !== -1) {
-                        return match.slice(altIdx + 5).split('"')[0];
+                        return munge(match.slice(altIdx + 5).split('"')[0]);
                     }
                     return "";
                 }
