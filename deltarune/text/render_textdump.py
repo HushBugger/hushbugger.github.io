@@ -512,6 +512,13 @@ def render(
                 # The game hardcodes this in a really bizarre way.
                 out.write("Ñ")
                 linelen += 1
+            case "…" if lang == "en":
+                # Unicode ellipses are sometimes used by mistake but they don't render
+                assert msgid in {
+                    "obj_b2s_tennamonologue_slash_Step_0_gml_30_0",
+                    "obj_hammer_of_justice_enemy_slash_Create_0_gml_206_0",
+                    "obj_mike_attack_controller_slash_Step_0_gml_340_0",
+                }
             case char:
                 if rainbow:
                     # scr_asterskip inserts `||` after newlines
