@@ -743,3 +743,18 @@ def lookup_voiceclip(
     if lang == "ja":
         sound_name = FLOWERY_JA_MAP.get(sound_name)
     return sound_name, None
+
+
+JA_ONLY = {
+    "obj_ch2_scene20_slash_Step_0_gml_375_0_b",
+    "obj_credits_2_slash_Step_0_gml_177_0",
+    "obj_ch3_GSA02_slash_Step_0_gml_702_0",
+    "obj_ch3_GSA02_slash_Step_0_gml_707_0_b",
+    "obj_ch3_GSA02_slash_Step_0_gml_712_0",
+    "obj_ch3_GSA02_slash_Step_0_gml_717_0",
+    "obj_dw_cliff_kawkawdash_slash_Step_0_gml_225_0",
+    "obj_dw_cliff_kawkawdash_slash_Step_0_gml_226_0",
+    "obj_dw_fcastle_cafe_slash_Other_13_gml_3560_0",
+    "obj_dw_fcastle_cafe_slash_Other_13_gml_3561_0",
+    "scr_anyface_slash_scr_anyface_gml_60_0",
+}

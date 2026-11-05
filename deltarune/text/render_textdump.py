@@ -13,6 +13,7 @@ from dataclasses import dataclass, field
 
 from render_data import (
     ALT_TEXTS,
+    JA_ONLY,
     FORCE_WRAP,
     FUNNYTEXT_DIMS,
     FUNNYTEXT_WHITE,
@@ -751,6 +752,9 @@ for n in lang:
         ja = lang[n]["ja"].get(k)
         group = groupify(k)
         if (en and en.strip(" \\C234")) or (ja and ja.strip(" \\C234")):
+            if en == ja and en and not en.isascii():
+                assert k in JA_ONLY
+                en = None
             ren = render(en, k, "en")
             rja = render(ja, k, "ja")
             if k.startswith("scr_rhythmgame_notechart_"):

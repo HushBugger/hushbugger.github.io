@@ -18385,10 +18385,6 @@ obj_ch2_scene20
 
 * A "world" whose Darkners reflect the will of its fountain.
 
-＊ その世界を生み出した
-　 「闇の泉」の意志を
-　 受け継いだ者たちなんだよ。
-
 * But, though those Darkners can exist in their own worlds...
 
 * They might not "belong" if they go to another one.
@@ -21850,8 +21846,6 @@ Chelsea Saunders (pixelatedcrown)
 -UT Character Design-
 
 Betty Kwong (Temmie)
-
-(オワライチョウ／モンスターの子)
 
 -Japanese Localization-
 
@@ -43510,21 +43504,6 @@ obj_ch3_GSA02
 * Well, this is gonna get confusing, isn't it, folks!?
 
 * AAA!? They're already SCREAMING from DELIGHT, folks!!!
-
-＊ いえ！　ワタクシ
-　 ウソは　申しません！
-
-＊ なぜでしょう…
-　 字面から　イラ立ちが
-　 感じられる気が　いたします！
-
-＊ 「ソソソ」？
-　 そんなにコソコソしないで
-　 堂々としてください！！
-
-＊ 「アアア」に　したかったのかな？
-　 …勇者は　みんな　その名前が
-　 好きですねえ…　いいでしょう！
 
 * Hey, hopefully someday you can learn how to spell your own name, too!
 
@@ -77583,10 +77562,6 @@ with you more
 
 * Okay, well, uh... remember.
 
-忘れたんだな。
-
-忘れたんだね。
-
 * (They forgot.)
 
 
@@ -79033,10 +79008,6 @@ Pretty sure I've heard that one before
 🥊  Wow!!! Food from behind my
     back!!! You're the
     best, Green!!
-
-オリジナルじゃねーな…
-
-オリジナルじゃないね…
 
 * (That's not
   original...)
