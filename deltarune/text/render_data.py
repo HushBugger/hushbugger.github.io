@@ -1,7 +1,6 @@
 import string
-from typing import Literal
 from dataclasses import dataclass
-
+from typing import Literal
 
 # These messages are so wide that they bring the maximum textbox width past 400px.
 # But they already have their own hard wraps, so the autosoftwrapping doesn't
@@ -745,16 +744,16 @@ def lookup_voiceclip(
     return sound_name, None
 
 
-JA_ONLY = {
-    "obj_ch2_scene20_slash_Step_0_gml_375_0_b",
-    "obj_credits_2_slash_Step_0_gml_177_0",
-    "obj_ch3_GSA02_slash_Step_0_gml_702_0",
-    "obj_ch3_GSA02_slash_Step_0_gml_707_0_b",
-    "obj_ch3_GSA02_slash_Step_0_gml_712_0",
-    "obj_ch3_GSA02_slash_Step_0_gml_717_0",
-    "obj_dw_cliff_kawkawdash_slash_Step_0_gml_225_0",
-    "obj_dw_cliff_kawkawdash_slash_Step_0_gml_226_0",
-    "obj_dw_fcastle_cafe_slash_Other_13_gml_3560_0",
-    "obj_dw_fcastle_cafe_slash_Other_13_gml_3561_0",
-    "scr_anyface_slash_scr_anyface_gml_60_0",
-}
+def is_ja_only(chap: str, msgid: str) -> bool:
+    return msgid in {
+        "obj_ch2_scene20_slash_Step_0_gml_375_0_b",
+        "obj_ch3_GSA02_slash_Step_0_gml_702_0",
+        "obj_ch3_GSA02_slash_Step_0_gml_707_0_b",
+        "obj_ch3_GSA02_slash_Step_0_gml_712_0",
+        "obj_ch3_GSA02_slash_Step_0_gml_717_0",
+        "obj_dw_cliff_kawkawdash_slash_Step_0_gml_225_0",
+        "obj_dw_cliff_kawkawdash_slash_Step_0_gml_226_0",
+        "obj_dw_fcastle_cafe_slash_Other_13_gml_3560_0",
+        "obj_dw_fcastle_cafe_slash_Other_13_gml_3561_0",
+        "scr_anyface_slash_scr_anyface_gml_60_0",
+    } or (msgid == "obj_credits_2_slash_Step_0_gml_177_0" and chap in "24")

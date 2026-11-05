@@ -13,17 +13,17 @@ from dataclasses import dataclass, field
 
 from render_data import (
     ALT_TEXTS,
-    JA_ONLY,
     FORCE_WRAP,
     FUNNYTEXT_DIMS,
-    FUNNYTEXT_WHITE,
+    FUNNYTEXT_SOUND_BROKEN_JA,
     FUNNYTEXT_SOUNDS,
     FUNNYTEXT_SOUNDS_BROKEN,
-    FUNNYTEXT_SOUND_BROKEN_JA,
+    FUNNYTEXT_WHITE,
     MINIFACE_ALTS,
+    is_ja_only,
+    lookup_voiceclip,
     minifacekind,
     minifacesprite,
-    lookup_voiceclip,
     should_hardwrap,
 )
 
@@ -512,13 +512,6 @@ def render(
                 # The game hardcodes this in a really bizarre way.
                 out.write("Ñ")
                 linelen += 1
-            case "…" if lang == "en":
-                # Unicode ellipses are sometimes used by mistake but they don't render
-                assert msgid in {
-                    "obj_b2s_tennamonologue_slash_Step_0_gml_30_0",
-                    "obj_hammer_of_justice_enemy_slash_Create_0_gml_206_0",
-                    "obj_mike_attack_controller_slash_Step_0_gml_340_0",
-                }
             case char:
                 if rainbow:
                     # scr_asterskip inserts `||` after newlines
@@ -744,6 +737,29 @@ def wrap_msg(lang: str, key: str, text: str | None) -> Message:
     )
 
 
+def cleanup_en(msgid: str, msg: str | None) -> str | None:
+    if msg is None:
+        return None
+
+    if "…" in msg:
+        # Unicode ellipses are sometimes used by mistake but they don't render
+        # Clean them up early so they don't interfere with the ASCII check
+        assert msgid in {
+            "obj_b2s_tennamonologue_slash_Step_0_gml_30_0",
+            "obj_hammer_of_justice_enemy_slash_Create_0_gml_206_0",
+            "obj_mike_attack_controller_slash_Step_0_gml_340_0",
+        }
+        # If an ellipsis is not at the end of a line it might render differently
+        assert not re.search(r"… *[^\n& ]", msg)
+        msg = msg.replace("…", "")
+
+    if "\xa0" in msg:
+        assert msgid == "obj_room_castle_tv_mike_slash_Step_0_gml_456_0"
+        msg = msg.replace("\xa0", "")
+
+    return msg
+
+
 rendered: dict[
     str, dict[str, dict[str, dict[typing.Literal["en", "ja"], Message]]]
 ] = {}
@@ -756,12 +772,14 @@ for n in lang:
         if k == "date":
             continue
         en = lang[n]["en"].get(k)
+        if is_ja_only(n, k):
+            en = None
+        en = cleanup_en(k, en)
         ja = lang[n]["ja"].get(k)
         group = groupify(k)
         if (en and en.strip(" \\C234")) or (ja and ja.strip(" \\C234")):
-            if en == ja and en and not en.isascii():
-                assert k in JA_ONLY
-                en = None
+            if en and not en.isascii():
+                raise Exception(f"nonascii {en=} {k=} {n=}")
             ren = render(en, k, "en")
             rja = render(ja, k, "ja")
             if k.startswith("scr_rhythmgame_notechart_"):

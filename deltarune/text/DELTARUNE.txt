@@ -58096,8 +58096,6 @@ obj_climbstartertrig
 obj_credits
 ===========
 
-(オワライチョウ／モンスターの子)
-
 Chapter 4
 
 in Chapter 5
@@ -88387,7 +88385,7 @@ Don't
 
 * Then how's is they's supposed to be a Mike, too?
 
-* THEY'RE NOT... just get rid of that stupid thing, will ya?! 
+* THEY'RE NOT... just get rid of that stupid thing, will ya?!
 
 
 ===================

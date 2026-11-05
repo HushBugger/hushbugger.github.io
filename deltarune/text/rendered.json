@@ -479115,20 +479115,6 @@ false,
 28
 ]
 },
-"obj_credits_2_slash_Step_0_gml_177_0": {
-"en": [
-"(オワライチョウ／モンスターの子)",
-false,
-28,
-28
-],
-"ja": [
-null,
-false,
-28,
-28
-]
-},
 "obj_credits_2_slash_Step_0_gml_191_0": {
 "en": [
 "-Japanese Localization-",
@@ -786217,7 +786203,7 @@ false,
 },
 "obj_room_castle_tv_mike_slash_Step_0_gml_456_0": {
 "en": [
-"* THEY'RE NOT... just get rid of<span class=\"break\">\n  </span>that stupid thing, will ya?! ",
+"* THEY'RE NOT... just get rid of<span class=\"break\">\n  </span>that stupid thing, will ya?!",
 false,
 46,
 28
