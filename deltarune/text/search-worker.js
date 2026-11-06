@@ -327,8 +327,8 @@ function doSearch(query) {
         }
 
         if (sound) {
-            if ((kind & 1) && enFor(idx).includes("data-sound=")) {
-            } else if ((kind & 2) && jaFor(idx).includes("data-sound=")) {
+            if (kind & 1 && enFor(idx).includes("data-sound=")) {
+            } else if (kind & 2 && jaFor(idx).includes("data-sound=")) {
             } else {
                 return;
             }
