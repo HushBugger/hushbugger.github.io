@@ -5706,7 +5706,7 @@ obj_npc_room_animated
 * (Oh, God, someone's actually here...)
 * Uhhhh...
 
-* Ice E's P"E"ZZA, You're number "#1" Spot for a piping hot pe"E"ce of PEZZA.
+* Ice E's P"E"ZZA, You're number " 1" Spot for a piping hot pe"E"ce of PEZZA.
 
 * ...
 
@@ -8153,7 +8153,7 @@ obj_readable_room1
 
 * (Seems like all of the employees are outside in costume.)
 
-* (Ice E's P"E"ZZA, You're number "#1" Spot for a piping hot pe"E"ce of PEZZA.)
+* (Ice E's P"E"ZZA, You're number " 1" Spot for a piping hot pe"E"ce of PEZZA.)
 
 * (Knock knock knock...)
 
@@ -24136,7 +24136,7 @@ obj_npc_room_animated
 * (Oh, God, someone's actually here...)
 * Uhhhh...
 
-* Ice E's P"E"ZZA, You're number "#1" Spot for a piping hot pe"E"ce of PEZZA.
+* Ice E's P"E"ZZA, You're number " 1" Spot for a piping hot pe"E"ce of PEZZA.
 
 * ...
 
@@ -27887,7 +27887,7 @@ obj_readable_room1
 
 * (Seems like all of the employees are outside in costume.)
 
-* (Ice E's P"E"ZZA, You're number "#1" Spot for a piping hot pe"E"ce of PEZZA.)
+* (Ice E's P"E"ZZA, You're number " 1" Spot for a piping hot pe"E"ce of PEZZA.)
 
 * (Knock knock knock...)
 
@@ -34489,8 +34489,7 @@ Neat paper
 
 * I don't think I'm allowed to say this one.
 
-* It's PRONOUNCED, "The $!?
-  Squad."
+* It's PRONOUNCED, "The $!?  Squad."
 
 * Woah, I'm not allowed to say Tier-TWO swear words!
 
@@ -50624,21 +50623,13 @@ ALL-STAR CAST!
 
 BLUR!
 
-* All you have
-  to do is speak
-  your mind!
+* All you have to do is speak your mind!
 
-* Look me in
-  the nose and
-  SAY IT!
+* Look me in the nose and SAY IT!
 
-* Sorry, what was
-  that?! Couldn't
-  hear you!!
+* Sorry, what was that?! Couldn't hear you!!
 
-* Our contestants
-  have been very
-  naughty!
+* Our contestants have been very naughty!
 
 HEY! Fainting
 isn't part of
@@ -51640,8 +51631,7 @@ scr_encountersetup
 
 * It's an infrared photo shoot.
 
-* That's right folks! One last challenge!
-  1000 points or bust! Can you do it!?
+* That's right folks! One last challenge! 1000 points or bust! Can you do it!?
 
 * Pippins rolls in your way!
 

@@ -32155,7 +32155,7 @@ false,
 },
 "obj_npc_room_animated_slash_Other_10_gml_57_0": {
 "en": [
-"* Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\"#1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.",
+"* Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\" 1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.",
 false,
 64,
 28
@@ -47091,7 +47091,7 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_1301_0": {
 "en": [
-"* (Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\"#1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.)",
+"* (Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\" 1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.)",
 false,
 64,
 28
@@ -153155,7 +153155,7 @@ false,
 },
 "obj_npc_room_animated_slash_Other_10_gml_41_0": {
 "en": [
-"* Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\"#1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.",
+"* Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\" 1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.",
 false,
 64,
 28
@@ -179337,7 +179337,7 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_1146_0": {
 "en": [
-"* (Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\"#1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.)",
+"* (Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\" 1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.)",
 false,
 64,
 28
@@ -224763,16 +224763,16 @@ false,
 },
 "scr_text_slash_scr_text_gml_517_0_b": {
 "en": [
-"* It's PRONOUNCED, \"The $!?\n  Squad.\"",
+"* It's PRONOUNCED, \"The $!? <span class=\"break\">\n  </span>Squad.\"",
 false,
 46,
-46
+28
 ],
 "ja": [
-"＊ It's PRONOUNCED, \"The $!?\n Squad.\"",
+"＊ It's PRONOUNCED, \"The $!? <span class=\"break\">\n</span>Squad.\"",
 false,
 46,
-46
+28
 ]
 },
 "scr_text_slash_scr_text_gml_517_0": {
@@ -322031,7 +322031,7 @@ true,
 },
 "obj_npc_room_animated_slash_Other_10_gml_41_0": {
 "en": [
-"* Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\"#1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.",
+"* Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\" 1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.",
 true,
 64,
 28
@@ -342033,7 +342033,7 @@ true,
 },
 "obj_readable_room1_slash_Other_10_gml_1146_0": {
 "en": [
-"* (Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\"#1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.)",
+"* (Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\" 1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.)",
 true,
 64,
 28
@@ -367477,10 +367477,10 @@ false,
 },
 "obj_tenna_board4_enemy_slash_Step_0_gml_353_0": {
 "en": [
-"* All you have\n  to do is speak\n  your mind!",
+"* All you have to do is speak<span class=\"break\">\n  </span>your mind!",
 false,
-64,
-64
+46,
+28
 ],
 "ja": [
 "＊ さあ！　キミたちの正直なキモチを\n　 そのまま　言えばいいんだよ！",
@@ -367491,10 +367491,10 @@ false,
 },
 "obj_tenna_board4_enemy_slash_Step_0_gml_354_0": {
 "en": [
-"* Look me in\n  the nose and\n  SAY IT!",
+"* Look me in the nose and SAY IT!",
 false,
-64,
-64
+28,
+28
 ],
 "ja": [
 "＊ ワタシの鼻を見つめて\n　 言ってごらん！！",
@@ -367505,10 +367505,10 @@ false,
 },
 "obj_tenna_board4_enemy_slash_Step_0_gml_355_0": {
 "en": [
-"* Sorry, what was\n  that?! Couldn't\n  hear you!!",
+"* Sorry, what was that?! Couldn't<span class=\"break\">\n  </span>hear you!!",
 false,
-64,
-64
+46,
+28
 ],
 "ja": [
 "＊ え～！？　なんだって～！？\n　 聞こえなかったな～！！",
@@ -367519,10 +367519,10 @@ false,
 },
 "obj_tenna_board4_enemy_slash_Step_0_gml_356_0": {
 "en": [
-"* Our contestants\n  have been very\n  naughty!",
+"* Our contestants have been very<span class=\"break\">\n  </span>naughty!",
 false,
-64,
-64
+46,
+28
 ],
 "ja": [
 "＊ 挑戦者たちは　少々\n　 おイタが　すぎるようです！",
@@ -376857,10 +376857,10 @@ false,
 },
 "scr_encountersetup_slash_scr_encountersetup_gml_1065_0": {
 "en": [
-"* That's right folks! One last challenge!\n  1000 points or bust! Can you do it!?",
+"* That's right folks! One last<span class=\"break\">\n  </span>challenge! 1000 points or bust!<span class=\"break\">\n  </span>Can you do it!?",
 false,
-46,
-46
+64,
+28
 ],
 "ja": [
 "＊ さぁ～最終チャレンジだッ！！\n　 目指せ　スコア1000！！\n　 達成できなかったら　ジ・エンド！",
@@ -401807,16 +401807,16 @@ true,
 },
 "scr_text_slash_scr_text_gml_517_0_b": {
 "en": [
-"* It's PRONOUNCED, \"The $!?\n  Squad.\"",
+"* It's PRONOUNCED, \"The $!? <span class=\"break\">\n  </span>Squad.\"",
 true,
 46,
-46
+28
 ],
 "ja": [
-"＊ It's PRONOUNCED, \"The $!?\n Squad.\"",
+"＊ It's PRONOUNCED, \"The $!? <span class=\"break\">\n</span>Squad.\"",
 true,
 46,
-46
+28
 ]
 },
 "scr_text_slash_scr_text_gml_517_0": {
@@ -529357,7 +529357,7 @@ true,
 },
 "obj_npc_room_animated_slash_Other_10_gml_41_0": {
 "en": [
-"* Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\"#1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.",
+"* Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\" 1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.",
 true,
 64,
 28
@@ -550465,7 +550465,7 @@ false,
 },
 "obj_readable_room1_slash_Other_10_gml_1146_0": {
 "en": [
-"* (Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\"#1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.)",
+"* (Ice E's P\"E\"ZZA, You're number<span class=\"break\">\n  </span>\" 1\" Spot for a piping hot<span class=\"break\">\n  </span>pe\"E\"ce of PEZZA.)",
 true,
 64,
 28
@@ -606935,16 +606935,16 @@ true,
 },
 "scr_text_slash_scr_text_gml_517_0_b": {
 "en": [
-"* It's PRONOUNCED, \"The $!?\n  Squad.\"",
+"* It's PRONOUNCED, \"The $!? <span class=\"break\">\n  </span>Squad.\"",
 true,
 46,
-46
+28
 ],
 "ja": [
-"＊ It's PRONOUNCED, \"The $!?\n Squad.\"",
+"＊ It's PRONOUNCED, \"The $!? <span class=\"break\">\n</span>Squad.\"",
 true,
 46,
-46
+28
 ]
 },
 "scr_text_slash_scr_text_gml_517_0": {
@@ -854595,16 +854595,16 @@ true,
 },
 "scr_text_slash_scr_text_gml_517_0_b": {
 "en": [
-"* It's PRONOUNCED, \"The $!?\n  Squad.\"",
+"* It's PRONOUNCED, \"The $!? <span class=\"break\">\n  </span>Squad.\"",
 true,
 46,
-46
+28
 ],
 "ja": [
-"＊ It's PRONOUNCED, \"The $!?\n Squad.\"",
+"＊ It's PRONOUNCED, \"The $!? <span class=\"break\">\n</span>Squad.\"",
 true,
 46,
-46
+28
 ]
 },
 "scr_text_slash_scr_text_gml_517_0": {

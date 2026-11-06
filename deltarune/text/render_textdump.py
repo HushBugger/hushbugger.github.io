@@ -37,6 +37,7 @@ def render(
 ) -> str | None:
     if not text:
         return None
+
     if text in ("/*", "/＊") and "shop" in msgid:
         # Dummy message that shows up in shops if murder == 1.
         # murder is always 0. A carryover from Undertale's murder route
@@ -96,6 +97,23 @@ def render(
         assert "\\O0            おしまい！/%" in text
         text = text.replace("\\O0            おしまい！/%", "\\O0\n\u3000 おしまい！/%")
 
+    if msgid.startswith(
+        (
+            "obj_readable_room1",
+            "obj_npc_room_animated_slash_Other_10_gml_41_0",
+            "obj_npc_room_animated_slash_Other_10_gml_57_0",
+            "obj_bloxer_enemy_slash_Step_0_gml_135_1",
+            "scr_text_slash_scr_text_gml_517_0_b",
+            "scr_encountersetup_slash_scr_encountersetup_gml_1065_0",
+            "obj_tenna_board4_enemy_",
+        )
+    ):
+        # The `#`s in these messages are meant to either render literally (e.g. `"#1" Spot`)
+        # or be rendered as newlines, but because the game draws each glyph individually
+        # and GameMaker interprets them as newlines they effectively become blank spaces.
+        # Replace them here so the softwraps don't get confused.
+        text = text.replace("#", " ")
+
     out = io.StringIO()
     color = "W"
     i = 0
@@ -114,9 +132,7 @@ def render(
         if (
             linelen > MAX_LINE_LEN
             and ("\n" not in text or msgid in FORCE_WRAP)
-            and (
-                "#" not in text or '"#1"' in text or msgid in FORCE_WRAP or "`#" in text
-            )
+            and ("#" not in text or msgid in FORCE_WRAP or "`#" in text)
             and not out.getvalue().endswith((" ", "\u3000"))
         ):
             *head, tail = out.getvalue().rsplit("\n", 1)
@@ -400,20 +416,6 @@ def render(
             # case "&" if "#" in text:
             #     out.write("&amp;")
             #     linelen += 1
-            case "#" if msgid.startswith(
-                (
-                    "obj_readable_room1",
-                    "obj_npc_room_animated_slash_Other_10_gml_41_0",
-                    "obj_npc_room_animated_slash_Other_10_gml_57_0",
-                )
-            ):
-                out.write("#")
-                linelen += 1
-            case "#" if msgid.startswith("obj_bloxer_enemy_slash_Step_0_gml_135_1"):
-                # Becomes a space according to Bloxer footage?
-                # Confusing. Maybe the game squeezes double spaces?
-                out.write(" ")
-                linelen += 1
             case "&" if (
                 lang == "en"
                 and msgid == "obj_dw_garden_starwalkerdash_slash_Create_0_gml_53_0"
