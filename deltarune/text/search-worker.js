@@ -240,7 +240,7 @@ function preprocess(lang) {
      */
     function munge(text) {
         return text.replace(
-            /<[^>]*>|[ \n\u3000]{2,}|[\n\u3000]|&gt;|&lt;|&amp;|[！？＊。～：（）“”’…]/g,
+            /<[^>]*>|[ \n\u3000\u00a0]{2,}|[\n\u3000\u00a0]|&gt;|&lt;|&amp;|[！？＊。～：（）“”’…]/g,
             function (match) {
                 if (match[0] === "<") {
                     const altIdx = match.indexOf('alt="');
