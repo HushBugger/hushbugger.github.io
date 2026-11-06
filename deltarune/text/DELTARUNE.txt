@@ -31512,6 +31512,8 @@ RATE
 
 *
 
+&
+
 
 =================
 obj_zpoppup_enemy
@@ -75087,8 +75089,7 @@ Lancers.
 The pinnacle
 of elegance,
 you will look
-normal
-good.
+normal&good.
 
 -Swag Jacket-
 The King of
@@ -78307,7 +78308,7 @@ Pink
 
 Kris
 
- 
+ &
 
 Exit
 
@@ -81827,7 +81828,7 @@ Huh!? Why the hell not??
 * It's going to ruin
   the economy!!!
 
-Oh $#*!
+Oh $#&*!
 
 * (You took one dollar from the box.)
 
@@ -94593,8 +94594,7 @@ An immobile scarecrow who yells out the names of his special super hero attacks.
 
 Showing his moves
 
-Kikky 
- Kawkaw
+Kikky & Kawkaw
 
 SCYTHE
 

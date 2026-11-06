@@ -203610,6 +203610,20 @@ false,
 28,
 28
 ]
+},
+"obj_wordbullet_slash_Draw_0_gml_15_4": {
+"en": [
+"&amp;",
+false,
+28,
+28
+],
+"ja": [
+"&amp;",
+false,
+28,
+28
+]
 }
 },
 "obj_zpoppup_enemy": {
@@ -682671,10 +682685,10 @@ false,
 },
 "obj_ch5_LW07_thrashfit_description_slash_Create_0_gml_53_0": {
 "en": [
-"-Royal Dress-\nThe pinnacle\nof elegance,\nyou will look\nnormal\ngood.",
+"-Royal Dress-\nThe pinnacle\nof elegance,\nyou will look\nnormal&amp;good.",
 false,
-118,
-118
+100,
+100
 ],
 "ja": [
 "-ロイヤルドレス-\nエレガントの\n極み。\nすごくフツーの\nいいコに見える。",
@@ -711415,7 +711429,7 @@ false,
 },
 "obj_dw_fcastle_cafe_slash_Create_0_gml_179_0": {
 "en": [
-" ",
+" &amp;",
 false,
 28,
 28
@@ -731443,7 +731457,7 @@ false,
 },
 "obj_dw_garden_enemyrush_slash_Other_14_gml_78_0": {
 "en": [
-"Oh $#*!",
+"Oh $#&amp;*!",
 false,
 28,
 28
@@ -847345,10 +847359,10 @@ false,
 },
 "scr_recruit_info_slash_scr_recruit_info_gml_630_0": {
 "en": [
-"Kikky \n Kawkaw",
+"Kikky &amp; Kawkaw",
 false,
-46,
-46
+28,
+28
 ],
 "ja": [
 "キッキーとカーカー",

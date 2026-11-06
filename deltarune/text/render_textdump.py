@@ -208,6 +208,10 @@ def render(
     while i < len(text):
         wrapline()
         match text[i]:
+            case "\\" if text[i + 1] == "#":
+                out.write("#")
+                linelen += 1
+                i += 1
             case "\\":
                 match text[i + 1]:
                     case "c" if text[i + 2] == "Z":
@@ -345,9 +349,6 @@ def render(
                         voiceclip, altvoiceclip = lookup_voiceclip(
                             text[i + 2], msgid, lang
                         )
-                    case "#":
-                        out.write("#")
-                        linelen += 1
                     case ch:
                         print(ch)
                         print(text)
@@ -401,6 +402,11 @@ def render(
                         "scr_spellinfo_slash_scr_spellinfo_gml_24_0",
                         "scr_spellinfo_slash_scr_spellinfo_gml_55_0",
                         "scr_armorinfo_slash_scr_armorinfo_gml_740_0",
+                        "scr_recruit_info_slash_scr_recruit_info_gml_630_0",
+                        "obj_ch5_LW07_thrashfit_description_slash_Create_0_gml_53_0",
+                        "obj_dw_fcastle_cafe_slash_Create_0_gml_179_0",
+                        "obj_wordbullet_slash_Draw_0_gml_15_4",
+                        "obj_dw_garden_enemyrush_slash_Other_14_gml_78_0",
                     )
                 )
                 and msgid
