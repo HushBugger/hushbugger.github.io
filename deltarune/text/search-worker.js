@@ -215,14 +215,7 @@ function preprocess(lang) {
     preprocessed[lang] = true;
 
     const normalizeMap = new Map([
-        ["！", "!"],
-        ["？", "?"],
-        ["＊", "*"],
         ["。", "."],
-        ["～", "~"],
-        ["：", ":"],
-        ["（", "("],
-        ["）", ")"],
         ["…", "..."],
         ["&gt;", ">"],
         ["&lt;", "<"],
@@ -234,13 +227,21 @@ function preprocess(lang) {
         ["\u201D", '"'],
     ]);
 
+    /** @param {string} text */
+    function normalize(text) {
+        if (text.length === 1 && text.charCodeAt(0) >= 0xff01 && text.charCodeAt(0) <= 0xff5e) {
+            return String.fromCharCode(text.charCodeAt(0) - 0xfee0);
+        }
+        return normalizeMap.get(text);
+    }
+
     /**
      * @param {string} text
      * @return {string}
      */
     function munge(text) {
         return text.replace(
-            /<[^>]*>|[ \n\u3000\u00a0]{2,}|[\n\u3000\u00a0]|&gt;|&lt;|&amp;|[！？＊。～：（）“”’…]/g,
+            /<[^>]*>|[ \n\u3000\u00a0]{2,}|[\n\u3000\u00a0]|&gt;|&lt;|&amp;|[\uff01-\uff5e。“”’…]/g,
             function (match) {
                 if (match[0] === "<") {
                     const altIdx = match.indexOf('alt="');
@@ -249,7 +250,7 @@ function preprocess(lang) {
                     }
                     return "";
                 }
-                return normalizeMap.get(match) || " ";
+                return normalize(match) || " ";
             }
         );
     }

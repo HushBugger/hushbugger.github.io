@@ -2163,19 +2163,13 @@
             });
 
             const normalizeMap = new Map([
-                ["！", "!"],
-                ["？", "?"],
-                ["＊", "*"],
                 ["。", "."],
-                ["～", "~"],
-                ["：", ":"],
-                ["（", "("],
-                ["）", ")"],
                 ["…", "..."],
                 ["&gt;", ">"],
                 ["&lt;", "<"],
                 ["&amp;", "&"],
                 // Wikipedia apostrophes matched by Firefox or Chromium
+                // (excluding the full-width ASCII range)
                 ["\u02B9", "'"],
                 ["\u02BB", "'"],
                 ["\u02BC", "'"],
@@ -2186,7 +2180,6 @@
                 ["\u2019", "'"],
                 ["\u201B", "'"],
                 ["\u2032", "'"],
-                ["\uFF07", "'"],
                 // Same for quotation marks
                 ["\u201C", '"'],
                 ["\u201D", '"'],
@@ -2196,10 +2189,19 @@
                 ["\u301D", '"'],
                 ["\u301E", '"'],
                 ["\u301F", '"'],
-                ["\uFF02", '"'],
-                // Only relevant for Japanese search input (not in game text)
-                ["\uFF1B", ";"],
             ]);
+
+            /** @param {string} text */
+            function normalize(text) {
+                if (
+                    text.length === 1 &&
+                    text.charCodeAt(0) >= 0xff01 &&
+                    text.charCodeAt(0) <= 0xff5e
+                ) {
+                    return String.fromCharCode(text.charCodeAt(0) - 0xfee0);
+                }
+                return normalizeMap.get(text);
+            }
 
             /**
              * @return {[RegExp | null, SearchOption[]]}
@@ -2256,7 +2258,7 @@
                         flags += "u";
                     }
                     for (const char of input) {
-                        const replacement = normalizeMap.get(char);
+                        const replacement = normalize(char);
                         if (replacement) {
                             if (replacement === "...") {
                                 rawPattern += "\\.\\.\\.";
@@ -2271,7 +2273,7 @@
                     }
                 } else {
                     for (let char of input) {
-                        char = normalizeMap.get(char) || char;
+                        char = normalize(char) || char;
                         // RegExp.escape() is too modern.
                         // AFAICT this is good enough for our purposes.
                         if (char === "...") {
@@ -2522,7 +2524,7 @@
              */
             function munge(text) {
                 return text.replace(
-                    /<[^>]*>|[ \n\u3000\u00a0]{2,}|[\n\u3000\u00a0]|&gt;|&lt;|&amp;|[！？＊。～：（）“”’…]/g,
+                    /<[^>]*>|[ \n\u3000\u00a0]{2,}|[\n\u3000\u00a0]|&gt;|&lt;|&amp;|[\uff01-\uff5e。“”’…]/g,
                     function (match) {
                         if (match[0] === "<") {
                             const altIdx = match.indexOf('alt="');
@@ -2531,7 +2533,7 @@
                             }
                             return "";
                         }
-                        return normalizeMap.get(match) || " ";
+                        return normalize(match) || " ";
                     }
                 );
             }
