@@ -440,8 +440,7 @@ def render(
             case "\t":
                 raise RuntimeError(f"Bad tab in {msgid=} {text=}")
             case "^":
-                if text[i + 1].isdigit():
-                    i += 1
+                i += 1
             case "%" if (
                 (
                     msgid.startswith(
