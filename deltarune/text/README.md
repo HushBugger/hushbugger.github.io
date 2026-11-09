@@ -4,9 +4,9 @@ This is the source code for the Deltarune Text Dump.
 
 - `extract_textdump.py` in combination with Undertale Mod Tool's output generates `lang.json`.
 
-- `render_textdump.py` turns it into HTML and organizes it, outputting `rendered.json`. This is the most fiddly part of the system.
+- `render_textdump.py` turns it into HTML and organizes it, outputting `rendered.json`/`rendered.bin`. This is the most fiddly part of the system.
 
-- `sourcemap.json` maps messages to the line of source code where they appear. It tries to match https://code.deltarune.wiki/ but the details depend on the Deltarune version and possibly the UTMT version so there may be differences.
+- `sourcemap.json`/`sourcemap.bin` maps messages to the line of source code where they appear. It tries to match https://code.deltarune.wiki/ but the details depend on the Deltarune version and possibly the UTMT version so there may be differences.
 
 Issues and pull requests are welcome!
 
