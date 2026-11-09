@@ -18,9 +18,9 @@ Game data extracted using [UndertaleModTool](https://github.com/UnderminersTeam/
 
 Logo based on the vectorization at https://commons.wikimedia.org/wiki/File:Deltarune_vector_logo.svg.
 
-`JF-Dot-Shinonome-14-Regular.woff` was downloaded from http://jikasei.me/font/jf-dotfont/ (`JF-Dot-Shinonome14.ttf`) and converted to WOFF with FontForge.
+`JF-Dot-Shinonome-14-Regular.woff` was downloaded from http://jikasei.me/font/jf-dotfont/ (`JF-Dot-Shinonome14.ttf`) and converted to WOFF with FontForge. I also added a ヷ glyph based on the one in-game.
 
-`8bitoperator-UTM.woff` is a version of 8bitoperator JVE that I modified in FontForge.
+`8bitoperator-UTM.woff` is a version of 8bitoperator JVE that I modified in FontForge. (I made it monospaced like the game, removed all non-ASCII glyphs, then added Ñ, ♥, and ∞.)
 
 SVG icons from https://commons.wikimedia.org/wiki/Category:Bootstrap_Icons.
 
