@@ -1,0 +1,41 @@
+name: Deploy site
+
+on:
+  push:
+    branches:
+    - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+      with:
+        submodules: true
+    - name: Build generated files
+      run: |
+        cd deltarune/text
+        python3 -B ./render_textdump.py
+        git diff --exit-code
+    - uses: actions/upload-pages-artifact@v5
+      with:
+        path: .
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
