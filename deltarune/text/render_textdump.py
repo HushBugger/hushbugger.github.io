@@ -904,9 +904,6 @@ def dumpbin():
     jabuf = StringBuf()
     sourcebuf = StringBuf()
 
-    with open("sourcemap.json", encoding="utf8") as f:
-        sourcemap: dict[str, dict[str, str]] = json.load(f)
-
     for chap in rendered:
         chapstarts.append(len(msgs))
         msgs.append(
