@@ -2911,6 +2911,7 @@
                         (!control && event.key === "F3"))
                 ) {
                     event.preventDefault();
+                    setSearchHidden(false);
                     searchBar.focus();
                     searchBar.select();
                     announceResultText = true;
