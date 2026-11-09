@@ -2905,7 +2905,11 @@
                     event.preventDefault();
                     searchBar.blur();
                     setSearchHidden("very");
-                } else if (!event.altKey && control && (event.key === "g" || event.key === "G")) {
+                } else if (
+                    !event.altKey &&
+                    ((control && (event.key === "g" || event.key === "G")) ||
+                        (!control && event.key === "F3"))
+                ) {
                     event.preventDefault();
                     searchBar.focus();
                     searchBar.select();
