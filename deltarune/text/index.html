@@ -24,7 +24,9 @@
 
             @font-face {
                 font-family: "JF Dot Shinonome 14 Regular";
-                src: url("style/JF-Dot-Shinonome-14-Regular.woff") format("woff");
+                src:
+                    url("style/JF-Dot-Shinonome-14-Regular-subset.woff2") format("woff2"),
+                    url("style/JF-Dot-Shinonome-14-Regular.woff") format("woff");
             }
 
             html {
@@ -1177,7 +1179,7 @@
                 link.rel = "preload";
                 link.as = "font";
                 link.crossOrigin = "anonymous";
-                link.href = "style/JF-Dot-Shinonome-14-Regular.woff";
+                link.href = "style/JF-Dot-Shinonome-14-Regular-subset.woff2";
                 document.head.appendChild(link);
             }
 
