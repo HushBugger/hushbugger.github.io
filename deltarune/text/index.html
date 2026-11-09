@@ -1670,10 +1670,10 @@
                 curRendered = thisRender;
             }
 
-            /** @type {Map<HTMLElement, Range[]>} */
+            /** @type {Map<HTMLElement, AbstractRange[]>} */
             const activeTextSections = new Map();
 
-            /** @type {Map<HTMLElement, Range[]>} */
+            /** @type {Map<HTMLElement, AbstractRange[]>} */
             const activeSearchSections = new Map();
 
             /** @type {Set<HTMLElement>} */
@@ -1743,7 +1743,12 @@
                     return;
                 }
                 section.innerHTML = "";
+                const ranges = activeTextSections.get(section);
                 activeTextSections.delete(section);
+                if (ranges && ranges.length) {
+                    // Firefox highlight sets break when StaticRange'd nodes disappear
+                    applyTextHighlights();
+                }
                 deferredUnloadedText.delete(section);
             }
 
@@ -1866,7 +1871,7 @@
                     return;
                 }
                 const chunk = +section.id.slice(6);
-                /** @type {Range[]} */
+                /** @type {AbstractRange[]} */
                 const ranges = [];
                 activeTextSections.set(section, ranges);
 
@@ -2346,6 +2351,7 @@
             function renderSearchResults() {
                 searchResultsByChunk.clear();
                 activeSearchSections.clear();
+                applySearchHighlights();
                 searchObserver.disconnect();
                 searchResultsDiv.innerHTML = "";
                 searchResultsDiv.removeAttribute("aria-activedescendant");
@@ -2459,6 +2465,7 @@
                         } else if (!(focusedResult && focusedResult.parentElement === section)) {
                             section.innerHTML = "";
                             activeSearchSections.delete(section);
+                            applySearchHighlights();
                         }
                     }
                 },
@@ -2545,7 +2552,7 @@
             /**
              * @param {HTMLElement} elem
              * @param {number} msgIdx
-             * @returns {Range[]}
+             * @returns {AbstractRange[]}
              */
             function highlightElem(elem, msgIdx) {
                 if (!searchQuery) {
@@ -2577,12 +2584,18 @@
                 if (!matches.length) {
                     return [];
                 }
-                /** @type {Range[]} */
+                /** @type {AbstractRange[]} */
                 const ranges = [];
                 try {
                     /** @type {ChildNode[]} */
                     const stack = [elem];
-                    let range = new Range();
+                    /** @type {StaticRangeInit} */
+                    const range = {
+                        startContainer: elem,
+                        startOffset: 0,
+                        endContainer: elem,
+                        endOffset: 0,
+                    };
                     let matchIdx = 0;
                     let pos = 0;
                     let foundStart = false;
@@ -2603,23 +2616,24 @@
                                     realWidth = posWidth = piece.length;
                                 }
                                 if (!foundStart && pos + posWidth >= start) {
+                                    range.startContainer = cur;
                                     if (piece === "…" && pos + posWidth > start) {
-                                        range.setStart(cur, elemPos);
+                                        range.startOffset = elemPos;
                                     } else if (isSpecial) {
-                                        range.setStart(cur, elemPos + realWidth);
+                                        range.startOffset = elemPos + realWidth;
                                     } else {
-                                        range.setStart(cur, start - pos + elemPos);
+                                        range.startOffset = start - pos + elemPos;
                                     }
                                     foundStart = true;
                                 }
                                 if (foundStart && pos + posWidth >= end) {
+                                    range.endContainer = cur;
                                     if (isSpecial) {
-                                        range.setEnd(cur, elemPos + realWidth);
+                                        range.endOffset = elemPos + realWidth;
                                     } else {
-                                        range.setEnd(cur, end - pos + elemPos);
+                                        range.endOffset = end - pos + elemPos;
                                     }
-                                    ranges.push(range);
-                                    range = new Range();
+                                    ranges.push(new StaticRange(range));
                                     matchIdx++;
                                     foundStart = false;
                                     gotoNextMatch = true;
@@ -2636,16 +2650,17 @@
                         } else if (cur instanceof HTMLImageElement) {
                             const altLen = munge(cur.alt).length;
                             if (!foundStart && pos + altLen >= start) {
-                                range.setStart(cur, 0);
+                                range.startContainer = cur;
+                                range.startOffset = 0;
                                 foundStart = true;
                             }
                             if (pos + altLen > start) {
                                 cur.classList.add("highlit");
                             }
                             if (foundStart && pos + altLen >= end) {
-                                range.setEnd(cur, 0);
-                                ranges.push(range);
-                                range = new Range();
+                                range.endContainer = cur;
+                                range.endOffset = 0;
+                                ranges.push(new StaticRange(range));
                                 matchIdx++;
                                 foundStart = false;
                                 continue;
