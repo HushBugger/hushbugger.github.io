@@ -319,6 +319,8 @@ THE DARK
 DEVICE_MENU
 ===========
 
+CHAPTER 1
+
 [EMPTY]
 
 FILE0
@@ -1895,6 +1897,10 @@ both of you...
 ==================
 obj_darkcontroller
 ==================
+
+---------
+
+---------
 
 D$
 
@@ -9398,6 +9404,14 @@ obj_smallcheckers_enemy
 * (M-maybe I should talk to her...)
 
 
+================
+obj_splashscreen
+================
+
+Visit the UNDERTALE page
+in the
+
+
 =====================
 obj_suitspuzzle_event
 =====================
@@ -9818,6 +9832,17 @@ obj_tem_school
 * NEVER HATCH!!!
 
 * (The hardboiled egg emanates a feeling of pity towards you.)
+
+
+==============
+obj_tensionbar
+==============
+
+M
+
+A
+
+X
 
 
 =====================
@@ -14820,6 +14845,8 @@ Chapter Select
 
 End Program
 
+English
+
 Start Chapter 2 from Chapter 1's FILE.
 
 This will start Chapter 2 in FILE Slot ~1.
@@ -14908,6 +14935,13 @@ JOCKINGTON
 QC
 
 
+===========
+PROCESS_DOG
+===========
+
+DOGTARUNE
+
+
 ======
 UNUSED
 ======
@@ -14942,6 +14976,22 @@ HIT IT
 Press ~1
 Or ~2 If
 You Dare
+
+X
+
+Z
+
+X
+
+Z
+
+X
+
+Z
+
+X
+
+Z
 
 Shut up, that was
 just a warm up!
@@ -15011,6 +15061,17 @@ to Duck!
 * Detachable Hands
 
 
+==================
+o_coaster_hero_old
+==================
+
+Z!
+
+X!
+
+C!
+
+
 ====================
 obj_battlecontroller
 ====================
@@ -15020,6 +15081,10 @@ HP
 Standard
 
 MERCY
+
+R-Action - Standard
+
+N-Action - Standard
 
 Berdly
 
@@ -15035,6 +15100,17 @@ Berdly
 * You won!
 * Got ~1 D$.
 * Noelle became stronger.
+
+
+================
+obj_battletester
+================
+
+6: full party. 7:kris only. 8:kris and ralsei 9: kris + noelle
+
+Adjust EncounterNo:
+1- 2+
+3----- 4+++++
 
 
 =================
@@ -15361,6 +15437,16 @@ obj_bqueen_intro
 ================
 
 * Finally... a worthy opponent...
+
+
+================
+obj_bullettester
+================
+
+1 , 2 , 3 Enable/Disable Enemy.
+Spacebar - Reset Room.
+
+4 - neverending@turn
 
 
 ====================
@@ -21064,6 +21150,15 @@ obj_ch2_town_graveyard
 
 
 ====================
+obj_chapter_continue
+====================
+
+Continue to Chapter ~1
+
+Keep Playing Chapter ~1
+
+
+====================
 obj_checker_animtest
 ====================
 
@@ -21795,15 +21890,47 @@ obj_credits
 
 -Trailers & All Video Editing-
 
+Chris Warriner
+
+Ryan Alyea
+
+Alexandro Arvizu
+
+Dan Moore
+
+Jack Murphy
+
+heavenchai
+
+Charlie Verdin
+
+Steven Thompson
+
+Everdraed
+
 -Main Artist-
 
 -Main Animator-
 
+Temmie Chang
+
 -Main Team-
+
+Sarah O'Donnell
+
+Juju (Taxiderby)
+
+Fred Wood
+
+Jean Canellas
+
+Xan Wetherall
 
 -BG Concept Art-
 
 (Cyber Field, City, Mansion)
+
+Gigi DG
 
 -Dark World Costume Design-
 
@@ -21817,11 +21944,17 @@ Tcheska Lynn B (chess) [Berdly]
 
 (Clover, King, Jevil)
 
+Kanotynes
+
 -Singing This Song-
+
+Laura Shigihara
 
 -Guest Character Design-
 
 (Poppup, Ambyu-Lance, Hacker, etc.)
+
+Samanthuel Gillson (splendidland)
 
 -Guest Character Design-
 
@@ -21829,11 +21962,27 @@ Tcheska Lynn B (chess) [Berdly]
 
 (Tasque Manager)
 
+NELNAL
+
 -Pixel Art Assistance-
+
+Shawn (puppiesandanime)
+
+Kenju
+
+Tcheska Lynn B (chess)
+
+Satoshi Maruyama
 
 -Development Tools (Cool)-
 
+Juju Adams
+
 -Programming Assistance-
+
+Sara Spalding
+
+Lars Korendijk
 
 -Cutscene Assistance-
 
@@ -21843,9 +21992,17 @@ Chelsea Saunders (pixelatedcrown)
 
 -Music Assistance-
 
+Lena Raine
+
+Marcy Nabors
+
 -UT Character Design-
 
 Betty Kwong (Temmie)
+
+Magnolia Porter (Snowdrake, Monster Kid)
+
+Magnolia Porter
 
 -Japanese Localization-
 
@@ -21853,15 +22010,35 @@ Betty Kwong (Temmie)
 
 -Translator-
 
+Keiko Fukuichi
+
 -Localization Producers-
+
+Graeme Howard
+
+John Ricciardi
 
 -Localization Support-
 
+Tina Carter
+
+Yutaka Ohbuchi
+
+Sami Ragone
+
 -Platform Programming-
+
+Sarah O'Donnell
+
+Enjl
 
 -Programming Support-
 
+Gregg Tavares
+
 -Japanese Graphics-
+
+256graph
 
 -QA-
 
@@ -21877,11 +22054,29 @@ Shinji Yasue [Sales Dept]
 
 -Super Testers-
 
+AlexMdle
+
+PureQuestion
+
 -Website-
+
+Brian Coia
 
 -Special Thanks-
 
+Hiroko Minamoto
+
+Fontworks Inc.
+
+Yutaka Sato (Happy Ruika)
+
 All 8-4 & Fangamer Staff
+
+Claire & Andrew
+
+Brian Lee
+
+YoYo Games
 
 Chapter 2
 
@@ -21889,29 +22084,69 @@ To be continued
 
 (Sepia and Menu Art)
 
+Temmie Chang
+
 Main Team
+
+Sarah O'Donnell
+
+Juju (taxiderby)
+
+Fred Wood
+
+Jean Canellas
+
+Kanotynes
 
 Area Concept Art
 
 Dark World Costume Design
 
+Gigi DG
+
 Programming Help
+
+Shaun Spalding
 
 Character Design Assistance
 
+Samanthuel Gillson (splendidland)
+
 Cutscene Assistance
+
+Chess
+
+PixelatedCrown
 
 Shop and BG Pixel Assistance
 
+Shawn (puppiesandanime)
+
+Kenju
+
 Music Assistance
 
+Lena Raine
+
+Marcy Nabors
+
 Fireworks Effect
+
+Lars Korendijk
 
 8-4 Ltd.
 
 Testers
 
+Tester A
+
+Tester B
+
 Website
+
+Ryan
+
+Brian
 
 Fangamer
 
@@ -22079,6 +22314,12 @@ Doesn't even
 have a photo.
 
 Sweetness
+
+:
+
+97
+
+97
 
 LV1 Snowcaster
 Might be able to
@@ -22600,7 +22841,11 @@ Press ~1 to Return
 
 HELD
 
+POCKET
+
 RESERVE
+
+STORAGE
 
 Page
 
@@ -22723,6 +22968,15 @@ Rouxls Kaard
 It's Pronounced "Rules"
 
 Lantern
+
+
+================
+obj_gif_analyzer
+================
+
+This is broken bc GM cant import gifs. lol. see you in 2.3
+
+GIF not found.
 
 
 ===================
@@ -22994,6 +23248,13 @@ obj_initializer2
 ================
 
 Dynamic
+
+
+=============
+obj_intro_ch2
+=============
+
+CHAPTER 2
 
 
 ============
@@ -23534,6 +23795,21 @@ dance with you!
 * (Cap'n snapped out of the dance!)
 
 
+=====================
+obj_musical_sync_test
+=====================
+
+Press left/right arrow key to make track skip backwards/forwards
+
+Press up/down arrow key to change track selected
+
+Press R to reset
+
+Press Z to change frame count to second count
+
+Press X to sync solo to backing track
+
+
 ============
 obj_npc_cafe
 ============
@@ -23740,6 +24016,8 @@ obj_npc_facing
 ==============
 
 * Is that a cut on your face, or part of your eye?
+
+* [NO TEXT] (obj_npc_facing)
 
 * Don't worry, Kris!
 
@@ -24107,6 +24385,8 @@ obj_npc_police
 obj_npc_room_animated
 =====================
 
+* [NO TEXT] (obj_npc_room_animated)
+
 * Would you be interested in trying some of our many 24 Pezza Flavors?
 
 * We've got Normal,
@@ -24461,6 +24741,8 @@ obj_npc_room
 ============
 
 * The gash weaves down as if you cry.
+
+* [NO TEXT] (obj_npc_room)
 
 * It's a red wagon with a rusty birdcage in it.
 
@@ -25874,6 +26156,8 @@ obj_npc_sign
 * You can't read these symbols...
 * Or maybe it's the handwriting.
 
+* [NO TEXT] (obj_npc_sign)
+
 BottomLeft
 
 RightTop
@@ -26758,6 +27042,13 @@ Randomized String 1
 * Wh-what!? What did I do wrong??
 
 
+==========================
+obj_queen_buffercontroller
+==========================
+
+Buffering...
+
+
 ===============
 obj_queen_enemy
 ===============
@@ -27204,6 +27495,8 @@ obj_readable_room1
 
 * Suddenly, your body seizes up.
 * What are you looking at?
+
+* [NO TEXT] (obj_readable_room1)
 
 * There are CDs under the bed.
 * Classical, jazz, religious ska...
@@ -30681,6 +30974,18 @@ WATCH ME FLY,
 [MAMA]!!!!
 
 
+==================
+obj_spritecomparer
+==================
+
+1 or 2 or 3:select sprite to move
+Press 4 or 5 or 6:Change sprite
+Press 7 or 8 or 9: Visibility toggle
+Arrows: Adjust.
+H: Edit hitbox of Sprite1
+S: Save changes (this play session only)
+
+
 ====================
 obj_swatchling_enemy
 ====================
@@ -31179,11 +31484,29 @@ A
 X
 
 
+====================================
+obj_thrash_transformation_controller
+====================================
+
+Kris is the head
+
+I'll be tha arms
+
+I'll be the legs
+
+
 ===============
 obj_throwralsei
 ===============
 
 * Press ~1 to determine the POWER!
+
+
+=====================
+obj_title_placeholder
+=====================
+
+Chapter 2
 
 
 =================
@@ -40346,6 +40669,29 @@ Won't someone please help me?
 Hey kid, let's keep this show rolling!
 
 
+===============
+obj_b1push2_old
+===============
+
+OH... 
+IT'S THIS
+PUZZLE AGAIN.
+
+JUST SOLVE IT
+AND LET'S
+MOVE ON.
+
+WHAT A
+WASTE OF
+TIME.
+
+I think I might have an idea
+how to help solve this puzzle.
+
+WHAT THE HECK KINDA
+PUZZLE WAS THAT?!
+
+
 ===========
 obj_b1push2
 ===========
@@ -40654,6 +41000,8 @@ been there.
 
 A little past... what would we could see.
 
+...
+
 ... were you
 scared?
 
@@ -40663,6 +41011,8 @@ It could've been... trouble.
 
 Like, if Tenna
 caught us?
+
+...
 
 Well, we're headed back now, 'k?
 
@@ -41393,6 +41743,8 @@ UH OH, GIG'S UP!
 obj_b2pyramidrouxlsstore
 ========================
 
+1
+
 FREE
 
 YON CRUD, I DIDN'T
@@ -41526,6 +41878,8 @@ Heh, I think I know where we're going.
 ================
 obj_b2savelancer
 ================
+
+9
 
 PLEASE BUY THIS BOY!
 HE'S MAKING ME LOSE
@@ -41845,6 +42199,8 @@ obj_b3bs_zapper_b
 obj_b3camerashop
 ================
 
+100
+
 CAMERA
 
 LANCER
@@ -42109,7 +42465,13 @@ D
 obj_battlecontroller
 ====================
 
+???
+
 X
+
+R-Action - Standard
+
+N-Action - Standard
 
 * Escaped...
 
@@ -42634,6 +42996,13 @@ YOU DIDN'T EVEN KNOW THAT!?
 HA HA HA HA -- OH NO, MY NOSE FELL ASLEEP!
 
 
+====================
+obj_board_grayregion
+====================
+
+0
+
+
 =================================
 obj_board_investigatable_template
 =================================
@@ -42648,6 +43017,9 @@ obj_board_investigatable_template
 =============
 obj_board_npc
 =============
+
+* FOUND THE SECRET OF "MICHAEL."
+* ALL MICHAELS NOW ADDED TO INVENTORY.
 
 HELLO AND WELCOME TO THE TEST NPC.
 
@@ -42854,6 +43226,43 @@ PODIUMS BLOCK THE WAY. THEY ARE INSCRIBED WITH HALF A FLOWER.
 THE RIVER DRIED UP DUE TO DROUGHT
 
 
+=====================
+obj_board_npc_nosolid
+=====================
+
+* FOUND THE SECRET OF "MICHAEL."
+* ALL MICHAELS NOW ADDED TO INVENTORY.
+
+
+===============
+obj_board_oasis
+===============
+
+* FOUND THE SECRET OF "MICHAEL."
+* ALL MICHAELS NOW ADDED TO INVENTORY.
+
+DRINK
+
+DON'T
+DRINK
+
+THE OASIS IS SPARKLING.
+
+DRINK IT?
+
+THERE IS NOTHING LEFT.
+
+IT TASTES LIKE MINT AND SAND.
+
+YOUR WOUNDS WERE HEALT.
+
+YOU SUCKED UP ALL THE OASIS WITH A STRAW.
+
+TASTES LIKE SANDY REGRET.
+
+THE ENVIRONMENT DETERIORATES.
+
+
 ===================
 obj_board_oasis_old
 ===================
@@ -42879,32 +43288,6 @@ Don't Drink
 * TASTES LIKE SANDY REGRET.
 
 * THE ENVIRONMENT DETERIORATES.
-
-
-===============
-obj_board_oasis
-===============
-
-DRINK
-
-DON'T
-DRINK
-
-THE OASIS IS SPARKLING.
-
-DRINK IT?
-
-THERE IS NOTHING LEFT.
-
-IT TASTES LIKE MINT AND SAND.
-
-YOUR WOUNDS WERE HEALT.
-
-YOU SUCKED UP ALL THE OASIS WITH A STRAW.
-
-TASTES LIKE SANDY REGRET.
-
-THE ENVIRONMENT DETERIORATES.
 
 
 =========================
@@ -43059,6 +43442,13 @@ ELNINA
 YOU GOT ~1
 
 
+====================
+obj_board_scoreboard
+====================
+
+P
+
+
 ===============
 obj_board_shell
 ===============
@@ -43084,6 +43474,9 @@ BUT YOU COULD STILL HEAR THE SOUND OF THE OCEAN.
 obj_board_smallpond
 ===================
 
+* FOUND THE SECRET OF "MICHAEL."
+* ALL MICHAELS NOW ADDED TO INVENTORY.
+
 IT'S A BEAUTIFUL LITTLE SPRING.
 
 IT'S A DRY, SAD PIT.
@@ -43092,6 +43485,9 @@ IT'S A DRY, SAD PIT.
 =========================
 obj_board_smallpond_sword
 =========================
+
+* FOUND THE SECRET OF "MICHAEL."
+* ALL MICHAELS NOW ADDED TO INVENTORY.
 
 IT'S A BEAUTIFUL LITTLE SPRING.
 
@@ -43154,6 +43550,33 @@ obj_board_warptopreshadowmantle
 USED THE SHELTER KEY.
 
 
+==============
+obj_bpush1_old
+==============
+
+WELL HEY THERE
+BOYS AND GIRLS,
+IT'S TIME FOR
+A BRAND NEW
+PUZZLE!!!
+
+THIS PUZZLE WAS
+PUT TOGETHER BY A
+SELF-PROCLAIMED,
+WORLD RENOWNED
+PUZZLE MASTER!
+
+IF YOU'RE
+STUCK, I CAN
+GIVE YOU A
+HINT FOR
+ONLY 1000
+POINTS!!
+
+WHAT THE HECK KINDA
+PUZZLE WAS THAT?!
+
+
 ==========
 obj_bpush1
 ==========
@@ -43177,6 +43600,98 @@ Impressive!
 That's concerning!!
 
 The audience is crying!
+
+
+================
+obj_bullettester
+================
+
+Controls:
+
+[U]/[I] Difficulty:
+
+Toggle Enemy:
+
+[1]
+
+[2]
+
+[3]
+
+[SHIFT]+[1/2/3] Set spawntype
+
+[4]
+
+Neverending Turn
+
+[Z]
+
+Start Turn
+
+[Ctrl+Shift+I] Create Instance
+
+[Space/R] Restart Room
+
+[Tab] Toggle Window Size
+
+[Backspace] Toggle Debug Info
+
+[Num 3] Toggle Slowmo
+
+[B] Switch to New BulletTester
+
+
+======================
+obj_bullettester_enemy
+======================
+
+[   ] / [   ]
+
+
+==========================
+obj_bullettester_enemy_new
+==========================
+
+[   ] / [   ]
+
+
+====================
+obj_bullettester_new
+====================
+
+Controls:
+
+[U]/[I] Difficulty:
+
+Toggle Enemy:
+
+[1]
+
+[2]
+
+[3]
+
+[SHIFT]+[1/2/3] Set spawntype
+
+[4]
+
+Neverending Turn
+
+[Z]
+
+Start Turn
+
+[Ctrl+Shift+I] Create Instance
+
+[Space/R] Restart Room
+
+[Tab] Toggle Window Size
+
+[Backspace] Toggle Debug Info
+
+[Num 3] Toggle Slowmo
+
+[B] Switch to Old BulletTester
 
 
 =============
@@ -45210,6 +45725,13 @@ obj_ch3_gachaunknown
   your hand.
 
 
+================
+obj_ch3_gameshow
+================
+
+obj_ch3_gameshow init=0
+
+
 =========================
 obj_ch3_green_room_racing
 =========================
@@ -45280,6 +45802,8 @@ obj_chefs_game
 
 GO!!!
 
+Push [BUTTON_3] to retry
+
 FINISH!
 
 TIME
@@ -45294,6 +45818,10 @@ SPECIAL GUEST!
 ===========
 obj_credits
 ===========
+
+Taxiderby
+
+Shaun Spalding
 
 [object Object]
 
@@ -45323,6 +45851,8 @@ obj_darkcontroller
 ==================
 
 PTs ~1
+
+*
 
 ???
 
@@ -45631,6 +46161,39 @@ obj_dw_ch3_lancer_spin
 * (You dropped LANCER from your LANCERs.)
 
 
+==================
+obj_dw_ch3_pc3fuzz
+==================
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+
 ======================================
 obj_dw_ch3_puzzlecloset0_introsequence
 ======================================
@@ -45648,6 +46211,61 @@ QUIZ!
 
 GET
 READY!
+
+A
+
+A
+
+A
+
+A
+
+A
+
+A
+
+A
+
+A
+
+A
+
+A
+
+A
+
+A
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+
+=============================
+obj_dw_changing_room_scribble
+=============================
+
+s
 
 
 ======================
@@ -46617,6 +47235,19 @@ WHY DIDN'T
 YOU PUSH HIM?
 
 
+=======================
+obj_gameshow_swordroute
+=======================
+
+HP
+
+L
+
+V
+
+MAX
+
+
 ================
 obj_glowtilepuzz
 ================
@@ -46630,6 +47261,13 @@ obj_ilovetv
 
 HAHA!! I LOVE
 WATCHING TV!!
+
+
+=============
+obj_intro_ch3
+=============
+
+CHAPTER 3
 
 
 ================
@@ -46817,6 +47455,8 @@ obj_lanino_enemy
 obj_lanino_rematch_enemy
 ========================
 
+* Lanino - The sight of Elnina makes him want to be singin' in the rain.
+
 * You looked at the sky and took...
 * A telescope!
 
@@ -46834,6 +47474,17 @@ obj_lanino_rematch_enemy
 * Susie dreamed of sunny days!
 
 * Ralsei hoped for starry nights!
+
+
+============
+obj_lerptest
+============
+
+y + lerp_ease_out()
+
+image_angle+lerp_ease_out()
+
+image_xscale=lerp_ease_out()
 
 
 ====================
@@ -46999,6 +47650,14 @@ obj_npc_room_animated
 * Also, thoust crying ability seems Uselesse.
 
 * I... I can't help it...
+
+* [FUN]
+
+* This room is [FUN], isn't it?? Let's go again!!!
+
+* IT WAS!!! It was terribly [FUN]!!! Let's go!!!
+
+* Let's! Go!!!! Again!!!! Don't you want to have terrible [FUN] again??
 
 
 ============
@@ -47563,6 +48222,13 @@ It's, it's not a...
 * Ralsei swore not to cheat!
 
 
+================
+obj_pointdisplay
+================
+
+POINTs
+
+
 =================
 obj_posterchecker
 =================
@@ -48044,6 +48710,8 @@ obj_readable_room1
 obj_rhythmgame
 ==============
 
+TRACK SELECT
+
 SCORE
 
 MAX COMBO
@@ -48063,6 +48731,59 @@ DEMO
 SPEED
 
 SPEED
+
+
+=====================
+obj_rhythmgame_editor
+=====================
+
+DRUMS
+
+GUITAR
+
+VOCALS
+
+TAMBOURINE
+
+Do you want to save this track?
+This will OVERWRITE current save file
+Z: I want this, X: Do not
+
+Do you want to save this track?
+Unsaved changes will be saved
+Z: I want this, X: Do not
+
+Track has been saved.
+
+Z/X: Cool
+
+What do you want to load?
+Unsaved changes will vanish forever.
+1/Z: Manual Save, 2: Auto-Save
+3: Exported chart, 4/X: Nevermind
+
+Track has been loaded.
+
+Z/X: Cool
+
+LMB: Write
+RMB: Erase
+Shift+LMB on existing note: Extend
+Alt: Snap to thirds
+Space/P: Pause/Play
+-/+ (=): Zoom in/out
+W/E: Disable/Enable guitar stem
+T: Refresh notes
+V: Set playback start
+B: Toggle playback start
+N: Return to playback start
+Backspace: Clear note memory
+Q: Autoplay
+U: Save
+I: Load
+Tab: Hide tooltips
+
+Tab: Show tooltips
 
 
 =================
@@ -48793,6 +49514,8 @@ NO MORE GOLD
 
 SINCE LAST GOLD:
 
+1225
+
 * (You thought you saw something on the ground... but you must've already had it.)
 
 * Kris, gimme your feet. I'm shoving you up there.
@@ -49401,6 +50124,12 @@ LONGEST COMBO
 
 CHEF RESULTS
 
+TALLEST STACK
+
+FOODS WASTED
+
+HAPPY CUSTOMERS
+
 EXTRA KEY!
 
 EXTRA PHOTO!
@@ -49417,7 +50146,17 @@ PHYS. CHALLENGE
 
 SECRET BONUS
 
+NO RANK
+
 BATTLES
+
+
+==================================
+obj_rouxls_annyoing_dog_controller
+==================================
+
+ANNOYING
+DOG
 
 
 =====================
@@ -49817,6 +50556,15 @@ obj_shadowman_sharpshoot_cursor
 ===============================
 
 AMMO
+
+
+=======================
+obj_shadowmantleExample
+=======================
+
+press M to toggle movement
+
+press B to toggle background
 
 
 =======================
@@ -50358,6 +51106,85 @@ obj_shutta_photo_controller/Collision_obj_shutta_photo_nubert
 * Nubert was underground in that shot...
 
 
+=============
+obj_snd_maker
+=============
+
+Hold [F1] or gp_Start for Help
+
+HELP
+
+HELP
+
+[Z] or gp_A = Play current Sound
+
+[X] or gp_B = Kill all playing sounds
+
+[C] or gp_Y = Add current sound to complex sound
+
+[V] or gp_X = Replace selected sound with current settings
+
+[Q] or gp_L1 = Switch to previous section
+
+[E] or [TAB] or gp_R1 = Switch to next section
+
+[SPACE] or gp_R2 = Play Complex Sound
+
+[ESC] or gp_Select = Exit
+
+[CTRL] + [C] to copy GML command to clipboard
+
+
+===============
+obj_soundtester
+===============
+
+Z:Play
+
+Arrows:Move
+
+M:Mute
+
+J:Jump to sound
+
+D:Dump sound list
+
+PgUp:Top
+
+PgDown:End
+
+Y / U: Change Pitch
+
+
+==================
+obj_spritecomparer
+==================
+
+1/2/3: Select Sprite
+
+Shift+1/2/3: Change sprite
+
+4/5/6 Lower Transparency (Shift to Hide)
+
+Arrows: Adjust Anchor Point
+
+H: Edit hitbox of Sprite1
+
+S: Save changes (This session only)
+
+Shift+Arrows: Reposition Sprites
+
+D: Switch Image Scale
+
+CTRL+Shift+Arrows: Adjust spacing
+
+numpad 7/9 to change image_index
+
+Hold numpad 8 to alternate visibility
+
+Hold F and Press 1/2/3 to flip sprite
+
+
 =============================
 obj_susiezilla_gamecontroller
 =============================
@@ -50696,6 +51523,21 @@ Mike! Back
 to the board!
 
 
+==================
+obj_tenna_enemy_bg
+==================
+
+SCORE
+
+bonus
+
+bet
+
+GAME TIME!
+
+SCORE
+
+
 ============================
 obj_tenna_enemy_minigametext
 ============================
@@ -50994,6 +51836,21 @@ You get
 * Any change to Ralsei's HP will give you points!
 
 
+=====================
+obj_tenna_minigame_ui
+=====================
+
+ENEMY
+
+ENEMY
+
+ENEMY
+
+SCORE
+
+MISS
+
+
 ==============
 obj_tenna_zoom
 ==============
@@ -51138,6 +51995,21 @@ It's a battle scene! Win hard and fast for extra points!
 * Fluffy boy down!!! Oh no!!!
 
 
+=====================
+obj_title_placeholder
+=====================
+
+Chapter 3
+
+
+=================
+obj_treasure_room
+=================
+
+needs
+item
+
+
 ================
 obj_victory_chef
 ================
@@ -51191,6 +52063,8 @@ making of this minigame.
 =====================
 obj_watercooler_enemy
 =====================
+
+Moonwarmer
 
 Buble
 
@@ -51393,6 +52267,13 @@ LIGHTNERS!!!
 * Ralsei enabled captions!
 
 
+===========
+scr_anyface
+===========
+
+* Face ~1 not found
+
+
 =============
 scr_armorinfo
 =============
@@ -51522,7 +52403,21 @@ scr_credit
 
 -Main Animator-
 
+Temmie Chang
+
 -Main Team-
+
+Sarah O'Donnell
+
+Juju (Taxiderby)
+
+Fred Wood
+
+Jean Canellas
+
+AlexMdle
+
+PureQuestion
 
 Robert Sephazon (Producer)
 
@@ -51530,7 +52425,11 @@ Robert Sephazon (Producer)
 
 (Original Board 1,2,3 Concept)
 
+Gigi DG
+
 (Teevie World)
+
+Tcheska Lynn B (chess)
 
 -Costume Design-
 
@@ -51542,31 +52441,65 @@ Gigi DG
 
 (Clover, King, Jevil)
 
+Kanotynes
+
 -Singing This Song-
+
+Laura Shigihara
 
 -Guest Character Design-
 
 (Lanino, Elnina)
 
+NELNAL
+
 -Photoshop Edits & Weird Anim-
+
+Everdraed
 
 -Pixel Art Assistance-
 
+Samanthuel Gillson (splendidland)
+
+Shawn (puppiesandanime)
+
+Kenju
+
+Tcheska Lynn B (chess)
+
+Satoshi Maruyama
+
 -Development Tools (Cool)-
+
+Juju Adams
 
 -3D Assets, Anim, Posing-
 
+Chelsea Saunders (pixelatedcrown)
+
 -3D Tenna Pixel Cleanup-
+
+Clairevoire
 
 -Cutscene Assistance-
 
+Tcheska Lynn B (chess)
+
 -Chef Minigame Program-
+
+ondydev
 
 -Cowboy Program & Other Detail-
 
+James Begg
+
 -Tenna VHS Final Scene Assist-
 
+Smallbu Animation
+
 -Additional Puzzle Design-
+
+NamaTakahashi
 
 -Japanese Localization-
 
@@ -51574,31 +52507,111 @@ Gigi DG
 
 -Translator-
 
+Keiko Fukuichi
+
 -Localization Producers-
+
+Tina Carter
+
+John Ricciardi
 
 -Localization Support-
 
+Hiroyuki Matsushita
+
+Yutaka Ohbuchi
+
+Sami Ragone
+
+Alissa Staples
+
+JP Wentz
+
 -Platform Programming-
+
+Sarah O'Donnell
+
+Enjl
 
 -Programming Support-
 
+Gregg Tavares
+
 -Japanese Graphics-
+
+256graph
+
+Satoshi Maruyama
 
 -QA-
 
 DIGITAL HEARTS Co., Ltd.
 
+Yoshikazu Hironaka
+
+Riku Shimizu
+
+Akira Ishiki
+
+Hidemi Miyauchi
+
+Kazutaka Kawahara
+
+Yuta Nishimura
+
+Daisuke Nakaie
+
+Shinji Yasue
+
+Taishi Mukaigawara
+
+Hiromasa Tokida
+
+Yuki Takeuchi
+
+Yu Takamori
+
+Yuta Doi
+
+Yuki Wada
+
+Satoru Watanuki
+
+Monami Katayama
+
 -Super Tester-
+
+Esteban Criado (DruidVorse)
 
 -Website-
 
+Brian Coia
+
 -Tenna's Typography and Logos-
+
+Audrey Waner
 
 -Trailers & All Video Editing-
 
+Everdraed
+
 -Special Thanks-
 
+Hiroko Minamoto
+
+Graeme Howard
+
+Fontworks Inc.
+
+Yutaka Sato (Happy Ruika)
+
 All 8-4 & Fangamer Staff
+
+Claire & Andrew
+
+Brian Lee
+
+YoYo Games
 
 
 ==================
@@ -52239,6 +53252,14 @@ scr_parallel_convo
 scr_quiztext
 ============
 
+ANSWER1
+
+ANSWER2
+
+ANSWER3
+
+ANSWER4
+
 COMMENT
 
 WHAT TIME IS IT RIGHT NOW?
@@ -52758,6 +53779,15 @@ BRING EXTRA SMORES TO THE CAMPSITE
 LET'S KNOCK EM DEAD INTO THE NIGHT
 
 I BET MY FRIENDS STILL WANT A BITE
+
+
+====================
+scr_rhythmgame_tools
+====================
+
+copied ~1 notes to clipboard (~2 beats)
+
+Pasted ~1 notes.
 
 
 ============
@@ -54168,9 +55198,13 @@ leftmid BottomMid
 
 * Susie's simul act!
 
+* Susie's revive "spell!"
+
 * Ralsei's unique act A!.
 
 * Ralsei's simul act!
+
+* Ralsei's revive skill!
 
 HOMING
 DIAMONDS!
@@ -54183,6 +55217,72 @@ THROW!
 
 * You taunted the enemy. It will now throw swords this turn!
 
+* You flattered (multiple lines)!
+
+* And the first time you flatter
+
+* The text is way longer
+
+* You made a memorable and charming flatter!
+
+* You flatter!
+
+* Susie flatter (multiple lines)!
+
+* And the first time susie flatters
+
+* The text is way longer
+
+* Susie made an offensive flatter!
+
+* Susie flatter!
+
+* Susie acted alone!
+
+* Susie couldn't act alone!
+
+* Susie couldn't act alone!
+
+* Susie was able to execute arbitrary code alone!
+
+* Ralsei flatter!
+
+* And the first time Ralsei flatters
+
+* The text is way longer
+
+* Ralsei made a slightly cringeworthy flatter!
+
+* Ralsei flatter!
+
+What the!?
+
+* Ralsei flatter (multiple lines)!
+
+* And the first time Ralsei flatters
+
+* The text is way longer
+
+* Ralsei made a slightly cringeworthy flatter!
+
+* Ralsei flatter!
+
+* You flatter!
+
+* Susie flatter!
+
+* Susie acted alone!
+
+* Susie couldn't act alone!
+
+* Susie couldn't act alone!
+
+* Susie was able to execute arbitrary code alone!
+
+What the!?
+
+* Ralsei flatter!
+
 
 ====================
 obj_battlecontroller
@@ -54190,9 +55290,22 @@ obj_battlecontroller
 
 ???
 
+R-Action - Standard
+
+N-Action - Standard
+
 * You won!
 * Got ~1 EXP and ~2 D$.
 * Susie's heal power increased!
+
+
+================
+obj_battletester
+================
+
+load
+
+6: full party. 7:kris only. 8:kris and ralsei
 
 
 ==============
@@ -58145,6 +59258,8 @@ Slain
 
 Purify
 
+*
+
 LV4 Dark Hero
 Carries out fate
 with the blade.
@@ -58183,6 +59298,24 @@ Don't write that on it!!
 =================================
 obj_darkness_interactable_example
 =================================
+
+* [NO TEXT] (obj_npc_room_animated)
+
+* You would do well not to speak to me again.
+
+* SO
+
+* YOU HAVE DECIDED TO @#$% AROUND
+
+* AND NOW YOU SHALL SEE WHAT HAPPENS!
+
+* WOBBLE IN FEAR, FOOLISH MORTON!!!
+
+* (...? There's nothing here...)
+
+* (You hear only the faintest murmur of embarassment.)
+
+* You, uh... feeling okay, Kris?
 
 * sorry
 
@@ -60000,6 +61133,8 @@ Yes
 
 Do Not
 
+* (invalid roomtarg...)
+
 * (A pink flame... it glows hesitatingly.)
 
 
@@ -60515,6 +61650,24 @@ obj_dw_churchb_fountain
 obj_dw_churchb_gallery
 ======================
 
+* Kris... before, I didn't think I could be a hero.
+
+* I wasn't good enough. I mean, I was... bad.
+
+* I still kinda am bad. In some ways, I guess.
+
+* But now, I... I got hope crossed on my heart.
+
+* Hope, written in truth. Written somewhere...
+
+* Written somewhere no one can erase!
+
+* Like, uh, a superduper permanent marker! Heheh.
+
+* Damn, I'm hyped up now, Kris!
+
+* Let's find the old man and kick that Knight's ass!!
+
 * An awful beast! A relief this creature was before our time.
 
 * From the body shape, it seems to have eaten meat and fire.
@@ -60991,6 +62144,19 @@ obj_dw_churchb_prophecyencounter
 * Not just... that things have been predicted, sure.
 
 * But that... I'm... part of it too, I guess.
+
+
+===========================
+obj_dw_churchb_prophecymaze
+===========================
+
+* Talked 1x
+
+* Talked 2x+
+
+* Ralsei!
+
+* Hey, Ralsei! HEY!
 
 
 ============================
@@ -61844,6 +63010,8 @@ obj_gerson_rudebuster
 
 PRESS
 
+~1
+
 
 ================
 obj_gerson_table
@@ -61887,6 +63055,13 @@ too much!
 Sent to
 your
 STORAGE!
+
+
+================
+obj_gif_analyzer
+================
+
+GIF not found.
 
 
 ===================================
@@ -63276,6 +64451,13 @@ obj_homealone_north_convo
 * ... this black shard.
 
 
+=============
+obj_intro_ch4
+=============
+
+CHAPTER 4
+
+
 =====================
 obj_jackenstein_enemy
 =====================
@@ -63461,6 +64643,21 @@ obj_just_text
 JUST!
 
 
+====================
+obj_kris_pianopuppet
+====================
+
+W: Toggle Recording
+
+Left Hand: Z X C V B N
+
+Right Hand: T Y U I O P
+
+RECORDING
+
+PLAYBACK
+
+
 ========================
 obj_lanino_rematch_enemy
 ========================
@@ -63559,6 +64756,13 @@ Done
 Loading...
 
 Adjust Sensitivity
+
+
+===================
+obj_microphone_test
+===================
+
+press [Enter] to start game
 
 
 ==========================
@@ -63913,6 +65117,19 @@ your gun, buddy!!!
 Wait, timeout, timeout!!!
 
 
+====================
+obj_mike_battle_test
+====================
+
+Full Battle
+
+Skip to
+final attack
+
+Use
+Gamepad
+
+
 ===================
 obj_mike_controller
 ===================
@@ -63966,6 +65183,10 @@ QUIT
 ====================
 obj_mike_minigame_tv
 ====================
+
+HISCORE
+
+LAST SCORE
 
 Talk to MAUS to
 play various
@@ -64111,6 +65332,19 @@ dreaming?
 * Ralsei puts a wet floor sign!
 
 * Ralsei makes toothpaste!!!
+
+
+========================
+obj_multiboss_controller
+========================
+
+* Team Message A1.
+
+* Team Message B1.
+
+* Team Message C1.
+
+* Team Message D1.
 
 
 ===============================
@@ -64526,6 +65760,8 @@ obj_npc_room_animated
 * And sometimes... it's too dark get your freak out.
 
 * Having a pitch-back space is great for us kids.
+
+* Yes?
 
 * I'm trying to start a "fan club" but we don't have any members.
 
@@ -65221,6 +66457,8 @@ obj_npc_sign
 obj_npc_zapper
 ==============
 
+* Can you see me...?
+
 * Boss, why don't ya let dis weakling retire, huh?
 
 * He served me tea when I asked for somethin' TOUGH!!
@@ -65440,6 +66678,10 @@ obj_readable_nubert
 ==================
 obj_readable_room1
 ==================
+
+* [NUBERT TEXT] (obj_readable_room1)
+
+* [NO TEXT] (obj_readable_room1)
 
 * Can we like... toss? Some of your brother's CDs?
 
@@ -66480,10 +67722,14 @@ SCORE
 
 MAX COMBO
 
+SPEED
+
 
 =================
 obj_ribbick_enemy
 =================
+
+PRESS
 
 * Press ~1 repeatedly with good timing!
 
@@ -68024,6 +69270,10 @@ obj_town_school
 obj_treasure_room
 =================
 
+needs flag
+
+needs item
+
 * (You opened the treasure chest.)
 
 * (Inside was nothing.)
@@ -68050,6 +69300,17 @@ Move Piano
 Shift Octave
 
 Charge Jump
+
+
+=============
+obj_volumebar
+=============
+
+M
+
+A
+
+X
 
 
 ============
@@ -68136,27 +69397,87 @@ scr_credit
 
 -Main Team-
 
+Enjl
+
+Joost (waddle)
+
+Sara Spalding (SaraJS)
+
+Robert Sephazon (Producer)
+
 Mike Maker (PC ver.)
+
+Andy Brophy
+
+-BG, Costume, Titan Concept Art-
+
+Gigi DG
 
 -Old Man's Theme Arrangement-
 
+Alex Rosetti
+
+-Vocals (Sanctuary, Credits)-
+
+Itoki Hana
+
 -Live Piano Editing-
+
+Lena Raine
+
+-Titan Hand, Kris Piano Anim-
+
+Smallbu Animation
 
 -Pixel Art Assistance-
 
+Clairevoire
+
+Satoshi Maruyama
+
 -Additional FX-
+
+James Begg
 
 -Additional Animation Assistance-
 
+Mariel Kinuko Cartwright
+
 -Ch. 2&3 Guest Character Design-
+
+Samanthuel Gillson (splendidland)
+
+NELNAL
 
 -Development Tools (Cool)-
 
+Juju Adams
+
 -UT Character Design-
+
+Betty Kwong (Temmie)
+
+Magnolia Porter (Snowdrake, Monster Kid)
 
 -Super Testers-
 
 -Fangamer Testing-
+
+Chris Warriner
+
+Ryan Alyea
+
+Alexandro Arvizu
+
+Dan Moore
+
+Jack Murphy
+
+heavenchai
+
+Charlie Verdin
+
+Steven Thompson
 
 
 ==================
@@ -68454,6 +69775,8 @@ scr_litemuseb
 ================
 scr_monstersetup
 ================
+
+S-Action
 
 Targets
 all but
@@ -68817,6 +70140,8 @@ S-Action
 
 R-Action
 
+Multiboss Example
+
 Taunt
 
 SimuFlatter
@@ -69071,6 +70396,8 @@ WATER
 ===================
 scr_rhythmgame_draw
 ===================
+
+DEMO
 
 BIG
 
@@ -69482,6 +70809,12 @@ Green
 
 
 Black
+
+
+999
+
+
+777
 
 
 It
@@ -71144,6 +72477,13 @@ That red... is that blood?
 Vampire
 
 
+=================
+scr_windowcaption
+=================
+
+DELTARUNE Chapter 4
+
+
 
 ▀▀██▄▄▄▄ ● ▄▄▄▄██▀▀
    ▲ CHAPTER 5 ▲
@@ -71641,6 +72981,138 @@ Don't do that!!
 * Ralsei combs petals!
 
 
+=============
+obj_baseenemy
+=============
+
+Message
+A
+
+Message
+B
+
+Message
+C
+
+Message
+D
+
+* Placeholder Message A~1.
+
+* Placeholder Message B~1.
+
+* Placeholder Message C~1.
+
+* Placeholder Message D~1.
+
+* Damaged message ~1.
+
+BottomLeft
+
+RightTop
+
+MidMid
+
+Right BottomMid
+
+rightmid BottomMid
+
+leftmid BottomMid
+
+* ENEMY - Susceptible to Brainshock.
+
+* You warned the enemy.
+* It guarded from Susie's attack.
+
+* Susie's unique act A!.
+
+* Susie's simul act!
+
+* Susie flatter (multiple lines)!
+
+* And the first time susie flatters
+
+* The text is way longer
+
+* Susie made an offensive flatter!
+
+* Susie flatter!
+
+* Susie acted alone!
+
+* Susie couldn't act alone!
+
+* Susie couldn't act alone!
+
+* Susie was able to execute arbitrary code alone!
+
+What the!?
+
+* Ralsei flatter!
+
+* And the first time Ralsei flatters
+
+* The text is way longer
+
+* Ralsei made a slightly cringeworthy flatter!
+
+* Ralsei flatter!
+
+* Ralsei flatter (multiple lines)!
+
+* And the first time Ralsei flatters
+
+* The text is way longer
+
+* Ralsei made a slightly cringeworthy flatter!
+
+* Ralsei flatter!
+
+* You flatter!
+
+* Susie's unique act A!.
+
+* Susie flatter (multiple lines)!
+
+* And the first time susie flatters
+
+* The text is way longer
+
+* Susie made an offensive flatter!
+
+* Susie flatter!
+
+* Susie acted alone!
+
+* Susie couldn't act alone!
+
+* Susie was able to execute arbitrary code alone!
+
+What the!?
+
+* Susie's simul act!
+
+* Susie flatter (multiple lines)!
+
+* And the first time susie flatters
+
+* The text is way longer
+
+* Susie made an offensive flatter!
+
+* Susie flatter!
+
+* Susie acted alone!
+
+* Susie couldn't act alone!
+
+* Susie couldn't act alone!
+
+* Susie was able to execute arbitrary code alone!
+
+What the!?
+
+
 ====================
 obj_battlecontroller
 ====================
@@ -71659,6 +73131,21 @@ Yellow
 
 * Seth was defeated...
   You won!
+
+
+==============
+obj_blend_test
+==============
+
+base
+
+multiply
+
+(default)
+
+screen
+
+overlay
 
 
 ==============
@@ -71972,11 +73459,15 @@ watch anyway
 
 * Who the HELL are you though.
 
+* Ah, sorry, m'lady.
+
 * My name's Flowery.
 
 * Star sign: the Flower. Golden eyes. Blood type: SSS.
 
 * Asgore's college roommate...
+
+* ... and best friend.
 
 * ...
 
@@ -72001,6 +73492,8 @@ It... has your face on it!?
 * Ah! There you are, old friend!
 
 * I lost you when you were walking down the, er, city streets.
+
+* Heh. Sorry to keep you waiting, old pal.
 
 * Oh, it's no trouble at all!
 
@@ -76706,6 +78199,13 @@ be Susie Sunday?
 * (Sigh...)
 
 
+==================
+obj_climb_interact
+==================
+
+* Text time!!
+
+
 ====================
 obj_climbstartertrig
 ====================
@@ -76754,6 +78254,8 @@ Attack: Cancel
 
 ???
 
+*
+
 ???
 
 Jumps:
@@ -76793,6 +78295,10 @@ someone.
 LV5 Dark Vine
 Assists in sealing
 the Fountain.
+
+???
+
+*
 
 LV5 Artemisia
 Goes well with tea.
@@ -77156,6 +78662,12 @@ REEL IT IN!
 POPULATION
 
 CRIME
+
+[PRESS F1 FOR MAX DOKI]
+
+[PRESS F7 FOR MAX TP]
+
+[PRESS I TO SKIP PHASE]
 
 DOKI
 
@@ -82737,6 +84249,8 @@ obj_dw_garden_susiechase
 
 *
 
+*
+
 * Oh... a... puzzle!
 
 * We... don't need to spend time doing this, right, Kris?
@@ -83220,6 +84734,10 @@ a... Flower's... dream...!
 obj_dw_ralsei_castle_basketball
 ===============================
 
+?
+
+?
+
 
 Hear More
 
@@ -83357,6 +84875,44 @@ obj_dw_transition_interactable
 =================
 obj_enemy_example
 =================
+
+Hello, i am
+an example
+text!
+
+You can use
+msgset_add
+to add more!
+
+It also accepts
+complex functions.
+
+* EXAMPLE - AT 0 DF 0
+  Tells you all sorts of things.
+
+* Susie swaps Ralsei and Seth's glasses...! ... no real effect.
+
+* Susie calls Seth a Berdly knockoff. It was taken with pride!
+
+* Susie calls Seth a bookworm. It was taken with pride!
+
+* Susie calls Seth budget Berdly!
+
+* Susie calls Seth purple! (nice)
+
+* Susie calls Seth budget Ralsei!
+
+* Ralsei listens to Seth's explanations with patience!
+
+* Ralsei shares his Manual with Seth!
+
+* Ralsei sniff's Seth's scent!
+
+* Ralsei listens politely!
+
+* Ralsei shows his Manual!
+
+* Ralsei admires Seth's scent! (?)
 
 Check
 
@@ -83563,6 +85119,8 @@ This should stop it for a sec.
 =================
 obj_flowery_enemy
 =================
+
+P to skip phase
 
 * (Kris! Press and release
   ~1 to dash!
@@ -84216,6 +85774,13 @@ IDIOT!!!!!
 WRONG!!!!!
 
 
+=============
+obj_intro_ch5
+=============
+
+CHAPTER 5
+
+
 ================
 obj_kawkaw_enemy
 ================
@@ -84434,6 +85999,118 @@ obj_minigame_evaluation
 NO RANK
 
 FULL CLEAR!
+
+
+===============================
+obj_multiboss_controller_enemy1
+===============================
+
+HOMING
+DIAMONDS!
+
+RISING
+DIAMONDS!
+
+SWORD
+THROW!
+
+* You taunted the enemy. It will now throw swords this turn!
+
+
+===============================
+obj_multiboss_controller_enemy2
+===============================
+
+HOMING
+DIAMONDS!
+
+RISING
+DIAMONDS!
+
+SWORD
+THROW!
+
+* You taunted the enemy. It will now throw swords this turn!
+
+
+===============================
+obj_multiboss_controller_enemy3
+===============================
+
+HOMING
+DIAMONDS!
+
+RISING
+DIAMONDS!
+
+SWORD
+THROW!
+
+* You taunted the enemy. It will now throw swords this turn!
+
+
+====================
+obj_multiboss_enemy1
+====================
+
+* Team Message A~1.
+
+* Team Message B~1.
+
+* Team Message C~1.
+
+* Team Message D~1.
+
+* You taunted the enemy. It will now throw swords this turn!
+
+
+====================
+obj_multiboss_enemy2
+====================
+
+* You taunted the enemy. It will now throw swords this turn!
+
+
+====================
+obj_multiboss_enemy3
+====================
+
+* You taunted the enemy. It will now throw swords this turn!
+
+
+======================
+obj_musical_controller
+======================
+
+* obj_multiboss_controller_enemy1's HP went up!
+
+* obj_multiboss_controller_enemy2's HP went up!
+
+* obj_multiboss_controller_enemy3's HP went up!
+
+* obj_multiboss_controller_enemy1's and
+  
+   obj_multiboss_controller_enemy2's HP went up!
+
+* obj_multiboss_controller_enemy1's and
+  
+   obj_multiboss_controller_enemy3's HP went up!
+
+* obj_multiboss_controller_enemy2's and
+  
+   obj_multiboss_controller_enemy3's HP went up!
+
+* obj_multiboss_enemy1's HP went up!
+
+* obj_multiboss_enemy2's HP went up!
+
+* obj_multiboss_enemy3's HP went up!
+
+* obj_multiboss_enemy1's and obj_multiboss_enemy2's HP went up!
+
+* obj_multiboss_enemy1's and obj_multiboss_enemy3's HP went up!
+
+* obj_multiboss_enemy2's and obj_multiboss_enemy3's HP went up!
 
 
 =================
@@ -87325,6 +89002,8 @@ I'll cut down Ralsei.
 obj_readable_room1
 ==================
 
+* [NO TEXT] (obj_readable_room1)
+
 * (There's a flyer.)
 
 * ("Today, is the Festival! Why the heck are you in? School!?")
@@ -87464,6 +89143,13 @@ obj_readable_room1
 * (Not a good bed.)
 
 * (... it seems to not be time for class.)
+
+
+=====================
+obj_rhythmgame_editor
+=====================
+
+Cleaned up ~1 duplicate notes
 
 
 ====================
@@ -89691,6 +91377,19 @@ Huh?
 ================
 obj_shop_vending
 ================
+
+* (It's a vending
+  machine.)
+
+* You don't get money for sticking stuff in the machine, dumbass!
+
+* That's like the first thing ANYONE tries.
+
+* Let's stick Ralsei in the machine and see how much money he costs.
+
+* That's STILL not how it works!
+
+* (The vending machine did not respond.)
 
 money
 
@@ -92296,6 +93995,13 @@ obj_town_w_shining
 * But, I guess... same back, if I had five bucks, too.
 
 
+================
+obj_trashy_broom
+================
+
++1
+
+
 ===============
 obj_trashy_trio
 ===============
@@ -92472,6 +94178,15 @@ obj_treasure_flowerychest
 
 * (You opened the treasure chest.)
 * (Inside was infinite money)
+
+
+==========================
+obj_treasure_room_altsolid
+==========================
+
+needs flag
+
+needs item
 
 
 =================
@@ -93246,6 +94961,10 @@ $ -10%
 scr_credit
 ==========
 
+Andy Brophy
+
+Xan Wetherall
+
 -Concept Art-
 
 Gigi DG (Susie outfits)
@@ -93254,9 +94973,17 @@ Matt Cummings (Festival)
 
 -Platforming System Development-
 
+ondydev
+
+Enjl
+
 -Guest Bullet Program-
 
+Eebrozgi
+
 -Platforming VFX-
+
+Zu Ehtisham
 
 -Flowery Intro Animation-
 
@@ -93320,7 +95047,11 @@ studio khara
 
 (Terakota & Shinobeetle)
 
+Nelnal
+
 (Netskie)
+
+Hitoshi Ariga
 
 -Pink Overworld & Face Sprites-
 
@@ -93328,7 +95059,15 @@ studio khara
 
 -Bromide Art-
 
+Moa
+
+Yukanuntiusel
+
+Claire Belton
+
 (Garden of Hopes & Dreams)
+
+Carlos "insaneintherain" Eiene
 
 -Guest Music Arrangement-
 
@@ -93340,17 +95079,37 @@ studio khara
 
 (Rakuichi Buster)
 
+rakuichi
+
 (Chapter 5 Credits)
 
 (Flower Man)
 
 (Deltarune Piano Collections)
 
+Trevor Alan Gomes
+
+Camellia
+
 -Anime Cutscene SFX-
+
+Power-Up Audio
 
 (I guess I'm in love)
 
+Itoki Hana
+
 -Musical Assistance-
+
+Marcy Nabors
+
+Graeme Howard
+
+Hiroyuki Matsushita
+
+Yutaka Ohbuchi
+
+Sami Ragone
 
 Shuhei Kaji [QA Project Manager]
 
@@ -93360,10 +95119,16 @@ Tatsuki Imai [Sales Dept]
 
 -Super Tester-
 
+Esteban Criado (DruidVorse)
+
+Alissa Staples
+
 
 ==================
 scr_encountersetup
 ==================
+
+* Test enemies showed up.
 
 * Floradinn florads in!
 
@@ -93434,6 +95199,10 @@ SETH AND 1 SHINOBEETLE
 * The world's most popular trio!
 
 ...
+
+* A multiboss example showed up.
+
+* A multiboss example with controller showed up.
 
 
 ===============
@@ -93999,6 +95768,28 @@ scr_litemuseb
 scr_monstersetup
 ================
 
+Enemy
+
+Check
+
+Warning
+
+Victory
+
+SimuDance
+
+Victory (S)
+
+Lecture
+
+CoolDance
+
+SimuDance
+
+CoolDance
+
+SimuDance
+
 Floradinn
 
 Check
@@ -94414,6 +96205,36 @@ R-Action
 
 Example
 
+Multiboss Example
+
+Taunt
+
+SimuDance
+
+SimuFlatter
+
+CoolDance
+
+SimuDance
+
+SimuFlatter
+
+Loner
+
+CoolDance
+
+SimuDance
+
+SimuFlatter
+
+Multiboss C Example
+
+Taunt
+
+SimuDance
+
+SimuFlatter
+
 CoolDance
 
 SimuDance
@@ -94574,6 +96395,8 @@ Other... things?
 
 PLANT
 
+* TODO
+
 Flowery Bromide
 
 Leafling
@@ -94585,6 +96408,8 @@ Windboarding
 Job application
 
 PLANT:WIND
+
+* TODO
 
 Unemployment check
 
@@ -94598,6 +96423,8 @@ Kikky & Kawkaw
 
 SCYTHE
 
+* TODO
+
 Stop pesticide use
 
 Shinobeetle
@@ -94609,6 +96436,8 @@ Train photos
 Being in train
 
 BUG:WIND
+
+* TODO
 
 60's rock re-release
 
@@ -94622,6 +96451,8 @@ Nyon...
 
 EARTH
 
+* TODO
+
 World Nyon
 
 Sheary
@@ -94633,6 +96464,8 @@ Making doilies
 Language
 
 SCYTHE
+
+* TODO
 
 Ballroom dance
 
@@ -94646,6 +96479,8 @@ Ill-fitting hat
 
 ANIMAL?
 
+* TODO
+
 (Animated image of tail swishing)
 
 Terakota
@@ -94657,6 +96492,8 @@ Floradinn
 Pointless combat
 
 PLANT:EARTH
+
+* TODO
 
 Nature preserve
 
@@ -94775,6 +96612,15 @@ reserved
 4rd Sanctuary
 
 
+====================
+scr_rhythmgame_tools
+====================
+
+Deleted ~1 notes
+
+Pasted ~1 notes.
+
+
 ============
 scr_roomname
 ============
@@ -94841,6 +96687,11 @@ happiness
 ================
 scr_shop_vending
 ================
+
+ITEM
+Example
+item,
+Heals 115HP
 
 ITEM
 Juice
@@ -95271,6 +97122,16 @@ Castle Top
 * (Where will you go?)
 
 * (But nothing happened.)
+
+
+Yes
+
+
+No
+
+* Result A.
+
+* Result B.
 
 
 ==============

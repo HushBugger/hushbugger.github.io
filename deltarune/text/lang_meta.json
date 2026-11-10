@@ -2453,6 +2453,62 @@
 ]
 ]
 },
+"obj_npc_room_animated_slash_Other_10_gml_374_0_b_keyless_0": {
+"0": [
+[
+"spr_funnytext_fun_loop",
+0,
+0
+],
+[
+"spr_funnytext_fun_loop",
+0,
+0
+]
+]
+},
+"obj_npc_room_animated_slash_Other_10_gml_374_0_b_keyless_1": {
+"0": [
+[
+"spr_funnytext_fun_loop",
+0,
+0
+],
+[
+"spr_funnytext_fun_loop",
+0,
+0
+]
+]
+},
+"obj_npc_room_animated_slash_Other_10_gml_374_0_b_keyless_2": {
+"0": [
+[
+"spr_funnytext_fun_loop",
+0,
+0
+],
+[
+"spr_funnytext_fun_loop",
+0,
+0
+]
+]
+},
+"obj_npc_room_animated_slash_Other_10_gml_374_0_b_keyless_3": {
+"0": [
+[
+"spr_funnytext_fun_loop",
+0,
+0
+],
+[
+"spr_funnytext_fun_loop",
+0,
+0
+]
+]
+},
 "obj_npc_room_slash_Other_10_gml_2151_0": {
 "0": [
 [
@@ -2666,6 +2722,18 @@
 "2": {
 "obj_ch2_room_castle_2f_slash_Step_0_gml_54_0": [
 "sentenceEnd"
+],
+"obj_chapter_continue_Create_0_gml_keyless_0": [
+"next_chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_1": [
+"next_chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_2": [
+"chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_3": [
+"chapter"
 ],
 "obj_checker_animtest_slash_Step_0_gml_48_0": [
 "name"
@@ -2937,6 +3005,18 @@
 "obj_ch3_closet_slash_Step_0_gml_685_0": [
 "item_name"
 ],
+"obj_chapter_continue_Create_0_gml_keyless_0": [
+"next_chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_1": [
+"next_chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_2": [
+"chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_3": [
+"chapter"
+],
 "obj_checker_animtest_slash_Step_0_gml_48_0": [
 "name"
 ],
@@ -3067,6 +3147,15 @@
 "obj_shutta_enemy_slash_Step_0_gml_174_0": [
 "inpname"
 ],
+"obj_shutta_enemy_slash_Step_0_gml_174_0_keyless_0": [
+"inpname"
+],
+"obj_snd_maker_Draw_0_gml_keyless_2": [
+"c_yellow",
+"c_yellow",
+"c_white",
+"c_white"
+],
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": [
 "sentenceEnd"
 ],
@@ -3078,6 +3167,12 @@
 ],
 "obj_tem_school_slash_Other_10_gml_66_0": [
 "egg_amount"
+],
+"obj_tenna_minigame_ui_Draw_0_gml_keyless_4": [
+"blend1",
+"blend1",
+"blend1",
+"blend1"
 ],
 "obj_treasure_room_slash_Other_10_gml_65_0": [
 "itemname"
@@ -3092,6 +3187,9 @@
 ],
 "obj_watercooler_enemy_slash_Step_0_gml_38_0": [
 "random_vowel"
+],
+"scr_anyface_gml_keyless_0": [
+"_speaker"
 ],
 "scr_get_completed_file_name_slash_scr_get_completed_file_name_gml_18_0": [
 "_file_name"
@@ -3181,6 +3279,18 @@
 ],
 "obj_ch4_PDC03_slash_Step_0_gml_884_0": [
 "sentence_end"
+],
+"obj_chapter_continue_Create_0_gml_keyless_0": [
+"next_chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_1": [
+"next_chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_2": [
+"chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_3": [
+"chapter"
 ],
 "obj_checker_animtest_slash_Step_0_gml_48_0": [
 "name"
@@ -3305,11 +3415,23 @@
 "obj_readable_room1_slash_Other_10_gml_931_0_b": [
 "gotten_eggs"
 ],
+"obj_ribbick_enemy_Draw_0_gml_keyless_0": [
+"c_black",
+"c_black",
+"c_black",
+"c_black"
+],
 "obj_shop2_slash_Draw_0_gml_482_0": [
 "roomstring"
 ],
 "obj_shop_ch2_music_slash_Draw_0_gml_677_0": [
 "roomstring"
+],
+"obj_snd_maker_Draw_0_gml_keyless_2": [
+"c_yellow",
+"c_yellow",
+"c_white",
+"c_white"
 ],
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": [
 "sentenceEnd"
@@ -3339,6 +3461,9 @@
 "obj_treasure_room_slash_Other_10_gml_83_0": [
 "itemname",
 "itemtypename"
+],
+"scr_anyface_gml_keyless_0": [
+"_speaker"
 ],
 "scr_get_completed_file_name_slash_scr_get_completed_file_name_gml_18_0": [
 "_file_name"
@@ -3381,6 +3506,9 @@
 ],
 "scr_roomname_slash_scr_roomname_gml_9_0_c": [
 "church_name_a"
+],
+"scr_text_slash_scr_text_gml_10244_0_keyless_0": [
+"choice_amt"
 ],
 "scr_text_slash_scr_text_gml_11127_0": [
 "song_name"
@@ -3459,14 +3587,53 @@
 "obj_ball_enemy_slash_Step_0_gml_437_0": [
 "_txt"
 ],
+"obj_baseenemy_Step_0_gml_keyless_4": [
+"substring"
+],
+"obj_baseenemy_Step_0_gml_keyless_5": [
+"substring"
+],
+"obj_baseenemy_Step_0_gml_keyless_6": [
+"substring"
+],
+"obj_baseenemy_Step_0_gml_keyless_7": [
+"substring"
+],
+"obj_baseenemy_Step_0_gml_keyless_8": [
+"substring"
+],
 "obj_ch5_DW22_slash_Step_0_gml_972_0": [
 "team_name"
+],
+"obj_chapter_continue_Create_0_gml_keyless_0": [
+"next_chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_1": [
+"next_chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_2": [
+"chapter"
+],
+"obj_chapter_continue_Create_0_gml_keyless_3": [
+"chapter"
 ],
 "obj_checker_animtest_slash_Step_0_gml_48_0": [
 "name"
 ],
 "obj_darkcontroller_slash_Draw_0_gml_47_0": [
 "moneyamt"
+],
+"obj_date_ui_slash_Draw_0_gml_38_0_keyless_0": [
+"c_white",
+"c_white",
+"c_white",
+"c_white"
+],
+"obj_date_ui_slash_Draw_0_gml_38_0_keyless_1": [
+"c_white",
+"c_white",
+"c_white",
+"c_white"
 ],
 "obj_dw_castle_church_climb_slash_Other_15_gml_41_0": [
 "timestring"
@@ -3493,6 +3660,24 @@
 "obj_dw_garden_susiechase_slash_Step_0_gml_2246_0": [
 "bonus"
 ],
+"obj_dw_ralsei_castle_basketball_Create_0_gml_keyless_0": [
+"ang"
+],
+"obj_dw_ralsei_castle_basketball_Create_0_gml_keyless_1": [
+"ang"
+],
+"obj_enemy_example_Step_0_gml_keyless_0": [
+"x",
+"y"
+],
+"obj_enemy_example_Step_0_gml_keyless_1": [
+"x",
+"y"
+],
+"obj_enemy_example_Step_0_gml_keyless_2": [
+"x",
+"y"
+],
 "obj_floradinn_enemy_slash_Step_0_gml_443_0": [
 "_txt"
 ],
@@ -3508,6 +3693,18 @@
 ],
 "obj_minigame_quit_ui_slash_Draw_0_gml_18_0": [
 "_space"
+],
+"obj_multiboss_enemy1_Step_0_gml_keyless_0": [
+"substring"
+],
+"obj_multiboss_enemy1_Step_0_gml_keyless_1": [
+"substring"
+],
+"obj_multiboss_enemy1_Step_0_gml_keyless_2": [
+"substring"
+],
+"obj_multiboss_enemy1_Step_0_gml_keyless_3": [
+"substring"
 ],
 "obj_npc_hammerguy_slash_Step_0_gml_251_0": [
 "fusionResultName"
@@ -3575,6 +3772,12 @@
 "obj_shop_vending_slash_Create_0_gml_38_0": [
 "value_label"
 ],
+"obj_snd_maker_Draw_0_gml_keyless_2": [
+"c_yellow",
+"c_yellow",
+"c_white",
+"c_white"
+],
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": [
 "sentenceEnd"
 ],
@@ -3601,6 +3804,12 @@
 ],
 "obj_town_north_catty_house_slash_Step_0_gml_301_0": [
 "voted_name"
+],
+"obj_treasure_room_altsolid_Draw_0_gml_keyless_0": [
+"undefined"
+],
+"obj_treasure_room_altsolid_Draw_0_gml_keyless_1": [
+"undefined"
 ],
 "obj_treasure_room_slash_Other_10_gml_31_0_b": [
 "coinquantity"
@@ -3648,6 +3857,9 @@
 ],
 "obj_yellow_enemy_slash_Step_0_gml_183_0": [
 "substring"
+],
+"scr_anyface_gml_keyless_0": [
+"_speaker"
 ],
 "scr_get_completed_file_name_slash_scr_get_completed_file_name_gml_18_0": [
 "_file_name"

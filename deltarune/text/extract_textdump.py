@@ -2,6 +2,7 @@
 """Generate a lang.json for all chapters in both English and Japanese."""
 
 import io
+import itertools
 import json
 import pathlib
 import re
@@ -92,7 +93,10 @@ def parse_args(text: str) -> FunArgs:
             i += 1
         elif text[i] == '"':
             arg, i = parse_string(text, i)
-            args.append(arg)
+            if text[i] == " ":
+                args.append(None)
+            else:
+                args.append(arg)
         elif text[i:].startswith('(global.lang == "ja") ? '):
             i += len('(global.lang == "ja") ? ')
             if text[i:].startswith("stringset("):
@@ -117,8 +121,13 @@ def parse_args(text: str) -> FunArgs:
         else:
             depth = 0
             idx_start = i
+            in_quote = False
             while i < len(text):
-                if text[i] == "(":
+                if text[i] == '"':
+                    in_quote = not in_quote
+                elif in_quote:
+                    pass
+                elif text[i] == "(":
                     depth += 1
                 elif text[i] == ")":
                     depth -= 1
@@ -144,6 +153,19 @@ TEXTFUNCS = [
     "msgnextsubloc",
     "scr_84_get_lang_string",
     "scr_funnytext_init",
+    "msgset",
+    "msgnext",
+    "msgsetsub",
+    "msgnextsub",
+    "stringset",
+    "stringsetsub",
+    "scr_video_caption",
+    "msgset_add",
+    "scr_tennabubble",
+    "scr_couchtalk",
+    r"(\w+_)?draw_text(_\w+)?",
+    "string_hash_to_newline",
+    "window_set_caption",
 ]
 RE_TEXTFUNCS = re.compile(f"({'|'.join(TEXTFUNCS)})\\(")
 
@@ -208,12 +230,96 @@ images: dict[int, dict[str, dict[int, tuple[TextImg, TextImg]]]] = {
 }
 var_names: dict[int, dict[str, list[str]]] = {n: {} for n in CHAPTERS}
 
+
+class Prev(typing.NamedTuple):
+    key: str
+    location: str
+
+
+prev: Prev | None = None
+
+
+def register_translation(
+    key: str | None,
+    location: str,
+    trans: str,
+    args: FunArgs,
+    lang: typing.Literal["en", "ja"] = "en",
+):
+    global prev
+
+    if lang == "en":
+        mapping = en
+    else:
+        mapping = ja
+
+    if key is None:
+        if (
+            prev
+            and prev.location.split("#")[0] == location.split("#")[0]
+            and "darkness_interactable" not in location
+        ):
+            if "_keyless_" in prev.key:
+                prefix, idx_s = prev.key.rsplit("_", 1)
+                idx_start = int(idx_s) + 1
+            else:
+                prefix = prev.key + "_keyless"
+                idx_start = 0
+        else:
+            prefix = (
+                location.removeprefix("gml_Object_")
+                .removeprefix("gml_GlobalScript_")
+                .split("#")[0]
+                + "_gml_keyless"
+            )
+            idx_start = 0
+        for idx in itertools.count(idx_start):
+            key = f"{prefix}_{idx}"
+            if key not in mapping or mapping[key] == trans:
+                break
+        assert key
+
+    assert " " not in key, repr(key)
+
+    # Sometimes the same key has multiple English versions.
+    # (Mostly (exclusively?) for debug stuff.)
+    while key in mapping and mapping[key] != trans:
+        key += "_DUP"
+
+    prev = Prev(key, location)
+
+    mapping[key] = trans
+    sourcemap[n].setdefault(key, location)
+    if r"\O" in trans:
+        thisimg = curimg.copy()
+        if key == "obj_ch3_GSB01_slash_Step_0_gml_191_0":
+            thisimg[4] = (
+                TextImg("spr_funnytext_lovers", 0, -10),
+                TextImg("spr_ja_funnytext_lovers", 0, -10),
+            )
+        elif key == "obj_ch3_GSB01_slash_Step_0_gml_197_0":
+            thisimg[5] = (
+                TextImg("spr_funnytext_gentle", 0, 0),
+                TextImg("spr_ja_funnytext_gentle", 0, 0),
+            )
+        images[n].setdefault(key, thisimg)
+
+    variables = [arg.name for arg in args if isinstance(arg, Var)]
+    if variables:
+        var_names[n].setdefault(key, variables)
+
+    for i, arg in enumerate(args, 1):
+        if isinstance(arg, LangConditional):
+            en[key] = en[key].replace(f"~{i}", arg.en)
+            ja[key] = ja[key].replace(f"~{i}", arg.ja)
+
+
 for n in CHAPTERS:
     path = source / f"ch{n}"
     ja: dict[str, str] = json.loads((path / "lang_ja.json").read_text())
     text[n]["ja"] = ja
     if n == 1:
-        text[n]["en"] = json.loads((path / "lang_en.json").read_text())
+        en: dict[str, str] = json.loads((path / "lang_en.json").read_text())
         for location, line in rg(r"scr_84_get_lang_string\(", path):
             for func, args in parse_line(line):
                 match func, args:
@@ -223,11 +329,19 @@ for n in CHAPTERS:
                         #    be ordered by first match but contain last match.
                         # 2. Better results for obj_ch2_scene26_powers_combined.
                         sourcemap[n].setdefault(arg, location)
+                    case (
+                        "draw_text"
+                        | "draw_text_transformed"
+                        | "string_hash_to_newline"
+                        | "window_set_caption",
+                        _,
+                    ):
+                        pass
                     case _:
                         print(func, args, line, file=sys.stderr)
-                        sys.exit(1)
-        continue
-    en: dict[str, str] = {}
+                        raise Exception("unexpected ch1 match")
+    else:
+        en: dict[str, str] = {}
     text[n]["en"] = en
 
     curfile = None
@@ -241,6 +355,8 @@ for n in CHAPTERS:
         for func, args in parse_line(line):
             match func, args:
                 case "scr_84_get_lang_string", [Var(_)]:
+                    pass
+                case "scr_84_get_lang_string", [str(_)] if n == 1:
                     pass
                 case "scr_84_get_lang_string", [str(arg)]:
                     en[arg] = text[1]["en"][arg]
@@ -257,35 +373,8 @@ for n in CHAPTERS:
                     | ("msgsetloc", [_, str(trans), *args, str(key)])
                     | ("msgnextloc", [str(trans), *args, str(key)])
                 ):
-                    assert " " not in key, repr(key)
-                    # Sometimes the same key has multiple English versions.
-                    # (Mostly (exclusively?) for debug stuff.)
-                    while key in en and en[key] != trans:
-                        key += "_DUP"
-                    en[key] = trans
-                    sourcemap[n].setdefault(key, location)
-                    if r"\O" in trans:
-                        thisimg = curimg.copy()
-                        if key == "obj_ch3_GSB01_slash_Step_0_gml_191_0":
-                            thisimg[4] = (
-                                TextImg("spr_funnytext_lovers", 0, -10),
-                                TextImg("spr_ja_funnytext_lovers", 0, -10),
-                            )
-                        elif key == "obj_ch3_GSB01_slash_Step_0_gml_197_0":
-                            thisimg[5] = (
-                                TextImg("spr_funnytext_gentle", 0, 0),
-                                TextImg("spr_ja_funnytext_gentle", 0, 0),
-                            )
-                        images[n].setdefault(key, thisimg)
-
-                    variables = [arg.name for arg in args if isinstance(arg, Var)]
-                    if variables:
-                        var_names[n].setdefault(key, variables)
-
-                    for i, arg in enumerate(args, 1):
-                        if isinstance(arg, LangConditional):
-                            en[key] = en[key].replace(f"~{i}", arg.en)
-                            ja[key] = ja[key].replace(f"~{i}", arg.ja)
+                    assert "keyless" not in key
+                    register_translation(key, location, trans, args)
 
                 case ("scr_funnytext_init", *_):
                     if args := re.match(
@@ -369,6 +458,109 @@ for n in CHAPTERS:
                         TextImg(en_sprite, int(args[2]), y_en),
                         TextImg(ja_sprite, int(args[2]), y_ja),
                     )
+
+                case (
+                    ("msgset" | "msgsetsub", [_, str(message), *args])
+                    | (
+                        "msgnext"
+                        | "msgnextsub"
+                        | "stringset"
+                        | "stringsetsub"
+                        | "scr_video_caption"
+                        | "msgset_add"
+                        | "scr_tennabubble"
+                        | "scr_couchtalk"
+                        | "string_hash_to_newline"
+                        | "window_set_caption",
+                        [str(message), *args],
+                    )
+                    | (
+                        "draw_text"
+                        | "sp_draw_text"
+                        | "scr_84_draw_text_outline"
+                        | "draw_text_shadow"
+                        | "draw_text_transformed"
+                        | "draw_text_colour"
+                        | "draw_text_color"
+                        | "draw_text_width"
+                        | "draw_text_shadow_width"
+                        | "draw_text_ext"
+                        | "draw_text_ext_transformed"
+                        | "draw_text_outline"
+                        | "draw_text_transformed_color"
+                        | "scr_draw_text_monospace"
+                        | "draw_text_debug"
+                        | "draw_text_ext_transformed_color"
+                        | "draw_text_transformed_outline"
+                        | "draw_text_darkshadow"
+                        | "draw_text_kern_legend",
+                        [_, _, str(message), *args],
+                    )
+                ):
+                    if message in {
+                        "",
+                        " ",
+                        "&",
+                        "&\t\t\t",
+                        "%%",
+                        "\\C2",
+                        "\\C3",
+                        "\\C4",
+                        "\\C2 ",
+                        "\\C3 ",
+                        "\\C4 ",
+                    }:
+                        continue
+
+                    register_translation(
+                        key=None,
+                        location=location,
+                        trans=message,
+                        args=args,
+                        lang="en" if message.isascii() else "ja",
+                    )
+
+                case (
+                    "msgset"
+                    | "msgsetsub"
+                    | "msgnext"
+                    | "msgnextsub"
+                    | "stringset"
+                    | "stringsetsub"
+                    | "scr_video_caption"
+                    | "msgset_add"
+                    | "scr_tennabubble"
+                    | "scr_couchtalk"
+                    | "draw_text"
+                    | "sp_draw_text"
+                    | "string_hash_to_newline"
+                    | "scr_84_draw_text_outline"
+                    | "draw_text_shadow"
+                    | "draw_text_transformed"
+                    | "draw_text_colour"
+                    | "draw_text_color"
+                    | "draw_text_width"
+                    | "draw_text_shadow_width"
+                    | "draw_text_ext"
+                    | "draw_text_ext_transformed"
+                    | "draw_text_outline"
+                    | "draw_text_transformed_color"
+                    | "scr_draw_text_monospace"
+                    | "draw_text_debug"
+                    | "draw_text_ext_transformed_color"
+                    | "draw_text_transformed_outline"
+                    | "draw_text_darkshadow"
+                    | "draw_text_kern_legend"
+                    | "scr_subtitles_draw_text"
+                    | "sp_draw_text_transformed"
+                    | "window_set_caption",
+                    _,
+                ):
+                    # Uninteresting, but make sure to check for new chapters
+                    # Many of these are variables but typically the variables
+                    # are already assigned using a function we cover
+                    # print(args)
+                    pass
 
                 case ("stringsetloc", ["No trigger event set!!/%"]):
                     pass

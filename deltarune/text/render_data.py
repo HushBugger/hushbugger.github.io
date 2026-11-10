@@ -632,6 +632,10 @@ def flowery_z(msgid: str, lang: Literal["en", "ja"]):
             return "snd_flowery_voiceclip_minipeppers"
         case _, "obj_dw_garden_enemyrush_slash_Step_0_gml_1416_0":
             return "snd_flowery_voiceclip_heh_it_s_my_jarona"
+        case "ja", "obj_ch5_DW01_slash_Step_0_gml_350_0_keyless_0":
+            return "snd_flowery_voiceclip_sorrytokeepyouwaiting3_ja"
+        case "ja", "obj_ch5_DW01_slash_Step_0_gml_366_0_keyless_0":
+            return "snd_flowery_voiceclip_yourdadsmybestfriend2_ja"
         case _:
             assert False, msgid
 
@@ -739,7 +743,7 @@ def lookup_voiceclip(
     else:
         sound_id = FLOWERY_SOUND_TABLE[ALPHABET.index(ident)]
         sound_name = FLOWERY_ID2NAME[sound_id]
-    if lang == "ja":
+    if lang == "ja" and not sound_name.endswith("_ja"):
         sound_name = FLOWERY_JA_MAP.get(sound_name)
     return sound_name, None
 
@@ -757,3 +761,38 @@ def is_ja_only(chap: str, msgid: str) -> bool:
         "obj_dw_fcastle_cafe_slash_Other_13_gml_3561_0",
         "scr_anyface_slash_scr_anyface_gml_60_0",
     } or (msgid == "obj_credits_2_slash_Step_0_gml_177_0" and chap in "24")
+
+
+SLASHED = {
+    "obj_controller_city_mice2_slash_Draw_0_gml_28_0",
+    "obj_fusionmenu_slash_Draw_0_gml_181_0",
+    "obj_overworldc_slash_Draw_0_gml_37_0",
+    "obj_overworldc_slash_Draw_0_gml_69_0",
+    "scr_armorinfo_slash_scr_armorinfo_gml_433_0_b",
+    "scr_armorinfo_slash_scr_armorinfo_gml_553_0",
+    "scr_armorinfo_slash_scr_armorinfo_gml_791_0",
+    "scr_spellinfo_slash_scr_spellinfo_gml_109_0",
+    "obj_overworldc_slash_Draw_0_gml_68_0",
+    "obj_yellow_trial_manager_slash_Create_0_gml_15_0",
+    "obj_musical_sync_test_Draw_0_gml_keyless_0",
+    "obj_musical_sync_test_Draw_0_gml_keyless_1",
+    "obj_bullettester_Draw_0_gml_keyless_0",
+    "obj_bullettester_Draw_0_gml_keyless_1",
+    "obj_bullettester_Draw_0_gml_keyless_6",
+    "obj_bullettester_Draw_0_gml_keyless_12",
+    "obj_bullettester_new_Draw_0_gml_keyless_1",
+    "obj_bullettester_new_Draw_0_gml_keyless_6",
+    "obj_bullettester_new_Draw_0_gml_keyless_12",
+    "obj_soundtester_Draw_0_gml_keyless_7",
+    "obj_spritecomparer_Draw_0_gml_keyless_0",
+    "obj_spritecomparer_Draw_0_gml_keyless_1",
+    "obj_spritecomparer_Draw_0_gml_keyless_2",
+    "obj_spritecomparer_Draw_0_gml_keyless_9",
+    "obj_spritecomparer_Draw_0_gml_keyless_11",
+    "obj_rhythmgame_editor_Draw_0_gml_keyless_6",
+    "obj_rhythmgame_editor_Draw_0_gml_keyless_7",
+    "obj_rhythmgame_editor_Draw_0_gml_keyless_8",
+    "obj_rhythmgame_editor_Draw_0_gml_keyless_9",
+    "obj_bullettester_enemy_Draw_0_gml_keyless_0",
+    "obj_bullettester_enemy_new_Draw_0_gml_keyless_0",
+}

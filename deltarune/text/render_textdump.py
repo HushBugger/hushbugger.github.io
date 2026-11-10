@@ -20,6 +20,7 @@ from render_data import (
     FUNNYTEXT_SOUNDS_BROKEN,
     FUNNYTEXT_WHITE,
     MINIFACE_ALTS,
+    SLASHED,
     is_ja_only,
     lookup_voiceclip,
     minifacekind,
@@ -163,9 +164,11 @@ def render(
                 ]
                 return
             if tail == "*":
-                assert "obj_musical_controller" in msgid or msgid in [
-                    "obj_lancerboss3_slash_Step_0_gml_258_0"
-                ]
+                assert (
+                    "obj_musical_controller" in msgid
+                    or "obj_multiboss_controller" in msgid
+                    or "obj_lancerboss3" in msgid
+                )
                 return
             new = (head[0] + "\n" if head else "") + tail
 
@@ -364,20 +367,7 @@ def render(
                 # "* \"~1\"!/&* Play it!?"
                 # The "/" wasn't there in ch4. In-game it cuts off the rest of the text.
                 break
-            case "/" if not msgid.startswith(
-                (
-                    "obj_controller_city_mice2_slash_Draw_0_gml_28_0",
-                    "obj_fusionmenu_slash_Draw_0_gml_181_0",
-                    "obj_overworldc_slash_Draw_0_gml_37_0",
-                    "obj_overworldc_slash_Draw_0_gml_69_0",
-                    "scr_armorinfo_slash_scr_armorinfo_gml_433_0_b",
-                    "scr_armorinfo_slash_scr_armorinfo_gml_553_0",
-                    "scr_armorinfo_slash_scr_armorinfo_gml_791_0",
-                    "scr_spellinfo_slash_scr_spellinfo_gml_109_0",
-                    "obj_overworldc_slash_Draw_0_gml_68_0",
-                    "obj_yellow_trial_manager_slash_Create_0_gml_15_0",
-                )
-            ):
+            case "/" if msgid not in SLASHED:
                 assert text[i + 1 :].strip("%/~1 ") == "", msgid + " " + text
                 break
             case "&" if (
@@ -428,6 +418,12 @@ def render(
             ):
                 out.write("\n  ")
                 linelen = 2
+            case "#" if (
+                # unused debug message that's more fun if we fix the rendering bugs
+                msgid == "obj_darkness_interactable_example_Other_10_gml_keyless_3"
+            ):
+                out.write("#")
+                linelen += 1
             case "&" | "#" | "\n":
                 out.write("\n")
                 linelen = 0
@@ -462,6 +458,7 @@ def render(
                     "obj_battlecontroller_slash_Draw_0_gml_280_0",
                     "obj_fusionmenu_slash_Step_0_gml_144_0",
                     "obj_shop_ch2_spamton_slash_Create_0_gml_89_0",
+                    "obj_darkness_interactable_example_Other_10_gml_keyless_3",
                 ]
                 or (i != 0 and text[i - 1].isdigit() and out.getvalue()[-1].isdigit())
             ):
@@ -554,7 +551,9 @@ def render(
     rendered = rendered.rstrip("\n \u3000")
 
     if voiceclip is not None:
+        assert os.path.isfile(f"snd/{voiceclip}.mp3"), voiceclip
         if altvoiceclip is not None:
+            assert os.path.isfile(f"snd/{altvoiceclip}.mp3"), altvoiceclip
             rendered = f'<div class="voiced" data-sound="{voiceclip}" data-sound2="{altvoiceclip}">{rendered}</div>'
         else:
             rendered = f'<div class="voiced" data-sound="{voiceclip}">{rendered}</div>'
@@ -623,6 +622,7 @@ postfixes = [
 
 def groupify(ident: str) -> str:
     ident = ident.replace("_DUP", "")
+    ident = re.sub(r"_keyless_\d+$", "", ident)
 
     if ident.endswith(("_b", "_c")):
         ident = ident[:-2]
@@ -785,10 +785,18 @@ for n in lang:
         ja = lang[n]["ja"].get(k)
         group = groupify(k)
         if (en and en.strip(" \\C234")) or (ja and ja.strip(" \\C234")):
-            if en and not en.isascii():
-                raise Exception(f"nonascii {en=} {k=} {n=}")
-            ren = render(en, k, "en")
-            rja = render(ja, k, "ja")
+            try:
+                assert not (en and not en.isascii())
+                ren = render(en, k, "en")
+            except:
+                print(f"{k=} {en=}")
+                raise
+            try:
+                rja = render(ja, k, "ja")
+            except:
+                print(f"{k=} {ja=}")
+                raise
+
             if k.startswith("scr_rhythmgame_notechart_"):
                 # TODO: stretch Japanese text (different syntax, can't assume font width...)
                 assert ren
