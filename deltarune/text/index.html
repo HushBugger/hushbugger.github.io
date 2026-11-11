@@ -3036,6 +3036,10 @@
                 if (!(event.target instanceof HTMLElement)) {
                     return;
                 }
+                const selection = getSelection();
+                if (selection && !selection.isCollapsed) {
+                    return;
+                }
                 if (searchResultsDiv.contains(event.target)) {
                     return;
                 }
