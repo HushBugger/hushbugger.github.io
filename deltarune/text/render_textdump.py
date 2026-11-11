@@ -488,27 +488,26 @@ def render(
                 # "* You asked the watercooler, ~1water~2 they doing later."
                 out.write('"')
                 i += 1
+            # Some tildes are just part of the message.
+            # I think whether they're meaningful depends on the script that's called?
+            # This heuristic is good enough.
             case "~" if i + 1 < len(text) and text[i + 1].isdigit():
-                if (
-                    i == len(text) - 2
-                    and (names := var_names[n].get(msgid))
-                    and set(names)
-                    & {
-                        "sentenceEnd",
-                        "sentence_end",
-                        "ender",
-                        "endSentence",
-                        "_ext",
-                        "_str1",
-                        "_str2",
-                        "txt",
-                    }
-                ):
-                    break
-                # Some tildes are just part of the message.
-                # I think whether they're meaningful depends on the script that's called?
-                # This heuristic is good enough.
                 assert text[i + 1] in "12345"
+                params = var_names[n].get(msgid, [])
+                idx = int(text[i + 1]) - 1
+                param = params[idx] if idx < len(params) else None
+                if i == len(text) - 2 and param in {
+                    "sentenceEnd",
+                    "sentence_end",
+                    "ender",
+                    "endSentence",
+                    "_ext",
+                    "_str1",
+                    "_str2",
+                    "txt",
+                }:
+                    break
+
                 out.write(f'<span class="param">~{text[i + 1]}</span>')
                 linelen += 2
                 i += 1
@@ -715,7 +714,7 @@ images: dict[
     str,
     dict[str, dict[str, tuple[tuple[str, int, int], tuple[str, int, int]]]],
 ] = lang_meta["images"]
-var_names: dict[str, dict[str, list[str]]] = lang_meta["var_names"]
+var_names: dict[str, dict[str, list[str | None]]] = lang_meta["var_names"]
 
 
 class Message(typing.NamedTuple):

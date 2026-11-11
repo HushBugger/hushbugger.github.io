@@ -34,11 +34,6 @@ except IndexError:
 
 
 @dataclass(frozen=True)
-class Var:
-    name: str
-
-
-@dataclass(frozen=True)
 class LangConditional:
     """For some reason chapter 5 has hundreds of these message params:
 
@@ -52,7 +47,12 @@ class LangConditional:
     ja: str
 
 
-type FunArgs = list[str | Var | LangConditional | None]
+@dataclass(frozen=True)
+class Code:
+    code: str
+
+
+type FunArgs = list[str | LangConditional | Code | None]
 type FunCall = tuple[str, FunArgs]
 
 
@@ -137,10 +137,9 @@ def parse_args(text: str) -> FunArgs:
                     break
                 i += 1
             arg = text[idx_start:i]
-            if arg.isidentifier():
-                args.append(Var(arg))
-            else:
-                args.append(None)
+            if arg.startswith("string("):
+                arg = arg.removeprefix("string(").removesuffix(")")
+            args.append(Code(arg))
     return args
 
 
@@ -166,6 +165,7 @@ TEXTFUNCS = [
     r"(\w+_)?draw_text(_\w+)?",
     "string_hash_to_newline",
     "window_set_caption",
+    "scr_84_get_subst_string",
 ]
 RE_TEXTFUNCS = re.compile(f"({'|'.join(TEXTFUNCS)})\\(")
 
@@ -228,7 +228,7 @@ sourcemap: dict[int, dict[str, str]] = {n: {} for n in CHAPTERS}
 images: dict[int, dict[str, dict[int, tuple[TextImg, TextImg]]]] = {
     n: {} for n in CHAPTERS
 }
-var_names: dict[int, dict[str, list[str]]] = {n: {} for n in CHAPTERS}
+var_names: dict[int, dict[str, list[str | None]]] = {n: {} for n in CHAPTERS}
 
 
 class Prev(typing.NamedTuple):
@@ -304,7 +304,9 @@ def register_translation(
             )
         images[n].setdefault(key, thisimg)
 
-    variables = [arg.name for arg in args if isinstance(arg, Var)]
+    variables = [arg.code if isinstance(arg, Code) else None for arg in args]
+    while variables and variables[-1] is None:
+        variables.pop()
     if variables:
         var_names[n].setdefault(key, variables)
 
@@ -333,7 +335,8 @@ for n in CHAPTERS:
                         "draw_text"
                         | "draw_text_transformed"
                         | "string_hash_to_newline"
-                        | "window_set_caption",
+                        | "window_set_caption"
+                        | "scr_84_get_subst_string",
                         _,
                     ):
                         pass
@@ -354,16 +357,16 @@ for n in CHAPTERS:
 
         for func, args in parse_line(line):
             match func, args:
-                case "scr_84_get_lang_string", [Var(_)]:
+                case "scr_84_get_lang_string", [Code(_)]:
                     pass
                 case "scr_84_get_lang_string", [str(_)] if n == 1:
                     pass
                 case "scr_84_get_lang_string", [str(arg)]:
                     en[arg] = text[1]["en"][arg]
                     sourcemap[n].setdefault(arg, location)
-                case "msgsetloc", [Var(_) | None, str(r"\C2")]:
+                case "msgsetloc", [_, str(r"\C2")]:
                     pass
-                case "msgsetsubloc", [Var(_), str(r"\TX \F0 \E~1 \Fb \T0 %"), None]:
+                case "msgsetsubloc", [_, str(r"\TX \F0 \E~1 \Fb \T0 %"), _]:
                     pass
                 case (
                     ("stringsetloc", [str(trans), *args, str(key)])
@@ -459,43 +462,14 @@ for n in CHAPTERS:
                         TextImg(ja_sprite, int(args[2]), y_ja),
                     )
 
-                case (
-                    ("msgset" | "msgsetsub", [_, str(message), *args])
-                    | (
-                        "msgnext"
-                        | "msgnextsub"
-                        | "stringset"
-                        | "stringsetsub"
-                        | "scr_video_caption"
-                        | "msgset_add"
-                        | "scr_tennabubble"
-                        | "scr_couchtalk"
-                        | "string_hash_to_newline"
-                        | "window_set_caption",
-                        [str(message), *args],
-                    )
-                    | (
-                        "draw_text"
-                        | "sp_draw_text"
-                        | "scr_84_draw_text_outline"
-                        | "draw_text_shadow"
-                        | "draw_text_transformed"
-                        | "draw_text_colour"
-                        | "draw_text_color"
-                        | "draw_text_width"
-                        | "draw_text_shadow_width"
-                        | "draw_text_ext"
-                        | "draw_text_ext_transformed"
-                        | "draw_text_outline"
-                        | "draw_text_transformed_color"
-                        | "scr_draw_text_monospace"
-                        | "draw_text_debug"
-                        | "draw_text_ext_transformed_color"
-                        | "draw_text_transformed_outline"
-                        | "draw_text_darkshadow"
-                        | "draw_text_kern_legend",
-                        [_, _, str(message), *args],
-                    )
+                case ("msgset" | "msgsetsub", [_, str(message), *args]) | (
+                    "msgnext"
+                    | "msgnextsub"
+                    | "stringset"
+                    | "stringsetsub"
+                    | "string_hash_to_newline"
+                    | "window_set_caption",
+                    [str(message), *args],
                 ):
                     if message in {
                         "",
@@ -517,6 +491,47 @@ for n in CHAPTERS:
                         location=location,
                         trans=message,
                         args=args,
+                        lang="en" if message.isascii() else "ja",
+                    )
+
+                case (
+                    "draw_text"
+                    | "sp_draw_text"
+                    | "scr_84_draw_text_outline"
+                    | "draw_text_shadow"
+                    | "draw_text_transformed"
+                    | "draw_text_colour"
+                    | "draw_text_color"
+                    | "draw_text_width"
+                    | "draw_text_shadow_width"
+                    | "draw_text_ext"
+                    | "draw_text_ext_transformed"
+                    | "draw_text_outline"
+                    | "draw_text_transformed_color"
+                    | "scr_draw_text_monospace"
+                    | "draw_text_debug"
+                    | "draw_text_ext_transformed_color"
+                    | "draw_text_transformed_outline"
+                    | "draw_text_darkshadow"
+                    | "draw_text_kern_legend",
+                    [_, _, str(message), *_],
+                ) | (
+                    "msgset_add"
+                    | "scr_video_caption"
+                    | "scr_tennabubble"
+                    | "scr_couchtalk",
+                    [str(message), *_],
+                ):
+                    if message in {
+                        "",
+                    }:
+                        continue
+
+                    register_translation(
+                        key=None,
+                        location=location,
+                        trans=message,
+                        args=[],
                         lang="en" if message.isascii() else "ja",
                     )
 
@@ -564,6 +579,21 @@ for n in CHAPTERS:
 
                 case ("stringsetloc", ["No trigger event set!!/%"]):
                     pass
+
+                case "scr_84_get_subst_string", args:
+                    template = args[0]
+                    assert isinstance(template, Code)
+                    argvars = [
+                        arg.code if isinstance(arg, Code) else None for arg in args[1:]
+                    ]
+                    while argvars and argvars[-1] is None:
+                        argvars.pop()
+                    if argvars:
+                        match = re.match(
+                            r'scr_84_get_lang_string\("(\w+)"\)', template.code
+                        )
+                        assert match
+                        var_names[n].setdefault(match.group(1), argvars)
 
                 case _:
                     print(func, args, repr(line), file=sys.stderr)

@@ -2718,10 +2718,319 @@
 }
 },
 "var_names": {
-"1": {},
+"1": {
+"DEVICE_CONTACT_slash_Step_0_gml_729_0": [
+"global.name"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_734_0": [
+"global.name"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_785_0": [
+"global.truename"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_816_0": [
+"global.truename"
+],
+"obj_battlecontroller_slash_Step_0_gml_40_0": [
+"global.monsterexp[3]",
+"global.monstergold[3]"
+],
+"obj_checkers_enemy_slash_Step_0_gml_82_0": [
+"crown"
+],
+"obj_hathyfightevent_slash_Step_0_gml_116_0": [
+"global.monsterexp[3]",
+"global.monstergold[3]"
+],
+"obj_npc_facing_slash_Other_10_gml_270_0": [
+"input_name"
+],
+"obj_npc_facing_slash_Other_10_gml_272_0": [
+"input_name"
+],
+"obj_npc_facing_slash_Other_10_gml_276_0": [
+"input_name"
+],
+"obj_npc_sign_slash_Other_10_gml_179_0": [
+"colortxt"
+],
+"obj_overworldc_slash_Draw_0_gml_66_0": [
+"global.lcharname"
+],
+"obj_overworldc_slash_Draw_0_gml_68_0": [
+"global.lhp"
+],
+"obj_overworldc_slash_Draw_0_gml_70_0": [
+"global.lat"
+],
+"obj_overworldc_slash_Draw_0_gml_71_0": [
+"global.ldf"
+],
+"obj_overworldc_slash_Step_0_gml_33_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_35_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_37_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_rabbick_enemy_slash_Step_0_gml_128_0": [
+"input_name"
+],
+"obj_rabbick_enemy_slash_Step_0_gml_150_0": [
+"input_name"
+],
+"obj_savepoint_slash_Other_10_gml_96_0": [
+"tname"
+],
+"obj_susieandlancer_event_slash_Step_0_gml_573_0": [
+"name"
+],
+"obj_susieandlancer_event_slash_Step_0_gml_575_0": [
+"name"
+],
+"obj_susieenemy_slash_Step_0_gml_159_0": [
+"totalat",
+"totaldf",
+"totalhp"
+],
+"obj_susieenemy_slash_Step_0_gml_162_0": [
+"totalat",
+"totaldf",
+"totalhp"
+],
+"obj_thrashafter_event_slash_Step_0_gml_108_0": [
+"name"
+],
+"obj_thrashafter_event_slash_Step_0_gml_34_0": [
+"name"
+],
+"obj_treasure_room_slash_Other_10_gml_103_0": [
+"itemname",
+"itemtypename"
+],
+"obj_treasure_room_slash_Other_10_gml_115_0": [
+"itemtypename"
+],
+"obj_treasure_room_slash_Other_10_gml_87_0": [
+"itemname"
+],
+"obj_treasure_room_slash_Other_10_gml_99_0": [
+"itemname",
+"itemtypename"
+],
+"scr_asgface_slash_scr_asgface_gml_1_0": [
+"arg1"
+],
+"scr_kingface_slash_scr_kingface_gml_3_0": [
+"arg1"
+],
+"scr_kingface_slash_scr_kingface_gml_7_0": [
+"arg1"
+],
+"scr_lanface_slash_scr_lanface_gml_1_0": [
+"arg1"
+],
+"scr_lrecoitem_slash_scr_lrecoitem_gml_14_0": [
+"global.item[8]"
+],
+"scr_noeface_slash_scr_noeface_gml_1_0": [
+"arg1"
+],
+"scr_ralface_slash_scr_ralface_gml_1_0": [
+"arg1"
+],
+"scr_rudface_slash_scr_rudface_gml_1_0": [
+"arg1"
+],
+"scr_rurusface_slash_scr_rurusface_gml_1_0": [
+"arg1"
+],
+"scr_spelltext_slash_scr_spelltext_gml_112_0": [
+"global.monstername[_j]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_122_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_14_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_168_0": [
+"global.monstername[_j]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_169_0": [
+"global.monstername[_j]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_170_0": [
+"global.monstername[_j]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_179_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_183_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_187_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_18_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_191_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_194_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_197_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_200_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_203_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_206_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_209_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_212_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_23_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_33_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_36_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_43_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_47_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_51_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_58_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_62_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_66_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_69_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_73_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_78_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_82_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_86_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_susface_slash_scr_susface_gml_1_0": [
+"arg1"
+],
+"scr_text_slash_scr_text_gml_1342_0": [
+"input_name"
+],
+"scr_text_slash_scr_text_gml_231_0": [
+"input_name"
+],
+"scr_text_slash_scr_text_gml_249_0": [
+"input_name"
+],
+"scr_text_slash_scr_text_gml_830_0": [
+"nn"
+],
+"scr_torface_slash_scr_torface_gml_1_0": [
+"arg1"
+]
+},
 "2": {
+"DEVICE_CONTACT_slash_Step_0_gml_729_0": [
+"global.name"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_734_0": [
+"global.name"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_785_0": [
+"global.truename"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_816_0": [
+"global.truename"
+],
+"DEVICE_MENU_slash_Draw_0_gml_292_0": [
+"MENUCOORD[10] + 1"
+],
+"o_boxing_wireframe_slash_Draw_0_gml_145_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"o_boxingcontroller_slash_Create_0_gml_18_0": [
+"scr_get_input_name(3)",
+"scr_get_input_name(1)"
+],
+"o_boxingcontroller_slash_Create_0_gml_19_0": [
+"scr_get_input_name(0)"
+],
+"o_boxingcontroller_slash_Step_0_gml_170_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"o_boxingcontroller_slash_Step_0_gml_174_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"o_boxingcontroller_slash_Step_0_gml_178_0": [
+"scr_get_input_name(3)",
+"scr_get_input_name(1)",
+"scr_get_input_name(0)"
+],
+"o_boxingqueen_slash_Step_0_gml_1200_0": [
+"scr_get_input_name(0)"
+],
+"o_boxingqueen_slash_Step_0_gml_599_0": [
+"scr_get_input_name(3)",
+"scr_get_input_name(1)"
+],
+"obj_battlecontroller_slash_Step_0_gml_42_0": [
+"global.monsterexp[3]",
+"global.monstergold[3]"
+],
+"obj_battlecontroller_slash_Step_0_gml_46_0": [
+"global.monstergold[3]"
+],
+"obj_battlecontroller_slash_Step_0_gml_69_0": [
+"global.monstergold[3]"
+],
 "obj_ch2_room_castle_2f_slash_Step_0_gml_54_0": [
 "sentenceEnd"
+],
+"obj_ch2_room_castle_area_1_slash_Step_0_gml_301_0": [
+"scr_get_input_name(5)"
+],
+"obj_ch2_sceneex2_special_slash_Draw_0_gml_39_0": [
+"scr_get_input_name(4)"
 ],
 "obj_chapter_continue_Create_0_gml_keyless_0": [
 "next_chapter"
@@ -2737,6 +3046,16 @@
 ],
 "obj_checker_animtest_slash_Step_0_gml_48_0": [
 "name"
+],
+"obj_checkers_enemy_slash_Step_0_gml_489_0": [
+"scr_get_input_name(6)"
+],
+"obj_checkers_enemy_slash_Step_0_gml_82_0": [
+"crown"
+],
+"obj_cutscene_maker_slash_Draw_0_gml_60_0": [
+"i",
+"j"
 ],
 "obj_cybercity_trashcan_slash_Other_10_gml_16_0": [
 "money_amount"
@@ -2792,6 +3111,77 @@
 "obj_darkcontroller_slash_Draw_0_gml_385_0": [
 "falselv"
 ],
+"obj_darkcontroller_slash_Draw_0_gml_47_0": [
+"global.gold"
+],
+"obj_darkcontroller_slash_Draw_0_gml_956_0": [
+"global.itemname[global.submenucoord[2]]"
+],
+"obj_dojo_spareenemy_slash_Step_0_gml_44_0": [
+"beardcount"
+],
+"obj_dummyenemy_slash_Step_0_gml_399_0": [
+"scr_get_input_name(4)"
+],
+"obj_dummyenemy_slash_Step_0_gml_405_0": [
+"scr_get_input_name(4)"
+],
+"obj_dummyenemy_slash_Step_0_gml_406_0": [
+"scr_get_input_name(4)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_125_0": [
+"scr_get_input_name(4)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_132_0": [
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_136_0": [
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_50_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_51_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Step_0_gml_434_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_gigaqueen_enemy_slash_Step_0_gml_121_0": [
+"scr_get_input_name(3)",
+"scr_get_input_name(1)",
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_gigaqueen_enemy_slash_Step_0_gml_123_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_gigaqueen_enemy_slash_Step_0_gml_57_0_b": [
+"scr_get_input_name(3)",
+"scr_get_input_name(1)"
+],
+"obj_healwriter_slash_Draw_0_gml_4_0": [
+"healamt"
+],
+"obj_maus_enemy_slash_Step_0_gml_166_0": [
+"scr_get_input_name(6)"
+],
+"obj_maus_enemy_slash_Step_0_gml_269_0": [
+"scr_get_input_name(6)"
+],
+"obj_maus_enemy_slash_Step_0_gml_306_0": [
+"caughtamount"
+],
+"obj_mauswheel_enemy_slash_Step_0_gml_163_0": [
+"scr_get_input_name(6)"
+],
+"obj_mauswheel_enemy_slash_Step_0_gml_173_0": [
+"scr_get_input_name(6)"
+],
 "obj_npc_dojo_slash_Step_0_gml_51_0": [
 "dojoPrizeName"
 ],
@@ -2807,14 +3197,60 @@
 "obj_npc_room_slash_Other_10_gml_1236_0": [
 "sentenceEnd"
 ],
+"obj_npc_room_slash_Other_10_gml_1504_0": [
+"global.truename"
+],
+"obj_npc_room_slash_Other_10_gml_1510_0": [
+"global.truename"
+],
+"obj_npc_room_slash_Other_10_gml_2042_0": [
+"miceGold"
+],
 "obj_npc_rudy_slash_Step_0_gml_29_0": [
 "sentenceEnd"
 ],
 "obj_npc_sign_slash_Other_10_gml_27_0": [
 "colortxt"
 ],
+"obj_npc_sign_slash_Other_10_gml_642_0_b": [
+"strong_check"
+],
+"obj_npc_sign_slash_Other_10_gml_649_0": [
+"strong_check"
+],
 "obj_npc_sign_slash_Other_10_gml_770_0": [
 "total_checkmarks"
+],
+"obj_overworldc_slash_Draw_0_gml_113_0": [
+"nextlevel"
+],
+"obj_overworldc_slash_Draw_0_gml_37_0": [
+"global.lhp",
+"global.lmaxhp"
+],
+"obj_overworldc_slash_Draw_0_gml_38_0": [
+"global.llv"
+],
+"obj_overworldc_slash_Draw_0_gml_40_0": [
+"global.lgold"
+],
+"obj_overworldc_slash_Draw_0_gml_66_0": [
+"global.lcharname"
+],
+"obj_overworldc_slash_Draw_0_gml_68_0": [
+"global.llv"
+],
+"obj_overworldc_slash_Draw_0_gml_69_0": [
+"global.lhp",
+"global.lmaxhp"
+],
+"obj_overworldc_slash_Draw_0_gml_71_0": [
+"global.lat",
+"global.lwstrength"
+],
+"obj_overworldc_slash_Draw_0_gml_72_0": [
+"global.ldf",
+"global.ladef"
 ],
 "obj_overworldc_slash_Draw_0_gml_81_0": [
 "weaponname"
@@ -2822,14 +3258,53 @@
 "obj_overworldc_slash_Draw_0_gml_82_0": [
 "armorname"
 ],
+"obj_overworldc_slash_Draw_0_gml_83_0": [
+"global.lgold"
+],
+"obj_overworldc_slash_Draw_0_gml_92_0": [
+"global.lxp"
+],
+"obj_overworldc_slash_Draw_0_gml_95_0": [
+"global.flag[914]"
+],
+"obj_overworldc_slash_Step_0_gml_34_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_34_0_b": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_36_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_38_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_38_0_b": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_pipis_enemy_slash_Step_0_gml_97_0": [
+"randomnumber"
+],
 "obj_poppup_enemy_slash_Step_0_gml_140_0": [
 "randomText"
+],
+"obj_poppup_enemy_slash_Step_0_gml_309_0": [
+"scr_get_input_name(6)"
+],
+"obj_queen_enemy_slash_Step_0_gml_519_0": [
+"scr_get_input_name(6)"
 ],
 "obj_readable_room1_slash_Other_10_gml_1921_0_b": [
 "sentenceEnd"
 ],
 "obj_readable_room1_slash_Other_10_gml_2101_0": [
 "sentenceEnd"
+],
+"obj_readable_room1_slash_Other_10_gml_2641_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(3)",
+"scr_get_input_name(1)",
+"scr_get_input_name(0)"
 ],
 "obj_rouxls_enemy_slash_Step_0_gml_136_0": [
 "zone_word"
@@ -2840,20 +3315,84 @@
 "obj_rouxls_enemy_slash_Step_0_gml_147_1": [
 "shipStatus"
 ],
+"obj_rouxls_simtown_slash_Draw_0_gml_80_0": [
+"scr_get_input_name(4)"
+],
+"obj_savemenu_slash_Draw_0_gml_215_0": [
+"mpos + 1"
+],
+"obj_savemenu_slash_Draw_0_gml_34_0": [
+"global.chapter"
+],
+"obj_shapepuzzle_slash_Draw_0_gml_173_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_shop1_slash_Draw_0_gml_143_0": [
+"buyvalue[i]"
+],
+"obj_shop1_slash_Draw_0_gml_177_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop1_slash_Draw_0_gml_407_0": [
+"sellvalue"
+],
 "obj_shop1_slash_Draw_0_gml_638_0": [
 "sentence_end"
 ],
 "obj_shop1_slash_Draw_0_gml_784_0": [
 "roomstring"
 ],
+"obj_shop2_slash_Draw_0_gml_113_0": [
+"buyvalue[i]"
+],
+"obj_shop2_slash_Draw_0_gml_147_0_b": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop2_slash_Draw_0_gml_328_0": [
+"sellvalue"
+],
 "obj_shop2_slash_Draw_0_gml_482_0": [
 "roomstring"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_250_0": [
+"buyvalue[i]"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_291_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_508_0": [
+"sellvalue"
 ],
 "obj_shop_ch2_music_slash_Draw_0_gml_677_0": [
 "roomstring"
 ],
+"obj_shop_ch2_spamton_slash_Draw_0_gml_337_0": [
+"buyvalue[i]"
+],
+"obj_shop_ch2_spamton_slash_Draw_0_gml_380_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop_ch2_spamton_slash_Draw_0_gml_619_0": [
+"sellvalue"
+],
+"obj_shop_ch2_swatch_slash_Draw_0_gml_120_0": [
+"buyvalue[i]"
+],
+"obj_shop_ch2_swatch_slash_Draw_0_gml_160_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop_ch2_swatch_slash_Draw_0_gml_387_0": [
+"sellvalue"
+],
 "obj_shop_ch2_swatch_slash_Draw_0_gml_557_0": [
 "roomstring"
+],
+"obj_spamton_neo_enemy_slash_Step_0_gml_313_0": [
+"scr_get_input_name(4)"
+],
+"obj_spamton_neo_enemy_slash_Step_0_gml_534_0": [
+"scr_get_input_name(6)"
 ],
 "obj_swatchling_enemy_slash_Step_0_gml_395_0": [
 "temp"
@@ -2908,6 +3447,9 @@
 "obj_tem_school_slash_Other_10_gml_66_0": [
 "egg_amount"
 ],
+"obj_throwralsei_slash_Step_0_gml_26_0": [
+"scr_get_input_name(6)"
+],
 "obj_treasure_room_slash_Other_10_gml_65_0": [
 "itemname"
 ],
@@ -2919,8 +3461,245 @@
 "itemname",
 "itemtypename"
 ],
+"obj_werewire_enemy_slash_Step_0_gml_122_0": [
+"scr_get_input_name(4)"
+],
+"obj_werewire_enemy_slash_Step_0_gml_425_0": [
+"scr_get_input_name(6)"
+],
+"scr_anyface_slash_scr_anyface_gml_23_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_24_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_27_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_28_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_28_0_b": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_0": [
+"_emotion"
+],
+"scr_asgface_slash_scr_asgface_gml_1_0": [
+"arg1"
+],
+"scr_itemdesc_single_slash_scr_itemdesc_single_gml_27_0": [
+"healamount"
+],
+"scr_iteminfo_slash_scr_iteminfo_gml_59_0": [
+"healamount"
+],
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_70_0": [
 "crystal_amount"
+],
+"scr_kingface_slash_scr_kingface_gml_3_0": [
+"arg1"
+],
+"scr_kingface_slash_scr_kingface_gml_7_0": [
+"arg1"
+],
+"scr_lanface_slash_scr_lanface_gml_1_0": [
+"arg1"
+],
+"scr_lrecoitem_slash_scr_lrecoitem_gml_14_0": [
+"global.item[8]"
+],
+"scr_noeface_slash_scr_noeface_gml_1_0": [
+"arg1"
+],
+"scr_ralface_slash_scr_ralface_gml_1_0": [
+"arg1"
+],
+"scr_rudface_slash_scr_rudface_gml_1_0": [
+"arg1"
+],
+"scr_rurusface_slash_scr_rurusface_gml_1_0": [
+"arg1"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_158_0": [
+"ceil(itemsellvalue[i] / 2)"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_270_0": [
+"ceil(weaponvalue[i] / 2)"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_389_0": [
+"ceil(armorvalue[i] / 2)"
+],
+"scr_spelltext_slash_scr_spelltext_gml_100_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_122_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_14_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_179_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_183_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_187_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_18_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_191_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_194_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_197_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_200_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_203_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_206_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_209_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_230_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_233_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_236_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_23_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_240_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_243_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_246_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_249_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_252_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_255_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_258_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_261_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_264_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_267_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_270_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_273_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_276_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_279_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_282_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_298_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_33_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_36_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_43_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_47_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_51_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_55_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_58_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_59_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_62_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_63_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_66_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_67_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_69_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_73_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_78_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_86_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_94_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_99_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_susface_slash_scr_susface_gml_1_0": [
+"arg1"
 ],
 "scr_text_slash_scr_text_gml_1343_0": [
 "input_name"
@@ -2930,6 +3709,12 @@
 ],
 "scr_text_slash_scr_text_gml_250_0": [
 "input_name"
+],
+"scr_text_slash_scr_text_gml_265_0": [
+"scr_get_input_name(5)"
+],
+"scr_text_slash_scr_text_gml_314_0_b": [
+"scr_get_input_name(6)"
 ],
 "scr_text_slash_scr_text_gml_3627_0": [
 "myname"
@@ -2952,11 +3737,58 @@
 "scr_text_slash_scr_text_gml_6792_0": [
 "lightner_name"
 ],
+"scr_text_slash_scr_text_gml_7180_0": [
+"ringprice"
+],
+"scr_text_slash_scr_text_gml_7528_0": [
+"scr_get_input_name(4)"
+],
+"scr_text_slash_scr_text_gml_7529_0": [
+"scr_get_input_name(5)"
+],
+"scr_text_slash_scr_text_gml_7530_0": [
+"scr_get_input_name(6)"
+],
 "scr_text_slash_scr_text_gml_831_0": [
 "nn"
+],
+"scr_torface_slash_scr_torface_gml_1_0": [
+"arg1"
 ]
 },
 "3": {
+"DEVICE_CONTACT_slash_Step_0_gml_729_0": [
+"global.name"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_734_0": [
+"global.name"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_785_0": [
+"global.truename"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_816_0": [
+"global.truename"
+],
+"DEVICE_MENU_slash_Draw_0_gml_289_0": [
+"global.chapter - 1"
+],
+"DEVICE_MENU_slash_Draw_0_gml_305_0": [
+"global.chapter - 1"
+],
+"DEVICE_MENU_slash_Draw_0_gml_387_0": [
+"global.chapter",
+"global.chapter - 1"
+],
+"DEVICE_MENU_slash_Draw_0_gml_389_0": [
+"global.chapter",
+"MENUCOORD[10] + 1"
+],
+"obj_b3bs_console_slash_Draw_0_gml_5_0": [
+"scr_get_input_name(5)"
+],
+"obj_b3bs_lancerget_console_slash_Step_0_gml_72_0": [
+"global.flag[1099]"
+],
 "obj_baseenemy_slash_Step_0_gml_105_0": [
 "substring"
 ],
@@ -2972,11 +3804,24 @@
 "obj_baseenemy_slash_Step_0_gml_114_0": [
 "substring"
 ],
+"obj_battlecontroller_slash_Step_0_gml_42_0": [
+"global.monsterexp[3]",
+"global.monstergold[3]"
+],
+"obj_battlecontroller_slash_Step_0_gml_46_0": [
+"global.monstergold[3]"
+],
+"obj_battlecontroller_slash_Step_0_gml_69_0": [
+"global.monstergold[3]"
+],
 "obj_board_event_lawnmower_slash_Step_0_gml_130_0": [
 "amt"
 ],
 "obj_board_pickup_slash_Step_0_gml_285_0": [
 "substring"
+],
+"obj_board_pickup_slash_Step_0_gml_518_0": [
+"scr_get_input_name(4)"
 ],
 "obj_board_sadfriendo_slash_Step_0_gml_141_0": [
 "substring"
@@ -2987,11 +3832,22 @@
 "obj_ch2_room_castle_2f_slash_Step_0_gml_54_0": [
 "sentenceEnd"
 ],
+"obj_ch3_GSA04_slash_Step_0_gml_376_0": [
+"scr_get_input_name(4)"
+],
+"obj_ch3_GSA04_slash_Step_0_gml_378_0": [
+"scr_get_input_name(5)"
+],
 "obj_ch3_GSB02_slash_Step_0_gml_556_0": [
-"left_button"
+"left_button",
+"scr_get_input_name(3)"
 ],
 "obj_ch3_GSB02_slash_Step_0_gml_557_0": [
-"right_button"
+"right_button",
+"scr_get_input_name(1)"
+],
+"obj_ch3_GSC05_slash_Step_0_gml_381_0": [
+"scr_get_input_name(4)"
 ],
 "obj_ch3_GSD01_slash_Step_0_gml_321_0": [
 "heal_text"
@@ -3020,6 +3876,20 @@
 "obj_checker_animtest_slash_Step_0_gml_48_0": [
 "name"
 ],
+"obj_checkers_enemy_slash_Step_0_gml_489_0": [
+"scr_get_input_name(6)"
+],
+"obj_checkers_enemy_slash_Step_0_gml_82_0": [
+"crown"
+],
+"obj_chef_controls_ui_slash_Draw_0_gml_19_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_cutscene_maker_slash_Draw_0_gml_60_0": [
+"i",
+"j"
+],
 "obj_darkcontroller_slash_Draw_0_gml_383_0": [
 "falselv"
 ],
@@ -3029,8 +3899,35 @@
 "obj_darkcontroller_slash_Draw_0_gml_385_0": [
 "falselv"
 ],
+"obj_darkcontroller_slash_Draw_0_gml_47_0": [
+"global.gold"
+],
+"obj_darkcontroller_slash_Draw_0_gml_58_0": [
+"global.flag[1044]"
+],
+"obj_darkcontroller_slash_Draw_0_gml_956_0": [
+"global.itemname[global.submenucoord[2]]"
+],
+"obj_dojo_spareenemy_slash_Step_0_gml_44_0": [
+"beardcount"
+],
+"obj_dummyenemy_slash_Step_0_gml_399_0": [
+"scr_get_input_name(4)"
+],
+"obj_dummyenemy_slash_Step_0_gml_405_0": [
+"scr_get_input_name(4)"
+],
+"obj_dummyenemy_slash_Step_0_gml_406_0": [
+"scr_get_input_name(4)"
+],
+"obj_dw_ch3_b3bs_trashcan_slash_Other_10_gml_44_0": [
+"itemidchest"
+],
 "obj_dw_ch3_curtainroomnpc_slash_Step_0_gml_306_0": [
 "weather_word"
+],
+"obj_dw_rainbow_bg_slash_Draw_0_gml_21_0": [
+"scr_get_input_name(4)"
 ],
 "obj_dw_ranking_hub_sign_slash_Create_0_gml_21_0": [
 "board"
@@ -3047,11 +3944,41 @@
 "obj_elnina_lanino_controller_slash_Step_0_gml_813_0": [
 "ilovetv"
 ],
+"obj_fusionmenu_slash_Draw_0_gml_125_0": [
+"scr_get_input_name(4)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_132_0": [
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_136_0": [
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_50_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_51_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Step_0_gml_434_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
 "obj_gameover_chef_slash_Step_0_gml_121_0": [
 "times_lost"
 ],
+"obj_glowtilepuzz_slash_Step_0_gml_112_0": [
+"scr_get_input_name(5)"
+],
+"obj_healwriter_slash_Draw_0_gml_4_0": [
+"healamt"
+],
 "obj_minigame_quit_ui_slash_Draw_0_gml_18_0": [
-"_space"
+"scr_get_input_name(6)"
+],
+"obj_minigame_quit_ui_slash_Draw_0_gml_20_0": [
+"scr_get_input_name(6)"
 ],
 "obj_npc_dojo_slash_Step_0_gml_51_0": [
 "dojoPrizeName"
@@ -3068,6 +3995,9 @@
 ],
 "obj_npc_ramb_slash_Other_10_gml_83_0": [
 "item_type"
+],
+"obj_npc_room_slash_Other_10_gml_1510_0": [
+"global.truename"
 ],
 "obj_npc_room_slash_Other_10_gml_1761_0": [
 "sentence_end"
@@ -3093,14 +4023,75 @@
 "obj_npc_sign_slash_Other_10_gml_396_0": [
 "sentence_end"
 ],
+"obj_overworldc_slash_Draw_0_gml_113_0": [
+"nextlevel"
+],
+"obj_overworldc_slash_Draw_0_gml_37_0": [
+"global.lhp",
+"global.lmaxhp"
+],
+"obj_overworldc_slash_Draw_0_gml_38_0": [
+"global.llv"
+],
+"obj_overworldc_slash_Draw_0_gml_40_0": [
+"global.lgold"
+],
+"obj_overworldc_slash_Draw_0_gml_66_0": [
+"global.lcharname"
+],
+"obj_overworldc_slash_Draw_0_gml_68_0": [
+"global.llv"
+],
+"obj_overworldc_slash_Draw_0_gml_69_0": [
+"global.lhp",
+"global.lmaxhp"
+],
+"obj_overworldc_slash_Draw_0_gml_71_0": [
+"global.lat",
+"global.lwstrength"
+],
+"obj_overworldc_slash_Draw_0_gml_72_0": [
+"global.ldf",
+"global.ladef"
+],
 "obj_overworldc_slash_Draw_0_gml_81_0": [
 "weaponname"
 ],
 "obj_overworldc_slash_Draw_0_gml_82_0": [
 "armorname"
 ],
+"obj_overworldc_slash_Draw_0_gml_83_0": [
+"global.lgold"
+],
+"obj_overworldc_slash_Draw_0_gml_92_0": [
+"global.lxp"
+],
+"obj_overworldc_slash_Draw_0_gml_95_0": [
+"global.flag[914]"
+],
+"obj_overworldc_slash_Step_0_gml_34_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_34_0_b": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_36_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_38_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_38_0_b": [
+"global.litemname[global.menucoord[1]]"
+],
 "obj_quizsequence_slash_Step_0_gml_402_0": [
 "lanname"
+],
+"obj_rabbick_enemy_slash_Step_0_gml_128_0": [
+"input_name"
+],
+"obj_rabbick_enemy_slash_Step_0_gml_150_0": [
+"input_name"
 ],
 "obj_readable_room1_slash_Other_10_gml_1921_0_b": [
 "sentenceEnd"
@@ -3111,20 +4102,89 @@
 "obj_readable_room1_slash_Other_10_gml_2231_0_b": [
 "sentence_end"
 ],
+"obj_ribbick_enemy_slash_Step_0_gml_231_0": [
+"scr_get_input_name(6)"
+],
+"obj_room_changing_room_slash_Step_0_gml_144_0": [
+"scr_get_input_name(4)"
+],
 "obj_room_changing_room_slash_Step_0_gml_24_0": [
 "ender"
+],
+"obj_room_ranking_b_slash_Step_0_gml_114_0": [
+"scr_get_input_name(4)"
+],
+"obj_room_ranking_b_slash_Step_0_gml_118_0": [
+"scr_get_input_name(5)"
 ],
 "obj_room_ranking_hub_slash_Step_0_gml_92_0": [
 "rank_letter"
 ],
+"obj_savemenu_slash_Draw_0_gml_215_0": [
+"mpos + 1"
+],
+"obj_savemenu_slash_Draw_0_gml_34_0": [
+"global.chapter"
+],
+"obj_shadowman_enemy_slash_Step_0_gml_325_0": [
+"scr_get_input_name(6)"
+],
+"obj_shadowman_enemy_slash_Step_0_gml_325_0_keyless_0": [
+"scr_get_input_name(6)"
+],
+"obj_shop1_slash_Draw_0_gml_143_0": [
+"buyvalue[i]"
+],
+"obj_shop1_slash_Draw_0_gml_177_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop1_slash_Draw_0_gml_407_0": [
+"sellvalue"
+],
+"obj_shop2_slash_Draw_0_gml_113_0": [
+"buyvalue[i]"
+],
+"obj_shop2_slash_Draw_0_gml_147_0_b": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop2_slash_Draw_0_gml_328_0": [
+"sellvalue"
+],
 "obj_shop2_slash_Draw_0_gml_482_0": [
 "roomstring"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_250_0": [
+"buyvalue[i]"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_291_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_508_0": [
+"sellvalue"
 ],
 "obj_shop_ch2_music_slash_Draw_0_gml_677_0": [
 "roomstring"
 ],
 "obj_shop_vending_slash_Create_0_gml_26_0": [
 "value_label"
+],
+"obj_shop_vending_slash_Draw_0_gml_122_0": [
+"buyvalue[i]"
+],
+"obj_shop_vending_slash_Draw_0_gml_149_0": [
+"buyvalue[i]"
+],
+"obj_shop_vending_slash_Draw_0_gml_162_0": [
+"buyvalue[i]"
+],
+"obj_shop_vending_slash_Draw_0_gml_196_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop_vending_slash_Draw_0_gml_224_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop_vending_slash_Draw_0_gml_456_0": [
+"sellvalue"
 ],
 "obj_shutta_enemy_slash_Step_0_gml_121_0": [
 "_ext"
@@ -3150,11 +4210,8 @@
 "obj_shutta_enemy_slash_Step_0_gml_174_0_keyless_0": [
 "inpname"
 ],
-"obj_snd_maker_Draw_0_gml_keyless_2": [
-"c_yellow",
-"c_yellow",
-"c_white",
-"c_white"
+"obj_shutta_photo_controller_slash_Draw_77_gml_175_0": [
+"scr_get_input_name(4)"
 ],
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": [
 "sentenceEnd"
@@ -3168,11 +4225,8 @@
 "obj_tem_school_slash_Other_10_gml_66_0": [
 "egg_amount"
 ],
-"obj_tenna_minigame_ui_Draw_0_gml_keyless_4": [
-"blend1",
-"blend1",
-"blend1",
-"blend1"
+"obj_throwralsei_slash_Step_0_gml_26_0": [
+"scr_get_input_name(6)"
 ],
 "obj_treasure_room_slash_Other_10_gml_65_0": [
 "itemname"
@@ -3186,19 +4240,300 @@
 "itemtypename"
 ],
 "obj_watercooler_enemy_slash_Step_0_gml_38_0": [
-"random_vowel"
+"random_vowel",
+"choose(\"i\", \"l\")"
+],
+"obj_zapper_enemy_slash_Step_0_gml_183_0": [
+"global.monsterat[myself]",
+"global.monsterdf[myself]"
+],
+"obj_zapper_enemy_slash_Step_0_gml_184_0": [
+"global.monsterat[myself]",
+"global.monsterdf[myself]"
 ],
 "scr_anyface_gml_keyless_0": [
 "_speaker"
 ],
+"scr_anyface_slash_scr_anyface_gml_23_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_24_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_27_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_28_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_28_0_b": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_1": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_2": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_3": [
+"_emotion"
+],
+"scr_asgface_slash_scr_asgface_gml_1_0": [
+"arg1"
+],
 "scr_get_completed_file_name_slash_scr_get_completed_file_name_gml_18_0": [
-"_file_name"
+"_file_name",
+"arg0"
+],
+"scr_get_high_score_text_slash_scr_get_high_score_text_gml_10_0": [
+"global.flag[arg0]"
+],
+"scr_get_high_score_text_slash_scr_get_high_score_text_gml_11_0": [
+"scr_get_rank_letter(arg1)"
+],
+"scr_get_high_score_text_slash_scr_get_high_score_text_gml_16_0": [
+"global.flag[arg0]"
+],
+"scr_get_high_score_text_slash_scr_get_high_score_text_gml_17_0": [
+"scr_get_rank_letter(arg1)"
 ],
 "scr_get_high_score_text_slash_scr_get_high_score_text_gml_18_0": [
 "arg2"
 ],
+"scr_itemdesc_single_slash_scr_itemdesc_single_gml_27_0": [
+"healamount"
+],
+"scr_iteminfo_slash_scr_iteminfo_gml_59_0": [
+"healamount"
+],
+"scr_keyiteminfo_slash_scr_keyiteminfo_gml_189_0": [
+"global.flag[1099]"
+],
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_70_0": [
 "crystal_amount"
+],
+"scr_kingface_slash_scr_kingface_gml_3_0": [
+"arg1"
+],
+"scr_kingface_slash_scr_kingface_gml_7_0": [
+"arg1"
+],
+"scr_lanface_slash_scr_lanface_gml_1_0": [
+"arg1"
+],
+"scr_lrecoitem_slash_scr_lrecoitem_gml_14_0": [
+"global.item[8]"
+],
+"scr_noeface_slash_scr_noeface_gml_1_0": [
+"arg1"
+],
+"scr_ralface_slash_scr_ralface_gml_1_0": [
+"arg1"
+],
+"scr_rhythmgame_tools_gml_keyless_0": [
+"clip_size",
+"round(arg0 / (meter / 4))"
+],
+"scr_rhythmgame_tools_gml_keyless_1": [
+"clip_size"
+],
+"scr_rudface_slash_scr_rudface_gml_1_0": [
+"arg1"
+],
+"scr_rurusface_slash_scr_rurusface_gml_1_0": [
+"arg1"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_158_0": [
+"ceil(itemsellvalue[i] / 2)"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_270_0": [
+"ceil(weaponvalue[i] / 2)"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_389_0": [
+"ceil(armorvalue[i] / 2)"
+],
+"scr_spelltext_slash_scr_spelltext_gml_100_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_122_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_14_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_179_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_183_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_187_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_18_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_191_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_194_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_197_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_200_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_203_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_206_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_209_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_230_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_233_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_236_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_23_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_252_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_255_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_258_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_261_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_264_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_267_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_270_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_273_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_276_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_279_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_282_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_298_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_303_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_306_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_309_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_312_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_315_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_318_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_33_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_36_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_43_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_47_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_51_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_55_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_58_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_59_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_62_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_63_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_66_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_68_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_69_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_73_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_78_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_86_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_94_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_99_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_susface_slash_scr_susface_gml_1_0": [
+"arg1"
+],
+"scr_text_slash_scr_text_gml_10567_0": [
+"global.charname[global.char[caster]]"
 ],
 "scr_text_slash_scr_text_gml_1343_0": [
 "input_name"
@@ -3208,6 +4543,12 @@
 ],
 "scr_text_slash_scr_text_gml_250_0": [
 "input_name"
+],
+"scr_text_slash_scr_text_gml_265_0": [
+"scr_get_input_name(5)"
+],
+"scr_text_slash_scr_text_gml_314_0_b": [
+"scr_get_input_name(6)"
 ],
 "scr_text_slash_scr_text_gml_3627_0": [
 "myname"
@@ -3230,14 +4571,55 @@
 "scr_text_slash_scr_text_gml_6792_0": [
 "lightner_name"
 ],
+"scr_text_slash_scr_text_gml_7180_0": [
+"ringprice"
+],
+"scr_text_slash_scr_text_gml_7528_0": [
+"scr_get_input_name(4)"
+],
+"scr_text_slash_scr_text_gml_7529_0": [
+"scr_get_input_name(5)"
+],
+"scr_text_slash_scr_text_gml_7530_0": [
+"scr_get_input_name(6)"
+],
 "scr_text_slash_scr_text_gml_831_0": [
 "nn"
 ],
 "scr_text_slash_scr_text_gml_9546_0": [
 "game_name"
+],
+"scr_torface_slash_scr_torface_gml_1_0": [
+"arg1"
 ]
 },
 "4": {
+"DEVICE_CONTACT_slash_Step_0_gml_729_0": [
+"global.name"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_734_0": [
+"global.name"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_785_0": [
+"global.truename"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_816_0": [
+"global.truename"
+],
+"DEVICE_MENU_slash_Draw_0_gml_289_0": [
+"global.chapter - 1"
+],
+"DEVICE_MENU_slash_Draw_0_gml_305_0": [
+"global.chapter - 1"
+],
+"DEVICE_MENU_slash_Draw_0_gml_387_0": [
+"global.chapter",
+"global.chapter - 1"
+],
+"DEVICE_MENU_slash_Draw_0_gml_389_0": [
+"global.chapter",
+"MENUCOORD[10] + 1"
+],
 "obj_baseenemy_slash_Step_0_gml_114_0_b": [
 "substring"
 ],
@@ -3253,6 +4635,20 @@
 "obj_baseenemy_slash_Step_0_gml_89_0": [
 "substring"
 ],
+"obj_battlecontroller_slash_Step_0_gml_101_0": [
+"global.monsterexp[3]",
+"global.monstergold[3]"
+],
+"obj_battlecontroller_slash_Step_0_gml_42_0": [
+"global.monsterexp[3]",
+"global.monstergold[3]"
+],
+"obj_battlecontroller_slash_Step_0_gml_46_0": [
+"global.monstergold[3]"
+],
+"obj_battlecontroller_slash_Step_0_gml_69_0": [
+"global.monstergold[3]"
+],
 "obj_bell_enemy_slash_Step_0_gml_172_0": [
 "txt"
 ],
@@ -3261,6 +4657,9 @@
 ],
 "obj_bell_enemy_slash_Step_0_gml_199_0": [
 "txt"
+],
+"obj_ch4_DCA02_slash_Step_0_gml_505_0": [
+"scr_get_team_name()"
 ],
 "obj_ch4_PDC03A_rudy_toriel_slash_Step_0_gml_625_0": [
 "sentenceEnd"
@@ -3280,6 +4679,12 @@
 "obj_ch4_PDC03_slash_Step_0_gml_884_0": [
 "sentence_end"
 ],
+"obj_ch4_PDC10C_slash_Create_0_gml_163_0": [
+"scr_get_input_name(3)",
+"scr_get_input_name(2)",
+"scr_get_input_name(1)",
+"scr_get_input_name(0)"
+],
 "obj_chapter_continue_Create_0_gml_keyless_0": [
 "next_chapter"
 ],
@@ -3295,6 +4700,19 @@
 "obj_checker_animtest_slash_Step_0_gml_48_0": [
 "name"
 ],
+"obj_checkers_enemy_slash_Step_0_gml_489_0": [
+"scr_get_input_name(6)"
+],
+"obj_checkers_enemy_slash_Step_0_gml_82_0": [
+"crown"
+],
+"obj_credits_ch4_slash_Create_0_gml_76_0": [
+"global.truename"
+],
+"obj_cutscene_maker_slash_Draw_0_gml_60_0": [
+"i",
+"j"
+],
 "obj_darkcontroller_slash_Draw_0_gml_383_0": [
 "falselv"
 ],
@@ -3304,8 +4722,52 @@
 "obj_darkcontroller_slash_Draw_0_gml_385_0": [
 "falselv"
 ],
+"obj_darkcontroller_slash_Draw_0_gml_47_0": [
+"global.gold"
+],
+"obj_darkcontroller_slash_Draw_0_gml_956_0": [
+"global.itemname[global.submenucoord[2]]"
+],
+"obj_dojo_spareenemy_slash_Step_0_gml_44_0": [
+"beardcount"
+],
+"obj_dummyenemy_slash_Step_0_gml_399_0": [
+"scr_get_input_name(4)"
+],
+"obj_dummyenemy_slash_Step_0_gml_405_0": [
+"scr_get_input_name(4)"
+],
+"obj_dummyenemy_slash_Step_0_gml_406_0": [
+"scr_get_input_name(4)"
+],
+"obj_dw_church_climbtut_slash_Step_0_gml_37_0": [
+"scr_get_input_name(2)"
+],
+"obj_dw_church_climbtut_slash_Step_0_gml_42_0": [
+"scr_get_input_name(4)"
+],
+"obj_dw_church_climbtut_slash_Step_0_gml_46_0": [
+"scr_get_input_name(4)"
+],
+"obj_dw_church_moneyfountain_slash_Step_0_gml_119_0": [
+"global.flag[898]"
+],
 "obj_dw_church_moneyfountain_slash_Step_0_gml_232_0": [
-"monystring"
+"newmony",
+"monystring",
+"global.flag[898]"
+],
+"obj_dw_church_pianopiece_right_slash_Step_0_gml_396_0": [
+"scr_get_input_name(4)"
+],
+"obj_dw_church_pianopiece_right_slash_Step_0_gml_396_0_keyless_0": [
+"scr_get_input_name(4)"
+],
+"obj_dw_church_pianopiece_right_slash_Step_0_gml_398_0": [
+"scr_get_input_name(6)"
+],
+"obj_dw_church_remote_piano_slash_Draw_0_gml_28_0": [
+"scr_get_input_name(6)"
 ],
 "obj_dw_church_sideclimb_slash_Step_0_gml_746_0": [
 "speedtime"
@@ -3331,8 +4793,45 @@
 "obj_dw_churchb_gersonchase_slash_Step_0_gml_486_0": [
 "correctstring"
 ],
+"obj_dw_churchb_gersonstudy_slash_Step_0_gml_307_0": [
+"price"
+],
+"obj_dw_churchb_moneyfountain_slash_Step_0_gml_139_0": [
+"global.flag[898]"
+],
+"obj_dw_churchb_moneyfountain_slash_Step_0_gml_145_0": [
+"global.flag[898] + other.bonus"
+],
+"obj_fusionmenu_slash_Draw_0_gml_125_0": [
+"scr_get_input_name(4)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_132_0": [
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_136_0": [
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_50_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_51_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Step_0_gml_434_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_gerson_rudebuster_slash_Draw_0_gml_57_0_keyless_0": [
+"scr_get_input_name(4)"
+],
+"obj_healwriter_slash_Draw_0_gml_4_0": [
+"healamt"
+],
 "obj_holywatercooler_enemy_slash_Step_0_gml_146_0": [
-"random_vowel"
+"random_vowel",
+"choose(\"i\", \"l\")"
 ],
 "obj_jackenstein_enemy_slash_Step_0_gml_316_0": [
 "_str1"
@@ -3340,11 +4839,21 @@
 "obj_jackenstein_enemy_slash_Step_0_gml_323_0": [
 "_str2"
 ],
+"obj_miccheck_slash_Other_10_gml_59_0": [
+"key[1]"
+],
+"obj_miccheck_slash_Other_10_gml_67_0": [
+"key[0]",
+"key[1]"
+],
 "obj_micmenu_slash_Draw_0_gml_172_0": [
 "arg0"
 ],
+"obj_mike_minigame_controller_slash_Create_0_gml_185_0": [
+"name[minigame]"
+],
 "obj_minigame_quit_ui_slash_Draw_0_gml_18_0": [
-"_space"
+"scr_get_input_name(6)"
 ],
 "obj_multiboss_enemy1_slash_Step_0_gml_137_0": [
 "substring"
@@ -3364,11 +4873,45 @@
 "obj_npc_hammerguy_slash_Step_0_gml_251_0": [
 "fusionResultName"
 ],
+"obj_npc_room_slash_Other_10_gml_1662_0_b": [
+"global.truename"
+],
 "obj_npc_room_slash_Other_10_gml_2146_0": [
 "sentence_end"
 ],
 "obj_npc_sign_slash_Other_10_gml_27_0": [
 "colortxt"
+],
+"obj_overworldc_slash_Draw_0_gml_113_0": [
+"nextlevel"
+],
+"obj_overworldc_slash_Draw_0_gml_37_0": [
+"global.lhp",
+"global.lmaxhp"
+],
+"obj_overworldc_slash_Draw_0_gml_38_0": [
+"global.llv"
+],
+"obj_overworldc_slash_Draw_0_gml_40_0": [
+"global.lgold"
+],
+"obj_overworldc_slash_Draw_0_gml_66_0": [
+"global.lcharname"
+],
+"obj_overworldc_slash_Draw_0_gml_68_0": [
+"global.llv"
+],
+"obj_overworldc_slash_Draw_0_gml_69_0": [
+"global.lhp",
+"global.lmaxhp"
+],
+"obj_overworldc_slash_Draw_0_gml_71_0": [
+"global.lat",
+"global.lwstrength"
+],
+"obj_overworldc_slash_Draw_0_gml_72_0": [
+"global.ldf",
+"global.ladef"
 ],
 "obj_overworldc_slash_Draw_0_gml_81_0": [
 "weaponname"
@@ -3376,11 +4919,38 @@
 "obj_overworldc_slash_Draw_0_gml_82_0": [
 "armorname"
 ],
+"obj_overworldc_slash_Draw_0_gml_83_0": [
+"global.lgold"
+],
+"obj_overworldc_slash_Draw_0_gml_92_0": [
+"global.lxp"
+],
+"obj_overworldc_slash_Draw_0_gml_95_0": [
+"global.flag[914]"
+],
+"obj_overworldc_slash_Step_0_gml_34_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_34_0_b": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_36_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_38_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_38_0_b": [
+"global.litemname[global.menucoord[1]]"
+],
 "obj_readable_room1_slash_Other_10_gml_1921_0_b": [
 "sentenceEnd"
 ],
 "obj_readable_room1_slash_Other_10_gml_2154_0": [
 "sentence_end"
+],
+"obj_readable_room1_slash_Other_10_gml_3787_0": [
+"wallpaper[wallpaper_index]"
 ],
 "obj_readable_room1_slash_Other_10_gml_3836_0": [
 "sentence_end"
@@ -3415,23 +4985,70 @@
 "obj_readable_room1_slash_Other_10_gml_931_0_b": [
 "gotten_eggs"
 ],
-"obj_ribbick_enemy_Draw_0_gml_keyless_0": [
-"c_black",
-"c_black",
-"c_black",
-"c_black"
+"obj_ribbick_enemy_slash_Step_0_gml_208_0": [
+"scr_get_input_name(6)"
+],
+"obj_room_castle_tv_zone_3_slash_Step_0_gml_197_0": [
+"scr_get_input_name_console(32779)",
+"scr_get_input_name(4)"
+],
+"obj_room_castle_tv_zone_3_slash_Step_0_gml_387_0": [
+"scr_get_input_name_console(32779)",
+"scr_get_input_name(4)"
+],
+"obj_room_castle_tv_zone_minigame_slash_Step_0_gml_207_0": [
+"_rand[_choice]"
+],
+"obj_savemenu_slash_Draw_0_gml_215_0": [
+"mpos + 1"
+],
+"obj_savemenu_slash_Draw_0_gml_34_0": [
+"global.chapter"
+],
+"obj_shop1_slash_Draw_0_gml_143_0": [
+"buyvalue[i]"
+],
+"obj_shop1_slash_Draw_0_gml_177_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop1_slash_Draw_0_gml_407_0": [
+"sellvalue"
+],
+"obj_shop2_slash_Draw_0_gml_113_0": [
+"buyvalue[i]"
+],
+"obj_shop2_slash_Draw_0_gml_147_0_b": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop2_slash_Draw_0_gml_328_0": [
+"sellvalue"
 ],
 "obj_shop2_slash_Draw_0_gml_482_0": [
 "roomstring"
 ],
+"obj_shop_ch2_music_slash_Draw_0_gml_250_0": [
+"buyvalue[i]"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_291_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_508_0": [
+"sellvalue"
+],
 "obj_shop_ch2_music_slash_Draw_0_gml_677_0": [
 "roomstring"
 ],
-"obj_snd_maker_Draw_0_gml_keyless_2": [
-"c_yellow",
-"c_yellow",
-"c_white",
-"c_white"
+"obj_shop_vending_slash_Draw_0_gml_122_0": [
+"buyvalue[i]"
+],
+"obj_shop_vending_slash_Draw_0_gml_149_0": [
+"buyvalue[i]"
+],
+"obj_shop_vending_slash_Draw_0_gml_196_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop_vending_slash_Draw_0_gml_456_0": [
+"sellvalue"
 ],
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": [
 "sentenceEnd"
@@ -3441,6 +5058,12 @@
 ],
 "obj_tasque_manager_enemy_slash_Step_0_gml_39_0": [
 "randomText"
+],
+"obj_throwralsei_slash_Step_0_gml_26_0": [
+"scr_get_input_name(6)"
+],
+"obj_titan_enemy_slash_Step_0_gml_1600_0": [
+"scr_get_input_name(4)"
 ],
 "obj_titan_enemy_slash_Step_0_gml_1864_0": [
 "_str"
@@ -3465,11 +5088,91 @@
 "scr_anyface_gml_keyless_0": [
 "_speaker"
 ],
+"scr_anyface_slash_scr_anyface_gml_23_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_24_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_27_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_28_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_28_0_b": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0_keyless_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0_keyless_1": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0_keyless_2": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0_keyless_3": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0_keyless_4": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0_keyless_5": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0_keyless_6": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0_keyless_7": [
+"_emotion"
+],
+"scr_asgface_slash_scr_asgface_gml_1_0": [
+"arg1"
+],
 "scr_get_completed_file_name_slash_scr_get_completed_file_name_gml_18_0": [
-"_file_name"
+"_file_name",
+"arg0"
+],
+"scr_itemdesc_single_slash_scr_itemdesc_single_gml_27_0": [
+"healamount"
+],
+"scr_iteminfo_slash_scr_iteminfo_gml_59_0": [
+"healamount"
+],
+"scr_keyiteminfo_slash_scr_keyiteminfo_gml_189_0": [
+"global.flag[1099]"
 ],
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_70_0": [
 "crystal_amount"
+],
+"scr_kingface_slash_scr_kingface_gml_3_0": [
+"arg1"
+],
+"scr_kingface_slash_scr_kingface_gml_7_0": [
+"arg1"
+],
+"scr_lanface_slash_scr_lanface_gml_1_0": [
+"arg1"
+],
+"scr_lrecoitem_slash_scr_lrecoitem_gml_14_0": [
+"global.item[8]"
+],
+"scr_noeface_slash_scr_noeface_gml_1_0": [
+"arg1"
+],
+"scr_ralface_slash_scr_ralface_gml_1_0": [
+"arg1"
+],
+"scr_rhythmgame_tools_gml_keyless_0": [
+"clip_size",
+"round(arg0 / (meter / 4))"
+],
+"scr_rhythmgame_tools_gml_keyless_1": [
+"clip_size"
 ],
 "scr_roomname_slash_scr_roomname_gml_10_0": [
 "church_name_a"
@@ -3507,11 +5210,235 @@
 "scr_roomname_slash_scr_roomname_gml_9_0_c": [
 "church_name_a"
 ],
+"scr_rudface_slash_scr_rudface_gml_1_0": [
+"arg1"
+],
+"scr_rurusface_slash_scr_rurusface_gml_1_0": [
+"arg1"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_158_0": [
+"ceil(itemsellvalue[i] / 2)"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_270_0": [
+"ceil(weaponvalue[i] / 2)"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_389_0": [
+"ceil(armorvalue[i] / 2)"
+],
+"scr_spelltext_slash_scr_spelltext_gml_100_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_100_0_b_keyless_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_118_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_122_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_14_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_179_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_183_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_187_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_18_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_191_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_194_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_197_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_200_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_203_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_206_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_209_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_230_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_233_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_236_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_23_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_252_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_255_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_258_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_261_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_264_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_267_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_270_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_273_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_276_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_279_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_282_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_298_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_303_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_306_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_309_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_312_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_315_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_318_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_329_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_332_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_335_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_338_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_33_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_357_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_36_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_43_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_47_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_51_0": [
+"global.charname[2]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_55_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_58_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_58_0_b": [
+"global.charname[2]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_59_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_62_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_63_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_66_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_69_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_73_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_76_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_77_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_86_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_94_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_99_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_susface_slash_scr_susface_gml_1_0": [
+"arg1"
+],
 "scr_text_slash_scr_text_gml_10244_0_keyless_0": [
 "choice_amt"
 ],
+"scr_text_slash_scr_text_gml_11099_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"scr_text_slash_scr_text_gml_11100_0": [
+"scr_get_input_name(3)",
+"scr_get_input_name(1)"
+],
+"scr_text_slash_scr_text_gml_11101_0": [
+"scr_get_input_name(6)"
+],
 "scr_text_slash_scr_text_gml_11127_0": [
 "song_name"
+],
+"scr_text_slash_scr_text_gml_11487_0": [
+"global.charname[global.char[caster]]"
 ],
 "scr_text_slash_scr_text_gml_1343_0": [
 "input_name"
@@ -3521,6 +5448,12 @@
 ],
 "scr_text_slash_scr_text_gml_250_0": [
 "input_name"
+],
+"scr_text_slash_scr_text_gml_265_0": [
+"scr_get_input_name(5)"
+],
+"scr_text_slash_scr_text_gml_314_0_b": [
+"scr_get_input_name(6)"
 ],
 "scr_text_slash_scr_text_gml_3627_0": [
 "myname"
@@ -3543,14 +5476,60 @@
 "scr_text_slash_scr_text_gml_6792_0": [
 "lightner_name"
 ],
+"scr_text_slash_scr_text_gml_7180_0": [
+"ringprice"
+],
+"scr_text_slash_scr_text_gml_7528_0": [
+"scr_get_input_name(4)"
+],
+"scr_text_slash_scr_text_gml_7529_0": [
+"scr_get_input_name(5)"
+],
+"scr_text_slash_scr_text_gml_7530_0": [
+"scr_get_input_name(6)"
+],
 "scr_text_slash_scr_text_gml_831_0": [
 "nn"
 ],
+"scr_text_slash_scr_text_gml_8936_0": [
+"red_amount * 100",
+"yellow_amount * 100"
+],
 "scr_text_slash_scr_text_gml_8950_0": [
-"juice_text"
+"juice_text",
+"scr_juice_name(yellow_amount, red_amount)"
+],
+"scr_torface_slash_scr_torface_gml_1_0": [
+"arg1"
 ]
 },
 "5": {
+"DEVICE_CONTACT_slash_Step_0_gml_729_0": [
+"global.name"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_734_0": [
+"global.name"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_785_0": [
+"global.truename"
+],
+"DEVICE_CONTACT_slash_Step_0_gml_816_0": [
+"global.truename"
+],
+"DEVICE_MENU_slash_Draw_0_gml_289_0": [
+"global.chapter - 1"
+],
+"DEVICE_MENU_slash_Draw_0_gml_305_0": [
+"global.chapter - 1"
+],
+"DEVICE_MENU_slash_Draw_0_gml_387_0": [
+"global.chapter",
+"global.chapter - 1"
+],
+"DEVICE_MENU_slash_Draw_0_gml_389_0": [
+"global.chapter",
+"MENUCOORD[10] + 1"
+],
 "obj_aqua_enemy_slash_Step_0_gml_373_0": [
 "substring"
 ],
@@ -3584,6 +5563,10 @@
 "obj_aqua_enemy_slash_Step_0_gml_409_0": [
 "substring"
 ],
+"obj_aqua_enemy_slash_Step_0_gml_88_0": [
+"global.battleat[0]",
+"global.battledf[0]"
+],
 "obj_ball_enemy_slash_Step_0_gml_437_0": [
 "_txt"
 ],
@@ -3602,8 +5585,28 @@
 "obj_baseenemy_Step_0_gml_keyless_8": [
 "substring"
 ],
+"obj_battlecontroller_slash_Step_0_gml_42_0": [
+"global.monsterexp[3]",
+"global.monstergold[3]"
+],
+"obj_battlecontroller_slash_Step_0_gml_46_0": [
+"global.monstergold[3]"
+],
+"obj_battlecontroller_slash_Step_0_gml_69_0": [
+"global.monstergold[3]"
+],
 "obj_ch5_DW22_slash_Step_0_gml_972_0": [
 "team_name"
+],
+"obj_ch5_LW07_thrashfit_menu_slash_Create_0_gml_209_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(1)",
+"scr_get_input_name(3)"
+],
+"obj_ch5_LW07_thrashfit_menu_slash_Create_0_gml_213_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(1)",
+"scr_get_input_name(3)"
 ],
 "obj_chapter_continue_Create_0_gml_keyless_0": [
 "next_chapter"
@@ -3620,20 +5623,39 @@
 "obj_checker_animtest_slash_Step_0_gml_48_0": [
 "name"
 ],
+"obj_checkers_enemy_slash_Step_0_gml_489_0": [
+"scr_get_input_name(6)"
+],
+"obj_checkers_enemy_slash_Step_0_gml_82_0": [
+"crown"
+],
+"obj_cutscene_maker_slash_Draw_0_gml_60_0": [
+"i",
+"j"
+],
 "obj_darkcontroller_slash_Draw_0_gml_47_0": [
 "moneyamt"
 ],
-"obj_date_ui_slash_Draw_0_gml_38_0_keyless_0": [
-"c_white",
-"c_white",
-"c_white",
-"c_white"
+"obj_darkcontroller_slash_Draw_0_gml_69_0": [
+"global.flag[1411]"
 ],
-"obj_date_ui_slash_Draw_0_gml_38_0_keyless_1": [
-"c_white",
-"c_white",
-"c_white",
-"c_white"
+"obj_darkcontroller_slash_Draw_0_gml_70_0": [
+"global.flag[1312]"
+],
+"obj_darkcontroller_slash_Draw_0_gml_956_0": [
+"global.itemname[global.submenucoord[2]]"
+],
+"obj_dojo_spareenemy_slash_Step_0_gml_44_0": [
+"beardcount"
+],
+"obj_dummyenemy_slash_Step_0_gml_399_0": [
+"scr_get_input_name(4)"
+],
+"obj_dummyenemy_slash_Step_0_gml_405_0": [
+"scr_get_input_name(4)"
+],
+"obj_dummyenemy_slash_Step_0_gml_406_0": [
+"scr_get_input_name(4)"
 ],
 "obj_dw_castle_church_climb_slash_Other_15_gml_41_0": [
 "timestring"
@@ -3641,45 +5663,139 @@
 "obj_dw_castle_church_entrance_slash_Other_15_gml_390_0": [
 "word"
 ],
+"obj_dw_cliff_cutdown_tutorial_slash_Create_0_gml_56_0": [
+"scr_get_input_name(6)"
+],
 "obj_dw_cliff_netskieclimb_behind_slash_Step_0_gml_34_0": [
 "itemname"
 ],
 "obj_dw_fcastle_cafe_slash_Draw_0_gml_251_0": [
 "cost"
 ],
+"obj_dw_fcastle_cafe_slash_Draw_0_gml_99_0": [
+"global.flag[1411]"
+],
+"obj_dw_fcastle_cafe_slash_Step_2_gml_88_0": [
+"friendsgained[i]"
+],
+"obj_dw_fcastle_cafe_slash_Step_2_gml_89_0": [
+"friendsgained[i]"
+],
+"obj_dw_fcastle_cafe_slash_Step_2_gml_95_0": [
+"friendslost[i]"
+],
+"obj_dw_fcastle_cafe_slash_Step_2_gml_96_0": [
+"friendslost[i]"
+],
+"obj_dw_fcastle_foxhunt_slash_Step_0_gml_166_0": [
+"obj_dw_fcastle_foxhunt.foxes_counted"
+],
+"obj_dw_fcastle_pinkroom_slash_Other_17_gml_215_0": [
+"4 - gardencount"
+],
+"obj_dw_fcastle_pinkroom_slash_Other_17_gml_216_0": [
+"4 - cliffscount"
+],
+"obj_dw_fcastle_pinkroom_slash_Other_17_gml_217_0": [
+"7 - fcastlercount"
+],
+"obj_dw_fcastle_pinkroom_slash_Other_17_gml_218_0": [
+"2 - fcastlelcount"
+],
+"obj_dw_fcastle_pinkroom_slash_Other_17_gml_219_0": [
+"2 - fcastletcount"
+],
 "obj_dw_fcastle_pinkshop_slash_Step_0_gml_61_0": [
 "flowercost",
 "pinkcost"
 ],
+"obj_dw_fcastle_right_puzzle_slash_Create_0_gml_144_0": [
+"scr_get_input_name(4)"
+],
 "obj_dw_fcastle_sandtrap_slash_Other_11_gml_55_0": [
 "terminator"
+],
+"obj_dw_garden_aquaplatforming_slash_Create_0_gml_111_0": [
+"scr_get_input_name(5)"
+],
+"obj_dw_garden_aquaplatforming_slash_Create_0_gml_55_0": [
+"scr_get_input_name(5)"
+],
+"obj_dw_garden_aquaplatforming_slash_Create_0_gml_60_0": [
+"scr_get_input_name(5)"
+],
+"obj_dw_garden_aquaplatforming_slash_Create_0_gml_79_0": [
+"scr_get_input_name(6)"
+],
+"obj_dw_garden_aquaplatforming_slash_Step_0_gml_510_0": [
+"scr_get_input_name(4)"
+],
+"obj_dw_garden_finalplatforming_slash_Step_0_gml_446_0": [
+"scr_get_input_name(6)"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_106_0": [
+"face[hatState]"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_180_0": [
+"face[hatState]"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_211_0": [
+"face[hatState]"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_223_0": [
+"face[hatState]"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_232_0": [
+"face[hatState]"
 ],
 "obj_dw_garden_ribbonchest_slash_Step_0_gml_25_0": [
 "itemname"
 ],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_59_0": [
+"face[hatState]"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_62_0": [
+"face[hatState]"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_68_0": [
+"face[hatState]"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_73_0": [
+"face[hatState]"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_78_0": [
+"face[hatState]"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_88_0": [
+"face[hatState]"
+],
+"obj_dw_garden_ribbonchest_slash_Step_0_gml_97_0": [
+"face[hatState]"
+],
+"obj_dw_garden_shearyguide_slash_Step_0_gml_339_0": [
+"scr_get_input_name(4)"
+],
+"obj_dw_garden_susiechase_slash_Step_0_gml_1202_0_keyless_0": [
+"faceArray[failface]"
+],
 "obj_dw_garden_susiechase_slash_Step_0_gml_2246_0": [
 "bonus"
 ],
-"obj_dw_ralsei_castle_basketball_Create_0_gml_keyless_0": [
-"ang"
+"obj_dw_garden_susiechase_slash_Step_0_gml_2254_0": [
+"face[hat]"
 ],
-"obj_dw_ralsei_castle_basketball_Create_0_gml_keyless_1": [
-"ang"
-],
-"obj_enemy_example_Step_0_gml_keyless_0": [
-"x",
-"y"
-],
-"obj_enemy_example_Step_0_gml_keyless_1": [
-"x",
-"y"
-],
-"obj_enemy_example_Step_0_gml_keyless_2": [
-"x",
-"y"
+"obj_dw_garden_susiechase_slash_Step_0_gml_2260_0": [
+"face[hat]"
 ],
 "obj_floradinn_enemy_slash_Step_0_gml_443_0": [
 "_txt"
+],
+"obj_flowery_enemy_slash_Step_0_gml_1028_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(6)"
+],
+"obj_flowery_enemy_slash_Step_0_gml_763_0": [
+"scr_get_input_name(4)"
 ],
 "obj_flowery_enemy_slash_Step_0_gml_903_0": [
 "_str"
@@ -3687,12 +5803,47 @@
 "obj_flowery_enemy_slash_Step_0_gml_913_0": [
 "_str"
 ],
+"obj_fusionmenu_slash_Draw_0_gml_125_0": [
+"scr_get_input_name(4)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_132_0": [
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_136_0": [
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_50_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Draw_0_gml_51_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_fusionmenu_slash_Step_0_gml_434_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"obj_fusuma_door_slash_Other_10_gml_9_0": [
+"obj_dw_fcastle_foxhunt.foxes_counted"
+],
+"obj_healwriter_slash_Draw_0_gml_4_0": [
+"healamt"
+],
+"obj_kawkaw_enemy_slash_Step_0_gml_211_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(6)"
+],
 "obj_kawkaw_enemy_slash_Step_0_gml_531_0": [
 "str1",
 "str2"
 ],
+"obj_leafling_enemy_slash_Step_0_gml_372_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(6)"
+],
 "obj_minigame_quit_ui_slash_Draw_0_gml_18_0": [
-"_space"
+"scr_get_input_name(6)"
 ],
 "obj_multiboss_enemy1_Step_0_gml_keyless_0": [
 "substring"
@@ -3709,6 +5860,9 @@
 "obj_npc_hammerguy_slash_Step_0_gml_251_0": [
 "fusionResultName"
 ],
+"obj_npc_room_slash_Other_10_gml_100_0": [
+"global.truename"
+],
 "obj_npc_room_slash_Other_10_gml_373_0_b": [
 "sentence_end"
 ],
@@ -3721,11 +5875,93 @@
 "obj_nubert_enemy_slash_Step_0_gml_437_0": [
 "_txt"
 ],
+"obj_overworldc_slash_Draw_0_gml_113_0": [
+"nextlevel"
+],
+"obj_overworldc_slash_Draw_0_gml_37_0": [
+"global.lhp",
+"global.lmaxhp"
+],
+"obj_overworldc_slash_Draw_0_gml_38_0": [
+"global.llv"
+],
+"obj_overworldc_slash_Draw_0_gml_40_0": [
+"global.lgold"
+],
+"obj_overworldc_slash_Draw_0_gml_66_0": [
+"global.lcharname"
+],
+"obj_overworldc_slash_Draw_0_gml_68_0": [
+"global.llv"
+],
+"obj_overworldc_slash_Draw_0_gml_69_0": [
+"global.lhp",
+"global.lmaxhp"
+],
+"obj_overworldc_slash_Draw_0_gml_71_0": [
+"global.lat",
+"global.lwstrength"
+],
+"obj_overworldc_slash_Draw_0_gml_72_0": [
+"global.ldf",
+"global.ladef"
+],
 "obj_overworldc_slash_Draw_0_gml_81_0": [
 "weaponname"
 ],
 "obj_overworldc_slash_Draw_0_gml_82_0": [
 "armorname"
+],
+"obj_overworldc_slash_Draw_0_gml_83_0": [
+"global.lgold"
+],
+"obj_overworldc_slash_Draw_0_gml_92_0": [
+"global.lxp"
+],
+"obj_overworldc_slash_Draw_0_gml_95_0": [
+"global.flag[914]"
+],
+"obj_overworldc_slash_Step_0_gml_34_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_34_0_b": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_36_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_38_0": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_overworldc_slash_Step_0_gml_38_0_b": [
+"global.litemname[global.menucoord[1]]"
+],
+"obj_pink_enemy_slash_Step_0_gml_821_0": [
+"scr_item_to_dokitext(sharefood_item_number)"
+],
+"obj_pink_enemy_slash_Step_0_gml_824_0": [
+"scr_item_to_dokitext(sharefood_item_number)"
+],
+"obj_pink_enemy_slash_Step_0_gml_827_0": [
+"scr_item_to_dokitext(sharefood_item_number)"
+],
+"obj_pink_enemy_slash_Step_0_gml_830_0": [
+"scr_item_to_dokitext(sharefood_item_number)"
+],
+"obj_pink_enemy_slash_Step_0_gml_833_0": [
+"scr_item_to_dokitext(sharefood_item_number)"
+],
+"obj_pink_enemy_slash_Step_0_gml_836_0": [
+"scr_item_to_dokitext(sharefood_item_number)"
+],
+"obj_plat_bread_manager_slash_Create_0_gml_78_1": [
+"scr_get_input_name(4)"
+],
+"obj_plat_enm_sethglasses_miniboss_slash_Other_20_gml_31_0": [
+"scr_get_input_name(6)"
+],
+"obj_plat_foreground_writer_slash_Draw_0_gml_87_0": [
+"obj_plat_player.hlit_desc"
 ],
 "obj_purple_enemy_slash_Step_0_gml_556_0": [
 "substring"
@@ -3757,26 +5993,89 @@
 "obj_purple_enemy_slash_Step_0_gml_597_0": [
 "substring"
 ],
+"obj_rhythmgame_editor_Step_0_gml_keyless_0": [
+"_cleanup"
+],
 "obj_room_castle_susie_slash_Step_0_gml_14_0": [
 "sentence_end"
 ],
 "obj_room_town_mid_diner_slash_Step_0_gml_97_0": [
 "sentence_end"
 ],
+"obj_savemenu_slash_Draw_0_gml_215_0": [
+"mpos + 1"
+],
+"obj_savemenu_slash_Draw_0_gml_34_0": [
+"global.chapter"
+],
+"obj_shop1_slash_Draw_0_gml_143_0": [
+"buyvalue[i]"
+],
+"obj_shop1_slash_Draw_0_gml_177_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop1_slash_Draw_0_gml_407_0": [
+"sellvalue"
+],
+"obj_shop2_slash_Draw_0_gml_113_0": [
+"buyvalue[i]"
+],
+"obj_shop2_slash_Draw_0_gml_147_0_b": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop2_slash_Draw_0_gml_328_0": [
+"sellvalue"
+],
 "obj_shop2_slash_Draw_0_gml_482_0": [
 "roomstring"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_250_0": [
+"buyvalue[i]"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_291_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop_ch2_music_slash_Draw_0_gml_508_0": [
+"sellvalue"
 ],
 "obj_shop_ch2_music_slash_Draw_0_gml_677_0": [
 "roomstring"
 ],
+"obj_shop_ch5_slash_Draw_0_gml_105_0": [
+"buyvalue[i]"
+],
+"obj_shop_ch5_slash_Draw_0_gml_168_0": [
+"buyvalue[menuc[1]]"
+],
 "obj_shop_vending_slash_Create_0_gml_38_0": [
 "value_label"
 ],
-"obj_snd_maker_Draw_0_gml_keyless_2": [
-"c_yellow",
-"c_yellow",
-"c_white",
-"c_white"
+"obj_shop_vending_slash_Draw_0_gml_141_0": [
+"buyvalue[i]"
+],
+"obj_shop_vending_slash_Draw_0_gml_177_0": [
+"buyvalue[i]"
+],
+"obj_shop_vending_slash_Draw_0_gml_200_0": [
+"buyvalue[i]"
+],
+"obj_shop_vending_slash_Draw_0_gml_203_0": [
+"buyvalue[i]"
+],
+"obj_shop_vending_slash_Draw_0_gml_211_0": [
+"buyvalue[i]"
+],
+"obj_shop_vending_slash_Draw_0_gml_214_0": [
+"buyvalue[i]"
+],
+"obj_shop_vending_slash_Draw_0_gml_276_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop_vending_slash_Draw_0_gml_279_0": [
+"buyvalue[menuc[1]]"
+],
+"obj_shop_vending_slash_Draw_0_gml_657_0": [
+"sellvalue"
 ],
 "obj_tasque_manager_enemy_slash_Step_0_gml_269_0": [
 "sentenceEnd"
@@ -3786,6 +6085,9 @@
 ],
 "obj_tasque_manager_enemy_slash_Step_0_gml_39_0": [
 "randomText"
+],
+"obj_throwralsei_slash_Step_0_gml_26_0": [
+"scr_get_input_name(6)"
 ],
 "obj_town_mid_conbini_slash_Step_0_gml_15_0": [
 "sentence_end"
@@ -3804,12 +6106,6 @@
 ],
 "obj_town_north_catty_house_slash_Step_0_gml_301_0": [
 "voted_name"
-],
-"obj_treasure_room_altsolid_Draw_0_gml_keyless_0": [
-"undefined"
-],
-"obj_treasure_room_altsolid_Draw_0_gml_keyless_1": [
-"undefined"
 ],
 "obj_treasure_room_slash_Other_10_gml_31_0_b": [
 "coinquantity"
@@ -3858,14 +6154,366 @@
 "obj_yellow_enemy_slash_Step_0_gml_183_0": [
 "substring"
 ],
+"obj_yellow_trial_manager_slash_Draw_0_gml_107_0": [
+"scr_get_input_name(4)"
+],
+"obj_yellow_trial_manager_slash_Draw_0_gml_108_0": [
+"scr_get_input_name(5)"
+],
 "scr_anyface_gml_keyless_0": [
 "_speaker"
 ],
+"scr_anyface_slash_scr_anyface_gml_23_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_24_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_27_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_28_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_28_0_b": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_29_0_keyless_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_0": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_1": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_2": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_3": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_4": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_5": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_6": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_7": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_8": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_30_0_keyless_9": [
+"_emotion"
+],
+"scr_anyface_slash_scr_anyface_gml_60_0": [
+"_emotion"
+],
+"scr_asgface_slash_scr_asgface_gml_1_0": [
+"arg1"
+],
 "scr_get_completed_file_name_slash_scr_get_completed_file_name_gml_18_0": [
-"_file_name"
+"_file_name",
+"arg0"
+],
+"scr_itemdesc_single_slash_scr_itemdesc_single_gml_27_0": [
+"healamount"
+],
+"scr_iteminfo_slash_scr_iteminfo_gml_59_0": [
+"healamount"
+],
+"scr_keyiteminfo_slash_scr_keyiteminfo_gml_189_0": [
+"global.flag[1099]"
 ],
 "scr_keyiteminfo_slash_scr_keyiteminfo_gml_70_0": [
 "crystal_amount"
+],
+"scr_kingface_slash_scr_kingface_gml_3_0": [
+"arg1"
+],
+"scr_kingface_slash_scr_kingface_gml_7_0": [
+"arg1"
+],
+"scr_lanface_slash_scr_lanface_gml_1_0": [
+"arg1"
+],
+"scr_lrecoitem_slash_scr_lrecoitem_gml_14_0": [
+"global.item[8]"
+],
+"scr_noeface_slash_scr_noeface_gml_1_0": [
+"arg1"
+],
+"scr_ralface_slash_scr_ralface_gml_1_0": [
+"arg1"
+],
+"scr_rhythmgame_tools_gml_keyless_0": [
+"clip_size",
+"round(arg0 / (meter / 4))"
+],
+"scr_rhythmgame_tools_gml_keyless_1": [
+"_deletecount"
+],
+"scr_rhythmgame_tools_gml_keyless_2": [
+"clip_size"
+],
+"scr_rudface_slash_scr_rudface_gml_1_0": [
+"arg1"
+],
+"scr_rurusface_slash_scr_rurusface_gml_1_0": [
+"arg1"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_158_0": [
+"ceil(itemsellvalue[i] / 2)"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_270_0": [
+"ceil(weaponvalue[i] / 2)"
+],
+"scr_shopmenu_slash_scr_shopmenu_gml_389_0": [
+"ceil(armorvalue[i] / 2)"
+],
+"scr_spelltext_slash_scr_spelltext_gml_100_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_104_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_109_0_b": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_119_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_122_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_14_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_179_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_183_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_187_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_18_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_191_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_194_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_197_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_200_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_203_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_206_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_209_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_230_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_233_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_236_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_23_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_252_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_255_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_258_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_261_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_264_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_267_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_270_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_273_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_276_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_279_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_282_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_298_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_303_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_306_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_309_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_312_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_315_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_318_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_329_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_330_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_332_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_333_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_335_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_336_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_338_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_339_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_33_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_354_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_357_0_b": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_360_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_363_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_366_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_369_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_36_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_372_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_43_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_47_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_51_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_55_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_58_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_59_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_62_0": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_63_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_73_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_73_0_b": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_76_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_77_0_b": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_86_0": [
+"global.charname[global.char[caster]]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_94_0_b": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_spelltext_slash_scr_spelltext_gml_99_0_b": [
+"global.charname[global.char[caster]]",
+"global.monstername[star]"
+],
+"scr_susface_slash_scr_susface_gml_1_0": [
+"arg1"
+],
+"scr_text_slash_scr_text_gml_11099_0": [
+"scr_get_input_name(4)",
+"scr_get_input_name(5)"
+],
+"scr_text_slash_scr_text_gml_11100_0": [
+"scr_get_input_name(3)",
+"scr_get_input_name(1)"
+],
+"scr_text_slash_scr_text_gml_11101_0": [
+"scr_get_input_name(6)"
 ],
 "scr_text_slash_scr_text_gml_11127_0": [
 "song_name"
@@ -3878,6 +6526,12 @@
 ],
 "scr_text_slash_scr_text_gml_250_0": [
 "input_name"
+],
+"scr_text_slash_scr_text_gml_265_0": [
+"scr_get_input_name(5)"
+],
+"scr_text_slash_scr_text_gml_314_0_b": [
+"scr_get_input_name(6)"
 ],
 "scr_text_slash_scr_text_gml_3627_0": [
 "myname"
@@ -3900,8 +6554,26 @@
 "scr_text_slash_scr_text_gml_6792_0": [
 "lightner_name"
 ],
+"scr_text_slash_scr_text_gml_7180_0": [
+"ringprice"
+],
+"scr_text_slash_scr_text_gml_7528_0": [
+"scr_get_input_name(4)"
+],
+"scr_text_slash_scr_text_gml_7529_0": [
+"scr_get_input_name(5)"
+],
+"scr_text_slash_scr_text_gml_7530_0": [
+"scr_get_input_name(6)"
+],
+"scr_text_slash_scr_text_gml_7918_0": [
+"global.charname[global.char[caster]]"
+],
 "scr_text_slash_scr_text_gml_831_0": [
 "nn"
+],
+"scr_torface_slash_scr_torface_gml_1_0": [
+"arg1"
 ]
 }
 }
